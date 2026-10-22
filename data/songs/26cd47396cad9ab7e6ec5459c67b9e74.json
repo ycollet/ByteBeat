@@ -1,0 +1,29 @@
+{
+  "file": "songs/26cd47396cad9ab7e6ec5459c67b9e74.js",
+  "title": "I Wanna Byte You",
+  "author": "kleeder",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/26cd47396cad9ab7e6ec5459c67b9e74.js",
+  "sha256": "6bf13241814da3157a2d10530786d3e65631e9757a59441856dd5bc1217a15c9",
+  "upstream": {
+    "hash": "26cd47396cad9ab7e6ec5459c67b9e74",
+    "codeLen": 48278,
+    "codeFormLen": 50728,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 11025,\n\nBPM = 150,\n\nbeat = BPM * (t / SAMP_RATE) / 60,\n\ntick = floor(beat * 48) % 6144,\n",
+    "isTruncated": 1,
+    "author": "kleeder",
+    "name": "I Wanna Byte You",
+    "url": "https://battleofthebits.com/arena/Entry/I+Wanna+Byte+You+_1/54543/",
+    "date": "2022-07-23",
+    "sampleRate": 11025,
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

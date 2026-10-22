@@ -1,0 +1,27 @@
+{
+  "file": "songs/7d896b657f28bdb03f609aaffc74e420.js",
+  "title": "Crazy Groovy Beats",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6679e65c35d7890b53e7eeb208064d6b6461719fa54ffb85c23f8498a22c5f0b",
+  "upstream": {
+    "hash": "7d896b657f28bdb03f609aaffc74e420",
+    "codeMinLen": 88,
+    "codeMin": "a=t-2048,(t&t>>6&t*(t>>((t&65535)>>12)))+(3*t/4&t>>12&127)+(t*(a>>7&a>>8&a>>9&16)>>t/64)",
+    "codeLen": 94,
+    "code": "a=t-2048,((t&t>>6)&(t*(t>>((t&65535)>>12))))+((t*3/4&t>>12)&127)+(t*(a>>7&a>>8&a>>9&16)>>t/64)",
+    "author": "Gabriel Miceli",
+    "name": "Crazy Groovy Beats",
+    "url": [
+      "https://www.youtube.com/watch?v=V4GfkFbDojc",
+      "https://youtu.be/V4GfkFbDojc?t=13"
+    ],
+    "date": "2016-07-09",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

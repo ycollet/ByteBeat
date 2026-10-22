@@ -1,0 +1,29 @@
+{
+  "file": "songs/e6e575e4ac6b8aa4c60eca8389512422.js",
+  "title": "Bit-Shift Melodies",
+  "author": "Savestate",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e6e575e4ac6b8aa4c60eca8389512422.js",
+  "sha256": "b876dbf231d94924459f5eb326202bf8ef5cdd8cb3198edba55f5754a8b8a937",
+  "upstream": {
+    "hash": "e6e575e4ac6b8aa4c60eca8389512422",
+    "codeMinLen": 1196,
+    "codeLen": 9797,
+    "codeFormLen": 6109,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "b=t/4096%(a=128),X=2**31>>>(i=int)(b),i((w=((h=t/2048%(d=256))<64)*(A=t*1.33)+(h>=64&&h<96)*(B=t*1.8)+(h>=96&&h<a)*t*2+(h>=a&&h<192)*A+(h>=192&&h<224)*B/2+(h>=224&&h<240)*t)*(c=(t/64%d>=a)+1)/4%d/32)*6+i(w*c/2%d/32)*6+((((z=f=>f!==0)(X&234881027)*(e=b<32)+z(X&851712)*(f=b>=32&&b<64)+z(X&983040)*(g=b>=64&&b<96))/2)*i((A*1.26+(s=sin(t/900)*32))%d/a)*a+((z(X&16777228)*e+z(X&196608)*f)/2)*i((A*1.335+s)%d/a)*a+((z(X&12582960)*e+z(X&217055232)*f+z(X&16777216)*g+z(X&147587120)*(j=b>=96))/2)*i((A*1.498+s)%d/a)*a+((",
+    "isTruncated": 1,
+    "author": "Savestate",
+    "name": "Bit-Shift Melodies",
+    "url": "https://battleofthebits.com/arena/Entry/Bit-Shift+Melodies/17525/",
+    "date": "2015-04-15",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-05-06"
+  }
+}

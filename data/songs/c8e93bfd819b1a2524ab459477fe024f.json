@@ -1,0 +1,32 @@
+{
+  "file": "songs/c8e93bfd819b1a2524ab459477fe024f.js",
+  "title": "how to do echo without using array(number).fill(0)",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b7c534ea55a8057b8910ed2b05553e6c7de5fe5693039c9fa2181ce9e0320647",
+  "upstream": {
+    "hash": "c8e93bfd819b1a2524ab459477fe024f",
+    "codeMinLen": 169,
+    "codeMin": "x=q=>(m=234&q>>10,z=q*m%256/4),x(t)+x(t-2048)/2*(8192<t)+x(t-3072)/4*(16384<t)+x(t-4096)/8*(32768<t)+x(t-6144)/16*(32768<t)+x(t-8192)/32*(32768<t)+x(t-12288)/64*(4096<t)",
+    "codeLen": 171,
+    "code": "x=q=>(m=(234&q>>10),z=q*m%256/4),x(t)+x(t-2048)/2*(8192<t)+x(t-3072)/4*(16384<t)+x(t-4096)/8*(32768<t)+x(t-6144)/16*(32768<t)+x(t-8192)/32*(32768<t)+x(t-12288)/64*(4096<t)",
+    "author": "BaenHoHoHo",
+    "name": "how to do echo without using array(number).fill(0)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14dhu1n/how_to_do_echo_without_using_arraynumberfill0/",
+    "date": "2022-06-19",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/9272cd562873e39765be492e696fa8a0.js",
+  "title": "The final notes",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ddf124c35cd8527d31df3687fba53217a9c646a90efc27630869b4bb94cf64d9",
+  "upstream": {
+    "hash": "9272cd562873e39765be492e696fa8a0",
+    "codeMinLen": 260,
+    "codeMin": "A=(t?0:re=Array(n=7200).fill(0),mel=(T=t*1.2,t?0:l=0,a=t*7.04/3*2**([0,,0,1,3,,0,,1,,1,3,-2,,-6,,0,,0,1,3,,8,,7,,5,,3,,-2,,0,,0,1,3,,0,,1,,1,3,-2,,-6,,0,,0,1,3,,8,,7,,10,,8][T>>13&63]/12),m=(a%256/3&64)*(~T>>5&255)/255,l=m*.1+l*.9)+re[t%n],re[t%n]=mel/2,mel),A",
+    "codeLen": 280,
+    "code": "A=(t?0:re=Array(n=6000*1.2).fill(0),\r\nmel=(T=t*1.2,\r\nt?0:l=0,\r\na=t*7.04/3*2**([0,,0,1,3,,0,,1,,1,3,-2,,-6,,0,,0,1,3,,8,,7,,5,,3,,-2,,0,,0,1,3,,0,,1,,1,3,-2,,-6,,0,,0,1,3,,8,,7,,10,,8,][T>>13&63]/12),\r\nm=(a%256/3&64)*(~T>>5&255)/255,\r\nl=m*0.1+l*0.9)+re[t%n], re[t%n]=mel/2,mel),\r\nA",
+    "author": "hrllobrothers4",
+    "name": "The final notes",
+    "url": "https://www.reddit.com/r/bytebeat/comments/17red3w/the_final_notes_cover_of_undertalefinale/",
+    "date": "2023-11-09",
+    "sampleRate": 48000,
+    "coverName": "Undertale OST: 080 - Finale",
+    "coverUrl": "https://youtu.be/yWjavxcGfqM",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/51981cd5c0b9c0391baa8983b413ea5e.js",
+  "title": "polydimension",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/51981cd5c0b9c0391baa8983b413ea5e.js",
+  "sha256": "8c4ccdfd4661549252ccaf47b024ed6753d4bced9fe5941eb7a5e75d06caec17",
+  "upstream": {
+    "hash": "51981cd5c0b9c0391baa8983b413ea5e",
+    "codeLen": 664,
+    "fileOrig": 1,
+    "codeText": "w=x=>(x%=256)>128?512-2*x:x,c=t/12E3%256,f=c>>6,b=c%4,a=[4/3,8/7][y=f&1],z=c%a,l=c%1,g=c>64,h=random(),r=(a,m,s)=>{for(e=i=0;i<a.length;m*b<a[i++]||e++);return s-b+a[--e]/m},q=t*'8897'[c>>2&3]/3.5,j=c%32>a,max(0,min(255,(c<32||min(1,max(0,3*z-.2))*j)/5*((w(q)+w(1.2*q)-w(1.6*q)-w(1.8*q))*r([0,2,4,6,10,11+f,18,22],3+f,.8)-l*l*w('2484'[32*c&3]*q+w(4*q))*y-(w(t)-w(t/2+l*w(t*(c>>2&15))+w(2*t*(1+(c>>5&3)))))*r([0,3,6,8,12,14],4,1)*g-5/4*w(q/4+w((7-l*(2+(c>>2&3)+(c>>3&1))%1)**5*3)/2)*(c%64>48)-w(r([-4,2,6,9,12,16,",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "polydimension",
+    "description": "A \"NΞW DIMΞNSION\" with some arguably weird rhythm.",
+    "url": "https://dollchan.net/btb/res/44.html#203",
+    "date": "2022-08-06",
+    "sampleRate": 22050,
+    "remix": [
+      {
+        "hash": "7aa7d7fe84806523417f3ef02f319fb0",
+        "author": "burlynn n01se",
+        "name": "A NΞW DIMΞNSION",
+        "url": "https://battleofthebits.com/arena/Entry/A+N%CE%9EW+DIM%CE%9ENSION/42606/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "file": "songs/dc0b59e88dcf3d16115cc91515572533.js",
+  "title": "198",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dc0b59e88dcf3d16115cc91515572533.js",
+  "sha256": "e46dd0dc5ba07d038f8fe3d9ecd48c9bf223f7cf49a9123d327f4a10998b08ae",
+  "upstream": {
+    "hash": "dc0b59e88dcf3d16115cc91515572533",
+    "codeLen": 3756,
+    "fileOrig": 1,
+    "codeText": "t2=t, // Needed so the other \"t\" doesn't default to the melody\n\nBPM=184,\nsR=sampleRate=48e3,\nsPB=samplesPerBeat=32768,\nu=t*abs(BPM/((120*sR)/sPB)),\n\nts=u,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "198",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1nudbc3/198/",
+    "date": "2025-09-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      },
+      {
+        "hash": "b329d7ff8e640d25ee936e66f0892227",
+        "author": "eSlashMachine",
+        "name": "Tangentstep",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1k4mwzr/comment/moxb1dt/?context=3"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2025-11-03"
+  }
+}

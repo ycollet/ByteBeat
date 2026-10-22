@@ -1,0 +1,30 @@
+{
+  "file": "songs/955b85bfa151c2670295c72231baa543.js",
+  "title": "Dazenium, Remix of Quazar of Sanxion - Funky Stars",
+  "author": "MarioFan171",
+  "mode": "Signed Bytebeat",
+  "rate": 96000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/955b85bfa151c2670295c72231baa543.js",
+  "sha256": "e2acf600549a2abd0c062b7e91e59939396ba5178a937fdde542ae4242c18b7c",
+  "upstream": {
+    "hash": "955b85bfa151c2670295c72231baa543",
+    "codeLen": 1648,
+    "fileOrig": 1,
+    "codeText": "t*=1.5,\n\nt2=t,\n\nbt=beat=(len,spd)=>(t>>spd)%len,\ndec=(ramp,spd,sust)=>((ramp)-t%(8192/spd)/sust),\nr=repeat=(x,y)=>Array(x).fill(y).flat(9),\nm=mix=(x,vol=1,dist=0)=>((x*vol*(1+dist))%(256*vol))||0,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Dazenium, Remix of Quazar of Sanxion - Funky Stars",
+    "url": "https://dollchan.net/btb/res/2971.html#4129",
+    "date": "2024-08-09",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 96000,
+    "stereo": 1,
+    "coverName": "Quazar of Sanxion - Funky Stars",
+    "coverUrl": "https://youtu.be/8LiTxEUxSHU",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-12"
+  }
+}

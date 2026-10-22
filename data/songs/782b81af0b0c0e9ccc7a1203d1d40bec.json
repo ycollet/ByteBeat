@@ -1,0 +1,25 @@
+{
+  "file": "songs/782b81af0b0c0e9ccc7a1203d1d40bec.js",
+  "title": "yes.",
+  "author": "Cool_ObbyDeveloper",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b5afbb59a7d01f3fd968e6d1310cbb7ded62baeb55b8f14e510688ae87a27c7b",
+  "upstream": {
+    "hash": "782b81af0b0c0e9ccc7a1203d1d40bec",
+    "codeMinLen": 22,
+    "codeMin": "-(3*t&t>>13&t>>6)*t>>7",
+    "codeLen": 34,
+    "code": "(t%255&-t%1)-(3*t&t>>13&t>>6)*t>>7",
+    "author": "Cool_ObbyDeveloper",
+    "name": "yes.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11i9nk7/yes/",
+    "date": "2023-03-04",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/986995db0ed31e4911fb21e5ef2ac3e9.js",
+  "title": "Unfinished Cocktail Hour",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 64000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/986995db0ed31e4911fb21e5ef2ac3e9.js",
+  "sha256": "2789c10e5b9642801e907cde37de11d3c5ec19527e6911460d9f4a0b45f687c0",
+  "upstream": {
+    "hash": "986995db0ed31e4911fb21e5ef2ac3e9",
+    "codeLen": 7593,
+    "fileOrig": 1,
+    "codeText": "t/=2, //SPEED\n\n\n\n\n\n// NOTE\nc=1.047,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Unfinished Cocktail Hour",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11x28i5/heres_an_unfinished_cocktail_hour_that_i_havent/",
+    "date": "2023-03-21",
+    "sampleRate": 64000,
+    "coverName": "FΛDE - Cocktail Hour",
+    "coverUrl": "https://youtu.be/ucL0NTdKdb4",
+    "tags": [
+      "big"
+    ]
+  }
+}

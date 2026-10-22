@@ -1,0 +1,29 @@
+{
+  "file": "songs/dfdbf7a8e7bee13f7143f12c647d631f.js",
+  "title": "Basic polyrhythm machine",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dfdbf7a8e7bee13f7143f12c647d631f.js",
+  "sha256": "e24c0c502151627d1dcb0fa1eebc2964963c5862f090d2adb4c7bd112b26890b",
+  "upstream": {
+    "hash": "dfdbf7a8e7bee13f7143f12c647d631f",
+    "codeMinLen": 221,
+    "codeMin": "return(T,S)=>{o=0;t=T*4096;I=T/2;J=max(I,T);for(i=1;i<min(16,I)+1;i++){o+=t/i%1*(1-J*i*8%1)*'10001011'[J*i*8&7]/i}PR=o/E%1;D=1E3/(1+T*(((T*2&3)<=(T/2&3))?4:2)%1)**64%1;B=(t/24&1)*(T*4&1&&T*4%1);return(PR+(T>16&&(D+B)))-1}",
+    "codeLen": 333,
+    "fileOrig": 1,
+    "codeText": "return(T,S)=>{o=0;t=T*4096;I=T/2;J=max(I,T);for(i=1;i<min(16,I)+1;i++){o+=t/i%1*(1-J*i*8%1)*'10001011'[J*i*8&7]/i}PR=o/E%1;D=1E3/(1+T*(((T*2&3)<=(T/2&3))?4:2)%1)**64%1;B=(t/24&1)*(T*4&1&&T*4%1);return(PR+(T>16&&(D+B)))-1}",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Basic polyrhythm machine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cgc8nj/basic_polyrhythm_machine/",
+    "date": "2024-04-30",
+    "mode": "Funcbeat",
+    "sampleRate": 32768,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-21"
+  }
+}

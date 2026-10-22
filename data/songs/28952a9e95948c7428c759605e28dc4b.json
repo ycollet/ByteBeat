@@ -1,0 +1,30 @@
+{
+  "file": "songs/28952a9e95948c7428c759605e28dc4b.js",
+  "title": "Drifting Time Misplaced 8 Bit Slowed",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 64000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/28952a9e95948c7428c759605e28dc4b.js",
+  "sha256": "7ae706eec415ef1a3f316f9fded670fdf676dc774fbb5f6fd33dd9579af80b45",
+  "upstream": {
+    "hash": "28952a9e95948c7428c759605e28dc4b",
+    "codeMinLen": 1513,
+    "codeLen": 1520,
+    "codeFormLen": 2224,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=2,v=-1E9,a=((.52*t*2**([0,0,0,0,v,v,v,v,v,v,v,v,2,2,2,2,3,3,3,3,v,v,v,v,v,v,v,v,5,5,5,5,6,6,6,6,v,v,v,v,v,v,v,v,7,7,7,7,15,15,15,15,v,v,v,v,v,v,v,v,14,14,14,14,12,12,12,12,v,v,v,v,v,v,v,v,14,14,14,14,12,12,12,12,v,v,v,v,v,v,v,v,7,7,7,7,10,10,10,10,v,v,v,v,v,v,v,v,8,8,8,8,3,3,3,3,v,v,v,v,v,v,v,v,5,5,5,6,7,7,v,v,7,7,v,v,7,7,v,6,7,7,7,7,v,v,v,v,v,v,v,v,v,v,v,v,5,5,v,6,7,7,v,v,7,7,v,v,7,7,v,6,7,7,7,7,7,7,v,v,5,5,5,5,3,3,3,3,v,v,v,v,0,0,v,v,0,0,v,v,v,v,v,v,3,3,3,3,7,7,v,v,7,7,v,v,v,v,v,v,12,12,12,12,15,15,v,v",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Drifting Time Misplaced 8 Bit Slowed",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1163kwi/something_that_kept_in_the_draft_for_2_months/",
+    "date": "2023-02-19",
+    "sampleRate": 64000,
+    "coverName": "The Caretaker - Drifting time misplaced (8-BIT)",
+    "coverUrl": "https://youtu.be/Y9-OrKWoK3U",
+    "tags": [
+      "big"
+    ]
+  }
+}

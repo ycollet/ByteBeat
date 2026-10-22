@@ -1,0 +1,35 @@
+{
+  "file": "songs/74a02e0e584abdacdd5bdc2ec958abfc.js",
+  "title": "Chasing Moonlight",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/74a02e0e584abdacdd5bdc2ec958abfc.js",
+  "sha256": "1b3e84aeabe167a07bfb0fa66de08fb3ef21e3beb0cfbf5197f45951744a6ad6",
+  "upstream": {
+    "hash": "74a02e0e584abdacdd5bdc2ec958abfc",
+    "codeMinLen": 4762,
+    "codeLen": 7232,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "let r,t,e,h,i,s,n,l=(r,t)=>r%t>=0?r%t:r%t+t,a=r=>sin(r*PI/128),o=(r,t)=>r*t%256/128-1+(r*t%256>192)-(r*t%256<64);class d{constructor(r){this.f=r,this.b=8}tick(r){return floor(this.f*r)!=floor(this.f*this.t??-1)?(this.t=r,this.b++):(this.t=r,!1)}}class c{constructor(r,t,e=0,h=0){this.arr=Array.from({length:round(47960/r)},random),this.w=t,this.d=h,this.t=0;for(let r=0;r<e;++r)for(let r=0;r<this.arr.length;++r)this.arr[r]=.2*this.arr[r]+.8*this.arr[l(r-1,this.arr.length)]}render(r=0){if(this.t<5e3*this.w-3500",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Chasing Moonlight",
+    "description": "Bytebattle Season 1 Competition - 2nd place. It's begging for a melody or something. ",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1g01th7/chasing_moonlight_bytebattle_season_1_entry/",
+      "https://bytebeat.oops.wtf/season1/entries.html",
+      "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+    ],
+    "date": "2024-10-09",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

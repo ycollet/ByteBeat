@@ -1,0 +1,29 @@
+{
+  "file": "songs/cff13df6690f5a9cfe563ef2583067cc.js",
+  "title": "clock and alarm",
+  "author": "bluethefox",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cff13df6690f5a9cfe563ef2583067cc.js",
+  "sha256": "4238bdc3fb68588897725790310b1bf84da0858f48da3198bf1d8a1e6888ea3c",
+  "upstream": {
+    "hash": "cff13df6690f5a9cfe563ef2583067cc",
+    "codeLen": 1759,
+    "fileOrig": 1,
+    "codeText": "(\n  t?0:(_T=Date.now(),_S=t),\n  rate = (t%1000==0 && t>0) ? Math.round((t-_S)/((Date.now()-_T)/1000)) : (window.sampleRate||8000),\n\n // WHERE YOU SET YOUR ALARM PREFERENCES\n  AH=9, AM=0, \n  //AH = AlarmHour\n  //AM = AlarmMinute",
+    "isTruncated": 1,
+    "author": "bluethefox",
+    "name": "clock and alarm",
+    "description": "A functional clock and alarm in the console.",
+    "url": "https://dollchan.net/btb/res/3.html#13241",
+    "date": "2026-03-10",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2026-10-18"
+  }
+}

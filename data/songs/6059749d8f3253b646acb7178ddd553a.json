@@ -1,0 +1,29 @@
+{
+  "file": "songs/6059749d8f3253b646acb7178ddd553a.js",
+  "title": "midi to bytebeat test 1",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 64000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6059749d8f3253b646acb7178ddd553a.js",
+  "sha256": "8aa0cde68d117d06847f2c9d3ff28f1b5ebc6758a3008d872aa886907c0b1eef",
+  "upstream": {
+    "hash": "6059749d8f3253b646acb7178ddd553a",
+    "codeLen": 7518,
+    "fileOrig": 1,
+    "codeText": "t/=16,h=(y,x,z)=>((a=t/503%503)<=x&&a>y)*sin(z*t/80)/((a-y)/512)/14400,h(0,118,143.7)+h(1,239,128.0)+h(3,361,120.8)+h(5,483,107.6)+h(7,605,191.8)+h(9,727,161.3)+h(11,849,181.0)+h(13,731,161.3)+h(15,133,143.7)+h(21,379,120.8)+h(23,1581,95.9)+h(25,1583,95.9)+h(27,505,107.6)+h(29,387,120.8)+h(31,269,128.0)+h(35,2673,90.5)+h(43,1601,95.9)+h(45,523,107.6)+h(47,405,120.8)+h(51,289,128.0)+h(54,412,120.8)+h(55,533,107.6)+h(59,177,143.7)+h(65,303,128.0)+h(67,425,120.8)+h(69,187,143.7)+h(71,669,191.8)+h(73,911,181.0)",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "midi to bytebeat test 1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11y6g16/midi_to_bytebeat_test_1/",
+    "date": "2023-03-22",
+    "mode": "Floatbeat",
+    "sampleRate": 64000,
+    "coverName": "Pokemon Blue/Red - Pallet Town",
+    "coverUrl": "https://youtu.be/cOWRNLaCMJg",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-10-17"
+  }
+}

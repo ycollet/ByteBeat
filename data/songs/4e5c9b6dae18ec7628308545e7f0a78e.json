@@ -1,0 +1,24 @@
+{
+  "file": "songs/4e5c9b6dae18ec7628308545e7f0a78e.js",
+  "title": "another cool loop i guess",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f0f77d7c65c9f8ee204a84f8f35e1f3e4376b0fbc181755ac25bd8494a4b8622",
+  "upstream": {
+    "hash": "4e5c9b6dae18ec7628308545e7f0a78e",
+    "codeMinLen": 200,
+    "codeMin": "a=t/[2,4,3,5,6,7,8,10][(t>>13)%8],2*a*(a&64?-1:1)+15*(3E3/(t&16383)&4)+(25*sin(t*[1.5,1.5,1.5,1.35,1.2,1.2,1,1][(t>>15)%8]/41)+25)+(t*[.5,.75,1,.8,1,1.2,.4,.6,.8,.3,.5,.6][(t>>10)%3+(t>>16)%4*3]/2&16)",
+    "codeLen": 219,
+    "code": "a=t/[2,4,3,5,6,7,8,10][(t>>13)%8],((a*2*(a&64?-1:1)))+15*(3E3/(t&16383)&4)+(25*sin((t*[1.5,1.5,1.5,1.35,1.2,1.2,1,1][(t>>15)%8])/41)+25)+(t*[0.5,0.75,1,0.8,1,1.2,0.4,0.6,0.8,0.3,0.5,0.6][((t>>10)%3)+((t>>16)%4)*3]/2&16)",
+    "author": "RealZynx92",
+    "name": "another cool loop i guess",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q5pbks/another_cool_loop_i_guess/",
+    "date": "2021-10-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

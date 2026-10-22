@@ -1,0 +1,29 @@
+{
+  "file": "songs/a132852e425489c6fa35cd2752daac88.js",
+  "title": "I'm going insane",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a132852e425489c6fa35cd2752daac88.js",
+  "sha256": "60591fb7d943f1b6404832f1a0acb516166b66b527f480e6199551c1b02ceef7",
+  "upstream": {
+    "hash": "a132852e425489c6fa35cd2752daac88",
+    "codeLen": 8394,
+    "fileOrig": 1,
+    "codeText": "let sampleRate=32000,TAU=Math.PI*2,mod=(n,m=1)=>(n%m+m)%m,mix=(a,b,x)=>a+x*(b-a),\n    cosPulse=x=>x>=0&&x<1?.5-.5*Math.cos(TAU*x):0;\n\nclass CombFilter{\n  constructor(maxLength,gain){\n    this.buffer=new Array(maxLength).fill(0);\n    this.maxLength=maxLength;\n    this.gain=gain;",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "I'm going insane",
+    "url": "https://dollchan.net/btb/res/3.html#5730",
+    "date": "2025-03-28",
+    "mode": "Funcbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-09"
+  }
+}

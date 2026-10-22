@@ -1,0 +1,29 @@
+{
+  "file": "songs/1545348e327beec62fd4b357f55817d6.js",
+  "title": "Floatbeat to bytebeat",
+  "author": "lehandsomeguy",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1545348e327beec62fd4b357f55817d6.js",
+  "sha256": "24a7f01534cf402a3d00e85ae4520913b782ac08d5798242b8dd251dd9fac517",
+  "upstream": {
+    "hash": "1545348e327beec62fd4b357f55817d6",
+    "codeMinLen": 145,
+    "codeMin": "t/=32E3,(x=>(max(min(x,e=.9999),-e)*128)+128)(((s=sin)((T=t+10)*s((p=pow)(T,(f=x=>((x%1)+1)%1)(t)+10)))*p(1-f(t*8),4)/4+s(p(1-f(t*2),10)*100))/3)",
+    "codeLen": 748,
+    "codeFormLen": 332,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t/=32E3,(x=>(max(min(x,e=.9999),-e)*128)+128)(((s=sin)((T=t+10)*s((p=pow)(T,(f=x=>((x%1)+1)%1)(t)+10)))*p(1-f(t*8),4)/4+s(p(1-f(t*2),10)*100))/3)",
+    "isTruncated": 1,
+    "author": "lehandsomeguy",
+    "name": "Floatbeat to bytebeat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/",
+    "date": "2016-03-03",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-30"
+  }
+}

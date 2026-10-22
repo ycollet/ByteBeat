@@ -1,0 +1,23 @@
+{
+  "file": "songs/ada2cf102f7fe2b9e16272a1abf8776b.js",
+  "title": "h",
+  "author": "rubi",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "44eae9d1afca06a44a612c9d4d08dac9b73adb86ff1cb3be9916e30d4abcbbc9",
+  "upstream": {
+    "hash": "ada2cf102f7fe2b9e16272a1abf8776b",
+    "codeLen": 44,
+    "code": "sin(t>>13&t/(t>>12&-t>>14&15)&63)*(t>>7&127)",
+    "author": "rubi",
+    "name": "h",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1092tgd/h/",
+    "date": "2022-01-11",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

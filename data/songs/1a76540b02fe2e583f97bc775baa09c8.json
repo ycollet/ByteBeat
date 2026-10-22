@@ -1,0 +1,41 @@
+{
+  "file": "songs/1a76540b02fe2e583f97bc775baa09c8.js",
+  "title": "Remix Of No. 4",
+  "author": "ciferidn",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1a76540b02fe2e583f97bc775baa09c8.js",
+  "sha256": "39bfdd1220e781e21d3d0a5f13f2138a56f7240819b088da9bfd4562ab1e1476",
+  "upstream": {
+    "hash": "1a76540b02fe2e583f97bc775baa09c8",
+    "codeMinLen": 205,
+    "codeMin": "s=sin(t>>5),h=1&t,t*=.18,b=2E5/(t&2**10/[1,,h,,s,,h,1,1,,s,,1,1,1,h,1,,h,,s,,h,,1,2,s,1,s,1,t&42,1.06*t&55][(t>>10)%32]-1),n=(m=t/2^(t&64?63:0),m>>=m,m/(1+(m>>7))&t/32|(t>>11)%8%3*t*t&15),[b%149^n,b%150^n]",
+    "codeLen": 228,
+    "fileOrig": 1,
+    "codeText": "s=sin(t>>5),h=1&t,t*=.18,b=2E5/(t&2**10/[1,,h,,s,,h,1,1,,s,,1,1,1,h,1,,h,,s,,h,,1,2,s,1,s,1,t&42,1.06*t&55][(t>>10)%32]-1),n=(m=t/2^(t&64?63:0),m>>=m,m/(1+(m>>7))&t/32|(t>>11)%8%3*t*t&15),[b%149^n,b%150^n]",
+    "isTruncated": 1,
+    "author": "ciferidn",
+    "name": "Remix Of No. 4",
+    "url": "https://www.reddit.com/r/bytebeat/comments/107sqh6/remix_of_no_4/",
+    "date": "2023-01-10",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "7c10407ec29a3d9ae5b4ef94c632a59d",
+        "author": "Greaserpirate",
+        "name": "Neurofunk, heavyAF breakbeat edition",
+        "url": "https://www.reddit.com/r/bytebeat/comments/zr9def/neurofunk_heavyaf_breakbeat_edition_stereo/"
+      },
+      {
+        "hash": "e041e48d4892b697c1071147e3bddf10",
+        "author": "yehar",
+        "name": "No 4",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401817"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

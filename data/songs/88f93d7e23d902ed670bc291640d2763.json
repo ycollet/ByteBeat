@@ -1,0 +1,39 @@
+{
+  "file": "songs/88f93d7e23d902ed670bc291640d2763.js",
+  "title": "jamming out to the throwback on karplus-strong's guitar",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a8c33e92146fc5a6477e271e14c1b295747c6c549077fb624f9595960824b47c",
+  "upstream": {
+    "hash": "88f93d7e23d902ed670bc291640d2763",
+    "codeLen": 458,
+    "code": "t||(X=0,ct=9e3,bn=440),t||(D=Array(DL=round(ct*1.5)).fill(0)),Y=0,LP=(A,C)=>(X=Y++,Z[X]??=0,Z[X]+=(A-Z[X])*C),t%ct==0?(bn/(n=2**([0,3,7,12,15,12,7,3,0,3,7,12,15,12,7,3,0,7,10,15,19,15,10,7,3,7,10,15,19,15,10,7,5,9,12,17,21,17,12,9,5,9,12,17,21,17,12,9,0,7,12,19,24,19,12,7,0,7,12,19,24,19,12,7][floor(t/ct)&63]/12)),A=Array(l=round(bn/n)).fill(0),Z=[]):X=(X=LP((random()-random())*(t%ct<bn/n),.2)+A[t%l],A[t%l]=LP(X,.6))*4,X=X+D[t%DL]/2,D[t%DL]=X,atan(X*3)/2",
+    "author": "eSlashMachine",
+    "name": "jamming out to the throwback on karplus-strong's guitar",
+    "description": "\"made my own implementation, but it's based on the parametric one in terms of sound. dead simple in practice.\" - eSlashMachine",
+    "url": "https://dollchan.net/btb/res/6946.html#10399",
+    "date": "2025-11-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "2d42e6bd9c646db56bf03e39a1278cf8",
+        "author": "May_I_Change_My_Name",
+        "name": "Parametric Guitar + Amp",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1f5bwuf/parametric_guitar_amp/"
+      },
+      {
+        "hash": "8ee04059783be40bea00923ddad1bab1",
+        "author": "lhphr",
+        "name": "the throwback",
+        "url": "https://dollchan.net/btb/res/44.html#481"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-12-08"
+  }
+}

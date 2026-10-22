@@ -1,0 +1,26 @@
+{
+  "file": "songs/87830578844301740c67a68bbe6c4ab4.js",
+  "title": "Byteklub",
+  "author": "Gasman",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "284c469a55c4a47b78c17de2b3aaf2fd86aae0f5a9e54e667c3af91f39bcf8cb",
+  "upstream": {
+    "hash": "87830578844301740c67a68bbe6c4ab4",
+    "codeMinLen": 250,
+    "codeMin": "S=n=>sin(i=t*2**((n+5)/12)/20.3)+sin(i/2),T=t/5E3,a=[2674,2384,1856,3186][(T&16?17179870639:4)>>(~T&31)*2&3],(t/[8,4,4.5][25920>>T%8*2&3]&127)*(1-T%1)/2+128+3*(2+(2709919840>>T%16*2&3)-T%1)*(S(a&15)+S(a>>4&15)+S(a>>8))+(1-T%4/4)**3*(t%1E4/(9+T%4)&32)",
+    "codeLen": 256,
+    "code": "S=n=>sin(i=t*2**((n+5)/12)/20.3)+sin(i/2),T=t/5e3,a=[2674,2384,1856,3186][(T&16?17179870639:4)>>(~T&31)*2&3],(t/[8,4,4.5][25920>>T%8*2&3]&127)*(1-T%1)/2+128+3*(2+((2709919840>>T%16*2)&3)-T%1)*(S(a&15)+S(a>>4&15)+S(a>>8))+(1-T%4/4)**3*((t%1e4/(9+(T%4)))&32)",
+    "author": "Gasman",
+    "name": "Byteklub",
+    "description": "Lovebyte Turbo competition.",
+    "url": "https://demozoo.org/music/311731/",
+    "date": "2022-06-08",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-08"
+  }
+}

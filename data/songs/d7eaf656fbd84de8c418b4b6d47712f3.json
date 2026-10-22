@@ -1,0 +1,24 @@
+{
+  "file": "songs/d7eaf656fbd84de8c418b4b6d47712f3.js",
+  "title": "my own hard-coded music",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 8100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bbb916161e740f0a6f0957e6fa39e293e054b1af5d05d76d29baf350211d95a7",
+  "upstream": {
+    "hash": "d7eaf656fbd84de8c418b4b6d47712f3",
+    "codeMinLen": 131,
+    "codeMin": "w=t**(t/1414&3)%256,y=1E3*cbrt(1024*t/1414&4095)&128,r=(2*t*((1024*t/1414>>12&7)+2)/(4+(1024*t/1414>>12&5))&127)+32&128,w/3+y/2+r/2",
+    "codeLen": 134,
+    "code": "w=t**(t/1414&3)%256,y=cbrt((t*1024/1414&4095))*1000&128,r=(t*2*((t*1024/1414>>12&7)+2)/(4+(t*1024/1414>>12&5))&127)+32&128,w/3+y/2+r/2",
+    "author": "hcdphobe",
+    "name": "my own hard-coded music",
+    "url": "https://dollchan.net/btb/res/163.html#518",
+    "date": "2023-03-04",
+    "sampleRate": 8100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+P='push',F='fill',A=Array,L='length',t>.5||(a=A(l=131072)[F](0),b=A(l*2)[F](0),c=A(l*3)[F](0),d=A(l*4)[F](0),e=A(l*5)[F](0),f=A(l*6)[F](0),g=A(l*7)[F](0)),t*=9,x=sin(t*PI/1920)*(t/l/32%1-1)**8+a[t%a[L]]+b[t%b[L]]+c[t%c[L]]+d[t%d[L]]+e[t%e[L]]+f[t%f[L]]+g[t%g[L]],a[P](x/2),b[P](x/2),c[P](x/2),d[P](x/2),e[P](x/2),f[P](x/2),x/3

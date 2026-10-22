@@ -1,0 +1,24 @@
+{
+  "file": "songs/a19498ae106cc41f84e07383a31ddf07.js",
+  "title": "f",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d8a4d9f5d0e42cc8eef93c06f2412c440875b60d27644a452eae94aa2ddf632d",
+  "upstream": {
+    "hash": "a19498ae106cc41f84e07383a31ddf07",
+    "codeMinLen": 173,
+    "codeMin": "t/=5.5,((4E4/(t&8191)&127)+((t*sin(t>>1)*(t>>12&1)|t>>5)&127)+(t>>10&t*(t&32768?1.5:1)&63)+((t*(t>>(t>>10&t>>12&t>>13)&t>>10&t>>11)*(t&8192?3:2)>>1|t/4>>(t>>12)%4)&127))/1.5",
+    "codeLen": 179,
+    "code": "t/=5.5,((4e4/(t&8191)&127)+((t*(sin(t>>1))*(t>>12&1)|t>>5)&127)+(t>>10&t*(t&32768?1.5:1)&63)+((t*(t>>(t>>10&(t>>12&t>>13))&(t>>10&t>>11))*(t&8192?3:2)>>1|t/4>>(t>>12)%4)&127))/1.5",
+    "author": "rubi",
+    "name": "f",
+    "url": "https://www.reddit.com/r/bytebeat/comments/109znwp/f/",
+    "date": "2022-01-12",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "file": "songs/2829c7d9bcba26bab0a74c6dbf712f47.js",
+  "title": "good old fractal melody with zackx tech",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 39824.254,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b641cc7b639a4dc83d8f6ed42b6d8e7d169388b84bf785c8e7118512d2e82018",
+  "upstream": {
+    "hash": "2829c7d9bcba26bab0a74c6dbf712f47",
+    "codeMinLen": 207,
+    "codeMin": "x=b=>(w=t=>t>0&&(e=a=>((t/4*a*2**(round(log2(abs((t>>11^(t>>11)-2)%13))*12)/12)&127)-64)*(1-t/4096%1)**.25,(e(1)+e(b))/2),w(t)+w(t-(d=12288))/2-w(t-d*2)/3+w(t-d*3)/4+w(t-d*4)/5+w(t-d*5)/6),[x(1.005),x(.995)]",
+    "codeLen": 215,
+    "code": "x=j=>(w=t=>t>0&&(e=a=>((((t/4*a*2**(round(log2(abs((((t>>11)^(t>>11)-2)%13)))*12)/12))&127))-64)*(1-t/4096%1)**.25,(e(1)+e(j))/2),w(t)+w(t-(d=12288))/2-w(t-d*2)/3+w(t-d*3)/4+w(t-d*4)/5+w(t-d*5)/6),[x(1.005),x(.995)]",
+    "author": "PrincessPriscillaPT",
+    "name": "good old fractal melody with zackx tech",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1ixuzkm/good_old_fractal_melody_with_zackx_tech/",
+      "https://dollchan.net/btb/res/7164.html#7273"
+    ],
+    "date": "2025-02-25",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 39824.254,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "87366ade567d1aa63f11f65f725693ab",
+        "author": "Blueberry",
+        "name": "Good old fractal melody",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389114"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-11-13"
+  }
+}

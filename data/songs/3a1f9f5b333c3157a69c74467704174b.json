@@ -1,0 +1,28 @@
+{
+  "file": "songs/3a1f9f5b333c3157a69c74467704174b.js",
+  "title": "the cute bytebeast ^o^",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3a1f9f5b333c3157a69c74467704174b.js",
+  "sha256": "3bf9b7b27de973d00ca7b9c5e8772a08543f7f7e69d1c4b8aad18e19ebf821e4",
+  "upstream": {
+    "hash": "3a1f9f5b333c3157a69c74467704174b",
+    "codeLen": 16869,
+    "codeFormLen": 17461,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 11025,\nBPM = 130,\nbeat = BPM * (t / SAMP_RATE) / 60,\ntick = floor(beat * 48) % 3072,\n\nC = 261.63,\nDb = 277.18,\nD = 293.66,",
+    "isTruncated": 1,
+    "author": "raphaelgoulart",
+    "name": "the cute bytebeast ^o^",
+    "url": "https://battleofthebits.com/arena/Entry/the+cute+bytebeast+%5Eo%5E/17669/",
+    "date": "2015-05-01",
+    "sampleRate": 11025,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

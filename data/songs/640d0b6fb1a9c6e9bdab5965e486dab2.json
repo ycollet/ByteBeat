@@ -1,0 +1,30 @@
+{
+  "file": "songs/640d0b6fb1a9c6e9bdab5965e486dab2.js",
+  "title": "damnit kf i have to do homework why'd you have to pick now to host a bytebeat ohb",
+  "author": "Jimmyoshi",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/640d0b6fb1a9c6e9bdab5965e486dab2.js",
+  "sha256": "f99b392b98991457dde93a0173b50116b716201ddc1528d15da1e62dd3b6e89e",
+  "upstream": {
+    "hash": "640d0b6fb1a9c6e9bdab5965e486dab2",
+    "codeMinLen": 1700,
+    "codeLen": 3558,
+    "codeFormLen": 3485,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "s=22050,T=int(150*t/s/60*48)%384,C=261.63,Db=277.18,D=293.66,Eb=311.13,EE=329.63,F=349.23,Gb=369.99,G=392.00,Ab=415.3,A=440,Bb=466.16,B=493.88,c1f=(T>=0&&T<36)*B+(T>=36&&T<48)*Eb*2+(T>=48&&T<60)*Gb*2+(T>=72&&T<84)*B*2+(T>=94&&T<96)*Ab*2+(T>=96&&T<120)*A*2+(T>=120&&T<132)*Ab*2+(T>=144&&T<156)*Gb*2+(T>=168&&T<180)*EE*2+(T>=192&&T<216)*Eb*2+(T>=216&&T<228)*EE*2+(T>=240&&T<252)*F*2+(T>=264&&T<278)*Gb*2,c1a=32,c1p=50,T-=24,c2f=(T>=0&&T<36)*B+(T>=36&&T<48)*Eb*2+(T>=48&&T<60)*Gb*2+(T>=72&&T<84)*B*2+(T>=94&&T<96)*A",
+    "isTruncated": 1,
+    "author": "Jimmyoshi",
+    "name": "damnit kf i have to do homework why'd you have to pick now to host a bytebeat ohb",
+    "url": "https://battleofthebits.com/arena/Entry/damnit+kf+i+have+to+do+homework+why%27d+you+have+to+pick+now+to+host+a+bytebeat+ohb+%5BPLAY+IN+22000+Hz+wow%5D.txt/17659/",
+    "date": "2015-04-29",
+    "sampleRate": 22050,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/5719502f81cb1ef7489be61236447d4c.js",
+  "title": "Pent 0x6",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "177dc1d0a4cf9b31a79f4a8c3a481c1bd7d2259ac19787f8e43a1bc11adcd216",
+  "upstream": {
+    "hash": "5719502f81cb1ef7489be61236447d4c",
+    "codeMinLen": 174,
+    "codeMin": "(t>>6&(t/16&255&t/16>>6&128&t/16>>5&128&t/16>>4&128&t/16>>3&128?0:-1))<<(t*(6+(t>>17&3))/6&t*(6+(t>>17&3))/36)/4|262144/(t%16384+1)&128|t*2*(6+((t^t/2^t/4&t/8)>>12&3))/18%128",
+    "codeLen": 200,
+    "code": "(t>>6&((((t/16&255)&(t/16>>6&128)&(t/16>>5&128)&(t/16>>4&128)&(t/16>>3&128))?0:(2<<31)-1)))<<(t*(6+(t>>17&3))/6&t/6*(6+(t>>17&3))/6)/4|(2<<17)/(t%(2<<13)+1)&128|t/3*2*(6+((t^t/2^t/4&t/8)>>12&3))/6%128",
+    "author": "D3nschøt",
+    "name": "Pent 0x6",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cml4vv/pent_0x6/",
+    "date": "2024-05-07",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "bbc1145da9417c14033bb4db41c2458b",
+        "author": "SamsaDev",
+        "name": "Sequen_0x6",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1bgce1u/sequen_0x6_cool_name/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-29"
+  }
+}

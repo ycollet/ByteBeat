@@ -1,0 +1,24 @@
+{
+  "file": "songs/bade544c7cf1ed61e503fd302120c26c.js",
+  "title": "wacky music",
+  "author": "emelchenko",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "798a8983a960f0048a4bc732b2747da5013780b59b6c6a987185dac46cb1dfca",
+  "upstream": {
+    "hash": "bade544c7cf1ed61e503fd302120c26c",
+    "codeMinLen": 146,
+    "codeMin": "t*[[6710886>>(t>>10&7)&15,7777777>>(t>>10&7)&15][t>>13&1],2**([6710886>>(t>>10&7)&15,7777777>>(t>>10&7)&15][t>>13&1]/3)][t>>15&1]%256*(1-t/2048%1)",
+    "codeLen": 148,
+    "code": "(t*[[6710886>>(t>>10&7)&15,7777777>>(t>>10&7)&15][t>>13&1],2**([6710886>>(t>>10&7)&15,7777777>>(t>>10&7)&15][t>>13&1]/3)][t>>15&1])%256*(1-t/2048%1)",
+    "author": "emelchenko",
+    "name": "wacky music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hfmbq8/wacky_music/",
+    "date": "2024-12-16",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

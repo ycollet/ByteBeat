@@ -1,0 +1,36 @@
+{
+  "file": "songs/c9cc93bb7faeffac1cc0fb1e12be886a.js",
+  "title": "subwah",
+  "author": "wavepot.com",
+  "mode": "Funcbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c9cc93bb7faeffac1cc0fb1e12be886a.js",
+  "sha256": "2adcaa2eea7bd087df757de95ca6d179d8cf72d7e8e158865eba7d42dd09e7b7",
+  "upstream": {
+    "hash": "c9cc93bb7faeffac1cc0fb1e12be886a",
+    "codeMinLen": 155,
+    "codeMin": "return t=>(.8*sin((.8*abs(1-(t*(n=44100/341.5)/1.5)%2)*2-1+.05*(s=(x,t)=>sin((T=2*PI)*t*x))(n*2,t))*(2+(1+s(.18,t))*(2+(1+s(.04,t))*12))+T*t)+.7*s(n,t))*.4",
+    "codeLen": 584,
+    "fileOrig": 1,
+    "codeText": "return t=>(.8*sin((.8*abs(1-(t*(n=44100/341.5)/1.5)%2)*2-1+.05*(s=(x,t)=>sin((T=2*PI)*t*x))(n*2,t))*(2+(1+s(.18,t))*(2+(1+s(.04,t))*12))+T*t)+.7*s(n,t))*.4",
+    "isTruncated": 1,
+    "author": "wavepot.com",
+    "name": "subwah",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "a7692ed2a7c08d66f9b8a54307fab133",
+        "author": "justaboutdead",
+        "name": "YAY!",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-16"
+  }
+}

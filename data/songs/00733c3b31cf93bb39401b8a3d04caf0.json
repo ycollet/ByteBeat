@@ -1,0 +1,37 @@
+{
+  "file": "songs/00733c3b31cf93bb39401b8a3d04caf0.js",
+  "title": "stringTracker",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 47412,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/00733c3b31cf93bb39401b8a3d04caf0.js",
+  "sha256": "22994faaea1817de439ee4f1dcc2cdc85529d400c2570e2ad9f0fbd29211600c",
+  "upstream": {
+    "hash": "00733c3b31cf93bb39401b8a3d04caf0",
+    "codeLen": 45379,
+    "fileOrig": 1,
+    "codeText": "// stringTracker port of \"please someone remix this\" by Decent-Manager to bytebeat\n\nC2 = 65.41,\nDb2 = 69.30,\nD2 = 73.42,\nEb2 = 77.78,\nE2 = 82.41,\nF2 = 87.31,",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "stringTracker",
+    "description": "Not actually a tracker: Pulls from strings and outputs in Signed Bytebeat. Unfortunately, the outputs are extremely unoptimized.",
+    "url": "https://dollchan.net/btb/res/3.html#6034",
+    "date": "2025-04-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 47412,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-11-06"
+  }
+}

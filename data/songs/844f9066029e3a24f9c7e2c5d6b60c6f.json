@@ -1,0 +1,23 @@
+{
+  "file": "songs/844f9066029e3a24f9c7e2c5d6b60c6f.js",
+  "title": "sine of power",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e9b88050dea778b85a23fa1b326865bc116fd8ad8cff0e8246c16cd401188837",
+  "upstream": {
+    "hash": "844f9066029e3a24f9c7e2c5d6b60c6f",
+    "codeLen": 47,
+    "code": "(t%32768>>4)**sin(t/2/'66546657'[t>>13&7])&t>>4",
+    "author": "lhphr",
+    "name": "sine of power",
+    "description": "Decided to raise t to the power of a sine function. Ended up sounding somewhat unique.",
+    "url": "https://dollchan.net/btb/res/44.html#54",
+    "date": "2022-04-24",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

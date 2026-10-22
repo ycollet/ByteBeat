@@ -1,0 +1,32 @@
+{
+  "file": "songs/334cc4771dd596e92200ed8f518dc8dc.js",
+  "title": "TIRO remix",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6ef94132e4e0d32ae458ddba1232f13508f8ab3e99801f32c6e8bce0c88a3c95",
+  "upstream": {
+    "hash": "334cc4771dd596e92200ed8f518dc8dc",
+    "codeMinLen": 493,
+    "codeMin": "t/=4,z=x=>log(sin(x*PI/64)/1+4),y=x=>z(x*(1+1/(x/x)))-sin(x*PI/(64-1/(x/t)))/2,c=x=>abs(y(x/2))**y(x)/z(x),q=c(2*t/2**(-t>>16&3)*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>8)))*(t&4096?16:36),b=128*z(t&4096?(3-(3&t>>9)+(3&t>>8))*t*(t&16384?7:5)>>3&t*(t&16384?7:5):0),l=3E4/(t%(t&8192?3072:4096))&72,k=b+q+l,u=(64*random()|t>>'6554554455545434655455445554543265545544555454346554554455543210'[t>>12&63])%64,g=k+u,j=5E4/(t%(t&8192?7168:6144))&64,n=g+j-164,s=64*z(t/4*(t&16384?7:5)|t>>13),min((s+n)/1.5,255)",
+    "codeLen": 507,
+    "code": "t/=4,z=(x)=>log(sin(x*PI/64)/1+4),y=(x)=>z(x*(1+(1/(x/x))))-sin(x*PI/(64-(1/(x/t))))/2,c=(x)=>abs(y(x/2))**y(x)/z(x),q=c(t*2/(2**(-t>>16&3))*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>8)))*(t&4096?16:36),b=z(t&4096?(3-(3&t>>9)+(3&t>>8))*t*(t&16384?7:5)>>3&t*(t&16384?7:5):0)*128,l=3e4/(t%(t&8192?3072:4096))&72,k=b+q+l,u=(random()*64|t>>\"6554554455545434655455445554543265545544555454346554554455543210\"[t>>12&63])%64,g=k+u,j=5e4/(t%(t&8192?7168:6144))&64,n=(g+j-164),s=z(t/4*(t&16384?7:5)|t>>13)*64,min((s+n)/1.5,255)",
+    "author": "PortablePorcelain",
+    "name": "TIRO remix",
+    "url": "https://dollchan.net/btb/res/55.html#80",
+    "date": "2022-06-20",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "867749a527f2a012cefd7e0aa0b5485c",
+        "author": "NewFall2020",
+        "name": "TIRO Remixed#5.1",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qlst5m/comment/hmu25u3/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

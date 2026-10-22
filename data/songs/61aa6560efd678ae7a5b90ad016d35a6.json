@@ -1,0 +1,22 @@
+{
+  "file": "songs/61aa6560efd678ae7a5b90ad016d35a6.js",
+  "title": "nose grind",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "54d2e957c69e21eca22eefa974a0cc9fc33d2e848dedc51c579d115cb6659b8b",
+  "upstream": {
+    "hash": "61aa6560efd678ae7a5b90ad016d35a6",
+    "codeLen": 86,
+    "code": "h=t*[.5,.6,.57,.53][int(t/44e3)%4],((h&h*-2.5+sin(t/1e4)*100)%256*-cos(t/2e7+1.61))-10",
+    "author": "SArpnt",
+    "name": "nose grind",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ggkslh/cant_think_of_a_name_atm_but_new_thing/",
+    "date": "2020-05-09",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

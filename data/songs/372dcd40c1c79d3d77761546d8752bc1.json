@@ -1,0 +1,25 @@
+{
+  "file": "songs/372dcd40c1c79d3d77761546d8752bc1.js",
+  "title": "SAW thing",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e1ee4e22020fe66be337320442d98a89a884ed4adbe13aaa3a0255ef692d1f6c",
+  "upstream": {
+    "hash": "372dcd40c1c79d3d77761546d8752bc1",
+    "codeMinLen": 99,
+    "codeMin": "r=1.7*t,(t*2**(parseInt('0C00C0CC'[(r>>13)%8],36)/12)/2.65%256-128)*(1-r%8192/8192/(-cos(t/8E4)+2))",
+    "codeLen": 101,
+    "code": "r=t*1.7,((t*2**(parseInt('0C00C0CC'[(r>>13)%8],36)/12)/2.65%256)-128)*(1-r%8192/8192/(-cos(t/8E4)+2))",
+    "author": "Zackx",
+    "name": "SAW thing",
+    "url": "https://dollchan.net/btb/res/204.html#1733",
+    "date": "2023-07-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

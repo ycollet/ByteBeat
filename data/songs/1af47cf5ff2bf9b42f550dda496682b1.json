@@ -1,0 +1,33 @@
+{
+  "file": "songs/1af47cf5ff2bf9b42f550dda496682b1.js",
+  "title": "\"Show Me Love\" - Doctor Y melody",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bc3b281047572ea3dcc2273711475dbbac70cf3d2dab1a4ebedd3d03a334de34",
+  "upstream": {
+    "hash": "1af47cf5ff2bf9b42f550dda496682b1",
+    "codeMinLen": 375,
+    "codeMin": "BPM=120,SampleRate=48E3,tf=abs(t/SampleRate/180*3*32768*BPM),n=-9E9,p=-7.2,l=t*2**(([3,n,n,n,3,3,6,-2,n,n,-2,n,n,-2,n,n,-1,n,n,n,-1,n,n,-1,n,n,-1,n,n,-1,-2,n,n,n][(tf>>13)%32]+p)/12),x=j=>tanh(sin(l*PI/128+sin(l*PI/64*j))*(1-tf/8192%1)**.2/1.5+sin(l*2**(7/12)*PI/128)*(1-tf/8192%1)**.2/2.2+sin(l*2**(19/12)*PI/128*j)*(1-tf/8192%1)**.2/.7)*.1**(5/(tf%8192)),[x(1.005),x(.995)]",
+    "codeLen": 389,
+    "code": "BPM=120,\nSampleRate=48000,\ntf=abs(t/SampleRate/180*3*32768*BPM),\nn=-9e9,\np=-7.2,\nl=t*2**(([3,n,n,n,3,3,6,-2,n,n,-2,n,n,-2,n,n,-1,n,n,n,-1,n,n,-1,n,n,-1,n,n,-1,-2,n,n,n][(tf>>13)%32]+p)/12),\nx=j=>tanh(sin(l*PI/128+sin(l*PI/64*j))*(1-(tf/8192)%1)**.2/1.5+sin(l*2**(7/12)*PI/128)*(1-(tf/8192)%1)**.2/2.2+sin(l*2**(19/12)*PI/128*j)*(1-(tf/8192)%1)**.2/.7)*.1**(5/(tf%8192)),\n[x(1.005),x(.995)]",
+    "author": "PrincessPriscillaPT",
+    "name": "\"Show Me Love\" - Doctor Y melody",
+    "description": "Korg M1 - Patch 17 - PercOrgan interpretation",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1hb0jjj/show_me_love_doctor_y_melody/",
+      "https://dollchan.net/btb/res/7164.html#7236"
+    ],
+    "date": "2024-12-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Doctor Y - Show Me Love",
+    "coverUrl": "https://youtu.be/WUb8PNObii8",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

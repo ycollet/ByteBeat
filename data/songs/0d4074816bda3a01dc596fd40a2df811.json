@@ -1,0 +1,32 @@
+{
+  "file": "songs/0d4074816bda3a01dc596fd40a2df811.js",
+  "title": "remix of sthephanshi's thing",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bcdb72981c5e4d009bd69d332aa99b589a69ef97c35e07ca5c1d901327b7abcb",
+  "upstream": {
+    "hash": "0d4074816bda3a01dc596fd40a2df811",
+    "codeMinLen": 158,
+    "codeMin": "t>>=2,((4E4/(t&2047)*\"11000100\"[7&t>>11]&128)+(t*sin(t>>1)*\"0000100101001001\"[15&t>>10]&-t>>3&127)+random()*(1&-t>>10)*50+(t%((t&-16|t>>11)&42)<<2&-t>>4))/1.5",
+    "codeLen": 163,
+    "code": "t>>=2,((4e4/(t&2**11-1)*'11000100'[7&t>>11]&128)+(t*sin(t>>1)*'0000100101001001'[15&t>>10]&-t>>3&127)+(random()*(1&-t>>10)*50)+(t%((t&-16|t>>11)&42)<<2&-t>>4))/1.5",
+    "author": "rubi",
+    "name": "remix of sthephanshi's thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14k9ofu/remix_of_sthephanshis_thing/",
+    "date": "2023-06-27",
+    "sampleRate": 32768,
+    "remix": [
+      {
+        "hash": "d5787e81caf9ad027bf76ae5d8942de6",
+        "author": "SthephanShi",
+        "name": "Arabic beat #2",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

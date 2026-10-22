@@ -1,0 +1,26 @@
+{
+  "file": "songs/f0d25d9bddd9d3f3b3eb1e6ee68ec4e6.js",
+  "title": "in attempt to recreate \"dante's inferno, modified by viznut\"",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e983f18e63cf17daebe178ea1ec94e57df0638e75f078e2f32f3f6316899d57f",
+  "upstream": {
+    "hash": "f0d25d9bddd9d3f3b3eb1e6ee68ec4e6",
+    "codeMinLen": 119,
+    "codeMin": "((t&t+t/(t>>3))*(203*t|32)&20)+(t>>10&(208*t|-5)+(t&t+t/164)+32767+((313*t|-5)+(t&t+t/165))|t&t+t/40&t&t+t/42&t&t+t/44)",
+    "codeLen": 141,
+    "code": "(((t&t+t/(t>>3))*(t*203|32))&20)+\n(t>>10&((((t*208|-5)+(t&t+t/164))+0x7fff)\n+(((t*313|-5)+(t&t+t/165))))|((t&t+t/40)\n&(t&t+t/42)&(t&t+t/44)))",
+    "author": "kOLbOSa_exe",
+    "name": "in attempt to recreate \"dante's inferno, modified by viznut\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qix267/in_attempt_to_recreate_dantes_inferno_modified_by/",
+    "date": "2021-10-30",
+    "sampleRate": 8000,
+    "coverName": "viznut+oasiz – Dante's Inferno",
+    "coverUrl": "https://youtu.be/tCRPUv8V22o?si=P1yS2BygNTo0_Uyo",
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/73f19fa68884f57d850afe1503c7f061.js",
+  "title": "horror echo sounds",
+  "author": "r/bytebeat",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0eb04d9dfcd59dfda2068091b09f38744c287ed472976264aeb65e206f07fd17",
+  "upstream": {
+    "hash": "73f19fa68884f57d850afe1503c7f061",
+    "codeLen": 24,
+    "code": "t*=64,sin(t)*(t>>12)&128",
+    "author": "r/bytebeat",
+    "name": "horror echo sounds",
+    "description": "Lowering your volume is advised.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fdgqn0/horror_echo_sounds/",
+    "date": "2024-09-10",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-01-16"
+  }
+}

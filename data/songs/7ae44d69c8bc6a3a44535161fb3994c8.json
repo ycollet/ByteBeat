@@ -1,0 +1,44 @@
+{
+  "file": "songs/7ae44d69c8bc6a3a44535161fb3994c8.js",
+  "title": "Noontide Café in Maretime Bay",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7ae44d69c8bc6a3a44535161fb3994c8.js",
+  "sha256": "9b80e81117d53a6412b761f776d1e406693c6b7d265cfb2e5d3fce4b5d6201c9",
+  "upstream": {
+    "hash": "7ae44d69c8bc6a3a44535161fb3994c8",
+    "codeLen": 6821,
+    "fileOrig": 1,
+    "codeText": "/*!\n *      •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · Noontide Café in Maretime Bay\n *      •───────────────•°•❀•°•───────────────•\n */\n\nt || (fx = {}), fxi = 0, T = t,\n",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Noontide Café in Maretime Bay",
+    "description": "Updated on 2026/10/20.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1vbedb5/noontide_caf%C3%A9_in_maretime_bay/",
+      "https://dollchan.net/btb/res/7164.html#16410",
+      "https://www.bytebeat.cloud/post/0ef52eef-890c-41a1-88b3-6308e1d92f63"
+    ],
+    "date": "2026-07-26",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "a9316a069d8a91bbda8211acd4359305",
+        "author": "PrincessPriscillaPT",
+        "name": "きらめき☆Skyblossom",
+        "url": [
+          "https://dollchan.net/btb/res/7164.html#17215",
+          "https://www.bytebeat.cloud/post/cd85cf30-da2b-4d31-94b5-69d339f265f5"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-07-31",
+    "date_edited": "2026-10-20"
+  }
+}

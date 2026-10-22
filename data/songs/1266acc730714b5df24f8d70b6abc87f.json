@@ -1,0 +1,27 @@
+{
+  "file": "songs/1266acc730714b5df24f8d70b6abc87f.js",
+  "title": "Depp - bytebeat cover",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1266acc730714b5df24f8d70b6abc87f.js",
+  "sha256": "669060e7863842f8c35d8f0afcbfb57acfc93b5903261feaa3f43bceaac0bb9c",
+  "upstream": {
+    "hash": "1266acc730714b5df24f8d70b6abc87f",
+    "codeLen": 2282,
+    "fileOrig": 1,
+    "codeText": "// \"Depp\" - bytebeat cover\n// TrashImpossible3699 MMXXIV\n// the worst cover i've ever had in my life\n// this is also an attempt of covering \"Depp\" by an unknown composer. i don't know who that is but let me cover up the whole song, enjoy!\n// https://keithclark.github.io/ZzFXM/\n// ^_^\n \ns=1870,",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "Depp - bytebeat cover",
+    "description": "Composed in <a href=\"https://keithclark.github.io/ZzFXM/\" target=\"_blank\">ZzFXM tracker</a> and ported to bytebeat. Cover source not found.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gh48lu/depp_bytebeat_cover/",
+    "date": "2024-11-01",
+    "sampleRate": 16000,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

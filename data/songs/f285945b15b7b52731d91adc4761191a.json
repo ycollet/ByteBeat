@@ -1,0 +1,26 @@
+{
+  "file": "songs/f285945b15b7b52731d91adc4761191a.js",
+  "title": "getting better at this stuff",
+  "author": "Baron Knoxburry",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f285945b15b7b52731d91adc4761191a.js",
+  "sha256": "69e94ec384ca118d0fdc9fa814dfd592b6ce7b56dc6887507a28aa5c7cab4bd2",
+  "upstream": {
+    "hash": "f285945b15b7b52731d91adc4761191a",
+    "codeLen": 3985,
+    "codeFormLen": 3810,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "vol = 90,\ntempo = 6480,\nbeat = Math.floor(t / tempo),\nsample_rate = 44100,\ns = 0,\n\n/* system ram\n\t0..3 fm trigger pos in time",
+    "isTruncated": 1,
+    "author": "Baron Knoxburry",
+    "name": "getting better at this stuff",
+    "url": "https://battleofthebits.com/arena/Entry/getting+better+at+this+stuff/46490/",
+    "date": "2021-05-30",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/7d026d17a9d1f199295df1df743e0a9b.js",
+  "title": "tri",
+  "author": "tribute1123",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "78657e0ee5a885e16234f2c988e1e26dd411b87ce067d821c130cf8e5a442933",
+  "upstream": {
+    "hash": "7d026d17a9d1f199295df1df743e0a9b",
+    "codeMinLen": 56,
+    "codeMin": ".995*(abs((t&255)-128)+abs((t*(1+(t&451)/256)&255)-128))",
+    "codeLen": 105,
+    "code": "b=128,hz=((t/128)*b),hz1=hz*(1+(1/((b*2)/(t&451)))),a=(abs(((hz)&255)-128)+abs(((hz1)&255)-128))/2,a*1.99",
+    "author": "tribute1123",
+    "name": "tri",
+    "description": "Beautiful visuals at \"Points\" mode and max zoom.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11f2bt9/hi/",
+    "date": "2023-03-01",
+    "sampleRate": 32768,
+    "drawing": {
+      "mode": "Points",
+      "scale": "0"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

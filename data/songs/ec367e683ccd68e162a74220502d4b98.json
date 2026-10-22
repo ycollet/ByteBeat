@@ -1,0 +1,32 @@
+{
+  "file": "songs/ec367e683ccd68e162a74220502d4b98.js",
+  "title": "stimmer with filter",
+  "author": "sdayoisadu",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "52b88925941e570c1740fba470af0d5bd64b7f2968766884b2ad9a83914f5172",
+  "upstream": {
+    "hash": "ec367e683ccd68e162a74220502d4b98",
+    "codeMinLen": 88,
+    "codeMin": "t/=4,l=16,(t?f+=(t*(4|7&t>>13)>>(~t>>11&1)&128|t*(t>>11&t>>13)*(~t>>9&3)&127)-f/l:f=0)/l",
+    "codeLen": 90,
+    "code": "t/=4,l=16,(t?(f+=(t*(4|7&t>>13)>>(~t>>11&1)&128|t*(t>>11&t>>13)*(~t>>9&3)&127)-f/l):f=0)/l",
+    "author": "sdayoisadu",
+    "name": "stimmer with filter",
+    "url": "https://www.reddit.com/r/bytebeat/comments/196cxd1/stimmer_with_filter/",
+    "date": "2024-01-14",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

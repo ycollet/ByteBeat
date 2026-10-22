@@ -1,0 +1,33 @@
+{
+  "file": "songs/f9ef6870d99502f9a5ec6340efabf63c.js",
+  "title": "Rubik's Synth",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fdaa91af9085782a50a2a49d1c015dceb49da09f1c9e5a245327f172bde0aa73",
+  "upstream": {
+    "hash": "f9ef6870d99502f9a5ec6340efabf63c",
+    "codeMinLen": 423,
+    "codeMin": "t||(r=Array(49152).fill(0),l=Array(64).fill(0),L=T=0),L+=4+sin(t*PI/3072)/32,T+=3,synth=(x,y,z,w=15)=>(l[d=0]=(l[d]*z+parseInt((y=y.toString(w))[x%y.length|0],w))/(z+1),d++,l[--d]),i=5*synth(L*2**([[0,3,7,12,15,12,7,3],[3*(T>>17&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[8,12,15,20,24,20,15,12]][T>>18&3][T>>14&7]/12-6.768),16666,16,15)*((-T&16383)/32767+1)+25*sin(6*cbrt(T&65535)),i-=.6*r[z=T%r.length|0],r[z]=i,i/128",
+    "codeLen": 424,
+    "code": "t||(r=Array(49152).fill(0),l=Array(64).fill(0),L=T=0),L+=4+sin(t*PI/3072)/32,T+=3,synth=(x,y,z,w=15)=>(l[d=0]=(l[d]*z+parseInt((y=y.toString(w))[x%y.length|0],w))/(z+1),d++,l[--d]),i=synth(L*2**([[0,3,7,12,15,12,7,3],[3*(T>>17&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[8,12,15,20,24,20,15,12]][T>>18&3][T>>14&7]/12-6.768),16666,16,15)*5*((-T&16383)/32767+1)+sin(cbrt(T&65535)*6)*25,i=i-r[z=T%r.length|0]*.6,r[z]=i,i/128",
+    "author": "PortablePorcelain",
+    "name": "Rubik's Synth",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13mhzom/three_codes_in_one_post/",
+    "date": "2023-05-20",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "249025d02e6ed820d87f5d36f3054753",
+        "author": "Zackx",
+        "name": "remix of the throwback",
+        "url": "https://dollchan.net/btb/res/204.html#815"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/0d9cce3617f2145e8a1b23b443b1cf0f.js",
+  "title": "42 melody with decay",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1df6a2836dc1f0fa9e911497a2b644218f2d67358af0bcb451540eb818603aa3",
+  "upstream": {
+    "hash": "0d9cce3617f2145e8a1b23b443b1cf0f",
+    "codeMinLen": 30,
+    "codeMin": "t*(42&t>>10)%256*(-t&2047)/2E3",
+    "codeLen": 32,
+    "code": "t*((42&t>>10))%256*(-t&2047)/2e3",
+    "author": "Zackx",
+    "name": "42 melody with decay",
+    "url": "https://dollchan.net/btb/res/204.html#439",
+    "date": "2023-02-21",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

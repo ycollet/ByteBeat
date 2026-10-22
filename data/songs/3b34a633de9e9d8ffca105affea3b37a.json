@@ -1,0 +1,39 @@
+{
+  "file": "songs/3b34a633de9e9d8ffca105affea3b37a.js",
+  "title": "something something reverb",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3b34a633de9e9d8ffca105affea3b37a.js",
+  "sha256": "e5d2bbab3f63a192200f0ef1e2eb9b2876363f384118434744e7ef6994285889",
+  "upstream": {
+    "hash": "3b34a633de9e9d8ffca105affea3b37a",
+    "codeMinLen": 628,
+    "codeLen": 1717,
+    "codeFormLen": 1670,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "A=Array,r=(i,g,C,V,S,P,W,M,e,I)=>(L=0,H=(s,b,x,y,z)=>L++<b?s(b,x,y,z):L=0,R=(d,t,l,s)=>(t.push(A(l-s*L).fill(0)),H(R,d,t,l,s)),t?0:(O=A(),p=A(),s=A())+R(C,O,V,S)+R(P,p,W,M)+R(P,s,W,M),F=d=>(O[L].shift()+H(F,d)),F(C),o=d=>(O[L].push(i-g*O[L][0])+H(o,d)),o(C),c=d=>(O[L][O[L].length-1]+H(c,d)),f=d=>((p[L].shift(),p[L].push(L?s[L-1][s[L-1].length-1]:c(C)),s[L].shift(),s[L].push(-g*p[L][p[L].length-1]+p[L][0]+g*s[L][0]))+H(f,d)),f(P),I*i+s[P][s[P].length-1]/C*e),r((q=Z=>t*PI/Z*'55545556'[t>>16&7],'11011100'[t>>1",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "something something reverb",
+    "url": "https://www.reddit.com/r/bytebeat/comments/v0y4mf/something_something_reverb/",
+    "date": "2022-05-30",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "a39b17a5bb274375aa649cc6455cdb9d",
+        "author": "lhphr",
+        "name": "trig",
+        "url": "https://dollchan.net/btb/res/44.html#69"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/f1a078303a751489626d218ff760c4ae.js",
+  "title": "This works in a lot of pitches/tempos for some reason",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "19a3072c3b19b8ffc480658dd35cefd692197e87de99c38f00e25303afe4642e",
+  "upstream": {
+    "hash": "f1a078303a751489626d218ff760c4ae",
+    "codeMinLen": 411,
+    "codeMin": "(t/=s=7)?1.5*(m=t*(0xCA98CA98>>(t>>9&30)&15)%128+(t*(0xCA98CA98>>(t>>9&30)&15)/2+t/256|64*sin(t*PI/[32,32,48,43][t>>15&3]))%128+a[++q%n],a[q%n]=m/2.5,v=+\"10100110\"[t>>11&7]?t/2048%1:1,e=(.5+t/8192)%1,(m/256-.5)*v**2+atan(sin(69*.5**(6*v))*(1-v)**2*2)/1.5+atan(atan(sin((t*s/3>>1)%725*(t*s/3+(t*s>>6)>>1)%1224*65)*(1-e)**6)*e**.4*6/1.4+sin(10240*.5**(e/6))*(1-e)**16)*(1-e)**4/2):a=Array(n=24576*s/8|0).fill(q=0)",
+    "codeLen": 417,
+    "code": "(t/=s=7)?(m=(t*(0xCA98CA98>>(t>>9&30)&15)%128+((t*(0xCA98CA98>>(t>>9&30)&15)/2+t/256)|sin(t*PI/[32,32,48,43][t>>15&3])*64)%128)+a[++q%n],a[q%n]=m/2.5,v=+'10100110'[t>>11&7]?t/2048%1:1,e=(.5+t/8192)%1,(m/256-.5)*v**2+atan(sin(.5**(v*6)*69)*(1-v)**2*2)/1.5+atan(atan(sin((t*s/3>>1)%725*(t*s/3+(t*s>>6)>>1)%1224*65)*(1-e)**6)*(e**.4)*6/1.4+sin(.5**(e/6)*10240)*(1-e)**16)*(1-e)**4/2)*1.5:a=Array(n=24576*s/8|0).fill(q=0)",
+    "author": "PortablePorcelain",
+    "name": "This works in a lot of pitches/tempos for some reason",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h3x3z0/this_works_in_a_lot_of_pitchestempos_for_some/",
+    "date": "2024-12-01",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

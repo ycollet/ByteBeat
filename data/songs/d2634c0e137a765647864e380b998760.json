@@ -1,0 +1,26 @@
+{
+  "file": "songs/d2634c0e137a765647864e380b998760.js",
+  "title": "Desire drive (early version)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bac548c0606f69446eab05e9534faec89b79b2f03f3ed83dde2c19737b729a99",
+  "upstream": {
+    "hash": "d2634c0e137a765647864e380b998760",
+    "codeMinLen": 248,
+    "codeMin": "d=12288,(a=t=>(n=x=>t*2**(parseInt(x,36)/12)*1.7,(n('C7C5C32A23AFEA5A23AFHEACEA5C73A2'[(t>>13)%32])&255)+76&256)*(1-t%8192/12E3),a(t)+a(t-d)/2+a(t-2*d)/4+a(t-3*d)/8+a(t-4*d)/16+a(t-5*d)/32+a(t-6*d)/64)/3+(n('KMJOKMOOO'[7&t>>15])/16/(t&8192?1:2)&64)",
+    "codeLen": 250,
+    "code": "d=12288,(a=t=>(n=x=>t*2**(parseInt(x,36)/12)*1.7,(n('C7C5C32A23AFEA5A23AFHEACEA5C73A2'[(t>>13)%32])&255)+76&256)/1*(1-t%8192/12E3),a(t)+a(t-d)/2+a(t-d*2)/4+a(t-d*3)/8+a(t-d*4)/16+a(t-d*5)/32+a(t-d*6)/64)/3+(n('KMJOKMOOO'[7&t>>15])/16/(t&8192?1:2)&64)",
+    "author": "Zackx",
+    "name": "Desire drive (early version)",
+    "url": "https://dollchan.net/btb/res/204.html#2185",
+    "date": "2023-09-02",
+    "sampleRate": 44100,
+    "coverName": "Touhou 13: Ten Desires - Stage 4 Theme: Desire Drive",
+    "coverUrl": "https://youtu.be/jHbGKNLKr8A",
+    "tags": [
+      "256"
+    ]
+  }
+}

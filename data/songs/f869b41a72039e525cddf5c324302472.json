@@ -1,0 +1,28 @@
+{
+  "file": "songs/f869b41a72039e525cddf5c324302472.js",
+  "title": "vic-20 sound chip emulator in bytebeat",
+  "author": "AArt1256",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f869b41a72039e525cddf5c324302472.js",
+  "sha256": "0edc00367aba6f4b5158b3b3d175379b57d2ad30fd7458ca0fb1b618180e5304",
+  "upstream": {
+    "hash": "f869b41a72039e525cddf5c324302472",
+    "codeLen": 69011,
+    "fileOrig": 1,
+    "codeText": "t<5?\nmusic = [\n\"d0d700f80f\",\n\"c6d700000d\",\n\"bdd700000b\",\n\"e1df000009\",\n\"e1df000007\",\n\"e1df000007\",",
+    "isTruncated": 1,
+    "author": "AArt1256",
+    "name": "vic-20 sound chip emulator in bytebeat",
+    "description": "Unable to find original cover source.",
+    "url": "https://dollchan.net/btb/res/3.html#1907",
+    "date": "2023-08-14",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2025-12-21",
+    "date_edited": "2026-10-18"
+  }
+}

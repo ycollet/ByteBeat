@@ -1,0 +1,27 @@
+{
+  "file": "songs/1a0a0b740db27a6689b5bb0aa3c11ab4.js",
+  "title": "made a \"flanger\" effect",
+  "author": "ANoUserXD",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7d6c3daaf6c6c7900657030a149dd2ad32102cf067d094e2181444f24603a42b",
+  "upstream": {
+    "hash": "1a0a0b740db27a6689b5bb0aa3c11ab4",
+    "codeMinLen": 157,
+    "codeMin": "t?0:A=Array(z=80).fill(a=0),a+=1-1/[1.5,1.9,2.5,3.05,3.4][(t>>13)%5],b=(sin(a/4)+sin(a/6)+asin(sin(a/8)))*32+A[(t+60*abs(sin(t/5E3)))%z|0],A[t%z|0]=b/1.6,b/3",
+    "codeLen": 158,
+    "code": "!t?A=Array(z=80).fill(a=0):0,a+=1-1/[1.5,1.9,2.5,3.05,3.4][(t>>13)%5],b=(sin(a/4)+sin(a/6)+asin(sin(a/8)))*32+A[(t+60*abs(sin(t/5e3)))%z|0],A[t%z|0]=b/1.6,b/3",
+    "author": "ANoUserXD",
+    "name": "made a \"flanger\" effect",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1jxrjqb/made_a_flanger_effect_in_bytebeat",
+    "date": "2025-04-12",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-12-03",
+    "date_edited": "2025-12-08"
+  }
+}

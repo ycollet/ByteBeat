@@ -1,0 +1,30 @@
+{
+  "file": "songs/c6012bbe14249be7c4fd406820731b33.js",
+  "title": "uwa!!",
+  "author": "orion_aboy",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c6012bbe14249be7c4fd406820731b33.js",
+  "sha256": "2d9a12ab5b0e32d25a6a6b38f61479659859a9ddfda8df99afcca18e091a96d1",
+  "upstream": {
+    "hash": "c6012bbe14249be7c4fd406820731b33",
+    "codeMinLen": 898,
+    "codeLen": 939,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "sr=48000,tempo=280,t?0:(R=Array(RL=floor(.3*sr)),RI=0,N1={N:0,D:0,L:0,wave:p=>4*(p%1-p%.5)-1,l:.1,d:.4},N2={N:0,D:0,L:0,wave:p=>4*(p%1-p%.5)-1,l:.05,d:.5},D={N:0,D:0,L:0,wave:random,l:0,d:.1,p:1}),nl=60*sr/tempo,ni=floor(t/nl)%32,pt=floor(t/(32*nl)),n1=[22,,20,22,15,,13,15,10,,8,10,5,,,,8,,6,8,13,,,,8,,6,8,16,,,],n2=pt&1?[-4,,-2,,0,,,,-4,,-2,,0,,,,-3,,-1,,1,,,,-7,,-5,,-3]:[-4,,-2,,0,,,,-4,,-2,,0,,,,-5,,-3,,-1,,,,-7,,-5,,-3],DA={l:.05,d:.1},DB={l:.2,d:.1},DC={l:.4,d:.04},d=[DA,,DC,DA,DB,,,DC,DA,,DC,DA,DB,,,,",
+    "isTruncated": 1,
+    "author": "orion_aboy",
+    "name": "uwa!!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18vm8w2/uwa/",
+    "date": "2024-01-01",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Undertale OST - Uwa!! So Temperate",
+    "coverUrl": "https://youtu.be/HCrJNiMmH88",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-03"
+  }
+}

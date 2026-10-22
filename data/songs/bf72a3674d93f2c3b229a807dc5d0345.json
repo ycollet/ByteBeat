@@ -1,0 +1,27 @@
+{
+  "file": "songs/bf72a3674d93f2c3b229a807dc5d0345.js",
+  "title": "sketchy reverb attempt",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b8f81db879dac5f968607edd5c92a2ede7bafaaf3b799b263a1dff9c9766ff34",
+  "upstream": {
+    "hash": "bf72a3674d93f2c3b229a807dc5d0345",
+    "codeMinLen": 387,
+    "codeMin": "a=Array,c=10584E3/71,l=0,p=L=>A.push(a(0|c/(1+1/PI**2*l)).fill(0))+(l++<L?p(L):l=0),t?0:(this.A=a(),y=a(6).fill(0))+p(95),m=t/c,f=1+(m&4)/4,s=f*min(max(m%1*32/f-1,0),2)/2,z=0,f=a=>((y[z++]+=2**((a+[3,1,6+s,5,3,1,10+s,7][m&7])/12))/2205*352&16)-8,h=L=>A[l].shift()+(l++<L?h(L):l=0),w=h(95),x=f(-12)+f(-7)+f(0)+f(5)+f(12)+f(17)+w,p=L=>A[l].push(x/(L+1+20*l))+(l++<L&&p(L)),p(95),x+24*w+128",
+    "codeLen": 389,
+    "code": "a=Array,c=10584e3/71,l=0,p=L=>A.push(a(0|c/(1+1/PI**2*l)).fill(0))+(l++<L?p(L):l=0),t?0:(this.A=a(),y=a(6).fill(0))+p(95),m=t/c,f=1+(m&4)/4,s=f*min(max(32*(m%1)/f-1,0),2)/2,z=0,f=a=>((y[z++]+=2**((a+[3,1,6+s,5,3,1,10+s,7][m&7])/12))/2205*352&16)-8,h=L=>A[l].shift()+(l++<L?h(L):l=0),w=h(95),x=f(-12)+f(-7)+f(0)+f(5)+f(12)+f(17)+w,p=L=>A[l].push(x/(L+1+20*l))+(l++<L&&p(L)),p(95),x+24*w+128",
+    "author": "lhphr",
+    "name": "sketchy reverb attempt",
+    "description": "An attempt at reverb. Not the most ideal, but it's something. EXTREMELY demanding on performance - play in Firefox if possible.",
+    "url": "https://dollchan.net/btb/res/44.html#69",
+    "date": "2022-05-22",
+    "sampleRate": 44100,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

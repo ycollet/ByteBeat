@@ -1,0 +1,51 @@
+{
+  "file": "songs/df55f4ae25d13bb7e4bf360bb1d90ebb.js",
+  "title": "XOMPLEX",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/df55f4ae25d13bb7e4bf360bb1d90ebb.js",
+  "sha256": "d4c9587cddcaa962e16c103f7ceefe3f673a7861ae65ae38e5705a76cbb3b79d",
+  "upstream": {
+    "hash": "df55f4ae25d13bb7e4bf360bb1d90ebb",
+    "codeLen": 14219,
+    "fileOrig": 1,
+    "codeText": "/*\n      ___           ___           ___           ___           ___       ___           ___     \n     |\\__\\         /\\  \\         /\\__\\         /\\  \\         /\\__\\     /\\  \\         |\\__\\    \n     |:|  |       /::\\  \\       /::|  |       /::\\  \\       /:/  /    /::\\  \\        |:|  |   \n     |:|  |      /:/\\:\\  \\     /:|:|  |      /:/\\:\\  \\     /:/  /    /:/\\:\\  \\       |:|  |   \n     |:|__|__   /:/  \\:\\  \\   /:/|:|__|__   /::\\~\\:\\  \\   /:/  /    /::\\~\\:\\  \\      |:|__|__ \n ____/::::\\__\\ /:/__/ \\:\\__\\ /:/ |",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "XOMPLEX",
+    "description": "Using PrincessPriscillaPT's technology.",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8759",
+      "https://www.reddit.com/r/bytebeat/comments/1mkstir/xomplex_v20/"
+    ],
+    "date": "2025-08-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "fa8ea44df2742983b14ce96da67c33d7",
+        "author": "MarioFan171",
+        "name": "Lyric Machine v2.0",
+        "url": [
+          "https://dollchan.net/btb/res/2971.html#8666",
+          "https://www.reddit.com/r/bytebeat/comments/1mi0j6z/lyric_machine_v20/"
+        ]
+      },
+      {
+        "hash": "7aa7d7fe84806523417f3ef02f319fb0",
+        "author": "burlynn n01se",
+        "name": "A NΞW DIMΞNSION",
+        "url": "https://battleofthebits.com/arena/Entry/A+N%CE%9EW+DIM%CE%9ENSION/42606/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-17"
+  }
+}

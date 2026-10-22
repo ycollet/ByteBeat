@@ -1,0 +1,25 @@
+{
+  "file": "songs/3cf13eef5e1d990c4a0e44819d017848.js",
+  "title": "ambience",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "75a0ffa0a25f5b317f162eb8250e2d3c2f9317f79c6da849b66324e5d66a9803",
+  "upstream": {
+    "hash": "3cf13eef5e1d990c4a0e44819d017848",
+    "codeMinLen": 251,
+    "codeMin": "t/=4,r=(x,y=12288,z=0.5)=>(t?0:a=Array(y).fill(0),b=x%256+a.shift(),a.push(b*z),b),r(sin(sin(t*PI/12)+sin(t*PI/20)*(t/2%1024/1024-.5)*sin(t*PI/5E4)*10)/2,12288,-.5)/2-r(sin(sin(t*PI/10)+sin(t*PI/15)*(t/3%1024/1024-.5)*sin(t*PI/49E3)*10)/2,16383,-.5)/2",
+    "codeLen": 262,
+    "code": "t/=4,r=(x,y=12288,z=0.5)=>(t?0:a=Array(y).fill(0),b=(x%256)+a.shift(),a.push(b*z),b),\n(r(sin(sin(t*PI/12)+sin(t*PI/20)*((t/2%1024)/1024-.5)*sin(t*PI/5e4)*10)/2,12288,-0.5)/2-r(sin(sin(t*PI/10)+sin(t*PI/15)*((t/3%1024)/1024-.5)*sin(t*PI/49e3)*10)/2,16383,-0.5)/2)",
+    "author": "PortablePorcelain",
+    "name": "ambience",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11icxja/ambience/",
+    "date": "2023-03-04",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

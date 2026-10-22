@@ -1,0 +1,25 @@
+{
+  "file": "songs/b4793cef083f8e0019629cf08d8c0a80.js",
+  "title": "non-periodic screaming",
+  "author": "petet",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "909ddb201a6884909d2660a5d241073265ad04ac5b41ab1842d1a97952c472d6",
+  "upstream": {
+    "hash": "b4793cef083f8e0019629cf08d8c0a80",
+    "codeMinLen": 123,
+    "codeMin": "abs(((t>>14)*(t>>8)*(t>>3)*(t>>4)|(t>>15)*(t>>11)*(t>>3))*((t>>13)%5<3|(t>>8)%2==0&(t>>12)%7<5))%(64+(t>>14-(t>>13))%15*32)",
+    "codeLen": 135,
+    "code": "abs(((t>>14)*(t>>8)*(t>>3)*(t>>4)|((t>>15)*(t>>11)*(t>>3)))*(((t>>13)%5<3)|(((t>>8)%2==0)&(t>>12)%7<5)))%(64+32*((t>>(14-(t>>13)))%15))",
+    "author": "petet",
+    "name": "non-periodic screaming",
+    "url": "https://battleofthebits.com/arena/Entry/non-periodic+screaming.txt/42175/",
+    "date": "2021-01-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-17"
+  }
+}

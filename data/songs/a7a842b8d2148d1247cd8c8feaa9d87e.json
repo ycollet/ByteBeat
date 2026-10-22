@@ -1,0 +1,32 @@
+{
+  "file": "songs/a7a842b8d2148d1247cd8c8feaa9d87e.js",
+  "title": "Shimmer surfer 2",
+  "author": "IncreaseRegular",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f1978cff77adcff00817244fdd99fe489663ae535346c30a5f85b06a3a5fc677",
+  "upstream": {
+    "hash": "a7a842b8d2148d1247cd8c8feaa9d87e",
+    "codeMinLen": 173,
+    "codeMin": "a=t/4*[1,2][t>>11&1]*'4567'[t>>13&3]&64,b=6*t*(t>>11&t>>13)%256*(-t&2047)/4E3,c=(t*[2,random(),4,random()][t>>12&3]&128)%256*(-t&4095/'21'[t>>12&1])/[2E3,4E3][t>>12&1],a+b+c",
+    "codeLen": 180,
+    "code": "a=(0.25*t*[1,2][t>>11&1])*'4567'[t>>13&3]&64,b=6*t*(t>>11&t>>13)%256*(-t&2047)/4E3,c=(t*[2,random(),4,random()][t>>12&3]&128)%256*(-t&4095/'21'[t>>12&1])/[2000,4000][t>>12&1],a+b+c",
+    "author": "IncreaseRegular",
+    "name": "Shimmer surfer 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/155b6mj/shimmer_surfer_2/",
+    "date": "2023-07-21",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "93df8c9431a24ade4744fe78e881f2fa",
+        "author": "IncreaseRegular",
+        "name": "Shimmer Surfer",
+        "url": "https://www.reddit.com/r/bytebeat/comments/153h95z/shimmer_surfer/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/ae5d081032040d62f43f15ee07339f2c.js",
+  "title": "I'm almost done getting rid of this world of evil",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ae5d081032040d62f43f15ee07339f2c.js",
+  "sha256": "8ba2f9ca2d5eecbe7da3efa7aa1964b6191073b41f2b565f7ecf9076bde470f1",
+  "upstream": {
+    "hash": "ae5d081032040d62f43f15ee07339f2c",
+    "codeMinLen": 539,
+    "codeLen": 579,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "S=sin,C=cos,u='2534'[t>>17&3],d=t*1.125**u/64,a=t*1.25**(u*1.03125**'0121'[t*[1.25,1.5,1.75,1.5][t>>17&3]>>11&3])/[7,14,21,14][t>>[13,12,13,12,14,13,12,11][t>>17&7]&3],j1='1010100010100010',j2='0101001001010100',(d&16)+(1.02*d&16)+(1.5*d&16)+(1.52*d&16)+a%16+1.03*a%16+1.5*a%16+1.53*a%16+S(t/2|t/3)*((-t>>9&15)+1)*j1[t>>13&15]+C(t/4|t/5)*((-t>>9&15)+1)*j2[t>>13&15]+S(t/7|t/9)*((-t>>11&15)+1)*j1[t>>15&15]+C(t/11|t/13)*((-t>>11&15)+1)*j2[t>>15&15]+32+random()*((-t>>9&31)+1)*(-t>>14&1)+t*'21202320021202320414045",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "I'm almost done getting rid of this world of evil",
+    "url": "https://dollchan.net/btb/res/77.html#3718",
+    "date": "2024-06-13",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

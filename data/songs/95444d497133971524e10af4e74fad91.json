@@ -1,0 +1,26 @@
+{
+  "file": "songs/95444d497133971524e10af4e74fad91.js",
+  "title": "Unfinished Accurate Super Mario Bros Underground Theme",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 54067.2,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7dc9821d170f0321fa1b69339758021c4f0105d214d5e0f0f306ad6e5a2cb629",
+  "upstream": {
+    "hash": "95444d497133971524e10af4e74fad91",
+    "codeMinLen": 194,
+    "codeMin": "n=[.62,.415][t/3>>16&1],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1][(A=t*n*2**([0,12,-3,9,-2,10][(t>>13)%12]/12))>>3&31]*8+(A/2&32)+((A*2&128)*(-t>>5&255)>>9)",
+    "codeLen": 201,
+    "code": "n=[.62,.415][t/3>>16&1],[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1][(A=t*n*2**([0,12,-3,9,-2,10][(t>>13)%12]/12))>>3&31]*8+(A/2&128/4)+((A*2&128&255)*(-t>>5&255)>>9)",
+    "author": "Decent-Manager-6169",
+    "name": "Unfinished Accurate Super Mario Bros Underground Theme",
+    "url": "https://dollchan.net/btb/res/520.html#2619",
+    "date": "2023-11-11",
+    "sampleRate": 54067.2,
+    "coverName": "Super Mario Bros. - Underground Theme",
+    "coverUrl": "https://youtu.be/c0SuIMUoShI",
+    "tags": [
+      "256"
+    ]
+  }
+}

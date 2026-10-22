@@ -1,0 +1,26 @@
+{
+  "file": "songs/ba9c4218443284fab9b847747010adee.js",
+  "title": "visual trackrr",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ba9c4218443284fab9b847747010adee.js",
+  "sha256": "efa4eb2a2163d7e740f9a8b0152cc88ebfe2216b2e6fb27138218a2bd1d41d54",
+  "upstream": {
+    "hash": "ba9c4218443284fab9b847747010adee",
+    "codeLen": 4154,
+    "fileOrig": 1,
+    "codeText": "PS=0,NS=1,LN=2,DS=3,WT=4,\n// \"tn|WF|vl|DT\"\n\nspeed = 10,\n\nd = [\n'f9|02|03',\n'30|00|0f',",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "visual trackrr",
+    "description": "Tracker visualization in error console",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18gjd4h/whoever_is_active/",
+    "date": "2023-12-12",
+    "sampleRate": 16000,
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

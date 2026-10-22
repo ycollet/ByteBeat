@@ -1,0 +1,36 @@
+{
+  "file": "songs/357147d93d811659b441351800bcaa90.js",
+  "title": "Electrodance at Midnight",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/357147d93d811659b441351800bcaa90.js",
+  "sha256": "7ed01acc9b9ec82f09c1a2a1b82f0397cb03afa4fbf186651dd68ebfbc25229e",
+  "upstream": {
+    "hash": "357147d93d811659b441351800bcaa90",
+    "codeMinLen": 617,
+    "codeLen": 859,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "slow=0;BPM=slow?125:165;A=B=C=D=0,note=(a=0,b=0)=>{return(x,d)=>{return(a+=b+=(440*2**(x/12)-b)/20)/d;};};_a=note();_b=note();return(t,s)=>{b=t*BPM/60;e=60/BPM;KICK=sin(cbrt(t%e)*192);HAT=(random()-.5+(t*2.0833*2**15&1?.25:-.25)/1.5)/exp(t%(e/2))**64*(b*2&1);CLAP=(A+=B+=(random()-.5-A-B*3)/9)*(1/exp(t%(e))**36*3%1)*8*(b&1);g=_a([6,6,6,6,2,2,2,1][b>>1&7],s)*PI/8;r=_b([-6,1,6,-6,1,6,-6,1,6,-6,1,9,8,9,4,-1,-10,-3,2,-10,-3,2,-10,-3,2,-10,-3,2,-11,-4,1,4][b*2&31],s)*PI;BAS=(sin(g)**256-sin(g+.1)**256)*4*(C+=(cbr",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "Electrodance at Midnight",
+    "url": "https://dollchan.net/btb/res/163.html#3848",
+    "date": "2024-06-25",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "3f46baf3d6ea1dc6e90c238fc49dadbd",
+        "author": "Zackx",
+        "name": "what i making in midnight (harmony)",
+        "url": "https://dollchan.net/btb/res/204.html#772"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-27"
+  }
+}

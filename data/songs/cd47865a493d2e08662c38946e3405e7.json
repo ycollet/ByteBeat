@@ -1,0 +1,24 @@
+{
+  "file": "songs/cd47865a493d2e08662c38946e3405e7.js",
+  "title": "Pyramid Dungeon",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "86d4357edf333f1e3d6d2fd4b1ed8ea090199369e9dc5ddad9a44810b7146f03",
+  "upstream": {
+    "hash": "cd47865a493d2e08662c38946e3405e7",
+    "codeLen": 139,
+    "code": "m=2**([t>>13&5,7-(t>>13&5),7,4+3*(t>>17&2)][t>>16&3]/12),(m*t/2&32)+(m*t/8&31)+32*tan(PI/4*sin(m*t*PI/125)**(m*t/(8-2*(t>>17&1))&t>>12&62))",
+    "author": "lhphr",
+    "name": "Pyramid Dungeon",
+    "description": "Slight desert-like style in this.",
+    "url": "https://dollchan.net/btb/res/44.html#69",
+    "date": "2022-05-22",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/3a3389726b6d528888b8a9e8b3e0a5d4.js",
+  "title": "midi test 4",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3a3389726b6d528888b8a9e8b3e0a5d4.js",
+  "sha256": "50386f3c35515efe0e9f0d591154fb2380de8c81875857f58260c5472c9abe76",
+  "upstream": {
+    "hash": "3a3389726b6d528888b8a9e8b3e0a5d4",
+    "codeLen": 4772,
+    "codeFormLen": 6546,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t||(tick=0),tick+=3/256,i=(x,c)=>(x.map(([q,r,s])=>(t*s/512&16*((tick%c)>=r&&(tick%c)<(q+r)))).reduce((a,b)=>a+b)),t||(midi=[[[384,0,406],[384,0,342],[384,0,256],[384,0,171],[384,0,128],[384,384,171],[384,384,342],[384,384,271],[384,384,203],[384,384,136],[384,768,228],[384,768,171],[384,768,406],[384,768,342],[384,768,114],[384,1152,192],[384,1152,171],[384,1152,128],[384,1152,384],[384,1152,256],[384,1536,304],[384,1536,152],[384,1536,128],[384,1536,406],[384,1536,342],[384,1920,406],[384,1920,271],[384,1",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "midi test 4",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1345qw3/midi_test_4/",
+    "date": "2023-05-01",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ]
+  }
+}

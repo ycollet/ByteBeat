@@ -1,0 +1,29 @@
+{
+  "file": "songs/8a38e6561d2677fda2874d8346294e1e.js",
+  "title": "signal stack β",
+  "author": "funute",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8a38e6561d2677fda2874d8346294e1e.js",
+  "sha256": "b634dbaa6b1af827d472501d3f4b6f0df84aa221a521e2a78208806bfba09802",
+  "upstream": {
+    "hash": "8a38e6561d2677fda2874d8346294e1e",
+    "codeMinLen": 792,
+    "codeLen": 1016,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "RATE=44100,fn=31,t/=RATE,bd=1/156*60/2,ml=16,mn=int(t/ml/bd),mtl=bd*ml,mp=(t%mtl)/mtl,f=(fn,n,hz,t)=>(n?fn(n)*sin(2*PI*t*hz*n)+f(fn,n-1,hz,t):0),sq=n=>n&1?1/n:0,saw=n=>1/n,tri=n=>n&1?(.7*((n/2&1)?1:-1)/n/n):0,lp=(fn,k,n)=>(fn(n)*max(0,1-n/k)),bp=(fn,k,n)=>(fn(n)*max(0,1-abs(n-k))),dp=(fn,k,n)=>(fn(n)*max(0,1-n/k)*min(1,n/k)),ms=(a,m)=>a.map(m).reduce((a,b)=>(a+b)),nf=(base,st)=>base*pow(pow(2,1/12),st),ch=(p,s,t)=>ms([0,1,2,3],k=>ms([1,.999],dt=>(b=k*4,f(n=>lp(saw,p,n),fn,nf(dt*208,(s&(15<<b))>>b),t)/4))),a",
+    "isTruncated": 1,
+    "author": "funute",
+    "name": "signal stack β",
+    "url": "https://battleofthebits.com/arena/Entry/signal+stack+%CE%B2/63469/",
+    "date": "2023-11-26",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "songs/4ad451887805ae077e582d48d1882c22.js",
+  "title": "\"an random song i made\" c compatible",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 40960,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dce20463563f2ae2c1d177ea7a9b7120cc109e509ea267ae66a54caacec6ab6d",
+  "upstream": {
+    "hash": "4ad451887805ae077e582d48d1882c22",
+    "codeLen": 31,
+    "code": "(t*(t&(1<<4+(t>>17&3))+3)>>8)+t",
+    "author": "PortablePorcelain",
+    "name": "\"an random song i made\" c compatible",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15hkahm/an_random_song_i_made_c_compatible/",
+    "date": "2023-08-04",
+    "sampleRate": 40960,
+    "remix": [
+      {
+        "hash": "6d0c0fe1f50a3c803c59881adccc746b",
+        "author": "tribute1123",
+        "name": "an random song i made",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11fk93c/an_random_song_i_made/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/a883fd248a46a25a5001fa9901262fcc.js",
+  "title": "Spring park",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "72a043bf35709d2102b3b1525e222300014d5ef68d954c95d94ffa36023253fd",
+  "upstream": {
+    "hash": "a883fd248a46a25a5001fa9901262fcc",
+    "codeMinLen": 132,
+    "codeMin": "((127&t*2**(parseInt('5CL5J5L05CL5J5L02CL2J2LM2OM2L2J0'[31&t>>13],36)/12)*.395)+(24*sin(t/8E3)+64)&128)*(1-t%8192/12E3)*2+t/32%256/3",
+    "codeLen": 134,
+    "code": "((127&t*2**(parseInt('5CL5J5L05CL5J5L02CL2J2LM2OM2L2J0'[31&t>>13],36)/12)*.395)+(sin(t/8E3)*24+64)&128)*(1-t%8192/12e3)*2+(t/32%256)/3",
+    "author": "Zackx",
+    "name": "Spring park",
+    "url": "https://dollchan.net/btb/res/204.html#1445",
+    "date": "2023-06-30",
+    "sampleRate": 40000,
+    "tags": [
+      "256"
+    ]
+  }
+}

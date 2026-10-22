@@ -1,0 +1,33 @@
+{
+  "file": "songs/7c677f7ec95edf1eb6809522912dc89b.js",
+  "title": "6th Wave",
+  "author": "feeshbread",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7c677f7ec95edf1eb6809522912dc89b.js",
+  "sha256": "ad0631f81e4f48431a3133230bf9232bb5d09c97ab61b4a24212812b3a99bf88",
+  "upstream": {
+    "hash": "7c677f7ec95edf1eb6809522912dc89b",
+    "codeLen": 12132,
+    "fileOrig": 1,
+    "codeText": "//======================================================//\n// - 6th Wave - by feeshbread (for ByteBattle season 3) //\n//======================================================//\n\n\nfi=0,\ndt=t,\n",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "6th Wave",
+    "description": "ByteBattle Season 3 Competition - 1st place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1io5qmi/6th_wave_my_entry_for_bytebattle_season_3/",
+      "https://bytebeat.oops.wtf/season3/entries.html"
+    ],
+    "date": "2025-02-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-12-26"
+  }
+}

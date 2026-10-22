@@ -1,0 +1,25 @@
+{
+  "file": "songs/1673d6d3963ce4b0f3e876384a2adc23.js",
+  "title": "mr. arpeggiator's cousin as bassist",
+  "author": "tonic",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1e67db36bb462ca07f9c85f73791cc9ff745ba24d38329705aaa8aa14083ebf0",
+  "upstream": {
+    "hash": "1673d6d3963ce4b0f3e876384a2adc23",
+    "codeMinLen": 26,
+    "codeMin": "(t/4&244)>>t/((t>>14&3)+4)",
+    "codeLen": 27,
+    "code": "(t/4&0xf4)>>t/((t>>14&3)+4)",
+    "author": "tonic",
+    "name": "mr. arpeggiator's cousin as bassist",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=5#c388569",
+    "date": "2011-10-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

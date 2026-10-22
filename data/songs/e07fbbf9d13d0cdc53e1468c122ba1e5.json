@@ -1,0 +1,32 @@
+{
+  "file": "songs/e07fbbf9d13d0cdc53e1468c122ba1e5.js",
+  "title": "b-link",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "26c36dfaf21a3903e9eefcd3d9fff9c035f8ba4d5a341bf544174c9773c99565",
+  "upstream": {
+    "hash": "e07fbbf9d13d0cdc53e1468c122ba1e5",
+    "codeLen": 67,
+    "code": "(((t>>(t>>14)%4)+t*(1+(1+(t>>18)%6)*(t>>12)*(t>>13)%8))/4|-t>>5)+20",
+    "author": "hcdphobe",
+    "name": "b-link",
+    "url": "https://dollchan.net/btb/res/163.html#890",
+    "date": "2023-04-20",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "7cec7af00ff428822e7786dc8a080723",
+        "author": "wiretapped",
+        "name": null,
+        "url": "https://www.noisebridge.net/wiki/Bytebeat"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-29"
+  }
+}

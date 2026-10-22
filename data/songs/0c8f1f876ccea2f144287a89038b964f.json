@@ -1,0 +1,27 @@
+{
+  "file": "songs/0c8f1f876ccea2f144287a89038b964f.js",
+  "title": "Dark Forest",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d8e19acbd680205906c7c542ff6584113ccb144587f54197d396bda60c5cea61",
+  "upstream": {
+    "hash": "0c8f1f876ccea2f144287a89038b964f",
+    "codeLen": 262,
+    "code": "T=t/5E3,b=T>>7,k=b+2&4?8:4,S=(s,p,d=0)=>(t*2**(p+'037'[(T-d)/s%3|0]/12+((1-(T>>5&3))%2+1)/4)&128)/3,N=p=>1E5*sin(T*p|0)&64,S(2,0)+S(2,0,3)/2+(b&&S(0,-2))+(b>1&&S(.25,1)*(1-T%16/20))+(b>2&&.4*N(1E6)*(1-(T+k/2)%k/k))+(b>3&&(64/(T%k)&64)+(T&k&&.6*N(330)*(1-T%k/k)))",
+    "author": "SthephanShi",
+    "name": "Dark Forest",
+    "description": "\"You are walking in the dark through a winter forest among huge frozen trees. It seems that someone is watching you from the darkness...\"<br>The code generates chord progressions from the initial pattern '037'. Winter Chip XVIII battle - 2nd place (bytebeat1k).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Dark+forest/57555/",
+      "https://www.reddit.com/r/bytebeat/comments/10k73al/dark_forest/"
+    ],
+    "date": "2023-01-09",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-05-20"
+  }
+}

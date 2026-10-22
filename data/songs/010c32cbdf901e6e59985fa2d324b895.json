@@ -1,0 +1,30 @@
+{
+  "file": "songs/010c32cbdf901e6e59985fa2d324b895.js",
+  "title": "octal cycle",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "297f3209d0246465a79dd63e99d027e3f5734437d99e18f333bc350e9e674c74",
+  "upstream": {
+    "hash": "010c32cbdf901e6e59985fa2d324b895",
+    "codeMinLen": 30,
+    "codeMin": "16*(t>>3).toString(8)[t>>3&15]",
+    "codeLen": 34,
+    "code": "16*(f=t>>3,f.toString(8)[t>>3&15])",
+    "author": "PortablePorcelain",
+    "name": "octal cycle",
+    "description": "Set to combined mode, max zoom.",
+    "url": "https://dollchan.net/btb/res/55.html#119",
+    "date": "2022-07-27",
+    "sampleRate": 32000,
+    "drawing": {
+      "mode": "Combined",
+      "scale": "0"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

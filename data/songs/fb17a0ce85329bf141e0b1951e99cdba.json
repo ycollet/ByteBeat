@@ -1,0 +1,24 @@
+{
+  "file": "songs/fb17a0ce85329bf141e0b1951e99cdba.js",
+  "title": "hell rock",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3744710e643abbc0c4a7b830756a814b566a75cf1fa39d18e3e9bc03fff53883",
+  "upstream": {
+    "hash": "fb17a0ce85329bf141e0b1951e99cdba",
+    "codeMinLen": 110,
+    "codeMin": "t>>t/(t&32768?11:10)&127^(t>>(t&16384?4:8)&(t&65536?127:63)&(t&262144?127:0))+(5e4/(t/(t&32768?4:6)&4095)&127)",
+    "codeLen": 130,
+    "code": "((t>>12*t/(t/8&4096?130:120)))&127^(((t>>(t/4&4096?4:8))&(t/8&4096?127:63))&(t/64&4096?127:0))+((5e4/(t/(t/8&4096?4:6)&4095))&127)",
+    "author": "kOLbOSa_exe",
+    "name": "hell rock",
+    "url": "https://www.reddit.com/r/bytebeat/comments/sip8sk/hell_rock_32khz_nonjs/",
+    "date": "2022-02-02",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "file": "songs/eb251e5a238e628caa8322e5e322bd28.js",
+  "title": "Chiptune With The Zackx Song Engine",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 49734,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6f77911ace60ef12c40eaed9973260b08b37599763a7ea50f27a504680f927cb",
+  "upstream": {
+    "hash": "eb251e5a238e628caa8322e5e322bd28",
+    "codeMinLen": 416,
+    "codeMin": "x=j=>(b=a=>t*[.374,.353][t>>17&1]*a%256*(t/16384%2)*(1-t%8192/1E4)/2,a=t=>(t*=t>=0,(t*j/1.5*2**(parseInt('7BEC7BEC7BEC7BEI6ADB6ADB6ADB6AD4'[t>>13&31],36)/12)%256/2+16&128)%256*(1-t/8192%1)),min(max((a(t)+a(t-12288)/2+a(t-24576)/4+a(t-49152)/8)/2+(b(j)+b(j-.005))+(64*tanh(2*sin((t&16383)**.5))*(1&-t>>14)+48*random()*(1-t/8192%1)**3+(t*sin(t>>2)&128)*(1-t/32768%1)**2*(1&t>>15)/2)-128,-128),127)),[x(1.005),x(.9995)]",
+    "codeLen": 440,
+    "code": "x=j=>((b=a=>(t*([.374,.353][t>>17&1])*a)%256*(t/16384%2)*(1-t%8192/1e4)/2),(a=t=>(t*=(t>=0),((t*j/1.5*2**(parseInt(\"7BEC7BEC7BEC7BEI6ADB6ADB6ADB6AD4\"[t>>13&31],36)/12)%256/2+16)&128)%256*(1-t/8192%1)),min(max((a(t)+(a(t-12288)/2)+(a(t-24576)/4)+(a(t-49152)/8))/2+(b(j)+b(j-.005))+((64*tanh(2*sin((t&16383)**.5)))*(1&-t>>14)+(48*random()*(1-t/8192%1)**3)+(t*sin(t>>2)&128)*((1-t/32768%1)**2)*(1&t>>15)/2)-128,-128),127))),[x(1.005),x(.9995)]",
+    "author": "Two2Fall",
+    "name": "Chiptune With The Zackx Song Engine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ic1tgu/chiptune_with_the_zackx_song_engine/",
+    "date": "2025-01-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 49734,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "1a421a16985c974a2034ca2bd29c7770",
+        "author": "Zackx",
+        "name": "Bytewave/Synthbyte engine example",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3982",
+          "https://www.reddit.com/r/bytebeat/comments/1e9edwr/here_is_an_examples_how_does_work_my_engine_for/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-21",
+    "date_edited": "2025-12-04"
+  }
+}

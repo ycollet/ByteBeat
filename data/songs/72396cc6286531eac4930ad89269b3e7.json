@@ -1,0 +1,31 @@
+{
+  "file": "songs/72396cc6286531eac4930ad89269b3e7.js",
+  "title": "Mountain Road",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/72396cc6286531eac4930ad89269b3e7.js",
+  "sha256": "f2a5a10ad1f7f36b463908e947618dcdaa35457ec9b7f6ac26da26aa2979b808",
+  "upstream": {
+    "hash": "72396cc6286531eac4930ad89269b3e7",
+    "codeMinLen": 790,
+    "codeFormLen": 1855,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t||(A=Array(n=16E3),I=[4,7,11],J=[0,2,...I,7,4,2,0,2,...I,14,11,7]),b=2.5E-5*t%192,T=8*b,S=(a,s,p,v=0)=>((t+v*sin(t/1E3))*2**(p+a[T/s%a.length|0]/12+((1-(T>>5&3))%2+2)/4)&128)/4,N=p=>1E5*sin(T*p|0)&64,R=(s,l,x=1)=>b<s?0:b<s+l?(b-s)/l:x,F=(s,l)=>b<s?1:b<s+l?1-(b-s)/l:0,D=(a,b)=>1-T%a/b,M=(a,s)=>a>>(T>>s)&1,k=b>80,l=b<160,m=k&&b<112,E=(A[t%n]||0)+.8*R(0,12,F(128,64))*S(J,b>112?16:k?8:2,0,k?16:8)+(b>16&&1.6*F(l?96:160,32)*S(I,.2,1)*D(6,9)*D(2,b>96?2:2+R(48,16,3)))+1.4*R(96,32,F(144,40))*S(I,2,1)*D(6,9)*D(2,3)+",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Mountain Road",
+    "description": "\"You are riding your bike down a road among the mountains. A valley with forests, meadows and waterfalls rushes below.\" Very Rare Formats II battle - 3rd place (bytebeat1k).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Mountain+Road/63417/",
+      "https://www.reddit.com/r/bytebeat/comments/186lrsj/mountain_road/"
+    ],
+    "date": "2023-11-24",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

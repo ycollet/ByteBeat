@@ -1,0 +1,32 @@
+{
+  "file": "songs/f69e3f666016dc0fc68ad50392300ef8.js",
+  "title": "Remix of kernkraft 400",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "04883343223f20dd557feca5e4d3b356565a29d6a404c223e5f93452cdf111a0",
+  "upstream": {
+    "hash": "f69e3f666016dc0fc68ad50392300ef8",
+    "codeMinLen": 251,
+    "codeMin": "t/=4,rev=x=>(t?0:a=Array(12288).fill(0),b=x+a.shift(),a.push(b/2),b),rev((t/1.5*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52%256/2+4E3/(t%4096)+(128*random()&-t>>5)*[0,1][(t>>11)%2])%256/2)",
+    "codeLen": 254,
+    "code": "t/=4,rev=x=>(t?0:a=Array(12288).fill(0),b=x+a.shift(),a.push(b/2),b),rev(((t/1.5*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52)%256/2+4e3/(t%4096)+(random ()*128&-t>>5)*[0,1][(t>>11)%2])%256/2)",
+    "author": "Glebguything",
+    "name": "Remix of kernkraft 400",
+    "url": "https://dollchan.net/btb/res/204.html#893",
+    "date": "2023-04-20",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

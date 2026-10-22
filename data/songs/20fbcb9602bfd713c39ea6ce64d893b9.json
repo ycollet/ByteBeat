@@ -1,0 +1,25 @@
+{
+  "file": "songs/20fbcb9602bfd713c39ea6ce64d893b9.js",
+  "title": "badbeats and safe square edition",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bd63bb789886809415470f9df7a698ed3bbb8b7b50abd6a9d4d6fb106fe9058e",
+  "upstream": {
+    "hash": "20fbcb9602bfd713c39ea6ce64d893b9",
+    "codeMinLen": 58,
+    "codeMin": "t/4*(0xbadbea75>>(t>>12&30)&3)*(0x5afe5>>(t>>16&28)&3)&128",
+    "codeLen": 67,
+    "code": "t*((0xbadbea75>>((t>>12)&30)&3)*0.25*(0x5afe5>>((t>>16)&28)&3))&128",
+    "author": "psubscirbe",
+    "name": "badbeats and safe square edition",
+    "url": "https://dollchan.net/btb/res/284.html#332",
+    "date": "2023-01-13",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

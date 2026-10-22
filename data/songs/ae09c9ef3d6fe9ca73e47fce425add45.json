@@ -1,0 +1,23 @@
+{
+  "file": "songs/ae09c9ef3d6fe9ca73e47fce425add45.js",
+  "title": "shepard's tone",
+  "author": "emelchenko",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "18e195d663bc58ab21ac5546ca7cc0cd34ebee8391df35578f8cd65d47190442",
+  "upstream": {
+    "hash": "ae09c9ef3d6fe9ca73e47fce425add45",
+    "codeLen": 58,
+    "code": "f=i=>i&&sin(t*1.5**i/256*((t>>16&7)/16+1))+f(i-1),f(16)/16",
+    "author": "emelchenko",
+    "name": "shepard's tone",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h7xojq/shepards_tone/",
+    "date": "2024-12-06",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/a321fbb1f2de16a9f3f7e4dc257d615f.js",
+  "title": "Tr4nsf0rm",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2fe427e2b0ded75175224b4690cee32e60ad3930357b8699296139839b66485e",
+  "upstream": {
+    "hash": "a321fbb1f2de16a9f3f7e4dc257d615f",
+    "codeMinLen": 114,
+    "codeMin": "[t*10/[36,24,18,15][t>>16&3]*[1.2,1.5,1.6,1.8][t/4e3&3],(t*random()|t>>6|t>>4)*(t>>19&1)+4E5/(t&4095)*!(~t>>19&3)]",
+    "codeLen": 134,
+    "code": "[t*10/[36,24,18,15][(t>>16)%4]*[1.2,1.5,1.6,1.8][(t/4000>>0)%4],[0,(t*random()|t>>6|t>>4)][(t>>19)%2]+[0,0,0,4e5/(t&4095)][(t>>19)%4]]",
+    "author": "absolute197",
+    "name": "Tr4nsf0rm",
+    "url": [
+      "https://ihsoyct.github.io/index.html?comments=130muje&id=jhx3pxv",
+      "https://www.reddit.com/r/bytebeat/comments/130muje/tr4nsf0rm/"
+    ],
+    "date": "2023-04-27",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-11-20"
+  }
+}

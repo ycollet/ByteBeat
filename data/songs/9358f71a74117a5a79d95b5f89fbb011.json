@@ -1,0 +1,33 @@
+{
+  "file": "songs/9358f71a74117a5a79d95b5f89fbb011.js",
+  "title": "nightcore-ish remix",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 33800,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "acfbf82891de8ece969641cd6d9471f7d340b595065447aeda12deabb9f2fa35",
+  "upstream": {
+    "hash": "9358f71a74117a5a79d95b5f89fbb011",
+    "codeMinLen": 220,
+    "codeMin": "t*=1.1,t+=262144,(((([2,2,1,,1,,1,,.9,.9,1,1,1.5,1.5,.5,.5][t>>11&15]*t&127)+(t>>12+(t>>9&7))&128)+[4E5,random()*4E5][(t>>14)%2]/(t%16384)&255)/2+((a=t/[8,8,9,[10,6][t>>15&1]][t>>16&3])&63)*(b=t>>13&1)+(a*1.01&63)*b)/1.1",
+    "codeLen": 225,
+    "code": "t*=1.1,t+=16384*16,(((([2,2,1,0,1,0,1,0,.9,.9,1,1,1.5,1.5,.5,.5][t>>11&15]*t&127)+(t>>12+(t>>9&7))&128)+[4e5,random()*4e5][(t>>14)%2]/(t%16384)&255)/2+((a=t/[8,8,9,[10,6][t>>15&1]][t>>16&3])&63)*(b=t>>13&1)+(a*1.01&63)*b)/1.1",
+    "author": "Maxi",
+    "name": "nightcore-ish remix",
+    "url": "https://dollchan.net/btb/res/500.html#2647",
+    "date": "2023-11-14",
+    "sampleRate": 33800,
+    "remix": [
+      {
+        "hash": "26e826270f8ccc908c830694df262df6",
+        "author": "Maxi",
+        "name": "right triangle",
+        "url": "https://dollchan.net/btb/res/500.html#2645"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

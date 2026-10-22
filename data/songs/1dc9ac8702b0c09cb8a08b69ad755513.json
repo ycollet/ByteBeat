@@ -1,0 +1,33 @@
+{
+  "file": "songs/1dc9ac8702b0c09cb8a08b69ad755513.js",
+  "title": "BFDI Ep.3 w/ Pitch Interpolation",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 34951.789,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f01deb461f9c7c91d1972c8dd6a0a8f04ef0223058d283cff31bc979344b2690",
+  "upstream": {
+    "hash": "1dc9ac8702b0c09cb8a08b69ad755513",
+    "codeMinLen": 251,
+    "codeMin": "t||(d=Array(D=12288).fill(0),a=b=0),c=a+=b+=(2**(([[0,3,7,12,15,12,7,3],[3*(t>>15&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[0,7,12,19,24,19,12,7]][t>>16&3][t>>12&7]+4.2)/12+2)-b)/(300+2/3*100),c%=512,o=(c&256?128-c/2:c/2)+d[t%D],d[t%D]=o/2.5,o/4;",
+    "codeLen": 256,
+    "code": "t||(d=Array(D=12288).fill(0),a=b=0),(c=a+=b+=(2**(([[0,3,7,12,15,12,7,3],[3*(t>>15&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[0,7,12,19,24,19,12,7]][t>>16&3][t>>12&7]+4.2)/12+2)-b)/(300+((2/3)*100))),c%=512,o=(c&256?128-c/2:c/2)+d[t%D],d[t%D]=o/2.5,o/4",
+    "author": "PrincessPriscillaPT",
+    "name": "BFDI Ep.3 w/ Pitch Interpolation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hdajbt/that_bfdi_ep3_and_ep8_scene_w_pitch_interpolation/",
+    "date": "2024-12-13",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 34951.789,
+    "remix": [
+      {
+        "hash": "8ee04059783be40bea00923ddad1bab1",
+        "author": "lhphr",
+        "name": "the throwback",
+        "url": "https://dollchan.net/btb/res/44.html#481"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

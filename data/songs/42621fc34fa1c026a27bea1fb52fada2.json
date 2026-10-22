@@ -1,0 +1,37 @@
+{
+  "file": "songs/42621fc34fa1c026a27bea1fb52fada2.js",
+  "title": "1k dance (Decent- Remix)",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 40140.801,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/42621fc34fa1c026a27bea1fb52fada2.js",
+  "sha256": "5e0e9217c5bc17bda28a2bfedf50c35daf75ce633e3e64314d6ff831f6833694",
+  "upstream": {
+    "hash": "42621fc34fa1c026a27bea1fb52fada2",
+    "codeMinLen": 1138,
+    "codeLen": 1186,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Hz=441/45*8192,n=440/Hz*128*2**(3/12),vb=sin(t/1e3)*5,K=sin(sin(1.3*sqrt(t%16384)))/((t%16384)+2e3)*1500,H=((t*random()&255)/128-1)/((t%8192)+256)*80,S=(sin(asin(sin(8*cbrt(t%16384))))+(((t*sin(t*5>>4))&255)/255-.5)*cbrt(-t%16384+250)/20)*(1-t%16384+16384)/33334*(t>>14&1),Bs=t%8192*n*'12'[t>>13&1]*2**([5,8,10,12][t>>15&3]/12),Bs=(((~Bs^-(Bs>>8&1))&240)/128-1)*((t%8192)-9e3)/13e3,Ch=Ch=>[128,192,224,240,250,240,224,192,128,64,32,16,6,16,32,64,128,192,224,240,224,192,128,64,32,16,32,64,128,255,128,1][t*n*2**(",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "1k dance (Decent- Remix)",
+    "url": "https://dollchan.net/btb/res/520.html#5496",
+    "date": "2025-02-19",
+    "mode": "Floatbeat",
+    "sampleRate": 40140.801,
+    "remix": [
+      {
+        "hash": "294c29f350765e64eff0fa683a182789",
+        "author": "raphaelgoulart",
+        "name": "1k dance",
+        "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-11-21"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/3cd3fba5d4af4c27d3a1d4faa8af376b.js",
+  "title": "100% Polyester but better",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3cd3fba5d4af4c27d3a1d4faa8af376b.js",
+  "sha256": "5297620c7385f08230d073f2034af751e25247e31cd06419ac86f8e7ff541efe",
+  "upstream": {
+    "hash": "3cd3fba5d4af4c27d3a1d4faa8af376b",
+    "codeLen": 1483,
+    "fileOrig": 1,
+    "codeText": "t/=48e3*60/125,t2=t-10,window.P=window.P||0,window.E=window.E||0,window.D=window.D||new Float32Array(8192),window.I=window.I||0,window.lp=window.lp||0,window.bp=window.bp||0,window.sP=window.sP||100,window.sE=window.sE||0,window.nE=window.nE||0,window.sLp=window.sLp||0,window.sBp=window.sBp||0,N=t<9?(5+(t*6&1)-t*PI/8**1/3):t<10?0:((z=t2*8&127)>96?'--------86-6-5555'[t2*2&15]:z>64?z<88?12:5+!(t2*2&1):z>31?z<56?12:'0x'+'DDDFFFDD'[t2*8&7]:z<24?12:2+(t2*4&3)),window.P+=(N-window.P)*0.01,targetFreq=440*92*2**(wi",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "100% Polyester but better",
+    "url": "https://www.bytebeat.cloud/post/b2524cca-4832-4698-ba5c-e2c12c54499d",
+    "date": "2026-09-28",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "a004178e37045c5378b69b574972a7d5",
+        "author": "ThusII",
+        "name": "100% Polyester",
+        "url": "https://www.bytebeat.cloud/post/d64c45f4-68f0-40b8-bbf9-b079434c805a"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-17"
+  }
+}

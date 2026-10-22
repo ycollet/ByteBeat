@@ -1,0 +1,34 @@
+{
+  "file": "songs/fbc2a692a7d0c8c6e68eb264d0ed5430.js",
+  "title": "on the verge (tech mix)",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fbc2a692a7d0c8c6e68eb264d0ed5430.js",
+  "sha256": "41e13ee4dbfdb8b5e78e15530f1520f77ade25ee62b845f12bd3bc798044cde8",
+  "upstream": {
+    "hash": "fbc2a692a7d0c8c6e68eb264d0ed5430",
+    "codeLen": 3677,
+    "fileOrig": 1,
+    "codeText": "/*!\n *\n * stagas - on the verge (tech mix)\n *\n */\n\nvar bpm = 125;\nvar tuning = 440;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "on the verge (tech mix)",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "7b13171219be7d0f2419c62b7e4dc777",
+        "author": "stagas",
+        "name": "on the verge",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-29"
+  }
+}

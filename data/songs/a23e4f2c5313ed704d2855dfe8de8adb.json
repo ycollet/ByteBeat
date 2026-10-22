@@ -1,0 +1,32 @@
+{
+  "file": "songs/a23e4f2c5313ed704d2855dfe8de8adb.js",
+  "title": "remix of 3DIAL",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "390e2ca47d3847e5b123d1a72fe52d1a2bf14652d0189216aafaaa8041cb114f",
+  "upstream": {
+    "hash": "a23e4f2c5313ed704d2855dfe8de8adb",
+    "codeMinLen": 308,
+    "codeMin": "h=(q=t/2,a=sin(q>>2),x=((q/2*(q>>13&1)*a|q>>5)&255)/2,c=(random()*q&128|q>>3)&128?0:44,r=23E4/(q&8191)&64,x+c+1.15*r),t/=4/3,v=t/3,m=v>>10&127^v>>10&v>>9&255,((3E3**(1-t/2**(12-(t>>12&1))%3/3)&64)+64*(1-t/16384%1)*sin((v%16384>>(v>>7&7))**3)**2+1.5*(2**((m/7|0)+[-1,1,1,4,4,6,9][m%7]/12)*t/25*11&32)+h)/1.759",
+    "codeLen": 310,
+    "code": "h=(q=t/2,a=sin(q>>2),x=((q/2*(q>>13&1)*a|q>>5)&255)/2,c=(random()*q&128|q>>3)&128?0:44,r=23E4/(q&8191)&64,x+c+1.15*r),t/=4/3,v=t/3,m=v>>10&127^v>>10&v>>9&255,(((3E3**(1-t/2**(12-(t>>12&1))%3/3)&64)+64*(1-t/16384%1)*sin((v%16384>>(v>>7&7))**3)**2+1.5*(2**((m/7|0)+[-1,1,1,4,4,6,9][m%7]/12)*t/25*11&32))+h)/1.759",
+    "author": "hcdphobe",
+    "name": "remix of 3DIAL",
+    "url": "https://dollchan.net/btb/res/163.html#799",
+    "date": "2023-04-10",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "ba06c074da4f0c6f1e547d05d53bdb42",
+        "author": "lhphr",
+        "name": "3DIAL",
+        "url": "https://dollchan.net/btb/res/44.html#88"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/aa4e7d761c2fd80c70d195e9c2bc22f9.js",
+  "title": "Running out of Memory",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 35498.66666,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/aa4e7d761c2fd80c70d195e9c2bc22f9.js",
+  "sha256": "af55c626057b32b81e34d8d11ef8fc44a1aa000ff0c76e49065c4fb27a7335c4",
+  "upstream": {
+    "hash": "aa4e7d761c2fd80c70d195e9c2bc22f9",
+    "codeLen": 4803,
+    "fileOrig": 1,
+    "codeText": "v=-9e9,S=t%32768,R=((R=(sin(S*S*1.3>>12>>6)*t|127)&255)%256/512-.25)/[4,3.9,3.8,3.7,3.6,3.5,3.4,3.3,3.2,3.1,3,2.9,2.8,2.7,2.6,2.5,2.4,2.3,2.2,2.1,2,1.9,1.8,1.7,1.6,1.5,1.4,1.3,1.2,1.1,1,1][t>>10&31]*'0000000000000001'[t>>15&15]/1.2,B=([1,-1][t*(.944*2**('9524'[t>>16&3]/12))>>8&1]*[\"11110000111100001100101100001111\",a=\"11110000111100001100101100111111\",a,a][t>>16&3][t>>11&31])%256/9,B2=([1,-1,-1,-1,-1,-1,-1,-1][t*(.946*2**([12,11,9,11,12,14,9,11][t>>16&7]/12))>>4&7])%256/11,B3=([1,-1,-1,-1,-1,-1,-1,-1][t*(.9",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Running out of Memory",
+    "url": [
+      "https://dollchan.net/btb/res/520.html#3144",
+      "https://www.reddit.com/r/bytebeat/comments/1biaguq/1/"
+    ],
+    "date": "2024-03-19",
+    "mode": "Floatbeat",
+    "sampleRate": 35498.66666,
+    "coverName": "xsync3d - Running out of Memory",
+    "coverUrl": "https://youtu.be/ph58ZqupcKc",
+    "tags": [
+      "big"
+    ]
+  }
+}

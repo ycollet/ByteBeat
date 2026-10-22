@@ -1,0 +1,29 @@
+{
+  "file": "songs/2ffbabcc0df0d96ce626b2395213faf6.js",
+  "title": "all 'board the ole steam boat",
+  "author": "Noah Lovotti",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "91935aa3df9b18edd41657be7893fd002610655fc40a4967e6368748d48f6e23",
+  "upstream": {
+    "hash": "2ffbabcc0df0d96ce626b2395213faf6",
+    "codeMinLen": 107,
+    "codeMin": "v=\"4568\"[t>>11&3],w=t>>5|t>>v^sin(t/8/(v/((t>>12&t>>14&8)+((t>>14|t>>11)&1))))*29-100,w+v*(t*v/7*4&t>>11|w)",
+    "codeLen": 115,
+    "code": "v=\"4568\"[t>>11&3],w=(t>>5|t>>v^sin(t/8/(v/(((t>>12&t>>14)&8)+((t>>14|t>>11)&1))))*29-100),w+(v*((t*v/7*4&t>>11)|w))",
+    "author": "Noah Lovotti",
+    "name": "all 'board the ole steam boat",
+    "url": [
+      "https://youtube.com/watch?v=V4GfkFbDojc",
+      "https://pastebin.com/kiXJigzG"
+    ],
+    "date": "2016-07-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-10-08",
+    "date_edited": "2025-11-03"
+  }
+}

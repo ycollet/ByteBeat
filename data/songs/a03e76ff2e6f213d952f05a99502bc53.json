@@ -1,0 +1,29 @@
+{
+  "file": "songs/a03e76ff2e6f213d952f05a99502bc53.js",
+  "title": "PCM Synthesis",
+  "author": "PortablePorcelain",
+  "mode": "Signed Bytebeat",
+  "rate": 17000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a03e76ff2e6f213d952f05a99502bc53.js",
+  "sha256": "27d1a2342fa6063207cd3dfd56ae44c10feae944e49e948edfb70f17530cb642",
+  "upstream": {
+    "hash": "a03e76ff2e6f213d952f05a99502bc53",
+    "codeLen": 43949,
+    "fileOrig": 1,
+    "codeText": "PCM=(Sample)=>max(Sample.charCodeAt(t%(Sample.length+7000)),0),x=PCM(`øøûû\b\b\u0005\u0005ûûêêÞÞ××ÙÙßßææëëññõõûû\u0001\u0001\u0006\u0006  \u0003\u0003üüõõóóóóùùýýÿÿ÷÷ññååèèöö\n\n\u001e\u001e\u0019\u0019\u0019\u0019\u0012\u0012\f\f\n\n\u000f\u000f\u0018\u0018\u0018\u0018\u000f\u000f\f\f\u0006\u0006ÿÿüüýý\u0004\u0004\b\b\n\n\n",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "PCM Synthesis",
+    "url": "https://dollchan.net/btb/res/55.html#82",
+    "date": "2022-06-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 17000,
+    "coverName": "Shave and a Haircut, Two Bits",
+    "coverUrl": "https://www.youtube.com/watch?v=E8rUVwaVEFA",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

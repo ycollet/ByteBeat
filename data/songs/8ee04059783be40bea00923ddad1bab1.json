@@ -1,0 +1,24 @@
+{
+  "file": "songs/8ee04059783be40bea00923ddad1bab1.js",
+  "title": "the throwback",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d7a61e82547a1f5274ddae7892e3529a5eeb67767d57abb0872124e3e1c11054",
+  "upstream": {
+    "hash": "8ee04059783be40bea00923ddad1bab1",
+    "codeLen": 235,
+    "code": "(t/=1.25)||(d=Array(15360).fill(0),x=0),x+=2**([[0,3,7,12,15,12,7,3],[3*(t>>15&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[0,7,12,19,24,19,12,7]][t>>16&3][t>>12&7]/12+2.015),x%=512,o=(x&256?127-x/2:x/2)+d.shift(),d.push(o/3),o/4+128",
+    "author": "lhphr",
+    "name": "the throwback",
+    "url": "https://dollchan.net/btb/res/44.html#481",
+    "date": "2023-02-26",
+    "sampleRate": 44100,
+    "coverName": "Kenet & Rez - Unreal Super Hero 3",
+    "coverUrl": "https://youtu.be/9STiQ8cCIo0",
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "songs/022510b95212af73e39c5efc28737ede.js",
+  "title": "reverb multi",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/022510b95212af73e39c5efc28737ede.js",
+  "sha256": "eba2af6feca8c1b2df1a3c63958b4d77740ae7c8e07c0d4037a5452b4b35d70c",
+  "upstream": {
+    "hash": "022510b95212af73e39c5efc28737ede",
+    "codeMinLen": 988,
+    "codeLen": 2456,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=2621440,Z=0,r=(i,g,C,V,S,P,W,M,e,I)=>(L=0,H=(s,b,x,y,z)=>L++<b?s(b,x,y,z):L=0,R=(d,t,l,s)=>(t.push(Array(l-s*L).fill(0)),H(R,d,t,l,s)),t?0:(this.O??=[],this.p??=[],this.s??=[],O[Z]=[],p[Z]=[],s[Z]=[])+R(C,O[Z],V,S)+R(P,p[Z],W,M)+R(P,s[Z],W,M),F=d=>(O[Z][L].shift()+H(F,d)),F(C),o=d=>(O[Z][L].push(i-g*O[Z][L][0])+H(o,d)),o(C),c=d=>(O[Z][L][O[Z][L].length-1]+H(c,d)),f=d=>((p[Z][L].shift(),p[Z][L].push(L?s[Z][L-1][s[Z][L-1].length-1]:c(C)),s[Z][L].shift(),s[Z][L].push(-g*p[Z][L][p[Z][L].length-1]+p[Z][L][0]+",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "reverb multi",
+    "description": "\"I was tinkering around with \"something something reverb\" and after a bit, I was able to get the reverb function to work in a way that allows it to be used more than once! I then utilized it to make a mini-song of sorts, still based on trig.\" - lhphr",
+    "url": "https://dollchan.net/btb/res/44.html#87",
+    "date": "2022-07-05",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "3b34a633de9e9d8ffca105affea3b37a",
+        "author": "lhphr",
+        "name": "something something reverb",
+        "url": "https://www.reddit.com/r/bytebeat/comments/v0y4mf/something_something_reverb/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

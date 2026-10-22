@@ -1,0 +1,35 @@
+{
+  "file": "songs/86d32d78fc3af0b25eff3e2792cbd38a.js",
+  "title": "version 2",
+  "author": "ANoUserXD",
+  "mode": "Signed Bytebeat",
+  "rate": 31700,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "97f650dd9d97730462bc2fbaef8b95647f529d8a883c0a6582956b626f25d5ae",
+  "upstream": {
+    "hash": "86d32d78fc3af0b25eff3e2792cbd38a",
+    "codeMinLen": 172,
+    "codeMin": "t?0:A=Array(z=60).fill(a=0),a+=[.4,.5,.6,.75][t>>13&3]/[1,1.125,1.25,4/3][t>>17&3],b=(sin(a/4)+sin(a/6)+asin(sin(a/8)))*40+A[(t+50*abs(sin(t/3500)))%z|0],A[t%z|0]=b/1.5,b/3",
+    "codeLen": 174,
+    "code": "!t?A=Array(z=60).fill(a=0):0,a+=[.4,.5,.6,.75][t>>13&3]/[1,1.125,1.25,4/3][t>>17&3],b=(sin(a/4)+sin(a/6)+asin(sin(a/8)))*40+A[(t+50*abs(sin(t/3.5e3)))%z|0],A[t%z|0]=b/1.5,b/3",
+    "author": "ANoUserXD",
+    "name": "version 2",
+    "description": "Unable to find a link to remix source...",
+    "date": "2025-04-12",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 31700,
+    "remix": [
+      {
+        "hash": "1a0a0b740db27a6689b5bb0aa3c11ab4",
+        "author": "ANoUserXD",
+        "name": "made a \"flanger\" effect",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1jxrjqb/made_a_flanger_effect_in_bytebeat"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-12-03",
+    "date_edited": "2026-01-10"
+  }
+}

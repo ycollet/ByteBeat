@@ -1,0 +1,25 @@
+{
+  "file": "songs/6c5fb8dc9a0cea130c2c5ee85e18ec06.js",
+  "title": "Another C compatible thing",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2c0a66daccbaadd43218679be4c1b4ac8f59e251ae3378b128a4f8a9003bda2e",
+  "upstream": {
+    "hash": "6c5fb8dc9a0cea130c2c5ee85e18ec06",
+    "codeMinLen": 134,
+    "codeMin": "t*(6+(((t>>18&1?t>>(t>>18&1?13:12)&3:0)^t>>(t>>18&1?14:13)&(-t>>(t>>18&1?15:14)&3?1:2))+3&3))/8%128+(t*(6+(t>>16&3))/16|t>>7^t>>9)%128",
+    "codeLen": 144,
+    "code": "t*(6+((((t>>18&1?t>>(t>>18&1?13:12)&3:0)^(t>>(t>>18&1?14:13)&(-t>>(t>>18&1?15:14)&3?1:2)))+3)&3))/8%128\r\n+((t*(6+(t>>16&3))/16|(t>>7^t>>9))%128)",
+    "author": "D3nschøt",
+    "name": "Another C compatible thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ed5ika/another_c_compatible_thing/",
+    "date": "2024-07-27",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

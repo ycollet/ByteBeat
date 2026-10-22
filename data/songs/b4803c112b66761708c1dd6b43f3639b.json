@@ -1,0 +1,27 @@
+{
+  "file": "songs/b4803c112b66761708c1dd6b43f3639b.js",
+  "title": "ass kicking vocals",
+  "author": "Tundrah",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2428fb17b5092026f8037cc4be31908be8a63cc40cb4dd9342d4160b47fc519c",
+  "upstream": {
+    "hash": "b4803c112b66761708c1dd6b43f3639b",
+    "codeMinLen": 57,
+    "codeMin": "t>>5|t>>4|(t%42*(t>>4)|357052691-(t>>4))/(t>>16)^(t|t>>4)",
+    "codeLen": 68,
+    "code": "(t>>5)|(t>>4)|((t%42)*(t>>4)|(0x15483113)-(t>>4))/(t>>16)^(t|(t>>4))",
+    "author": "Tundrah",
+    "name": "ass kicking vocals",
+    "description": "Starting properly after t = 65536.",
+    "url": "https://www.pouet.net/topic.php?which=8357&page=12#c389107",
+    "date": "2011-10-05",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-04-29"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/e615ebc8cdffa69e2e9d23536d4aeae5.js",
+  "title": "zynx92 type beat remixed",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9024f4c4022ad3d464996a9b41b03e9a0ea7d112617b4aa631ca283138a4bcca",
+  "upstream": {
+    "hash": "e615ebc8cdffa69e2e9d23536d4aeae5",
+    "codeMinLen": 150,
+    "codeMin": "random()*'1000'[t>>10&3]*32+(sqrt(400*(t&16383))&63*'10'[t>>12&1])+((t&t>>11&32)+64*sin(t*(t&t>>12)*4/88200)+([1,1.5,.5,.8][(t>>16)%4]*t>>1&128))/3+31",
+    "codeLen": 158,
+    "code": "(random()*\"1000\"[t>>10&3]*32)+(sqrt((t&16383)*400)&63*\"10\"[t>>12&1])+(((t&t>>11)&32)+(64*sin(t*(t&t>>12)*4/88200))+([1,1.5,0.5,0.8][(t>>16)%4]*t>>1&128))/3+31",
+    "author": "RealZynx92",
+    "name": "zynx92 type beat remixed",
+    "description": "Unable to find the remix source.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s8hiun/comment/htjy1ae/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-01-21",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-22"
+  }
+}

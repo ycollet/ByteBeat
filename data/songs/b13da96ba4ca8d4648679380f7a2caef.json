@@ -1,0 +1,24 @@
+{
+  "file": "songs/b13da96ba4ca8d4648679380f7a2caef.js",
+  "title": "( ͡° ͜ʖ ͡°)",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c4dece516c778d3646a7debaa00c943c2e9e28eb404847bc5939e9fa185a66c1",
+  "upstream": {
+    "hash": "b13da96ba4ca8d4648679380f7a2caef",
+    "codeMinLen": 57,
+    "codeMin": "([sin(t>>3),2,sin(t),'2223'[3&t>>13]][3&t>>11]*t&t>>3)-20",
+    "codeLen": 109,
+    "code": "([sin(t>>3),2,sin(t),2,sin(t>>3),2,sin(t),2,sin(t>>3),2,sin(t),2,sin(t>>3),2,sin(t),3][(t>>11)%16]*t&t>>3)-20",
+    "author": "rubi",
+    "name": "( ͡° ͜ʖ ͡°)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s6xqf1/%CA%96/",
+    "date": "2022-01-18",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

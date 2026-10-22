@@ -1,0 +1,33 @@
+{
+  "file": "songs/d183eb4c4e528ef8c34570f64fa82f54.js",
+  "title": "Useless1 Sequel",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 31402.667,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b23b2da31a6d10a40fd412eba6b41e40b4619b93cf023fb4c74848fa18ba4629",
+  "upstream": {
+    "hash": "d183eb4c4e528ef8c34570f64fa82f54",
+    "codeMinLen": 262,
+    "codeMin": "t||(a=Array(b=12288).fill(0)),c='19584582'[t*2.15*2**([0,0,6,7,11,11,7,7,6,6,7,7,0,0,7,7,2,2,6,7,11,11,7,7,6,6,7,7,2,2,3,3,4,4,6,7,11,11,7,7,6,6,7,7,4,4,7,7,-1,-1,6,7,11,11,7,7,6,6,7,7,-3,-3,-1,-1][t>>12&63]/12)>>5&7]/'34555555'[t>>10&7]+a[t%b],a[t%b]=(c/2),c*48",
+    "codeLen": 304,
+    "code": "(t?0:Reverb=Array(12288).fill(0),Reverb2=(\"19584582\"[t*2.15*2**(\n\n\n[0,0,6,7,11,11,7,7,6,6,7,7,0,0,7,7,\n2,2,6,7,11,11,7,7,6,6,7,7,2,2,3,3,\n4,4,6,7,11,11,7,7,6,6,7,7,4,4,7,7,\n-1,-1,6,7,11,11,7,7,6,6,7,7,-3,-3,-1,-1][t>>12&63]/12)>>5&7]/'34555555'[t>>10&7])+Reverb.shift(),Reverb.push(Reverb2/2),Reverb2)*48",
+    "author": "Decent-Manager-6169",
+    "name": "Useless1 Sequel",
+    "url": "https://dollchan.net/btb/res/520.html#2931",
+    "date": "2024-01-25",
+    "sampleRate": 31402.667,
+    "remix": [
+      {
+        "hash": "50f1edd0b214c351046375451ae0e4bb",
+        "author": "Decent-Manager-6169",
+        "name": "Useless1",
+        "url": "https://dollchan.net/btb/res/520.html#2612"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

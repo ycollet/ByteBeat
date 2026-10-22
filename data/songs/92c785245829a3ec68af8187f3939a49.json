@@ -1,0 +1,37 @@
+{
+  "file": "songs/92c785245829a3ec68af8187f3939a49.js",
+  "title": "T!MΞ RΞTR!ΔL",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/92c785245829a3ec68af8187f3939a49.js",
+  "sha256": "c5dd9de8fb67d61256fb78e26bb0acfe8ba9c5aa23f368c11a77ab9b50e89bb7",
+  "upstream": {
+    "hash": "92c785245829a3ec68af8187f3939a49",
+    "codeMinLen": 508,
+    "codeMin": "(T=t/(div=1.25),t?(S=-(2**((0xA7305730>>(T>>14&28)&15)/12)*t/3&128||0)/128*(T>>13&1)+abs(atan(sin(a+=b+=(2**(([0,3,7,12,,19,,7][T>>11+(T>>13&3^T>>14&1)&7]+12*(T>>18&1))/12-5.75)-b)/300))/3)*4+sin(t/'2325'[T>>15&3]|t/9.4)*(T>>14&1)*(T/16384%1-1)**9*2+sin(9*cbrt(T%32768))*(T/32768%1-1)+A[t%l],A[t%l]=S/2+sin(8E4/(T%65536))/2-(random()-random())*2*(T/12288%1-1)**9,S)+(H=sin(t|t/5.4)*(T/4096%1-1)**6+B[t%l2],B[t%l2]=H/1.6,H)-.25:(a=b=0,A=Array(l=round(12288*div)).fill(0),B=Array(l2=64*div).fill(0)))/2/1.5-.25",
+    "codeLen": 516,
+    "fileOrig": 1,
+    "codeText": "(T=t/(div=1.25),t?(S=-(2**((0xA7305730>>(T>>14&28)&15)/12)*t/3&128||0)/128*(T>>13&1)+abs(atan(sin(a+=b+=(2**(([0,3,7,12,,19,,7][T>>11+(T>>13&3^T>>14&1)&7]+12*(T>>18&1))/12-5.75)-b)/300))/3)*4+sin(t/'2325'[T>>15&3]|t/9.4)*(T>>14&1)*(T/16384%1-1)**9*2+sin(9*cbrt(T%32768))*(T/32768%1-1)+A[t%l],A[t%l]=S/2+sin(8E4/(T%65536))/2-(random()-random())*2*(T/12288%1-1)**9,S)+(H=sin(t|t/5.4)*(T/4096%1-1)**6+B[t%l2],B[t%l2]=H/1.6,H)-.25:(a=b=0,A=Array(l=round(12288*div)).fill(0),B=Array(l2=64*div).fill(0)))/2/1.5-.25",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "T!MΞ RΞTR!ΔL",
+    "url": "https://dollchan.net/btb/res/6946.html#10059",
+    "date": "2025-10-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "fd00ddf7d113e2530b94dd6081b3378d",
+        "author": "lhphr",
+        "name": "T!me Tr!al",
+        "url": "https://dollchan.net/btb/res/44.html#88"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-22",
+    "date_edited": "2025-11-03"
+  }
+}

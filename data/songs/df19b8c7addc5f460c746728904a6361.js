@@ -1,0 +1,1 @@
+r=1.05946309,b=t/0.2575,as=b/r,a=as/r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,([fs,e,cs,b,as,,,,,,,,,,ds,,b,cs,d,ds,fs,,,,,,,,,,cs,,ds,cs,as,gs/2,ds/2,,,,,,,,,,as,,cs,b,gs/2,g/2,fs/2][(t>>10)%64]&127)+([fs/8,0,0,fs/4,fs/8,0,g/4,0,fs/8,0,fs/4,0,fs/8,0,fs/4][(t>>10)%16]&127)

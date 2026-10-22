@@ -1,0 +1,35 @@
+{
+  "file": "songs/d8c6d62789323abd7342da12480186fc.js",
+  "title": "2,753c dance",
+  "author": "PortablePorcelain",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d8c6d62789323abd7342da12480186fc.js",
+  "sha256": "c0b24756d6beb6d5cd43e7189d4d0402bdcd706a718e5dd5c8fbfbaba9325f83",
+  "upstream": {
+    "hash": "d8c6d62789323abd7342da12480186fc",
+    "codeLen": 2753,
+    "fileOrig": 1,
+    "codeText": "function _(...i) {\n\tthrow i.join('\\n--------------------\\n');\n};\n\nfunction g(s, v, t, n = 0) {\n\treturn t < s ? n ? '\\0 \\0 \\0 ' : 0 : v;\n};\n",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "2,753c dance",
+    "description": "Shows status bars in error console.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bqxp3r/2753c_dance_funcbeat/",
+    "date": "2024-03-29",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "294c29f350765e64eff0fa683a182789",
+        "author": "raphaelgoulart",
+        "name": "1k dance",
+        "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

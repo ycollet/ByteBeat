@@ -1,0 +1,35 @@
+{
+  "file": "songs/8d4bdac2185401e4684d6d78fe7aa074.js",
+  "title": "stimmer 7",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0fc399f0a35e20b7981b5be4ba4f89d3d5bfebac8f59674bdada5896df3e8be7",
+  "upstream": {
+    "hash": "8d4bdac2185401e4684d6d78fe7aa074",
+    "codeLen": 460,
+    "code": "c=[1.59,,1.05,,,2.1,,1.8,1.59,,1.05,,,1.59,,1.4,1.35,1.35,1.4,1.59,1.05,,1.2,,1.35,,,,,,,,1.59,,1.05,,,2.1,,1.8,1.59,,1.05,,,1.59,,1.4,1.35,1.35,1.4,1.59,1.05,,1.2,,1.05,,,,,,,,2,,1.35,,,2.1,,2,2,1.8,1.8,2,1.8,,,,1.8,,1.2,,,2,,1.8,1.8,1.59,1.59,1.8,1.59,,,,1.59,,1.05,,,2.1,,1.8,1.59,,1.05,,,1.59,,1.4,1.35,1.35,1.4,1.59,1.05,,1.2,,,1.35,1.4,1.59,1.05,,1.2,,,1.35,1.4,1.59,1.05,,1.2,,1.05,,,,,,,,][(t>>11)%144],t*(4|t>>13&3)>>(~t>>11&1)&128|t*4*c*(~t>>9&3)&127",
+    "author": "psubscirbe",
+    "name": "stimmer 7",
+    "description": "Joke: The Flintsones — The Rescue of Dino & Hoppy (aka. G R A N D D A D)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f4twd4/stimmer_7",
+    "date": "2024-08-30",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "coverName": "The Flintsones — The Rescue of Dino & Hoppy (NES) Music - Title Theme & Ending",
+    "coverUrl": "https://www.youtube.com/watch?v=U3-0w9eVENw",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-09-26"
+  }
+}

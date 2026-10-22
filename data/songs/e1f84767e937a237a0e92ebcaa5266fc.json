@@ -1,0 +1,29 @@
+{
+  "file": "songs/e1f84767e937a237a0e92ebcaa5266fc.js",
+  "title": "16000 Funcbeat",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e1f84767e937a237a0e92ebcaa5266fc.js",
+  "sha256": "fea46a916b5d20b78b56623ebc9f2c2a6c37f882aa251250547faca1101a139f",
+  "upstream": {
+    "hash": "e1f84767e937a237a0e92ebcaa5266fc",
+    "codeMinLen": 364,
+    "codeMin": "f=(I=1)=>{p=Array(I).fill(0),v=Array(I).fill(0);return(x,s=1,m=.5)=>{o=x;for(i=0;i<I;i++){v[i]=(v[i]+(o-p[i])*s)*m;o=p[i]+=v[i]}return o}},S=16e3,lf=f(4);return t=>{o=t*2%1<.005?1:0,m=.6,s=(-2*cos(PI*(1700+sin(t*1.4)*1500)/S)*sqrt(m)+m+1)/m;o+=((random()-.5)+(t*33%1<.5+sin(t)*.49?1:-1)-(t*32.6%1<.5+sin(t)*.499?1:-1)+(t*330%1<.5?-.1:.1))/5;return tanh(lf(o,s,m))}",
+    "codeLen": 741,
+    "fileOrig": 1,
+    "codeText": "f=(I=1)=>{p=Array(I).fill(0),v=Array(I).fill(0);return(x,s=1,m=.5)=>{o=x;for(i=0;i<I;i++){v[i]=(v[i]+(o-p[i])*s)*m;o=p[i]+=v[i]}return o}},S=16e3,lf=f(4);return t=>{o=t*2%1<.005?1:0,m=.6,s=(-2*cos(PI*(1700+sin(t*1.4)*1500)/S)*sqrt(m)+m+1)/m;o+=((random()-.5)+(t*33%1<.5+sin(t)*.49?1:-1)-(t*32.6%1<.5+sin(t)*.499?1:-1)+(t*330%1<.5?-.1:.1))/5;return tanh(lf(o,s,m))}",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "16000 Funcbeat",
+    "url": "https://dollchan.net/btb/res/3.html#5719",
+    "date": "2025-03-25",
+    "mode": "Funcbeat",
+    "sampleRate": 16000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-13"
+  }
+}

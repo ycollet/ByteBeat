@@ -1,0 +1,34 @@
+{
+  "file": "songs/4795f3c17451e7ac4ca410bfcba1bdd0.js",
+  "title": "fourtytwo melody with echo and filter",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "76431263ee139e21a680cc94751dbea2cdb8a00f0ba285ec24a3c47be53d53a0",
+  "upstream": {
+    "hash": "4795f3c17451e7ac4ca410bfcba1bdd0",
+    "codeMinLen": 160,
+    "codeMin": "a=t=>(t/16*(t>>12&42)&64)*(1-t/4%2048/2048),k=t=>{for(i=0,s=0;i<22;++i)s+=a(t-i);return s/16},m=_=>{for(j=0,s=0;j<7;++j)s+=k(t-3200*j)/(j+1);return s},m()/128-1",
+    "codeLen": 318,
+    "code": "a=t=>(t/16*(t>>12&42)&64)*(1-t/4%2048/2048),k=t=>(a(t)+a(t-1)+a(t-2)+a(t-3)+a(t-4)+a(t-5)+a(t-6)+a(t-7)+a(t-8)+a(t-9)+a(t-10)+a(t-11)+a(t-12)+a(t-13)+a(t-14)+a(t-15)+a(t-16)+a(t-17)+a(t-18)+a(t-19)+a(t-20)+a(t-21))/16,(k(t)+k(t-800*4)/2+k(t-800*4*2)/3+k(t-800*4*3)/4+k(t-800*4*4)/5+k(t-800*4*5)/6+k(t-800*4*6)/7)/128-1",
+    "author": "Maxi",
+    "name": "fourtytwo melody with echo and filter",
+    "url": "https://dollchan.net/btb/res/500.html#1905",
+    "date": "2023-08-13",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

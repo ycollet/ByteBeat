@@ -1,0 +1,53 @@
+{
+  "file": "songs/c01223a1d5512b34a72766e15bb6edd2.js",
+  "title": "Solar Cityscapes V2",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c01223a1d5512b34a72766e15bb6edd2.js",
+  "sha256": "1ac45723f9194f02da07aaff1f46fd7c39fc3c33f1d9e959ffbb43bb94278866",
+  "upstream": {
+    "hash": "c01223a1d5512b34a72766e15bb6edd2",
+    "codeLen": 3758,
+    "fileOrig": 1,
+    "codeText": "//Original t, increments one per sample. The reverb, harmonifier, hihat, and snare need this.\nT = t,\n\n// Separate Variables\ntune=1.55,\nspeed=1.8,\n\ntt=t*tune,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Solar Cityscapes V2",
+    "description": "Sonic Frontiers. Yes, Sonic Frontiers.",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8437",
+      "https://www.reddit.com/r/bytebeat/comments/1m744io/solar_cityscapes_v2/"
+    ],
+    "date": "2025-07-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "2564bb56d5b283d1f0a1975a36aa7629",
+        "author": "MarioFan171",
+        "name": "Solar Cityscapes",
+        "url": [
+          "https://dollchan.net/btb/res/2971.html#4318",
+          "https://dollchan.net/btb/res/204.html#4317"
+        ]
+      },
+      {
+        "hash": "64602ff4182fcf2ca396f22ef91d2051",
+        "author": "Zackx",
+        "name": "Hardcore mix #2 midnight",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4066",
+          "https://www.reddit.com/r/bytebeat/comments/1ei423e/hardcore_mix_2_midnight/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-16"
+  }
+}

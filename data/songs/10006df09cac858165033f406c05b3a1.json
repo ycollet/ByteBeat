@@ -1,0 +1,25 @@
+{
+  "file": "songs/10006df09cac858165033f406c05b3a1.js",
+  "title": "rooftop unvisited",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/10006df09cac858165033f406c05b3a1.js",
+  "sha256": "d3a1e1c6f6119ee2d767be3b41d40a9cbd7d24a45caf100f7568174fdc44c28f",
+  "upstream": {
+    "hash": "10006df09cac858165033f406c05b3a1",
+    "codeLen": 10705,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - rooftop unvisited\n *\n */\n\nvar sampleRate = 48000;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "rooftop unvisited",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

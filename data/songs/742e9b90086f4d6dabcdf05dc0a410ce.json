@@ -1,0 +1,27 @@
+{
+  "file": "songs/742e9b90086f4d6dabcdf05dc0a410ce.js",
+  "title": "something",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/742e9b90086f4d6dabcdf05dc0a410ce.js",
+  "sha256": "e9c5aea2e309da4803dcee6f240695f0214ff3d28899d92b32effb6a9257ddd8",
+  "upstream": {
+    "hash": "742e9b90086f4d6dabcdf05dc0a410ce",
+    "codeLen": 1846,
+    "fileOrig": 1,
+    "codeText": "/* random vars */\nt||(sa=48e3,samp=1/48e3,BPM=182,ch=[10,9],K=S=H=k=s=s1=s2=h=h1=h2=h3=b1=b2=c1=c2=0,Ki=Sn=Hi=1,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c,clip=x=>atan(1.4*x)/1.4,r=Array(m=1.5e4).fill(0),R=i=>r[i%m]),\n\n/* T crap */\nT=t*samp/30*BPM,\nn=T%2,T-=n<5/4?n/5:0,\n\n/* note function */",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "something",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1krkn17/something_wip/",
+    "date": "2025-05-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

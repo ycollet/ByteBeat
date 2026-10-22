@@ -1,0 +1,32 @@
+{
+  "file": "songs/16bf6af81ac861c057e311a6feda07a7.js",
+  "title": "the coolest song",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6762987e28a320171d23cf5a759a3a8806131bc38e3f4f285b62580b87cde5f5",
+  "upstream": {
+    "hash": "16bf6af81ac861c057e311a6feda07a7",
+    "codeMinLen": 235,
+    "codeMin": "r=t/1.3,d=(-r&8191)/8E3,n=a=>t*2**(parseInt(a,36)/12)/1.4,(p=n('479B4702'[7&r>>15]))%256,(p&~r>>6&255)/2+p%512/4*(-r&16383)/16E3+n(['47B7','7BEB',['9DGD','0474'][1&r>>17],['BFIF','2696'][1&r>>17]][3&r>>15][3&r>>10])%64*d*[0,2][1&r>>13]",
+    "codeLen": 280,
+    "code": "r=t/1.3,d=(-r&8191)/8e3,m=((p=.9*t*2**([0,3,5,7,0,3,-4,-2][7&r>>15]/12))&-r>>6)%256/2,\nb=(p%512)/4*(-r&16383)/16e3,\na=[0,3,5,7,0,3,-4,-2][7&r>>15],\na2=[3,7,9,11,3,7,0,2][7&r>>15],\na3=[7,10,12,14,7,10,3,5][7&r>>15],\ns=t*.9*2**(([a,a2,a3,a2][3&r>>10])/12)%64*d*2,\nm+b+[0,s][1&r>>13]",
+    "author": "Zackx",
+    "name": "the coolest song",
+    "url": "https://dollchan.net/btb/res/204.html#401",
+    "date": "2023-02-13",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "8b425a1f2aedb83d8e4c9dddd4dcb551",
+        "author": "Zackx",
+        "name": "Cool song adding bass",
+        "url": "https://dollchan.net/btb/res/204.html#384"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

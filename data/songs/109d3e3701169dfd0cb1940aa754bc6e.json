@@ -1,0 +1,26 @@
+{
+  "file": "songs/109d3e3701169dfd0cb1940aa754bc6e.js",
+  "title": "65436547",
+  "author": "psubscirbe",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "395fa0dec29eac1bf653ca0e42b25c44e939d33cb8bbea1c88881e7663db43e3",
+  "upstream": {
+    "hash": "109d3e3701169dfd0cb1940aa754bc6e",
+    "codeMinLen": 143,
+    "codeMin": "v=x=>(t?0:a=Array(w=8192).fill(0),b=x+a[t%w],a[t%w]=b/2,b),v(sin(t/((t>>16&3)+1)/((t>>18&3)+1)*\"65436547\"[t>>13&7]/20)/((512+(t&8191))*.001))/3",
+    "codeLen": 147,
+    "code": "v=x=>(t?0:a=Array(w=8192).fill(0),b=x+a[t%w],a[t%w]=b/2,b),v(sin(t/\"1234\"[t>>16&3]/\"1234\"[t>>18&3]*\"65436547\"[t>>13&7]/20)/((512+(t&8191))*.001))/3",
+    "author": "psubscirbe",
+    "name": "65436547",
+    "url": "https://www.reddit.com/r/bytebeat/comments/156u4gt/65436547/",
+    "date": "2023-06-22",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-23"
+  }
+}

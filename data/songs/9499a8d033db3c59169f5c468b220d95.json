@@ -1,0 +1,28 @@
+{
+  "file": "songs/9499a8d033db3c59169f5c468b220d95.js",
+  "title": "Vé",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d6d8542b27c0ab48409ee87431e677173e093f1023e03994ad4f8f099d23241a",
+  "upstream": {
+    "hash": "9499a8d033db3c59169f5c468b220d95",
+    "codeMinLen": 243,
+    "codeMin": "l=0,t?0:a=Array(n=24576).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),y=f(t>>13&7^t>>12&3,(z=t*(1*'00210024'[t>>16&7]+10)/10)/16)*f(t>>14&7^t>>12&7,z/32)/(2+t/2048%4)*!!(-t>>14&3)+x,a.push(y/3-a[n/2]/4+a[n/4]/4),8*(abs(y)**(y*x)-1)",
+    "codeLen": 245,
+    "code": "l=0,t?0:a=Array(n=24576).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),y=(f(t>>13&7^t>>12&3,(z=t*(1*'00210024'[t>>16&7]+10)/10)/16)*f(t>>14&7^t>>12&7,z/32))/(2+t/2048%4)*!!(-t>>14&3)+x,a.push(y/3-a[n/2]/4+a[n/4]/4),(abs(y)**(y*x)-1)*8",
+    "author": "lhphr",
+    "name": "Vé",
+    "description": "An interesting effect got with arrays.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-06-07",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

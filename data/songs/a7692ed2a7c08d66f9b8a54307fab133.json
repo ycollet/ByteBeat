@@ -1,0 +1,28 @@
+{
+  "file": "songs/a7692ed2a7c08d66f9b8a54307fab133.js",
+  "title": "YAY!",
+  "author": "justaboutdead",
+  "mode": "Funcbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a7692ed2a7c08d66f9b8a54307fab133.js",
+  "sha256": "c279c11dc38778844ef69397900996926c8a202ae800a29782ae7664c96398c3",
+  "upstream": {
+    "hash": "a7692ed2a7c08d66f9b8a54307fab133",
+    "codeMinLen": 137,
+    "codeMin": "return(t,s)=>.3*sin((.24*(abs(1-2*t*(n=s/500)%2)*2-1)+.052*(S=(x,t)=>sin((T=2*PI)*t*x))(n*32,t))*(1+S(1.1337,t))*(2+(1+S(.42,t))*15)+T*t)",
+    "codeLen": 515,
+    "fileOrig": 1,
+    "codeText": "return(t,s)=>.3*sin((.24*(abs(1-2*t*(n=s/500)%2)*2-1)+.052*(S=(x,t)=>sin((T=2*PI)*t*x))(n*32,t))*(1+S(1.1337,t))*(2+(1+S(.42,t))*15)+T*t)",
+    "isTruncated": 1,
+    "author": "justaboutdead",
+    "name": "YAY!",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-26"
+  }
+}

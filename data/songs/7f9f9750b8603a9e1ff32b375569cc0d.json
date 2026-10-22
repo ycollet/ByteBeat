@@ -1,0 +1,29 @@
+{
+  "file": "songs/7f9f9750b8603a9e1ff32b375569cc0d.js",
+  "title": "home - resonance wip",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7f9f9750b8603a9e1ff32b375569cc0d.js",
+  "sha256": "86f34a360bea455484989a84fecbb0882057b97a6429afac4ab93e523b4d5365",
+  "upstream": {
+    "hash": "7f9f9750b8603a9e1ff32b375569cc0d",
+    "codeMinLen": 942,
+    "codeLen": 946,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?(n=i,i=t/s/60*BPM,(i|0)-n>0?(--l,l<1?(o+=1,l=y[2*o%24]):0):0,k=H[p(y[2*o%24+1])],O=(P(x(0,C*2**(k[0]/12)))+P(x(1,C*2**(k[1]/12)))+P(x(2,C*2**(k[2]/12)))+P(x(3,C*2**(k[3]/12)))+P(x(4,C*2**(k[4]/12)))-2.5)/5,k=u,u='1001001001001010'[4*'0101201201012012'[i/2&15]+(2*i&3)],u-k>0?m=0:m+=1/s,f=.3*v(.07,.5*w(1,.1,1/16),.1,2),z=q+q/(1-f),a+=f*(O-a+z*(a-b)),b+=f*(a-b),n=s/960*BPM,r[t%s]=.7*(b+d+.2*(R(t-500)+R(t-1288)+R(t-2570)+R(t-n)+R(t-2*n))),2*R(t)):(s=48E3,BPM=170,C=420,H=[[-3,0,4,7,12],[0,4,7,11,14],[4,7,11,14",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "home - resonance wip",
+    "url": "https://www.reddit.com/r/bytebeat/comments/156asvd/home_resonance_wip/",
+    "date": "2023-07-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "HOME - Resonance",
+    "coverUrl": "https://youtu.be/8GW6sLrK40k",
+    "tags": [
+      "1k"
+    ]
+  }
+}

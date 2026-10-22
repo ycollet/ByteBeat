@@ -1,0 +1,25 @@
+{
+  "file": "songs/16dcfb8503197ba543fd1a3553ee9677.js",
+  "title": "House Of Many Doors",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "66dacac4bf2a62b544708af9595595f7d59a3c0d16f3edba1df98435a17f8e41",
+  "upstream": {
+    "hash": "16dcfb8503197ba543fd1a3553ee9677",
+    "codeLen": 178,
+    "code": "t?0:a=b=c=0,a+=1/128/1.02*2**([0,2,3,,3,5,3,2,0,-1,0,,-1,0,2,,0,2,3,,3,5,3,2,0,-1,0,,-1,-1,-1][t*4/5>>13&31]/12)||0,b+=c+=((a%1-.5+a*1.01%1-.5+a/2%1-.5)/4-b-c)/(16-(t*4/5>>9)%16)",
+    "author": "ANoUserXD",
+    "name": "House Of Many Doors",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bhamwg/comment/kvdj8ms/",
+    "date": "2024-03-18",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "coverName": "サイボーグDRAKON - House Of Many Doors",
+    "coverUrl": "https://youtu.be/Rl1lbyIPnmE",
+    "tags": [
+      "256"
+    ]
+  }
+}

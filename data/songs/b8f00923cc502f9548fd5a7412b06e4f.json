@@ -1,0 +1,23 @@
+{
+  "file": "songs/b8f00923cc502f9548fd5a7412b06e4f.js",
+  "title": "bongo",
+  "author": "emelchenko",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "07adf5f313bed5b10716fcf1940b20b34ad2ce2ddc03d54d9eb5c53f20b1f7e7",
+  "upstream": {
+    "hash": "b8f00923cc502f9548fd5a7412b06e4f",
+    "codeLen": 111,
+    "code": "tanh(sin((t&(t&32768?t&4096?4095:2047:16383))**.5)*8)/3+tanh(cos((t&(t&65536?t&8192?2047:4095:16383))**.5)*8)/3",
+    "author": "emelchenko",
+    "name": "bongo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h3ks6n/bongo/",
+    "date": "2024-11-30",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/859abc3c4edf2ead6b67a6766be31001.js",
+  "title": "happiness",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a696fbbb465b26cbef96f602210d368e9b53ba67b38fbd82a54a3ae43f2e9902",
+  "upstream": {
+    "hash": "859abc3c4edf2ead6b67a6766be31001",
+    "codeLen": 45,
+    "code": "(t*(2&t>>10|(t>>10&18)-8)&128)*(-t>>2&255)>>7",
+    "author": "Zackx",
+    "name": "happiness",
+    "url": "https://dollchan.net/btb/res/204.html#923",
+    "date": "2023-04-23",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

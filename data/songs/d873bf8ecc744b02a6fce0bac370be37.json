@@ -1,0 +1,25 @@
+{
+  "file": "songs/d873bf8ecc744b02a6fce0bac370be37.js",
+  "title": "Stand, Back, You...",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "067ee0ee19a38731b9ca2dcfe48d792de42d5b37d53e7faa67656846d8ed299e",
+  "upstream": {
+    "hash": "d873bf8ecc744b02a6fce0bac370be37",
+    "codeMinLen": 21,
+    "codeMin": "t>>(t>>(t>>12&15))>>t",
+    "codeLen": 23,
+    "code": "(t>>(t>>(t>>12&15)))>>t",
+    "author": "Devan Wolf",
+    "name": "Stand, Back, You...",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

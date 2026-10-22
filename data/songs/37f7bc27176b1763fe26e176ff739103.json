@@ -1,0 +1,27 @@
+{
+  "file": "songs/37f7bc27176b1763fe26e176ff739103.js",
+  "title": "7-Tone Equal Temperament",
+  "author": "rubi",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c05eefc7057f279761bd4b7f0c6b46ccc7f8770048e0ec7b67a16f1d8bd0fe37",
+  "upstream": {
+    "hash": "37f7bc27176b1763fe26e176ff739103",
+    "codeMinLen": 344,
+    "codeMin": "k=x=>.82*PI/2**x,M=x=>2**(x/7),f=y=>atan(sin(y*k(7)+sin(y*k(6))*(-t>>4&255)/350*(t>>12&255)/48)*(-t>>4&255)/60)/3,c=z=>cos(sqrt(t*z*M(t>>19&1)&255)/2.6)/8,f(t*M((t>>19&3^(m=(t>>12&t>>16^t>>13)&15)*2)))/(m+4.5)*5+c(1)+c(M(3))+c(M(5))+(sin(sqrt(t&16383))*(-t>>5&255)*!(t>>13&1)*3+(random()-.5)*(-t>>4&255)*!(t>>12&1)*(!(t>>13&1)+1))*!!(t>>20)/800",
+    "codeLen": 398,
+    "code": "sr=44100,sec=t/sr,r=.82,k=x=>r*PI/2**x,f=y=>atan(sin(y*k(7)+sin(y*k(6))*(-t>>4&255)/350*(t>>12&255)/48)*(-t>>4&255)/60)/3,c=z=>cos(sqrt(z*2**(k(7)/7)*2**((t>>19&1)/7)&255)/2.6)/8,f(t*2**(((t>>19&3)^(m=((t>>12&(t>>16)^t>>13)&15))*2)/7))/(m+4.5)*5+c(t)+c(t*2**(3/7))+c(t*2**(5/7))+(sin(sqrt(t&2**14-1))*(-t>>5&255)*(-t>>13&1)*3+(random()-.5)*(-t>>4&255)*(-t>>12&1)*((-t>>13&1)+1))*(sec<23.77?0:1)/800",
+    "author": "rubi",
+    "name": "7-Tone Equal Temperament",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1opridk/7tone_equal_temperament",
+    "date": "2025-11-06",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-09",
+    "date_edited": "2026-05-31"
+  }
+}

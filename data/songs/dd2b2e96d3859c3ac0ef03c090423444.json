@@ -1,0 +1,33 @@
+{
+  "file": "songs/dd2b2e96d3859c3ac0ef03c090423444.js",
+  "title": "a$$ music",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "508ffcc0a02ef29f3310fa1089e55520ee3a5a982f600b34eacc6008ea36d0a2",
+  "upstream": {
+    "hash": "dd2b2e96d3859c3ac0ef03c090423444",
+    "codeMinLen": 203,
+    "codeMin": "((t/[.36,.36,.3,.24][(t>>15)%4]>>4)%63+(t/[.36,.36,.3,.24][(t>>15)%4]>>4)%64+64*sin(t*[0,1,0,1,0,1,0,1.5][(t>>13)%8]/15&6)+64*random()*(1-(1&t>>11))+(t*[sin(t>>4),sin(t>>2)][(t>>14)%2]&-t>>7&127))/1.5+40",
+    "codeLen": 213,
+    "code": "(((t/[.36,.36,.3,.240][(t>>15)%4]>>4)%63)+((t/[.36,.36,.3,.240][(t>>15)%4]>>4)%64)+(64*sin(t*[0,1,0,1,0,1,0,1.5][(t>>13)%8]/15&6))+(64*random()*(1-(1&t>>11)))+(t*[sin(t>>4),sin(t>>2)][(t>>14)%2]&-t>>7&127))/1.5+40",
+    "author": "rubi",
+    "name": "a$$ music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/si40ks/a_music/",
+    "date": "2022-02-01",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "836bc699f24f4a413132601be5705fc8",
+        "author": "rubi",
+        "name": "Vegal *A N G E R Y*",
+        "url": "https://www.reddit.com/r/bytebeat/comments/sgjf3j/vegal_a_n_g_e_r_y/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

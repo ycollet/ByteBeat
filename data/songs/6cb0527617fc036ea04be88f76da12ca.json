@@ -1,0 +1,26 @@
+{
+  "file": "songs/6cb0527617fc036ea04be88f76da12ca.js",
+  "title": "Hackneyed procedural melody",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6cb0527617fc036ea04be88f76da12ca.js",
+  "sha256": "00c4d167613704abc6928f4cb1a422e2b7faf71303ffbc125a04ef6fedd8705c",
+  "upstream": {
+    "hash": "6cb0527617fc036ea04be88f76da12ca",
+    "codeLen": 1891,
+    "fileOrig": 1,
+    "codeText": "SR=16e3;TAU=PI*2;\nscale=[0,2,4,5,7,9,11];\nmod=(n,m=1)=>(n%m+m)%m;\nrot=(sc,m,n)=>sc.map(v=>mod(v+n,m)).sort((a,b)=>a-b);\nnHz=n=>432*2**(n/12);\nrand=(a=1,b)=>b?a+random()*(b-a):random()*a;\npickRand=a=>a[floor(random()*a.length)];\nmix=(a,b,t)=>a+(b-a)*t;",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "Hackneyed procedural melody",
+    "url": "https://dollchan.net/btb/res/3.html#11023",
+    "date": "2025-12-03",
+    "mode": "Funcbeat",
+    "sampleRate": 16000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-18"
+  }
+}

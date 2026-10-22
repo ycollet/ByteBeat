@@ -1,0 +1,31 @@
+{
+  "file": "songs/0fa299d35dc0cacf9759617e3adb1caf.js",
+  "title": "Untitled (0fa299d3)",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0fa299d35dc0cacf9759617e3adb1caf.js",
+  "sha256": "ccadd225cf06aefb701a28768bb51a815a472afb413bef6f3c62b7773cc3eee1",
+  "upstream": {
+    "hash": "0fa299d35dc0cacf9759617e3adb1caf",
+    "codeMinLen": 844,
+    "codeLen": 1028,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "nHz=n=>456*2**(n/12),mod=(n,m=1)=>(n%m+m)%m,TAU=PI*2,l=[[-24,-12,-9,-5,-2,2],[-25.3,-13,-10,-6,-3,1,2],[-20,-8,-5,-1,2,6,6.75,9],[-24,-21,-17,-15,-14,-10,9,3,2],[-25,-22,-18,-15,-11,-10,9,9.9,2],[-20,-17,-13,-10,-6,-1,9,6],[-12,-9,-5,-3,2,7,12],[-13,-10,-6,-5,-3,2,9],[-20,-8,-5,-1,0,2,7,9,14,18],[-15,-12,-8,-5,-1,2,6,6.8,9],[-21,-17,-15,-10,-9,-7,-2,5,9],[-22,-19,-15,-14,-12,-7,-3,-2.2,-.1,5]],s=[0,0,0,0,0,0,0,0,1,1,1,2,2,2,2,2];l=l.map(c=>c.flatMap(n=>[n,n+(random()-.5)*.5,n+(random()-.5)*.7]));return t=>{",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "description": "Fascinating experimental-sounding chords.",
+    "url": "https://dollchan.net/btb/res/3.html#5724",
+    "date": "2025-03-25",
+    "mode": "Funcbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-12-01"
+  }
+}

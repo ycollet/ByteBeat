@@ -1,0 +1,33 @@
+{
+  "file": "songs/40ffd4b887893ee4c80942441046c19d.js",
+  "title": "Remix of something1",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6d6a7363f365e053ba04fedf27edab001f3b4f8844d9a36b3b19b919a240c3df",
+  "upstream": {
+    "hash": "40ffd4b887893ee4c80942441046c19d",
+    "codeMinLen": 180,
+    "codeMin": "wininit=t>>5|t/4*[1,2,1,2,1,2,.9,1.8][(t>>13)%8],winit=t*[1,0,1,0,1.2,0,1,0,4/3,1.2,1,0,1.2,0,.9,0,1,0,1,0,.8,0,.75,0,1.2,0,.75,0,8/7.1,0,.75,0][(t>>12)%32]|15,[wininit,t>>4|winit]",
+    "codeLen": 192,
+    "code": "wininit=(t>>5|t/4*[1,2,1,2,1,2,0.9,1.8][(t>>13)%8]),winit=(t*[1,0,1,0,1.2,0,1,0,4/3,1.2,1,0,1.2,0,0.9,0,1,0,1,0,0.8,0,0.75,0,1.2,0,0.75,0,8/7.1,0,0.75,0][(t>>12)%32]|15),[wininit,(t>>4|winit)]",
+    "author": "ChrisRM380",
+    "name": "Remix of something1",
+    "url": "https://dollchan.net/btb/res/368.html#1699",
+    "date": "2023-07-23",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "a27c9af9e7aefbf33a825c7d5c5d7e42",
+        "author": "Decent-Manager-6169",
+        "name": "something1",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10mbdj0/something1/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

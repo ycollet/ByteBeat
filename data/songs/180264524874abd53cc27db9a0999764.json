@@ -1,0 +1,34 @@
+{
+  "file": "songs/180264524874abd53cc27db9a0999764.js",
+  "title": "That time is not running out",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/180264524874abd53cc27db9a0999764.js",
+  "sha256": "4a912e82952301e0079b33b42b52bc61e56829b39e69595aba306769287c5699",
+  "upstream": {
+    "hash": "180264524874abd53cc27db9a0999764",
+    "codeMinLen": 362,
+    "codeMin": "kick=128+32*sin(20*cbrt(t%32767/40)),snare=random()*(-t&8191)/256,j=t/4,drum=(t*sin(t>>2)&255)*(-t&16383)/6E4*\"01\"[(t>>14)%2],melody=(j*(j&16384?7:5)*(3-(3&j>>9)+(3&j>>8))>>(3&-j>>(j&4096?12:16))|j>>3)%256/4,vibrato=(2*j*(j&16384?7:5)*(3-(3&j>>7)+(3&j>>12))>>(3&-j>>(j&4096?11:16))&128)%256*(-t&8191)/1E4*\"01\"[(t>>14)%2],64-(drum+snare+kick+(vibrato+melody*2)/3)",
+    "codeLen": 543,
+    "fileOrig": 1,
+    "codeText": "kick=128+32*sin(20*cbrt(t%32767/40)),snare=random()*(-t&8191)/256,j=t/4,drum=(t*sin(t>>2)&255)*(-t&16383)/6E4*\"01\"[(t>>14)%2],melody=(j*(j&16384?7:5)*(3-(3&j>>9)+(3&j>>8))>>(3&-j>>(j&4096?12:16))|j>>3)%256/4,vibrato=(2*j*(j&16384?7:5)*(3-(3&j>>7)+(3&j>>12))>>(3&-j>>(j&4096?11:16))&128)%256*(-t&8191)/1E4*\"01\"[(t>>14)%2],64-(drum+snare+kick+(vibrato+melody*2)/3)",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "That time is not running out",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fm89kk/more_rermixes/",
+    "date": "2024-09-21",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "cfed107712776695d40734b15370e22a",
+        "author": "SthephanShi",
+        "name": "The time is running out!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

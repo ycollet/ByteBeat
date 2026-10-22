@@ -1,0 +1,1 @@
+a=t=>(t*2**(parseInt("DIKPDIKPCIKPCIKPBIKPBIKPAIKPAIKP"[(t>>13)%32],36)/12)&128)*(1-t%8192/1e4),a(t)/2+a(t-6144)/4+a(t-12288)/6+((t&32768)?(~t>>9&63)*random():64*random()*([1][t>>9&7]??0))

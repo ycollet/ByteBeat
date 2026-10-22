@@ -1,0 +1,24 @@
+{
+  "file": "songs/0e48ee013a65403282db8b5dcdd5a97e.js",
+  "title": "Untitled (0e48ee01)",
+  "author": "wiretapped",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1cccc38d0dfc4dd981bfae24dd79ef0931ab16814d6e29d0ef813bf17a848cf1",
+  "upstream": {
+    "hash": "0e48ee013a65403282db8b5dcdd5a97e",
+    "codeMinLen": 32,
+    "codeMin": "t*(3+(t>>10)%(4+(t>>11)%8))|t>>5",
+    "codeLen": 34,
+    "code": "t*(3+(t>>10)%(4+(t>>11)%8))|(t>>5)",
+    "author": "wiretapped",
+    "url": "https://www.noisebridge.net/wiki/Bytebeat",
+    "date": "2012-07-07",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

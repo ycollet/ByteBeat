@@ -1,0 +1,26 @@
+{
+  "file": "songs/18ad71b1dbf10408f6b816b0493e9915.js",
+  "title": "beethoven Virus mini cover",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/18ad71b1dbf10408f6b816b0493e9915.js",
+  "sha256": "15a4e9366fc8672c8b205c878c252e097497ab2369948ecb801e476dc56456b3",
+  "upstream": {
+    "hash": "18ad71b1dbf10408f6b816b0493e9915",
+    "codeLen": 1392,
+    "fileOrig": 1,
+    "codeText": "t?0:a=Array(n=12288).fill(0),\r\nSAMP_RATE = 44100,\r\nts = t/SAMP_RATE,\r\nd = 261.63,\r\nrb = 277.18,\r\nr = 293.66,\r\nmb = 311.13,\r\nm = 329.63,\r",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "beethoven Virus mini cover",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dtkbmp/beethoven_virus_mini_cover/",
+    "date": "2024-07-02",
+    "sampleRate": 44100,
+    "coverName": "Diana Boncheva feat. BanYa - Beethoven Virus",
+    "coverUrl": "https://youtu.be/_Tuzqi2_LCM",
+    "tags": [
+      "big"
+    ]
+  }
+}

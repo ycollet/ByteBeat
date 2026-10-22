@@ -1,0 +1,27 @@
+{
+  "file": "songs/7ac2432ca60f2c6fb6dec53724e6a3a0.js",
+  "title": "8D269D3933E700",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c15c749eeac05370f28a42368e8e87a760604ff26957fe67bb2ef03e692b9ef8",
+  "upstream": {
+    "hash": "7ac2432ca60f2c6fb6dec53724e6a3a0",
+    "codeMinLen": 122,
+    "codeMin": "P=(V,D)=>2**(V/D),t?n+=P(t>>4&15,12^2*(t>>12&5))*P([0,0,9,5,0,0,9,14][t>>16&7],12)*2:n=0,sin(n/P(t&t>>12,1+(t>>8))/64|0)/2",
+    "codeLen": 124,
+    "code": "P=(V,D)=>2**(V/D),t?n+=P((t>>4&15),12^2*(t>>12&5))*P([0,0,9,5,0,0,9,14][t>>16&7],12)*2:n=0,sin(n/P(t&t>>12,1+(t>>8))/64|0)/2",
+    "author": "lhphr",
+    "name": "8D269D3933E700",
+    "description": "\"Late night me thought this was somewhat good... Go to bed.\" - lhphr",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-06-25",
+    "mode": "Floatbeat",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

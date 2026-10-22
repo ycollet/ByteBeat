@@ -1,0 +1,29 @@
+{
+  "file": "songs/a6f1919199aea82fe28b994f467e1c76.js",
+  "title": "Hush",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a6f1919199aea82fe28b994f467e1c76.js",
+  "sha256": "4253e68dd4ed7bbfc38f7939c55a14c731be45e82805c8a63ba7afdaf2eeabee",
+  "upstream": {
+    "hash": "a6f1919199aea82fe28b994f467e1c76",
+    "codeLen": 1722,
+    "fileOrig": 1,
+    "codeText": "// (s)Hush\n\n// T things\nT=t, // original T\nt|=3, // bitcrush\np=(t/1.01)*1.22917, // pitch variable\n// (detuned a bit)\ns=t*1.22917, // speed variable",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "Hush",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1iknbgk/something_i_am_working_on/",
+    "date": "2025-02-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "BFDI OST - Hush",
+    "coverUrl": "https://youtu.be/XCeNSQJserE",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-17"
+  }
+}

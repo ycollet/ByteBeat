@@ -1,0 +1,31 @@
+{
+  "file": "songs/bde0b313d4c0b905724168d8eafe4a8c.js",
+  "title": "The Rhythm",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "97f51eadedea1338c71abb1deb7c3fa695904307a72c3286e9929e12b5731484",
+  "upstream": {
+    "hash": "bde0b313d4c0b905724168d8eafe4a8c",
+    "codeLen": 116,
+    "code": "a=t-256,((44*(t/256-28|3)|t*8&t>>11&t>>5|t*(a>>3&a>>4&a>>5&64)>>t/16)/2&127)+(((t^t+t/256)&255)/(5-(t>>17&3))/2&127)",
+    "author": "Gabriel Miceli",
+    "name": "The Rhythm",
+    "url": "https://www.youtube.com/watch?v=V4GfkFbDojc",
+    "date": "2016-07-09",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e285c01d77834fad3bb90ccbd93f11d3",
+        "author": "216",
+        "name": "\"fractal trees\", 216's version",
+        "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

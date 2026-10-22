@@ -1,0 +1,33 @@
+{
+  "file": "songs/f6924d4bc6f61a838e314cfc0c01bb53.js",
+  "title": "polysine 21 chars fewer",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "443a28ced165ef12cfed5b320e63e4b52b8696a6fc9d15066dff05a2dcb207ac",
+  "upstream": {
+    "hash": "f6924d4bc6f61a838e314cfc0c01bb53",
+    "codeMinLen": 55,
+    "codeMin": "F=i=>i&&sin(t*PI/256*i)*(-t/i&8191)/16E3/i+F(i-1),F(24)",
+    "codeLen": 56,
+    "code": "F=i=>i?sin(t*PI/256*i)*(-t/i&8191)/16E3/i+F(i-1):0,F(24)",
+    "author": "May_I_Change_My_Name",
+    "name": "polysine 21 chars fewer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g3awfe/comment/ls049im/",
+    "date": "2023-10-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "ce8dd17196de75fb5bbcf4699cbc4d68",
+        "author": "Glebguything",
+        "name": "polysine",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g3awfe/comment/ls049im/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

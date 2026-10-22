@@ -1,0 +1,29 @@
+{
+  "file": "songs/153dc48bf39a80ffa0ae923a42f99086.js",
+  "title": "Infenitely instantiable 1 pole (6db/oct) filters",
+  "author": "feeshbread",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/153dc48bf39a80ffa0ae923a42f99086.js",
+  "sha256": "f0cb252befde47a8d6f8b7c565d060f9182238f8f3d1522ef9d5e1dc4fa29892",
+  "upstream": {
+    "hash": "153dc48bf39a80ffa0ae923a42f99086",
+    "codeMinLen": 286,
+    "codeMin": "t?0:Z=[],X=0,lp=(a,c)=>(Y=X++,Z[Y]??=0,Z[Y]+=(a-Z[Y])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),nf=(a,l,h)=>(hp(a,h)+lp(a,l))/1.75,lb=(a,c,v)=>a+lp(a,c)*v,hb=(a,c,v)=>a+hp(a,c)*v,m=(sin(t/(2<<14))/2+.5)**2,bp(((t,sp)=>((w=t=>t&255)(t*2**sp)+w(t)+w(t*2**-sp))/3)(t/4,.01)-127,m,m)",
+    "codeLen": 1216,
+    "fileOrig": 1,
+    "codeText": "t?0:Z=[],X=0,lp=(a,c)=>(Y=X++,Z[Y]??=0,Z[Y]+=(a-Z[Y])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),nf=(a,l,h)=>(hp(a,h)+lp(a,l))/1.75,lb=(a,c,v)=>a+lp(a,c)*v,hb=(a,c,v)=>a+hp(a,c)*v,m=(sin(t/(2<<14))/2+.5)**2,bp(((t,sp)=>((w=t=>t&255)(t*2**sp)+w(t)+w(t*2**-sp))/3)(t/4,.01)-127,m,m)",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "Infenitely instantiable 1 pole (6db/oct) filters",
+    "description": "1 pole filters are the cheapest filter implementation you can get (regarding characters and performance)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f7i53w/infenitely_instantiable_1_pole_6dboct_filters/",
+    "date": "2024-09-03",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-14"
+  }
+}

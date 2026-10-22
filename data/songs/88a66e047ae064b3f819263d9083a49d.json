@@ -1,0 +1,23 @@
+{
+  "file": "songs/88a66e047ae064b3f819263d9083a49d.js",
+  "title": "Boss level #6",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "99f107e2ee4325c0a2982adb5e872bb60368f8e1a5591ab09e5f6cacf08228ff",
+  "upstream": {
+    "hash": "88a66e047ae064b3f819263d9083a49d",
+    "codeLen": 53,
+    "code": "t*((t&4096?6:16)+(1&t>>14))>>(3&t>>8)|t>>(t&4096?3:4)",
+    "author": "SthephanShi",
+    "name": "Boss level #6",
+    "url": "https://dollchan.net/de/res/706.html#707",
+    "date": "2019-01-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

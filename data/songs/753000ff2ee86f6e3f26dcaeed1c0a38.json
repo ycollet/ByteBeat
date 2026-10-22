@@ -1,0 +1,28 @@
+{
+  "file": "songs/753000ff2ee86f6e3f26dcaeed1c0a38.js",
+  "title": "Together Forever",
+  "author": "PurpuroNovo",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/753000ff2ee86f6e3f26dcaeed1c0a38.js",
+  "sha256": "5ec7fad1099e106f0e9d42d9722f72fbf07a752eb9eec6050daf68ec70f81bdd",
+  "upstream": {
+    "hash": "753000ff2ee86f6e3f26dcaeed1c0a38",
+    "codeMinLen": 411,
+    "codeMin": "561*t*2**(([57,59,62,59,59,59,55,55,66,66,64,64,64,64,61,61,59,59,57,57,57,57,54,54,64,64,62,62,62,62,NaN,NaN,NaN,NaN,57,57,59,59,55,55,66,66,64,64,64,64,61,61,59,59,61,61,61,59,57,57,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,57,57,59,59,55,55,66,66,64,64,64,64,61,61,59,59,57,57,57,57,57,57,61,61,62,62,62,62,62,62,64,64,66,66,67,67,66,66,64,64,61,61,61,61,62,62,64,64,64,64,64,64,62,62][int(t/1E3)]-104.7)/12)/5",
+    "codeLen": 547,
+    "fileOrig": 1,
+    "codeText": "561*t*2**(([57,59,62,59,59,59,55,55,66,66,64,64,64,64,61,61,59,59,57,57,57,57,54,54,64,64,62,62,62,62,NaN,NaN,NaN,NaN,57,57,59,59,55,55,66,66,64,64,64,64,61,61,59,59,61,61,61,59,57,57,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,57,57,59,59,55,55,66,66,64,64,64,64,61,61,59,59,57,57,57,57,57,57,61,61,62,62,62,62,62,62,64,64,66,66,67,67,66,66,64,64,61,61,61,61,62,62,64,64,64,64,64,64,62,62][int(t/1E3)]-104.7)/12)/5",
+    "isTruncated": 1,
+    "author": "PurpuroNovo",
+    "name": "Together Forever",
+    "url": "https://www.reddit.com/r/bytebeat/comments/19bp5nm/comment/kitwv1l/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2024-01-21",
+    "sampleRate": 8000,
+    "coverName": "Rick Astley - Together Forever",
+    "coverUrl": "https://youtu.be/yPYZpwSpKmA",
+    "tags": [
+      "1k"
+    ]
+  }
+}

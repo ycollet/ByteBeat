@@ -1,0 +1,38 @@
+{
+  "file": "songs/ccf2f079570bb06789d7e84b638d85a5.js",
+  "title": "TByte303",
+  "author": "polyzium",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d313a28c004a9742758a0a3946602136569e955e36707060cb98676f8a3ef082",
+  "upstream": {
+    "hash": "ccf2f079570bb06789d7e84b638d85a5",
+    "codeMinLen": 306,
+    "codeMin": "FB=function(u){this.lp12=this.lp6=0},b=(\"undefined\"!=typeof glob&&null!=glob||(glob=new FB),glob),t/=4,cl=(u,t,f)=>Math.min(Math.max(f,u),t),w=u=>(255&u)/255,cp=w(1-(t>>5|t>>8)>>(t>>16)),c=cl(0,.99,cp),r=.9,fb=r+r/(1-c),f=(4*t&255)/127-1,b.lp6+=c*(f-b.lp6+fb*(b.lp6-b.lp12)),b.lp12+=c*(b.lp6-b.lp12),b.lp12",
+    "codeLen": 340,
+    "code": "FB=function(u){this.lp6=0,this.lp12=0},b=(\"undefined\"!=typeof glob&&null!=glob||(glob=new FB),glob),t/=4,cl=function(u,t,f){return Math.min(Math.max(f,u),t)},w=function(u){return(255&u)/255},cp=w(1-(t>>5|t>>8)>>(t>>16)),c=cl(0,.99,cp),r=.9,fb=r+r/(1-c),f=(4*t&255)/127-1,b.lp6+=c*(f-b.lp6+fb*(b.lp6-b.lp12)),b.lp12+=c*(b.lp6-b.lp12),b.lp12;",
+    "author": "polyzium",
+    "name": "TByte303",
+    "description": "Barebones 12db lowpass filter implementation in JS. Uses tejeez's formula as a modulator.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rgxe2y/tbyte303/",
+    "date": "2021-12-15",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "5b052e9741983ecc9a2440a26e1f53f9",
+        "author": "tejeez",
+        "name": null,
+        "url": [
+          "https://youtu.be/GtQdIYUtAHg?t=45",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

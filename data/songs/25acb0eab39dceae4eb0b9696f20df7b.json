@@ -1,0 +1,32 @@
+{
+  "file": "songs/25acb0eab39dceae4eb0b9696f20df7b.js",
+  "title": "the midi to bytebeat tool",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/25acb0eab39dceae4eb0b9696f20df7b.js",
+  "sha256": "8aa48004d173ca82784ee7070f2d39eeaf97852f99dd23bf9ebd69e234d31344",
+  "upstream": {
+    "hash": "25acb0eab39dceae4eb0b9696f20df7b",
+    "codeLen": 4317,
+    "fileOrig": 1,
+    "codeText": "t||(A=0,B=0,C=0),va={_:0,A:138.59,B:164.81,C:207.65,D:184.99,E:220,F:246.94,G:155.56,H:277.18,I:415.3,J:659.25,K:739.98,L:440,M:554.36,N:329.62,O:830.6,P:493.88,Q:311.12,R:369.99,S:622.25,T:34.64,U:69.29,V:30.86,W:61.73,X:25.95,Y:20.6,Z:41.2},d0=`A000000000B000000000C000000000B000000000A000000000D000000000E000000000D000000000A000000000B000000000E000000000A000000000B000000000C000000000F000000000C000000000F000000000G000000000D000000000G000000000E000000000A000000000B000000000A00000000_A000000000B000000000F0000",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "the midi to bytebeat tool",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11s10f8/a_demonstration_of_my_latest_invention_yet_the/",
+    "date": "2023-03-15",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "fdbaba821a08cdd51610ba99cd53edcd",
+        "author": "Bp103",
+        "name": "now its FM synth",
+        "url": "https://twitter.com/Bp103/status/1345905059964530688"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

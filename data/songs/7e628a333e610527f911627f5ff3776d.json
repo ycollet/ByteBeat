@@ -1,0 +1,30 @@
+{
+  "file": "songs/7e628a333e610527f911627f5ff3776d.js",
+  "title": "Fork in the Garbage Disposal",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7e628a333e610527f911627f5ff3776d.js",
+  "sha256": "c5c0bf7d2dc5fe220ea0c4613059f96d2fafa13cafe13b05187316e072ab6e0a",
+  "upstream": {
+    "hash": "7e628a333e610527f911627f5ff3776d",
+    "codeMinLen": 780,
+    "codeLen": 797,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=5/3,Y=(t,E,n=16)=>(X=(t,e)=>sin(atan(sin(t*PI/256+sin(t*PI/256)*e)/4)*e*[(t>>11)%4|5,3,3,3,2,3,3,5,5,2,4,3,6,4,t/64&4,(t/5&1)+6,1,3,3,3,3,2,3,3,4,4,2,3,3,-3,-5,-12][t>>13&31])/(1+e/16),(Array.from({length:n},(a,b)=>X(t+b*E*65,b)/(2-E/1.5)).reduce((a,b)=>-cbrt(1-a)*-(1-b**3))-1)*(1+E)*2),C=[1,t/4096%1][6417>>(t>>12&15)&1],H=sin(-sin(t+random())*4-t*5+random()*2)*sin(t*7+random()*4)**3,S=[1,(t/8192-1/8192)%1][-t>>13&1&t>>14&1],Y(t,atan(12*(sin(t*PI/(8192/+'42124228146212261212466222426241'[t>>13&31])-1.2)+",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Fork in the Garbage Disposal",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1o39pbk/fork_in_the_garbage_disposal",
+    "date": "2025-10-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2025-11-01",
+    "date_edited": "2025-12-06"
+  }
+}

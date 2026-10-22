@@ -1,0 +1,28 @@
+{
+  "file": "songs/e98ecda467d71d6fefee904f7a1a717c.js",
+  "title": "OSIRIS",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e98ecda467d71d6fefee904f7a1a717c.js",
+  "sha256": "f7822e571df8da26a81a7c8f2a985382a6c6fa9c61d9d748a3d305843eb7cea6",
+  "upstream": {
+    "hash": "e98ecda467d71d6fefee904f7a1a717c",
+    "codeLen": 5481,
+    "fileOrig": 1,
+    "codeText": "t=3*t,patLength=16, bt=t>>19&(patLength-1),\n\ntune=1.428, \n\n// WARNING: Do not take anything out of this \"!&&t()\" statement:\n\n!t&&(\n",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "OSIRIS",
+    "description": "Very demanding on performance, samplerate reduced to 16kHz.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c66gmx/osiris_floatbeat/",
+    "date": "2024-04-17",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

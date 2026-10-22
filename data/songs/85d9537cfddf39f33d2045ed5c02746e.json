@@ -1,0 +1,28 @@
+{
+  "file": "songs/85d9537cfddf39f33d2045ed5c02746e.js",
+  "title": "Before J.C.D.",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/85d9537cfddf39f33d2045ed5c02746e.js",
+  "sha256": "9abb0ba690cb12747ca32b61747eba3817187f9fcae886a820f65bb54c3c54b2",
+  "upstream": {
+    "hash": "85d9537cfddf39f33d2045ed5c02746e",
+    "codeLen": 3320,
+    "codeFormLen": 4434,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "f0=(t&t>>9&1023&&12)^0x13e*~!t>>\"243\"[(t>>4)%3],f1=function(x){return x^x*2^x*3},f2=function(x){return x^x*1.5|x>>\"0102\"[t/10.875&3]},f3=function(x){return x*Math.pow(1.5,\"@$$@#!!#\".charCodeAt(x&\"13984522\"[t>>11&7]))},e=t*Math.pow(1.125,\"13248765132487651324867513248657\"[t>>18&31])/24,SFX1=(t*\"4536\"[t>>16&3]*((-t>>11&7)+1)/204.25%20+t*\"7289\"[t>>17&3]*((-t>>12&7)+1)/132.25%12)*1.25,SFX2=((t*((t*1.25&1)+1)*6.75|t>>6^t>>8)&224)/15.375,SFX3=(((t/(Math.PI*\"3436\"[t>>16&3]*1.625)%9|t>>10)&(t/(Math.PI*\"3436\"[t>>16&",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "Before J.C.D.",
+    "url": "https://www.youtube.com/watch?v=frpeOVBhrvM",
+    "date": "2021-09-10",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

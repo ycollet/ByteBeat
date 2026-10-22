@@ -1,0 +1,30 @@
+{
+  "file": "songs/f2a281204df69c429ab2ce56b6447634.js",
+  "title": "Pretentious Ryoji Ikeda",
+  "author": "lehandsomeguy",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f2a281204df69c429ab2ce56b6447634.js",
+  "sha256": "392dfc2ab606e8d98ece725b02c46e1f6c97a993fcb902c21e7d35b3bbc40f44",
+  "upstream": {
+    "hash": "f2a281204df69c429ab2ce56b6447634",
+    "codeMinLen": 489,
+    "codeMin": "t/=32E3,f=x=>((x%1)+1)%1,s=sin,z=pow,y=int,p=x=>(y(s(x))+.5)*2,h=x=>f(s(x*1342.874+s(5212.42*x))*414.23),function(){t*=.93+((s(t)*.01)/t);a=s(t*99E3)*z(1-f(t/2),100)+s(t*300)*(S='110010001')[y(t)%9]/2+s(t*200)*((3&t/2)==3)/2+p(t*8E4)*S[y(t*2)%9]*z(1-f(t*8),90)+p(t*8E4)*((A='0011')+A+A+'001')[y(t*2)%15]*z(1-f(t*16),90);for(i=0;i<5;i++){a+=s(t*(200+((1+h(i+.3+y(t/4)))*1100)))*.02}a+=s(z(1-f(t*32),5)*20)*(A+'000001000100')[15&t*4]*.06+(s(t*9E3)+s(t*9060))*z(1-f(t/8),100)/5;return a*.8}()",
+    "codeLen": 1300,
+    "codeFormLen": 1030,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t/=32E3,f=x=>((x%1)+1)%1,s=sin,z=pow,y=int,p=x=>(y(s(x))+.5)*2,h=x=>f(s(x*1342.874+s(5212.42*x))*414.23),function(){t*=.93+((s(t)*.01)/t);a=s(t*99E3)*z(1-f(t/2),100)+s(t*300)*(S='110010001')[y(t)%9]/2+s(t*200)*((3&t/2)==3)/2+p(t*8E4)*S[y(t*2)%9]*z(1-f(t*8),90)+p(t*8E4)*((A='0011')+A+A+'001')[y(t*2)%15]*z(1-f(t*16),90);for(i=0;i<5;i++){a+=s(t*(200+((1+h(i+.3+y(t/4)))*1100)))*.02}a+=s(z(1-f(t*32),5)*20)*(A+'000001000100')[15&t*4]*.06+(s(t*9E3)+s(t*9060))*z(1-f(t/8),100)/5;return a*.8}()",
+    "isTruncated": 1,
+    "author": "lehandsomeguy",
+    "name": "Pretentious Ryoji Ikeda",
+    "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/",
+    "date": "2016-03-03",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-30"
+  }
+}

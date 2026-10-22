@@ -1,0 +1,27 @@
+{
+  "file": "songs/85d4513798179ba7f6ad2760681300e5.js",
+  "title": "adventurous song",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/85d4513798179ba7f6ad2760681300e5.js",
+  "sha256": "df8edaea5de17a29941b426c9f1b4a574829717c838cc6eb7622821cc8d30af4",
+  "upstream": {
+    "hash": "85d4513798179ba7f6ad2760681300e5",
+    "codeLen": 19747,
+    "fileOrig": 1,
+    "codeText": "t||(A=0,B=0,C=0),wv=t=>t>>t,va={_:0,A:261.62,B:293.66,C:329.62,D:349.22,E:246.94,F:220,G:130.81,H:146.83,I:123.47,J:110,K:523.25,L:587.32,M:493.88,N:440,O:391.99,P:659.25,Q:698.45},d0=`A0000B0000C0000D0000A0000B0000C0000D0000A0000B0000C0000D0000A0000B0000C0000D0000B0000C0000D0000C0000B0000C0000D0000C0000B0000C0000D0000C0000B0000C0000D0000C0000E0000A0000B0000C0000E0000A0000B0000C0000E0000A0000B0000C0000E0000A0000B0000C0000F0000E0000A0000E0000F0000E0000A0000E0000F0000E0000A0000E0000F0000E0000A0000E0000A0000B0",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "adventurous song",
+    "description": "the result of combining the outputs of \"audio to bytebeat\" and \"midi to bytebeat\" tools",
+    "url": "https://www.reddit.com/r/bytebeat/comments/120gv4f/adventurous_song_the_result_of_combining_the/",
+    "date": "2023-03-24",
+    "sampleRate": 8000,
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/a07a22bd3b205e9f40fcb9ad5a9973e8.js",
+  "title": "Arbitrary Waveform Sierpinski",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a07a22bd3b205e9f40fcb9ad5a9973e8.js",
+  "sha256": "cb436514a5f297c00ab7ab6377d008a3fef42ffb7ca39fc76166a02ef0e4f1be",
+  "upstream": {
+    "hash": "a07a22bd3b205e9f40fcb9ad5a9973e8",
+    "codeMinLen": 202,
+    "codeMin": "T=t=>asin(sin(t*PI/128))*1.7/PI,Q=t=>(t&128)/128-.5,S=t=>sin(t*PI/128)*.68,W=t=>(t&255)/256-.5,V=[Q,T,W,S][t>>16&3],G=(t,m)=>{O=0;for(i=0;i<8;++i)if(m>>(7-i)&1)O+=V(t*(1<<i))/(1<<i);return O;},G(t,t>>8)",
+    "codeLen": 246,
+    "fileOrig": 1,
+    "codeText": "T=t=>asin(sin(t*PI/128))*1.7/PI,Q=t=>(t&128)/128-.5,S=t=>sin(t*PI/128)*.68,W=t=>(t&255)/256-.5,V=[Q,T,W,S][t>>16&3],G=(t,m)=>{O=0;for(i=0;i<8;++i)if(m>>(7-i)&1)O+=V(t*(1<<i))/(1<<i);return O;},G(t,t>>8)",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Arbitrary Waveform Sierpinski",
+    "description": "A simple function that can synthesize Sierpinski harmonies out of any waveforms you like.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f610e1/arbitrary_waveform_sierpinski/",
+    "date": "2024-09-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k",
+      "256"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/8eb5b87b12f484c4670d7332c4c8ae2c.js",
+  "title": "Attack in the Forest",
+  "author": "SthephanShi",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "398e3159378faffee1cb51f189e1e7202dac0239201a30c15cca79f29726783a",
+  "upstream": {
+    "hash": "8eb5b87b12f484c4670d7332c4c8ae2c",
+    "codeLen": 336,
+    "code": "return t=>(T=9*t,b=T>>7,k=b+2&4?4:8,S=(s,p,d=0,a='0235705702357053')=>(5E3*T*2**(p+a[(T-d)/s%a.length|0]/12+((1-(T>>5&3))%2+2)/3)&128)/3,N=p=>1E5*sin(T*p|0)&64,S(2,0)+.6*S(2,0,3)+(b&&S(0,-2))+(b>1&&1.2*S(.25,1,0,'037')*(1-T%(k-2)/(k-1)))+(b>2&&.4*N(1E6)*(1-(T-k/2)%k/k))+(b>3&&48*(sin(80*(T%k)**.5)+1)+(T&k&&.8*N(280)*(1-T%k/k))))/128-1",
+    "author": "SthephanShi",
+    "name": "Attack in the Forest",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18kzekh/funcbeat_in_dollchan_player/",
+    "date": "2023-12-18",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "0c8f1f876ccea2f144287a89038b964f",
+        "author": "SthephanShi",
+        "name": "Dark Forest",
+        "url": [
+          "https://battleofthebits.com/arena/Entry/Dark+forest/57555/",
+          "https://www.reddit.com/r/bytebeat/comments/10k73al/dark_forest/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

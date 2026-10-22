@@ -1,0 +1,28 @@
+{
+  "file": "songs/7419cab2a61c8760cce5634b57cd573d.js",
+  "title": "galactic funk keyboard solo",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7419cab2a61c8760cce5634b57cd573d.js",
+  "sha256": "20992813d0fa838fedacb3d74a276be89162ef425679a4dd336455d3eb0591af",
+  "upstream": {
+    "hash": "7419cab2a61c8760cce5634b57cd573d",
+    "codeLen": 1651,
+    "fileOrig": 1,
+    "codeText": "t?(T=t*S*8.6,i=0,p=m[n=i*2+1],B='0100101010010001010010101011010101001010100100110100101010110101'[T&63]*(1-(T*2&1)),C=parseInt('00000000111111122222222233333445555555667777778999999999AAAAAAA0'[T&63],36),H=[[11,7,4,2,0],[10,6,5,2,0],[9,5,2,0,-2],[8,4,1,-1,-4],[6,4,1,-1,-4],[7,3,0,-2,-4],[6,3,0,-2,-5],[5,2,0,-2,-4],[9,5,2,0,-2],[10,7,5,2,-2],[10,6,5,0,-2]],m[n]=B,m[i*2]=220*2**(H[C][0]/12),e(0),i=1,p=m[n=i*2+1],m[n]=B,m[i*2]=220*2**(H[C][1]/12),e(1),i=2,p=m[n=i*2+1],m[n]=B,m[i*2]=220*2**(H[C][2]/12),e(2),i=",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "galactic funk keyboard solo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16amhsx/galactic_funk_keyboard_solo/",
+    "date": "2023-09-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Casiopea - Galactic Funk",
+    "coverUrl": "https://youtu.be/h4fjHTHl2T8",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

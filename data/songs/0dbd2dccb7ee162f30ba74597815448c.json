@@ -1,0 +1,25 @@
+{
+  "file": "songs/0dbd2dccb7ee162f30ba74597815448c.js",
+  "title": "floppy spinner :)",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2ad17c5a3b4091090e974b7d7e565291fe44f4c0e14df5d408f865d90f02a5e0",
+  "upstream": {
+    "hash": "0dbd2dccb7ee162f30ba74597815448c",
+    "codeMinLen": 47,
+    "codeMin": "t*(39&t>>12-t*(43&t>>10)/t*(49&t>>11)&t>>8)%200",
+    "codeLen": 49,
+    "code": "t*(39&t>>12-t*(43&t>>10)/t*(49&t>>11)&t>>9-1)%200",
+    "author": "rubi",
+    "name": "floppy spinner :)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/r58bdq/floppy_spinner_reposted_because_when_you_click/",
+    "date": "2021-11-30",
+    "sampleRate": 11025,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

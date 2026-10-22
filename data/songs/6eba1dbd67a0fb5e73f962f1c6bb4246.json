@@ -1,0 +1,27 @@
+{
+  "file": "songs/6eba1dbd67a0fb5e73f962f1c6bb4246.js",
+  "title": "i want to read with you",
+  "author": "cyclar2",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/formatted/6eba1dbd67a0fb5e73f962f1c6bb4246.js",
+  "sha256": "49b51e7a8c3768a84e5b158572fb44802cf34c0012ed0a8b87381fed3f670025",
+  "upstream": {
+    "hash": "6eba1dbd67a0fb5e73f962f1c6bb4246",
+    "codeFormLen": 1007,
+    "fileForm": 1,
+    "codeText": "t||(C=x=>min(1,max(0,x)),T=2*PI,U=(v,f)=>v==void {}||f(v),f=floor,R=48e3,B=R*(Bd=60/110)|0,D=[0,0,0,0].map((_,i)=>Array(ceil(30e3*1.3**i)).fill(0)),tw=ba=[]),\nBF=440*2**(sin(t/R/500)/2),\ntw=tw.filter(x=>x[0]<R*10),\nba=ba.filter(x=>x[0]<R*20),\nt_=t-B*20,\nt%B||U([7,0,t_<0||(t_/(B*10)&3)!=3?2:-1,-5][(t/B|0)%5],x=>tw.push([0,BF*2**(x/12)*2])),\nt_<0||t_%(B*10)||U([0,4,-3,-7][t_/(B*10)&3],x=>ba.push([0,BF*2**(x/12)/4])),\nt_=t-B*100,",
+    "isTruncated": 1,
+    "author": "cyclar2",
+    "name": "i want to read with you",
+    "url": "https://battleofthebits.com/arena/Entry/i+want+to+read+with+you+%28floatbeat+48k%29.txt/84236/",
+    "date": "2026-04-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-05-10"
+  }
+}

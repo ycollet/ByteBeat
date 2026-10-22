@@ -1,0 +1,38 @@
+{
+  "file": "songs/9d89ffaf0d674f8c7d563a7b9952b91a.js",
+  "title": "true phonk indeed",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9d89ffaf0d674f8c7d563a7b9952b91a.js",
+  "sha256": "e1ec129063ba072bbee9444a6509b7a760b4b46f4849942fe5a590b3a3addb40",
+  "upstream": {
+    "hash": "9d89ffaf0d674f8c7d563a7b9952b91a",
+    "codeMinLen": 491,
+    "codeMin": "x=X=>(sr=48e3,this.a??=0,k=3,r=t/sr/60*16384*135,m=r&1048576?16384:32768,p=t*2**('25259474'[7&r>>13]/12)/k*X,a=(a*24+(p%88+p%59*6/4-64)/(r/'4142'[3&r>>13]%4096+128)**.7*64)/32,tanh(atan((a/4+((t/4*X*2**('2570'[3&r>>17]/12)/k%88)&255)/128-.5)*(r/4096&3?1:r/4096%1)**12+(max(-1,min(1,sin(200*X*pow(1e-9,r/16384%.25))*4))+sin((t/2*X|r>>12&7)**3)*(r/4096%1-1))*'0001001000101000'[r>>12&15]/2+max(-1,min(1,sin(70*X*pow(1e-12,r/m%1))*8+sin((t/2*X|r/8192%8)**4)*(r/m%1-1)**4))))),[x(.995),x(1.005)]",
+    "codeLen": 512,
+    "fileOrig": 1,
+    "codeText": "x=X=>(sr=48e3,this.a??=0,k=3,r=t/sr/60*16384*135,m=r&1048576?16384:32768,p=t*2**('25259474'[7&r>>13]/12)/k*X,a=(a*24+(p%88+p%59*6/4-64)/(r/'4142'[3&r>>13]%4096+128)**.7*64)/32,tanh(atan((a/4+((t/4*X*2**('2570'[3&r>>17]/12)/k%88)&255)/128-.5)*(r/4096&3?1:r/4096%1)**12+(max(-1,min(1,sin(200*X*pow(1e-9,r/16384%.25))*4))+sin((t/2*X|r>>12&7)**3)*(r/4096%1-1))*'0001001000101000'[r>>12&15]/2+max(-1,min(1,sin(70*X*pow(1e-12,r/m%1))*8+sin((t/2*X|r/8192%8)**4)*(r/m%1-1)**4))))),[x(.995),x(1.005)]",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "true phonk indeed",
+    "url": "https://dollchan.net/btb/res/6946.html#11537",
+    "date": "2025-12-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f77bc975807af99a81f4404bec005a5d",
+        "author": "Zackx",
+        "name": "true phonk i made in bytebeat lol",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/the_true_phonk_i_made_in_bytebeat_lol"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-02-13",
+    "date_edited": "2026-02-24"
+  }
+}

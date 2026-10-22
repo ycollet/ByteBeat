@@ -1,0 +1,33 @@
+{
+  "file": "songs/a9316a069d8a91bbda8211acd4359305.js",
+  "title": "きらめき☆Skyblossom",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a9316a069d8a91bbda8211acd4359305.js",
+  "sha256": "24982f1494e9beee1eaf6052e606afea6070890db855b61e615580779d48c508",
+  "upstream": {
+    "hash": "a9316a069d8a91bbda8211acd4359305",
+    "codeLen": 6430,
+    "fileOrig": 1,
+    "codeText": "/*!\n * •───────────────•°•❀•°•───────────────•\n * PrincessPriscilaPT · きらめき☆Skyblossom\n * •───────────────•°•❀•°•───────────────•\n */\n\n\t/* filters */\nt || (fx = [], sfx = []), fxi = 0, sfxi = 0,",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "きらめき☆Skyblossom",
+    "description": "Main theme of PrincessPriscillaPT's own character — green-eyed pink alicorn pony. Translation from Japanese: \"Sparkle☆Skyblossom\"",
+    "url": [
+      "https://dollchan.net/btb/res/7164.html#17215",
+      "https://www.bytebeat.cloud/post/cd85cf30-da2b-4d31-94b5-69d339f265f5"
+    ],
+    "date": "2026-08-17",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-10-18",
+    "date_edited": "2026-10-21"
+  }
+}

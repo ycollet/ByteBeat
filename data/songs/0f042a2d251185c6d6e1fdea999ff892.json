@@ -1,0 +1,31 @@
+{
+  "file": "songs/0f042a2d251185c6d6e1fdea999ff892.js",
+  "title": "i-dimensional",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0f042a2d251185c6d6e1fdea999ff892.js",
+  "sha256": "80ca31d5ef1b5d2819f01e8bb09162e95089ca247f543dc667001dfa3b15c065",
+  "upstream": {
+    "hash": "0f042a2d251185c6d6e1fdea999ff892",
+    "codeLen": 708,
+    "fileOrig": 1,
+    "codeText": "t?0:d=Array(24576).fill(0),a=2**21,S=sin,t%=a*3,q=t>>20,Q=q>1,X=q&4,T=t%a+(3+X)*a*Q,w=v=>asin(S(PI*t/50*2**([0,3,7,5+5*(t>>18&1)][t>>16&3]/12-v)))/PI/4,z=(t/a*2%1)**2,Z=!!q||z,y=d.shift(),L=q&1,u=Q*L*S(5e4*z**8)*z**2/8,D=(t>>16!=31)*Z*2*(1-t/a*32%1)**4*(w(0)+X*w(1+(t>>12&1))/4)+(X?u/4:u)+y,d.push(D/4+d[8192]/2+d[3510]/5),W=t/3,Y=W>>13&7,s=v=>atan(w(v)/0),Q*(acos(S(-PI*(2*T&T>>14^3*T&T>>14)*T/a*32)+1)/PI+min(0,(t/2**14+1)%2-1)/(X?2:2.5)*S((t>>3)**3)**2)-(t>>17!=15)*(!!q*S(3**(1+(Q&&L))*(t%2**(15-X/4-[0,t>>13",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "i-dimensional",
+    "description": "A somewhat fast paced song with lots of NaN values.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/zj3l2l/idimensional/",
+      "https://dollchan.net/btb/res/44.html#367"
+    ],
+    "date": "2022-11-23",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-07"
+  }
+}

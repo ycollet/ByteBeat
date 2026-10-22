@@ -1,0 +1,23 @@
+{
+  "file": "songs/47a78b8645d719aaf8bfb29e8ec2bec1.js",
+  "title": "Badly Brazilian Bubble",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 35498,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ab2f96c21b570675a838d14e56671b6f350fc203716e672e773d7f18425cf948",
+  "upstream": {
+    "hash": "47a78b8645d719aaf8bfb29e8ec2bec1",
+    "codeLen": 94,
+    "code": "sin(t%(a=4096)*PI/100/'62226226'[t>>13&7]/256*(t%a)*(-t>>11&1)*'1001001010101010'[t>>12&15])*2",
+    "author": "Decent-Manager-6169",
+    "name": "Badly Brazilian Bubble",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gepu7i/badly_brazilian_bubble/",
+    "date": "2024-10-29",
+    "mode": "Floatbeat",
+    "sampleRate": 35498,
+    "tags": [
+      "256"
+    ]
+  }
+}

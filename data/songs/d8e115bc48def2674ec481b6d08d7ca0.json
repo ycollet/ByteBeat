@@ -1,0 +1,29 @@
+{
+  "file": "songs/d8e115bc48def2674ec481b6d08d7ca0.js",
+  "title": "twinkle twinkle (simple)",
+  "author": "Bp103",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3e42bbf74b097227afa064c74f2bde31146093a9758423b450b631e78bc8fd35",
+  "upstream": {
+    "hash": "d8e115bc48def2674ec481b6d08d7ca0",
+    "codeMinLen": 184,
+    "codeMin": "t/=8E3,sin(55*t*(2**(1/12))**('a\u0001a\u0001h\u0001h\u0001j\u0001j\u0001hh\u0001\u0001f\u0001f\u0001e\u0001e\u0001c\u0001c\u0001aa\u0001\u0001'.charCodeAt((4*t|0)%32)-23))/5+sin(55*t*(2**(1/12))**('a\u0001a\u0001hthhjej\u0001het\u0001rrr\u0001qqq\u0001o\u0001o\u0001qma\u0001'.charCodeAt((4*t|0)%32)-47)/2)/4",
+    "codeLen": 264,
+    "code": "main();\nfunction main(){\n\tq=t/8000;\n\tlead = q*55*pow(pow(2,1.0/12),'a\u0001a\u0001h\u0001h\u0001j\u0001j\u0001hh\u0001f\u0001f\u0001e\u0001e\u0001c\u0001c\u0001aa\u0001'.charCodeAt(int(q*4)%30)-23);\n\tbass = q*55*pow(pow(2,1.0/12),'a\u0001a\u0001hthhjej\u0001het\u0001rrr\u0001qqq\u0001o\u0001oqm\u0001'.charCodeAt(int(q*4)%30)-47);\n\treturn (sin(lead*1)/5)+(sin(bass/2)/4);\n}",
+    "author": "Bp103",
+    "name": "twinkle twinkle (simple)",
+    "description": "Original code has a melody error, it is fixed in the minified version.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11sj8fx/twinkle_twinkle_simple/",
+    "date": "2023-03-16",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "coverName": "Twinkle Twinkle Little Star",
+    "coverUrl": "https://youtu.be/yCjJyiqpAuU",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

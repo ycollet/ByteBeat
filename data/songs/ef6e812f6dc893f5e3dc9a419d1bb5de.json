@@ -1,0 +1,30 @@
+{
+  "file": "songs/ef6e812f6dc893f5e3dc9a419d1bb5de.js",
+  "title": "Takitjää",
+  "author": "Lia",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ef6e812f6dc893f5e3dc9a419d1bb5de.js",
+  "sha256": "57be37b0b542fb58383e8e8fa3ae1ce990d61cbb7ffb3781f04fbdc06b26060d",
+  "upstream": {
+    "hash": "ef6e812f6dc893f5e3dc9a419d1bb5de",
+    "codeMinLen": 841,
+    "codeLen": 1599,
+    "codeFormLen": 1592,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "(M=max)(0,(m=min)(255,128+100*(.6*((R=round)(M(-1,m(1,10*(s=sin)(.07444*t/((39<R(z=(Z=t/48e3)+7)%48?1:2)*(47<R(z)%64?1:.5))*2**(((i=int)(M(0,m(7,2*R(abs(i(8+(X=t/12E3))%16-8))-4-(5<=i(X)%16&&12>i(X)%16))))-7)/12))+4.9*s(t/14051)*s(t/39004)))*(100+80*s(t/20499)))/(100+80*s(t/20499))*(5<i(t/1500-.5)%8||i(X-2)%8>(4>i(Z-1)%8?6==i(X-2)%8?6:4:6)?.1:6E3<t%12E3?.3:.6+.1*s(t/4190))+(.25+.12*cos(t/2E4))*R(M(-1,m(1,10*s(.0743*t/((47<R(z)%56?1:2)*(55<R(z)%80?1:.5))*2**((M(-1,m(4,i(5>i(X+2)%16?0:2*R(abs(i(8+X)%16-8))-8)",
+    "isTruncated": 1,
+    "author": "Lia",
+    "name": "Takitjää",
+    "description": "\"Since everybody wants to do fancy hacky FM-stuff w/ note sequence tables and all for the non-restricted bb [bytebeat], I have decided to contribute my turd of a piano lesson for the sake of diversity.\" - Lia",
+    "url": "https://battleofthebits.com/arena/Entry/Takitj%C3%A4%C3%A4/31188/",
+    "date": "2019-03-14",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-09"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/14f23627c640359761a2350ff7066cee.js",
+  "title": "Bytebeat Polka",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "42b363437a3251f4d465a68d5d4875f2ab9827008bc87296437a701a02b04d15",
+  "upstream": {
+    "hash": "14f23627c640359761a2350ff7066cee",
+    "codeLen": 40,
+    "code": "~t>>3&(t>>11&1?5:4-(t>>12&1))*t&(t>>7)+t",
+    "author": "May_I_Change_My_Name",
+    "name": "Bytebeat Polka",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ye43du/bytebeat_polka/",
+    "date": "2022-10-26",
+    "sampleRate": 11025,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

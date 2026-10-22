@@ -1,0 +1,24 @@
+{
+  "file": "songs/e2eaf9c038395beb8b71f9af422e6777.js",
+  "title": "Useless7",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ba4e75daead00d136a169cbf2d1b1369e14d0b39db09e7d8521cba5357a3de13",
+  "upstream": {
+    "hash": "e2eaf9c038395beb8b71f9af422e6777",
+    "codeMinLen": 160,
+    "codeMin": "((4*t*((t>>19&1)+1)*2**([2,5,9,2,5,9,2,5,9,12,14,9,12,14,9,12,10,7,14,10,7,14,10,7,9,4,13,9,4,13,9,4][t>>13&31]/12)&4095)**(1/sqrt(4+.32*sin(t/8192)))&16)%256*8",
+    "codeLen": 171,
+    "code": "(((t*4*((t>>19&1)+1)*2**([2,5,9,2,5,9,2,5,9,12,14,9,12,14,9,12,10,7,14,10,7,14,10,7,9,4,13,9,4,13,9,4][t>>13&31]/12)&4095)**(1/sqrt((4+.01*((sin(t/8192))*32)))))&16)%256*8",
+    "author": "Decent-Manager-6169",
+    "name": "Useless7",
+    "url": "https://dollchan.net/btb/res/520.html#2733",
+    "date": "2023-12-07",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

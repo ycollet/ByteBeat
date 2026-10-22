@@ -1,0 +1,26 @@
+{
+  "file": "songs/6d96b04e6d23369ac02d56eb3abf345d.js",
+  "title": "19TET Harmony with Justly Tuned Melody",
+  "author": "Yamden",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6d96b04e6d23369ac02d56eb3abf345d.js",
+  "sha256": "c50cf14078e5869c15a13231764c121ea419385f7d4a83a7e7604cdbd583500b",
+  "upstream": {
+    "hash": "6d96b04e6d23369ac02d56eb3abf345d",
+    "codeMinLen": 681,
+    "codeLen": 737,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=64E3,(t>0)*(t<16E3)*((1*t&32)+(1.24469258*t&32)+(1.49375896*t&32))+(t>16E3)*(t<32E3)*((1*t&32)+(1.24469258*t&32)+(1.60682245*t&32))+(t>32E3)*(t<48E3)*((1*t&32)+(1.3389041*t&32)+(1.66652401*t&32))+(t>48E3)*(t<64E3)*((1*t&32)+(1.3389041*t&32)+(1.60682245*t&32))+(t>0)*(t<1E4)*(5*t&32)+(t>1E4)*(t<12E3)*(5.333333333333333*t&32)+(t>12E3)*(t<14E3)*(5*t&32)+(t>14E3)*(t<16E3)*(4.5*t&32)+(t>16E3)*(t<2E4)*(5*t&32)+(t>2E4)*(t<24E3)*(4*t&32)+(t>24E3)*(t<28E3)*(3.75*t&32)+(t>28E3)*(t<32E3)*(4*t&32)+(t>32E3)*(t<36E3)*(",
+    "isTruncated": 1,
+    "author": "Yamden",
+    "name": "19TET Harmony with Justly Tuned Melody",
+    "url": "https://dollchan.net/btb/res/3.html#499",
+    "date": "2023-03-02",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

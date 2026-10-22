@@ -1,0 +1,26 @@
+{
+  "file": "songs/bd7bd917a818138bf0b3a305aa513b04.js",
+  "title": "gas station hotdog",
+  "author": "Bp103",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bd7bd917a818138bf0b3a305aa513b04.js",
+  "sha256": "5e49c70585b7d5c7dd947f97127d0ee4da47f57733e572fbce16d050e738f385",
+  "upstream": {
+    "hash": "bd7bd917a818138bf0b3a305aa513b04",
+    "codeLen": 6667,
+    "fileOrig": 1,
+    "codeText": "//Coded By Bp103\n\nmain(44100);\n\nfunction main(sr){\n\n\t// Set this to 1 if \"throw\" statement kills sound (HTML5 Bytebeat fix).\n\tfail_safe = 0;",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "gas station hotdog",
+    "url": "https://www.reddit.com/r/bytebeat/comments/17kdo20/gas_station_hotdog/",
+    "date": "2023-10-31",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

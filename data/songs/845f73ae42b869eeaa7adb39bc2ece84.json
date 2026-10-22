@@ -1,0 +1,24 @@
+{
+  "file": "songs/845f73ae42b869eeaa7adb39bc2ece84.js",
+  "title": "some kind of 80s synth type thing (Never Gonna Give You Up)",
+  "author": "Gasman",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c1d838643d033aebd0369b9dae7de2979f7677d5a560e25364b8d3368ca813c2",
+  "upstream": {
+    "hash": "845f73ae42b869eeaa7adb39bc2ece84",
+    "codeLen": 130,
+    "code": "(t<<3)*[8/9,1,9/8,6/5,4/3,3/2,0][[0xd2d2c8,0xce4088,0xca32c8,0x8e4009][t>>14&3]>>(0x3dbe4688>>((t>>10&15)>9?18:t>>10&15)*3&7)*3&7]",
+    "author": "Gasman",
+    "name": "some kind of 80s synth type thing (Never Gonna Give You Up)",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389109",
+    "date": "2011-10-05",
+    "sampleRate": 8000,
+    "coverName": "Rick Astley - Never Gonna Give You Up",
+    "coverUrl": "https://youtu.be/dQw4w9WgXcQ",
+    "tags": [
+      "256"
+    ]
+  }
+}

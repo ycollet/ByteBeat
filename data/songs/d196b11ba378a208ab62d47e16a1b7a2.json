@@ -1,0 +1,23 @@
+{
+  "file": "songs/d196b11ba378a208ab62d47e16a1b7a2.js",
+  "title": "8-bit guitar",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e66193c100eb4e1973bb15cda6e224534e56c372c88893080bfdc7aadd61a07b",
+  "upstream": {
+    "hash": "d196b11ba378a208ab62d47e16a1b7a2",
+    "codeLen": 55,
+    "code": "(t/(t/(3+(t>>12&3))*(3+(t>>14&6))&120)&1023)/(t>>5&127)",
+    "author": "ANoUserXD",
+    "name": "8-bit guitar",
+    "url": "https://dollchan.net/btb/res/2628.html#2750",
+    "date": "2023-12-08",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

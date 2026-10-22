@@ -1,0 +1,23 @@
+{
+  "file": "songs/e035aa3678237672fffead9ae27f8d39.js",
+  "title": "stars racing",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7bdc1e7bf1e05f0f606b28fb78af6fb9f8518e54b2ed8dcb14b9965a40fb0f0e",
+  "upstream": {
+    "hash": "e035aa3678237672fffead9ae27f8d39",
+    "codeLen": 153,
+    "code": "a=t=>(t*2**(parseInt('OKHFKDCFKA858135'[(t>>11)%16],36)/12)*2**('0251'[3&t>>17]/12)*2&128)*(1-t%2048/2048/(-cos(t/4E4)+2)),a(t)+a(t-12288)/2+a(t-24576)/4",
+    "author": "Zackx",
+    "name": "stars racing",
+    "description": "Beautiful arpeggio with echo.",
+    "url": "https://dollchan.net/btb/res/204.html#1681",
+    "date": "2023-07-20",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

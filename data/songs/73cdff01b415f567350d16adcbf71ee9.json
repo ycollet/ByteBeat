@@ -1,0 +1,36 @@
+{
+  "file": "songs/73cdff01b415f567350d16adcbf71ee9.js",
+  "title": "idk what genre this is",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/73cdff01b415f567350d16adcbf71ee9.js",
+  "sha256": "997692a87c5ec7c758d1f22dd6dad8d191dc69a53eba47d77b602ab92f2fa400",
+  "upstream": {
+    "hash": "73cdff01b415f567350d16adcbf71ee9",
+    "codeLen": 2140,
+    "fileOrig": 1,
+    "codeText": "/*\n * idk what genre this is\n * by troubleshoot\n * (remix of \"synthwave type chord\")\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=90,K=H=S=k=h=s=b1=b2=c1=c2=c3=c4=h1=h2=h3=s1=s2=0,Ki=Hi=Sn=1,r=Array(me=16384).fill(0),R=i=>r[(i+me|0)%me],clip=x=>atan(1.2*x)/1.2,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "idk what genre this is",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1m71zef/idk_what_genre_this_is/",
+    "date": "2025-07-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e6f458b2966842e031ef7e6b7ed88eae",
+        "author": "Decent-Manager-6169",
+        "name": "Synthwave Type Chord",
+        "url": "https://dollchan.net/btb/res/520.html#8230"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22",
+    "date_edited": "2025-09-25"
+  }
+}

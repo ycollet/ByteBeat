@@ -1,0 +1,26 @@
+{
+  "file": "songs/181eec65244f6530e84f8d2087cc9d14.js",
+  "title": "music with loud kick and stereo",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "88fb43a340dded9aa3d38ae8438e57ff28678ad9e8f6c1c20b0366225f40db94",
+  "upstream": {
+    "hash": "181eec65244f6530e84f8d2087cc9d14",
+    "codeMinLen": 278,
+    "codeMin": "T=q=>t*2**(q/12),z=1.25*t%16384,v=(x,y)=>((((T(1.25*t>>13&7)%256/3+1.49*T(1.25*t>>13&7)%256/3+1.99*T(1.25*t>>13&7)%256/3|1.25*t>>5)/2&127)+((t*y(t>>3)*(1.25*t>>13&1)&128)*(1.25*~t>>5&255)>>8)+random()*(1.25*-t&8192)/256+x(y(z**.55))*.999**z*512)/128-1),[v(asin,sin),v(acos,cos)]",
+    "codeLen": 284,
+    "code": "T=q=>t*2**(q/12),z=t*1.25%16384,v=(x,y)=>(((T(t*1.25>>13&7)%256/3+1.49*T(t*1.25>>13&7)%256/3+1.99*T(t*1.25>>13&7)%256/3|t*1.25>>5)/2&127)+(((t*y(t>>3)*(t*1.25>>13&1)&128)&255)*(~t*1.25>>5&255)>>8)+random()*(-t*1.25&8192)/256+x(y(z**.55))*(.999**z)*512)/128-1,[v(asin,sin),v(acos,cos)]",
+    "author": "ANoUserXD",
+    "name": "music with loud kick and stereo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/151n24t/music_with_loud_kick_and_stereo/",
+    "date": "2023-07-17",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ]
+  }
+}

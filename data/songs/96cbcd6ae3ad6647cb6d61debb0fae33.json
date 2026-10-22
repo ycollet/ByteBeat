@@ -1,0 +1,33 @@
+{
+  "file": "songs/96cbcd6ae3ad6647cb6d61debb0fae33.js",
+  "title": "another aturned777 bytebeat remixed",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dcb4ce1d478b6257ef26c32cc9f2c01840a32a87aaf4ada3e3234a54019e994f",
+  "upstream": {
+    "hash": "96cbcd6ae3ad6647cb6d61debb0fae33",
+    "codeMinLen": 178,
+    "codeMin": "(()=>{for(x=l=0;x<1+(t>>9&15);x++)l+=8*2**x*t/(4+(t>>15&15))*(1+(t>>13&3))/128%2-1;return n=l/x,n/4+sin(8/(t/16384%1+.07))/2+((t%8?a:a=random())-.5)/2*(1-t/16384%1)*(t>>14&1)})()",
+    "codeLen": 180,
+    "code": "(()=>{l=0;for(x=0;x<1+(t>>9&15);x++)l+=2**x*8*t/(4+(t>>15&15))*(1+(t>>13&3))/128%2-1;return n=l/x,n/4+sin(8/(t/16384%1+.07))/2+((t%8?a:a=random())-.5)/2*(1-t/16384%1)*(t>>14&1)})()",
+    "author": "ANoUserXD",
+    "name": "another aturned777 bytebeat remixed",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1biv9v4/another_aturned777_bytebeat_remixed/",
+    "date": "2024-03-19",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "d0f086db4564e2ad51970cd662806c36",
+        "author": "aturned777",
+        "name": null,
+        "url": "https://dollchan.net/btb/res/3.html#406"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

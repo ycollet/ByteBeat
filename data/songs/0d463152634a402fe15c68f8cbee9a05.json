@@ -1,0 +1,27 @@
+{
+  "file": "songs/0d463152634a402fe15c68f8cbee9a05.js",
+  "title": "Testing stereo",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0d463152634a402fe15c68f8cbee9a05.js",
+  "sha256": "c18bd8a25ff46936a0a99dad8fe7d354cb2ff3f1c965d5264ac6b677e851e55a",
+  "upstream": {
+    "hash": "0d463152634a402fe15c68f8cbee9a05",
+    "codeLen": 1214,
+    "codeFormLen": 1320,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "//global variables.\nsr=t/44100,tune=220,sh=int(sr/8)%2,\n\n//the music\nnshift=[8,4+sh,12,16+sh,12*(int((sr*16)%2)+1),(7+sh)*(int((sr*8)%2)+1),7],\nchord=[0,4+sh,7+sh,nshift[int((sr/2)%7)]],\n\nmain();",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "Testing stereo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/w1ucw3/testing_stereo/",
+    "date": "2022-07-18",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ]
+  }
+}

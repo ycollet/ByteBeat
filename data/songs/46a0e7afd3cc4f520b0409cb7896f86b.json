@@ -1,0 +1,32 @@
+{
+  "file": "songs/46a0e7afd3cc4f520b0409cb7896f86b.js",
+  "title": "Fault cassette",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "97b2c898b9e1ab5fe311d57c5bc629f77997433b688044794cf52f6c353635ec",
+  "upstream": {
+    "hash": "46a0e7afd3cc4f520b0409cb7896f86b",
+    "codeMinLen": 151,
+    "codeMin": "t+=512*sin(t/4096*PI),(t&8192?t&4096?t&1024?2*t:4*t:t&512?4*t:4.2*t:(t&4096?t&1024?2*t:10*t:t&512?2*t:8*t)>>2)*(t&16384?3:2)|t*(t&16384?.125:1/(.01*t))",
+    "codeLen": 152,
+    "code": "t=t+sin(t/4096*PI)*512,(t&8192?t&4096?t&1024?2*t:4*t:t&512?4*t:4.2*t:(t&4096?t&1024?2*t:10*t:t&512?2*t:8*t)>>2)*(t&16384?3:2)|t*(t&16384?.125:1/(.01*t))",
+    "author": "kOLbOSa_exe",
+    "name": "Fault cassette",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14cbwiz/fault_cassette_fanfare/",
+    "date": "2023-06-18",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "a184c2c272dd587f2d2331c766e11b79",
+        "author": "varjohukka",
+        "name": "Fanfare?",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=4#c388503"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

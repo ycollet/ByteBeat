@@ -1,0 +1,23 @@
+{
+  "file": "songs/4611731b1265d3eecf13371c524240ae.js",
+  "title": "ventures",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9858224f7245cdeb12b393846b56bd3f8f18e94e1f1fa7a2f781193f1cdf0fae",
+  "upstream": {
+    "hash": "4611731b1265d3eecf13371c524240ae",
+    "codeLen": 239,
+    "code": "a=p=>t*11/400*2**(p/12),z=p=>1-2*(a(p)&1),r=p=>2*asin(sin(a(p)*PI))/PI,q=t/4096,s=t>>10,((2-q%2)*z([0,7,12,19,5,7,12,17][s>>2+(s>>2&3)&7])+(q/2&1)*z('0507'[u=s>>7&3]-36)+(q/8%.5)*z([0,7,12,19][s&3]+12)+r('0525'[u]-12)+r(-'5350'[u]))*24+128",
+    "author": "lhphr",
+    "name": "ventures",
+    "url": "https://dollchan.net/btb/res/44.html#1367",
+    "date": "2023-05-08",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-08-22"
+  }
+}

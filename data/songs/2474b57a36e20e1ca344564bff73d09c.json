@@ -1,0 +1,24 @@
+{
+  "file": "songs/2474b57a36e20e1ca344564bff73d09c.js",
+  "title": "w",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5b204abbf5fad66721880ddd833332d21c971b5ee27f3f60b318985733004e88",
+  "upstream": {
+    "hash": "2474b57a36e20e1ca344564bff73d09c",
+    "codeMinLen": 134,
+    "codeMin": "t>>=2,random()*(t>>11&1)*(-t>>4&63)+(t*sin(t>>1)*(t>>12&1)&-t>>5&127)+((t/4*(t&8192?7:5)*(t&4096?2:1)|t/(t&16384?8:4)>>(t>>12)%4)&127)",
+    "codeLen": 138,
+    "code": "t>>=2,(random()*(t>>11&1)*(-t>>4&63))+(t*(sin(t>>1))*(t>>12&1)&-t>>5&127)+((t/4*(t&8192?7:5)*(t&4096?2:1)|t/(t&16384?8:4)>>(t>>12)%4)&127)",
+    "author": "rubi",
+    "name": "w",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10a047i/w/",
+    "date": "2022-01-12",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

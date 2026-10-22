@@ -1,0 +1,39 @@
+{
+  "file": "songs/ab68f9ee1c03999c994b28f681db62d9.js",
+  "title": "claserb revesic",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ab68f9ee1c03999c994b28f681db62d9.js",
+  "sha256": "1ced70c13c022d61a4f2e9531d1b8d149a91530cfb3fdcd0eb49a7c2d2a5b991",
+  "upstream": {
+    "hash": "ab68f9ee1c03999c994b28f681db62d9",
+    "codeMinLen": 131,
+    "codeMin": "t/=4,h=t=>10*(t>>6|t|t>>(t>>16))+(7&t>>11)&255,(p=>{a=h(t)/4;for(i=1;i<10;i++)a+=h(t-i*(512+2*sin(t/8192*PI)))/i;return a/512-1})()",
+    "codeLen": 221,
+    "fileOrig": 1,
+    "codeText": "t/=4,h=t=>10*(t>>6|t|t>>(t>>16))+(7&t>>11)&255,(p=>{a=h(t)/4;for(i=1;i<10;i++)a+=h(t-i*(512+2*sin(t/8192*PI)))/i;return a/512-1})()",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "claserb revesic",
+    "description": "viznut's code with reverb.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18ijgqq/claserb_revesic/",
+    "date": "2023-12-14",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "903c0bcb153cc680ba3a1bde125b87f9",
+        "author": "viznut",
+        "name": "Sin() isn't kosher, people!",
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=4#c388477",
+          "https://youtu.be/qlrs2Vorw2Y?t=15"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

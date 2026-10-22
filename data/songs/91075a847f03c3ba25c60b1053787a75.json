@@ -1,0 +1,25 @@
+{
+  "file": "songs/91075a847f03c3ba25c60b1053787a75.js",
+  "title": "Sounds like distorted teleporter sound from HL2",
+  "author": "Fenix-F",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "629d5a32fb19536b6876ad3322e0c8fe8875ebf582c64939031b00a7c0896c72",
+  "upstream": {
+    "hash": "91075a847f03c3ba25c60b1053787a75",
+    "codeMinLen": 77,
+    "codeMin": "a=(sin(880*PI*t+1)*t*4&5*t)/8,b=(sin(880*PI*t+1)*t*4&5*t)/4,c=[a+5*t/2,b+t/5]",
+    "codeLen": 88,
+    "code": "a=((sin(2*PI*440*t+1)*t*4&t*5)/8)\n\n,b=((sin(2*PI*440*t+1)*t*4&t*5)/4),\nc=[a+t*5/2,b+t/5]",
+    "author": "Fenix-F",
+    "name": "Sounds like distorted teleporter sound from HL2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fi2dku/sounds_like_distorted_teleporter_sound_from_hl2/",
+    "date": "2024-09-16",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ]
+  }
+}

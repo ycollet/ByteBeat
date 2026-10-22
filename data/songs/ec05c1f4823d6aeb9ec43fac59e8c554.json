@@ -1,0 +1,24 @@
+{
+  "file": "songs/ec05c1f4823d6aeb9ec43fac59e8c554.js",
+  "title": "arpeggiator fun",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7d24ef6e9cd989a79898e48440a770332a1ba84895c18aca439e692cfa0f5950",
+  "upstream": {
+    "hash": "ec05c1f4823d6aeb9ec43fac59e8c554",
+    "codeMinLen": 422,
+    "codeMin": "i=int,c='charCodeAt',b=t/441e3*16,q=b%.5,h=x=>t/2210*2**((x-36)/12)%1,w=(x,y=0)=>(h(x)-sin(y*2+b*PI)/8>.5)*30,s=i(b*2)%32,a=abs(8-i(b*8)%16),t||(v=.5),v=3.65*v*(1-v),sin(q/(q/100+3e-4))*40*!(54878&1<<s%16)+(v-.5)*70*max(0,1-(b+1)%2*.77)+w(s==6&&i(b*6%6)==1?85:s==14&&q<.25?78:'SSSSSSSQOOONNOLJLLLLLNLJIIIGGGGG'[c](s),s==5)+w('@@@@@@BCEEECCBCCEEEEECEEBBB@@@@@'[c](s))+h('pnkgrnkipmigpnkg'[c](a%4+i(s/8)*4)+12*-i(a/4))*27+99",
+    "codeLen": 427,
+    "code": "i=int,c='charCodeAt',b=t/441e3*16,q=b%.5,h=x=>t/2210*2**((x-36)/12)%1,w=(x,y=0)=>(h(x)-sin(y*2+b*PI)/8>.5)*30,s=i(b*2)%32,a=abs(8-i(b*8)%16),t==0&&(v=.5),v=3.65*v*(1-v),sin(q/(q/100+3e-4))*40*!(54878&1<<s%16)+(v-.5)*70*max(0,1-((b+1)%2)*.77)+w(s==6&&i(b*6%6)==1?85:s==14&&q<.25?78:'SSSSSSSQOOONNOLJLLLLLNLJIIIGGGGG'[c](s),s==5)+w('@@@@@@BCEEECCBCCEEEEECEEBBB@@@@@'[c](s))+h('pnkgrnkipmigpnkg'[c](a%4+i(s/8)*4)+12*-i(a/4))*27+99",
+    "author": "SArpnt",
+    "name": "arpeggiator fun",
+    "url": "https://www.reddit.com/r/bytebeat/comments/fjsa1y/arpeggiator_fun/",
+    "date": "2020-03-16",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

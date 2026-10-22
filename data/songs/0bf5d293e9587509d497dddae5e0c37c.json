@@ -1,0 +1,32 @@
+{
+  "file": "songs/0bf5d293e9587509d497dddae5e0c37c.js",
+  "title": "Infinite Mundane Work",
+  "author": "awogler9124812041",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0bf5d293e9587509d497dddae5e0c37c.js",
+  "sha256": "df984202363d633c217d5f7556f99503b312016bb848eb3090c2766e6ae9862e",
+  "upstream": {
+    "hash": "0bf5d293e9587509d497dddae5e0c37c",
+    "codeLen": 9766,
+    "fileOrig": 1,
+    "codeText": "return(m=[\"K0,0.25|N0.25,0.25|P0.5,0.125|Q0.625,0.125|R0.75,0.5|K1.25,0.125|R1.5,0.125|Q1.75,0.125|K2,0.25|N2.25,0.25|P2.5,0.125|Q2.625,0.125|R2.75,0.5|K3.25,0.125|R3.5,0.125|P3.75,0.125|I4,0.25|N4.25,0.25|P4.5,0.125|Q4.625,0.125|P4.75,0.5|I5.25,0.25|K5.5,0.25|I5.75,0.25|I6,0.25|N6.25,0.25|P6.5,0.125|Q6.625,0.125|P6.75,0.5|I7.25,0.25|P7.5,0.125|N7.75,0.125|K8,0.25|N8.25,0.25|P8.5,0.125|Q8.625,0.125|R8.75,0.5|K9.25,0.125|R9.5,0.125|Q9.75,0.125|K10,0.25|N10.25,0.25|P10.5,0.125|Q10.625,0.125|R10.75,0.5|K11.25,",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "Infinite Mundane Work",
+    "description": "Bytebattle Season 2 Competition.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gx6zq9/infinite_mundane_work_bytebattle_season_2/",
+      "https://bytebeat.oops.wtf/season2/entries.html"
+    ],
+    "date": "2024-11-22",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-22"
+  }
+}

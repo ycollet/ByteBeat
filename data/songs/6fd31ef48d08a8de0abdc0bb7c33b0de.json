@@ -1,0 +1,30 @@
+{
+  "file": "songs/6fd31ef48d08a8de0abdc0bb7c33b0de.js",
+  "title": "XO-Tracker: Tsukite Moonhand The Bananafox Theme",
+  "author": "Kouzerumatsu",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6fd31ef48d08a8de0abdc0bb7c33b0de.js",
+  "sha256": "806c5ab59a58739e6452825de5061819a84845d075c9eb2f5145b0865a4f5de0",
+  "upstream": {
+    "hash": "6fd31ef48d08a8de0abdc0bb7c33b0de",
+    "codeLen": 15425,
+    "fileOrig": 1,
+    "codeText": "t>0?((t%(freqDiv*32)?0:performTick()),getSamp()*255):(\n// XO-Tracker port, the same driver as this https://youtube.com/watch?v=tU-_o_ukA_o\nsmpData = [ // SAMPLE BUFFER DATA  [ 128 bytes ]\n    0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,  // 0x00 |        Silence\n    0xF0,0x00,0x00,0x00,0xF0,0x00,0x00,0x00,0xF0,0x00,0x00,0x00,0xF0,0x00,0x00,0x00,  // 0x10 |  12.5% Pulse Duty\n    0xFF,0x00,0x00,0x00,0xFF,0x00,0x00,0x00,0xFF,0x00,0x00,0x00,0xFF,0x00,0x00,0x00,  // 0x20 |  25",
+    "isTruncated": 1,
+    "author": "Kouzerumatsu",
+    "name": "XO-Tracker: Tsukite Moonhand The Bananafox Theme",
+    "description": "Main theme of Kouzerumatsu's own character - blue eyed yellow fox with glasses. Ported from <a href='https://kouzeru.itch.io/xo-tracker-demo' target='_blank'>XO-Tracker</a> to bytebeat js.",
+    "url": [
+      "https://dollchan.net/btb/res/415.html#415",
+      "https://youtu.be/nY1MCRI9DCQ"
+    ],
+    "date": "2023-02-18",
+    "sampleRate": 32000,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

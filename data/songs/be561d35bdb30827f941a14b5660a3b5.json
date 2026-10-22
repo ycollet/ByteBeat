@@ -1,0 +1,22 @@
+{
+  "file": "songs/be561d35bdb30827f941a14b5660a3b5.js",
+  "title": "Throw effect super mario bros 2",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "14c3998360b6f6ffeb03a6e7177601b28d9d70d3e0c6f6590c93e363fca665d2",
+  "upstream": {
+    "hash": "be561d35bdb30827f941a14b5660a3b5",
+    "codeLen": 47,
+    "code": "t*2*2**(parseInt(\"KMNPRTUUU\"[t>>11],36)/12)&128",
+    "author": "psubscirbe",
+    "name": "Throw effect super mario bros 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1funs5d/3_sound_effect_super_mario_bros_2/",
+    "date": "2024-10-02",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

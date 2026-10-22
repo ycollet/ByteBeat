@@ -1,0 +1,29 @@
+{
+  "file": "songs/1e986e31a80b36c4f1def0b640c0831e.js",
+  "title": "achbe",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1e986e31a80b36c4f1def0b640c0831e.js",
+  "sha256": "1f07e6c41f93202c5c6b63a5e5169cc6359af5457633a253a607481c42a01a06",
+  "upstream": {
+    "hash": "1e986e31a80b36c4f1def0b640c0831e",
+    "codeMinLen": 472,
+    "codeMin": "t?0:f=[],fi=0,lp=(a,c)=>(fii=fi++,f[fii]??=0,f[fii]+=(a-f[fii])*c),hp=(a,c)=>a-lp(a,c),t||(a=Array(s=24576).fill(0)),bw=b=>lp(random()*16-8,.1)/8*(1+(b?sin:cos)(t*PI/131072)/4),o=a[t%s]=(t*2**(([0,7,5,7][t>>17&3]-\"0246\"[t>>19&3])/12)>>7&1)-.5+lp(a[t%s]/2,.08),c=_=>hp(random()-.5,.7)*4*(t/8192%1)*(1-t/8192%1)*\"1001001010\"[t>>13&7],k=hp(lp(sin(cbrt(t%131072)**.4*40),.1),.01),m=_=>[c()+(b=lp(t/512*2**(-\"0246\"[t>>19&3]/12)%1,.01)-.5)+bw(0)+o/2+k/2,c()+b+bw(1)+o/2+k/2],m()",
+    "codeLen": 525,
+    "fileOrig": 1,
+    "codeText": "t?0:f=[],fi=0,lp=(a,c)=>(fii=fi++,f[fii]??=0,f[fii]+=(a-f[fii])*c),hp=(a,c)=>a-lp(a,c),t||(a=Array(s=24576).fill(0)),bw=b=>lp(random()*16-8,.1)/8*(1+(b?sin:cos)(t*PI/131072)/4),o=a[t%s]=(t*2**(([0,7,5,7][t>>17&3]-\"0246\"[t>>19&3])/12)>>7&1)-.5+lp(a[t%s]/2,.08),c=_=>hp(random()-.5,.7)*4*(t/8192%1)*(1-t/8192%1)*\"1001001010\"[t>>13&7],k=hp(lp(sin(cbrt(t%131072)**.4*40),.1),.01),m=_=>[c()+(b=lp(t/512*2**(-\"0246\"[t>>19&3]/12)%1,.01)-.5)+bw(0)+o/2+k/2,c()+b+bw(1)+o/2+k/2],m()",
+    "isTruncated": 1,
+    "author": "Maxi",
+    "name": "achbe",
+    "url": "https://battleofthebits.com/arena/Entry/achbe/78615/",
+    "date": "2025-07-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/929a082852bcbfd7f04c8345789d6745.js",
+  "title": "Phonk bass added",
+  "author": "Greaserpirate",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/929a082852bcbfd7f04c8345789d6745.js",
+  "sha256": "82841cceccfbfdba1b3a435bb5cc6ccde7df2a1d5a0d17f90624633fc88aee09",
+  "upstream": {
+    "hash": "929a082852bcbfd7f04c8345789d6745",
+    "codeLen": 5888,
+    "fileOrig": 1,
+    "codeText": "//Original t, increments one per sample. The reverb, harmonifier, hihat, and snare need this.\nT = t,\n\n//Change t here, not below, or it messes with the snare/hihat sounds\nt *= r8 = 1 / 1.25,\n\n\n//t -= 2048&t/4, //SWANG!",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Phonk bass added",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/comment/jr41k2g/",
+    "date": "2023-07-08",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f77bc975807af99a81f4404bec005a5d",
+        "author": "Zackx",
+        "name": "true phonk i made in bytebeat lol",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/the_true_phonk_i_made_in_bytebeat_lol"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-01-02"
+  }
+}

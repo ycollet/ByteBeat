@@ -1,0 +1,26 @@
+{
+  "file": "songs/426c79bb8280d7b7e935b106cc1bdee5.js",
+  "title": "how is this possible (, i didnt copied mu6k lines)?",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "16c509bb748863b1a63462a40d837791db04fd9bd28dfe94eb1f476360a63ed7",
+  "upstream": {
+    "hash": "426c79bb8280d7b7e935b106cc1bdee5",
+    "codeMinLen": 35,
+    "codeMin": "2*t&(t&256?-t:t)>>8&(t&256?-t:t)>>6",
+    "codeLen": 45,
+    "code": "(t*2&((((t&256?-t:t)>>8)&((t&256?-t:t)>>6))))",
+    "author": "kOLbOSa_exe",
+    "name": "how is this possible (, i didnt copied mu6k lines)?",
+    "description": "Sounds like \"No Limit\" by mu6k",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s9fr5l/how_is_this_possible_i_didnt_copied_mu6k_lines/",
+    "date": "2022-01-21",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

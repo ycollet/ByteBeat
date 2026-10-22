@@ -1,0 +1,23 @@
+{
+  "file": "songs/b5859ab59af9050b688bd91e83ce74b6.js",
+  "title": "sine thingy",
+  "author": "0naCB0_1488",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5490ef57e9db24a9105a1b27b16511ac99c95decf620c29ecb0d3a21299719f7",
+  "upstream": {
+    "hash": "b5859ab59af9050b688bd91e83ce74b6",
+    "codeLen": 145,
+    "code": "(sin(t*PI/48/(1+(t>>16&1)))+sin(t*PI/64*(2+(t>>17&1)))+sin(t*PI/128*(4+(t>>19&1)))+sin(t*PI/192*(5+(-t>>20&1)))+sin(t*PI/512))*sin(t*PI/131072)/7",
+    "author": "0naCB0_1488",
+    "name": "sine thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1eq9dia/sine_thingy/",
+    "date": "2024-08-12",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/8a05bfa68def224f1ba133009f040e02.js",
+  "title": "bytebeat song 06-15-2021",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8a05bfa68def224f1ba133009f040e02.js",
+  "sha256": "72ccc03bc8284d995158b0c77027fae93ce2d290c68b1f4fb3df26cf7dcde742",
+  "upstream": {
+    "hash": "8a05bfa68def224f1ba133009f040e02",
+    "codeLen": 4892,
+    "codeFormLen": 6119,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "sr=44100,q=(t+(sr*128))/sr,r=1.05946309,a=880,as=a*r,b=as*r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,\n//Coded and Composed by Bp103\n\narp=[\t// cut out odds\n\tf,a<<1,c<<1,\t// 0  --\n\t0,0,0,  \t// 2  -\n\t0,0,0,  \t// 4  --\n\tg,b<<1,d<<1,  \t// 6  -",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "bytebeat song 06-15-2021",
+    "url": "https://www.youtube.com/watch?v=aA7pyVkkPk4",
+    "date": "2021-06-15",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

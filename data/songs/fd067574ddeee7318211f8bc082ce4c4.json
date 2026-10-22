@@ -1,0 +1,41 @@
+{
+  "file": "songs/fd067574ddeee7318211f8bc082ce4c4.js",
+  "title": "Simple Sierpinski Remix of \"Giorgio by Moroder\" by Daft Punk",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 31608,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "729e3932cb101b15e7253fe33ce48a43922c94aafc10a9ca7c87b490129fa36f",
+  "upstream": {
+    "hash": "fd067574ddeee7318211f8bc082ce4c4",
+    "codeMinLen": 206,
+    "codeMin": "((t*2**([10,,13,,12,,13,17,,10,13,,12,,13,10,10,,13,,12,,13,17,,10,13,,12,,13,,][(t>>12)%32]/12)*2**([0,-5][(t>>17)%2]/12)|t>>6)-(t>>7)%128)*[1,,1,,1,,1,1,,1,1,,1,,1,1,1,,1,,1,,1,1,,1,1,,1,,1,,][(t>>12)%32]",
+    "codeLen": 210,
+    "code": "((t*2**(([10,,13,,12,,13,17,,10,13,,12,,13,10,10,,13,,12,,13,17,,10,13,,12,,13,,][(t>>12)%32])/12)*2**(([0,-5][(t>>17)%2])/12)|t>>6)-(t>>7)%128)*[1,,1,,1,,1,1,,1,1,,1,,1,1,1,,1,,1,,1,1,,1,1,,1,,1,,][(t>>12)%32]",
+    "author": "PrincessPriscillaPT",
+    "name": "Simple Sierpinski Remix of \"Giorgio by Moroder\" by Daft Punk",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gxvmrw/simple_sierpinski_remix_of_goirgio_by_moroder_by/",
+      "https://dollchan.net/btb/res/7164.html#7225"
+    ],
+    "date": "2024-11-23",
+    "sampleRate": 31608,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "coverName": "Daft Punk - Giorgio by Moroder",
+    "coverUrl": "https://youtu.be/zhl-Cs1-sG4",
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

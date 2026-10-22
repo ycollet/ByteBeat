@@ -1,0 +1,31 @@
+{
+  "file": "songs/66b64506cc59352dbd16469600e8eca1.js",
+  "title": "C0D3R4V3",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "07963366e0050ed8342b00b6aa21f0c4ac7706dfd03012019b81a49eb68e8e5c",
+  "upstream": {
+    "hash": "66b64506cc59352dbd16469600e8eca1",
+    "codeLen": 455,
+    "code": "(t*=1.2)?0:x=y=0,v=!(~t>>19&3),t%=2**(20-7*(t>>20&1&&t>>12&1^~t>>14&1)),w=sin(t**3)**2,x+=y+=(2.09*2**(\"80)50)80)50)805):0)50%:1)73.:3.7<0)80)<0)80)<08)<0)80)<0:137.3578,%5,%8,)5,%:,5)7.'3.'7.'3'.875:<0)80)<0)80)<08)<0)80)<0:137.357\".charCodeAt(t>>12&127)/12-5)-y)/200,u=s=>(r=x*s%128,r/2^r/(2+t/2048%2)^r/6),(u(1)^v*u(2))+(x&32^v*x*2&32)+((t%2**(14-!(~t>>14&3)-!(~t>>15&5)))**.4*99&64)+(~t>>7&31)*w+(t>>14&1&&~t>>8&63)*sin((t/16^t/8)**3)**2+t**18/8e106*w",
+    "author": "lhphr",
+    "name": "C0D3R4V3",
+    "description": "Got a cool synth out of this thanks to pitch sliding techniques.",
+    "url": "https://dollchan.net/btb/res/44.html#837",
+    "date": "2023-03-29",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

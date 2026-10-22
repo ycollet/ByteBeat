@@ -1,0 +1,35 @@
+{
+  "file": "songs/2b2319e6e5a74d1a2a144c180b929d98.js",
+  "title": "ThingCore",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e14c39fd8b84eaeb132c8e5782576f3b480890f6abb28791256575f3c248c096",
+  "upstream": {
+    "hash": "2b2319e6e5a74d1a2a144c180b929d98",
+    "codeMinLen": 201,
+    "codeMin": "f=(t&t/2&t/4)*t/4E3,drums=(sqrt(300*(t&[16383,8191,16383,16383][(t>>15)%4]))&64)+(3E5/(t&32767)&64)+(t*sin(t>>2)&255)*(-t&8191)/2E4*\"001\"[(t>>13)%3]+random()*(-t&8191)/200,64+(drums/1.5+(.25*f&63))/1.5",
+    "codeLen": 209,
+    "code": "f=(t&t/2&t/4)*t/4E3,drums=(((sqrt(3e2*(t&[16383,8191,16383,16383][(t>>15)%4]))&64)+((3e5/(t&32767))&64)+(t*sin(t>>2)&255)*(-t&8191)/2e4*\"001\"[(t>>13)%3])+(random()*(-t&8191)/2e2)),64+(drums/1.5+(.25*f&63))/1.5",
+    "author": "Two2Fall",
+    "name": "ThingCore",
+    "description": "At the end of every 8 bars it sounds like a rizer building up energy which makes the next kick hit super hard.",
+    "url": "https://www.reddit.com/user/Electrical-While6325/comments/1fcbpya/my_list_of_hardcore_remixes/",
+    "date": "2024-09-09",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "e7e11822ae5fa7c5ce400ce0f5abca8a",
+        "author": "GDPlayer_1035",
+        "name": "thing",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q8cqdv/thing/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-11-19"
+  }
+}

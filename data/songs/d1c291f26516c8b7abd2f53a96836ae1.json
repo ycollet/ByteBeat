@@ -1,0 +1,33 @@
+{
+  "file": "songs/d1c291f26516c8b7abd2f53a96836ae1.js",
+  "title": "thing 2",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "76d3c356c1700c4d7009021ba3be7e7a75aced831819a3022278ff7bc39f98f0",
+  "upstream": {
+    "hash": "d1c291f26516c8b7abd2f53a96836ae1",
+    "codeMinLen": 45,
+    "codeMin": "128*sin((t*(t^t/2&t/2&t/4)&t/90^t)/22050)+128",
+    "codeLen": 51,
+    "code": "sin(((t*(t^(t/2&(t/2))&t/4)&t/90)^t)/22050)*128+128",
+    "author": "GDPlayer_1035",
+    "name": "thing 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q8ctdl/thing_2/",
+    "date": "2021-10-15",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "e7e11822ae5fa7c5ce400ce0f5abca8a",
+        "author": "GDPlayer_1035",
+        "name": "thing",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q8cqdv/thing/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

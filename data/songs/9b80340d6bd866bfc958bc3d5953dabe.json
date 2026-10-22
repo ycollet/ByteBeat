@@ -1,0 +1,29 @@
+{
+  "file": "songs/9b80340d6bd866bfc958bc3d5953dabe.js",
+  "title": "Lovely Tune",
+  "author": "Yamden",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9b80340d6bd866bfc958bc3d5953dabe.js",
+  "sha256": "435432e1239cd2d0b812dfb130b1724e03d6af1e7a0ab8d10330c4bf4a8bf84e",
+  "upstream": {
+    "hash": "9b80340d6bd866bfc958bc3d5953dabe",
+    "codeMinLen": 878,
+    "codeLen": 2809,
+    "codeFormLen": 3705,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t%=96E3,A=(g,l)=>t>g*1E3&&t<l*1E3,A(0,4)*(B=(T=t&32)+(a=1.25*t&32)+(b=1.5*t&32)+(c=1.01*t&32)+(d=1.2625*t&32)+(e=1.515*t&32))+A(4,8)*(H=T+(f=4/3*t&32)+(g=5/3*t&32)+c+(h=4.04/3*t&32)+(i=5.05/3*t&32))+A(8,10)*B+A(11,12)*(j=2*t&32)+A(12,13)*(k=3*t&32)+A(13,14)*j+A(14,15)*k+A(15,16)*j+A(16,17)*k+A(18,20)*B+A(20,24)*H+A(24,26)*B+A(27,28)*j+A(28,29)*k+A(29,30)*j+A(30,31)*b+A(31,32)*j+A(32,33)*(J=(l=4*t&32)+b)+A(33,34)*T+A(34,35)*b+A(35,36)*j+A(36,37)*(m=2.5*t&32)+A(37,38)*k+A(38,39)*(n=3.75*t&32)+A(39,40)*l+A(40,",
+    "isTruncated": 1,
+    "author": "Yamden",
+    "name": "Lovely Tune",
+    "url": "https://dollchan.net/btb/res/3.html#497",
+    "date": "2023-03-02",
+    "sampleRate": 8000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-13"
+  }
+}

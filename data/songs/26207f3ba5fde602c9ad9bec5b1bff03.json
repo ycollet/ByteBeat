@@ -1,0 +1,28 @@
+{
+  "file": "songs/26207f3ba5fde602c9ad9bec5b1bff03.js",
+  "title": "a limiter (that also removes offsets)",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/26207f3ba5fde602c9ad9bec5b1bff03.js",
+  "sha256": "03796ce9903ddae842e7da0a61ac9d80b56cbe23911438780d63613a4c789a79",
+  "upstream": {
+    "hash": "26207f3ba5fde602c9ad9bec5b1bff03",
+    "codeMinLen": 419,
+    "codeMin": "r=(x,y)=>Array(x).fill(y).flat(9),t?0:fx=r(3E5,0),fxi=0,t2=t,rv=(x,len=16e3,feedb=.7,dry=.4,wet=1,dsp=0,T=t2)=>(ech=y=>fxi+(y%len>>dsp),x=x*dry+wet*fx[ech(T)],fx[ech(t2)]=x*feedb,fxi+=len>>dsp,x),lim=(x,sp=.1)=>(x&=255,mi=fx[fxi]=min(fx[fxi]+sp,x,255),mx=fx[fxi+1]=max(fx[fxi+1]-sp,x,mi+9),fxi+=2,255*(x-mi)/(mx-mi)),t*=8/48,\nmel=t*2**([0,3,5,7,8,7,10,7][(t>>12)%8]/12),re=rv(mel&63,49152,.9,.2,1,0,2*t2),lim(re,.005)/2",
+    "codeLen": 658,
+    "codeFormLen": 714,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "r=(x,y)=>Array(x).fill(y).flat(9),t?0:fx=r(3E5,0),fxi=0,t2=t,rv=(x,len=16e3,feedb=.7,dry=.4,wet=1,dsp=0,T=t2)=>(ech=y=>fxi+(y%len>>dsp),x=x*dry+wet*fx[ech(T)],fx[ech(t2)]=x*feedb,fxi+=len>>dsp,x),lim=(x,sp=.1)=>(x&=255,mi=fx[fxi]=min(fx[fxi]+sp,x,255),mx=fx[fxi+1]=max(fx[fxi+1]-sp,x,mi+9),fxi+=2,255*(x-mi)/(mx-mi)),t*=8/48,\nmel=t*2**([0,3,5,7,8,7,10,7][(t>>12)%8]/12),re=rv(mel&63,49152,.9,.2,1,0,2*t2),lim(re,.005)/2",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "a limiter (that also removes offsets)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10nnfbt/another_effect_function_a_limiter_that_also/",
+    "date": "2023-01-28",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

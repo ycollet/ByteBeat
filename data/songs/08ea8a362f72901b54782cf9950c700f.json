@@ -1,0 +1,32 @@
+{
+  "file": "songs/08ea8a362f72901b54782cf9950c700f.js",
+  "title": "I couldnt think of a cool bytebeat to make so I made this",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2126f5bfa1fa6629e6132974d843ec70c42c6ecbcd02a05350681005810ace40",
+  "upstream": {
+    "hash": "08ea8a362f72901b54782cf9950c700f",
+    "codeMinLen": 37,
+    "codeMin": "(t*(t&t>>11)&64)+100*(3E3/(t&4095)&1)",
+    "codeLen": 41,
+    "code": "((t*(t&t>>11))&64)+((3e3/(t&4095)&1)*100)",
+    "author": "psubscirbe",
+    "name": "I couldnt think of a cool bytebeat to make so I made this",
+    "url": "https://dollchan.net/btb/res/284.html#301",
+    "date": "2023-01-05",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "aeb1c80b97213c71c1d2b5982d0431cb",
+        "author": "SthephanShi",
+        "name": "Wheezing modem",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

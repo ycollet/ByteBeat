@@ -1,0 +1,26 @@
+{
+  "file": "songs/0470f45f493de839ac8e630d88294b66.js",
+  "title": "Hyperactive Mind",
+  "author": "Dresdenboy",
+  "mode": "Bytebeat",
+  "rate": 44000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a5efe7174e68e64cc661f7d74831b793ce68fac37ad732e0786c44ee7d72f6ab",
+  "upstream": {
+    "hash": "0470f45f493de839ac8e630d88294b66",
+    "codeMinLen": 246,
+    "codeMin": "max(0,min(127,(u=t>>9,b=-t/8*1.06**(\"11037303\"[u>>3&7]*(t>19&1)+(u>>3&3)*12+3*(u>>7&6)%9)&255,c=b**3>>4,sin(b*sin(t/1E6)/5)*c+c)*(-t&4095)>>18))-(sqrt(t&8191-(u>>6)&8191)<<5&64)*(u>>6&1^u>>4)*(t>1E6)+(-t/16>>(-u>>9&1||t>1E6)&127)*random()*(t>5E5)",
+    "codeLen": 256,
+    "code": "max(0,min(127,(u=t>>9,b=(-t/8*1.06**(\"11037303\"[u>>3&7]*(t>19&1)+(u>>3&3)*12+3*(u>>7&6)%9)&255),c=(b**3)>>4,(sin(b*sin(t/1e6)/5))*c+c)*(-t&4095)>>18))-(sqrt(t&8191-(u>>6)&8191)<<5&64)*((u>>6&1)^(u>>4))*(t>1e6)+(-t/16>>(-u>>9&1||t>1e6)&127)*random()*(t>5e5)",
+    "author": "Dresdenboy",
+    "name": "Hyperactive Mind",
+    "description": "Lovebyte 2023 competition.",
+    "url": "https://demozoo.org/music/318948/",
+    "date": "2023-02-11",
+    "sampleRate": 44000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-09"
+  }
+}

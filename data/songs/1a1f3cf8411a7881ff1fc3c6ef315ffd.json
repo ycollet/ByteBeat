@@ -1,0 +1,33 @@
+{
+  "file": "songs/1a1f3cf8411a7881ff1fc3c6ef315ffd.js",
+  "title": "chipzel - focus cover",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1a1f3cf8411a7881ff1fc3c6ef315ffd.js",
+  "sha256": "697f66cf7d3ccfa56fded2248e9ead3b5cf22dc742b644e8a33a5364acfe3912",
+  "upstream": {
+    "hash": "1a1f3cf8411a7881ff1fc3c6ef315ffd",
+    "codeMinLen": 1268,
+    "codeLen": 2830,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "A=[...a=[a3=233.08,c4=277.18,C4=261.63,F4=349.23,a3,0,a3,0],...a,...a,...a,...a,...a,...a,...a,...a,...a,...a,...a,...a,...a,...a,...a,...b=[a3,0,C4,0,c4,0,a3,0],...b,...b,...b,...c=[a3,0,F4,0,g4=415.3,0,d4=311.13,0],...c,d4,0,F4,0,g4,0,C5=523.25,0,c5=554.37,C5,g4,F4,a4=a3*2,0,d4,0,...b,...b,...b,...b,...c,...c,...e=[d4,0,F4,0,g4,0,C5,0,c5,C5,g4,F4,a4,0,0,0]],f=[a2=116.54,a2,a2,a2,174.61,a2,a2,a2],g=[f2=92.5,f2,f2,f2,138.59,f2,f2,f2],h=[g2=103.83,g2,g2,g2,155.56,g2,g2,g2],i=(U=Array)(8)[V='fill'](a2),j=U(8)",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "chipzel - focus cover",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/xw55jt/chipzel_focus/",
+      "https://www.reddit.com/r/bytebeat/comments/znd55u/remade_my_chipzel_focus_cover/"
+    ],
+    "date": "2022-10-05",
+    "sampleRate": 8000,
+    "coverName": "chipzel - Focus",
+    "coverUrl": "https://youtu.be/wD3j1O1XHQY",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-22"
+  }
+}

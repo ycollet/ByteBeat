@@ -1,0 +1,23 @@
+{
+  "file": "songs/8378fd9d27ff176b414d1e9259c2fd43.js",
+  "title": "Wake up sleepyhead!",
+  "author": "awogler9124812041",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "12ffd72fe6e03e82cacf9cc4512b9da0bda7226243ebd2e2a75bb56a5bdd7cdf",
+  "upstream": {
+    "hash": "8378fd9d27ff176b414d1e9259c2fd43",
+    "codeLen": 28,
+    "code": "sin(t/2)*(t>>11&1)*(t>>15&1)",
+    "author": "awogler9124812041",
+    "name": "Wake up sleepyhead!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13juipb/wake_up_sleepyhead/",
+    "date": "2023-05-17",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/bfa3c6f25187db0e3bd33fc4490ada1b.js",
+  "title": "Weird Thingy Music 2",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "61a6d74b6bf3341e4059370df8316ed24e3d383e813bc46d78227946ef5e9d73",
+  "upstream": {
+    "hash": "bfa3c6f25187db0e3bd33fc4490ada1b",
+    "codeMinLen": 249,
+    "codeMin": "ONE=t*[6,8,7,9][t/1.6>>12&3]/8,IDEK=ONE/[1,1.1,1,1.1,.9,1,.9,.975][t/1.6>>17&7]/8&15,IHY=t*[6.1,8.2,7.3,7.3][t/1.6>>16&3]/10.8,IHY=(IHY%128+IHY%127+IHY%96+IHY%64+IHY%192)/16,IDK=(t*random()|t/1.6>>11)&15,SDK=(t*random()|t/1.6>>8)&15,IDEK+IHY+IDK+SDK",
+    "codeLen": 268,
+    "code": "ONE=t*[6,8,7,9][t/1.6>>12&3]/8,\nIDEK=ONE/[1,1.1,1,1.1,0.9,1,0.90,0.975][t/1.6>>17&7]/8&15,\nIHY=t*[6.1,8.2,7.3,7.3][t/1.6>>16&3]/10.8,IHY=(IHY%128+IHY%127+IHY%96+IHY%64+IHY%192)/16,\nIDK=(t*Math.random()|t/1.6>>11)&15,\nSDK=(t*Math.random()|t/1.6>>8)&15,\nIDEK+IHY+IDK+SDK",
+    "author": "Decent-Manager-6169",
+    "name": "Weird Thingy Music 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/recb8f/weird_thingy_music_2/",
+    "date": "2021-12-12",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

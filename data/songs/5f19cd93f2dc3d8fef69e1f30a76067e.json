@@ -1,0 +1,29 @@
+{
+  "file": "songs/5f19cd93f2dc3d8fef69e1f30a76067e.js",
+  "title": "you spin me byte round",
+  "author": "PortablePorcelain",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5f19cd93f2dc3d8fef69e1f30a76067e.js",
+  "sha256": "65fbf2fef557e7963f2aaaa12fe21520cddd92d04a0a141a07b03f98a410ea0a",
+  "upstream": {
+    "hash": "5f19cd93f2dc3d8fef69e1f30a76067e",
+    "codeMinLen": 980,
+    "codeLen": 1008,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:Z=Y=Array(16384).fill(b=c=d=0),h=0,H=(t,b)=>{for(i=m=0;i<t.length;i++)b>t[i]&&(m=b-t[i]);return m},lpr=(b,n)=>(t||(Z[h]=0),t||(Z[++h]=0),g=(i,n,r)=>min(max(Z[r]+=(Z[n]+=b/4+64-Z[r])-(Z[n]/=1+i/48E3),0),255),h+=2,g(n,h,h+1)),b+=U=170/288E4,l=0,p=(k,s=b,f=sin,q=10)=>(t?0:Z[h]=0,Q=Z[h]=(q*Z[h]+(isNaN(parseInt(k[s|0],36))?0:2**(parseInt(k[s|0],36)/12)))/(q+1),h+=2,t?0:Z[h]=0,Q=Z[h]+=isNaN(parseInt(k[s|0],36))?0:Q,Y=f(Q),Q=0,Y),64*(p('    CCCCCCCCCCCCFFFFFFFFAAAAHHHHFCCCCCCCHHHHFFFFAAAAAAAAHHHHFFEE',4*b%64,k",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "you spin me byte round",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16nwz8h/you_spin_me_byte_round/",
+    "date": "2023-09-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "Dead Or Alive - You Spin Me Round",
+    "coverUrl": "https://youtu.be/PGNiXGX2nLU",
+    "tags": [
+      "1k"
+    ]
+  }
+}

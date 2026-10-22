@@ -1,0 +1,31 @@
+{
+  "file": "songs/1af8828211ea99952f28d34a8708d6cf.js",
+  "title": "stimmer but its all sawtooth",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9145fb668f98bb86fc1330e2cd706767ad0fdf6f828c493b2d5eb2e02717fc66",
+  "upstream": {
+    "hash": "1af8828211ea99952f28d34a8708d6cf",
+    "codeLen": 65,
+    "code": "(t/2*(4|7&t>>13)>>(~t>>11&1)&127)+(t*(t>>11&t>>13)*(~t>>9&3)&127)",
+    "author": "Decent-Manager-6169",
+    "name": "stimmer but its all sawtooth",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rlcyg7/stimmer_but_its_all_sawtooth/",
+    "date": "2021-12-21",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

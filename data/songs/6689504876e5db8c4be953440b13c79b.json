@@ -1,0 +1,27 @@
+{
+  "file": "songs/6689504876e5db8c4be953440b13c79b.js",
+  "title": "Quazar of Sanxion - Funky Stars (Recreation)",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6689504876e5db8c4be953440b13c79b.js",
+  "sha256": "50289379343a199a7efc2b42fc5fe0c8fe1077bd5b0dc6fa2487af5d3b2aa125",
+  "upstream": {
+    "hash": "6689504876e5db8c4be953440b13c79b",
+    "codeLen": 1756,
+    "fileOrig": 1,
+    "codeText": "($=19.875,u=2.3,p=d=0)||t?(p+=(l2>$)):(X=Array(16).fill(0),Y=Array(6144).fill(0),S=R=0),l=(t/=6)*u,H=(l,t,s,i=1)=>(r=parseInt((v2=t.toString(s))[l%v2.length|0],s),X[++d]=(X[d]*i+r)/(i+1),d++,X[--d]),P=(l=t,s=0)=>l*2**((s+p)/12),i={b:l=>16*H(l,2199876110,4,16),g:l=>16*H(l,32519,4,5),s:l=>12*H(2*l,274371,8,16)+4*H(3*l,274371,8,16),k:(t,s)=>H(cbrt(l%t)*s,4286529311,7,32)*-(l%t-t)/t,d:(t,s)=>l%(PI+l%t)/E%1*-(l/4096*s%1-1)},a=[0,,7,,10,12,0,,7,,14,,15,,8,,-4,,8,,8,7,3,,5,,7,,10,12,0],B=[0,,7,,10,12,0,,7,,14,,15,",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Quazar of Sanxion - Funky Stars (Recreation)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14rxvty/quazar_of_sanxion_funky_stars_recreation/",
+    "date": "2023-07-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Quazar of Sanxion - Funky Stars",
+    "coverUrl": "https://youtu.be/8LiTxEUxSHU",
+    "tags": [
+      "big"
+    ]
+  }
+}

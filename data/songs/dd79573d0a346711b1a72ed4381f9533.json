@@ -1,0 +1,38 @@
+{
+  "file": "songs/dd79573d0a346711b1a72ed4381f9533.js",
+  "title": "ZX Spectrum Chasing Moonlight",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dd79573d0a346711b1a72ed4381f9533.js",
+  "sha256": "b0b6f9e518052ff3106fa4743285f5116606bd27f4f958a4e4111d3bcc665128",
+  "upstream": {
+    "hash": "dd79573d0a346711b1a72ed4381f9533",
+    "codeLen": 816,
+    "fileOrig": 1,
+    "codeText": "(tC=t/9e4,v=>(v.map(e=>i^=((t*2**(e/12-4.5)%256>min(tC*4%2%.75*64,tC*4%1*16)))%2,i=1),i))([[[49,56,60,65,68],[49,56,60,63,68],[49,58,61,66,68],[49,56,60,63,68]],[[49,54,61,65,70],[49,54,61,65,70],[49,56,60,65,68],[49,56,60,65,68]],[[49,54,61,65,70],[49,54,61,65,70],[49,56,60,65,68],[49,56,59,65,68]],[[49,54,61,65,70],[51,54,60,63,68],[49,56,60,65,68],[53,56,61,65,70]],[[49,54,61,65,70],[51,54,60,63,68],[49,56,60,65,68],[53,56,61,65,70]],[[49,54,61,65,70],[51,54,60,63,68],[49,56,60,65,68],[49,56,60,65,68]]][",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "ZX Spectrum Chasing Moonlight",
+    "description": "This isn't the SID chip. That is used in the Commodore 64 and sounds nothing alike.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1iqnlr2/zx_spectrum_chasing_moonlight",
+    "date": "2025-02-16",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "74a02e0e584abdacdd5bdc2ec958abfc",
+        "author": "May_I_Change_My_Name",
+        "name": "Chasing Moonlight",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1g01th7/chasing_moonlight_bytebattle_season_1_entry/",
+          "https://bytebeat.oops.wtf/season1/entries.html",
+          "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-01"
+  }
+}

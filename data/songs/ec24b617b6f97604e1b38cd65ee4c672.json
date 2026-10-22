@@ -1,0 +1,25 @@
+{
+  "file": "songs/ec24b617b6f97604e1b38cd65ee4c672.js",
+  "title": "ripthisentry.txt, tune#3",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9dcbb05cfedbaa13d7083f4b94fa73f2bd0c5f3432e9de7f5495447c4fe14262",
+  "upstream": {
+    "hash": "ec24b617b6f97604e1b38cd65ee4c672",
+    "codeMinLen": 73,
+    "codeMin": "n='2020442020442044'[t/500&15],(X=sin)(t*n/40.7+X(t*n/40.7)*t/15e3)*64+64",
+    "codeLen": 116,
+    "code": "n=[1,0,1,0,2,2,1,0,1,0,2,2,1,0,2,2],freq=n[floor(t/500)%16]*2,mod=t/15e3,sin(t*freq/40.7+sin(t*freq/40.7)*mod)*64+64",
+    "author": "raphaelgoulart",
+    "name": "ripthisentry.txt, tune#3",
+    "url": "https://battleofthebits.com/arena/Entry/ripthisentry.txt/32559/",
+    "date": "2019-08-27",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-11"
+  }
+}

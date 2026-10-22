@@ -1,0 +1,31 @@
+{
+  "file": "songs/8731704e3f59e16f89c0138c02a423f1.js",
+  "title": "Amen Tracker",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8731704e3f59e16f89c0138c02a423f1.js",
+  "sha256": "340f71b8b95e81edc659923d7904b5b07967d555ff603e5aae3ccddfcecbe0f6",
+  "upstream": {
+    "hash": "8731704e3f59e16f89c0138c02a423f1",
+    "codeMinLen": 932,
+    "codeLen": 980,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "s=t=>sin(t*PI/128),K=_=>({n:0,r(){t=this.n++;return(e=.9994**t,tanh(s(4E4/sqrt(t))*e+tanh(s(1.8E4*.99997**t)*(.9995**t)*5)))}}),S=(v=1)=>_=>({n:0,r(){t=this.n++;return(s(t)*s(t*3.2)*.9988**t+(random()-.5)/2*.9997**t)*v}}),R=_=>({n:0,r(){t=this.n++;return tanh((s(t*3)-s(t*3+s(t*14.23+s(t*PI)*50)*15)+(random()-.5)/2)*.9999**t+s(t*28)*.9995**t)/2;}}),C=_=>({n:0,r(){t=this.n++;return (random()-.5)*.9999**t+s(t*26)*.9994**t}}),t||(z=0,I=Array(2).fill({r(){return 0;}}),BR=[[K,R],[],[K,R],[],[S(),R],[],[,R],[S(.6)",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Amen Tracker",
+    "description": "The \"Amen Break\" in a two channel tracker with generative percussion functions.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fa5piz/amen_tracker/",
+    "date": "2024-09-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "'Amen Break' from 'Winstons - Amen, Brother'",
+    "coverUrl": "https://youtu.be/NkU4hsaFglU?si=5L07GE3_q5slKI5E",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

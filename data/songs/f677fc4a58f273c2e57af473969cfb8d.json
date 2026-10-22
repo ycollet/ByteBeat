@@ -1,0 +1,22 @@
+{
+  "file": "songs/f677fc4a58f273c2e57af473969cfb8d.js",
+  "title": "Untitled (f677fc4a)",
+  "author": "droid",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2f1f092d7f525153f7b0a8ce9308e6ddd75f82f38c78131b1bba72b08d81a1ac",
+  "upstream": {
+    "hash": "f677fc4a58f273c2e57af473969cfb8d",
+    "codeLen": 17,
+    "code": "t>>6&1?t>>5:-t>>4",
+    "author": "droid",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=10#c388999",
+    "date": "2011-10-05",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

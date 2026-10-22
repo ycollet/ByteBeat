@@ -1,0 +1,28 @@
+{
+  "file": "songs/082ed8cba18224e7940e2a73c69fa01a.js",
+  "title": "No",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/082ed8cba18224e7940e2a73c69fa01a.js",
+  "sha256": "7fbfdfbdbf50f7d11fdc2159a7f3128b74790560a7f1ed6f859cf7746ede90f8",
+  "upstream": {
+    "hash": "082ed8cba18224e7940e2a73c69fa01a",
+    "codeLen": 930,
+    "fileOrig": 1,
+    "codeText": "t||(v=x=0,g=parseInt,R=tanh,Q=sin,r=PI/128,B=[],L=(t,x,l)=>(z=Z++,B[z+(n=t+128-round(Q(t*PI/(6e4-2e3*Y))*60))%l]??=0,y=x+B[z+n%l],t%1?0:B[z+t%l]=y*.96,Z+=l,y),M=(t,x,l)=>(z=Z++,B[z+t%l]??=0,y=B[z+t%l]-.96*x,t%1?0:B[z+t%l]=x+y*.96,Z+=l,y),K=(x,q=36)=>28*2**((g(x,36)+q)/12)/187.5||0),Z=0,T=t/2e4,i=random()*2-1,f=K(['7beijlnq','9dgjnpsv',u='beinquxz',u][~~(T/4)%4][~~(T*2)%8],25),S=x=>Q(Q(Q(x)+x*1.01)*PI)/4,D=x=>Q(Q((x%256/256-.5)*5.4)+x*r),I=(S(t*r*K('8acc'[~~(T/4)%4]))+S(t*r*K('ceff'[~~(T/4)%4]))+S(t*r*K('fhj",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "No",
+    "url": "https://battleofthebits.com/arena/Entry/No+%28Floatbeat_+48kHz%29.txt/84200/",
+    "date": "2026-04-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2026-05-10",
+    "date_edited": "2026-05-10"
+  }
+}

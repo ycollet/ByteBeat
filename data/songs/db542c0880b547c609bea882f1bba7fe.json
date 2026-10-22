@@ -1,0 +1,32 @@
+{
+  "file": "songs/db542c0880b547c609bea882f1bba7fe.js",
+  "title": "4mat - Back Again",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/db542c0880b547c609bea882f1bba7fe.js",
+  "sha256": "9a96008d22428eaa6f750daa65e4c6ab4b1060f0d37a3df700c8576ef49c96a6",
+  "upstream": {
+    "hash": "db542c0880b547c609bea882f1bba7fe",
+    "codeLen": 35249,
+    "fileOrig": 1,
+    "codeText": "/*\n4mat - Back Again, covered on bytebeat by Sychamis, June 2025.\nOriginal: https://www.youtube.com/watch?v=K66HOo_vEbQ\n\nI ran into some issues trying to make this sound as accurate as possible and music data here is a complete mess. But it's good enough I guess...\n\nThis is meant to be played on https://dollchan.net/bytebeat in Floatbeat mode at 48000Hz.\n*/",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "4mat - Back Again",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1l6snko/4mat_back_again/",
+      "https://youtu.be/vAKru9hLaKY"
+    ],
+    "date": "2025-06-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "4mat - Back Again",
+    "coverUrl": "https://youtu.be/K66HOo_vEbQ",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

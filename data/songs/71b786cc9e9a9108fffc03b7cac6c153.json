@@ -1,0 +1,29 @@
+{
+  "file": "songs/71b786cc9e9a9108fffc03b7cac6c153.js",
+  "title": "made this for myself",
+  "author": "Zera12873",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/71b786cc9e9a9108fffc03b7cac6c153.js",
+  "sha256": "2ed7fb4729c224c9f38430315ff289bce30f045578818d83d0a5d8200eb1f287",
+  "upstream": {
+    "hash": "71b786cc9e9a9108fffc03b7cac6c153",
+    "codeMinLen": 263,
+    "codeMin": "freq=600;return t=>{mp=2**(('mkpookmkrppkwtpomutprppk'[C='charCodeAt'](t*2%24)-58)/12)*(x=23/440*freq);cp = 2**(('ptwtwtkororokororoptwtwtptwtwtimpmpmptwtkoptwtwt'[C](t*4%48)-58)/12)*x/4;m=t*mp%1;c=t*cp%1;s=.01*random()*(' zz'[C](t*2%3))*(1-(t*2%1));return m-c+s}",
+    "codeLen": 537,
+    "fileOrig": 1,
+    "codeText": "freq=600;return t=>{mp=2**(('mkpookmkrppkwtpomutprppk'[C='charCodeAt'](t*2%24)-58)/12)*(x=23/440*freq);cp = 2**(('ptwtwtkororokororoptwtwtptwtwtimpmpmptwtkoptwtwt'[C](t*4%48)-58)/12)*x/4;m=t*mp%1;c=t*cp%1;s=.01*random()*(' zz'[C](t*2%3))*(1-(t*2%1));return m-c+s}",
+    "isTruncated": 1,
+    "author": "Zera12873",
+    "name": "made this for myself",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bhn78m/made_this_for_myself/",
+    "date": "2024-03-18",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Happy Birthday song",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-27"
+  }
+}

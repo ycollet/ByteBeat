@@ -1,0 +1,27 @@
+{
+  "file": "songs/a053a2f872e62aeaa9f3cf22224d634f.js",
+  "title": "Ogryzek Glory Thingy",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 46421.333,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "637f10a1ba7858326de333ab82d5f02a557e0a1e065c032adbdc29c667c43bcc",
+  "upstream": {
+    "hash": "a053a2f872e62aeaa9f3cf22224d634f",
+    "codeMinLen": 262,
+    "codeMin": "t?0:r=Array(16384).fill(0),k=(n=1.46,(t*n*2**([6,6,,,,,6,7,2,2,6,6,1,1,2,2,6,6,,,,,6,7,2,2,6,6,1,1,2,2,-1,-1,,,,,1,2,1,1,2,2,-1,-1,-6,-6,-1,-1,,,,,1,2,-1,-1,6,6,1,1,7,7][t>>12&63]/12)&95)*(-(t%[8192,4096,8192,8192][t>>14&3])>>6&255)>>8)+r.shift(),r.push(k/2.5),k",
+    "codeLen": 295,
+    "code": "t?0:Reverb=Array(16384).fill(0),Reverb2=(n=1.46,(t*n*2**([6,6,,,,,6,7,2,2,6,6,1,1,2,2,6,6,,,,,6,7,2,2,6,6,1,1,2,2,-1,-1,,,,,1,2,1,1,2,2,-1,-1,-6,-6,-1,-1,,,,,1,2,-1,-1,6,6,1,1,7,7][t>>12&63]/12)&95)*(-(t%[8192,4096,8192,8192][t>>14&3])>>6&255)>>8)+Reverb.shift(),Reverb.push(Reverb2/2.5),Reverb2",
+    "author": "Decent-Manager-6169",
+    "name": "Ogryzek Glory Thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g6b0g8/ogryzek_glory_thingy/",
+    "date": "2024-10-18",
+    "sampleRate": 46421.333,
+    "coverName": "Ogryzek - GLORY",
+    "coverUrl": "https://www.youtube.com/watch?v=lBHTwcqTdLI",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-30"
+  }
+}

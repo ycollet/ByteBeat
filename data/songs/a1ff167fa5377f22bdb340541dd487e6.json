@@ -1,0 +1,24 @@
+{
+  "file": "songs/a1ff167fa5377f22bdb340541dd487e6.js",
+  "title": "splatoon splattack song",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "430d58ab5cdd59b2275f5f9987760620754b738d753f98da8db63214fa51c676",
+  "upstream": {
+    "hash": "a1ff167fa5377f22bdb340541dd487e6",
+    "codeLen": 285,
+    "code": "T=t*1.485,l=T>>13&31,m=NaN,s=(z,i)=>t*2**(z/12)*i&255,u=[10,13,15,10,10,10,10,8,m,8,m,14,14,14,14,14,10,13,15,10,10,10,10,8,m,8,m,5,5,5,5,5][l],v=[17,20,22,17,17,17,17,15,m,15,m,21,21,21,21,21,17,20,22,17,17,17,17,15,m,15,m,12,12,12,12,12][l],(s(v,.493)+s(u,.493*2))/4+s(u,.493/2)/3.44",
+    "author": "hcdphobe",
+    "name": "splatoon splattack song",
+    "url": "https://dollchan.net/btb/res/163.html#1228",
+    "date": "2023-06-06",
+    "sampleRate": 32000,
+    "coverName": "Splattack! - Splatoon 3 OST",
+    "coverUrl": "https://youtu.be/-UHJyrstdPc",
+    "tags": [
+      "1k"
+    ]
+  }
+}

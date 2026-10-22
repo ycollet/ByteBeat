@@ -1,0 +1,28 @@
+{
+  "file": "songs/d372e0a2e02665eac0cb5e8ddc106944.js",
+  "title": "frequency machine",
+  "author": "funute",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d372e0a2e02665eac0cb5e8ddc106944.js",
+  "sha256": "74c5e9f036fcf2b2b16bbe828320dc7126753e3c677027dccd64a3f11eb408af",
+  "upstream": {
+    "hash": "d372e0a2e02665eac0cb5e8ddc106944",
+    "codeLen": 5563,
+    "codeFormLen": 5667,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMPLE_RATE=44100,\nDEBUG=1,\nFEEDBACK_ITERATIONS=3,\n_log=DEBUG?console.error:()=>{},\n\n//     /\\\n//    /  \\\n//   /    \\___",
+    "isTruncated": 1,
+    "author": "funute",
+    "name": "frequency machine",
+    "url": "https://battleofthebits.com/arena/Entry/frequency+machine/32329/",
+    "date": "2019-07-28",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

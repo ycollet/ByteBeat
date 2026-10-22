@@ -1,0 +1,23 @@
+{
+  "file": "songs/a95030c2a317415488b2eee21b971c85.js",
+  "title": "non-js echo",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6dfe47cf9a176218c1f5368dbcb2848fcdc5ac91ce2963161305b93e0804b000",
+  "upstream": {
+    "hash": "a95030c2a317415488b2eee21b971c85",
+    "codeLen": 18,
+    "code": "t>>2&t<<(7&~t>>10)",
+    "author": "Zackx",
+    "name": "non-js echo",
+    "url": "https://dollchan.net/btb/res/204.html#2187",
+    "date": "2023-09-02",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

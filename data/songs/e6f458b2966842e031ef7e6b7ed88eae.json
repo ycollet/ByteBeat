@@ -1,0 +1,28 @@
+{
+  "file": "songs/e6f458b2966842e031ef7e6b7ed88eae.js",
+  "title": "Synthwave Type Chord",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "334ea8e074a4990b5b6fa4bcb181f8879cd8e97406e57d6ab45457034a46c86e",
+  "upstream": {
+    "hash": "e6f458b2966842e031ef7e6b7ed88eae",
+    "codeMinLen": 206,
+    "codeMin": "f=(t%65536/3>>7&63)/(70+(cos(t*PI/65536/3)+.94)*200)/3+.01,a=i=>i&&(t*2**(([0,4,7,11][t&3]-'0075'[t>>16&3])/12)+f*i*7)%256/100+a(i-1),(a(100)/128-1)*-cbrt(t%8192-13E3)/32*min(1,abs(asin(sin(t*PI/8192)))*48)",
+    "codeLen": 208,
+    "code": "f=(t%65536/3>>7&63)/(70+(cos(t*PI/65536/3)+.94)*200)/3+.01,a=i=>i&&(t*2**(([0,4,7,11][t&3]-'0075'[t>>16&3])/12)+(f*i*7))%256/100+a(i-1),(a(100)/128-1)*-cbrt(t%8192-13e3)/32*min(1,abs(asin(sin(t*PI/8192)))*48)",
+    "author": "Decent-Manager-6169",
+    "name": "Synthwave Type Chord",
+    "url": "https://dollchan.net/btb/res/520.html#8230",
+    "date": "2025-07-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256",
+      "slow"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-04"
+  }
+}

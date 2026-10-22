@@ -1,0 +1,24 @@
+{
+  "file": "songs/68e184cc0d5a353dc65bb31bafdbecbd.js",
+  "title": "Short Music 002",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2645b6095333a87de9117ee244be131d5cd0725a40e7eae47f679b0dceb517ad",
+  "upstream": {
+    "hash": "68e184cc0d5a353dc65bb31bafdbecbd",
+    "codeMinLen": 270,
+    "codeMin": "a=t/2*[1,-1,0,1,0,1,0,-1][1.2*t>>13&7]/[1.25,1.58,1.4,1.25][1.2*t>>17&3]&127,b=(A=t/[.625,.52,.47,.42,.35,.42,.47,.52][1.2*t>>13&7],B=t/[.79,.52,.465,.42,.35,.42,.465,.52][1.2*t>>13&7],C=t/[.7,.55,.52,.465,.42,.465,.52,.55][1.2*t>>13&7],[A,B,C,A][1.2*t>>17&3]/2&127),a+b",
+    "codeLen": 294,
+    "code": "a=t/2*[1,-1,0,1,0,1,0,-1][t*1.2>>13&7]/[1.25,1.58,1.4,1.25][t*1.2>>17&3]&127,b=(A=t/[0.625,0.52,0.47,0.42,0.35,0.42,0.47,0.52][t*1.2>>13&7],B=t/[0.79,0.52,0.465,0.42,0.35,0.42,0.465,0.52][t*1.2>>13&7],C=t/[0.7,0.55,0.52,0.465,0.42,0.465,0.52,0.55][t*1.2>>13&7],[A,B,C,A][t*1.2>>17&3]/2&127),a+b",
+    "author": "Decent-Manager-6169",
+    "name": "Short Music 002",
+    "url": "https://www.reddit.com/r/bytebeat/comments/sig7lr/short_music_002/",
+    "date": "2022-02-02",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

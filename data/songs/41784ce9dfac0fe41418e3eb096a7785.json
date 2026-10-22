@@ -1,0 +1,36 @@
+{
+  "file": "songs/41784ce9dfac0fe41418e3eb096a7785.js",
+  "title": "Building of metal",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/41784ce9dfac0fe41418e3eb096a7785.js",
+  "sha256": "488bdaf48498d9fc6d2fb18ae2eff8d9b9f93bef090dac726a03b26eabf8336d",
+  "upstream": {
+    "hash": "41784ce9dfac0fe41418e3eb096a7785",
+    "codeMinLen": 583,
+    "codeLen": 634,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=5766785,hz=t/48000,t/=(1+(t>>0&1)),t/=5.5,a=t*2**'12345432'[7&t*4>>12],b=t*2**'1242'[3&t>>10],m1=(b*[1,1.2,1.8,2.7][3&t>>14])%256/3,m2=(a*[1,1.2,1.8,2.7][3&t*4>>16]&64),m3=(b*[1,1.2,1.8,2.7][3&t*4>>16]&64)%256*(-t/2&2047)/2E3,m4=((sin(4e5/(t%4096+1500))*64)+64),m5=t*[1,1.2,1.8,2.7][3&t*4>>16],o=[m1,m2^m1,m3+(m2^m1),m4+(m3+(m2^m1))%256/1.3,fm=m4+(m3+(m2^m1)%256/1.3)|m5,fm,fm,fm][(t>>17)%8]%256*(-t&2047)/2E3,song=function(n,a,l){var Display=\"\\n\"+n+\" by \"+a+\" legth:\";throw Display+int(hz)+\"|\"+l},(t%9)?o:son",
+    "isTruncated": 1,
+    "author": "Glebguything",
+    "name": "Building of metal",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fcota3/building_of_metal/",
+    "date": "2024-09-09",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "9f82be1dc3a2cf830264dbab9525edec",
+        "author": "Glebguything",
+        "name": "Something made out of boredom",
+        "url": "https://dollchan.net/btb/res/727.html#730"
+      }
+    ],
+    "tags": [
+      "1k",
+      "console"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

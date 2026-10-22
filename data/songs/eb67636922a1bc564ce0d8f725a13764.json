@@ -1,0 +1,28 @@
+{
+  "file": "songs/eb67636922a1bc564ce0d8f725a13764.js",
+  "title": "Critical Point",
+  "author": "Theron",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5cc2ed9a95db218bd85741c52d5016945acfb86082e13b11bed1c1d0d7bdabc5",
+  "upstream": {
+    "hash": "eb67636922a1bc564ce0d8f725a13764",
+    "codeLen": 256,
+    "code": "L=t?L:[m=8191],M=t/34e4,[(X=q=>q<14&&X(q+1)+(x=M*(16<<q/4)+q/4,u=x%1*8,D=e=>L[t+e-(896>>q/4)/(q?(8+[2-(M&3&M/4)%3,7,4][q%3])*(~M/2&1|8)/40:1+9/9**u)&m^~m*q]||0,L[t&m^~m*q]=D(R+=D(49*q))/2+D(m/9**M)*.45+sin(40/1e9**(u*u)*(q>2?tan(x/64%4):2))/(4+q)))(R=0),R]",
+    "author": "Theron",
+    "name": "Critical Point",
+    "description": "Lovebyte 2025 competition - 1st place. Very interesting sound progression.",
+    "url": "https://demozoo.org/music/367589/",
+    "date": "2025-02-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "256",
+      "slow"
+    ],
+    "date_added": "2025-11-09",
+    "date_edited": "2025-11-09"
+  }
+}

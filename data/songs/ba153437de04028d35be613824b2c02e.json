@@ -1,0 +1,28 @@
+{
+  "file": "songs/ba153437de04028d35be613824b2c02e.js",
+  "title": "Bora tomar uma",
+  "author": "PurpuroNovo",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ba153437de04028d35be613824b2c02e.js",
+  "sha256": "f4ac91c1edb93c963ce08d177cfce986dce6aa3a2e8f535d632f6997a176214a",
+  "upstream": {
+    "hash": "ba153437de04028d35be613824b2c02e",
+    "codeMinLen": 870,
+    "codeLen": 883,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "sampleRate=44100,e=sampleRate*3/16,b={n:floor(t/e),l:floor(t%e),r:t%e/e,u:(b,W)=>b.charCodeAt(W%b.length)-32,p:(W,e,n,U)=>0==n?0:b.u(W,1024/sampleRate*2**((n-e)/12)*U)/94*255-127,s:(W,e)=>b.p('} ',48,W,e),m:()=>([' ^ ^ ^ ^ \\\\ \\\\ \\\\ \\\\',' Z Z Z Z Y Y Y Y',' W W W W U U U U'].map(W=>b.p('}aF ',48,b.u(W,b.n),t)).reduce((b,W)=>b+W,0)/3*(1-b.r)+b.p('}F F',72,b.u('WW  WW  UU  ZZYY',b.n),b.l)+(2>=b.n?0:b.s(b.u('W   WWWWUU   gom    WWWWUU  koom    WWWWUU  koom    WW  UU  YUUW',b.n),t)*(1-(b.u('                     ",
+    "isTruncated": 1,
+    "author": "PurpuroNovo",
+    "name": "Bora tomar uma",
+    "url": "https://www.reddit.com/r/bytebeat/comments/192wuho/bora_tomar_uma/",
+    "date": "2024-01-10",
+    "sampleRate": 44100,
+    "coverName": "Ele não vai não",
+    "coverUrl": "https://youtu.be/I7yEhEMcbiw",
+    "tags": [
+      "1k"
+    ]
+  }
+}

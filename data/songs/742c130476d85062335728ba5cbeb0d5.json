@@ -1,0 +1,34 @@
+{
+  "file": "songs/742c130476d85062335728ba5cbeb0d5.js",
+  "title": "late morning",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/742c130476d85062335728ba5cbeb0d5.js",
+  "sha256": "0d95ed0626541ca159bbdab67cac1ccca8b53544b83e1f6dc47503b3d3959406",
+  "upstream": {
+    "hash": "742c130476d85062335728ba5cbeb0d5",
+    "codeLen": 3685,
+    "fileOrig": 1,
+    "codeText": "/*!\n *\n * stagas - late morning\n *\n */\n\nvar bpm = 120;\nvar tuning = 440;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "late morning",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "cd24710eab7d6004815f8c28a561cdb3",
+        "author": "stagas",
+        "name": "early morning",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-29"
+  }
+}

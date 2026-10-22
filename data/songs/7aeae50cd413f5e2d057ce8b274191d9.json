@@ -1,0 +1,29 @@
+{
+  "file": "songs/7aeae50cd413f5e2d057ce8b274191d9.js",
+  "title": "some point art",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2c6e4fa2f1d7cc2da2a8ffab5aa40036b4585b9da541b93d469e07ea498b8073",
+  "upstream": {
+    "hash": "7aeae50cd413f5e2d057ce8b274191d9",
+    "codeMinLen": 80,
+    "codeMin": "m=(t&2?t/256:256-t/256%256)^t%64,abs(((t|abs(m))+abs(256-abs(m)%256/2)%256)%256)",
+    "codeLen": 98,
+    "code": "m = (((t)&2?t/256:256-((t/256)%256))^((t)%64)),\r\n(abs(((t|abs(m))+abs(256-abs(m)%256/2)%256)%256))",
+    "author": "D3nschøt",
+    "name": "some point art",
+    "description": "Set \"Points\" mode and zoom to 2(-9).",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1az24vq/some_point_art/",
+    "date": "2024-02-24",
+    "sampleRate": 44100,
+    "drawing": {
+      "mode": "Points",
+      "scale": 9
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

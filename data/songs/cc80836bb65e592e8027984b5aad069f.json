@@ -1,0 +1,22 @@
+{
+  "file": "songs/cc80836bb65e592e8027984b5aad069f.js",
+  "title": "Robocop",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "57f67b8887f5e8718148452c9303c589514c71a2dfe7a2bcd6ea3b3d11fa8a67",
+  "upstream": {
+    "hash": "cc80836bb65e592e8027984b5aad069f",
+    "codeLen": 44,
+    "code": "(t>>2)*(t&(t&32768?16:24)|t>>(t>>8&28))|t>>2",
+    "author": "SthephanShi",
+    "name": "Robocop",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

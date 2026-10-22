@@ -1,0 +1,33 @@
+{
+  "file": "songs/9b822688681273b6c6406bb3b19bdebc.js",
+  "title": "\"Harmony v2\". Based off of mu6k's \"Long Line Theory\"",
+  "author": "r/bytebeat",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "363f35c70f105f6fc3cad3f93448ae682fd6da2cdf51a710a51e98e7442dc2fe",
+  "upstream": {
+    "hash": "9b822688681273b6c6406bb3b19bdebc",
+    "codeMinLen": 54,
+    "codeMin": "w='1234341'[(t>>13)%7]*t,w%50.01+w%40.1+w%30.1+w%60.01",
+    "codeLen": 62,
+    "code": "w=[1,2,3,4,3,4,1][(t>>13)%7]*t,(w%50.01+w%40.1+w%30.1+w%60.01)",
+    "author": "r/bytebeat",
+    "name": "\"Harmony v2\". Based off of mu6k's \"Long Line Theory\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/",
+    "date": "2014-03-16",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "09f0043a21b3e6fa073847e1609733d9",
+        "author": "r/bytebeat",
+        "name": "\"Harmony\". Based off of mu6k's \"Long Line Theory\"",
+        "url": "https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "file": "songs/f0d59dc97a99b6c0070cfd615c6c2916.js",
+  "title": "NUCLEAR::JUNGLE",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f0d59dc97a99b6c0070cfd615c6c2916.js",
+  "sha256": "c4ff85077136aa9a60da1af4b32402d26c2ddee5bc54e546e5478f6dcefceac1",
+  "upstream": {
+    "hash": "f0d59dc97a99b6c0070cfd615c6c2916",
+    "codeLen": 3752,
+    "fileOrig": 1,
+    "codeText": "BPM=176,\nsR=48e3,\nsPB=32768,\ntn=442, \ntr=2,\nedo=12,\n\ngS=(BPM,sR,sPB)=>abs(BPM/((120*sR)/sPB)),",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "NUCLEAR::JUNGLE",
+    "description": "A DnB Sequel to NUCLEAR:BASS",
+    "url": [
+      "https://www.bytebeat.cloud/post/2fd1c6fc-105b-47ec-937a-c9c4ef2c7257",
+      "https://dollchan.net/btb/res/7164.html#12542"
+    ],
+    "date": "2026-02-02",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "fd991a00b596a5b84f5985be974390a5",
+        "author": "MarioFan171",
+        "name": "NUCLEAR:BASS",
+        "url": "https://www.reddit.com/r/bytebeat_2/comments/1nmu9d6/nuclearbass/"
+      },
+      {
+        "hash": "f949aab6008f2965e306b58cbef81269",
+        "author": "PrincessPriscillaPT",
+        "name": "Sunlit Streets of Manehattan",
+        "url": [
+          "https://dollchan.net/btb/res/7164.html#14885",
+          "https://www.bytebeat.cloud/post/c882e727-cc0b-46c5-9ce6-ac7d4c020ca2"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-06-20"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/0b2884955c79c8540970c87805fb8850.js",
+  "title": "return value",
+  "author": "kOLbOSa_exe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0b2884955c79c8540970c87805fb8850.js",
+  "sha256": "d42934cf79884c1856fa1d5b448900513feae4c0bbdcb256e2358832557087af",
+  "upstream": {
+    "hash": "0b2884955c79c8540970c87805fb8850",
+    "codeMinLen": 179,
+    "codeMin": "return t=>{r=(n,e,a)=>n*((int(t*e)%a)+1);k=(n,f)=>sin(n/(t*f%1));return(min(cos((t*[r(1400,8,8),r(1600,4,4),r(1700,4,4),r(1700,4,8)][int(t/2)%4])),(t*8%2)-1)+k(.05,1)+k(.01,4))/2}",
+    "codeLen": 342,
+    "fileOrig": 1,
+    "codeText": "return t=>{r=(n,e,a)=>n*((int(t*e)%a)+1);k=(n,f)=>sin(n/(t*f%1));return(min(cos((t*[r(1400,8,8),r(1600,4,4),r(1700,4,4),r(1700,4,8)][int(t/2)%4])),(t*8%2)-1)+k(.05,1)+k(.01,4))/2}",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "return value",
+    "url": "https://www.reddit.com/r/bytebeat/comments/utzx9t/return_value/",
+    "date": "2022-05-20",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-16"
+  }
+}

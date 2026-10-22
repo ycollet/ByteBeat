@@ -1,0 +1,26 @@
+{
+  "file": "songs/7867de6741a1c213f6046379b9d5a021.js",
+  "title": "List of musical scales",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7867de6741a1c213f6046379b9d5a021.js",
+  "sha256": "1f9897aa800d2eebee3072d57785716a0cddcf09b40bb07cce5531df34375326",
+  "upstream": {
+    "hash": "7867de6741a1c213f6046379b9d5a021",
+    "codeLen": 1740,
+    "codeFormLen": 2306,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "c=1.047,cs=1.107,d=1.173,ds=1.243,e=1.319,f=1.393,fs=1.476,g=1.569,gs=1.655,a=1.755,as=1.862,b=1.978,\n\n/* MAJOR */\nMajor=t*[c,d,e,f,g,a,b,c*2][t>>14&7], // Ionian\n\nMajorBebop=t*[c,d,e,f,g,gs,a,b,c*2][(t>>14)%9],\n\nMajorBulgarian=t*[c,d,f,fs,gs,a,b,c*2][(t>>14)%9],",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "List of musical scales",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10usrzr/useless_project_thing_2/",
+    "date": "2023-02-06",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "songs/461498ab2fcc4661b44b0305574083aa.js",
+  "title": "playing block chords in the lower registers",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/461498ab2fcc4661b44b0305574083aa.js",
+  "sha256": "010ad7e3aa8e69f35a5384a048d33ebef3632314ded956a830756a1dc41e49c1",
+  "upstream": {
+    "hash": "461498ab2fcc4661b44b0305574083aa",
+    "codeLen": 5091,
+    "fileOrig": 1,
+    "codeText": "let mod=(n,d)=>n%d>=0?n%d:n%d+d;\nlet clamp=(mn,mx)=>q=>max(min(q,mx),mn);\n\nclass Clock {\n\tconstructor(freq) {\n\t\tthis.f = freq;\n\t};\n\ttick(t) {",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "playing block chords in the lower registers",
+    "description": "An oscillator-driven synthesizer crossfade with the Karplus-Strong algorithm.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g32b1q/wip_karplusstrong_piano/",
+    "date": "2024-10-14",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "2369b4ac028098a8f62faa077b7541ba",
+        "author": "May_I_Change_My_Name",
+        "name": "Karplus-Strong Piano",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g32b1q/wip_karplusstrong_piano/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-08"
+  }
+}

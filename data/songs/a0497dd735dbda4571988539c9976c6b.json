@@ -1,0 +1,27 @@
+{
+  "file": "songs/a0497dd735dbda4571988539c9976c6b.js",
+  "title": "poor doom gateway",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9784d2b12818f2b10e9313459089f2606811782789835bce9de053b7b847c562",
+  "upstream": {
+    "hash": "a0497dd735dbda4571988539c9976c6b",
+    "codeMinLen": 201,
+    "codeMin": "q=[1.05,0,1.05,0,1.5,0,1.05,0,1.05,0,1.4,0,1.05,0,1.05,0,1.3,0,1.05,0,1.05,0,1.2,0,1.05,0,1.05,0,1.1,0,1.2,0],q=q[(t>>9)%q.length]/[1,1,1.1,1.2][(t>>14)%4],16*sin((q*t/3%12+q*t/4.5%12+q*t/1.5%12)/4)+16",
+    "codeLen": 204,
+    "code": "q = [1.05,0,1.05,0,1.5,0,1.05,0,1.05,0,1.4,0,1.05,0,1.05,0,1.3,0,1.05,0,1.05,0,1.2,0,1.05,0,1.05,0,1.1,0,1.2,0],q=q[(t>>9)%q.length]/[1,1,1.1,1.2][(t>>14)%4],\nsin((q*t/3%12+q*t/4.5%12+q*t/1.5%12)/4)*16+16",
+    "author": "kOLbOSa_exe",
+    "name": "poor doom gateway",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18vzknl/poor_doom_gateway/",
+    "date": "2024-01-01",
+    "sampleRate": 8000,
+    "coverName": "Doom OST - E1M1 - At Doom's Gate",
+    "coverUrl": "https://youtu.be/BSsfjHCFosw",
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

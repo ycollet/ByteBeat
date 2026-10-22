@@ -1,0 +1,32 @@
+{
+  "file": "songs/010ad9e14642a98ef71486adb20e835d.js",
+  "title": "Louder clean melody",
+  "author": "Niklas_Roy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5be0bf11198ba4308778b8d7102d9553460624750daa68411e8a6495bc61a3c5",
+  "upstream": {
+    "hash": "010ad9e14642a98ef71486adb20e835d",
+    "codeLen": 26,
+    "code": "9*(t*((t>>9|t>>13)&15)&16)",
+    "author": "Niklas_Roy",
+    "name": "Louder clean melody",
+    "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318497618021#c332012386255047591",
+    "date": "2011-10-13",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "15169f6f8ac28cbd6c4dcf1ee3077ce4",
+        "author": "Niklas_Roy",
+        "name": "Clean melody",
+        "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318497618021#c332012386255047591"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

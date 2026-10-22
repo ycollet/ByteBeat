@@ -1,0 +1,30 @@
+{
+  "file": "songs/bb16ae4690793dc719405cf071608b6e.js",
+  "title": "pulsar",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bb16ae4690793dc719405cf071608b6e.js",
+  "sha256": "d0e87accd08099dd3568436a11082f9c7d08639c9cefbc414d416a38a5dcf580",
+  "upstream": {
+    "hash": "bb16ae4690793dc719405cf071608b6e",
+    "codeMinLen": 551,
+    "codeLen": 1000,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "a=385,k=1.8,t||(F=.9,q=Array(e=24).fill(0).map((_,i)=>a-3+6*random()),f=(b,tm)=>(x=>(s=x=>sin(2*PI*x))(x)+.15*s(2*x)+s(3*x)/10+.03*s(4*x)+s(5*x)/50+s(6*x)/125+.003*s(8*x))(b*2**(([68,61,(n=[73,75,76,78,80,81,83,85,87])['454675463687'[Z=int((Y=(2**(k-1)*sign((X=(d=tm/384e3)+.5)%1-.5)*abs(X%1-.5)**k+round(d))*48)/84)%12]],n['242464241462'[Z]],n['000020000240'[Z]],71,63][int(Y)%7]-69)/12)*tm/48e3)*(x=>x/(x**x)*min(3-x,1))(3*Y%3)),(f(a,t)+.5*Array(e).fill(16800).map((x,i)=>t>=x*(A=i+1)?F**A*f(q[i],t-x*A):0).red",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "pulsar",
+    "description": "At a distant point in space...",
+    "url": "https://battleofthebits.com/arena/Entry/pulsar/75362/",
+    "date": "2025-02-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/cabe06e2d85fadcb29eda7d8353cb52b.js",
+  "title": "i made some music for 5 minutes",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6d9accfbb5013b8ec85232eb5b018933737b0b2bffc3a4533463e5d406ae989c",
+  "upstream": {
+    "hash": "cabe06e2d85fadcb29eda7d8353cb52b",
+    "codeMinLen": 96,
+    "codeMin": "ab=(mult,hz)=>sin(t/hz)*mult+128,ab(100,[2,6,8,5][(t>>1003)%4]-[0,1.4,1.2,1.1][(t>>15)%4])&~t>>6",
+    "codeLen": 119,
+    "code": "ab=function(mult, hz){return Math.sin(t/hz)*mult+128;}, ab(100,[2,6,8,5][(t>>1003)%4]-[0,1.4,1.2,1.1][(t>>15)%4])&~t>>6",
+    "author": "kOLbOSa_exe",
+    "name": "i made some music for 5 minutes",
+    "description": "First ever documented mention of dollchan on reddit.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/pp9row/i_made_some_music_for_5_minutes_first_post_here/",
+    "date": "2021-09-16",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

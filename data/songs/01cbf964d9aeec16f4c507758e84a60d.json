@@ -1,0 +1,30 @@
+{
+  "file": "songs/01cbf964d9aeec16f4c507758e84a60d.js",
+  "title": "Remix of ccret/rubicon ByteBeat",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/01cbf964d9aeec16f4c507758e84a60d.js",
+  "sha256": "697232328cf2291c6225e6203a073a499769a033500c59996c73cd6b68748889",
+  "upstream": {
+    "hash": "01cbf964d9aeec16f4c507758e84a60d",
+    "codeMinLen": 514,
+    "codeLen": 669,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "pt=1.015,b=t/pt*((t>>16)%4==0?1:(t>>16)%4==1?1.2:(t>>16)%4==2?.8:(t>>16)%4==3?.9:0)>>3,t/pt*((t>>15)%8==0?1:(t>>15)%8==1?1.2:(t>>15)%8==2?1.35:(t>>15)%8==3?.9:(t>>15)%8==4?1:(t>>15)%8==5?1.2:(t>>15)%8==6?1.35:(t>>15)%8==7?1.5:0)*(t&16384?2:1)>>2&63,x=j=>(w=t=>(e=a=>t>0&&((t*4/a/pt*[1,1.2,1.35,.9,1,1.2,1.35,1.5][t>>15&7]*(t&16384?2:1)>>2)%256-128)*(1-t/16384%1)/2,e(1)+e(j)),b=a=>t/4/a/pt*[1,1.2,.8,.9][t>>16&3]%256/2-64,min(max(w(t)+w(t-(d=12288))/2+w(t-d*2)/3+w(t-d*3)/4+b(1)+b(j),-128),127)),[x(1.005),x(.995",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Remix of ccret/rubicon ByteBeat",
+    "description": "Remix of ZHIT by rubi. Can't find the original code.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1j6gv5e/remix_of_ccretrubicon_bytebeat/",
+    "date": "2025-03-08",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-25"
+  }
+}

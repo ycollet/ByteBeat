@@ -1,0 +1,22 @@
+{
+  "file": "songs/61db1a6482a29087ea9c41a0b08cd493.js",
+  "title": "alright fine",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "705627d2848ce1ccff16ecacdb782b2e6bb860d9fdee7e458b6b0e1a713650f6",
+  "upstream": {
+    "hash": "61db1a6482a29087ea9c41a0b08cd493",
+    "codeLen": 103,
+    "code": "(t>>4&t/(\"SArpnt\".charCodeAt(t/2/\"76547698\"[t>>13&7]*(t>>10&3)%6)+t/(t>>17&1|2)%2))+(t>>12&1?-1:sin(t))",
+    "author": "SArpnt",
+    "name": "alright fine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rwryz6/alright_fine/",
+    "date": "2022-01-05",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

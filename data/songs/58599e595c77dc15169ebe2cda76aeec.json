@@ -1,0 +1,27 @@
+{
+  "file": "songs/58599e595c77dc15169ebe2cda76aeec.js",
+  "title": "guitarbeatbyte",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/58599e595c77dc15169ebe2cda76aeec.js",
+  "sha256": "13d92f35c2364b3dc3ece3c7d2a310f4bbfa40ad67f0e9c3f8b9defd7157da27",
+  "upstream": {
+    "hash": "58599e595c77dc15169ebe2cda76aeec",
+    "codeLen": 1571,
+    "codeFormLen": 1922,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "//Coded by Bp103\nsr=44100,q=t/sr, \nt<1? (notetbl=[],notetbl[48]=440,ramp=[],ramp[0]=0,hat=[],noise=[]):0, // workaround to make arrays work\n\nmain();\n\nfunction main(){\n\tif(t<1)noteTable();",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "guitarbeatbyte",
+    "url": "https://www.reddit.com/r/bytebeat/comments/yzwfg1/guitarbeatbyte/",
+    "date": "2022-11-20",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ]
+  }
+}

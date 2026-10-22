@@ -1,0 +1,30 @@
+{
+  "file": "songs/10b5641fdaca17882428111148fcfe15.js",
+  "title": "atari style-like \"Good old fractal melody\"",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7e4fd5551aace34ff0a917d29e3473ca27e5ea18d5709c8f0d78e44df9eb40a4",
+  "upstream": {
+    "hash": "10b5641fdaca17882428111148fcfe15",
+    "codeLen": 95,
+    "code": "parseInt((s='0z0z0z0z0z0z0zzzz00zzz0z0z00zzz0')[int((t>>9^(t>>9)-1^1)%13*t/8)%s.length],36)+128",
+    "author": "Zackx",
+    "name": "atari style-like \"Good old fractal melody\"",
+    "url": "https://dollchan.net/btb/res/204.html#2442",
+    "date": "2023-10-12",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "87366ade567d1aa63f11f65f725693ab",
+        "author": "Blueberry",
+        "name": "Good old fractal melody",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389114"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

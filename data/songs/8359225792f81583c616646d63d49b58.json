@@ -1,0 +1,27 @@
+{
+  "file": "songs/8359225792f81583c616646d63d49b58.js",
+  "title": "moon scanner generalization",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "529b9468d165ae606daa863cfeab30a79d02d8c2f908bbdb20c39c4f98a7cd97",
+  "upstream": {
+    "hash": "8359225792f81583c616646d63d49b58",
+    "codeMinLen": 23,
+    "codeMin": "t-(t^t>>5)+t*(t>>14&14)",
+    "codeLen": 43,
+    "code": "((t>>5&t)-(t>>5)+(t>>5&t))+(t*((t>>14)&14))",
+    "author": "viznut",
+    "name": "moon scanner generalization",
+    "description": "Unable to find the remix source.",
+    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt",
+    "date": "2011-10-06",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

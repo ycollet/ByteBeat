@@ -1,0 +1,26 @@
+{
+  "file": "songs/3fd82e70d42ab6773c30f7d69420849e.js",
+  "title": "Try until you can",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5e5c93df44f31d89d6b7318c57df5d714fa17fab544542016ae4f442ec07630d",
+  "upstream": {
+    "hash": "3fd82e70d42ab6773c30f7d69420849e",
+    "codeMinLen": 379,
+    "codeMin": "base=(sqrt(3E3*(t&16383))&64)+(3E5/(t&32767)&64)+random()*(-t&8191)/128*\"01\"[(t>>13)%2]+(t*sin(t>>3)&255)*(-t&32747)/4E4*\"01\"[(t>>14)%2],timing_base=base*[0,0,0,0,1,1,1,1][(t>>19)%8],ch=a=>a/[8,4,2,1][(a>>19)%4]*[.75,1.5,2.25][(a>>13)%3]*[1,1.25,1.5,1.25][(a>>17)%4]&(a>>15&127)%256*(-a&8191)/4E3,64+(ch(t)+ch(t-10240)/2+ch(t-20480)/4+timing_base/[2,1.5,1.25,1.125][(t>>14)%4])/3",
+    "codeLen": 417,
+    "code": "base=(((sqrt(3e3*(t&16383))&64)+((3e5/(t&32767))&64)+(random()*(-t&8191)/128)*\"01\"[(t>>13)%2])+((t*sin(t>>3)&255)*(-t&32747)/4e4)*\"01\"[(t>>14)%2]),\ntiming_base = base*[0,0,0,0, 1, 1, 1, 1][(t>>19)%8],\nch=t=>((t/([8,4,2,1][(t>>19)%4])*[.75,1.5,2.25][(t>>13)%3])*[1,1.25,1.5,1.25][(t>>17)%4])&((t>>15)&127)%256*(-t&8191)/4e3,64+((ch(t)+(ch(t-10240)/2)+(ch(t-20480)/4))+((timing_base)/([2,1.5,1.25,1.125][(t>>14)%4])))/3",
+    "author": "Two2Fall",
+    "name": "Try until you can",
+    "description": "\"You are in a race but you try to go as fast as possible but you can't, people support you and tell you that you can win. Your adrenaline intensifies and you win first at the finish line, without a doubt, a life lesson.\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f5ae98/try_until_you_can/",
+    "date": "2024-08-31",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-19"
+  }
+}

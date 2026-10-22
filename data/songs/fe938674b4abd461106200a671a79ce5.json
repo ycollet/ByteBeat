@@ -1,0 +1,32 @@
+{
+  "file": "songs/fe938674b4abd461106200a671a79ce5.js",
+  "title": "Canterlot to the Cosmos",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fe938674b4abd461106200a671a79ce5.js",
+  "sha256": "e58c2305c79085eefa1c5d896a59d2c8e163a130bdc4c70a055b8971d64b0838",
+  "upstream": {
+    "hash": "fe938674b4abd461106200a671a79ce5",
+    "codeLen": 4299,
+    "fileOrig": 1,
+    "codeText": "/*!\n *    •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · Canterlot to the Cosmos ♪\n *    •───────────────•°•❀•°•───────────────•\n */\n\nt || (fx = []), fxi = 0,\nlpf = (inp, cut) => (",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Canterlot to the Cosmos",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1uovm48/%E1%83%90_canterlot_to_the_cosmos_%E0%BB%92/",
+      "https://www.bytebeat.cloud/post/457fe3f9-bd50-418f-aea7-b727d41bf665"
+    ],
+    "date": "2026-07-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-07-31",
+    "date_edited": "2026-07-31"
+  }
+}

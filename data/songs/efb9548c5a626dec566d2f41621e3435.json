@@ -1,0 +1,24 @@
+{
+  "file": "songs/efb9548c5a626dec566d2f41621e3435.js",
+  "title": "please someone remix this",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5865d50b7d465bc4c237e617cceea2c94bb33f4a9e9d798475de20a776e30e74",
+  "upstream": {
+    "hash": "efb9548c5a626dec566d2f41621e3435",
+    "codeLen": 378,
+    "code": "(t*2.09*2**([8,0,-7,5,0,-7,8,0,-7,5,0,-7,8,0,5,-7,10,0,-7,5,0,-11,10,1,-7,7,3,-2,10,3,-2,7,12,0,-7,8,0,-7,12,0,-7,8,0,-7,12,0,8,-7,12,0,-7,8,0,-7,12,0,10,1,3,7,-2,3,5,7,8,-4,-11,5,-4,-11,8,-4,-7,5,-4,-11,10,-4,5,-7,7,-2,-9,3,-2,-9,7,-2,-9,3,-9,-2,8,7,5,10,12,0,-7,8,0,-7,12,0,-7,8,0,-7,12,0,8,-7,12,0,-7,8,0,-7,12,0,10,1,3,7,-2,3,5,7,][t*1.2>>12&127]/12)&255)*(-t*1.2>>4&255)>>8",
+    "author": "Decent-Manager-6169",
+    "name": "please someone remix this",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/",
+    "date": "2023-03-18",
+    "sampleRate": 32000,
+    "coverName": "VD - Erebus - omnibi phase 2",
+    "coverUrl": "https://youtu.be/WAJR72cOpCg?t=1416",
+    "tags": [
+      "1k"
+    ]
+  }
+}

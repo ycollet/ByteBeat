@@ -1,0 +1,23 @@
+{
+  "file": "songs/cf9ddec8daeba49c29451700edccbffb.js",
+  "title": "i don't have a name for this",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9f54f69f5c44276bea2ff7b7cd1df3f54099197e7cbf726d372f9a9eaf742151",
+  "upstream": {
+    "hash": "cf9ddec8daeba49c29451700edccbffb",
+    "codeLen": 13,
+    "code": "(t*3&t>>6)%76",
+    "author": "SArpnt",
+    "name": "i don't have a name for this",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ns22lb/i_dont_have_a_name_for_this/",
+    "date": "2021-06-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

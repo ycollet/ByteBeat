@@ -1,0 +1,35 @@
+{
+  "file": "songs/cbd98c38d2c574bd7423baa09584f130.js",
+  "title": "In a different world",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cbd98c38d2c574bd7423baa09584f130.js",
+  "sha256": "0135b33787cb4bc2554b082b1d9809f0596ba7d83d4e63ddcd5acbba0f737df1",
+  "upstream": {
+    "hash": "cbd98c38d2c574bd7423baa09584f130",
+    "codeMinLen": 551,
+    "codeLen": 553,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "(t/=1.5)||(a=$=D=S=0),X=[[3,10,13,17],[-1,6,11,13],[-6,1,10,13],[1,8,13,17]],C=_=>_/128*PI,g=_=>.88*t*2**(_/12),c=[1-t/16384%1,1-t/8192%1],a=min(c[0],a+1/128),$=min(c[1],$+1/128),f=(_,$)=>{let e=_=>(P=C(_),sin(P+sin(P*3+tan(sin(P/1)+cos(P)))*abs(a-1)*(3+sin(t/32E3))));let s=0;_[$].forEach($$=>{s+=e(g($$))});return s},M=_=>(V=C(g(_)),sin(sin(V+sin(V*13)*$/2+tan(sin(V)-cos(V+11.99))*$)*3*$**4)),MC=(D+=S+=(random()-.5-D-S*1.5)/9)*((1-(t+16384)/32768%1)**26*3%1),f(X,G=3&t>>17)*abs(a-1)/6+M([3,-1,-6,1][G]-(t>>13",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "In a different world",
+    "url": "https://dollchan.net/btb/res/163.html#4988",
+    "date": "2024-11-17",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "06e631c9d3498e3c3268330d28fa43b0",
+        "author": "Zackx",
+        "name": "My new instrumental in new year",
+        "url": "https://dollchan.net/btb/res/204.html#292"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

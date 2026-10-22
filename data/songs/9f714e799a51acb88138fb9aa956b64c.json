@@ -1,0 +1,29 @@
+{
+  "file": "songs/9f714e799a51acb88138fb9aa956b64c.js",
+  "title": "earthbound school theme",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9f714e799a51acb88138fb9aa956b64c.js",
+  "sha256": "0496b2f4cdfa817b609916b6920be9f2a4a20f57d4783970ad4d6164ae94d2bf",
+  "upstream": {
+    "hash": "9f714e799a51acb88138fb9aa956b64c",
+    "codeLen": 10016,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{let X=globalThis._F;if(!X||X.F!==286520067){let j=max,k=min,ak=floor,aM=abs,bL=sin,bf=tanh,aN=imul,bl=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~ '`\",a8=bl.slice(0,90),bP=\";< /tC'kBKH~n2#V(h~BMSU641<U[Vx4<smUO&>9*>i3c.b#1P-dt#H5wK[0A1d]]@FX!^{<W3-+1pJFO8*q#o0Q}]xqhn@/@vI!KR}^rb;UjwxqA653d7_cBYyb}[<=~Y k@&|^%BmIh@iAZL.LlUte p+o0Da.`4>>'-Nl4Q-mjJyIL~%}[T.('~:sG:I~'jMF&T9`]K ;v)W!oEsw!_WCt(zR)+F5bD7ZH[O_RfS+Cw4H;d/k?e4_a~XCd+@1'CI(&pQ_+|rgd:$Cj5Cw",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "earthbound school theme",
+    "url": "https://www.bytebeat.cloud/post/f6e3e6a4-5f37-4c22-bf7f-074d92f2c64d",
+    "date": "2026-10-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2026-10-06",
+    "date_edited": "2026-10-18"
+  }
+}

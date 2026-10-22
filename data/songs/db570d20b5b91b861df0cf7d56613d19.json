@@ -1,0 +1,23 @@
+{
+  "file": "songs/db570d20b5b91b861df0cf7d56613d19.js",
+  "title": "Electrical Basement cacophony",
+  "author": "ANON256-64",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5f03d8239e45a9861297d3b63bf3c6c71ddcd39d4b5e1b09c2daacd317628ccd",
+  "upstream": {
+    "hash": "db570d20b5b91b861df0cf7d56613d19",
+    "codeLen": 41,
+    "code": "t/(0xF0015*t&t>>12)|t*(0xF0015*t&t>>12)-1",
+    "author": "ANON256-64",
+    "name": "Electrical Basement cacophony",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1atswzl/bytebreak/?rdt=37311&onetap_auto=true",
+    "date": "2024-03-03",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

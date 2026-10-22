@@ -1,0 +1,26 @@
+{
+  "file": "songs/8cb1c03e52e88d3dbcdd53bd4f4e89d8.js",
+  "title": "night of nights (flowering night)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f1fd1991abfdac24ced9811077e0bcd1805860fe0e64aecfff895f4ac9686ff4",
+  "upstream": {
+    "hash": "8cb1c03e52e88d3dbcdd53bd4f4e89d8",
+    "codeMinLen": 372,
+    "codeMin": "s=x=>(v=q=>(x*q&255)/5,v(1)+v(1.006)+v(2)+v(2.01)+.5*v(1.5)),n=x=>1.975*t*2**(parseInt(x,36)/12),s(n('4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffiiiiffffddddffff4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffijjjffffddddffff4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffiiiiffffbbbbccccdddd        ddddffff        ffffggg g g hh  hh  iiiiiiiiiiiiiiii'[255&t>>11]))",
+    "codeLen": 374,
+    "code": "s=x=>(v=q=>(x*q&255)/5,v(1)+v(1.006)+v(2)+v(2.01)+v(1.5)*.5),n=x=>t*1.975*2**(parseInt((x),36)/12),s(n('4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffiiiiffffddddffff4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffijjjffffddddffff4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffiiiiffffbbbbccccdddd        ddddffff        ffffggg g g hh  hh  iiiiiiiiiiiiiiii'[255&t>>11]))",
+    "author": "Zackx",
+    "name": "night of nights (flowering night)",
+    "url": "https://dollchan.net/btb/res/204.html#1242",
+    "date": "2023-06-07",
+    "sampleRate": 48000,
+    "coverName": "Izayoi Sakuya's theme - Night of Nights",
+    "coverUrl": "https://youtu.be/vS_a8Edde8k",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/72c423d4dd9ce7b7a815f858bff98c18.js",
+  "title": "vibin like",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/72c423d4dd9ce7b7a815f858bff98c18.js",
+  "sha256": "b3cd6b6a2d5d25fa7f4bde0591271d52d76e0bb970ac7cefc8c1dd47a86e2de5",
+  "upstream": {
+    "hash": "72c423d4dd9ce7b7a815f858bff98c18",
+    "codeLen": 4156,
+    "fileOrig": 1,
+    "codeText": "const ef = [-7, -3, -2, 0];\nconst ev = [-3, 1, 2, 4];\nconst eg = [-7, -19, -10, -12];\n\n//LPF (4-pole)\nLPF = function(s = 48e3) {\n   this.fs = s;\n   this.cutoff = 1e3;",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "vibin like",
+    "url": "https://dollchan.net/btb/res/163.html#9231",
+    "date": "2025-09-18",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "2405003c86ba3dc81338008f854ab201",
+        "author": "akurwtools",
+        "name": "i make a beautiful thing!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1frkbxr/i_make_a_beautiful_thing/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-10-01"
+  }
+}

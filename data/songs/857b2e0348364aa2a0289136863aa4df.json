@@ -1,0 +1,22 @@
+{
+  "file": "songs/857b2e0348364aa2a0289136863aa4df.js",
+  "title": "o(^▽^)┛",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c24d46de8117cfed500e4e130df4a984fc76a01024d691f5ee266d3e28ce9eb0",
+  "upstream": {
+    "hash": "857b2e0348364aa2a0289136863aa4df",
+    "codeLen": 300,
+    "code": "r=t/1.1,g=x=>parseInt(x,36),n=x=>t*2**(x/12)/1.71,e=15&r>>15,pwm=x=>((x/2&127)+(r>>10)&128)/2.01,p=n(g([['BCEJ','HCA9'],['37AF','279E']][!(~r>>17&3)|0][1&r>>16][3&r>>11>>(1&r>>16)])),((p&127)+32&128)/2+pwm(n(g('75757532'[7&r>>16]))/2)+pwm(n(g('2750279527503326'[e])))+pwm(n(g('7BC97EHCEJHLFFIL'[e])))",
+    "author": "Zackx",
+    "name": "o(^▽^)┛",
+    "url": "https://dollchan.net/btb/res/204.html#1295",
+    "date": "2023-06-12",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

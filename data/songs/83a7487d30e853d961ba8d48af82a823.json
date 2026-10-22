@@ -1,0 +1,32 @@
+{
+  "file": "songs/83a7487d30e853d961ba8d48af82a823.js",
+  "title": "stimmer but its all triangle",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ee915a6ed63559545b665660c9e7648b7746fee878e43266676462d057bbcdcc",
+  "upstream": {
+    "hash": "83a7487d30e853d961ba8d48af82a823",
+    "codeMinLen": 99,
+    "codeMin": "a=t*(4|7&t>>13)>>(~t>>11&1),a=abs(a%256-128),b=2*t*(t>>11&t>>13)*(~t>>9&3),b=abs(b%256-128)/1.1,a+b",
+    "codeLen": 113,
+    "code": "a=(t*(4|7&t>>13)>>(~t>>11&1)),a=Math.abs(a%256-128),b=(t*2*(t>>11&t>>13)*(~t>>9&3)),b=Math.abs(b%256-128)/1.1,a+b",
+    "author": "Decent-Manager-6169",
+    "name": "stimmer but its all triangle",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rld1aj/stimmer_but_its_all_triangle/",
+    "date": "2021-12-21",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

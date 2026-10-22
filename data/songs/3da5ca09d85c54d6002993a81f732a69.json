@@ -1,0 +1,25 @@
+{
+  "file": "songs/3da5ca09d85c54d6002993a81f732a69.js",
+  "title": "Frere Jacques",
+  "author": "Lord Graga",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "412d3f7d23415ce00ee2a1825fc9b5d4f61f942b2a220a8dccf62e4e2db3f940",
+  "upstream": {
+    "hash": "3da5ca09d85c54d6002993a81f732a69",
+    "codeMinLen": 33,
+    "codeMin": "10*(t>>7|3*t|t>>(t>>15))+(t>>8&5)",
+    "codeLen": 35,
+    "code": "(t>>7|t*3|t>>(t>>15))*10+((t>>8)&5)",
+    "author": "Lord Graga",
+    "name": "Frere Jacques",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=7#c388764",
+    "date": "2011-10-03",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

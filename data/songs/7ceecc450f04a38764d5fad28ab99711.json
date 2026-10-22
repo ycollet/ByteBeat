@@ -1,0 +1,29 @@
+{
+  "file": "songs/7ceecc450f04a38764d5fad28ab99711.js",
+  "title": "1 bit per sample DFPWM audio",
+  "author": "polyzium",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7ceecc450f04a38764d5fad28ab99711.js",
+  "sha256": "3943ce518d2d0744c47db61116e239fddb5392ec24a13b90bd7cd85edb40b37f",
+  "upstream": {
+    "hash": "7ceecc450f04a38764d5fad28ab99711",
+    "codeLen": 474708,
+    "fileOrig": 1,
+    "codeText": "/*\r\n    DFPWM decoder implementation in JavaScript\r\n    operates on little-endian DFPWM data\r\n\r\n    JS bytebeat port by Polyzium, 2024 - Public Domain\r\n    Original Java code by Ben \"GreaseMonkey\" Russell, 2013, 2016 - Public Domain\r\n    Audio by Jexus/WC Olo Garb, 2011 (source: https://youtu.be/2NLtThKkiP8?si=AmeGVGDglcCTpSnf&t=810)\r\n\r",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "1 bit per sample DFPWM audio",
+    "description": "Response to Sychamis' <a href=\"https://www.reddit.com/r/bytebeat/comments/1e7ey8x/103_bit_per_sample_improved_dpcm_audio/\" target=\"_blank\">DPCM experiment</a>. Dynamic Filter Pulse Width Modulation (DFPWM) is a 1-bit-per-sample audio codec. It uses a low-pass filter that is dynamically adjusted by the predictor that detects the PWM duty cycle of the samples. ",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1euxbis/1_bit_per_sample_dfpwm_audio/",
+    "date": "2024-08-18",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "coverName": "Audio by Jexus/WC Olo Garb",
+    "coverUrl": "https://youtu.be/2NLtThKkiP8?t=810",
+    "tags": [
+      "big",
+      "sample"
+    ]
+  }
+}

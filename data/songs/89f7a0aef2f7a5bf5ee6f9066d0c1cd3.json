@@ -1,0 +1,29 @@
+{
+  "file": "songs/89f7a0aef2f7a5bf5ee6f9066d0c1cd3.js",
+  "title": "midi test 5 (sparta remix)",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8333,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/89f7a0aef2f7a5bf5ee6f9066d0c1cd3.js",
+  "sha256": "882585ed055b429d41a7079ceecdb6a43904afa6f8c915b322dac9c9045a3fb0",
+  "upstream": {
+    "hash": "89f7a0aef2f7a5bf5ee6f9066d0c1cd3",
+    "codeLen": 1366,
+    "codeFormLen": 1530,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "f=(midi,h)=>{d=[];for(i=0;i<(midi.length/16);i++){[a,b,c]=[parseInt(midi.substr(i*16,4),16),parseInt(midi.substr(i*16+4,8),16),parseInt(midi.substr(i*16+12,4),16)];d.push([a,b,c]);};return d.map(([q,r,s])=>(t*s/64&16*((tick%h)>=r&&(tick%h)<(q+r)))).reduce((a,b)=>a+b);},(midi=['01e000000000004801e000000000005501e000000000006c01e0000001e0004c01e0000001e0006001e0000001e0007201e0000003c0004001e0000003c0004c01e0000003c0006001e0000005a0004c01e0000005a0006001e0000005a00072','003c000000000048003c00000000006c003c000",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "midi test 5 (sparta remix)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1373l27/midi_test_5_sparta_remix/",
+    "date": "2023-05-04",
+    "sampleRate": 8333,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

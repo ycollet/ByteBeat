@@ -1,0 +1,24 @@
+{
+  "file": "songs/f02069833457075c03b94f2b19886da5.js",
+  "title": "funny hardcore song",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 38000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "82d96068c56aebf1964cfeeb27e7d46f17876e8225a113fc25915ed4b548aa86",
+  "upstream": {
+    "hash": "f02069833457075c03b94f2b19886da5",
+    "codeMinLen": 143,
+    "codeMin": "d='1114111211141138'[15&t>>14],(t^t>>(-t*d>>12&3))%256/2.5*(t&8192)/8192+(4E4/(t*d%16384)**.1&128)/1.75+(t*sin(t>>2)&-t>>7&127)*(t&16384)/16384",
+    "codeLen": 148,
+    "code": "d='1114111211141138'[15&t>>14],(t^t>>(-t*d>>12&3))%256/2.5*(t&8192)/8192+((4e4/(t*d%16384)**.1)&128)/1.75+(t*sin(t>>2)&(-t>>7&127))*(t&8192*2)/16384",
+    "author": "Zackx",
+    "name": "funny hardcore song",
+    "url": "https://dollchan.net/btb/res/204.html#861",
+    "date": "2023-04-18",
+    "sampleRate": 38000,
+    "tags": [
+      "256"
+    ]
+  }
+}

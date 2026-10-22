@@ -1,0 +1,30 @@
+{
+  "file": "songs/6b4f2bfe3b0d582988955cb55b86ec7b.js",
+  "title": "echo_testing",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "38006226832036ed42e75df417967bcec6163d2854e745039e4b76e5ba51bc40",
+  "upstream": {
+    "hash": "6b4f2bfe3b0d582988955cb55b86ec7b",
+    "codeLen": 159,
+    "code": "r=(x,y,z)=>(t||(a=Array(n=12287).fill(y)),c=x%256+a[t%n],a[t%n]=c*z,c),c=t*8/(4+(t>>15&3))*(1+(t>>13&3))>>!(t>>12&3)&128,r(c*1.00009**(-t%16384)%256/4,64,.8)*2",
+    "author": "BaenHoHoHo",
+    "name": "echo_testing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1546vk4/comment/jsqtpz7/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-07-20",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "d0f086db4564e2ad51970cd662806c36",
+        "author": "aturned777",
+        "name": null,
+        "url": "https://dollchan.net/btb/res/3.html#406"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

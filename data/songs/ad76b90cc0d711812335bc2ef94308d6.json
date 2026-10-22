@@ -1,0 +1,27 @@
+{
+  "file": "songs/ad76b90cc0d711812335bc2ef94308d6.js",
+  "title": "The Base 2: Dystopian Future",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 64000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ad76b90cc0d711812335bc2ef94308d6.js",
+  "sha256": "e8b8dbf73d2c6493f4beac96e2067ed979f5be1f056dff1bd7f436668ac1e226",
+  "upstream": {
+    "hash": "ad76b90cc0d711812335bc2ef94308d6",
+    "codeMinLen": 654,
+    "codeLen": 662,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "this.v??=0,o=7,r=(w,i,s)=>(v++||(a=Array(i*o).fill(0)),w=w%256+a.shift(),a.push(w*s),w),w=v/o,p=(w,i=0)=>w*2**(i/12),saw=w=>w/64%1,tri=w=>asin(sin(w)),c=(i,s=0,r,t=sin)=>(l=i.map(i=>p(w,i+s)),m=l.reduce((w,s)=>t(w*r)+t(s*r)/sqrt(i.length)),m/i.length),r(c(k=[[0,3,7],[0,3,7],[0,3,7],[1,5,8]][w>>13&3],6,.2)+!!(w>>16)*tri(tri(p(w/5,[6,9,13,14][w>>13&3])*(z=(w,i,s)=>sin(w/i)/(w/i)/s+1,2*z(w,200,64)))*(w/8192%1))/8+!!(w>>17)*sin(4*sqrt(w%(w>>19?4096:32768)))/5+!!(w>>18)*(p(w*z(w,420,36)/20,[6,6,6,7][w>>13&3])/PI",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "The Base 2: Dystopian Future",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11p5bo8/the_base_2_dystopian_future/",
+    "date": "2023-03-12",
+    "mode": "Floatbeat",
+    "sampleRate": 64000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

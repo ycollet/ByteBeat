@@ -1,0 +1,24 @@
+{
+  "file": "songs/8a7f5f4053af70f4f9300653f227d49a.js",
+  "title": "Sync noise synth",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c6956f8ddde200346627881dff01290edd11e7cd328cd09df187d178b6c86833",
+  "upstream": {
+    "hash": "8a7f5f4053af70f4f9300653f227d49a",
+    "codeMinLen": 74,
+    "codeMin": "p=409.5,s=20*sin(t/7E4)+22,k=3,v=50,x=1E4*sin(int(t%p*s/p+k)),(x-int(x))*v",
+    "codeLen": 115,
+    "code": "p=409.5, // Pitch\ns=sin(t/7e4)*20+22, // Sound\nk=3, // Seed\nv=50, // Volume\nx=sin(int(t%p*s/p+k))*1e4,\n(x-int(x))*v",
+    "author": "SArpnt",
+    "name": "Sync noise synth",
+    "url": "https://www.reddit.com/r/bytebeat/comments/flmyyd/sync_noise_synth/",
+    "date": "2020-03-20",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

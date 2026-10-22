@@ -1,0 +1,27 @@
+{
+  "file": "songs/b6969365ca7cd8e935f3f4f27e88a31e.js",
+  "title": "Untitled (b6969365)",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b6969365ca7cd8e935f3f4f27e88a31e.js",
+  "sha256": "74361836e38eedb0f181f872c0b1a9e6dcdc44df05fed80b3a90f6de83f728bb",
+  "upstream": {
+    "hash": "b6969365ca7cd8e935f3f4f27e88a31e",
+    "codeLen": 2963,
+    "fileOrig": 1,
+    "codeText": "SR=24e3;\nmod=(n,m)=>(n%m+m)%m;fract=x=>(x%1+1)%1;\nprnd=x=>fract(fract(sin(x*9252.9492)*9153.1295)+fract(sin(x*6923.1525)*8921.0932));\nmix=(a,b,t)=>a+(b-a)*t;bipolarize=x=>x*2-1;\nprnddiv=(x,d)=>bipolarize(mix(prnd(floor(x*d)/d),prnd((floor(x*d)+1)/d),fract(x*d)));\npowify=(x,y)=>sign(x)*(abs(x)**y)\nsamples={\n kick:{",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "description": "A sampled procedural drum loop test with naïve time-stretching.",
+    "url": "https://dollchan.net/btb/res/3.html#12024",
+    "date": "2026-01-12",
+    "mode": "Funcbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-02-11"
+  }
+}

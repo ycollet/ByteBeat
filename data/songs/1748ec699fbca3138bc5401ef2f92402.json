@@ -1,0 +1,33 @@
+{
+  "file": "songs/1748ec699fbca3138bc5401ef2f92402.js",
+  "title": "1k dance recreation",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1748ec699fbca3138bc5401ef2f92402.js",
+  "sha256": "f8a33f894c8ef2f67ea36942222986e1ce1f34313f93cb52991903d6ce635161",
+  "upstream": {
+    "hash": "1748ec699fbca3138bc5401ef2f92402",
+    "codeLen": 1269,
+    "fileOrig": 1,
+    "codeText": "t||(Z=Y=[b=c=0]),b+=U=145/288e4,h=1+(i=H=B=I=0),l=-6.75,lpr=(b,n)=>(t||(Z[h]=0),t||(Z[i]=0),g=(i,n,r)=>min(max(Z[r]+=(Z[n]+=b/4+64-Z[r])-(Z[n]/=1+i/48e3),0),255),h+=2,i+=2,g(n,h-2,i-2)),lp=(b,n)=>(t||(Z[h]=[0,0]),t||(Z[i]=0),b=min(max(b%256,Z[h][Z[i]%2]-n),Z[h][Z[i]%2]+n),Z[h][Z[i]++%2]=b,h+=2,i+=2,b),N=(b,i=b)=>isNaN(b)?0:i,p=b=>N(b,2**((b+l)/12)),D=(b,i)=>abs((b/256*i%i%1<.5)*(b/256%1-1))/4,B=D(t/2*p(2+[0,3,5,7][b/2&3]+(2*b&1?12:0)-9),abs(2*b%1-2))*abs(2*b%1-2),lm=(b,i,n)=>(1-(b*i<1?b*i:1))**n,R=[[15,14],",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "1k dance recreation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16i2qp0/1k_dance_recreation/",
+    "date": "2023-09-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "294c29f350765e64eff0fa683a182789",
+        "author": "raphaelgoulart",
+        "name": "1k dance",
+        "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

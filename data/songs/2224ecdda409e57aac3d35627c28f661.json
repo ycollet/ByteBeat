@@ -1,0 +1,31 @@
+{
+  "file": "songs/2224ecdda409e57aac3d35627c28f661.js",
+  "title": "remix of \"Trance beat\" by SthephanShi",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a7684e2c2d804e9798a67cd2c502e67269b1318e65409bc937a9b033e698485b",
+  "upstream": {
+    "hash": "2224ecdda409e57aac3d35627c28f661",
+    "codeLen": 55,
+    "code": "((t>>(t%16?6:5)|t>>(t%128?11:3))&200)+(3E4/(t&4095)&64)",
+    "author": "RealZynx92",
+    "name": "remix of \"Trance beat\" by SthephanShi",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q834xu/i_remixed_stephanshis_trance_beat/",
+    "date": "2021-10-14",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "a94da6ff1ccaf0a4c22781743f7edb92",
+        "author": "SthephanShi",
+        "name": "Trance beat",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

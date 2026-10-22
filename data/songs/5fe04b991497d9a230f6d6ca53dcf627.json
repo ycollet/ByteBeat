@@ -1,0 +1,32 @@
+{
+  "file": "songs/5fe04b991497d9a230f6d6ca53dcf627.js",
+  "title": "autochxrded",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "83b7b4bc03fbe24ce66cd8521b6a9487d3586edafd78e4f6a84024408e13b9b3",
+  "upstream": {
+    "hash": "5fe04b991497d9a230f6d6ca53dcf627",
+    "codeMinLen": 251,
+    "codeMin": "t?0:z=0,v=~t>>15,u=t>>13,z+=x=2**((u&1^!(v&3))+(u/4&1^!(v&11))+2*!(v&15)),z%=w=16384,z/w*((C=t=>(S=(p,t)=>t*2**(p[u>>4&3]/12)&255)('0000',t)+S('7745',t)+S([10,9,7,8],t)+S([15,17,11,15],t)>>2)(t-t/2048%8*(1+(u&1)))>C(t)&&128)+(1-z/w)*(50/(x/z)**.5&128)",
+    "codeLen": 253,
+    "code": "t?0:z=0,v=~t>>15,u=t>>13,z+=x=2**((u&1^!(v&3))+(u/4&1^!(v&11))+2*!(v&15)),z%=w=16384,z/w*((C=t=>(S=(p,t)=>t*2**(p[u>>4&3]/12)&255)('0000',t)+S('7745',t)+S([10,9,7,8],t)+S([15,17,11,15],t)>>2)(t-(1+(u&1))*(t/2048%8))>C(t)&&128)+(1-z/w)*(50/(x/z)**.5&128)",
+    "author": "lhphr",
+    "name": "autochxrded",
+    "url": "https://dollchan.net/btb/res/44.html#837",
+    "date": "2023-03-28",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "40f76f9cc428852e642a7a8ed907f46b",
+        "author": "May_I_Change_My_Name",
+        "name": "SID \"Autochord\" Effect",
+        "url": "https://www.reddit.com/r/bytebeat/comments/123xsp7/sid_autochord_effect/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

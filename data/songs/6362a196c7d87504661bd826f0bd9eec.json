@@ -1,0 +1,42 @@
+{
+  "file": "songs/6362a196c7d87504661bd826f0bd9eec.js",
+  "title": "Remix of Rainbow Static",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6362a196c7d87504661bd826f0bd9eec.js",
+  "sha256": "e3b57f10dd3c1afce22812c92129d1efdc0aba08e01223fbbc8e91dde550d3ef",
+  "upstream": {
+    "hash": "6362a196c7d87504661bd826f0bd9eec",
+    "codeMinLen": 749,
+    "codeLen": 886,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:Z=[],X=0,lpf=(a,c)=>(Z[Y=X++]??=0,Z[Y]+=(a-Z[Y])*c),hpf=(a,c)=>a-lpf(a,c),r=t*.75,x=j=>(s=(a,b)=>(-t*1.035*2**(parseInt(a,36)/12)/b%256/2+16&128)-96,w=r=>(e=a=>r>0&&s(['149DG984','07BCGCB7'][1&r>>18][7&(r>>13)+(3&r>>12)],a*[1,.5][r>>14&1])*max(.5,1-r/4096%1),(e(1)+e(j))/2),b=a=>s(['9999999G99999G94','00000007000007C7'][r>>18&1][r>>13&15],a*4),min(max((b(1)+b(j))/1.5-1.5*(w(r)+w(r-12288)/2+w(r-24576)/3+w(r-38168)/4)+(3*sin(5*j*cbrt(r%16384))*(p=1-r/16384%1)**3*128*'10001000'[7&r>>13]+4*sin(sin(14*cbrt(r%",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Remix of Rainbow Static",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1kvs4qm/more_two2fall_stuff/",
+    "date": "2025-05-26",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "cb6d1d863c49071e73c9285c13003f79",
+        "author": "PrincessPriscillaPT",
+        "name": "Rainbow Static",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1h4tsr6/rainbow_static_as_a_song/",
+          "https://dollchan.net/btb/res/7164.html#7232",
+          "https://www.reddit.com/r/bytebeat/comments/1lp1ins/all_my_1k_reremix_remixes/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-26",
+    "date_edited": "2025-12-07"
+  }
+}

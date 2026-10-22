@@ -1,0 +1,41 @@
+{
+  "file": "songs/70971ff85b24f4649f10cff82c062fd2.js",
+  "title": "hardstyle remix of a Zackx song",
+  "author": "feeshbread",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/70971ff85b24f4649f10cff82c062fd2.js",
+  "sha256": "6258176e7ff4f13756e2fb21c2acbd2a7934e19cf04dee25cabbe0e5e0b44a18",
+  "upstream": {
+    "hash": "70971ff85b24f4649f10cff82c062fd2",
+    "codeLen": 2713,
+    "fileOrig": 1,
+    "codeText": "// Infenitely instantiable 1 Pole Filters\n// (every call = new filter instance)\nt?0:z1=[],\ncallCount=0,\nlpf=lowPassFilter=(a,c)=>(\n\tcall=callCount++,\n\tz1[call]??=0,\n\tz1[call]+=(a-z1[call])*c",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "hardstyle remix of a Zackx song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/comment/lm8vqhu/",
+    "date": "2024-09-08",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "dd84e684499f1770b65eb31131772c09",
+        "author": "feeshbread",
+        "name": "hardstyle kick ",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/tried_to_make_a_hardstyle_kick/"
+      },
+      {
+        "hash": "86111e49d303c11cd988c5c941314918",
+        "author": "Zackx",
+        "name": "ver2",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/comment/nqusalh/?context=3"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-01-12"
+  }
+}

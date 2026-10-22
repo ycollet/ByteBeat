@@ -1,0 +1,29 @@
+{
+  "file": "songs/c97693f313dfa61621db5c878af0c289.js",
+  "title": "Prime numbers generating procedural music",
+  "author": "Chasyxx",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c97693f313dfa61621db5c878af0c289.js",
+  "sha256": "5260394a43d4eb28835627d672e27d6ff78924beedc4318c5914a37cf3860aed",
+  "upstream": {
+    "hash": "c97693f313dfa61621db5c878af0c289",
+    "codeLen": 1361,
+    "fileOrig": 1,
+    "codeText": "t||(A=(()=>{\n\tlet A = Array(100).fill(0).map((_,i)=>i+2);\n\tlet i = 0;\n\twhile(i<A.length) {\n\t\tlet n = A[i];\n\t\tA = A.filter((x)=>{\n\t\t\tif(x<=n) return true;\n\t\t\treturn (x/n%1)!==0;",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Prime numbers generating procedural music",
+    "url": "https://dollchan.net/btb/res/756.html#8100",
+    "date": "2025-07-07",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "tags": [
+      "big",
+      "slow",
+      "console"
+    ],
+    "date_added": "2025-11-24",
+    "date_edited": "2025-11-27"
+  }
+}

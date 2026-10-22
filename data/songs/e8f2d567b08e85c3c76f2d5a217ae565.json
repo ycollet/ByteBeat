@@ -1,0 +1,30 @@
+{
+  "file": "songs/e8f2d567b08e85c3c76f2d5a217ae565.js",
+  "title": "ntuzongere kugaruka",
+  "author": "awogler9124812041",
+  "mode": "Funcbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e8f2d567b08e85c3c76f2d5a217ae565.js",
+  "sha256": "32c639f89435f88913ee92ea6caa657e6032bb1c1f21991e7a3366fe9f844032",
+  "upstream": {
+    "hash": "e8f2d567b08e85c3c76f2d5a217ae565",
+    "codeLen": 135559,
+    "fileOrig": 1,
+    "codeText": "// funcbeat 16000hz\nvar pcm = `??F6EJ2=F4<9CMJH<76@<6<:;EORM:7/<LB9B)BANJGC5:DA;;5@GPMI054BJB8,:?PNC>05ID?:.CM@MA-C9HLC<'.<LDE?8CDHF@035DLH>6:DHLC;008KHHB<@JA;5/=CHK;:8@JI>629<FK<=<CKE95/@FO?@4:@J@A578LIG:9:CKAC347JCF@>8CBE<7?@G;H3=;IGD;7<=G?><9=II?;;7EGD?<8>FF@<@;CCC:4?EEC>8?>DGB@49ADD@6?@FLG;0:BHF=0==LIG=.7GHF>5>?IHH<08IDE@79AJIN849CIE6:86LJD37>DKH8=5;CH<94BDID@=7;BE?@3?FGIB@8:=FA@9>ICJ?B69?@>?<@DCJAD5;>@B:9B?BK?=:@=BB;>?CAD@=:?=A>?=>CC>=A??@=?@@@A>@?@A>???A@>????AB??>??@@>?@?AA@?=?A>A@@@>@B@A>=?@AAA??<@A",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "ntuzongere kugaruka",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1eiap2m/snippet_of_ntuzongere_kugaruka_audio_and_chart/",
+    "date": "2024-08-02",
+    "mode": "Funcbeat",
+    "sampleRate": 16000,
+    "coverName": "FNF music - Ntuzongere Kugaruka",
+    "coverUrl": "https://youtu.be/kkmrTKG3GQU",
+    "tags": [
+      "big",
+      "console",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

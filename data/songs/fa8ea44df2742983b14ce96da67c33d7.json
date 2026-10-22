@@ -1,0 +1,43 @@
+{
+  "file": "songs/fa8ea44df2742983b14ce96da67c33d7.js",
+  "title": "Lyric Machine v2.0",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fa8ea44df2742983b14ce96da67c33d7.js",
+  "sha256": "546616d30d23bc4c6f2b1edf22658d938fe05fb7ae4feb67c75bd44b049096f0",
+  "upstream": {
+    "hash": "fa8ea44df2742983b14ce96da67c33d7",
+    "codeLen": 19081,
+    "fileOrig": 1,
+    "codeText": "/*\n.____                   .__                      \n|    |    ___.__._______|__| ____                \n|    |   <   |  |\\_  __ \\  |/ ___\\               \n|    |___ \\___  | |  | \\/  \\  \\___               \n|_______ \\/ ____| |__|  |__|\\___  >              \n        \\/\\/                    \\/               \n   _____                .__    .__               ",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Lyric Machine v2.0",
+    "description": "Now with Syllabic Indicator to tell which part of the song is saying this syllable.",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8666",
+      "https://www.reddit.com/r/bytebeat/comments/1mi0j6z/lyric_machine_v20/"
+    ],
+    "date": "2025-08-05",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e7edd4e4dbeada21b3b6238e25926190",
+        "author": "MarioFan171",
+        "name": "Lyric Machine",
+        "url": [
+          "https://dollchan.net/btb/res/2971.html#8655",
+          "https://www.reddit.com/r/bytebeat/comments/1mhew61/lyric_machine/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-09-26"
+  }
+}

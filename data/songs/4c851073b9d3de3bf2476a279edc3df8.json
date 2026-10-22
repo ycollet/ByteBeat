@@ -1,0 +1,35 @@
+{
+  "file": "songs/4c851073b9d3de3bf2476a279edc3df8.js",
+  "title": "jazz with 2 chords",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4c851073b9d3de3bf2476a279edc3df8.js",
+  "sha256": "f68e0f46ba34d0429b3811dd2c68022a2ac4ee3f34f0d5de7292728b2094a421",
+  "upstream": {
+    "hash": "4c851073b9d3de3bf2476a279edc3df8",
+    "codeLen": 2631,
+    "fileOrig": 1,
+    "codeText": "/*\n * jazz with only 2 chords (it's almost unbearable)\n * by troubleshoot\n * (headphones recommended! ᶠᵒʳ ˢᵒᵐᵉ ʳᵉᵃˢᵒⁿ)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=187,ch=[10,9],K=S=H=k=s=s1=s2=h=h1=h2=h3=am1=am2=b1=b2=c1=c2=r1=r2=r3=0,Ki=Sn=Hi=1,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c,clip=x=>atan(1.4*x)/1.4,r=Array(m=2e4).fill(0),R=i=>r[i%m]),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "jazz with 2 chords",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ksidyc/jazz_with_2_chords/",
+    "date": "2025-05-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "742e9b90086f4d6dabcdf05dc0a410ce",
+        "author": "troubleshootcorps",
+        "name": "something",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1krkn17/something_wip/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

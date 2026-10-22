@@ -1,0 +1,27 @@
+{
+  "file": "songs/52944e1eaf2cf83d1fa437ea8bc2e031.js",
+  "title": "kolybelnya",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/52944e1eaf2cf83d1fa437ea8bc2e031.js",
+  "sha256": "6e0f2c61b9120afc061a6fa7a48f4c5964f05310bb630846c833188354c5f3ae",
+  "upstream": {
+    "hash": "52944e1eaf2cf83d1fa437ea8bc2e031",
+    "codeMinLen": 156,
+    "codeMin": "a=[1,2,3,4,.8,1.6,2.4,3.2],a=a[(t>>14)%a.length]/2,sum=(i,s)=>{o=0;for(x=1;x<i;x++)o+=s(x,i);return o},sum(10,(x,i)=>sin(t/x*i/16*a+x*PI)/2)/(10+(t>>11)%32)",
+    "codeLen": 173,
+    "fileOrig": 1,
+    "codeText": "a=[1,2,3,4,.8,1.6,2.4,3.2],a=a[(t>>14)%a.length]/2,sum=(i,s)=>{o=0;for(x=1;x<i;x++)o+=s(x,i);return o},sum(10,(x,i)=>sin(t/x*i/16*a+x*PI)/2)/(10+(t>>11)%32)",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "kolybelnya",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18ewmyo/kolybelnya/",
+    "date": "2023-12-10",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "tags": [
+      "256"
+    ]
+  }
+}

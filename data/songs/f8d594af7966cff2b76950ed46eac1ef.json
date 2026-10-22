@@ -1,0 +1,35 @@
+{
+  "file": "songs/f8d594af7966cff2b76950ed46eac1ef.js",
+  "title": "Multivoiced RTTTL Player",
+  "author": "Kouzerumatsu",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f8d594af7966cff2b76950ed46eac1ef.js",
+  "sha256": "d7f343c8ef7187a4ecb0aeb7e22ec788c619f2f226af916bab359e73afac332c",
+  "upstream": {
+    "hash": "f8d594af7966cff2b76950ed46eac1ef",
+    "codeLen": 5086,
+    "fileOrig": 1,
+    "codeText": "//rtttl player bytebeat\n//19 sept 2023 - Kouzerumatsukite\nt?(t=>{\n  if(t>tl){\n    tl += 256\n    for(n of plyr){\n      n.tick(tl*1250/14)\n\t\t}",
+    "isTruncated": 1,
+    "author": "Kouzerumatsu",
+    "name": "Multivoiced RTTTL Player",
+    "description": "Previous song rewritten with the Nokia text-based ringtone tracker.",
+    "url": "https://dollchan.net/btb/res/415.html#1852",
+    "date": "2023-09-19",
+    "sampleRate": 32768,
+    "remix": [
+      {
+        "hash": "feb5ac3cbd55b8a92529178a62ba0b7a",
+        "author": "Kouzerumatsu",
+        "name": "Adventure's Began - Kouzerumatsukite (v0.2)",
+        "url": "https://dollchan.net/btb/res/415.html#1849"
+      }
+    ],
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

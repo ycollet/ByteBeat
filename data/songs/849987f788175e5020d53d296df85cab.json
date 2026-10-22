@@ -1,0 +1,35 @@
+{
+  "file": "songs/849987f788175e5020d53d296df85cab.js",
+  "title": "ibniz-like interpreter",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/849987f788175e5020d53d296df85cab.js",
+  "sha256": "e7466cd8e46cc0ffa42f5e32031a584421eb0543ea4a1b980177a7a2e2c8b0a4",
+  "upstream": {
+    "hash": "849987f788175e5020d53d296df85cab",
+    "codeMinLen": 1426,
+    "codeLen": 3500,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "P='push',p='pop',this.I??=function(z,...vars){S=vars;rS=[];Sl=S.length;for(ixa=0;ixa<z.length;ixa++){switch(z[ixa]){case'd':S[P](S[Sl-1]);break;case'p':S[p]();break;case'x':T=S[Sl-1];S[Sl-1]=S[Sl-2];S[Sl-2]=T;break;case'v':T=S[Sl-3];S[Sl-3]=S[Sl-2];S[Sl-2]=S[Sl-1];S[Sl-1]=T;break;case'P':rS[P](S[p]());break;case'R':S[P](rS[p]());break;case'w':S[P](...vars);break;case'+':B=S[p]();A=S[p]();S[P](A+B);break;case'-':B=S[p]();A=S[p]();S[P](A-B);break;case'*':B=S[p]();A=S[p]();S[P](A*B);break;case'/':B=S[p]();A=S[",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "ibniz-like interpreter",
+    "url": "https://dollchan.net/btb/res/756.html#862",
+    "date": "2023-04-18",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e285c01d77834fad3bb90ccbd93f11d3",
+        "author": "216",
+        "name": "\"fractal trees\", 216's version",
+        "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-06"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/5c85e2d50f201ab50ee31ab0f193ffd6.js",
+  "title": "Small Mouse",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "79345f98b1b0068f8911bf0763051bef88ad6a3207a0d6391eec750bdd5934ab",
+  "upstream": {
+    "hash": "5c85e2d50f201ab50ee31ab0f193ffd6",
+    "codeMinLen": 257,
+    "codeMin": "T=t/1.2,a=[0,3,5,7,0,3,-4,-2],a1=[3,7,9,11,3,7,0,2],a2=[7,10,12,14,7,10,3,5],B=a=>(.88*t*2**(a[i=7&T>>15]/12)&-T>>6)%256/5,S=(s,p)=>.7*(.88*p*t*2**([a,a1,a2,a1][3&T>>s][i]/12)&64),B(a)+B(a1)+B(a2)+[S(14,1)+S(15,2),2*(S(9,1)+S(14,2))*(1-T%8192/9E3)][1&T>>13]",
+    "codeLen": 263,
+    "code": "T=t/1.2,\na=[0,3,5,7,0,3,-4,-2],\na1=[3,7,9,11,3,7,0,2],\na2=[7,10,12,14,7,10,3,5],\nB=a=>(.88*t*2**(a[i=7&T>>15]/12)&-T>>6)%256/5,\nS=(s,p)=>.7*(.88*p*t*2**([a,a1,a2,a1][3&T>>s][i]/12)&64),\nB(a)+B(a1)+B(a2)+[S(14,1)+S(15,2),2*(S(9,1)+S(14,2))*(1-T%8192/9E3)][1&T>>13]",
+    "author": "SthephanShi",
+    "name": "Small Mouse",
+    "url": "https://dollchan.net/btb/res/204.html#424",
+    "date": "2023-02-19",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "63ae73d1baf2a9c71c1c2209706cb795",
+        "author": "Zackx",
+        "name": "ｃｏｏｌ ｖａｐｏｒｗａｖｅ",
+        "url": "https://dollchan.net/btb/res/204.html#408"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

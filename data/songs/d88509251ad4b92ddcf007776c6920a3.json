@@ -1,0 +1,33 @@
+{
+  "file": "songs/d88509251ad4b92ddcf007776c6920a3.js",
+  "title": "funni music",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "293125d891a3056e92d9946708ed40fd8de00d7778a07ca0a3d7345de54caefa",
+  "upstream": {
+    "hash": "d88509251ad4b92ddcf007776c6920a3",
+    "codeMinLen": 165,
+    "codeMin": "'Baz§zaB-'.charCodeAt((t*[1,0,1.5,0,1.4,0,1.5,0,1.8,1.8,1.8,1.8,1.5,1.5,1.5,1.5][(t>>12)%16]>>4)%8)+[64,32,32,32][(t>>12)%4]*random()*(1-(1&t>>11))+128*sin(t/160)/4",
+    "codeLen": 171,
+    "code": "(\"Baz§zaB-\".charCodeAt((t*[1,0,1.5,0,1.4,0,1.5,0,1.8,1.8,1.8,1.8,1.5,1.5,1.5,1.5][(t>>12)%16]>>4)%8))+([64,32,32,32][(t>>12)%4]*random())*(1-(1&t>>11))+(128*sin(t/160))/4",
+    "author": "rubi",
+    "name": "funni music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/shafna/funni_music/",
+    "date": "2022-01-31",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "7eda29cb7ab252902e68ca1c0de7469e",
+        "author": "rubi",
+        "name": "fitebeat",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ry7d6g/fitebeat/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

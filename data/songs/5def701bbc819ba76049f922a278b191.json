@@ -1,0 +1,33 @@
+{
+  "file": "songs/5def701bbc819ba76049f922a278b191.js",
+  "title": "a remix of atari thingy",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c0f0167f8a493aadbd41b4686264eef9d1f098fbd04164f50e915375b40a73fa",
+  "upstream": {
+    "hash": "5def701bbc819ba76049f922a278b191",
+    "codeMinLen": 440,
+    "codeMin": "(t/=2)?0:r=Array(n=12288).fill(0),ev=h=>(T=t*1.02,c=1.047,cs=1.107,d=1.174,ds=1.243,e=1.318,f=1.389,fs=1.476,g=1.568,gs=1.655,a=1.754,as=1.857,b=1.977,A=t*h*\"23423423\"[T>>12&7],B=t*[2,3.185,4,2,3.185,4,2,3.185][T>>12&7],A*16*[b,b,b,d*2,g,g,fs,as][T>>15&7]>>6),[(evv=(ev(1)%256+ev(1.01)%256+ev(1.02)%256+ev(.99)%253)/8+r[t*2%n],r[t*2%n]=evv/2,evv/1.5),(evv=(ev(1)%256+ev(.99)%256+ev(.98)%256+ev(1.01)%253)/8+r[t*2%n],r[t*2%n]=evv/2,evv/1.5)]",
+    "codeLen": 473,
+    "code": "t/=2,\r\nt?0:r=Array(n=12288).fill(0),\r\nev=x=>(T=t*1.02,c=1.047,cs=1.107,d=1.174,ds=1.243,e=1.318,f=1.389,fs=1.476,g=1.568,gs=1.655,a=1.754,as=1.857,b=1.977,A=t*x*'23423423'[T>>12&7],B=t*[2,3.185,4,2,3.185,4,2,3.185][T>>12&7],A*16*[b,b,b,d*2,g,g,fs,as][T>>15&7]>>6),\r\nStereo=x=>[(evv=(ev(1)%256+ev(1.01)%256+ev(1.02)%256+ev(0.99)%253)/8+r[t*2%n],r[t*2%n]=evv/2,evv/1.5+x),(evv=(ev(1)%256+ev(.99)%256+ev(.98)%256+ev(1.01)%253)/8+r[t*2%n],r[t*2%n]=evv/2,evv/1.5+x)],\r\nStereo(0)",
+    "author": "hrllobrothers4",
+    "name": "a remix of atari thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bnihkz/this_should_be_the_normal_sizeenjoyment_a_code/",
+    "date": "2024-03-25",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

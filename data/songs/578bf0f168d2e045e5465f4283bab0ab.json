@@ -1,0 +1,26 @@
+{
+  "file": "songs/578bf0f168d2e045e5465f4283bab0ab.js",
+  "title": "formant synthesis",
+  "author": "awogler9124812041",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9c9fbc3cd638b123a451cc8d03515facb7072f5e774e4c9b10b755920712f955",
+  "upstream": {
+    "hash": "578bf0f168d2e045e5465f4283bab0ab",
+    "codeMinLen": 197,
+    "codeMin": "f=a=>sin(t/128/187.5*a*PI),p=a=>{q=0;a.forEach(b=>q+=f(b)/a.length);return q},vowels=[[660,1700,2400],[530,1850,2500],[270,2300,3E3],[640,1200,2400],[300,870,2250]],p(vowels[(t>>15)%vowels.length])",
+    "codeLen": 199,
+    "code": "f=a=>sin(t/128/187.50*a*PI),p=a=>{q=0;a.forEach(b=>q+=f(b)/a.length);return q},vowels=[[660,1700,2400],[530,1850,2500],[270,2300,3000],[640,1200,2400],[300,870,2250]],p(vowels[(t>>15)%vowels.length])",
+    "author": "awogler9124812041",
+    "name": "formant synthesis",
+    "description": "Synthesized vowels \"a e i o u\".",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15x6jtg/formant_synthesis/",
+    "date": "2023-08-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

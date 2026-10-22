@@ -1,0 +1,27 @@
+{
+  "file": "songs/340de562ec3d1339b19f0dde5251728f.js",
+  "title": "byte-sized rhapsody",
+  "author": "damifortune",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/340de562ec3d1339b19f0dde5251728f.js",
+  "sha256": "09e6e4d14129a91b572c14037d0f3b776b0e56b14b8e0cdfdbb98703d363ba39",
+  "upstream": {
+    "hash": "340de562ec3d1339b19f0dde5251728f",
+    "codeLen": 340264,
+    "fileOrig": 1,
+    "codeText": "SAMP_RATE = 44100,\nCLOCK = 1789773,\n\nconvert_duty=function(value){\n    if(value == '3'){\n        return 12.5;\n    }\n    else if(value == '7'){",
+    "isTruncated": 1,
+    "author": "damifortune",
+    "name": "byte-sized rhapsody",
+    "description": "NES format (.nsf) converted to bytebeat, uses the same engine as \"Pixel Rainfall\".",
+    "url": "https://battleofthebits.com/arena/Entry/byte-sized+rhapsody/61592/",
+    "date": "2023-08-23",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

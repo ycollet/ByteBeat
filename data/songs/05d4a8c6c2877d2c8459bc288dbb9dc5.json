@@ -1,0 +1,25 @@
+{
+  "file": "songs/05d4a8c6c2877d2c8459bc288dbb9dc5.js",
+  "title": "kalama musi ante nanpa tu nasa",
+  "author": "rubi",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e89d9a2cd0d56fb542ac73f9d3443c2f3278267f2c0f294dc948d3cd52c4c5b3",
+  "upstream": {
+    "hash": "05d4a8c6c2877d2c8459bc288dbb9dc5",
+    "codeMinLen": 143,
+    "codeMin": "t%=2097152,cbrt(sin((4E4+t*(t>>18&3))/(t&16383)))+random()*(1&t>>13)*sin(t*(t&16384?1.15:1)*(t&65536?1.1:1)*\"1248\"[3&t>>18]/50)/(8191&t/.5)*1E4",
+    "codeLen": 146,
+    "code": "t%=1<<21,cbrt(sin((4e4+t*(t>>18&3))/(t&2**14-1)))+random()*(1&t>>13)*sin(t*(t&2**14?1.15:1)*(t&2**16?1.1:1)*'1248'[3&t>>18]/50)/(2**13-1&t/.5)*1e4",
+    "author": "rubi",
+    "name": "kalama musi ante nanpa tu nasa",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16fa9zv/comment/k0eu6wd/",
+    "date": "2023-09-10",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

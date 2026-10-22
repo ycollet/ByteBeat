@@ -1,0 +1,41 @@
+{
+  "file": "songs/8dc51014a9778bf7b64c93c727c4d637.js",
+  "title": "Combination stimmer + Street Surfer",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "69cc17a2e0734e49ce7e2bce57f7ae9845527715d5b5acf4ccefdd00789ad53b",
+  "upstream": {
+    "hash": "8dc51014a9778bf7b64c93c727c4d637",
+    "codeLen": 113,
+    "code": "(t*(4|t>>13&3)>>(~t>>11&1)&128|t*(t>>11&t>>13)*(~t>>9&3)&127)^(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))",
+    "author": "Devan Wolf",
+    "name": "Combination stimmer + Street Surfer",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      },
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

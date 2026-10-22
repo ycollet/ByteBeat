@@ -1,0 +1,35 @@
+{
+  "file": "songs/f38f08c735abcd2fedd372347be86508.js",
+  "title": "Pre Trash Remix of Small Mouse 2",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f38f08c735abcd2fedd372347be86508.js",
+  "sha256": "aa33a79ffd72ecc7b1acc6e367fd9296eed4a0fc817f1ef727002261e6b1e642",
+  "upstream": {
+    "hash": "f38f08c735abcd2fedd372347be86508",
+    "codeMinLen": 928,
+    "codeLen": 980,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=t/1.2,h=1&T>>13,i=3&T>>15,j=7&T>>15,a=[0,3,5,7,0,3,-4,-5],a1=[3,7,9,11,3,7,0,-1],a2=[7,10,12,14,7,10,3,2],a3=[12,15,17,19,12,15,8,7],B=c=>(.88*t*2**(c[7&T>>15]/12)&-T>>6)%256/5,S=(c,e)=>.7*(.88*e*t*2**([a,a1,a2,a1][3&[T,-T][T>>[14,15,14,13][T>>18&3]&1]>>c][j]/12)&64),aa=B(a)+B(a1)+B(a2)+[S(14,1)+S(15,2),2*(S(9,1)+S(14,2))*(1-T%8192/9E3)][h]/1.5,d=aa+.88*((T>>18&1)+1)*t*2**([[0,3,7,3],A=[0,4,7,4],A,A][i][T&3]/12)*2**(a[j]/12),M=.88*t*2**([[0,3,7,3],A=[0,4,7,4],A,A][i][T>>13&3]/12)*2**(a[j]/12)%256/3*(T/128",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Pre Trash Remix of Small Mouse 2",
+    "url": "https://dollchan.net/btb/res/520.html#2911",
+    "date": "2024-01-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "5c85e2d50f201ab50ee31ab0f193ffd6",
+        "author": "SthephanShi",
+        "name": "Small Mouse",
+        "url": "https://dollchan.net/btb/res/204.html#424"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

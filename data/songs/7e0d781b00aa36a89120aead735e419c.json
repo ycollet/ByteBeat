@@ -1,0 +1,38 @@
+{
+  "file": "songs/7e0d781b00aa36a89120aead735e419c.js",
+  "title": "THE[[[HYPERSPHERE]]]",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7e0d781b00aa36a89120aead735e419c.js",
+  "sha256": "537457a55ec0a5e8f08754b7230dd6bb9625a060862c18ea181f917b21a1be64",
+  "upstream": {
+    "hash": "7e0d781b00aa36a89120aead735e419c",
+    "codeLen": 7964,
+    "fileOrig": 1,
+    "codeText": "// Beats per minute.\n// Bars per beat.\n// Measures per bar.\n// Tuning frequency for A4.\n// Volume bar size.\n// Resolution of throw display. Set D to 1 to disable status info.\n// Whether you have a 512px width display. (Off by default).\nconst SETTINGS = {BPM:130,BPB:2,MPB:8,A4:440,VBS:50,D:300,SMOL: 1};",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "THE[[[HYPERSPHERE]]]",
+    "description": "THE [] BOX as a full song.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1aegota/thehypersphere_thebox_as_a_full_song/",
+      "https://dollchan.net/btb/res/756.html#2951"
+    ],
+    "date": "2024-01-30",
+    "mode": "Funcbeat",
+    "sampleRate": 22050,
+    "remix": [
+      {
+        "hash": "e9b7348fefc84124e172ae2271ecd2d5",
+        "author": "Chasyxx",
+        "name": "THE [] BOX",
+        "url": "https://dollchan.net/btb/res/756.html#1037"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

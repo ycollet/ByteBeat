@@ -1,0 +1,36 @@
+{
+  "file": "songs/51fabd00b546ab8ea4af545c567acdc9.js",
+  "title": "Fixed Moog City",
+  "author": "Iwaku",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0b3c8ae8227035407d9a1bd8775c1fbc5b5bab60829024ae9dc7af579eb46ec3",
+  "upstream": {
+    "hash": "51fabd00b546ab8ea4af545c567acdc9",
+    "codeLen": 168,
+    "code": "t?0:r=Array(l=12e3).fill(0),g=min(t/6e6,.7)*abs(expm1(sin(t*[330,440,494,659,784,988,1175,1568][0|t/10909%8]/7640*(62<(0|t/10909%64)?1.122:1))))+r[t%l]/2,r[t%l]=g/2,g-1",
+    "author": "Iwaku",
+    "name": "Fixed Moog City",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13q0ycv/fixed_moog_city/",
+    "date": "2023-05-24",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "71f8717591bfbe93114e2a49e6f36f70",
+        "author": "Iwaku",
+        "name": "Moog City MIDI cover",
+        "url": [
+          "https://dollchan.net/btb/res/3.html#1053",
+          "https://www.reddit.com/r/bytebeat/comments/13md94j/moog_city_154c_midi_cover/"
+        ]
+      }
+    ],
+    "coverName": "C418 - Moog City",
+    "coverUrl": "https://youtu.be/trRGS_Va7_M",
+    "tags": [
+      "256"
+    ]
+  }
+}

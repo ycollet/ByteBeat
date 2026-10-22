@@ -1,0 +1,40 @@
+{
+  "file": "songs/63aafbc563de2ebd6992bc6b9d4e147f.js",
+  "title": "sparta remix with amen break",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/63aafbc563de2ebd6992bc6b9d4e147f.js",
+  "sha256": "6696e71a36fdcd80a0a5a9d2f8e9ded8f3afb58d2a8209f3668a5e3a13b372c1",
+  "upstream": {
+    "hash": "63aafbc563de2ebd6992bc6b9d4e147f",
+    "codeLen": 39983,
+    "fileOrig": 1,
+    "codeText": "a=[\n\t65.41,65.41,65.41,65.41,69.30,69.30,69.30,69.30,58.27,58.27,58.27,58.27,69.30,69.30,69.30,69.30,\n\t65.41,130.81,65.41,130.81,69.30,138.59,69.30,138.59,58.27,116.54,58.27,116.54,69.30,138.59,69.30,138.59\n],\nsynth=`//01/0000230/----.-,703010110.,5./0./-/*//.,,/.-/2341322//1322310,*)*,..442/,*-++,22641,.+,2/,0162*+,41.224700*,.-73+0/0(.--6/)/+.*41./3,0)+4;634.')*+221:8.(,+4-,.<3(**42*,7;23**),*5=80';((2532'((02392()*+12002-(222003<)+22/(*990((1*.,=21()-29/80**,4<:0/.''(10/0)(/234()+)*-214**)044/354,,/32-29",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "sparta remix with amen break",
+    "url": "https://www.reddit.com/r/bytebeat/comments/yex2iz/comment/iu3hfry/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-10-28",
+    "sampleRate": 16000,
+    "remix": [
+      {
+        "hash": "fbd1502206f74941ead5b803082da551",
+        "author": "awogler9124812041",
+        "name": "sparta remix chorus",
+        "url": "https://www.reddit.com/r/bytebeat/comments/yex2iz/sparta_remix_chorus/"
+      },
+      {
+        "hash": "667995ed2197547b70211cbd282d6c6a",
+        "author": "awogler9124812041",
+        "name": "bitcrushed amen break",
+        "url": "https://www.reddit.com/r/bytebeat/comments/yc9rut/bitcrushed_amen_break/"
+      }
+    ],
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

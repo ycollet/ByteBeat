@@ -1,0 +1,35 @@
+{
+  "file": "songs/f78003f0eb7c0e9882d5e31a7467509f.js",
+  "title": "HOME - “Resonance” wip2",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f78003f0eb7c0e9882d5e31a7467509f.js",
+  "sha256": "8ece744af5d83965f29b29ae52d96db624e1c36f5e1821dc64cc4b1de86a994a",
+  "upstream": {
+    "hash": "f78003f0eb7c0e9882d5e31a7467509f",
+    "codeLen": 1999,
+    "fileOrig": 1,
+    "codeText": "t?(n=i,i=t/s/60*BPM,(i|0)-n>0?(--l<1?(o+=1,l=y[0][o*2%24]):0):0,k=H[p(y[0][o*2%24+1])],L=(x(5,N(k[y[3][y[4][i/2&7]*4+(i*2&3)]]))-.5)*(i>64),O=(P(x(0,N(k[0])))+P(x(1,N(k[1])))+P(x(2,N(k[2])))+P(x(3,N(k[3])))+P(x(4,N(k[4])))+P(x(6,N(k[0])/4))-3)/6,k=u[0],u[0]=p(y[1][y[2][i/2&15]*4+(i*2&3)]),u[0]-k>0?m[0]=0:m[0]+=1/s,f=v(.07,.6*w(1,.1,1/8),.12,9,0)*.3,q=.4,z=q+q/(1-f),a+=f*(O-a+z*(a-b)),b+=f*(a-b),k=u[1],u[1]=1-(i*4&1),u[1]-k>0?m[1]=0:m[1]+=1/s,n=w(1,.2,1/16)**2,f=v(1e-2,.5*n+.05,.2,1,1)*(.2+n/3),q=.8,z=q+q/(1",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "HOME - “Resonance” wip2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/156h8eu/home_resonance_wip2/",
+    "date": "2023-07-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "7f9f9750b8603a9e1ff32b375569cc0d",
+        "author": "SleepingLugia",
+        "name": "home - resonance wip",
+        "url": "https://www.reddit.com/r/bytebeat/comments/156asvd/home_resonance_wip/"
+      }
+    ],
+    "coverName": "HOME - Resonance",
+    "coverUrl": "https://youtu.be/8GW6sLrK40k",
+    "tags": [
+      "big"
+    ]
+  }
+}

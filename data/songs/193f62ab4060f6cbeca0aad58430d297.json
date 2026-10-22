@@ -1,0 +1,30 @@
+{
+  "file": "songs/193f62ab4060f6cbeca0aad58430d297.js",
+  "title": "Middle Dave from Sheriff Domestic",
+  "author": "awogler9124812041",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/193f62ab4060f6cbeca0aad58430d297.js",
+  "sha256": "05e6c3a1e94657369bb10bfdc64bb903013f8ef3388fe62741013a16cc783ac5",
+  "upstream": {
+    "hash": "193f62ab4060f6cbeca0aad58430d297",
+    "codeLen": 4526,
+    "fileOrig": 1,
+    "codeText": "// PARAMETERS YOU CAN CHANGE //\n// sample rate\nzzfxR=48000;\n// volume\nzzfxV=1;\n// song data (you can use https://keithclark.github.io/ZzFXM/tracker/ to compose your own songs!)\nsong=[[[1,0,440,0,0,0.15,2,0.2,-0.1,-0.15,9,0.02,0,0.1,0.12,0,0.2,1,0,0],[1,0,84,0,0,0.1,0,0.7,0,0,0,0.5,0,6.7,1,0.05,0,1,0,0],[1,0,219,0,0,0.1,0,1.1,0,-0.1,-50,-0.05,-0.01,1,0,0,0,1,0,0],[0.3,0,900,0.02,0,0.07,4,0,0,0,0,0,0,4,0,0,0,1,0,0],[0.4,0,600,0,0.6,0.1,3,0.5,0,0,0,0,0.01,0.01,0,0,0,1,0,0.1],[1,0,440,0,0,0.48,2,1,0,0,0,0,0.25,",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "Middle Dave from Sheriff Domestic",
+    "description": "Composed in <a href='https://keithclark.github.io/ZzFXM/tracker/' target='_blank'>ZzFXM tracker</a> and ported to bytebeat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/19013nb/middle_dave_from_sheriff_domestic_zzfxm_funcbeat/",
+    "date": "2024-01-06",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Sheriff Domestic OST - Middle Dave",
+    "coverUrl": "https://youtu.be/yfQZNJur49Y",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

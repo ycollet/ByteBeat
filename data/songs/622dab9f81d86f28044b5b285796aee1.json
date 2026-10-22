@@ -1,0 +1,32 @@
+{
+  "file": "songs/622dab9f81d86f28044b5b285796aee1.js",
+  "title": "bassline",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 40959,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/622dab9f81d86f28044b5b285796aee1.js",
+  "sha256": "8eef7f0e7cd331485bc3dca3eae9c1f8f8ab323a01e3637aaa78bd68e8d63a52",
+  "upstream": {
+    "hash": "622dab9f81d86f28044b5b285796aee1",
+    "codeMinLen": 219,
+    "codeMin": "n=x=>2**((x-.52)/12)/4,C=n(-1),D=n(1),Eb=n(2),F=n(4),G=n(6),Bb=n(9),m=x=>x[(t>>11)%2],tan(t*PI/128*[C,0,C,0,C,0,Bb,C*2,C,0,C,0,Bb,Bb,Bb,0,C,0,C,0,C,0,Bb,C*2,m([Eb*2,F*2]),Eb*2,D*2,Bb,m([D*2,Eb*2]),D*2,Bb,G][(t>>12)%32])",
+    "codeLen": 553,
+    "fileOrig": 1,
+    "codeText": "n=x=>2**((x-.52)/12)/4,C=n(-1),D=n(1),Eb=n(2),F=n(4),G=n(6),Bb=n(9),m=x=>x[(t>>11)%2],tan(t*PI/128*[C,0,C,0,C,0,Bb,C*2,C,0,C,0,Bb,Bb,Bb,0,C,0,C,0,C,0,Bb,C*2,m([Eb*2,F*2]),Eb*2,D*2,Bb,m([D*2,Eb*2]),D*2,Bb,G][(t>>12)%32])",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "bassline",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1ghlxxm/bassline/",
+      "https://dollchan.net/btb/res/7164.html#7212"
+    ],
+    "date": "2024-11-02",
+    "sampleRate": 40959,
+    "coverName": "What is your favorite retro bass?",
+    "coverUrl": "https://youtu.be/lU7nARUa2CA",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

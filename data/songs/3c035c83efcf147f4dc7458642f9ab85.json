@@ -1,0 +1,42 @@
+{
+  "file": "songs/3c035c83efcf147f4dc7458642f9ab85.js",
+  "title": "interspace",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3c035c83efcf147f4dc7458642f9ab85.js",
+  "sha256": "b1a4d521292752037433b40f56106e5683eef8956bc2e69172284316e8589e63",
+  "upstream": {
+    "hash": "3c035c83efcf147f4dc7458642f9ab85",
+    "codeMinLen": 727,
+    "codeLen": 780,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "X=sin,t*=1.75,lr2=lr2=>(lr=lr=>(R=random()-random(),x=t=>t*lr/64*2**(parseInt('6DIK6DIL6DIK4BGI29EG29EG29EG4BGI'[31&t>>14],36)/12),y=t=>t<0?0:atan(X(x(t)+X(x(t))/abs(X(t*PI/65536)*3)/abs(X(t*PI/32768)*(t/8192%32-32)))*(X(t*PI/1048576)*8))*(t/16384%1-1)*(t/512%32<1?(t/512%1):1)/2,x=y(t)+y(t-24576)/2+y(t-49152)/2+y(t-73728)/8+y(t-98304)/16+y(t-122880)/32,z=p=>t*lr/256*p*2**(parseInt('66642224'[7&t>>16],36)/12),z=X(X(z(.995*lr)+X(z(1.005*lr)))+X(z(1.005*lr)+X(z(.995*lr))))/3,k=X(5*lr*cbrt(t%32768))*(t/32768%1-",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "interspace",
+    "url": "https://dollchan.net/btb/res/6946.html#9122",
+    "date": "2025-09-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "6fea463db5ae94e83f9aa85326e0934d",
+        "author": "Zackx",
+        "name": "sleepless nights",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1800",
+          "https://www.reddit.com/r/bytebeat/comments/15hwc8y/songs_was_publish_here_i_made_in_private_server/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-13"
+  }
+}

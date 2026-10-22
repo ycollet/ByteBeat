@@ -1,0 +1,27 @@
+{
+  "file": "songs/3f039a102be3ceb6699890dfc29a96f4.js",
+  "title": "Sinewave Beach: an ambient experiment",
+  "author": "Iwaku",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "937ac41d75f499e83b2a29f1b5d59faf362879bf09855cc54bc1cb5b77ccea1e",
+  "upstream": {
+    "hash": "3f039a102be3ceb6699890dfc29a96f4",
+    "codeLen": 200,
+    "code": "t?0:a=Array(r=96e3).fill(0),m=sin(t/'ViNQMbeytqFstfAYQJoLIBHNmkgASRmMbPQdpTSzxSJwygwyNLWJwwOypjAXOzaG'.charCodeAt(0|t/r%64)*5)/3+a[t%r],a[t%r]=m/1.7,min(t/1e6,1)*(m+sin(t/8e4)*sin(t/r/2)*random()/4)/2",
+    "author": "Iwaku",
+    "name": "Sinewave Beach: an ambient experiment",
+    "description": "The sun has set at the beach and everyone has packed up and left, leaving only you there. Despite being in darkness, this is your one place – your favorite place – your place you go to find peace and tranquility...",
+    "url": [
+      "https://dollchan.net/btb/res/3.html#1081",
+      "https://www.reddit.com/r/bytebeat/comments/13qy8uu/sinewave_beach_a_200c_ambient_experiment/"
+    ],
+    "date": "2023-05-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

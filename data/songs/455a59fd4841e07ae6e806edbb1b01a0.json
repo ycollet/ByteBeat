@@ -1,0 +1,26 @@
+{
+  "file": "songs/455a59fd4841e07ae6e806edbb1b01a0.js",
+  "title": "hardcore drums but is C compatible code",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "96bbf820829b31fbd0b1c07615b01cd1258b5a99965a2324d9f0ef5e4989e09e",
+  "upstream": {
+    "hash": "455a59fd4841e07ae6e806edbb1b01a0",
+    "codeMinLen": 130,
+    "codeMin": "(300000/(t&16383)&64)+(t&16384?((t>>3)*(t>>3)*(t>>3)/8&128)%256*(1-t%32767/32767):0)+(t&8192?(t*t*t/256&36)%256*(1-t%8191/8191):0)",
+    "codeLen": 138,
+    "code": "(300000/(t&16383)&64)+(t&16384?((((t>>3)*(t>>3)*(t>>3))/8)&128)%256*(1-t%32767/32767):0)+(t&8192?(((t*t*t)/256)&36)%256*(1-t%8191/8191):0)",
+    "author": "Two2Fall",
+    "name": "hardcore drums but is C compatible code",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g2z0xx/my_new_hardcore_drums_but_is_c_compatible_code/",
+    "date": "2024-10-13",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_added": "2025-11-19"
+  }
+}

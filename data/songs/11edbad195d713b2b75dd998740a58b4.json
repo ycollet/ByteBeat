@@ -1,0 +1,26 @@
+{
+  "file": "songs/11edbad195d713b2b75dd998740a58b4.js",
+  "title": "cool sinusoidal beat",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "324ee4da599fb220fdcb5a6721c9bcb4cf31328bed133b5ce285ed45598c0725",
+  "upstream": {
+    "hash": "11edbad195d713b2b75dd998740a58b4",
+    "codeMinLen": 28,
+    "codeMin": "sin(t/((t&4095)+1E3))*32+128",
+    "codeLen": 60,
+    "code": "wv=function(a,b){return sin(t/a)*b+128},wv((t&4095)+1000,32)",
+    "author": "kOLbOSa_exe",
+    "name": "cool sinusoidal beat",
+    "description": "First t/(t&4095) beat code ever.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/pzb9mz/cool_sinusoidal_beat_some_parts_bring_from_no/",
+    "date": "2021-10-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-22"
+  }
+}

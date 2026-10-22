@@ -1,0 +1,25 @@
+{
+  "file": "songs/64ff9cd0ab393cbd42ebfc0c0f2c3469.js",
+  "title": "ringtone ahh bytebeat",
+  "author": "eSlashMachine",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f40ec4818a3063f57bbee576482e336b98ac83ba5dc1d51cc9998f55b21bad5c",
+  "upstream": {
+    "hash": "64ff9cd0ab393cbd42ebfc0c0f2c3469",
+    "codeMinLen": 46,
+    "codeMin": "(t<<(t>>12&1))+(t<<(t>>80&17))+(t<<(t>>10&49))",
+    "codeLen": 50,
+    "code": "(((t<<(t>>12&1))+(t<<(t>>80&17))+(t<<(t>>10&49))))",
+    "author": "eSlashMachine",
+    "name": "ringtone ahh bytebeat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gy5wno/ringtone_ahh_bytebeat/",
+    "date": "2024-11-23",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

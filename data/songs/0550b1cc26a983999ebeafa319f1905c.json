@@ -1,0 +1,32 @@
+{
+  "file": "songs/0550b1cc26a983999ebeafa319f1905c.js",
+  "title": "DJ Adding sinewaves",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 8100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1ff77351e19c8b2e8416b1427fae45e8d37bcd7b244770dbbe542b2a81b1b42e",
+  "upstream": {
+    "hash": "0550b1cc26a983999ebeafa319f1905c",
+    "codeMinLen": 164,
+    "codeMin": "c=x=>32*sin(16*cbrt(t&8191>>x)),z=[1,.8865,.79,.593][(t>>14)%4]*[.5,1,2,4][3&t>>10],((z*t%100+z*t%100.5+z*t%67)/1.5+32*sin(z*t/1.34)+32)/2+c('11121132'[t>>12&7])+64",
+    "codeLen": 171,
+    "code": "c=x=>sin(16*cbrt(t&8191>>x))*32,z=[1,.8865,.79,.593][(t>>14)%4]*[.5,1,2,4][3&t>>10],((z*t%100+z*t%100.5+z*t%67)/1.5+32+32*sin(z*t/1.34))/2+c([1,1,1,2,1,1,3,2][t>>12&7])+64",
+    "author": "hcdphobe",
+    "name": "DJ Adding sinewaves",
+    "url": "https://dollchan.net/btb/res/163.html#518",
+    "date": "2023-03-03",
+    "sampleRate": 8100,
+    "remix": [
+      {
+        "hash": "a3d9651195df386c35c48f2e9687f441",
+        "author": "Zackx",
+        "name": "Adding sinewave",
+        "url": "https://dollchan.net/btb/res/204.html#249"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

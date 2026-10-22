@@ -1,0 +1,28 @@
+{
+  "file": "songs/fd92e21bcabb09dd77b85d4e1129d2e5.js",
+  "title": "Daisy Bell",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fd92e21bcabb09dd77b85d4e1129d2e5.js",
+  "sha256": "0a5fe2bc90b82c1217aaf33833053c1474b0e47a71902205fdf973d1e283b8f2",
+  "upstream": {
+    "hash": "fd92e21bcabb09dd77b85d4e1129d2e5",
+    "codeLen": 3265,
+    "fileOrig": 1,
+    "codeText": "T=q=>2**(q/12),\nR=c=>n=>Array(n).fill(c[0]),\nFF=100*T(12+[\n  ,,,,,,0,0,0,-3,-3,-3,-7,-7,-7,-12,-12,-12,-10,-8,-7,-10,-10,-7,-12,-12,-12,,,,\n  -5,-5,-5,0,0,0,-3,-3,-3,-7,-7,-7,-10,-8,-7,-5,-5,-3,-5,-5,-5,,,-3,\n  -2,-3,-5,0,0,-3,-5,-7,-7,-7,-7,-5,-3,-3,-7,-10,-10,-7,-10,-12,-12,,,-12,\n  -7,-7,-3,-5,-5,-12,-7,-7,-3,-5,-3,-2,0,-3,-7,-5,-5,-12,-7,-7,-7,,,\n][t>>14])+1E3*sin(t/24000*PI*5)/t,",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Daisy Bell",
+    "description": "Voice synthesis! Bytebeat sings Daisy Bell.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1d7mjgw/daisy_bell/",
+    "date": "2024-06-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "IBM 7094: First Computer To Sing",
+    "coverUrl": "https://youtu.be/x3bPY6i8vJE",
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "songs/cdceb3df4ac3503e4a1a50eebcdde195.js",
+  "title": "Tr4nsf0rm remix",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2ee84b763d061272e4ef152eec7d57b33273a96cdd2de5cb9e809650b7efb20e",
+  "upstream": {
+    "hash": "cdceb3df4ac3503e4a1a50eebcdde195",
+    "codeMinLen": 88,
+    "codeMin": "a=[1.6,2.4,3,3.6][3&t>>12]*[.6,.4,.8,.5][3&t>>15]*t,b=a%32+t>>a/4,c=b%t+a,[(t>>a/8)+b,c]",
+    "codeLen": 102,
+    "code": "a=([1.6,2.4,3,3.6][(t>>12)%4]*[0.6,0.4,0.8,0.5][(t>>15)%4])*t,b=(a%32)+t>>a/4,c=(b%t)+a,[(t>>a/8)+b,c]",
+    "author": "absolute197",
+    "name": "Tr4nsf0rm remix",
+    "url": "https://ihsoyct.github.io/index.html?comments=130muje&id=jhx3pxv",
+    "date": "2023-04-27",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "a321fbb1f2de16a9f3f7e4dc257d615f",
+        "author": "absolute197",
+        "name": "Tr4nsf0rm",
+        "url": [
+          "https://ihsoyct.github.io/index.html?comments=130muje&id=jhx3pxv",
+          "https://www.reddit.com/r/bytebeat/comments/130muje/tr4nsf0rm/"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2026-06-19"
+  }
+}

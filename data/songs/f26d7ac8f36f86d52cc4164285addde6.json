@@ -1,0 +1,26 @@
+{
+  "file": "songs/f26d7ac8f36f86d52cc4164285addde6.js",
+  "title": "Ievan Bytebeat Polkka",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "afe59f498e5b5d24bee40053af861b30f2d7bb9f489cb99043cb3a3426f7bb35",
+  "upstream": {
+    "hash": "f26d7ac8f36f86d52cc4164285addde6",
+    "codeMinLen": 327,
+    "codeMin": "t*=46.249*256/11025,T=p=>2**(p/12),B=(p,m)=>(~t>>3&(t>>11&1?m?4.8:5:4-(t>>12&1))*t*p&(t>>7)+6*t*p&255)>>1,s='11031112111111121103111022221112'[t>>11&31],q=2*t*((2<s?t*(s-2):~(t*s))>>10&1),M=q*T('h0m0mm0op0m0m0mpo0k0k0o0p0m0m0mmh0m0mm0op0m0m0mptttrppooppm0m0mm'.charCodeAt(t>>10&63)-97)&96,B(T(-2*((t>>13&3)==2)),(t>>13&3)!=2)+M",
+    "codeLen": 329,
+    "code": "t*=46.249*256/11025,T=(p)=>2**(p/12),B=(p,m)=>(~t>>3&(t>>11&1?m?4.8:5:4-(t>>12&1))*t*p&(t>>7)+t*6*p&255)>>1,s=\"11031112111111121103111022221112\"[t>>11&31],q=t*2*((s>2?t*(s-2):~(t*s))>>10&1),M=q*T(\"h0m0mm0op0m0m0mpo0k0k0o0p0m0m0mmh0m0mm0op0m0m0mptttrppooppm0m0mm\".charCodeAt(t>>10&63)-97)&96,B(T(-2*((t>>13&3)==2)),(t>>13&3)!=2)+M",
+    "author": "May_I_Change_My_Name",
+    "name": "Ievan Bytebeat Polkka",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ye43du/comment/itwj5bt/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-10-26",
+    "sampleRate": 11025,
+    "coverName": "Loituma - Ievan Polkka",
+    "coverUrl": "https://youtu.be/nbAHzYQIf40",
+    "tags": [
+      "1k"
+    ]
+  }
+}

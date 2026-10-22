@@ -1,0 +1,28 @@
+{
+  "file": "songs/251d751b9e691b15a17cf02bba1079f4.js",
+  "title": "Sierpinski harmony",
+  "author": "miiro",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6225c1f24ee9499f652164d5195a79710309484e4eebc719fddbbdd368988a29",
+  "upstream": {
+    "hash": "251d751b9e691b15a17cf02bba1079f4",
+    "codeMinLen": 20,
+    "codeMin": "5*t&t>>7|3*t&4*t>>10",
+    "codeLen": 24,
+    "code": "t*5&(t>>7)|t*3&(t*4>>10)",
+    "author": "miiro",
+    "name": "Sierpinski harmony",
+    "url": [
+      "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+      "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+    ],
+    "date": "2011-09-30",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

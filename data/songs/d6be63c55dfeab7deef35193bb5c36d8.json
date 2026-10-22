@@ -1,0 +1,31 @@
+{
+  "file": "songs/d6be63c55dfeab7deef35193bb5c36d8.js",
+  "title": "stimmer but its all square",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6fd7cef60d757e8f02c96231b0baadb88fdcef5abee67f35ea357b087c6c4521",
+  "upstream": {
+    "hash": "d6be63c55dfeab7deef35193bb5c36d8",
+    "codeLen": 62,
+    "code": "(t*(4|7&t>>13)>>(~t>>11&1)&128)+(t*(t>>11&t>>13)*(~t>>9&3)&64)",
+    "author": "Decent-Manager-6169",
+    "name": "stimmer but its all square",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rlczbs/stimmer_but_its_all_square/",
+    "date": "2021-12-21",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

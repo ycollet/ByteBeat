@@ -1,0 +1,30 @@
+{
+  "file": "songs/6dba61a681d94381c0862986ba03950d.js",
+  "title": "playground",
+  "author": "aniruF",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6dba61a681d94381c0862986ba03950d.js",
+  "sha256": "cb7d97d324f4a72356a3b63414b13aeb07e71aee6155362bb180d4049a18ef7c",
+  "upstream": {
+    "hash": "6dba61a681d94381c0862986ba03950d",
+    "codeMinLen": 220,
+    "codeMin": "s=t/48E3,b=94,q=a=>s%(60/a)*a/60,a=(p,l)=>int(p/60*s)%l,d=(s,r=1)=>(1-q(s))**r,sin(2*PI*s*440*2**(('>@BEGJLN'[C='charCodeAt'](a(b*2,8))-73)/12))*d(b*2,2)+asin(sin(2*PI*s*440*2**(('>2;9'[C](a(b/4,4))-73)/12)))/PI*d(b/4,2)",
+    "codeLen": 946,
+    "fileOrig": 1,
+    "codeText": "s=t/48E3,b=94,q=a=>s%(60/a)*a/60,a=(p,l)=>int(p/60*s)%l,d=(s,r=1)=>(1-q(s))**r,sin(2*PI*s*440*2**(('>@BEGJLN'[C='charCodeAt'](a(b*2,8))-73)/12))*d(b*2,2)+asin(sin(2*PI*s*440*2**(('>2;9'[C](a(b/4,4))-73)/12)))/PI*d(b/4,2)",
+    "isTruncated": 1,
+    "author": "aniruF",
+    "name": "playground",
+    "description": "Song creation engine?",
+    "url": "https://dollchan.net/btb/res/5289.html#5289",
+    "date": "2025-01-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2025-11-03"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/95b4f011d9774fdac60165d4ef693609.js",
+  "title": "sounds so emotional...",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f6a13a852db95c7f045c586bae1826c1610cbd44fff4c2679e3d33e8fc0f460c",
+  "upstream": {
+    "hash": "95b4f011d9774fdac60165d4ef693609",
+    "codeLen": 41,
+    "code": "t*(4&t>>14)+t*(3-(4&t>>10))*(2+(5&t>>12))",
+    "author": "rubi",
+    "name": "sounds so emotional...",
+    "url": "https://www.reddit.com/r/bytebeat/comments/r7xva3/sounds_so_emotional_16k_hz/",
+    "date": "2021-12-03",
+    "sampleRate": 16000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

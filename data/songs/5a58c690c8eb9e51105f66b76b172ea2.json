@@ -1,0 +1,37 @@
+{
+  "file": "songs/5a58c690c8eb9e51105f66b76b172ea2.js",
+  "title": "Drifting electricity",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e7eb73f510268e6896e0fc2953cc2e8878d19bd3749d0fdec5f081348876c1c0",
+  "upstream": {
+    "hash": "5a58c690c8eb9e51105f66b76b172ea2",
+    "codeMinLen": 73,
+    "codeMin": "t>>t%(t%2?[61,51,31,41][(t>>14)%4]:34)+(t>>6)|128*cos((t>>1)/314.159)+128",
+    "codeLen": 78,
+    "code": "t>>t%(t%2?[61,51,31,41][(t>>14)%4]:34)+(t>>6)|Math.cos((t>>1)/314.159)*128+128",
+    "author": "Chasyxx",
+    "name": "Drifting electricity",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qi3enp/with_new_bytecodes_already_posted_here_are_all/",
+    "date": "2021-10-29",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "022181f288da4db822c8b44c889c0b49",
+        "author": "Anonymous from russian imageboards",
+        "name": "Electrohouse",
+        "url": [
+          "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+          "http://arhivach.xyz/thread/28592/#71681785",
+          "http://arhivach.ng/thread/28592/#71681785"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-29"
+  }
+}

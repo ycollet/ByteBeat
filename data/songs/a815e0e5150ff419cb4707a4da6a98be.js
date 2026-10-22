@@ -1,0 +1,1 @@
+r=x=>(t?0:a=Array(8192).fill(0),c=x+a.shift(),a.push(c/1.5),c),l=t/(4+(t>>15&15))*(1+(t>>13&3))*[1,2,4,8][t>>17&3]*4,k=sin(l*PI/127+sin(l*PI/256)+asin(sin(l*PI/32))+acos(cos(l*PI/125)/2)+tanh(tan(l*PI/54))*cos(t*PI/16384)+sign(cos(l*PI/32+1)))*64*1.0001**(-t%8192),r(k)/2-(2.5**(-t/512%32+8)&64)-random()*32*1.0003**(-t%4096)+32

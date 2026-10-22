@@ -1,0 +1,30 @@
+{
+  "file": "songs/ece05b917d5db693a389a9f425acf0a0.js",
+  "title": "X100X",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0426e218d19e8077470814c2e53ecdc8a3109fb78835463f53baaefb9827382a",
+  "upstream": {
+    "hash": "ece05b917d5db693a389a9f425acf0a0",
+    "codeLen": 130,
+    "code": "t/=4,t*(t>>5|t>>6|t>>7|t>>8|t)%256/4+50+50*sin(4E3/(t*'4211111211141128'[15&t>>12]%4096)**.02)+(75*random()&-t>>5)*'01'[(t>>12)%2]",
+    "author": "Zackx",
+    "name": "X100X",
+    "url": "https://dollchan.net/btb/res/204.html#665",
+    "date": "2023-03-20",
+    "sampleRate": 40000,
+    "remix": [
+      {
+        "hash": "16513ab03f250766bfb4b58de7a091c5",
+        "author": "Glebguything",
+        "name": "random 100c music i made",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11mq8e4/comment/jbk5fv8/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/8c88ec38e9516f977595e8473125665b.js",
+  "title": "sounds like a square, but it is not",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8b8018b7bb7de5f46a1907352d332409d5ec82ba6e9311e7356bc6c382677676",
+  "upstream": {
+    "hash": "8c88ec38e9516f977595e8473125665b",
+    "codeMinLen": 46,
+    "codeMin": "max(109>>t/4,-128)+min(128,-(109>>t/4+16))+128",
+    "codeLen": 50,
+    "code": "max((109>>t/4),-128)+min(128,-(109>>(t/4+16)))+128",
+    "author": "kOLbOSa_exe",
+    "name": "sounds like a square, but it is not",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11xps6j/sounds_like_a_square_but_it_is_not/",
+    "date": "2023-03-21",
+    "sampleRate": 16000,
+    "tags": [
+      "256"
+    ]
+  }
+}

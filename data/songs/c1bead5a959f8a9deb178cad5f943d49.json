@@ -1,0 +1,37 @@
+{
+  "file": "songs/c1bead5a959f8a9deb178cad5f943d49.js",
+  "title": "Doubled Dubstep",
+  "author": "PortablePorcelain",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c1bead5a959f8a9deb178cad5f943d49.js",
+  "sha256": "4a76cb54fbd8ead13f3dbcdc8010a5153d931f0614794ed5ce671b6d539e61fd",
+  "upstream": {
+    "hash": "c1bead5a959f8a9deb178cad5f943d49",
+    "codeLen": 1702,
+    "fileOrig": 1,
+    "codeText": "function percVolume(t) {\r\n\treturn ((1 - t) ** 3 * cos(cbrt(t) * PI) * 2) * 4;\r\n};\r\nfunction sharpVolume(t) {\r\n\treturn ((1 - t) ** 10);\r\n};\r\nfunction kickDrum(t, p) {\r\n\treturn cbrt(sin(cbrt(t * p) * p * PI * 2));\r",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Doubled Dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1glouor/doubled_dubstep/",
+    "date": "2024-11-07",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "a52be2d61d8831b88fefb55def908ca5",
+        "author": "Gabriel Miceli",
+        "name": "Crude Sinewave Dubstep",
+        "url": [
+          "https://www.youtube.com/watch?v=V4GfkFbDojc",
+          "https://youtu.be/V4GfkFbDojc?t=148"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

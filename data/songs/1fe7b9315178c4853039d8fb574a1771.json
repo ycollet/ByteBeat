@@ -1,0 +1,31 @@
+{
+  "file": "songs/1fe7b9315178c4853039d8fb574a1771.js",
+  "title": "PWM ECHO",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "42dea9ebb8305f0940a62face9fb15a37b8b3ba0d1017bd7b775a950aa2e3fa1",
+  "upstream": {
+    "hash": "1fe7b9315178c4853039d8fb574a1771",
+    "codeLen": 159,
+    "code": "t||(A=Array(n=12287).fill(0)),a=(t*(t&8192?4:t&4096?2:1)*[1,1.2,1.33333333333,1.5,1.6,1.5,1.8,1.5][t>>14&7]&192?0:255)*.99992**(t&16383)/2+96+A[t%n],A[t%n]=a/2",
+    "author": "hcdphobe",
+    "name": "PWM ECHO",
+    "url": "https://dollchan.net/btb/res/163.html#2910",
+    "date": "2024-01-13",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "26207f3ba5fde602c9ad9bec5b1bff03",
+        "author": "Greaserpirate",
+        "name": "a limiter (that also removes offsets)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10nnfbt/another_effect_function_a_limiter_that_also/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

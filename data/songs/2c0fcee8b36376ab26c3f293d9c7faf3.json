@@ -1,0 +1,24 @@
+{
+  "file": "songs/2c0fcee8b36376ab26c3f293d9c7faf3.js",
+  "title": "literally don't know the name",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b25f890a6198eac1c7a76eaf174f79000418f3df2e8566ab79a315cdde94656a",
+  "upstream": {
+    "hash": "2c0fcee8b36376ab26c3f293d9c7faf3",
+    "codeMinLen": 147,
+    "codeMin": "a=t*'60303060303060303060303060306030'[t/5.5>>9&31]/8&127,b=t*'60303060303060303060303060306030'[t/5.5>>9&31]/[0,2.65,2.5,3][t/5.5>>14&3]/2&127,a+b",
+    "codeLen": 148,
+    "code": "a=t*\"60303060303060303060303060306030\"[t/5.5>>9&31]/8&127,\nb=t*\"60303060303060303060303060306030\"[t/5.5>>9&31]/[0,2.65,2.5,3][t/5.5>>14&3]/2&127,a+b",
+    "author": "Decent-Manager-6169",
+    "name": "literally don't know the name",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ryoyt5/literally_dont_know_the_name/",
+    "date": "2022-01-08",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "file": "songs/6f5d5f5e173158fc33d56f4c142cf41e.js",
+  "title": "Random Note generator 2",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "587f758fae0f6ef52877d5d380d26987c9a4358cde2a5049bb6c059bed22131a",
+  "upstream": {
+    "hash": "6f5d5f5e173158fc33d56f4c142cf41e",
+    "codeMinLen": 61,
+    "codeMin": "t/2*(6+((t^t/2^t/4&t/8)>>13&3))/6%128+t/4*(6+(t>>18&3))/6%128",
+    "codeLen": 63,
+    "code": "t/2*(6+((t^t/2^t/4&t/8)>>13&3))/6%128+t/4*(6+((t>>18)&3))/6%128",
+    "author": "D3nschøt",
+    "name": "Random Note generator 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cn2mjt/random_note_generator_2/",
+    "date": "2024-05-08",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "d731f01fde0c40c308465dafb875e4f3",
+        "author": "D3nschøt",
+        "name": "Random Note Generator",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1clh00u/idk_post_from_my_hiatus/"
+      },
+      {
+        "hash": "5719502f81cb1ef7489be61236447d4c",
+        "author": "D3nschøt",
+        "name": "Pent 0x6",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1cml4vv/pent_0x6/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-29"
+  }
+}

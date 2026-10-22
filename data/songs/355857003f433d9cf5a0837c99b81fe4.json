@@ -1,0 +1,24 @@
+{
+  "file": "songs/355857003f433d9cf5a0837c99b81fe4.js",
+  "title": "ÿ&&",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "904c1af8feadd3bb1a94d812206f648496b93db4fd5f0c3d1020bedfb2b00378",
+  "upstream": {
+    "hash": "355857003f433d9cf5a0837c99b81fe4",
+    "codeMinLen": 32,
+    "codeMin": "(64*sin(t/20)&64*cos(t/2E4))+128",
+    "codeLen": 38,
+    "code": "((64*sin(t/20))&(64*cos(t/20000)))+128",
+    "author": "kOLbOSa_exe",
+    "name": "ÿ&&",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qgqx3g/%C3%BF/",
+    "date": "2021-10-27",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

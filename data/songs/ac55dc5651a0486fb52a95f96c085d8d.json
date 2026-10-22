@@ -1,0 +1,38 @@
+{
+  "file": "songs/ac55dc5651a0486fb52a95f96c085d8d.js",
+  "title": "Samuraiwave",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "081a2ba46b27ae083a0ba13d874a05705e1b7a568202debf1a707ed2ac6e09a6",
+  "upstream": {
+    "hash": "ac55dc5651a0486fb52a95f96c085d8d",
+    "codeLen": 420,
+    "code": "r=t/1.2,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.31%64-32,w=r=>r>0&&(e=a=>s('168B86168D86168B'[15&r>>13],a),e(1)+e(j))*(1-r/u%1*[.75,1.25][1&r>>19]),w(r)+w(r-(d=12288))/3+w(r-d*2)/4+-(b=a=>s('DD96'[3&r>>17],a),b(8)+b(8/j))*(r/l%2)*(1-r%u/1E4)+sin(cbrt(r%l)*8)*64*(1-r/l%1)*!(r&l)+(random()*48-24)*(1-r/c%1)*!(r&c)+((t*sin(t>>2)&32)-16)*(1-r/l/2%1)*!(~r&l*2)),-128),127),[x(1.005),x(.995)]",
+    "author": "Zackx",
+    "name": "Samuraiwave",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#3799",
+      "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+    ],
+    "date": "2024-06-20",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "94b9becc72800aa370d62bc43c162bb1",
+        "author": "Zackx",
+        "name": "Midnight",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3720",
+          "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

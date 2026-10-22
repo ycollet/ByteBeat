@@ -1,0 +1,24 @@
+{
+  "file": "songs/3db769a00ad8115845c6ee3cc46bf84e.js",
+  "title": "morse code thing",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9be3e12752f1b4107315349a9af0bf7691e9b7ac3332323d1308177f9ea07061",
+  "upstream": {
+    "hash": "3db769a00ad8115845c6ee3cc46bf84e",
+    "codeLen": 28,
+    "code": "t*((t>>9&t>>12)-(3&t>>9)&64)",
+    "author": "Maxi",
+    "name": "morse code thing",
+    "url": "https://dollchan.net/btb/res/500.html#587",
+    "date": "2023-03-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

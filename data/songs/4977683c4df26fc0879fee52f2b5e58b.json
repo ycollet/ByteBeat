@@ -1,0 +1,25 @@
+{
+  "file": "songs/4977683c4df26fc0879fee52f2b5e58b.js",
+  "title": "morning",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4977683c4df26fc0879fee52f2b5e58b.js",
+  "sha256": "348219692a7bad793cc23afbe1f9b1658dd8112348034e84aeda3b5d77cb6722",
+  "upstream": {
+    "hash": "4977683c4df26fc0879fee52f2b5e58b",
+    "codeLen": 3760,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - morning\n *\n */\n\nvar bpm = 120;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "morning",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

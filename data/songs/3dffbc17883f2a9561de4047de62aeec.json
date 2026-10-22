@@ -1,0 +1,27 @@
+{
+  "file": "songs/3dffbc17883f2a9561de4047de62aeec.js",
+  "title": "Rhythm Hell",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3dffbc17883f2a9561de4047de62aeec.js",
+  "sha256": "788b017343ca0344d0b154fed20e67978548a05781ef08df78e6ee964e928dff",
+  "upstream": {
+    "hash": "3dffbc17883f2a9561de4047de62aeec",
+    "codeLen": 9310,
+    "fileOrig": 1,
+    "codeText": "createFilters=(...names)=>{for(i of names){this[i]??={a:0,b:0,c:0,d:0,e:0,f:0,g:0,h:0}}},\nuseFilter=(value,name,amount=0.5,stage='h',acidity=0.9)=>(\nz=acidity+acidity/(1-amount),\nthis[name].a+=amount*(value-this[name].a+z*(this[name].a-this[name].b)),\nthis[name].b+=amount*(this[name].a-this[name].b),\nthis[name].c+=amount*(this[name].b-this[name].c),\nthis[name].d+=amount*(this[name].c-this[name].d),\nthis[name].e+=amount*(this[name].d-this[name].e),",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Rhythm Hell",
+    "description": "gTracker is used.",
+    "url": "https://dollchan.net/btb/res/756.html#1695",
+    "date": "2023-07-24",
+    "sampleRate": 32000,
+    "coverName": "Louie Zong - Rhythm Hell",
+    "coverUrl": "https://youtu.be/a-EI30uucng",
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/3f46baf3d6ea1dc6e90c238fc49dadbd.js",
+  "title": "what i making in midnight (harmony)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "173439cbe24edc870df3e690941d7a7ae6f31dc31bab59d21cab31bb9b2b9116",
+  "upstream": {
+    "hash": "3f46baf3d6ea1dc6e90c238fc49dadbd",
+    "codeMinLen": 230,
+    "codeMin": "T=1.05,a=t=>(p=[0,7,12,0,7,12,0,7,12,0,7,15,14,15,10,5,-4,3,8,-4,3,8,-4,3,8,-4,3,8,-5,2,7,10][(t*T>>13)%32],z=t*2**(p/12)*1.8,(z&-t*T>>5&255)/1.5)*(1-t*T%8192/12E3),a(t)+a(t-12288/T)/2+a(t-20480/T)/4+a(t-28672/T)/8+a(t-36864/T)/16",
+    "codeLen": 246,
+    "code": "T=1.05,a=t=>(p=[0,7,12,0,7,12,0,7,12,0,7,15,14,15,10,5,-4,3,8,-4,3,8,-4,3,8,-4,3,8,-5,2,7,10][(t*T>>13)%32],z=t*2**(p/12)*1.8,(z&-t*T>>5&255)/1.5)*(1-t*T%8192/12E3),a(t)+a(t-(1<<12)*3/T)/2+a(t-(1<<12)*5/T)/4+a(t-(1<<12)*7/T)/8+a(t-(1<<12)*9/T)/16",
+    "author": "Zackx",
+    "name": "what i making in midnight (harmony)",
+    "url": "https://dollchan.net/btb/res/204.html#772",
+    "date": "2023-04-06",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

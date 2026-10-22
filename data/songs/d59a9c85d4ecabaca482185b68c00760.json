@@ -1,0 +1,34 @@
+{
+  "file": "songs/d59a9c85d4ecabaca482185b68c00760.js",
+  "title": "Patrick The Android's Vocals with melody",
+  "author": "Admirable-Dot-5854",
+  "mode": "Bytebeat",
+  "rate": 44000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b2a37c9bb3c6cb3972fd8276220df1c8f91c3e700986b09f0426ef65a34bc254",
+  "upstream": {
+    "hash": "d59a9c85d4ecabaca482185b68c00760",
+    "codeMinLen": 190,
+    "codeMin": "(()=>{f=0;([[327,2541],[515,1952],[698,1581],[547,1182],[313,850]][(t>>13&-t>>12)%5]).forEach(b=>f+=sin(t%541/8E3*b)/2);return f})()*80%256*(1-t%541/541)+t*2**('0245'[t>>17&3]/12)/2%541/7+80",
+    "codeLen": 257,
+    "code": "g=n=>sin(t%541/8e3*n),o=l=>{f=0;l.forEach(s=>f+=g(s)/l.length);return f},i=[\n[327,2541],[515,1952],[698,1581],\n[547,1182],[313,850]],æ=((o(i[(t>>13&-t>>12)%i.length])*80)%256*(1-t%541/541)+80),œ=t*[1,2**(2/12),2**(4/12),2**(5/12)][t>>17&3],æ+(œ/2%541)/7",
+    "author": "Admirable-Dot-5854",
+    "name": "Patrick The Android's Vocals with melody",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1imghdr/comment/mc7dov8/",
+    "date": "2025-02-11",
+    "sampleRate": 44000,
+    "remix": [
+      {
+        "hash": "2d621e050b7a2dd9ed889b08a20eb936",
+        "author": "Admirable-Dot-5854",
+        "name": "Patrick The Android's Vocals",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1imghdr/comment/mc768c7/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-11-04"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/3d1588d1d84a143b04beebf96cd55112.js",
+  "title": "simple repeating bass",
+  "author": "tonic",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ad5f9f23515dda936c3fd237f11feff382b21f0e9c527a1d8694e7e82654bf9d",
+  "upstream": {
+    "hash": "3d1588d1d84a143b04beebf96cd55112",
+    "codeMinLen": 24,
+    "codeMin": "(2*t&255)*(-t>>6&255)>>8",
+    "codeLen": 31,
+    "code": "((2*t&255)*(((-t)>>6)&0xff))>>8",
+    "author": "tonic",
+    "name": "simple repeating bass",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=5#c388569",
+    "date": "2011-10-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

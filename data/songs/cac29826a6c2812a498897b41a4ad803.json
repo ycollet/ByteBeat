@@ -1,0 +1,33 @@
+{
+  "file": "songs/cac29826a6c2812a498897b41a4ad803.js",
+  "title": "Recreated moon scanner generalization",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3ad7ed6efb6a9b98614f03d0f254311f938a88c7bccd9497c9d9ad7d58cf1d44",
+  "upstream": {
+    "hash": "cac29826a6c2812a498897b41a4ad803",
+    "codeMinLen": 23,
+    "codeMin": "t-(t^t>>5)+t*(t>>14&14)",
+    "codeLen": 48,
+    "code": "(t-(t^t>>5))+(t*[0,2,4,6,8,10,12,14][(t>>15)%8])",
+    "author": "psubscirbe",
+    "name": "Recreated moon scanner generalization",
+    "url": "https://dollchan.net/btb/res/284.html#343",
+    "date": "2023-01-14",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "8359225792f81583c616646d63d49b58",
+        "author": "viznut",
+        "name": "moon scanner generalization",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-23"
+  }
+}

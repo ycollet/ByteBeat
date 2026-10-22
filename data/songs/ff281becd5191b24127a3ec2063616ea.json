@@ -1,0 +1,24 @@
+{
+  "file": "songs/ff281becd5191b24127a3ec2063616ea.js",
+  "title": "fijsdfrdifjfred",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6e2e56e751082ac7c38f72c3166d7fd7b18de014568b74da81982125d09e28f9",
+  "upstream": {
+    "hash": "ff281becd5191b24127a3ec2063616ea",
+    "codeMinLen": 104,
+    "codeMin": "128*sin(t/32/5.0931/4*[12,12,9,12,12,9,12,12,9,12,12,9,12,9,12,9][t>>12&15]*[1,.89,.8,.75][t>>17&3])&175",
+    "codeLen": 111,
+    "code": "(sin((t/32/5.0931/4*[12,12,9,12,12,9,12,12,9,12,12,9,12,9,12,9][t>>12&15]*[1,0.89,0.8,0.75][t>>17&3]))*128)&175",
+    "author": "BaenHoHoHo",
+    "name": "fijsdfrdifjfred",
+    "url": "https://www.reddit.com/r/bytebeat/comments/uy1yty/fijsdfrdifjfred/",
+    "date": "2022-05-26",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

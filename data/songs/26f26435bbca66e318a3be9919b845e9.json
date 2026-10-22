@@ -1,0 +1,24 @@
+{
+  "file": "songs/26f26435bbca66e318a3be9919b845e9.js",
+  "title": "sleepmode stasis",
+  "author": "sean",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7437f277e8cff3e7e359e8392d7bb0513b3e37021a67877d0d7e4e9051e30cd1",
+  "upstream": {
+    "hash": "26f26435bbca66e318a3be9919b845e9",
+    "codeMinLen": 213,
+    "codeMin": "t%32E4*(t%32E4/(t>>9)%16%128+(t<<7)%30/100%10*sin(t/1E6+t/1E4%100%99)*.5)+t>>(5*sin(t/1E4-100*sin(t/26E4))+9)%99999+t%32E5/(5*sin((t/100003+t/100001)/2-3*sin(t/2600001))+12)%(8*sin(t/16E5)+8+(t>>9)%36%(t/8800%36))",
+    "codeLen": 282,
+    "code": "(t%320000)*(((t%320000)/(t>>9)%16)%128 + ( (((t<<7)%30)/100)%10)*sin( t/1000000 + ((t/10000)%100)%99 )*.5 ) + t>>(sin((t/10000)-sin(t/260000)*100)*5 + 9)%99999 + (t%3200000)/(sin(((t/100003)+(t/100001))/2-sin(t/2600001)*3)*5 + 12)%(sin(t/1600000)*8 + 8 + ((t>>9)%36)%((t/8800)%36) )",
+    "author": "sean",
+    "name": "sleepmode stasis",
+    "url": "https://battleofthebits.com/arena/Entry/sleepmode+stasis/58750/",
+    "date": "2023-02-17",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

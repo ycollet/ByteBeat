@@ -1,0 +1,32 @@
+{
+  "file": "songs/15169f6f8ac28cbd6c4dcf1ee3077ce4.js",
+  "title": "Clean melody",
+  "author": "Niklas_Roy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8feca21cba92f7aab1ec1d2d332a7533e41cc4770cebf5156c52cec1b9d44be8",
+  "upstream": {
+    "hash": "15169f6f8ac28cbd6c4dcf1ee3077ce4",
+    "codeLen": 17,
+    "code": "t*(t>>9|t>>13)&16",
+    "author": "Niklas_Roy",
+    "name": "Clean melody",
+    "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318497618021#c332012386255047591",
+    "date": "2011-10-13",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "2f587d28534541124c174eaa72e1f9df",
+        "author": "Niklas_Roy",
+        "name": "Arcade game",
+        "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318497618021#c332012386255047591"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

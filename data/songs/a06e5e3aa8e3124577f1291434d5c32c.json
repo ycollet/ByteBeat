@@ -1,0 +1,24 @@
+{
+  "file": "songs/a06e5e3aa8e3124577f1291434d5c32c.js",
+  "title": "sketchy attempt of calce",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a71a1ee422558bf70af290dfe20a9667be5031bec688bc8619c9b3bed0bd7a86",
+  "upstream": {
+    "hash": "a06e5e3aa8e3124577f1291434d5c32c",
+    "codeMinLen": 130,
+    "codeMin": "a=sin(t>>2),x=((t/2*[1,a,1.22,a,1.12,a,1.5,a][t>>13&7]|t>>5)&255)/2,c=(random()*t&128|t>>3)&128?0:44,r=23E4/(t&8191)&64,x+c+1.15*r",
+    "codeLen": 157,
+    "code": "x=((t/2*[1,sin(t>>2),1.22,sin(t>>2),1.12,sin(t>>2),1.5,sin(t>>2),][t>>13&7]|t>>5)&255)/2,c=((random()*t)&128|t>>3)&128?0:44,r=(230000/(t&8191))&64,x+c+r*1.15",
+    "author": "hcdphobe",
+    "name": "sketchy attempt of calce",
+    "url": "https://dollchan.net/btb/res/163.html#375",
+    "date": "2023-01-28",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

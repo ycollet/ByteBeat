@@ -1,0 +1,28 @@
+{
+  "file": "songs/4db6db929db16f13d4b34d2114f85692.js",
+  "title": "A bit long I suppose...but nice and soothing",
+  "author": "beyon",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5f7f307031367270aa48d9f4f0869f4a39a535f27132138fe89aa5a99b2718a8",
+  "upstream": {
+    "hash": "4db6db929db16f13d4b34d2114f85692",
+    "codeMinLen": 66,
+    "codeMin": "t>>6^t&37|t+(t^t>>11)-t*((t%24?2:6)&t>>11)^t<<1&(t&598?t>>4:t>>10)",
+    "codeLen": 70,
+    "code": "t>>6^t&0x25|t+(t^t>>11)-t*((t%24?2:6)&t>>11)^t<<1&(t&0x256?t>>4:t>>10)",
+    "author": "beyon",
+    "name": "A bit long I suppose...but nice and soothing",
+    "url": [
+      "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318081308422#c4945456935852459432",
+      "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318420534814#c3824894682767643057"
+    ],
+    "date": "2011-10-08",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

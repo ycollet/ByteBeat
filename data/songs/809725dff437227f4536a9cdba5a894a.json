@@ -1,0 +1,36 @@
+{
+  "file": "songs/809725dff437227f4536a9cdba5a894a.js",
+  "title": "DJ 42-melody",
+  "author": "hcdphobe",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "589628de022eb9d0cad1f989782bd3db71ebd95b5a185690067b2514b5a392b7",
+  "upstream": {
+    "hash": "809725dff437227f4536a9cdba5a894a",
+    "codeMinLen": 89,
+    "codeMin": "t/=4,(t*(42&t>>10)%256/4+64*sin(16*cbrt(t%4096))-43+(t&4096&&(random()*t&-t>>5)%256/2))/2",
+    "codeLen": 92,
+    "code": "t/=4,(t*(42&t>>10)%256/4+sin(cbrt(t%4096)*16)*64-43+((t&4096)?(random()*t&-t>>5)%256/2:0))/2",
+    "author": "hcdphobe",
+    "name": "DJ 42-melody",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/11s0os5/dj_42melody500_members/",
+      "https://dollchan.net/btb/res/163.html#618"
+    ],
+    "date": "2023-03-15",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

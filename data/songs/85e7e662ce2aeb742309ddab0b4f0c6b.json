@@ -1,0 +1,38 @@
+{
+  "file": "songs/85e7e662ce2aeb742309ddab0b4f0c6b.js",
+  "title": "Hard level with drum",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "608bb4a690edf646f9c117b61240d9dba5d3f2d2ad41e35737263956402ad330",
+  "upstream": {
+    "hash": "85e7e662ce2aeb742309ddab0b4f0c6b",
+    "codeMinLen": 262,
+    "codeMin": "i=t/4,(i*(i&16384?7:5)*(5-(3&i>>8))>>(3&-i>>(i&4096?2:16))|i>>(i&16384?i&4096?3:4:3))%256/3+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13])/1.5",
+    "codeLen": 266,
+    "code": "i=t/4,(i*(i&16384?7:5)*(5-(3&i>>8))>>(3&-i>>(i&4096?2:16))|i>>(i&16384?i&4096?3:4:3))%256/3+(((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/24e3)*'00100101'[7&t>>13])/1.5",
+    "author": "Zackx",
+    "name": "Hard level with drum",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12vt718/list_of_my_creatorremixes_2/",
+    "date": "2023-04-23",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

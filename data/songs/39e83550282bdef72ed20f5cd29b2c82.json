@@ -1,0 +1,26 @@
+{
+  "file": "songs/39e83550282bdef72ed20f5cd29b2c82.js",
+  "title": "Half Life 2 - Triage at Dawn",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 29218.133,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "db4ceb5080a45e750d082944af710f2d33e8b972b7e1d987e0739e89d78de3ab",
+  "upstream": {
+    "hash": "39e83550282bdef72ed20f5cd29b2c82",
+    "codeMinLen": 297,
+    "codeMin": "tn=t*1.146,t?0:RVB1=Array(12288).fill(0),RVB2=((tn*2**(a=[12,12,12,9,9,9,12,12,11,11,11,7,7,7,9,9,4,4,4,2,2,2,0,0,4,4,4,2,2,2,4,4][t>>13&31]/12)&127)+33&128)/7+(((tn*2**a&127)+33&128*'10010010'[t>>13&7]&255)*(-t>>5&255)>>9)+(tn/8*2**('9722'[t>>16&3]/12)&32)+RVB1[t%12288],RVB1[t%12288]=RVB2/2,RVB2",
+    "codeLen": 323,
+    "code": "tn=t*1.146,t?0:RVB1=Array(12288).fill(0),RVB2=(((tn*2**(a=([12,12,12,9,9,9,12,12,11,11,11,7,7,7,9,9,4,4,4,2,2,2,0,0,4,4,4,2,2,2,4,4][t>>13&31]/12))&127)+(33)&128)/7)+(((tn*2**a&127)+(33)&128*'10010010'[t>>13&7]&255)*(-t>>5&255)>>9)+(tn/8*2**('9722'[t>>16&3]/12)&32)+RVB1.shift(),RVB1.push(RVB2/2),RVB2+0*'11010010'[t>>11&7]",
+    "author": "Decent-Manager-6169",
+    "name": "Half Life 2 - Triage at Dawn",
+    "url": "https://dollchan.net/btb/res/520.html#1760",
+    "date": "2023-07-30",
+    "sampleRate": 29218.133,
+    "coverName": "Half Life 2 - Triage at Dawn",
+    "coverUrl": "https://youtu.be/Bvw6ZxKtGRs",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/5fce70dab2dd1928420282b0d21f8b3f.js",
+  "title": "TEXT TO SPEECH IN 2KB OF FLOATBEAT!!!",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5fce70dab2dd1928420282b0d21f8b3f.js",
+  "sha256": "0ac3af63b33210892aafe5e17fb6a5c832219015c19e57b3d68ec921e67cc73a",
+  "upstream": {
+    "hash": "5fce70dab2dd1928420282b0d21f8b3f",
+    "codeLen": 3002,
+    "fileOrig": 1,
+    "codeText": "(speech=\"ges wuht?. ay mayd text too speech!.\", speed=0.85, pitch=120, sr=44100, dur=Math.round(5200/speed), (typeof _S=='undefined'||_S!==speech||_P!==pitch||_Sp!==speed||!t)&&(_S=speech,_P=pitch,_Sp=speed,_isQ=/\\?/.test(speech),_isE=/!/.test(speech),_D={a:[750,1200,2400,.95,1],e:[500,1800,2500,.95,1],i:[280,2300,3000,.95,.9],o:[500,850,2400,.95,1],u:[320,800,2200,.95,.9],ae:[660,1720,2410,.95,1],uh:[640,1250,2400,.95,1],er:[490,1350,1700,.95,.9],m:[280,1000,2200,.9,.6],n:[300,1600,2600,.9,.6],ng:[280,2000",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "TEXT TO SPEECH IN 2KB OF FLOATBEAT!!!",
+    "description": "The first speech synthesizer that sounds convincing and plausible in bytebeat.",
+    "url": "https://www.bytebeat.cloud/post/8e140dda-f10e-4fe5-a9b2-de3bcf255a23",
+    "date": "2026-09-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-17",
+    "date_edited": "2026-10-17"
+  }
+}

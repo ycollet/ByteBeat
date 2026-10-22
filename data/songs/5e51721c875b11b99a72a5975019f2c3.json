@@ -1,0 +1,24 @@
+{
+  "file": "songs/5e51721c875b11b99a72a5975019f2c3.js",
+  "title": "svt melody-like interception 2",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5e51721c875b11b99a72a5975019f2c3.js",
+  "sha256": "af1deb059161bef3185065926daf38caaf469c3b0608f7692bc2de212942c9ec",
+  "upstream": {
+    "hash": "5e51721c875b11b99a72a5975019f2c3",
+    "codeLen": 702,
+    "fileOrig": 1,
+    "codeText": "s=44100,n=256*t/s,p=x=>x*n/2.5/4*32/384,notes=x=>(x*n),c=notes(65.41),cs=notes(69.30),d=notes(73.42),ds=notes(77.78),e=notes(82.41),f=notes(87.31),fs=notes(92.50),g=notes(98),gs=notes(103.83),a=notes(110),as=notes(116.54),b=notes(123.47),k=p(150),v=[cs,,,,,cs,cs,cs,e,,,,,e,e,e,fs,,,,,fs,fs,fs,a,a,a,gs,gs,fs,fs,e][k>>6&31],v1=[a,,,,,a,a,a,b,,,,,b,b,b,cs*2,,,,,cs*2,cs*2,cs*2,fs*2,fs*2,fs*2,e*2,e*2,cs*2,cs*2,b][k>>6&31],v2=[cs,e,fs,[a,gs][k>>8&1]][k>>9&3],h=(((v&127)+(((k>>7&1)*(2e8*sin(t>>3%950))&-k<<(k&256?1",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "svt melody-like interception 2",
+    "url": "https://dollchan.net/btb/res/163.html#1493",
+    "date": "2023-07-06",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/9199846f5c162f39652bc4417a9a02bc.js",
+  "title": "\"charCodeAt\"",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "684770b094a11e68119eaa90d858f30653fec6a7eb7f2f74d694f43519bd2d76",
+  "upstream": {
+    "hash": "9199846f5c162f39652bc4417a9a02bc",
+    "codeMinLen": 79,
+    "codeMin": "c='charCodeAt',l=9+!(t&65536),c[c]((t>>c[c](((t>>9)%l&t>>12)%l))%l)+(t&4096)*.9",
+    "codeLen": 84,
+    "code": "c='charCodeAt',l=9+!(t&(1<<16)),c[c]((t>>c[c](((t>>9)%l&t>>12)%l))%l)+(t&(1<<12))*.9",
+    "author": "SArpnt",
+    "name": "\"charCodeAt\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/lqkf8j/charcodeat/",
+    "date": "2021-02-23",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

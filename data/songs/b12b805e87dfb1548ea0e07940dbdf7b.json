@@ -1,0 +1,39 @@
+{
+  "file": "songs/b12b805e87dfb1548ea0e07940dbdf7b.js",
+  "title": "Deurojunk",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "87c81903df388f0282be4d6965f3399f25dde8a32fccfffac06275e94c7814be",
+  "upstream": {
+    "hash": "b12b805e87dfb1548ea0e07940dbdf7b",
+    "codeMinLen": 178,
+    "codeMin": "t/=4,(t*((t&4096?t%65536<59392?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?10:3:2))%256/4+50+50*sin(4E3/(t%4096))+(50*random()&-t>>5)*(t>>12&1)+15*sin(t/40)+15",
+    "codeLen": 187,
+    "code": "t/=4,(t*((t&4096?t%65536<59392?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?10:3:2))%256/4+50+sin(4e3/(t%4096))*50+(random ()*50&-t>>5)*[0,1][(t>>12)%2]+\nsin(t/40)*15+15",
+    "author": "Glebguything",
+    "name": "Deurojunk",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/comment/jbpwr08/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-03-10",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      },
+      {
+        "hash": "16513ab03f250766bfb4b58de7a091c5",
+        "author": "Glebguything",
+        "name": "random 100c music i made",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11mq8e4/comment/jbk5fv8/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "file": "songs/e43a2234a300a6f67b815e31e77a42d5.js",
+  "title": "Reverb engine",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e43a2234a300a6f67b815e31e77a42d5.js",
+  "sha256": "1779211e40caf69c8fa6e43748c5d9303fc90bbf17d2d491e2da3cce5f4480d0",
+  "upstream": {
+    "hash": "e43a2234a300a6f67b815e31e77a42d5",
+    "codeMinLen": 1062,
+    "codeLen": 1823,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(Br=[],Cb=(t,x,l,fb,m,d,dk,df)=>(Cno=Cn++,Br[Cno+(t+128*dk-round(df))%l]??=0,y=x*m+Br[Cno+(t+128*dk-round(df))%l]*d,t%1?0:Br[Cno+t%l]=y*fb,Cn+=l,y),Ap=(t,x,l,fb)=>(Cno=Cn++,Br[Cno+t%l]??=0,y=Br[Cno+t%l]-fb*x,t%1?0:Br[Cno+t%l]=x+y*fb,Cn+=l,y),R=(t,inp,m,g,aC,vC,sC,aAP,vAP,sAP,enD,aD,vD,sD,W,D)=>{for(CB=CBSum=0;CB<aC;++CB){i2=CBSum+=Cb(t,inp,vC-sC*CB,g,m,-1,enD,sin(t*PI/(vD-sD*CB))*aD)/aC;}for(AP=APSum=0;AP<aAP;++AP){APSum+=Ap(t,i2,vAP-sAP*AP,g)/aAP;}return-APSum*W+inp*D}),Cn=0,BPM=120,sR=48e3,r=abs(t/sR/1",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "Reverb engine",
+    "description": "Inspired by lhphr's, feeshbread's, Greaserpirate's, and in some part Funcbeat Anon's reverb tech.",
+    "url": "https://dollchan.net/btb/res/6537.html#10481",
+    "date": "2025-11-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "6e13b6bb8cf66fcb52a0c1dd9c1606d7",
+        "author": "PrincessPriscillaPT",
+        "name": "Long Release Reverb",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1nmibss/reverb_with_unsurprisingly_long_tail"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-12-19"
+  }
+}

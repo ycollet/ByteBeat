@@ -1,0 +1,29 @@
+{
+  "file": "songs/bf06a1513eb20ab24284b08345775fa6.js",
+  "title": "Government Funding cover",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bf06a1513eb20ab24284b08345775fa6.js",
+  "sha256": "a0ac7808e09066d34216276e201f7ebb2966471d4bf245367e5519e182583412",
+  "upstream": {
+    "hash": "bf06a1513eb20ab24284b08345775fa6",
+    "codeMinLen": 973,
+    "codeLen": 1302,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "this.n??=[int(65356/3),int(65536/5),int(65356/2)],c=-1,r=(v,t)=>(Array(t).fill(v)),bar=t>>17,beat=t>>15&3,barF=(x)=>(x*(1<<17)),R=-Infinity,bt=(l,x,g)=>(x>l&&x<g),dis=(1+sin(t/16384)/96/(t/12288)),gate=(x,times={},O)=>{if(O){return 0}const C=barO=>(bt(barF(barO),t,barF(barO+1)));oF=0;const A=t>=barF(times.a??0)&&t<=barF((times.dea??-R));return O?0:(A^oF)?x:0},t||(b=[Array(n[0]).fill(0),Array(n[1]).fill(0),Array(n[2]).fill(0)],a1=[...r([0,3,7,10],4),...r([0,2,7,10],4),[0,3,10,8],\"0387\",\"0375\",[0,3,7,12]]),E=",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Government Funding cover",
+    "url": "https://dollchan.net/btb/res/756.html#1017",
+    "date": "2023-05-04",
+    "sampleRate": 48000,
+    "coverName": "Backrooms OST - Government Funding",
+    "coverUrl": "https://youtu.be/CYO7hU8txhI",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-06"
+  }
+}

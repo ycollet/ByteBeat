@@ -1,0 +1,29 @@
+{
+  "file": "songs/2d402279f54e0dc3ba797bbd850bd5c5.js",
+  "title": "Unfinished/Preview Attack of the Killer Beats",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2d402279f54e0dc3ba797bbd850bd5c5.js",
+  "sha256": "9a278f180090003977ebc0ea9d18e235cee9ddc8ae07adf4f7993b5c08ab7f33",
+  "upstream": {
+    "hash": "2d402279f54e0dc3ba797bbd850bd5c5",
+    "codeLen": 1099,
+    "fileOrig": 1,
+    "codeText": "volume=100, //the volume\r\nx=volume>100?0:volume<0?0:volume/100, //check exceeds and below 0 and mute it\r\nsamp_rate=44100,\r\np=256,\r\nbeat=p*t/samp_rate,\r\nv=beat/415,\r\nz=1.04729,\r\n//shortcuts for your plesure\r",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "Unfinished/Preview Attack of the Killer Beats",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/121cmy2/unfinishedpreview_attack_of_the_killer_beats_by/",
+      "https://dollchan.net/btb/res/163.html#689"
+    ],
+    "date": "2023-03-25",
+    "sampleRate": 44100,
+    "coverName": "Deltarune: Chapter 2 - Attack of the Killer Queen",
+    "coverUrl": "https://youtu.be/D7LdVtrf7N0",
+    "tags": [
+      "big"
+    ]
+  }
+}

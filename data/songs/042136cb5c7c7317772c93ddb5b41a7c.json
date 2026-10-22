@@ -1,0 +1,26 @@
+{
+  "file": "songs/042136cb5c7c7317772c93ddb5b41a7c.js",
+  "title": "Less than 4 second of You're Mine",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35498.66666,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/042136cb5c7c7317772c93ddb5b41a7c.js",
+  "sha256": "269e6d7d40d5495387f6f6a270f13ec30fb9785b00cc9f7cc635544f72f01b03",
+  "upstream": {
+    "hash": "042136cb5c7c7317772c93ddb5b41a7c",
+    "codeLen": 563,
+    "fileOrig": 1,
+    "codeText": "n=.95,v=-9e9,(((t*n*2**([v,v,3,v,v,3,v,v,3,3,v,v,3,3,v,v,v,v,-1,v,v,-2,v,v,9,v,8,9,10,v,8,6][t>>12&31]/12)&64)*(-t>>'4544'[t>>15&3]&255)>>8)+((t*n*2*2**([v,v,-2,v,v,-4,v,v,1,1,-2,v,1,1,-2,v,v,v,-6,v,v,-6,v,v,4,v,v,v,5,v,v,v][t>>12&31]/12)&64)*(-t%16384>>[4,'5454'[t>>13&3],4,4][t>>15&3]&255)>>8)+((t*n/4*2**([-9,-9,3,v,-9,v,-11,v,6,v,-11,6,5,6,5,3,-1,v,-9,v,-2,v,-9,v,-4,v,-11,v,-3,-3,-2,v][t>>12&31]/12)&63)*(-t>>'5444444444444454'[t>>13&15]&255)/1.5>>7)+(((sin(1.75**(-t/512%32+8))*32+32)*(-t>>6&255)>>8)+(t*ra",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Less than 4 second of You're Mine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cphegf/less_than_4_second_of_youre_mine_unfortunate/",
+    "date": "2024-05-11",
+    "sampleRate": 35498.66666,
+    "coverName": "Baldi You're Mine",
+    "coverUrl": "https://youtu.be/vVFHQhhm08U",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "songs/de012799cd02460a47fb1a8f4212cf0e.js",
+  "title": "Unnecessary-ARPEG",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "79dfed4cb3c8177a970314c9d579edeb97957fd791c017903602e3e0b073f5a4",
+  "upstream": {
+    "hash": "de012799cd02460a47fb1a8f4212cf0e",
+    "codeLen": 65,
+    "code": "((15+1*'1370'[t>>15&3])/8*'12346543'[t>>10&7]*t%192+160)%256/2+64",
+    "author": "lhphr",
+    "name": "Unnecessary-ARPEG",
+    "url": "https://dollchan.net/btb/res/44.html#44",
+    "date": "2022-04-07",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "1f1ef3a0c409f9353d7de908b4fc7f36",
+        "author": "lhphr",
+        "name": "Unnecessary-ARPEG.drm",
+        "url": "https://dollchan.net/btb/res/44.html#44"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/ae1eee218039d91e502f5c8217e47862.js",
+  "title": "Untitled (ae1eee21)",
+  "author": "wiretapped",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "830bb90e3c0a083c4f4752bcc2a6c8f3c92ea7437fcffc543dba444024971c61",
+  "upstream": {
+    "hash": "ae1eee218039d91e502f5c8217e47862",
+    "codeMinLen": 67,
+    "codeMin": "11*(t*(1|(t>>10-(t>>17)%4)%8)&(8<<(t>>13)%4)*(1|(t>>15)%8))*(t>>10)",
+    "codeLen": 76,
+    "code": "((t*(1|(t>>10-((t>>17)%4))%8))&(8<<((t>>13)%4))*((1|(t>>15)%8))) *11*(t>>10)",
+    "author": "wiretapped",
+    "url": "https://www.noisebridge.net/wiki/Bytebeat",
+    "date": "2015-03-20",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

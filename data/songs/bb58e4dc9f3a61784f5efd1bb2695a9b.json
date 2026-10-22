@@ -1,0 +1,23 @@
+{
+  "file": "songs/bb58e4dc9f3a61784f5efd1bb2695a9b.js",
+  "title": "customizable beat",
+  "author": "emelchenko",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "560beb8598963d205e1938db2a7c39442c88e930b387893d3f2bcc03f48b02a0",
+  "upstream": {
+    "hash": "bb58e4dc9f3a61784f5efd1bb2695a9b",
+    "codeLen": 97,
+    "code": "a='+ -  +- ++-+ +- ',b=a[(t>>13)%a.length],(b=='+'?cbrt(t&8191)*2&1:b=='-'?round(random()):0)*128",
+    "author": "emelchenko",
+    "name": "customizable beat",
+    "description": "Change the plus and minuses to get different patterns.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h69y07/customizable_beat/",
+    "date": "2024-12-04",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

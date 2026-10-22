@@ -1,0 +1,32 @@
+{
+  "file": "songs/90d5cb13b026a88fd60e8dcc81daacfe.js",
+  "title": "Bringing Back a Classic",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/90d5cb13b026a88fd60e8dcc81daacfe.js",
+  "sha256": "2afb7b156a81427805094c1aa8767d14b043d47a501c4739a1595ea9dfdcad3c",
+  "upstream": {
+    "hash": "90d5cb13b026a88fd60e8dcc81daacfe",
+    "codeMinLen": 2345,
+    "codeLen": 2756,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "B='push',spl=(s,...D)=>{L=Array();i=0;j=0;while(i<s[A='length']-1){I=[s[i][A]/3];S=s[i++].trim();ld=[D[j++]];while(i<s[A]-1&&!s[i][C='includes'](\"\\n\")){if(s[i-1][C]('-')){I[B](S[A]+s[i][A]/3);S+=s[i]}else{I[B](S[A]+1+s[i][A]/3);S+=' '+s[i]}i++;ld[B](D[j++])}L[B]({S:S,dur:ld,O:I})}return L};lyr=spl`My${2}name,${6}my${2}age,${6}my${4}favo-${2}rite${2}co-${2}lor,${6}\\nmy${2}height,${6}my${2}sign,${4}do${2}I${4}have${2}a${2}lo-${2}ver?${8}\\nWhat's${2}my${2}na-${2}tion-${2}al-${2}i-${2}ty?${4}Here's${2}some${2}t",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Bringing Back a Classic",
+    "description": "Allow the author to introduce himself! Music with karaoke subtitles.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1beknxc/bringing_back_a_classic/",
+    "date": "2024-03-14",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Meet the Musician",
+    "coverUrl": "https://www.reddit.com/r/bytebeat/comments/108mdge/meet_the_musician/",
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_edited": "2025-11-23"
+  }
+}

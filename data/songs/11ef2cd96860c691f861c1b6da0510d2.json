@@ -1,0 +1,29 @@
+{
+  "file": "songs/11ef2cd96860c691f861c1b6da0510d2.js",
+  "title": "this runs perfectly",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/11ef2cd96860c691f861c1b6da0510d2.js",
+  "sha256": "2ee9a75201c197c914ef0c1a786a40cd1854d9f1c42bfafb9e0850c60298cde1",
+  "upstream": {
+    "hash": "11ef2cd96860c691f861c1b6da0510d2",
+    "codeLen": 1195,
+    "fileOrig": 1,
+    "codeText": "l=1.34373501,\r\n\r\nj=t/l,\r\nB=(u,x)=>t*l*pow(2,parseInt(u[x%u.length],36)/12),\r\nS=(c,k)=>c[k],\r\npwm=i=>(i%256>i%257)*32,\r\nsaw=k=>k/8&31,\r\ntri=o=>(o&64?-o:o)&127,\r",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "this runs perfectly",
+    "description": "ByteBattle Season 1 Competition.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1fzegrr/this_runs_perfectly/",
+      "https://bytebeat.oops.wtf/season1/entries.html",
+      "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+    ],
+    "date": "2024-10-09",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "songs/284dc3a41b56397ce131012e732e0b04.js",
+  "title": "The New Year to 2026 (with sidechaining)",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/284dc3a41b56397ce131012e732e0b04.js",
+  "sha256": "08bff5ee88a2d63babb0c6db00a669a5ce9ea1f68853b768207f08cde991328e",
+  "upstream": {
+    "hash": "284dc3a41b56397ce131012e732e0b04",
+    "codeLen": 1105,
+    "fileOrig": 1,
+    "codeText": "// setup the lp+hp arrays and the echo arrays\n// you can configure the delay decay here            v\nt||(hp=lp=[0,0],ech1=ech2=Array(ez=12288).fill(0),DELAY_DECAY=1.5),\n\n// the chords and all that stuff.\ns=17,p=[1.042*t,1.043*t],w=t>>9&31,v=_=>p[_]*[.502,.4,.3,.448][3&t>>s],v2=_=>p[_]*[.75,.6,.452,.67][3&t>>s],v3=_=>p[_]*[.896,.796,.75,.896][3&t>>s],v4=_=>p[_]*[1.126,.896,.896,1.126][3&t>>s],\n\n// the chords themselves",
+    "isTruncated": 1,
+    "author": "Maxi",
+    "name": "The New Year to 2026 (with sidechaining)",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1q0vdsy/the_new_year_to_2026_with_sidechaining/",
+    "date": "2026-01-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "06e631c9d3498e3c3268330d28fa43b0",
+        "author": "Zackx",
+        "name": "My new instrumental in new year",
+        "url": "https://dollchan.net/btb/res/204.html#292"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-01-10",
+    "date_edited": "2026-10-18"
+  }
+}

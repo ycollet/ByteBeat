@@ -1,0 +1,28 @@
+{
+  "file": "songs/70fee5405efe1502b5ca783494004cf6.js",
+  "title": "Problem?? (Cursed Cathedral)",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/70fee5405efe1502b5ca783494004cf6.js",
+  "sha256": "394948eace7f552fe250567c088d31ff625f4ca7497b92a6788ab3f49492f5c6",
+  "upstream": {
+    "hash": "70fee5405efe1502b5ca783494004cf6",
+    "codeMinLen": 630,
+    "codeLen": 644,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "SF=.375,r=repeat=(x,y)=>Array(x).fill(y).flat(9),(t2=t)?0:fx=r(4E4,0),fxi=0,rv=reverb=(x,len=16E3*SF,feedb=.7*SF,dry=.4*SF,wet=1*SF,dsp=2,T=t2)=>(ech=y=>fxi+(0|y%len/dsp),x=x*dry+wet*fx[ech(T)]||0,t2%dsp?0:fx[ech(t2)]=x*feedb,fxi+=0|len/dsp,x),tune=1.16/SF,speed=spd=\\u015f=.75/SF,T=t*tune,repeat=r=(spd,length)=>(t*\\u015f>>spd)%length,mel_1=[0,7,5,14,,10,,,0,7,5,10,15,14,10,7][r(14,16)],mel_2=[-4,8,3,12,,10,,,-4,8,3,15,14,10,12,8][r(14,16)],mel_3=[-2,10,5,12,,14,,,-2,15,14,10,17,14,22,17][r(14,16)],mel=[mel_",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Problem?? (Cursed Cathedral)",
+    "url": "https://dollchan.net/btb/res/2971.html#4133",
+    "date": "2024-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-12"
+  }
+}

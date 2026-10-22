@@ -1,0 +1,32 @@
+{
+  "file": "songs/3fdb0c5b5c9bb5cf5b5e1e1173a036b8.js",
+  "title": "nɔmba wan we dɛn rimiks",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2a0a7efc33aa84a1b8052ade3fa5aee47dbb7828afda0f46ad5ca42b57e9ce1d",
+  "upstream": {
+    "hash": "3fdb0c5b5c9bb5cf5b5e1e1173a036b8",
+    "codeMinLen": 97,
+    "codeMin": "z=t*'1242'[3&t>>10],(z*[1,1.2,1.8,2.7][3&t>>14]&255)/2+40*tan(256/(t&4095))+64^30*sin(t*PI/32768)",
+    "codeLen": 107,
+    "code": "z=t*'1242'[3&t>>10],((((z*[1,1.2,1.8,2.7][3&t>>14])&255)/2)+(tan(256/(t&4095))*40)+64)^(sin(t*PI/32768)*30)",
+    "author": "Chasyxx",
+    "name": "nɔmba wan we dɛn rimiks",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11vejrl/n%C9%94mba_wan_we_d%C9%9Bn_rimiks/",
+    "date": "2023-03-19",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "647b24654b683ed1badee995a05d2a00",
+        "author": "Zackx",
+        "name": "Namber wan",
+        "url": "https://dollchan.net/btb/res/204.html#232"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

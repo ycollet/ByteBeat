@@ -1,0 +1,32 @@
+{
+  "file": "songs/7d535ce1629e18dcf10eabd4dae2b2e5.js",
+  "title": "Final Remix Of \"The Time Is Running Out!\"",
+  "author": "ciferidn",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bac05ef6c71a2874eddec2b4c37c7beff840fc4b9b40aa4944fcc652557751ff",
+  "upstream": {
+    "hash": "7d535ce1629e18dcf10eabd4dae2b2e5",
+    "codeMinLen": 289,
+    "codeMin": "z=t/4,xc=2*z*(z&16384?7:5)*(3-(3&z>>9)+(3&z>>8))>>(3&-z>>[16,59392>z%65536?z&4096?2:16:2][(z>>19)%2]),xc1=sin(xc*PI/128)/1.00125**(z%[[c=2048,c,0,0][z>>11&3],c][(z>>19)%2]),xc1=64*xc1+64|0,xc2=64*sqrt(t%16384)&128,xc3=32*sin(4*sqrt(t%32768))+32,[a=xc1,b=xc2/2+a,c=b/2+xc3,xc3+a/2][t>>21&3]",
+    "codeLen": 395,
+    "code": "ż=Ż=t/4,xc=Ż*2*(Ż&16384?7:5)*(3-(3&Ż>>9)+(3&Ż>>8))>>(3&-Ż>>(h=Ż%65536<59392?Ż&4096?2:16:2,[16,h][(Ż>>19)%2])),sinf=x=>sin(x*Math.PI/128),xc1=sinf(xc)/(Math.pow(1.00125, Ż%[xc0_5=[c=2048,c,0,0][Ż>>11&3],xc0_75=[c,c,c,c][ż>>11&3]][(ż>>19)%2])),xc1=xc1*64+64|0,q=v=>~t>>v&3,xc2=(axc=Math.sqrt)(t%16384)*64&128,xc3=sin(axc(t%32768)*4)*32+32,[a=xc1,b=xc2/2+a,c=b/2+xc3,xc3+a/2][t>>21&3]",
+    "author": "ciferidn",
+    "name": "Final Remix Of \"The Time Is Running Out!\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10an6lo/final_remix_of_the_time_is_running_out/",
+    "date": "2023-01-13",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "f617ff9697e8213ab20ed7c7ddf140a9",
+        "author": "RealZynx92",
+        "name": "better remix of \"The time is running out!\"",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qlst5m/better_remix_of_the_time_is_running_out_by/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

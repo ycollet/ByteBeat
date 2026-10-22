@@ -1,0 +1,30 @@
+{
+  "file": "songs/9096b14984d011dbaacf43ce92654ea6.js",
+  "title": "Maxwell the Cat",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9096b14984d011dbaacf43ce92654ea6.js",
+  "sha256": "9a92cdf018d89e2172071c331ea042ecef92b7a48aea735d7714399f8afc5d37",
+  "upstream": {
+    "hash": "9096b14984d011dbaacf43ce92654ea6",
+    "codeMinLen": 748,
+    "codeLen": 783,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "b=n=>sin(n)+sin(2*n)/4,s=n=>b(n)+sin(3*n)/3+sin(5*n)/5+sin(7*n)/7+sin(9*n)/9,c=n=>(s(n)+s(n+3*sin(n/256))+s(n-3*sin(n/256)))/2,T=q=>isNaN(q)?0:2**(q/12),r=.83*t,(atan(asin(sin(PI*2*8*.999**(r&16383))))*2+(.5-random())*.9994**(r&8191)*.6+sin(t/2.7)*.999**(r&8191)*(0xA0808080>>(r>>13&31)&1)+atan(b(t*PI*2/128*T([-22,-6,-15,-6][r>>13&3]-(r>>16&2)))*.9998**(r&8191)+b(t*PI*2/128*T([-34,-3,-27,-3][r>>13&3]-(r>>16&2)))*.9998**(r&8191)+b(t*PI*2/128*T([,-10,,-10][r>>13&3]-(r>>16&2)))*.9998**(r&8191))+c(t*PI*2/128*T([",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Maxwell the Cat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bal25z/maxwell_the_cat/",
+    "date": "2024-03-09",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "coverName": "Weebls Stuff - Stockmarket",
+    "coverUrl": "https://youtu.be/Oyc1pluilgc",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/312cb2c418e334d26e0f897279cc41a5.js",
+  "title": "phase byte [++t]",
+  "author": "argarak",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/312cb2c418e334d26e0f897279cc41a5.js",
+  "sha256": "90f0a93c4682ca27b61d7cd9a4031a611272724d1b1ab974b018e81da7265876",
+  "upstream": {
+    "hash": "312cb2c418e334d26e0f897279cc41a5",
+    "codeMinLen": 1230,
+    "codeLen": 3361,
+    "codeFormLen": 3505,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "R=random,z=t/10,i=int,A=t/16E3,B=i(t/4E3),C=t*.001^3,D=t*.0005^3,E=t*.002^3,b=[.1,.05,.1,.2,.2,.1,.2,.1],p=[.05,.1,.15,.2,.15],l=[2,3,1,5,4,3,2,1,7,6,5,4],c=[[.2,.4,.1],[.4,.8,.5],[.6,1,.65]],k=1,m=[],t>13E5?m='00000006':t>115E4?m=[0,0,0,0,0,0,10,6]:t>1E6?m=[0,0,8,0,2,0,10,6]:t>95E4?m=[0,0,8,0,2,0,10,0]:t>75E4?m=[16,4,8,4,2,10,10,0]:t>7E5?m=[0,0,0,0,0,0,10,0]:t>6E5?m=[16,4,8,4,2,10,10,0]:t>49E4?m=[0,0,0,4,2,10,10,0]:t>43E4?m=[0,0,0,4,2,10,0,0]:t>15E4?m=[16,4,8,4,2,10,0,0]:t>11E4?m=[16,4,8,0,2,0,0,0]:t>75E3?",
+    "isTruncated": 1,
+    "author": "argarak",
+    "name": "phase byte [++t]",
+    "url": "https://battleofthebits.com/arena/Entry/phase+byte+%5B%2B%2Bt%5D/32262/",
+    "date": "2019-07-15",
+    "sampleRate": 8000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-07"
+  }
+}

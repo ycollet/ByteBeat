@@ -1,0 +1,36 @@
+{
+  "file": "songs/695c91ec2226ded677667b461a5c4746.js",
+  "title": "THE END OF EVERYTHING",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 33500,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/695c91ec2226ded677667b461a5c4746.js",
+  "sha256": "0b201323442466ee05feaa23fc6ff631777d843f8963872b767430fd0a50ac18",
+  "upstream": {
+    "hash": "695c91ec2226ded677667b461a5c4746",
+    "codeLen": 1861,
+    "fileOrig": 1,
+    "codeText": "t ? 0 : Buffer = [],\nCallCount = 0,\nLowPassFilter = function(Input, Frequency) {\n\tCall = CallCount++;\n\tBuffer[Call] ??= 0;\n\tBuffer[Call] += (Input - Buffer[Call]) * Frequency;\n\treturn Buffer[Call]\n},",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "THE END OF EVERYTHING",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ko9d6f/the_end_of_everything/",
+    "date": "2025-05-16",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 33500,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "144ce8345ffc73b07fce566a8c3edcd7",
+        "author": "Two2Fall",
+        "name": "FM Loop",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1kh7mop/fm_loop/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-25"
+  }
+}

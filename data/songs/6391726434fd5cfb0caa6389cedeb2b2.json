@@ -1,0 +1,28 @@
+{
+  "file": "songs/6391726434fd5cfb0caa6389cedeb2b2.js",
+  "title": "a cover of a song i made on beepbox",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6391726434fd5cfb0caa6389cedeb2b2.js",
+  "sha256": "438ce0e3ff4fbbb731551b229f6c17ddb8eff6c9f6edb37b76bb9e0e5156ff06",
+  "upstream": {
+    "hash": "6391726434fd5cfb0caa6389cedeb2b2",
+    "codeMinLen": 923,
+    "codeLen": 1956,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "s=x=>t*2**(x/12),a=(C1,C2)=>C1%127+C2%127,R=(x,l,d)=>x%256*(t&l)/d,d=(x,l,d)=>x%256*(-t&l)/d,C1=s([0,2,4,6][(t>>16)%4])/2,C2=s([5,7,9,11][(t>>16)%4])/2,C3=s([12,14,16,18][(t>>16)%4])/2,c1=R(C1%85+C2%85+C3%85,16383,2E4),rt1=s([4,6,4,4,6,7,9,10][7&t>>15]),rt2=s([7,9,7,11,9,11,13,15][7&t>>15]),m1=d(a(s([4,5,7,5,4,6,7,9,6,6,4,4,4,4,4,4,6,7,9,7,6,8,9,8,8,8,8,8,8,8,8,6,6,7,9,7,6,8,9,11,9,9,9,9,9,9,9][31&t>>13]),s([7,9,12,9,7,9,11,14,11,9,7,7,7,9,7,11,9,11,14,11,9,11,13,16,13,13,13,13,13,13,13,13][31&t>>13])),t&13",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "a cover of a song i made on beepbox",
+    "description": "Cover source is not released.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fsb3e3/a_cover_of_a_song_i_made_on_beepbox_a_few_months/",
+    "date": "2024-09-29",
+    "sampleRate": 33000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-31"
+  }
+}

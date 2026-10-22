@@ -1,0 +1,35 @@
+{
+  "file": "songs/f2b9c0e5e58baaaf4bf1db01b4c81a4d.js",
+  "title": "stereofied + remixed warm edm chords",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f2b9c0e5e58baaaf4bf1db01b4c81a4d.js",
+  "sha256": "8fad369c082adaf164b07cd491ead5d8a57ac64e0505571b0da07e34bb03c8a1",
+  "upstream": {
+    "hash": "f2b9c0e5e58baaaf4bf1db01b4c81a4d",
+    "codeMinLen": 727,
+    "codeLen": 757,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "tune=.81,speed=.5232,T=t*tune,b=t*speed,bt=(x,len,spd)=>(x>>spd)%len,dec=(spd,vol)=>(b&16384*spd-1)/vol,i=a=>T*2**(a/12),sinwave=(x,amp)=>amp*sin(x*PI/64)+amp,pwm=a=>(i(a)>>2)%64+sin(b/131072*PI)*27+32&64,seq=(a,c)=>i(a[bt(t*speed,a.length,c)]),ms=[[0,3,7,10,14],[3,7,10,12,15],[5,8,10,15,19],[7,10,12,15,22]],mel1=ms[0][bt(t,5,0)],mel2=ms[1][bt(t,5,0)],mel3=ms[2][bt(t,5,0)],mel4=ms[3][bt(t,5,0)],mel=[mel1,mel2,mel3,mel4],kick=sinwave(150*cbrt(b%16384),64),ins=(a=1.98)=>seq(mel,16)/a%128*dec(1,16E3),V=(random",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "stereofied + remixed warm edm chords",
+    "url": "https://dollchan.net/btb/res/163.html#8896",
+    "date": "2025-08-21",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "b1136a294d8fe06844292e7ad87fabdf",
+        "author": "MarioFan171",
+        "name": "Warm EDM Chords",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1dnbyjm/warm_edm_chords/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

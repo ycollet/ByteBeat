@@ -1,0 +1,26 @@
+{
+  "file": "songs/e95a5af708dac2147bf51721ee2c0fca.js",
+  "title": "let's go car meme",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e95a5af708dac2147bf51721ee2c0fca.js",
+  "sha256": "c6a4fb3d57338fe15928367ae31d9af406b79261c66f67c4e4d9331754e914a5",
+  "upstream": {
+    "hash": "e95a5af708dac2147bf51721ee2c0fca",
+    "codeLen": 687,
+    "fileOrig": 1,
+    "codeText": "notes=x=>(x/4/15.8),c=notes(65.41),cs=notes(69.30),d=notes(73.42),ds=notes(77.78),e=notes(82.41),f=notes(87.31),fs=notes(92.50),g=notes(98),gs=notes(103.83),a=notes(110),as=notes(116.54),b=notes(123.47),r=t*1.192,k=t/1.015,h=k/16384,v=x=>((h>=6.61)*x),o=x=>[x,0][r>>12&1],o1=(x,w)=>[x,w][r>>12&1],u=(x,w)=>(x*(w*k)&127)+32&128,q=[gs,0,b,gs,o1(b,gs),b,gs,o(b),fs,0,as,fs,o1(gs,e),gs,e,o(gs)][r>>13&15],(u([gs,0,o(b),o(gs),o(b),o(b),gs,0,fs,0,o(as),o(fs),e,o(gs),o(gs),0][r>>13],1)/2+(v(u(q,1))+v(u(q,1.99))+v((((k",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "let's go car meme",
+    "url": "https://dollchan.net/btb/res/163.html#979",
+    "date": "2023-04-30",
+    "sampleRate": 32000,
+    "coverName": "Lets Go Car Meme",
+    "coverUrl": "https://youtu.be/kpfisl0VFm4",
+    "tags": [
+      "1k"
+    ]
+  }
+}

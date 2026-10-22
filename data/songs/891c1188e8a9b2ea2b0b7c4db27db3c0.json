@@ -1,0 +1,32 @@
+{
+  "file": "songs/891c1188e8a9b2ea2b0b7c4db27db3c0.js",
+  "title": "impossible level",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "760c34b093b2aeb1cefb0fd9fa8f0c78f44de1fcff6b94ee4886b571c44706cf",
+  "upstream": {
+    "hash": "891c1188e8a9b2ea2b0b7c4db27db3c0",
+    "codeMinLen": 375,
+    "codeMin": "t*=1.024,max(0,min(255,sin(t*PI/256*(l=t&16384?7:5)*(5-(3&t>>8)))*(-t>>2&255)*'1011001101001011'[t>>10&15]/5+sin((t%1024)**.6)*(-t>>2&255)*!(t>>10&3)/2.5+128+sin(t*l*[1,1.024][t>>14&1]/64&t/2&15)*(-t>>2&255)*!(-t>>[12,11][t>>13&1]&1)/6+128+!(-t>>13&31)*(random()%256-.5)*(-t>>5&255)/3+(t>>18&1)*sin(t*l*PI/129+cos(t*l*PI/255+sin(t*l*PI/510))*(t>>4&255)/32)*(t>>4&255)/6-128))",
+    "codeLen": 377,
+    "code": "t*=1.024,max(0,min(255,sin(t*PI/256*(l=(t&16384?7:5))*(5-(3&t>>8)))*(-t>>2&255)*'1011001101001011'[t>>10&15]/5+sin((t%1024)**.6)*(-t>>2&255)*!(t>>10&3)/2.5+128+sin(t*l*[1,1.024][t>>14&1]/64&t/2&15)*(-t>>2&255)*!(-t>>[12,11][t>>13&1]&1)/6+128+!(-t>>13&31)*(random()%256-.5)*(-t>>5&255)/3+(t>>18&1)*sin(t*l*PI/129+cos(t*l*PI/255+sin(t*l*PI/510))*(t>>4&255)/32)*(t>>4&255)/6-128))",
+    "author": "BaenHoHoHo",
+    "name": "impossible level",
+    "url": "https://dollchan.net/btb/res/117.html#2657",
+    "date": "2023-11-15",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "38737fd349564b6a7722af8a8eb18162",
+        "author": "SthephanShi",
+        "name": "Awesome level #2",
+        "url": "https://dollchan.net/de/res/706.html#707"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

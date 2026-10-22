@@ -1,0 +1,25 @@
+{
+  "file": "songs/6785ca4e813d2eec60f0e11e725c1220.js",
+  "title": "The fall of Derp Herp",
+  "author": "marmakoide",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "88616b9dac2815fc10d822233c8b0f5c25726df074e5c070b4b19ca964912e44",
+  "upstream": {
+    "hash": "6785ca4e813d2eec60f0e11e725c1220",
+    "codeMinLen": 39,
+    "codeMin": "t*(322376503>>(t>>13&27)&127)|t>>4|t<<5",
+    "codeLen": 40,
+    "code": "t*(0x13371337>>(t>>13&27)&127)|t>>4|t<<5",
+    "author": "marmakoide",
+    "name": "The fall of Derp Herp",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=10#c388980",
+    "date": "2011-10-05",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

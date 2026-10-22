@@ -1,0 +1,32 @@
+{
+  "file": "songs/14594f06604769b0fcf67415ac57188e.js",
+  "title": "remix of \"The time is running out!\"",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "37568dd49a635642b7d1cb957f235a1419987e528d4ae2037ea8bdc0defcd024",
+  "upstream": {
+    "hash": "14594f06604769b0fcf67415ac57188e",
+    "codeMinLen": 135,
+    "codeMin": "((t*(t&16384?7:5)*(3-(3&-t>>9)+(3&t>>8))>>(2&t>>(59392>t%65536?t&4096?2:16:2))|t>>4)/2&127)+(3E4/(t&4095)&128)+random()*((-t>>5)%64+64)",
+    "codeLen": 141,
+    "code": "((t*(t&16384?7:5)*(3-(3&-t>>9)+(3&t>>8))>>(2&t>>(t%65536<59392?(t&4096?2:16):2))|t>>4)/2&127)+(3E4/(t&4095)&128)+(random()*(((-t>>5)%64)+64))",
+    "author": "RealZynx92",
+    "name": "remix of \"The time is running out!\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qf9meb/remix_of_the_time_is_running_out_by_stephanshi/",
+    "date": "2021-10-25",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "cfed107712776695d40734b15370e22a",
+        "author": "SthephanShi",
+        "name": "The time is running out!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

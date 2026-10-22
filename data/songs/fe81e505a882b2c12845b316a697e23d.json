@@ -1,0 +1,32 @@
+{
+  "file": "songs/fe81e505a882b2c12845b316a697e23d.js",
+  "title": "generic funcbeat sound design",
+  "author": "eSlashMachine",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fe81e505a882b2c12845b316a697e23d.js",
+  "sha256": "277c5c45c88151b6be10aa540463f6894eb51275986021a6c86333c2fc3365f9",
+  "upstream": {
+    "hash": "fe81e505a882b2c12845b316a697e23d",
+    "codeMinLen": 731,
+    "codeLen": 985,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "return t=>(a=t*PI*[98,103.825][t/4&1],min(max(((s=sin)((t*4%1-1)**20*PI*8)*(S='1000101010001000000010001000001010000000100010000010100010001010'[(i=t*8)&63])+s(t*9E8|t*2E8)/((t+1)/2%1)/200+s(t*12E6|t*12E4)/2/((t+1)/2%1)/200+s(t*3E3|t*9E3)/((t+1.25)/4%1)/5E3)*4,-1),1)+min(max((s(a)/2+s(t*13.5*9E8|t*500*9E8)/((t+1)/2%1)/1E3+s(t*2E8|t*1E4)/((t+2.25)/2%1)/1E3+tan(s(a*32/((i&5)+2)))/(t*4%1)/500+tan(s(a*32/((i&1)+1)))/(i*((t&1)+1)%1)/100+sign(Z=s(a*128/((i&3)+1)))/(i%1)/400+s(Z)/(i%1)/300+s(s(a)*s(t*PI*4)*5)/8+s(",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "generic funcbeat sound design",
+    "url": [
+      "https://reddit.com/r/bytebeat_2/comments/1nyvwgt/generic_funcbeat_sound_design",
+      "https://dollchan.net/btb/res/6946.html#9617"
+    ],
+    "date": "2025-10-05",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-10-05",
+    "date_edited": "2025-11-03"
+  }
+}

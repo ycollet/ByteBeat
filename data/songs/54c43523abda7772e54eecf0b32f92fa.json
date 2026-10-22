@@ -1,0 +1,41 @@
+{
+  "file": "songs/54c43523abda7772e54eecf0b32f92fa.js",
+  "title": "Desire drive",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 42000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/54c43523abda7772e54eecf0b32f92fa.js",
+  "sha256": "7034ebe5f2cd6604f98be83f85fda67edf2c8a2b813d4be7a93ab9977ffdedae",
+  "upstream": {
+    "hash": "54c43523abda7772e54eecf0b32f92fa",
+    "codeMinLen": 526,
+    "codeLen": 553,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "(n=x=>t*2**(parseInt(x,36)/12+.83),a=t=>(p=n('C7C5C32A23AFEA5A23AFHEAFEA5C73A2C7C5C32A23AFEA5A23AFHEAFEA5FC7HF'[(t>>13)%64]),w=x=>((p*x&255)**((-cos(t*PI/1e5)+2)/4+.75)+(t>>'56'[1&t>>16]&255)&256)*(1-t%8192/12E3),w(1)+w(1.01)+w(1.001)+w(1.0001)),a(t)+a(t-(d=12288))/2+a(t-d*2)/3+a(t-d*3)/4+a(t-d*4)/5+a(t-d*5)/6+a(t-d*6)/7)/18+(s=n('KMJOKMOOO'[7&t>>15])/(t&8192?16:32),s%128+s%127+s%64.5+s%85)/5+random()*(-t>>7&31)+sin(cbrt(t%16384+128)*10)*20+20+(t*sin(t>>1)&64)*(~t*['00100010','10210010'][!(~t>>16&3)|0][7&t>",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Desire drive",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#2501",
+      "https://www.reddit.com/r/bytebeat/comments/17crrfb/desire_drive_complete_remix/"
+    ],
+    "date": "2023-10-21",
+    "sampleRate": 42000,
+    "remix": [
+      {
+        "hash": "d2634c0e137a765647864e380b998760",
+        "author": "Zackx",
+        "name": "Desire drive (early version)",
+        "url": "https://dollchan.net/btb/res/204.html#2185"
+      }
+    ],
+    "coverName": "Touhou 13: Ten Desires - Stage 4 Theme: Desire Drive",
+    "coverUrl": "https://youtu.be/jHbGKNLKr8A",
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-12-16"
+  }
+}

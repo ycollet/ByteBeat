@@ -1,0 +1,28 @@
+{
+  "file": "songs/e96f28cf03e09cae94510487b28bea65.js",
+  "title": "abandoned communications building",
+  "author": "beep-eep",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e96f28cf03e09cae94510487b28bea65.js",
+  "sha256": "30f5cfc83e66cc5e5080e6f136c2451abecc280cd3aad9bbfa1cba3ddb9076f4",
+  "upstream": {
+    "hash": "e96f28cf03e09cae94510487b28bea65",
+    "codeMinLen": 526,
+    "codeLen": 964,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "s=t/2,128+sin(s*((sqrt(s)%10^2)%8)/16+sin(s*((sqrt(s)%10^5)%8)/16+sin(s*((sqrt(s)%10^6)%10)/32)*((sqrt(s)%15^2)%50)/16)*((sqrt(s)%24^3)%50)/8)*((sqrt(s)%10^2)%50)+sin((s/1E5^-10)%1E4%30/200*s)*((s/1E3^-10)%1E4%30)/2+sin(s*.05)*(tan(s*1E-5)%50)+sin(s*.2*(s%50/10)*(s%20^.2)%5*sin(s*2.6*(s%50/1E5)*(s%20^.2)%5)/2)*(tan(s/2E5)%10)/2+sin(s*.1*((2^(s/500%20^.2)/10%70)%60))*((2^(s/5E3%30^.02)/10%70)%60)/(2-s/2E3%2+1)/4+sin(s*((sqrt(s/100%100)^log(s/1E4%10)%2)/1E3)*(log(s/1E4%(s/(sin(s*1E-5)*1E12)%40)+10)%10))*(log(",
+    "isTruncated": 1,
+    "author": "beep-eep",
+    "name": "abandoned communications building",
+    "url": "https://battleofthebits.com/arena/Entry/abandoned+communications+building/34771/",
+    "date": "2020-05-10",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-17",
+    "date_edited": "2025-11-17"
+  }
+}

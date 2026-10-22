@@ -1,0 +1,27 @@
+{
+  "file": "songs/645c7479884d3b32f2be0a169a84d09c.js",
+  "title": "Recreated SWAG-75's ambience",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f4ee1b63d31f4d1e360ed64c22bdc19e9202e1cb1e497cf8d79943571d2dad41",
+  "upstream": {
+    "hash": "645c7479884d3b32f2be0a169a84d09c",
+    "codeMinLen": 150,
+    "codeMin": "[[(sqrt(5E3*(1.2*t&16383))&128)+([1,0,2,0,1.2,0,2.4,0,1.35,0,2.7,1.5,0,3,0,1.5][(1.2*t>>12)%16]*t*.6|128)],[0,256*random()|1.2*t>>6][(t*1.2>>14)%2]/2]",
+    "codeLen": 157,
+    "code": "[[((sqrt(5E3*(t*1.2&16383))&128))+([1,0,2,0,1.2,0,2.4,0,1.35,0,2.7,1.5,0,3,0,1.5][(t*1.2>>12)%16]*t*0.6|128)],[0,((random())*256|t*1.2>>6)][(t*1.2>>14)%2]/2]",
+    "author": "ChrisRM380",
+    "name": "Recreated SWAG-75's ambience",
+    "url": "https://dollchan.net/btb/res/368.html#2964",
+    "date": "2024-02-10",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "coverName": "Swag 75 Ambience",
+    "coverUrl": "https://youtu.be/3YstXfr5KyI",
+    "tags": [
+      "256"
+    ]
+  }
+}

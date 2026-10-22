@@ -1,0 +1,26 @@
+{
+  "file": "songs/06d3e0d2577b05f5da3bf6e634896ac5.js",
+  "title": "Byte Me A Beat",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/06d3e0d2577b05f5da3bf6e634896ac5.js",
+  "sha256": "3fae04c381162f319a0a33d6ddacf662e2a6994937113b4580ddb82a2b7b8dc4",
+  "upstream": {
+    "hash": "06d3e0d2577b05f5da3bf6e634896ac5",
+    "codeLen": 611,
+    "fileOrig": 1,
+    "codeText": "t%=2**23,c=1*'00730079'[t>>16&7],m=(b,a,d)=>2**(b+(c+[4,7,4,7,6,4,2,0,4,,,4,,4,4][t>>12&15]-4)/12)*t%64>>(t>>a&d),n=(b=0,a=9,d=7)=>m(b++,a,d)-m(b,a,d),b=(a,d=256)=>16*sin(t/14e3*2**(8+(c+a)/12))**d,j=a=>28*sin(5e4/(t%2**(12+a))**1e-3)/(a+1)|0,k=0xd9119111&1<<(t%2**17>>12)?j(0):j(1),h=(8*((t>>12&3)==0)+8)*(1-t%2**12/2**12)*sin(t**3),d=b(-5)+b(0)+b(3)-2*b(-12,2),e=n()+n(-1,14,3)/2,z=(t>>15&15)!=15,min(255,[n(),n()-d,f=e-z*(d+h/2),q=4/3*((n(-1)&e)-e)-d+k+b(.05)+h,r=z*q-(n(0,11,1)-n(1,10,3))/(4-2*!z),g=(e^n())-",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "Byte Me A Beat",
+    "description": "Came out better than expected.",
+    "url": "https://dollchan.net/btb/res/44.html#66",
+    "date": "2022-05-18",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

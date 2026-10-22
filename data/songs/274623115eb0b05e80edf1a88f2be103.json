@@ -1,0 +1,32 @@
+{
+  "file": "songs/274623115eb0b05e80edf1a88f2be103.js",
+  "title": "Can you Feel",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/274623115eb0b05e80edf1a88f2be103.js",
+  "sha256": "7aa5714f6306d61300655bbae46ca428de941a2c909270c6c815ff8c03fbbbde",
+  "upstream": {
+    "hash": "274623115eb0b05e80edf1a88f2be103",
+    "codeLen": 176663,
+    "fileOrig": 1,
+    "codeText": "/*\nTorchkas - Can you Feel [SPC700], covered on bytebeat by Sychamis, November 2024.\n\nYou probably know this music from the Mario's Mystery Meat romhack. Samples were ripped from the .spc file using spc2it (https://github.com/uyjulian/spc2it) and converted/imported using OpenMPT, Audacity and tomeko.net file to hex converter (https://tomeko.net/online_tools/file_to_hex.php).\n\nThis cover should be pretty close to the original, although I couldn't fully match stuff like sample pitches and the main lead.\nThe .",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Can you Feel",
+    "description": "You probably know this music from the Mario's Mystery Meat romhack. Samples were ripped from the .spc file using <a href=\"https://github.com/uyjulian/spc2it\" target=\"blank\">spc2it</a> and converted/imported using OpenMPT, Audacity and tomeko.net file to <a href=\"https://tomeko.net/online_tools/file_to_hex.php\" target=\"blank\">hex converter</a>.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gkjj25/can_you_feel/",
+      "https://youtu.be/LtXTY5Wcb6E"
+    ],
+    "date": "2024-11-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Torchkas - Can You Feel [spc700]",
+    "coverUrl": "https://youtu.be/scs_V8S8dOk",
+    "tags": [
+      "big",
+      "sample"
+    ]
+  }
+}

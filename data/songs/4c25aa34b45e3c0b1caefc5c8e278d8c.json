@@ -1,0 +1,33 @@
+{
+  "file": "songs/4c25aa34b45e3c0b1caefc5c8e278d8c.js",
+  "title": "0xBADA441E chiptune version",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 20000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4c25aa34b45e3c0b1caefc5c8e278d8c.js",
+  "sha256": "7fdb1443ab86dac2f0cd9f2bd97601ad442711464e53082f8b7a9163b1dadd16",
+  "upstream": {
+    "hash": "4c25aa34b45e3c0b1caefc5c8e278d8c",
+    "codeLen": 2114,
+    "fileOrig": 1,
+    "codeText": "RL=t&3?RL:random()>0.5,\nRR=t&3?RR:random()>0.5,\nRI=0,\nR=()=>++RI&1?RL:RR,\nK=t=>(dt=\"00020001\"[t>>13&7],f=0.9995**(t&8191>>dt),(36*f&1)*60*f+96+15*R()*f**9)*1.6,\nK2=t=>(f=0.9995**(t&8191),(36*f&1)*80*f+64+15*R()*f**9)*1.6,\nC=t=>t+8192>>14&t>>12&t>>13&1?255*(atan(sin(t/16)+sin(t/9))>0)/1.0015**(t&2047):0,\nH=t=>t+2048>>12&(~t>>13&3)>0?32*R()/1.001**(t&2047):0,",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "0xBADA441E chiptune version",
+    "url": "https://www.reddit.com/r/bytebeat/comments/112ry0r/comment/jirn97r/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-05-04",
+    "sampleRate": 20000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5a2800623d2aa38c577bc0d361838675",
+        "author": "May_I_Change_My_Name",
+        "name": "0xBADA441E",
+        "url": "https://www.reddit.com/r/bytebeat/comments/112ry0r/somebody_had_to_do_it/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

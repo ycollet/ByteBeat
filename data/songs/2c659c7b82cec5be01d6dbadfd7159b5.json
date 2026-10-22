@@ -1,0 +1,24 @@
+{
+  "file": "songs/2c659c7b82cec5be01d6dbadfd7159b5.js",
+  "title": "We are temporally deficient!",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 36000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c9e87e445854afc25768521b158b3c5b148a75bd09e7b08df6f63d3b35eb93d0",
+  "upstream": {
+    "hash": "2c659c7b82cec5be01d6dbadfd7159b5",
+    "codeMinLen": 211,
+    "codeMin": "t*=.1875,x=(x,y)=>max(x&255,t/y&255),y=(x(t*(t/3&4096?7.5:6)*2**(t/3>>14&3),8)&x(t*(t/3&4096?5:4.5)*2**(t/3>>14&3),12))+512/(t/3&1023)+1024/(t&1023),(y&255^x(t*(t/3&4096?7.5:6)*2&t*(t/3&4096?5:4.5)*2,8)&255)&192",
+    "codeLen": 219,
+    "code": "t*=.1875,x=(x,y)=>max(x&255,t/y&255),y=(x(t*(t/3&4096?7.5:6)*2**(t/3>>14&3),8)&x(t*(t/3&4096?5:4.5)*2**(t/3>>14&3),12))+(512/(t/3&1023))+(1024/(t&1023)),((y&255)^(x(t*(t/3&4096?7.5:6)*2&t*(t/3&4096?5:4.5)*2,8)&255))&192",
+    "author": "PortablePorcelain",
+    "name": "We are temporally deficient!",
+    "url": "https://dollchan.net/btb/res/55.html#136",
+    "date": "2022-08-09",
+    "sampleRate": 36000,
+    "tags": [
+      "256"
+    ]
+  }
+}

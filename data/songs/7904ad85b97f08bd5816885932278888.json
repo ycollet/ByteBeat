@@ -1,0 +1,32 @@
+{
+  "file": "songs/7904ad85b97f08bd5816885932278888.js",
+  "title": "Brazilian Type Melody 4",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35498.667,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "30515052ee9df32ef7da8ebef369ca86fcb39403701209a9a174346ab5b83d85",
+  "upstream": {
+    "hash": "7904ad85b97f08bd5816885932278888",
+    "codeMinLen": 329,
+    "codeMin": "A=16384/3,i=7&t>>15,d=(-t&8191)/8E3,m=((p=1.12*t*2**([0,3,5,7,0,3,-4,-2][i]/12))&-(t%A)*3>>7)*(B='111010010100111010010111'[(t*3>>14)%24])%256/2,b=p%512/4*(-(t%A)&16383)*B/16E3,a=[0,3,5,7,0,3,-4,-2][i],a2=[3,7,9,11,3,7,0,2][i],a3=[7,10,12,14,7,10,3,5][i],s=1.12*t*2**([a,a2,a3,a2][3&t>>10]/12)%64*d*2,s=[s,0][1&t>>13],(m+b+s)/1.6",
+    "codeLen": 354,
+    "code": "A=5461.33333333333,d=(-t&8191)/8E3,m=((p=1.12*t*2**([0,3,5,7,0,3,-4,-2][7&t>>15]/12))&-(t%A)*3>>7)*(B=('111010010100111010010111'[(t*3>>14)%24]))%256/2,b=p%512/4*(-(t%A)&16383)*B/16E3,a=[0,3,5,7,0,3,-4,-2][7&t>>15],a2=[3,7,9,11,3,7,0,2][7&t>>15],a3=[7,10,12,14,7,10,3,5][7&t>>15],s=1.12*t*2**([a,a2,a3,a2][3&t>>10]/12)%64*d*2,s=[s,0][1&t>>13],(m+b+s)/1.6",
+    "author": "Decent-Manager-6169",
+    "name": "Brazilian Type Melody 4",
+    "url": "https://dollchan.net/btb/res/520.html#3266",
+    "date": "2024-04-10",
+    "sampleRate": 35498.667,
+    "remix": [
+      {
+        "hash": "16bf6af81ac861c057e311a6feda07a7",
+        "author": "Zackx",
+        "name": "the coolest song",
+        "url": "https://dollchan.net/btb/res/204.html#401"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

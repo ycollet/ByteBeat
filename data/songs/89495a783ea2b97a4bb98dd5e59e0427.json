@@ -1,0 +1,27 @@
+{
+  "file": "songs/89495a783ea2b97a4bb98dd5e59e0427.js",
+  "title": "Recreating a song by Maktone",
+  "author": "Own_Trust_5709",
+  "mode": "Bytebeat",
+  "rate": 34200,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/89495a783ea2b97a4bb98dd5e59e0427.js",
+  "sha256": "744d1fc2feab1724d1956912a7b1e3158620c4b68116c6454843751ad90f3103",
+  "upstream": {
+    "hash": "89495a783ea2b97a4bb98dd5e59e0427",
+    "codeLen": 2142,
+    "fileOrig": 1,
+    "codeText": "// Stukade Makaroner (V1.4)\n// By: Maktone\n// 34200 HZ\n// Description: compressed it a bit, the kick gets more audible the longer you listen. Enjoy!\n\nreg=1.135,\nfulval=(t/t)-2,\nmosval=(t/t)+128,",
+    "isTruncated": 1,
+    "author": "Own_Trust_5709",
+    "name": "Recreating a song by Maktone",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hgz8gu/recreating_a_song_by_maktone/",
+    "date": "2024-12-18",
+    "sampleRate": 34200,
+    "coverName": "Maktone - Stukade Makaroner",
+    "coverUrl": "https://www.youtube.com/watch?v=v49sUCdjGJQ",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/7464d6ceb6c378697af97c3331ba1f12.js",
+  "title": "Frank Ocean - White Ferrari Preview",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 31402.666,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7464d6ceb6c378697af97c3331ba1f12.js",
+  "sha256": "84808e3d137283375229b4d15d4fd30ea71ee6367080d60c67f5a266f9f15663",
+  "upstream": {
+    "hash": "7464d6ceb6c378697af97c3331ba1f12",
+    "codeMinLen": 1133,
+    "codeLen": 1185,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "l=16,L=4,X=[FI=[d=([t,S=~t>>31,S,S,S,S,S,S][t>>8&7]),S,S,S,S,S,S,S][t>>11&7],S,S,FO=[S,S,S,S,S,S,S,d2=([S,S,S,S,S,S,S,~t][t>>8&7])][t>>11&7],,FI,S,S,FO,FI,S,S,S,S,S,S,FO][t>>14&15]&255,Y=[FI,S,S,S,S,S,S,FO][t>>14&7]&255,z=-t%8192*1.2>>7,y=-(t-8192)>>7,x=-(t-24576)>>7,w=-(t-16384)>>7,Hz=115/60*16384,n=440/Hz*128*2**(3/12),Cr=m=>(U=(t+2**32)/2*n*2**(m[t>>16&3]/12),(U%257+U%256+U%255+U%254+U%253+U%252)/40),Cr=(t?f+=(Cr('7777')+(Cr('4455')*Y>>8)+(Cr([0,-1,0,0])*X>>8)+((Cr([-12,-13,-12,-12])*X>>8)+(Cr('  99')*Y>",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Frank Ocean - White Ferrari Preview",
+    "url": "https://dollchan.net/btb/res/520.html#5463",
+    "date": "2025-02-10",
+    "sampleRate": 31402.666,
+    "coverName": "Frank Ocean - White Ferrari",
+    "coverUrl": "https://youtu.be/Dlz_XHeUUis",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-11-21"
+  }
+}

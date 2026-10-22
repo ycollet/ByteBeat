@@ -1,0 +1,36 @@
+{
+  "file": "songs/4da4a546fbf76380be1db4e3946253f4.js",
+  "title": "Noise maker with only one variable",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6ed8facb9da37f40bb1515ebd9efc52cb227b21cc9398ed0dd53fb494e20580e",
+  "upstream": {
+    "hash": "4da4a546fbf76380be1db4e3946253f4",
+    "codeMinLen": 105,
+    "codeMin": "(((t&4096?t*(t^t+t/256)|t>>4:t>>3|(t&8192?t<<2:t))>>1&127)+(((t>>9^(t>>9)-1^1)%13*t&255)>>1))*(2+(t>>16))",
+    "codeLen": 107,
+    "code": "(((t&4096?t*(t^t+t/256)|t>>4:t>>3|(t&8192?t<<2:t))>>1&127)+((t*((t>>9^(t>>9)-1^1)%13)&255)>>1))*(2+(t>>16))",
+    "author": "PortablePorcelain",
+    "name": "Noise maker with only one variable",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16u1o2d/noise_maker_with_only_one_variable/",
+    "date": "2023-09-28",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "2f67fcc11009081d248db0e3e217f83d",
+        "author": "Gabriel Miceli",
+        "name": "Noise Maker",
+        "url": [
+          "https://www.youtube.com/watch?v=V4GfkFbDojc",
+          "https://youtu.be/V4GfkFbDojc?t=51"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/4afbbbf5f0f529b14f4ae3502c93dd6d.js",
+  "title": "chomik",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4afbbbf5f0f529b14f4ae3502c93dd6d.js",
+  "sha256": "7e62f3e53601c16490786a481d87f1f2c44087ea97ebcca1a3def71a9a782dae",
+  "upstream": {
+    "hash": "4afbbbf5f0f529b14f4ae3502c93dd6d",
+    "codeMinLen": 556,
+    "codeLen": 593,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "(t/=1.5,a=32*sin(t/16*[1.5,1][t>>12&1]*[1,.9,.8,.75][t>>16&3])*(-t>>4&255)>>8,b=t/.78/4*[1,1.5][t>>8&1]*[1,.9,.8,.75][t>>10&3]&8,c=sqrt(2048*(t&32767)/8)%24,d=256*random()*[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][t>>8&15]/8,e=t/1>>t/512&64,f=(t*[1,.9,.8,.75][t>>17&3]/.78%127.8+t*[1,.9,.8,.75][t>>17&3]/.78%256)/10,g=[1,.9,.8,.75][t>>15&3]*t/4/.78&8,h=c&t>>9,i=f&50,j=128*a%256/20+8,[a,a+b,a+b+c,a+b+h,a+b+c+d+e+h,a+e+b,a+j+e,a+h+i+j,a+f+e,a+f+e+h,a+f+e+i,a+b+c+d+e+f+g+h+i+j,a+b+e,a+b+e,a+b+e+g+h+i+j,a+b+c+d+e+f+h+i",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "chomik",
+    "url": "https://www.reddit.com/r/bytebeat/comments/uwnd1o/chomik/",
+    "date": "2022-05-24",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

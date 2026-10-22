@@ -1,0 +1,29 @@
+{
+  "file": "songs/e18f6eaddbb66076180a005c654a3e05.js",
+  "title": "mandelbrot",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e18f6eaddbb66076180a005c654a3e05.js",
+  "sha256": "ae47cd699c1ef619295f1d2aab7d623518af07f0496b2229ae054d0269cc40b5",
+  "upstream": {
+    "hash": "e18f6eaddbb66076180a005c654a3e05",
+    "codeLen": 2537,
+    "fileOrig": 1,
+    "codeText": "OUTPUT=t&&(\n\nX=((t>>8&511)/128-2.5),\nY=((t&255)/64-2),\n\nC = cN(X,Y),\n\nZ=cN(0,0),",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "mandelbrot",
+    "description": "Mandelbrot fractal visualization. Set \"Diagram\" mode and zoom to 2(-8) or 2(-9).",
+    "url": "https://dollchan.net/btb/res/756.html#2249",
+    "date": "2023-09-08",
+    "sampleRate": 8000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 8
+    },
+    "tags": [
+      "big"
+    ]
+  }
+}

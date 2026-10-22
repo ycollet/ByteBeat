@@ -1,0 +1,35 @@
+{
+  "file": "songs/e07c7bb9d11c079a1a9c4b752ce2bfb2.js",
+  "title": "FLⱯR3Z0NE",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9389da2196ce4175c2f5f2d3c540dc61acadf3ed14ba35e4303470290fbc474f",
+  "upstream": {
+    "hash": "e07c7bb9d11c079a1a9c4b752ce2bfb2",
+    "codeLen": 180,
+    "code": "(t>>t%(t&1?t>>15&1?51:t>>14&3?58:65:39)&t>>4&255)/2+(3e5/(t-(t>>2&1024)&4095)&63)+(t>>11&1)*((t>>15&1?19:t>>14&3?17:15)/10*t%78+((t>>9&3)+2)*(t>>15&1?30:t>>14&3?27:20)/20*t%39)/1.5",
+    "author": "lhphr",
+    "name": "FLⱯR3Z0NE",
+    "description": "\"Electrohouse\" with some additional sounds and slight tweaks.",
+    "url": "https://dollchan.net/btb/res/44.html#69",
+    "date": "2022-05-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "022181f288da4db822c8b44c889c0b49",
+        "author": "Anonymous from russian imageboards",
+        "name": "Electrohouse",
+        "url": [
+          "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+          "http://arhivach.xyz/thread/28592/#71681785",
+          "http://arhivach.ng/thread/28592/#71681785"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

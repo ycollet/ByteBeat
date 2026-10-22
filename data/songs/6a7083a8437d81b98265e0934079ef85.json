@@ -1,0 +1,24 @@
+{
+  "file": "songs/6a7083a8437d81b98265e0934079ef85.js",
+  "title": "Rabid symphony",
+  "author": "rabidcow",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "72eca96d065c7ea9229c5355fc3116809b734b6d9220c3f82dce6515766057cd",
+  "upstream": {
+    "hash": "6a7083a8437d81b98265e0934079ef85",
+    "codeMinLen": 263,
+    "codeMin": "t*2**(('kotojokohogohotojokohogokokhpmjmjfokhomkjhggcckotojokohogohotojokohogokokhpmjmjfrmorokfjkkkkkkrpomkjkmokmpoprrjjkkoommoottqqhjkkjjhfecebccccccfffhihfdfcdahhhjkjhghegcmjcjmjpjojmjkhchkhohmhkhjhkhmhohphmhoomkjkhhhhhh'.charCodeAt(t>>10&255)-58)/12)*63>>6&132",
+    "codeLen": 273,
+    "code": "t*Math.pow(2,(\"kotojokohogohotojokohogokokhpmjmjfokhomkjhggcc kotojokohogohotojokohogokokhpmjmjfrmorokfjkkkkkkrpomkjkmokmpoprrjjkkoommoottqqhjkkjjhfecebccccccfffhihfdfcdahhhjkjhghegcmjcjmjpjojmjkhchkhohmhkhjhkhmhohphmhoomkjkhhhhhh\".charCodeAt((t>>10)&255)-58)/12)*63>>6&132",
+    "author": "rabidcow",
+    "name": "Rabid symphony",
+    "url": "https://www.reddit.com/r/programming/comments/mbakl/experimental_oneline_algorithmic_music/c2zn7qv/",
+    "date": "2011-11-15",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/2637d6b2d811e84a71784f622ca6af14.js",
+  "title": "sawtooth idk cdqcobzdfsf",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "35a531209da038ae16d64c334181746166de33846096de83357cc5db33255ecd",
+  "upstream": {
+    "hash": "2637d6b2d811e84a71784f622ca6af14",
+    "codeMinLen": 107,
+    "codeMin": "w=t/6*'87659879'[(t>>11)%8],p=t*random()&63|t>>6&63,(.99*w%80+w%80)/2+50*(3E3/(t&4095)&1)+p*'01'[(t>>11)%2]",
+    "codeLen": 115,
+    "code": "w=t/6*'87659879'[(t>>11)%8],\np=t*random()&63|t>>6&63,\n((w*.99%80+w%80)/2)+((3e3/(t&4095)&1)*50)+(p*'01'[(t>>11)%2])",
+    "author": "psubscirbe",
+    "name": "sawtooth idk cdqcobzdfsf",
+    "url": "https://dollchan.net/btb/res/284.html#310",
+    "date": "2023-01-07",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

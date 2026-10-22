@@ -1,0 +1,28 @@
+{
+  "file": "songs/d15bcf578761063ba9be130b0b44e8f2.js",
+  "title": "Not Burial",
+  "author": "weatherman_115",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d15bcf578761063ba9be130b0b44e8f2.js",
+  "sha256": "6901ccf83e84c7faeb58dee0105e5f8690e7a8f644f5f165cdd183cf12690ebe",
+  "upstream": {
+    "hash": "d15bcf578761063ba9be130b0b44e8f2",
+    "codeMinLen": 272,
+    "codeMin": "t*=1.15,d=t%1024,l=x=>x>1?1:(x<-1?-1:x),g=x=>(int(255&x)/255),ob=l(sin(t*2**(-5+('00700023'[t>>12&7]/12)))*4*(sin(PI*t/2048))),ok=l(sin(d/32*(2-(d/1024%1)))*(g(-d>>2)/2)*((t>>10&7)==0)*4),oh=(2*random()-1)*g(-d>>3)/(d**.3),os=random()*g(-t>>5)**3*(1&t>>13),(ob+ok+oh+os)/4",
+    "codeLen": 551,
+    "fileOrig": 1,
+    "codeText": "t*=1.15,d=t%1024,l=x=>x>1?1:(x<-1?-1:x),g=x=>(int(255&x)/255),ob=l(sin(t*2**(-5+('00700023'[t>>12&7]/12)))*4*(sin(PI*t/2048))),ok=l(sin(d/32*(2-(d/1024%1)))*(g(-d>>2)/2)*((t>>10&7)==0)*4),oh=(2*random()-1)*g(-d>>3)/(d**.3),os=random()*g(-t>>5)**3*(1&t>>13),(ob+ok+oh+os)/4",
+    "isTruncated": 1,
+    "author": "weatherman_115",
+    "name": "Not Burial",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g73vcr/not_burial/",
+    "date": "2024-10-19",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

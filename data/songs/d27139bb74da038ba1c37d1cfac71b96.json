@@ -1,0 +1,35 @@
+{
+  "file": "songs/d27139bb74da038ba1c37d1cfac71b96.js",
+  "title": "Eerie",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 128000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ef4287a382d6b93452d3c0c91faa11f92d755aabc0579f6f1b90ac20a14e338f",
+  "upstream": {
+    "hash": "d27139bb74da038ba1c37d1cfac71b96",
+    "codeMinLen": 214,
+    "codeMin": "l=0,t?0:a=Array(n=3E4).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),t/=16+sin(t/172663)/16,f=q=>(a.push(q/3-a[n/2|0]/2+a[n/4|0]/3),x),f(t/[32,49,63,24][t>>16&3]*1024%256/333+sin(2.03**(-t/1E3%32+8)))-.2",
+    "codeLen": 217,
+    "code": "l=0,t?0:a=Array(n=30000).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),t/=16+sin(t/172663)/16,f=q=>(a.push(q/3-a[n/2|0]/2+a[n/4|0]/3),x),f(t/[32,49,63,24][t>>16&3]*1024%256/+333+sin(2.03**(-t/1e3%32+8)))-.2",
+    "author": "Decent-Manager-6169",
+    "name": "Eerie",
+    "url": "https://dollchan.net/btb/res/520.html#531",
+    "date": "2023-03-06",
+    "mode": "Floatbeat",
+    "sampleRate": 128000,
+    "remix": [
+      {
+        "hash": "311dc3a0f839c0377a505e7ccfb04cc7",
+        "author": "PortablePorcelain",
+        "name": "foldableboldface",
+        "url": "https://dollchan.net/btb/res/55.html#194"
+      }
+    ],
+    "tags": [
+      "256",
+      "slow"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

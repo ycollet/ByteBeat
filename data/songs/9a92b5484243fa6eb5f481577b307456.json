@@ -1,0 +1,24 @@
+{
+  "file": "songs/9a92b5484243fa6eb5f481577b307456.js",
+  "title": "chiptune engine v1",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "30789be139563d554f708142844e595b98a36b5669cf3ef26f9fc878c1c1ca59",
+  "upstream": {
+    "hash": "9a92b5484243fa6eb5f481577b307456",
+    "codeMinLen": 246,
+    "codeMin": "delay=8E3,len=8,s1v=[16,8],s2='23564762',s2v='84',n=[0,16,0,16,0,8,0,8],st1=t/2*'12486421'[round(t/delay)%len]&4*s1v[round(t/delay)%len&1],st2=t/2*s2[round(t/delay)%len]&4*s2v[round(t/delay)%len&1],nse=4*random()*n[round(t/delay)%len],nse+st1+st2",
+    "codeLen": 293,
+    "code": "delay=8000,len=8,s1=[1,2,4,8,6,4,2,1],s1v=[16,8,16,8,16,8,16,8],s2=[2,3,5,6,4,7,6,2],s2v=[8,4,8,4,8,4,8,4],n=[0,16,0,16,0,8,0,8],st1=t/2*s1[round(t/delay)%len]&s1v[round(t/delay)%len]*4,st2=t/2*s2[round(t/delay)%len]&s2v[round(t/delay)%len]*4,nse=random()*(n[round(t/delay)%len]*4),nse+st1+st2",
+    "author": "GDPlayer_1035",
+    "name": "chiptune engine v1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q5n3zc/chiptune_engine_v1/",
+    "date": "2021-10-11",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

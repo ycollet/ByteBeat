@@ -1,0 +1,23 @@
+{
+  "file": "songs/0f86ed1799a177c13faafcdbe13517d7.js",
+  "title": "robot toothbrush",
+  "author": "87634218675342698753",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6d8b1bc7d55764d6e7803af4a4495a5e7c69418c6a1f10afaa06795c234133d7",
+  "upstream": {
+    "hash": "0f86ed1799a177c13faafcdbe13517d7",
+    "codeLen": 23,
+    "code": "((t/800|10)*t&85)-t&t/4",
+    "author": "87634218675342698753",
+    "name": "robot toothbrush",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1arusin/robot_toothbrush_in_bytebeat/",
+    "date": "2024-02-16",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

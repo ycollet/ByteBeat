@@ -1,0 +1,32 @@
+{
+  "file": "songs/fadbcb4703d038c7d94b7e1e54c74340.js",
+  "title": "Galactica",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fadbcb4703d038c7d94b7e1e54c74340.js",
+  "sha256": "cd9963419d5b4657a3f80ab609e4e388e6857bffc0d3a62fb3e475fddc73dff8",
+  "upstream": {
+    "hash": "fadbcb4703d038c7d94b7e1e54c74340",
+    "codeLen": 1573,
+    "fileOrig": 1,
+    "codeText": "out=(t?(ARR1=[6,5,4.5,5][t>>17&3],STR1='42346238'[t>>12&7],GA=(0x6a1ac71ca).toString('5556'[t>>17&3])[(t>>14)%9],r=random,a='01112111011121110111211101102111011121110111211101112111010121110111211101112111011121110110211101112111011121110111211001002111',drums=((b=t>>12&1?'':a[(t>>13)%a.length],b=='0'?(tan(cos(10*cbrt(t%8192)**.8)))*(-t>>4&255)/160+r()*(-t>>4&255)/180*(t>>4&255)/180:b=='1'?r()*(-t>>4&255)/90:b=='2'?r()*(-t>>4&255)/70+(tan(cos(10*cbrt(t%8192)**.9)))*(-t>>4&255)/160+r()*(-t>>4&255)/180*(t>>5&",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Galactica",
+    "description": "Fixed up and optimized on 9-27-25.",
+    "url": [
+      "https://dollchan.net/btb/res/3.html#5930",
+      "https://dollchan.net/btb/res/6946.html#9430"
+    ],
+    "date": "2025-04-21",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-29"
+  }
+}

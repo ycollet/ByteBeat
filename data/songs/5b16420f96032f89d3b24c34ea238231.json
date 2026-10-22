@@ -1,0 +1,23 @@
+{
+  "file": "songs/5b16420f96032f89d3b24c34ea238231.js",
+  "title": "Toy phone",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e298fc3d8fa6ef4d7fd518662ba3a98601142569fef71895bea60348514fb2e3",
+  "upstream": {
+    "hash": "5b16420f96032f89d3b24c34ea238231",
+    "codeLen": 32,
+    "code": "t*((t>>10|t%16*t>>5)&8*t>>10&18)",
+    "author": "SthephanShi",
+    "name": "Toy phone",
+    "description": "Sounds similar to children's toys.",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

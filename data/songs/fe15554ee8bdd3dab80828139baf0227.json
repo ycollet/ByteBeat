@@ -1,0 +1,28 @@
+{
+  "file": "songs/fe15554ee8bdd3dab80828139baf0227.js",
+  "title": "you'll never see a place like home again",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/formatted/fe15554ee8bdd3dab80828139baf0227.js",
+  "sha256": "26fd9e53a7044c724b20f966fe1a2d6d75c781818089a6612c6a73d142cad30e",
+  "upstream": {
+    "hash": "fe15554ee8bdd3dab80828139baf0227",
+    "codeFormLen": 984,
+    "fileForm": 1,
+    "codeText": "t || (p = 0, a = 0, l = 13e3, ns = 0, nsp = 0, nsf=8),\n\n(t % nsf) || (nsp = ns, ns = 2*random() - 1),\nnsq = (1 - cos(t%nsf/nsf*PI))/2,\n\n((t % 65e2) || (\"10000000\".repeat(3) + \"10010010\")[floor(t/65e2) % 32] == \"0\") || (p = a = 0),\n\nkenv = cos(PI*min(a/l, 1)),",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "you'll never see a place like home again",
+    "description": "\"naughty kids get to forge weapons for the wars that break out. you better stay on the nice list\" - BotB Advent Calendar 2025 entry: 1st place (bytebeat1k).",
+    "url": "https://battleofthebits.com/arena/Entry/you%27ll+never+see+a+place+like+home+again/80927/",
+    "date": "2025-12-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-01-19"
+  }
+}

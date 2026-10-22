@@ -1,0 +1,29 @@
+{
+  "file": "songs/8fe5a81b4717b047335dd5e17054b3e7.js",
+  "title": "музика від україна",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8fe5a81b4717b047335dd5e17054b3e7.js",
+  "sha256": "4f4451ad0cdc9e2cd7fb3ddc737510098a199afd5848f9cfb421328609aeef5f",
+  "upstream": {
+    "hash": "8fe5a81b4717b047335dd5e17054b3e7",
+    "codeLen": 19000,
+    "fileOrig": 1,
+    "codeText": "t/=24,h=(y,x,z)=>((a=t/14400)<=x/120&&a>y/120)*(z*t*3.5&128)/128/((a-(y/120))/2)/14400,h(0,314,67.8)+h(5,319,67.8)+h(7,321,67.8)+h(9,717,60.4)+h(11,325,67.8)+h(13,932,71.8)+h(15,1303,80.6)+h(21,940,71.8)+h(23,337,67.8)+h(27,734,60.4)+h(31,2165,53.8)+h(35,349,67.8)+h(39,2658,50.8)+h(43,357,67.8)+h(47,3033,45.3)+h(49,3151,42.7)+h(51,3037,45.3)+h(53,2672,50.8)+h(55,2190,53.8)+h(59,767,60.4)+h(63,377,67.8)+h(69,383,67.8)+h(71,385,67.8)+h(73,781,60.4)+h(73,387,67.8)+h(77,996,71.8)+h(79,1367,80.6)+h(85,1004,71.8)",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "музика від україна",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11y9f79/%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0_%D0%B2%D1%96%D0%B4_%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0/",
+    "date": "2023-03-22",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "coverName": "National Anthem of Ukraine",
+    "coverUrl": "https://youtu.be/nybtOIxlku8",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

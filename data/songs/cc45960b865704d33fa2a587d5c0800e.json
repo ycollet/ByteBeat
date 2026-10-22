@@ -1,0 +1,33 @@
+{
+  "file": "songs/cc45960b865704d33fa2a587d5c0800e.js",
+  "title": "Slightly metal crystal cave",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e8e716c5bf52988aed4a0c2410ffb61ca8e32d16e6686b8e238dab516e365e27",
+  "upstream": {
+    "hash": "cc45960b865704d33fa2a587d5c0800e",
+    "codeMinLen": 126,
+    "codeMin": "a=t=>cos(3*t/((t>>(t>>14^t>>11)&2^t>>13&6|t>>12&5)+2))*(32-(t>>6)&31)+32,(a(t)/1.5+a(t-3E3)/2+a(t-6E3)/3)*cbrt(sin(t/8E3))/250",
+    "codeLen": 144,
+    "code": "a = (t) => (cos(3*t/(((t>>(t>>14^t>>11)&2)^(t>>13&6)|(t>>12&5))+2)))*(32-(t>>6)&31)+32,\n(a(t)/1.5+a(t-3000)/2+a(t-6000)/3)*cbrt(sin(t/8000))/250",
+    "author": "kOLbOSa_exe",
+    "name": "Slightly metal crystal cave",
+    "url": "https://www.reddit.com/r/bytebeat/comments/156bg4d/slightly_metal_crystal_cave/",
+    "date": "2023-07-22",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "cef13f48c89d67e539b61c5d2efcdaa2",
+        "author": "kOLbOSa_exe",
+        "name": "Crystal Cave",
+        "url": "https://www.reddit.com/r/bytebeat/comments/154me2z/crystal_cave/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

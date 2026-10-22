@@ -1,0 +1,31 @@
+{
+  "file": "songs/27a5a7f70b2dca13f58c3e6bcd9bbe8c.js",
+  "title": "skyrnpqriy",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c62f5bb98681908351f2c7e00f22d63a665fdc3e521ffe3a415b3ce402688c51",
+  "upstream": {
+    "hash": "27a5a7f70b2dca13f58c3e6bcd9bbe8c",
+    "codeLen": 191,
+    "code": "(t/=6)%262144?0:a=b=0,a+=b+=((1+(t>>10&3))/[1,1.5,5/4,4/3][t>>14&3]/6-b)/500,f=x=>2**(x/12+1)*a&127^2**(x/12)*a&127,y=t/4096%1,y**.2*(f(12)^f(-b)^f(a/64%1/a*5e3))+(1-y)*(1e3*(t%4096)**.3&128)",
+    "author": "lhphr",
+    "name": "skyrnpqriy",
+    "description": "Simple loop with a heavy kick.",
+    "url": "https://dollchan.net/btb/res/44.html#837",
+    "date": "2023-04-06",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "48b35ad5e463770e03ee48a41a3871fc",
+        "author": "rubi",
+        "name": "rgrekfjhufheghzufzghufijhdsuhgueirbghfjkjkhags",
+        "url": "https://www.reddit.com/r/bytebeat/comments/12dfkuc/rgrekfjhufheghzufzghufijhdsuhgueirbghfjkjkhags/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

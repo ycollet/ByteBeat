@@ -1,0 +1,26 @@
+{
+  "file": "songs/4f88e7a6f8e62926f2a65ff69be30ee4.js",
+  "title": "generator",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cee1f7b44b47a34bee49678bb7814d23a81e4f995e314a6a4e89be9f4b567f53",
+  "upstream": {
+    "hash": "4f88e7a6f8e62926f2a65ff69be30ee4",
+    "codeMinLen": 354,
+    "codeMin": "t||(a=0,S=max(40,random()*200),n=Array(l=256*round(S)).fill(0)),L=sin,x=((X=t/S/256+abs(L(t*PI/8388608*S))*8)>>0)&7,A=L(L(L(a+=PI/24e3*320*2**([0,3,5,7,10,12,15,19][x]/12))+a*2))/8*min(.01,X%1)*(1-X%1)*100+L(L(b=t*PI/48e3*320/4)*2+b*2)/4*min(.01,X/8%1)*(1-X/8%1)*120+(random()-.5)*((X&7)==0)/8*L(X*PI)+n[t%l]/1.2,n[t%l]=A,(A+L(pow(1e-3,X/8%1)*PI*32)/2)/3",
+    "codeLen": 374,
+    "code": "t||(a=0),\nt||(S=max(40,random()*200),\n\tn=Array(l=256*round(S)).fill(0)),\nx=((X=t/S/256+abs(sin(t*PI/8388608*S))*8)>>0)&7,\nA=sin(sin(sin(a+=PI/24e3*320*2**([0,3,5,7,10,12,15,19][x]/12))+a*2))/8*min(.01,X%1)*(1-X%1)*100+sin(sin(b=t*PI/48e3*320/4)*2+b*2)/4*min(.01,X/8%1)*(1-X/8%1)*120+(random()-.5)*((X&7)==0)/8*sin(X*PI)+n[t%l]/1.2,n[t%l]=A,(A+sin(pow(1e-3,X/8%1)*PI*32)/2)/3",
+    "author": "eSlashMachine",
+    "name": "generator",
+    "url": "https://dollchan.net/btb/res/6946.html#14913",
+    "date": "2026-05-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-09-18"
+  }
+}

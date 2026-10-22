@@ -1,0 +1,32 @@
+{
+  "file": "songs/827a9f3a48a31ca5d6a89d1ea3ebdff7.js",
+  "title": "very cool remix of lhphr's pyramid dungeon",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5fd1a0032908ace06c3d1988f39370e78db8af0b34b05db9441a75bd5a333284",
+  "upstream": {
+    "hash": "827a9f3a48a31ca5d6a89d1ea3ebdff7",
+    "codeMinLen": 277,
+    "codeMin": "(t%(t>>(a=t*2**([t>>13&5,7-(t>>13&5),7,4+3*(t>>17&2)][t>>16&3]/12))/8)||a&-t>>6)%256/4+32*sign(sin(16*cbrt(t%(2<<+'22220101'[t>>14&7]+11))))+32+(t*random()&-(x=t&131072?2:1)*t>>5)*!(x*t>>13&7)%256/4+((t*sin(t>>3)&-x*t>>5)*!(x*t>>13&3)*(x*t>>15&1)&255)/4+1.5*a%256/8+a/1.5%256/8",
+    "codeLen": 307,
+    "code": "(t%(t>>((a=t*2**([t>>13&5,7-(t>>13&5),7,4+3*(t>>17&2)][t>>16&3]/12))/8))||(a&-t>>6))%256/4+sign(sin(16*cbrt(t%[16384,16384,16384,16384,4096,8192,4096,8192][t>>14&7])))*32+32+(t*random()&-(x=t&131072?2:1)*t>>5)*!(x*t>>13&7)%256/4+((t*sin(t>>3)&-x*t>>5)*!(x*t>>13&3)*(x*t>>15&1)&255)/4+a*1.5%256/8+a/1.5%256/8",
+    "author": "ANoUserXD",
+    "name": "very cool remix of lhphr's pyramid dungeon",
+    "url": "https://dollchan.net/btb/res/2628.html#2637",
+    "date": "2023-11-13",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "cd47865a493d2e08662c38946e3405e7",
+        "author": "lhphr",
+        "name": "Pyramid Dungeon",
+        "url": "https://dollchan.net/btb/res/44.html#69"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

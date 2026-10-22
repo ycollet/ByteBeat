@@ -1,0 +1,37 @@
+{
+  "file": "songs/b7de90a68c2bce7b6bb3c576b9cd4e32.js",
+  "title": "h",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e8faf4a8e1de7b6fc904ffb2817400437b1ee15916adfdbae22fa6f7ebf2ac01",
+  "upstream": {
+    "hash": "b7de90a68c2bce7b6bb3c576b9cd4e32",
+    "codeMinLen": 259,
+    "codeMin": "T=t,t/=4,max(min(sin(sqrt(T/6*[1,1,1.2,1.5,1,1,1.2,1.1][t>>14&7]&63)*4)/((t>>(t&8192?t&16384?2:3:4)&255)*.1)+atan(sin([1,1,1.2,1.5,1,1,1.2,1.1][t>>14&7]*T/6*PI/128+4E3/(t%8192))*8)/2,1),-1)/2+(random()*(-t>>3&255)/512+random()*(-t>>6&255)/256*(t>>13&1))/2-.25",
+    "codeLen": 267,
+    "code": "T=t,t/=4,max(min(sin(sqrt(T/6*([1,1,1.2,1.5,1,1,1.2,1.1][t>>14&7])&63)*4)/((t>>(t&8192?t&16384?2:3:4)&255)*.1)+atan(sin([1,1,1.2,1.5,1,1,1.2,1.1][t>>14&7]*T/6*PI/128+(4e3/(t%8192)))*8)/2,1),-1)/2+((random()*(-t>>3&255)/512)+(random()*(-t>>6&255)/256*(t>>13&1)))/2-.25",
+    "author": "Maxi",
+    "name": "h",
+    "url": [
+      "https://dollchan.net/btb/res/500.html#4571",
+      "https://www.reddit.com/r/bytebeat/comments/1fs53bv/h/"
+    ],
+    "date": "2024-09-29",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "7171038dac177a7ffcbb1748cc57b321",
+        "author": "psubscirbe",
+        "name": "floatbeat rhythm",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14e9a5u/floatbeat_rhythm/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

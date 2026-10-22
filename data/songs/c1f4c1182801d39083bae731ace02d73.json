@@ -1,0 +1,34 @@
+{
+  "file": "songs/c1f4c1182801d39083bae731ace02d73.js",
+  "title": "vQ: Rise from the darkness",
+  "author": "Chasyxx",
+  "mode": "Floatbeat",
+  "rate": 30000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c1f4c1182801d39083bae731ace02d73.js",
+  "sha256": "7efe05f912558ebbb66c33e204a58581aea9475f3179bea546df8e50954be615",
+  "upstream": {
+    "hash": "c1f4c1182801d39083bae731ace02d73",
+    "codeLen": 2413,
+    "fileOrig": 1,
+    "codeText": "l=0, life=15, // Have a strong computer? Set HQ to 1. Really strong? 2!\n\nS=Math.random()/(life+(t>>4&255))*life*1.5,\nH=((t>>2)*E&1)/(life+(t>>4&255))*life,\n\n\nt||(\t// To avoid lag, we only set arrays at first t\npointer=0,",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "vQ: Rise from the darkness",
+    "url": "https://dollchan.net/btb/res/756.html#918",
+    "date": "2023-04-22",
+    "mode": "Floatbeat",
+    "sampleRate": 30000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "9499a8d033db3c59169f5c468b220d95",
+        "author": "lhphr",
+        "name": "Vé",
+        "url": "https://dollchan.net/btb/res/44.html#88"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

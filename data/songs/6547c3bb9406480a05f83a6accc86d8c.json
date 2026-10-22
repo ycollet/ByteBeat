@@ -1,0 +1,29 @@
+{
+  "file": "songs/6547c3bb9406480a05f83a6accc86d8c.js",
+  "title": "DRAX - Clarence",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6547c3bb9406480a05f83a6accc86d8c.js",
+  "sha256": "a9e7c5b07212ff16bd8d35567587905c25270920295b34862c8b649770319045",
+  "upstream": {
+    "hash": "6547c3bb9406480a05f83a6accc86d8c",
+    "codeLen": 14437,
+    "fileOrig": 1,
+    "codeText": "/*\nDRAX - Clarence, covered on bytebeat by Sychamis, March 2025.\nOriginal: https://www.youtube.com/watch?v=SYtauTDqFOg\n\nDone in a few hours because I was bored.\n\nFilter code based on polyzium's code.\nThe visualizer from deepsid was very useful to find all the notes: https://deepsid.chordian.net/?file=/MUSICIANS/D/DRAX/Clarence.sid.",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "DRAX - Clarence",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1j1trad/drax_clarence/",
+    "date": "2025-03-02",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "DRAX - \"Clarence\" (C64)",
+    "coverUrl": "https://youtu.be/SYtauTDqFOg",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

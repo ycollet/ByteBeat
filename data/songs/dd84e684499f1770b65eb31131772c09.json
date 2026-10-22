@@ -1,0 +1,25 @@
+{
+  "file": "songs/dd84e684499f1770b65eb31131772c09.js",
+  "title": "hardstyle kick ",
+  "author": "feeshbread",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dd84e684499f1770b65eb31131772c09.js",
+  "sha256": "05d0b34e1cb2a76c8d4bbe8edc82a139076623a1fca346df5f7b8503bcb06a54",
+  "upstream": {
+    "hash": "dd84e684499f1770b65eb31131772c09",
+    "codeLen": 1293,
+    "fileOrig": 1,
+    "codeText": "// Infenitely instantiable 1 Pole Filters\r\n// (every call = new filter instance)\r\nt?0:z1=[],\r\ncallCount=0,\r\nlpf=lowPassFilter=(a,c)=>(\r\n\tcall=callCount++,\r\n\tz1[call]??=0,\r\n\tz1[call]+=(a-z1[call])*c\r",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "hardstyle kick ",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/tried_to_make_a_hardstyle_kick/",
+    "date": "2024-09-08",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

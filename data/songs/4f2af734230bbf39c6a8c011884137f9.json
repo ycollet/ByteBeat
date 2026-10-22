@@ -1,0 +1,33 @@
+{
+  "file": "songs/4f2af734230bbf39c6a8c011884137f9.js",
+  "title": "BLEEP BLOOP",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7655915618f1c74a79f1226973c2609ca92c643e0b41fb98815a17089fb950b0",
+  "upstream": {
+    "hash": "4f2af734230bbf39c6a8c011884137f9",
+    "codeMinLen": 101,
+    "codeMin": "u=(5+(1-((t+8192)/1.5>>16)&1))/6*t,(u/1*((t>>10)%6)&t>>6&255)/2+((u>>(t>>14)%3&u/4|(t>>6)%384)&192)/2",
+    "codeLen": 116,
+    "code": "u=t*((5+(1-(((t+(2<<12))/1.5)>>16)&1))/6),(u/1*((t>>10)%6)&(t>>6)&255)/2+(((u>>((t>>14)%3))&u/4|((t>>6)%384))&192)/2",
+    "author": "feeshbread",
+    "name": "BLEEP BLOOP",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f6eepv/have_some_bleeps_and_bloops/",
+    "date": "2024-09-01",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "9787bc3e73c069b77fe2f68ff7b805ce",
+        "author": "feeshbread",
+        "name": "bleep",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1f6eepv/have_some_bleeps_and_bloops/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

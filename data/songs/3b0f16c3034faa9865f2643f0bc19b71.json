@@ -1,0 +1,25 @@
+{
+  "file": "songs/3b0f16c3034faa9865f2643f0bc19b71.js",
+  "title": "The most average bytebeat beat",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 16384,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "42f0b080046d24b3346fe3a856bb9d58c69792f21e7fe96f037f131a810dd138",
+  "upstream": {
+    "hash": "3b0f16c3034faa9865f2643f0bc19b71",
+    "codeMinLen": 114,
+    "codeMin": "(2E5/(t*(2-(t>>14&1))&4095)&64)+(t/1.5*(t>>12&7+t>>11&1^t>>12&7|t>>16&7)&48)+random()*(64-(t>>'4658'[t>>13&3])%64)",
+    "codeLen": 128,
+    "code": "((2e5/((t*[2,2,1,1][t>>13&3])&4095))&64)+((t/1.5*(t>>12&7+t>>11&1^t>>12&7|t>>16&7))&48)+random()*(64-(t>>[4,6,5,8][t>>13&3])%64)",
+    "author": "kOLbOSa_exe",
+    "name": "The most average bytebeat beat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15erzw3/the_most_average_bytebeat_beat/",
+    "date": "2023-08-01",
+    "sampleRate": 16384,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-26"
+  }
+}

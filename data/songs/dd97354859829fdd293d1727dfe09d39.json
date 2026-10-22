@@ -1,0 +1,31 @@
+{
+  "file": "songs/dd97354859829fdd293d1727dfe09d39.js",
+  "title": "Sanxion (Loader) by Rob Hubbard",
+  "author": "awogler9124812041",
+  "mode": "Floatbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dd97354859829fdd293d1727dfe09d39.js",
+  "sha256": "97694da5d23f9b147122970aa2360dbb5a8e57abea6a839bc908df8247a3397f",
+  "upstream": {
+    "hash": "dd97354859829fdd293d1727dfe09d39",
+    "codeLen": 13148,
+    "fileOrig": 1,
+    "codeText": "this.dr||(\ndr=1,\nzzfxV=.5,\nzzfxR=22050,\nzzfxG=(q=1,k=.05,c=220,e=0,t=0,u=.1,r=0,F=1,v=0,z=0,w=0,A=0,l=0,B=0,x=0,G=0,d=0,y=1,m=0,C=0)=>{let b=2*PI,H=v*=500*b/zzfxR**2,I=(0<x?1:-1)*b/4,D=c*=(1+2*k*random()-k)*b/zzfxR,Z=[],g=0,E=0,a=0,n=1,J=0,K=0,f=0,p,h;e=99+zzfxR*e;m*=zzfxR;t*=zzfxR;u*=zzfxR;d*=zzfxR;z*=500*b/zzfxR**3;x*=b/zzfxR;w*=b/zzfxR;A*=zzfxR;l=zzfxR*l|0;for(h=e+m+t+u+d|0;a<h;Z[a++]=f)++K%(100*G|0)||(f=r?1<r?2<r?3<r?sin((g%b)**3):max(min(tan(g),1),-1):1-(2*g/b%2+2)%2:1-4*abs(round(g/b)-g/b):sin(g),f=(l",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "Sanxion (Loader) by Rob Hubbard",
+    "description": "ZzFXM tracker song <a href='https://keithclark.github.io/ZzFXM/' target='_blank'>Sanxion</a> ported to bytebeat.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18heo8h/zzfxm_sanxion_loader_by_rob_hubbard/",
+    "date": "2023-12-13",
+    "mode": "Floatbeat",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "coverName": "Rob Hubbard - Sanxion (Loader)",
+    "coverUrl": "https://youtu.be/It7yJh-NwPY",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

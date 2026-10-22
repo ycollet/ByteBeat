@@ -1,0 +1,35 @@
+{
+  "file": "songs/da904cd4f1059b7c0f34c5c235e3a881.js",
+  "title": "sunset house meets this remix chain",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/da904cd4f1059b7c0f34c5c235e3a881.js",
+  "sha256": "67e74e308829b00490fc31c55500b54d6dfc6cb2adc568db0b9589a5e8ae41e8",
+  "upstream": {
+    "hash": "da904cd4f1059b7c0f34c5c235e3a881",
+    "codeLen": 1576,
+    "fileOrig": 1,
+    "codeText": "t?0:(fb1=0,fb=0,f=[],lp=(a,c)=>(li=fi++,f[li]??=2,f[li]+=(a-f[li])*c),hp=(a,c)=>a-lp(a,c),rhp=(a,c,r)=>(rhi=fi++,f[rhi]??=0,f[rhi]=hp(a+f[rhi]*r,c)),hb=(a,c,b)=>a+hp(a,c)*b,bp=(a,hc,lc)=>hp(lp(a,lc),hc),bb=(a,hc,lc,b)=>a+bp(a,hc,lc)*b,s=(a,cu,cd)=>(si=fi++,f[si]??=0,sr=f[si],f[si]+=(a-sr)*(sr<a?cu:cd)),n=c=>(ni=fi++,f[ni]??=0,f[ni]=f[ni]+(random()-.2-f[ni])*c),dm=1e5,d=(a,h,m,fbfn=x=>x)=>{di=fi++;f[di]??=Array(dm).fill(0);dw=dt%dm;df=a;du=0;for (let hd of h){dr=(dm+dt-round(hd.t))%dm;df+=f[di][dr]*hd.fb;du+",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "sunset house meets this remix chain",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ihwhea/sunset_house_meets_this_remix_chain_remixes_of/",
+    "date": "2025-02-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "78429940b572c2c7dc994b45263bf1e2",
+        "author": "feeshbread",
+        "name": "[ SQUARE, DANCE ]",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/9caab750b2cedef140600f1c99cd56fc.js",
+  "title": "probably the best song i ever made",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8a93d8c87e5a5346b5674104929d7d8eb6ed3ea52618dfc2fbeb9bef11580108",
+  "upstream": {
+    "hash": "9caab750b2cedef140600f1c99cd56fc",
+    "codeMinLen": 337,
+    "codeMin": "a=t/[1.5,1.25,1.5,1][(t>>17)%4]*((t>>12)+1&1),(((a/4^.998*a/8)&63)%(t>>14)+(32*sin(t/[1,1,1,2,1.5,1.5,1.25,1.25][(t>>15)%8]/20.5)+32)*(t>>20>0))*(t>>15!=63)+t*random()%((-t>>9)%64+64)*(t>>15==63)+((3E5/(t&8191)&50)*[1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1][(t>>13)%16]+(3E6/(t&8191)&45)*[0,0,0,0,1,0,0,0][(t>>13)%8]+(t/4*(t&t>>12)&32))*(t>>20>1)",
+    "codeLen": 351,
+    "code": "a=t/[1.5,1.25,1.5,1][(t>>17)%4]*((t>>12)+1&1),(((a/4^(.998*a/8))&63)%(t>>14)+((32*sin((t/[1,1,1,2,1.5,1.5,1.25,1.25][(t>>15)%8]/20.5))+32)*(t>>20>0)))*(t>>15!=63)+(t*random()%((-t>>9)%64+64)*(t>>15==63))+(((3E5/(t&8191)&50)*[1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1][(t>>13)%16])+((3E6/(t&8191)&45)*[0,0,0,0,1,0,0,0][(t>>13)%8])+((t/4*(t&t>>12))&32))*(t>>20>1)",
+    "author": "RealZynx92",
+    "name": "probably the best song i ever made",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q8r7g4/probably_the_best_song_i_ever_made/",
+    "date": "2021-10-15",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

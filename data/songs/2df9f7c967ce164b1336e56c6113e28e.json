@@ -1,0 +1,41 @@
+{
+  "file": "songs/2df9f7c967ce164b1336e56c6113e28e.js",
+  "title": "Tiny TB303",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2df9f7c967ce164b1336e56c6113e28e.js",
+  "sha256": "dac81198ea7fc813d6725440942ecd0bf35f543d6579380871ee7f9d4adfd8a3",
+  "upstream": {
+    "hash": "2df9f7c967ce164b1336e56c6113e28e",
+    "codeMinLen": 885,
+    "codeLen": 892,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(a=Array(16384).fill(0),seq=[0,,0,,12,,0,,0,,17,,0,,0,,14,,0,,0,,10,,0,,0,,12,,0,,0,,0,,15,12,7,3,0,,0,,14,12,7,3,0,,0,,12,7,3,0,-12,,0,,15,12,7,3,-4,,-4,,12,,-4,,-4,,15,,-4,,-4,,14,,-4,,-4,,10,,-4,,-4,,12,,-4,,-4,,-4,,12,,-4,,-4,,15,,-4,,-4,,14,,-4,,-4,,10,,-4,,-4,,12,,-4,,-16,,-16,,12,,-16,,-16,,12,,-16,,-17,,14,,-16,,-16,,10,,-16,,-16,,12,,-16,,-16,,-4,,15,12,7,3,-16,,-16,,14,12,7,3,-4,,-4,,12,7,3,-16,-12,,-16,,15,12,7,3,-19,,-19,,12,,-19,,-19,,15,,-19,,-19,,14,,-19,,-19,,10,,-19,,-19,,12,,-19,,-19,,-",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Tiny TB303",
+    "description": "Featuring \"simple step sequencer\", inspired by \"303 on a budget\".",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f4lyd0/tiny_tb303/",
+    "date": "2024-08-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5552308f4eecadb941469f0c35d78ff7",
+        "author": "neverforgettoleave",
+        "name": "simple step sequencer",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/jmbsoh/simple_step_sequencer/",
+          "https://www.reddit.com/r/bytebeat/comments/1fdycar/comment/lmkhcog/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

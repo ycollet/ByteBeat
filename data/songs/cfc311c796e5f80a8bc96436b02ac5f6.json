@@ -1,0 +1,25 @@
+{
+  "file": "songs/cfc311c796e5f80a8bc96436b02ac5f6.js",
+  "title": "65536",
+  "author": "rubi",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e49e7d7b8519602a0763cce84e2ed626001912af96caf4f471228871e5ec8b21",
+  "upstream": {
+    "hash": "cfc311c796e5f80a8bc96436b02ac5f6",
+    "codeMinLen": 137,
+    "codeMin": "t/=4.7,((t>>3)*(t&32768?3:2)*(t&65536?1.8:2)&64)+((t*(t&16384?3:2)*(t&4096?2:1)&64)+64*sin(3123/(t%4096))+64*random()*(1-(1&t>>10)))/2-64",
+    "codeLen": 157,
+    "code": "t/=4.7,(((t>>3)*(t&32768?3:2)*(t&65536?1.8:2)&64)+((t*(t&16384?3:2)*(t&4096?2:1)&64)+(64*sin(3123/(t%pow(4,(3+(2+(1)))))))+(64*random()*(1-(1&t>>10))))/2)-64",
+    "author": "rubi",
+    "name": "65536",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s0ixnm/65536_signed_bytebeat/",
+    "date": "2022-01-10",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

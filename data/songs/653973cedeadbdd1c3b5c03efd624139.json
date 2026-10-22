@@ -1,0 +1,23 @@
+{
+  "file": "songs/653973cedeadbdd1c3b5c03efd624139.js",
+  "title": "Nocturnizf",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "25971c5264f071367829cea0a476c5d56b7f29bb25863e5fc10cd5867f590e9f",
+  "upstream": {
+    "hash": "653973cedeadbdd1c3b5c03efd624139",
+    "codeLen": 158,
+    "code": "((a=t%2**17)/((b=2**(('22532250'[t>>17&7]-2)/12))*a%(64*'4321'[a>>[1,4,2,12][c=a>>14&3]&3]))/2**(a>>12&3)&255)/2+(c!=3)*(128*sin(b**2*4096/(a%32768)**.01)&64)",
+    "author": "lhphr",
+    "name": "Nocturnizf",
+    "description": "Sort of a melody with this one?",
+    "url": "https://dollchan.net/btb/res/44.html#66",
+    "date": "2022-05-16",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

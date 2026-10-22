@@ -1,0 +1,33 @@
+{
+  "file": "songs/6e7852d4816328a5b10f40944974e358.js",
+  "title": "City night",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3c4a773f406c13d8a07f7e361a56d6da2d601f02610b3487460cc8ab6ab0758d",
+  "upstream": {
+    "hash": "6e7852d4816328a5b10f40944974e358",
+    "codeMinLen": 291,
+    "codeMin": "s=x=>t*2**(x/12),e=3&t>>18,g=[0,2,4,5][e],g2=[0,2,4,5][e],g3=[0,0,5,5][e],g4=[0,0,5,3][e],g5=[0,0,0,2][e],a=t=>(p=s([1-g,13-g2,8-g5,4-g3,6-g4,4-g3,8-g5,4-g3][(t>>13)%8]),((p/1.4&127)+(16*sin(t/8E3)+64)&128)/1.5)*(1-t%8192/12E3),[a(t)+a(t-12168)/2+a(t-36504)/4,a(t)+a(t-24336)/2+a(t-48672)/4]",
+    "codeLen": 302,
+    "code": "s=x=>t*2**((x)/12),e=3&t>>18,\ng=[0,2,4,5][e],g2=[0,2,4,5][e],g3=[0,0,5,5][e],g4=[0,0,5,3][e],g5=[0,0,0,2][e],\na=t=>(p=s([1-g,13-g2,8-g5,4-g3,6-g4,4-g3,8-g5,4-g3][(t>>13)%8]),((p/1.4&127)+(sin(t/8e3)*16+64)&128)/1.5)*(1-t%8192/12E3),\n[a(t)+a(t-12168)/2+a(t-12168*3)/4,a(t)+a(t-12168*2)/2+a(t-12168*4)/4]",
+    "author": "Zackx",
+    "name": "City night",
+    "url": "https://dollchan.net/btb/res/204.html#562",
+    "date": "2023-03-08",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "de1c35e3c7d1e970018a6a1838df4d66",
+        "author": "Zackx",
+        "name": "Works as evil",
+        "url": "https://dollchan.net/btb/res/204.html#525"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

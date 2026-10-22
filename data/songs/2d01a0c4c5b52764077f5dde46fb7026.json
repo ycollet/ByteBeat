@@ -1,0 +1,24 @@
+{
+  "file": "songs/2d01a0c4c5b52764077f5dde46fb7026.js",
+  "title": "short melody of 24 oras",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "60367634cf833b1d84c88c165f1795a58898209ee542993b881867d7c6d2298f",
+  "upstream": {
+    "hash": "2d01a0c4c5b52764077f5dde46fb7026",
+    "codeMinLen": 218,
+    "codeMin": "drum1=(t*random()|t>>6)&49,drum2=((t>>5)*(t>>3)*[0,1][(t>>13)%2]*t|t>>6)&200,melody=[3.05,0,0,3.05,0,0,0,3.05,3.4,0,0,3.4,0,0,0,3.39,3.6,0,0,3.6,0,0,0,3.6,4.05,0,4.05,0,4.55,0,4.55][(t>>12)%32]*t&129,melody+drum1+drum2",
+    "codeLen": 222,
+    "code": "drum1=(t*random()|t>>6)&49,drum2=(((t>>5)*(t>>3))*[0,1][(t>>13)%2]*t|t>>6)&200,melody=([3.05,0,0,3.05,0,0,0,3.05,3.4,0,0,3.4,0,0,0,3.39,3.6,0,0,3.6,0,0,0,3.6,4.05,0,4.05,0,4.55,0,4.55][(t>>12)%32]*t)&129,melody+drum1+drum2",
+    "author": "hcdphobe",
+    "name": "short melody of 24 oras",
+    "url": "https://www.reddit.com/r/bytebeat/comments/vrn5o6/short_melody_of_24_oras/",
+    "date": "2022-07-05",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

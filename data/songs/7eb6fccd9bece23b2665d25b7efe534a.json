@@ -1,0 +1,31 @@
+{
+  "file": "songs/7eb6fccd9bece23b2665d25b7efe534a.js",
+  "title": "До Бесконечности [Ad Infinitum]",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7eb6fccd9bece23b2665d25b7efe534a.js",
+  "sha256": "d056a8d260b844d3e5d6859fa0b25381f1409bce5e9fbf9cf41609174cb227b0",
+  "upstream": {
+    "hash": "7eb6fccd9bece23b2665d25b7efe534a",
+    "codeLen": 22340,
+    "fileOrig": 1,
+    "codeText": "// SentleXR - До Бесконечности (eng. Until the infinity, lat. Ad Infinitum)\n\n/* \n\tENG:\nGenre: Trance (Hypertrance).\nDuration: 8' 24\".\nOriginal file size: 20763 bytes.\n",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "До Бесконечности [Ad Infinitum]",
+    "description": "\"Decadent Decade\" battle, 2nd place (bytebeat)",
+    "url": "https://battleofthebits.com/arena/Entry/%D0%94%D0%BE+%D0%91%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D1%81%D1%82%D0%B8/83873/",
+    "date": "2026-04-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "A64, ReiXbits - Ad Infinitum",
+    "coverUrl": "https://battleofthebits.com/arena/Entry/Ad+Infinitum/66621/",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-05-10",
+    "date_edited": "2026-06-16"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file": "songs/c1f31cef46ba8f1a0e054ee1d4f956bc.js",
+  "title": "CA98COPHONY",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c1f31cef46ba8f1a0e054ee1d4f956bc.js",
+  "sha256": "869c4e4e1d3f6eb5f2946d9e453f9210051567b07cd4fec4206b25e76f1c7c5d",
+  "upstream": {
+    "hash": "c1f31cef46ba8f1a0e054ee1d4f956bc",
+    "codeLen": 1153,
+    "fileOrig": 1,
+    "codeText": "OT=t,\nt*=m=1.6,t||(a=b=c=d=E=f=0),\nt?0:Z=[],X=0,lp=(a,c)=>(Y=X++,Z[Y]??=0,Z[Y]+=(a-Z[Y])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),T=2**('0357'[t>>17&3]/12),\nme=0xCA98CA98>>(t>>12&30),\na+=m*2**(round(log2(abs(me&15)/4)*12)/12)*T,\nb+=m*2**(round(log2(abs(me&10)/4)*12)/12)*T,\nc+=m*2**(round(log2(abs(me&16)/4)*12)/12)*T,\nd+=m*T,",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "CA98COPHONY",
+    "url": "https://dollchan.net/btb/res/6946.html#14678",
+    "date": "2026-05-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "70d16892612ce91de91e072bd478b2a2",
+        "author": "luna197",
+        "name": "tiny pockets of air",
+        "url": "https://battleofthebits.com/arena/Entry/tiny+pockets+of+air.txt/78612/"
+      },
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-06-04"
+  }
+}

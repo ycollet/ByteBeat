@@ -1,0 +1,26 @@
+{
+  "file": "songs/bd2dd5b6ca768df5b42f025d86db7e63.js",
+  "title": "doom-type loop",
+  "author": "kOLbOSa_exe",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4b6d5d684a797fe68f5f61c42d83daedfca399848119ebaf93e63811b20b090c",
+  "upstream": {
+    "hash": "bd2dd5b6ca768df5b42f025d86db7e63",
+    "codeMinLen": 74,
+    "codeMin": "[32*sin(2**18/(t/8&4095&t>>5)),64*sin(4E3/(t/4&4095))+64*sin(40/(t&4095))]",
+    "codeLen": 106,
+    "code": "[sin(((2**18)/(t&t))==NaN?t*t:((2**18)/((t/8&4095)&t>>5)))*32,sin(4e3/(t/4&4095))*64+sin(4e1/(t&4095))*64]",
+    "author": "kOLbOSa_exe",
+    "name": "doom-type loop",
+    "url": "https://www.reddit.com/r/bytebeat/comments/uqspnh/doomtype_loop/",
+    "date": "2022-05-16",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ]
+  }
+}

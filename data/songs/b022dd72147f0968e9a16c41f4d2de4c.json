@@ -1,0 +1,31 @@
+{
+  "file": "songs/b022dd72147f0968e9a16c41f4d2de4c.js",
+  "title": "heart (diagram)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b022dd72147f0968e9a16c41f4d2de4c.js",
+  "sha256": "02d7568de5901df9ff9f5461d53169d8a0832f80b69b00ea91c2d7230e601370",
+  "upstream": {
+    "hash": "b022dd72147f0968e9a16c41f4d2de4c",
+    "codeMinLen": 185,
+    "codeMin": "256*['0000011001100000','0000100110010000','0001000000001000','0001000000001000','0000100000010000','0000010000100000','0000001001000000','0000000110000000'][7&t>>5][15&t>>13]||t>>(1&t)",
+    "codeLen": 197,
+    "fileOrig": 1,
+    "codeText": "256*['0000011001100000','0000100110010000','0001000000001000','0001000000001000','0000100000010000','0000010000100000','0000001001000000','0000000110000000'][7&t>>5][15&t>>13]||t>>(1&t)",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "heart (diagram)",
+    "description": "Set \"Diagram\" mode and zoom to 2(-8).",
+    "url": "https://dollchan.net/btb/res/204.html#2289",
+    "date": "2023-09-15",
+    "sampleRate": 48000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 8
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

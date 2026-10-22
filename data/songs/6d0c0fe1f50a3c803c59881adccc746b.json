@@ -1,0 +1,24 @@
+{
+  "file": "songs/6d0c0fe1f50a3c803c59881adccc746b.js",
+  "title": "an random song i made",
+  "author": "tribute1123",
+  "mode": "Bytebeat",
+  "rate": 40960,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "50896f0e68f865169bc6e112db2f50d6b5ab6008bd566984ddbbb8a254897fc5",
+  "upstream": {
+    "hash": "6d0c0fe1f50a3c803c59881adccc746b",
+    "codeMinLen": 32,
+    "codeMin": "t*(t&2**'4567'[t>>17&3]+3)/256+t",
+    "codeLen": 41,
+    "code": "(t/256)*(t&(2**[4,5,6,7][(t>>17)&3])+3)+t",
+    "author": "tribute1123",
+    "name": "an random song i made",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11fk93c/an_random_song_i_made/",
+    "date": "2023-03-02",
+    "sampleRate": 40960,
+    "tags": [
+      "256"
+    ]
+  }
+}

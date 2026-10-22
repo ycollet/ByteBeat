@@ -1,0 +1,27 @@
+{
+  "file": "songs/fa3f03eee3de07341c1dc42ddc79f3df.js",
+  "title": "lg twinwash end song",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ddf30370c56e40c51adbddb378a4d5e23fc7c5311a2a52794a4c8f2ab23c7f12",
+  "upstream": {
+    "hash": "fa3f03eee3de07341c1dc42ddc79f3df",
+    "codeMinLen": 303,
+    "codeMin": "t*=47.3/48,y=t/1.25,h=y/.75>>15,t||(q=e=f=0),q+=((2*t*2**([7,7,7,12,11,9,7,7,7,4,4,4,5,7,9,2,4,5,4,4,4,7,7,7,7,7,7,12,11,9,7,7,7,12,12,12,12,14,12,11,9,11,12,12,12,12,12,12,12][y>>13]/12)%128+64&128?32:-32)*(256-y/(h==1||h==4||h==5||h==9||h>=12?h>=14?7:1:3)/32%256)/256-q)/8,e+=(q-e)/7,f+=(q-e-f)/8,f/66",
+    "codeLen": 305,
+    "code": "t*=47.3/48,y=t/1.25,h=y/.75>>15,t||(q=e=f=0),q+=((2*t*2**([7,7,7,12,11,9,7,7,7,4,4,4,5,7,9,2,4,5,4,4,4,7,7,7,7,7,7,12,11,9,7,7,7,12,12,12,12,14,12,11,9,11,12,12,12,12,12,12,12][y>>13]/12)%128+64&128?32:-32)*(256-y/((h==1||h==4||h==5||h==9||h>=12)?h>=14?7:1:3)/32%256)/256-q)/8,e+=(q-e)/7,f+=(q-e-f)/8,f/66",
+    "author": "hcdphobe",
+    "name": "lg twinwash end song",
+    "url": "https://dollchan.net/btb/res/163.html#2388",
+    "date": "2023-10-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "LG Washer End of Cycle Song",
+    "coverUrl": "https://youtu.be/clHpyRzb1PI",
+    "tags": [
+      "1k"
+    ]
+  }
+}

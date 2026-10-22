@@ -1,0 +1,36 @@
+{
+  "file": "songs/f6095f2c538fe212a8ac044f6905bdf8.js",
+  "title": "Noisy Beats but only stereo",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7984e1241ddec106e52672b15f0664fadb33e345bed965ffc994aaef9ddab8e7",
+  "upstream": {
+    "hash": "f6095f2c538fe212a8ac044f6905bdf8",
+    "codeMinLen": 66,
+    "codeMin": "[(-t&4095)*(255&t*(t&t>>13))>>12,127&t*(234&t>>8&t>>3)>>(3&t>>14)]",
+    "codeLen": 70,
+    "code": "[((-t&4095)*(255&t*(t&t>>13))>>12),(127&t*(234&t>>8&t>>3)>>(3&t>>14))]",
+    "author": "BaenHoHoHo",
+    "name": "Noisy Beats but only stereo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ukwl5r/noisy_beats_but_only_stereo/",
+    "date": "2022-05-08",
+    "sampleRate": 8000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5462daf823bb99de2740edc38695627b",
+        "author": "tejeez",
+        "name": "Noisy beats",
+        "url": [
+          "https://youtu.be/GtQdIYUtAHg?t=175",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

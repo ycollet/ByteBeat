@@ -1,0 +1,38 @@
+{
+  "file": "songs/b135ec8308f5b227be98f5ce7076aecf.js",
+  "title": "FM ryg",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "278e9f452eb779996adc400fc7c926f92d9eb00cbc7b625dcd75f00c4ace0bb8",
+  "upstream": {
+    "hash": "b135ec8308f5b227be98f5ce7076aecf",
+    "codeMinLen": 235,
+    "codeMin": "fb=a=>(A=sin)(a*PI/128+A(a*PI/256)+abs((B=cos)(a*PI/64))),fw=a=>abs(A(a*PI/32)+B(a*PI/128)+cbrt(A(a*PI/64))+abs(A(a*PI/16))/2)-1,63*(fb(t*(0x98646363>>(t>>11&28)&15)/12)*(1-t/8192%1)**.5+fw((t>>12^(t>>12)-2)%11*t/2)*(1-t/8192%1)**.5/2)",
+    "codeLen": 259,
+    "code": "fmbass=x=>sin(x*PI/128+sin(x*PI/256)+abs(cos(x*PI/64))),\nfmwave=x=>abs(sin(x*PI/32)+cos(x*PI/128)+cbrt(sin(x*PI/64))+abs(sin(x*PI/16))/2)-1,\n63*(fmbass((t*'36364689'[t>>13&7]/12))*((1-t/8192%1)**.5)+(fmwave((((t>>12^(t>>12)-2)%11*t/2)))*((1-t/8192%1)**.5)/2))",
+    "author": "Two2Fall",
+    "name": "FM ryg",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ir0ban/two2fall_stuff/",
+    "date": "2025-02-16",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-25",
+    "date_edited": "2025-12-17"
+  }
+}

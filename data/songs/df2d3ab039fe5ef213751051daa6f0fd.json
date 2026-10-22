@@ -1,0 +1,28 @@
+{
+  "file": "songs/df2d3ab039fe5ef213751051daa6f0fd.js",
+  "title": "Not quite accurate Calvin Harris - Summer",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/df2d3ab039fe5ef213751051daa6f0fd.js",
+  "sha256": "1b7dad899aee017188bb1c2cdb772c682d7c7bab5795567fbe48735b62f3a39a",
+  "upstream": {
+    "hash": "df2d3ab039fe5ef213751051daa6f0fd",
+    "codeMinLen": 611,
+    "codeLen": 620,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "v=-9E9,a=(1.045*t*2**([19,19,28,31,30,30,24,23][1.05*t>>15&7]/12)%256/4+1.045*t*2**([12,12,12,16,14,14,9,11][1.05*t>>15&7]/12)%256/4&255)*(1.05*t>>6&255)>>8,b=1.05*t*2**([v,v,2,2,7,7,9,7,11,11,v,v,v,v,v,v,v,v,2,2,7,v,7,v,4,2,v,v,v,v,v,v,v,v,v,7,7,7,7,11,9,11,v,v,v,v,v,v,v,v,4,2,9,v,7,v,7,v,v,v,v,v,v,v][1.05*t>>13&63]/12)*[1,1,1,-1,1,-1,1,-1,1,-1,1,1,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][1.05*t>>13&63]%256/3-171*'000101010100000000010000000",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Not quite accurate Calvin Harris - Summer",
+    "url": "https://dollchan.net/btb/res/520.html#520",
+    "date": "2023-03-04",
+    "sampleRate": 32000,
+    "coverName": "Calvin Harris - Summer",
+    "coverUrl": "https://youtu.be/ebXbLfLACGM",
+    "tags": [
+      "1k"
+    ]
+  }
+}

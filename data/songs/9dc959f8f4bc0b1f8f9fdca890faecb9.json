@@ -1,0 +1,31 @@
+{
+  "file": "songs/9dc959f8f4bc0b1f8f9fdca890faecb9.js",
+  "title": "the SWANG algorithm",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "22329925a97e7fa70737c9f22e0df66616109f3f4a9c4b60678b76e8b9bc692f",
+  "upstream": {
+    "hash": "9dc959f8f4bc0b1f8f9fdca890faecb9",
+    "codeLen": 106,
+    "code": "t-=t/4&256,t*((t&4096?t%65536<59392?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?10:3:2)",
+    "author": "Greaserpirate",
+    "name": "the SWANG algorithm",
+    "description": "Put t-=t/4&256 before any bytebeat (but after you multiply t by the bpm) and you can make the rhythm swing.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bfqimm/the_swang_algorithm_can_be_used_on_almost_any/",
+    "date": "2024-03-16",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

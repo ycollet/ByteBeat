@@ -1,0 +1,33 @@
+{
+  "file": "songs/02312e8c2d7672c4be17e1fe37285b47.js",
+  "title": "Chaircave",
+  "author": "Admirable-Dot-5854",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "05d66c27b638f4247641add5a5564be1f90b31bc4bbb38a31527afcf71a0f163",
+  "upstream": {
+    "hash": "02312e8c2d7672c4be17e1fe37285b47",
+    "codeMinLen": 103,
+    "codeMin": "a=n=>sin(t*PI*n/256)%256*(-t/n/4&2047)/16E3*(tan(t*PI/n/16384)*sin(t*PI/8192)),a(9)+a(7)+a(5)+a(3)+a(1)",
+    "codeLen": 110,
+    "code": "a=(n)=>sin(t*PI/256*n)%256*(-t/n/4&2047)/2E3/8*(tan(t*PI/128/n/128)*sin(t*PI/4096/2)),a(9)+a(7)+a(5)+a(3)+a(1)",
+    "author": "Admirable-Dot-5854",
+    "name": "Chaircave",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g60wkq/chaircave/",
+    "date": "2024-10-17",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "ce8dd17196de75fb5bbcf4699cbc4d68",
+        "author": "Glebguything",
+        "name": "polysine",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g3awfe/comment/ls049im/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

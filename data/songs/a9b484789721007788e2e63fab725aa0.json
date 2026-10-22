@@ -1,0 +1,34 @@
+{
+  "file": "songs/a9b484789721007788e2e63fab725aa0.js",
+  "title": "bach but with an array",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 38000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a9b484789721007788e2e63fab725aa0.js",
+  "sha256": "a4bb13bfe1ad509a0acab4a647a7b2ae929cdd043e17cd3ab5687af6b31f1843",
+  "upstream": {
+    "hash": "a9b484789721007788e2e63fab725aa0",
+    "codeMinLen": 613,
+    "codeLen": 617,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "4*(sqrt((a=7.5*t*2**(['B*918/916-918/91','>*;2:1;26/;2:1;2','A*;291;28/;291;2','B*=-;,=-91=-;,=-','E*>6=4>692>6=4>6','D*<3:1<380<3:1<3','D(=4<3=481=4<3=4','B(:18/:16.:18/:1','B&;2:1;26/;2:1;2','@&;,9*;,8/;,9*;,','@%=-;,=-91=-;,=-','>*=-;,=-92=-;,=-','>,8/6-8/428/6-8/','=-412/4192412141',';-6341613/634163',';,8/6-8/528/6-8/'][t/256/450&15].charCodeAt(t/8/450&15)/12-76/12)&255)&192)<a>>4?sqrt(a):sqrt(255-a))+((127&t*2**([1,9,6,8,9,3,8,1,6,3,4,9,6,4,6,9][t/256/450&15]/12)/8.1)+(16*sin(t/9E3)+64)&128)/2+32*sin(",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "bach but with an array",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bu32k9/bach_but_with_an_array/",
+    "date": "2024-04-02",
+    "sampleRate": 38000,
+    "remix": [
+      {
+        "hash": "0e968574cd5ac189fc1350cf2f591f3d",
+        "author": "Zackx",
+        "name": "halloween G minor bach",
+        "url": "https://dollchan.net/btb/res/204.html#945"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

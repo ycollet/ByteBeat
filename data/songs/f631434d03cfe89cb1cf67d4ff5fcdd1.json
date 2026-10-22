@@ -1,0 +1,27 @@
+{
+  "file": "songs/f631434d03cfe89cb1cf67d4ff5fcdd1.js",
+  "title": "immersion",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f631434d03cfe89cb1cf67d4ff5fcdd1.js",
+  "sha256": "71b889944b062d4f4f535753ded6a400d6716cc8486abb5fa4d6853d9970b476",
+  "upstream": {
+    "hash": "f631434d03cfe89cb1cf67d4ff5fcdd1",
+    "codeLen": 1208,
+    "fileOrig": 1,
+    "codeText": "t?(p=inp=>t*2**(inp/12),ch=(inp,det)=>sin(cos(p(inp+det)/32*PI)/2.8+sin(cos(p(inp,det)/64*PI)+sin(cos(p(inp+det)/128*PI))))/2,E=t*s/15*87.5,n=D,D=1-(2*E&1),n=U,U='0010'[E&3]*D,U-n>0?A=a=0:A+=s,n=V,V='10000100'[E&7],V-n>0?B=0:B+=s,n=I,I='1010'[4*E&3],I-n>0?C=0:C+=s,n=2e3*env(A,50,6)+200*env(A,25,2)+230,a=(a+n*s)%1,n=3.5e3/(1+B*1200),b=(b+n*s)%1,sn=()=>(c=2*random()-1,f=.2,q=.5,z=q+q/(1-f),x+=f*(c-x+z*(x-y)),y+=f*(x-y),clip((c-y)*(env(A,80,3)/3+env(A,9,2)*min(A*15,1)**1.5)*3.4+sin(2*a*PI)*env(A,10,2)*1.75)),k",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "immersion",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hy1pe3/immersion/",
+    "date": "2025-01-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-17"
+  }
+}

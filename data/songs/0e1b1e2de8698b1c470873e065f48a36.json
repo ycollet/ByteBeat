@@ -1,0 +1,37 @@
+{
+  "file": "songs/0e1b1e2de8698b1c470873e065f48a36.js",
+  "title": "Desire Drive EDM mix/v2",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 37000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b14e06758f7fa467e9ab84aa5dbdbfdd31670762970ebd8e952dd5a84dd71fb6",
+  "upstream": {
+    "hash": "0e1b1e2de8698b1c470873e065f48a36",
+    "codeLen": 496,
+    "code": "r=t*1.1467,a=r=>(r>0&&(t*2**(parseInt('C7C5C32A23AFEA5A23AFHEAFEA5C73A2C7C5C32A23AFEA5A23AFHEAFEA5FC7HF'[63&r>>13],36)/12)*.85&127)-64)*(1-r/4096%4)/6,a(r)+a(r-(d=12288))/2+a(r-d*2)/3+a(r-d*3)/4+a(r-d*4)/5+a(r-d*5)/6+((r**2&31)-16)*(1-r/4096%1)+((t*sin(t>>1)&32)-16)*(1-r/4096/'4444444444442124'[15&r>>14]%1)*[!(~r&16384),'1100111000001111'[15&r>>12]][!(~r>>16&3)|0]+sin(cbrt(r%16384)*8)*32+(b=a=>t*2**(parseInt('57495799'[7&r>>15],36)/12)/(r&8192?8:16)*a%64-32,b(1)+b(1.01))*(1-r%8192/16E3)/1.25",
+    "author": "Zackx",
+    "name": "Desire Drive EDM mix/v2",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#3608",
+      "https://www.reddit.com/r/bytebeat/comments/1dc413o/desire_drive_edm_mixv2/"
+    ],
+    "date": "2024-06-09",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 37000,
+    "remix": [
+      {
+        "hash": "54c43523abda7772e54eecf0b32f92fa",
+        "author": "Zackx",
+        "name": "Desire drive",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#2501",
+          "https://www.reddit.com/r/bytebeat/comments/17crrfb/desire_drive_complete_remix/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

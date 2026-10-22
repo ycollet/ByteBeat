@@ -1,0 +1,43 @@
+{
+  "file": "songs/01ea2855acbbd05b5cec0c85edc52672.js",
+  "title": "Famous 600k",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 60073.387,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/01ea2855acbbd05b5cec0c85edc52672.js",
+  "sha256": "fafc98ae15cbc45caf94d8ef7c99c1f520d37be8c03715f253a834a33f58fe8e",
+  "upstream": {
+    "hash": "01ea2855acbbd05b5cec0c85edc52672",
+    "codeMinLen": 1509,
+    "codeLen": 4140,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "p=0,t||(fb1=0,fb=0,f=[],lp=(a,c)=>(li=F++,f[li]??=0,f[li]+=(a-f[li])*c),hp=(a,c)=>a-lp(a,c),rhp=(a,c,r)=>(f[R=F++]??=0,f[R]=hp(a+f[R]*r,c)),hb=(a,c,b)=>a+hp(a,c)*b,bp=(a,hc,lc)=>hp(lp(a,lc),hc),bb=(a,hc,lc,b)=>a+bp(a,hc,lc)*b,s=(a,cu,cd)=>(f[S=F++]??=0,V=f[S],f[S]+=(a-V)*(V<a?cu:cd)),n=c=>(f[N=F++]??=0,f[N]+=(random()-.5-f[N])*c),dm=1e5,d=(a,h,m,fbfn=x=>x)=>{di=F++;f[di]??=Array(dm).fill(0);df=a;du=0;for(H of h){dr=(dm+dt-round(H.t))%dm;df+=f[di][dr]*H.fb;du+=f[di][dr]*H.m}f[di][dt%dm]=fbfn(df);return a*(1-",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Famous 600k",
+    "description": "A Battle for BFDI/BFB song",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gynp54/a_battle_for_bfdibfb_song_remaked/",
+      "https://dollchan.net/btb/res/7164.html#7226"
+    ],
+    "date": "2024-11-24",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 60073.387,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "78429940b572c2c7dc994b45263bf1e2",
+        "author": "feeshbread",
+        "name": "[ SQUARE, DANCE ]",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+      }
+    ],
+    "coverName": "famous 600k — [bfdi music visualizer]",
+    "coverUrl": "https://youtu.be/SEkJikOcdYI",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-06-04"
+  }
+}

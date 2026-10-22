@@ -1,0 +1,41 @@
+{
+  "file": "songs/311dc3a0f839c0377a505e7ccfb04cc7.js",
+  "title": "foldableboldface",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 64000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "60ee0336a8a70fde2c4ea4044eeffe84c68b659dbb21a09899001441fb82d344",
+  "upstream": {
+    "hash": "311dc3a0f839c0377a505e7ccfb04cc7",
+    "codeMinLen": 301,
+    "codeMin": "l=0,t?0:a=Array(n=24832).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),t/=16+sin(t/164882)/40,f=q=>(a.push(q/4-a[n/2|0]/2+a[n/4|0]/3),x),f(sin(sin(t*(0xf01dab1eb01dface*((t>>13)+11521)).toString(9)[t>>9&15]*PI/[32,48,64,24][t>>15&3])*(sin(t*PI/8192)+2)*(t/163840+1))+random()*sin(t/5555)/4)",
+    "codeLen": 314,
+    "code": "l=0,t?0:a=Array(n=97*256).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),t/=16+(sin(t/164882)/40),f=q=>(y=q,a.push(y/4-a[n/2|0]/2+a[n/4|0]/3),x),f(sin(sin(t*((((t>>13)+11521)*0xf01dab1eb01dface).toString(9))[t>>9&15]*PI/([32,48,64,24][t>>15&3]))*(sin(t*PI/8192)+2)*((t/163840)+1))+random()*sin(t/5555)/4)",
+    "author": "PortablePorcelain",
+    "name": "foldableboldface",
+    "url": "https://dollchan.net/btb/res/55.html#194",
+    "date": "2022-09-09",
+    "mode": "Floatbeat",
+    "sampleRate": 64000,
+    "remix": [
+      {
+        "hash": "9499a8d033db3c59169f5c468b220d95",
+        "author": "lhphr",
+        "name": "Vé",
+        "url": "https://dollchan.net/btb/res/44.html#88"
+      },
+      {
+        "hash": "6343ecfd57a4c4fcd16f8685554d5cb5",
+        "author": "PortablePorcelain",
+        "name": "1fccccf1",
+        "url": "https://dollchan.net/btb/res/55.html#55"
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-12-08"
+  }
+}

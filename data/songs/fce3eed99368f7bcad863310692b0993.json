@@ -1,0 +1,30 @@
+{
+  "file": "songs/fce3eed99368f7bcad863310692b0993.js",
+  "title": "Display Error",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dc065eec6fbb00391c5ca8f999b2d3f2df6bbb28758d28b68a37152fc4066303",
+  "upstream": {
+    "hash": "fce3eed99368f7bcad863310692b0993",
+    "codeLen": 89,
+    "code": "t1=t,t1%=2**(t>>(t>>(t>>12&t>>8|t>>4)^t>>13))^t>>8,[(t1*t1>>12)*t>>16,(t1*-t1>>12)*t>>11]",
+    "author": "Two2Fall",
+    "name": "Display Error",
+    "description": "Set to Points or Waveform mode, max zoom.",
+    "url": "https://www.reddit.com/user/Electrical-While6325/comments/1hh46gc/display_error/",
+    "date": "2024-12-18",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "drawing": {
+      "mode": "Points",
+      "scale": "0"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-11-19"
+  }
+}

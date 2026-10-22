@@ -1,0 +1,33 @@
+{
+  "file": "songs/f65ba46ce254ca0f541d4fd74886d322.js",
+  "title": "bouncing ball",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f65ba46ce254ca0f541d4fd74886d322.js",
+  "sha256": "4482e5af1404d3d7f00e26205ec4d2aeef0c62026e1caa1ec9e47b9274617e82",
+  "upstream": {
+    "hash": "f65ba46ce254ca0f541d4fd74886d322",
+    "codeMinLen": 416,
+    "codeMin": "xx=16,yy=16,f=q(xx,yy),draw(f),f[(t>>9)%yy][t%xx]/3.7*63;function q(x,y){arr=Array(y);for(i=0;i<y;i++){arr[i]=Array(x)}return arr}function draw(arr){t==0?px=2:0;t==0?py=2:0;t==0?dpx=-1:0;t==0?dpy=1:0;for(y=0;y<yy;y++){for(x=0;x<xx;x++){arr[y][x]=0;}}if((px==xx-1)|(px==0)){t%8192==8191?dpx*=-1:0};if((py==yy-1)|(py==0)){t%8192==8191?dpy*=-1:0};t%8192==8191?px+=dpx:0;t%8192==8191?py+=dpy:0;arr[px][py]=15;return arr}",
+    "codeLen": 594,
+    "fileOrig": 1,
+    "codeText": "xx=16,yy=16,f=q(xx,yy),draw(f),f[(t>>9)%yy][t%xx]/3.7*63;function q(x,y){arr=Array(y);for(i=0;i<y;i++){arr[i]=Array(x)}return arr}function draw(arr){t==0?px=2:0;t==0?py=2:0;t==0?dpx=-1:0;t==0?dpy=1:0;for(y=0;y<yy;y++){for(x=0;x<xx;x++){arr[y][x]=0;}}if((px==xx-1)|(px==0)){t%8192==8191?dpx*=-1:0};if((py==yy-1)|(py==0)){t%8192==8191?dpy*=-1:0};t%8192==8191?px+=dpx:0;t%8192==8191?py+=dpy:0;arr[px][py]=15;return arr}",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "bouncing ball",
+    "description": "Like in an Arkanoid game or a TV logo screensaver! Set \"Diagram\" mode and zoom to 1/16 on phones.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18nsqvt/comment/kecqea1/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-12-21",
+    "sampleRate": 32000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "4"
+    },
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

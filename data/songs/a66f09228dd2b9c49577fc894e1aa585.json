@@ -1,0 +1,31 @@
+{
+  "file": "songs/a66f09228dd2b9c49577fc894e1aa585.js",
+  "title": "Experimental AY VGM file player",
+  "author": "Sychamis",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a66f09228dd2b9c49577fc894e1aa585.js",
+  "sha256": "057c7d5a9320563233d9d297a8a4faec965bab72c4db3d4e8ce85b4b8d60e4cf",
+  "upstream": {
+    "hash": "a66f09228dd2b9c49577fc894e1aa585",
+    "codeLen": 258709,
+    "fileOrig": 1,
+    "codeText": "/*\nExperimental AY VGM file player by Sychamis, June 2025\n\nUses the ayumi.js emulator: https://github.com/alexanderk23/ayumi-js\nExample tune is \"The [Bitcrusher]\" by Abstract 64: https://www.youtube.com/watch?v=quo7s79syQs\n\nVGM file format documentation: https://vgmrips.net/wiki/VGM_Specification\nAY documentation: http://www.armory.com/~rstevew/Public/SoundSynth/Novelty/AY3-8910/start.html",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Experimental AY VGM file player",
+    "description": "Uses the <a href=\"https://github.com/alexanderk23/ayumi-js\" target=\"_blank\">ayumi.js</a> emulator",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1le4o3x/experimental_ay_vgm_file_player/",
+    "date": "2025-06-18",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Abstract 64 - The [Bitcrusher]",
+    "coverUrl": "https://youtu.be/quo7s79syQs",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

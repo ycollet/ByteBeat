@@ -1,0 +1,23 @@
+{
+  "file": "songs/5a6f6c948a016b88c52f5b46dcf37a78.js",
+  "title": "Duotrigottogon",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bd8a82938f78433e766533838fb994ac663393d825dcc34127b0dc2fb02857a3",
+  "upstream": {
+    "hash": "5a6f6c948a016b88c52f5b46dcf37a78",
+    "codeLen": 103,
+    "code": "(6E3**(1-t%2**(12-((t>>13&7)==7)-((t>>15&7)==7))/16384)&128)+(t*(t&t>>9)>>11&64)+(t<<3*(t&t>>10)>>4&63)",
+    "author": "lhphr",
+    "name": "Duotrigottogon",
+    "description": "Fast paced.",
+    "url": "https://dollchan.net/btb/res/44.html#54",
+    "date": "2022-04-26",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

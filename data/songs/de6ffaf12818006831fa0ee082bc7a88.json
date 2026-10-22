@@ -1,0 +1,37 @@
+{
+  "file": "songs/de6ffaf12818006831fa0ee082bc7a88.js",
+  "title": "Unnecessary Post 3",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 25941.332,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/de6ffaf12818006831fa0ee082bc7a88.js",
+  "sha256": "ce218cbef7d34646274e22c78bb9a40b75b2d997d54a3b8c866bc01200857d62",
+  "upstream": {
+    "hash": "de6ffaf12818006831fa0ee082bc7a88",
+    "codeLen": 1804,
+    "fileOrig": 1,
+    "codeText": "Hz=95/60*16384,\nn=440/Hz*128*2**(3/12),\nvi=63+sin(t/1e3)*8,\nvi2=63+sin(t/700)*0.1,\n\nl=10,\nl2=15,\n",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Unnecessary Post 3",
+    "url": "https://dollchan.net/btb/res/520.html#5666",
+    "date": "2025-03-16",
+    "mode": "Floatbeat",
+    "sampleRate": 25941.332,
+    "remix": [
+      {
+        "hash": "b51293b62bc5e6d28f1622521fd8160b",
+        "author": "Decent-Manager-6169",
+        "name": "Plage Coquillage",
+        "url": "https://dollchan.net/btb/res/520.html#5514"
+      }
+    ],
+    "coverName": "Coal Bones - BFDI:TPOT Intro (Gibberish!!)",
+    "coverUrl": "https://www.youtube.com/watch?v=J3tzL5eCSAg",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-11",
+    "date_edited": "2025-11-12"
+  }
+}

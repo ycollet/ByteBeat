@@ -1,0 +1,23 @@
+{
+  "file": "songs/71ad056d9d1f9fba7e745ded94937bc0.js",
+  "title": "Awesome level with slower rhythm",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "48a7feaf1c1d9c0843e9bb19970136b562e18ba8283775f52e218b5baedd66d0",
+  "upstream": {
+    "hash": "71ad056d9d1f9fba7e745ded94937bc0",
+    "codeLen": 55,
+    "code": "t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>3",
+    "author": "SthephanShi",
+    "name": "Awesome level with slower rhythm",
+    "url": "https://dollchan.net/de/res/706.html#707",
+    "date": "2019-01-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

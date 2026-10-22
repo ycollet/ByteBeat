@@ -1,0 +1,39 @@
+{
+  "file": "songs/d3734d44dfed227d5fc8f5d5eb33f75b.js",
+  "title": "ascendance",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d3734d44dfed227d5fc8f5d5eb33f75b.js",
+  "sha256": "beeab2e6934b0b8fbdfb093ede5d5b58110185460d1a07bb3ffbf8982d9944d1",
+  "upstream": {
+    "hash": "d3734d44dfed227d5fc8f5d5eb33f75b",
+    "codeLen": 1993,
+    "fileOrig": 1,
+    "codeText": "// what you're looking at is feeshbread's Dead Data reverb and filters\n\nt || (\n\nwsin = phase => (- cos(phase / 128 * PI) + 1) * 128 - .5,\n\nfx = [],\n",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "ascendance",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ljk25h/ascendance/",
+    "date": "2025-06-24",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "2ea7c3978bdab9c2ecb1e16fc5351460",
+        "author": "feeshbread",
+        "name": "Dead Data",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/dead_data_my_entry_for_byte_battle_season_1/",
+          "https://bytebeat.oops.wtf/season1/entries.html",
+          "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "file": "songs/673304052b1f530ec2eb80f4849f1e2d.js",
+  "title": "Formants 'n' Fourier",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/673304052b1f530ec2eb80f4849f1e2d.js",
+  "sha256": "ce48a018388ac069403763e5cc2ef31436fbaab911479a406c7107c9c712ec1c",
+  "upstream": {
+    "hash": "673304052b1f530ec2eb80f4849f1e2d",
+    "codeLen": 2182,
+    "fileOrig": 1,
+    "codeText": "BB=t=>(\nF=2*PI/48000,\nG=t%(1<<16),\nOS=1+sin(F*t*5)/t/F/700*(1-.5**(G/2E4)), // Fundamental frequency scale (vibrato for naturality)\nFF=77*256/48000*OS,\t// Fundamental frequency\nFS=t*FF%256,  // Saw wave at fundamental frequency\nS=f=>sin(f*FS/FF*F), // Sine wave at a given frequency, hard-synced with fundamental\nPH=[ // (DC + Formant1 + Formant2 + ...)",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Formants 'n' Fourier",
+    "description": "\"Speech synthesis\" fed to FFT algorithm.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fe5fb7/formants_n_fourier/",
+    "date": "2024-09-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "0bbd41cd6cc03ffc2908982b0ca4c15b",
+        "author": "May_I_Change_My_Name",
+        "name": "Speech synthesis",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fe5fb7/formants_n_fourier/"
+      },
+      {
+        "hash": "b5db624e9bd4a834293a10ace311d8d7",
+        "author": "May_I_Change_My_Name",
+        "name": "Bytebeat FFT",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fdc4tv/bytebeat_fft/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

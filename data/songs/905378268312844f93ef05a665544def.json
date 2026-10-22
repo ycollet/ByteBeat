@@ -1,0 +1,28 @@
+{
+  "file": "songs/905378268312844f93ef05a665544def.js",
+  "title": "morse code encoder",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/905378268312844f93ef05a665544def.js",
+  "sha256": "fdc3372c2e127329957b37718ceeb77d7c6bdafe0971b0da30a6418bafdabf77",
+  "upstream": {
+    "hash": "905378268312844f93ef05a665544def",
+    "codeMinLen": 706,
+    "codeLen": 937,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "x='bytebeat is awesome!',m={'a':'. ..','b':'.. . . .','c':'.. . .. .','d':'.. . .','e':'.', 'f':'. . .. .','g':'.. .. .', 'h':'. . . .','i':'. .','j':'. .. .. ..','k':'.. . ..', 'l':'. .. . .','m':'.. ..','n':'...','o':'.. .. ..', 'p':'. .. .. .','q':'.. .. . ..','r':'. .. .', 's':'. . .', 't':'..','u':'. . ..', 'v':'. . . ..','w':'. .. ..', 'x':'.. . . ..','y':'.. . .. ..','z':'.. .. . .',' ':'  ','1':'. .. .. .. ..','2':'. . .. .. ..','3':'. . . .. ..','4':'. . . . ..','5':'. . . . .','6':'.. . . . .','7'",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "morse code encoder",
+    "description": "Sends 'bytebeat is awesome!' in Morse code",
+    "url": "https://www.reddit.com/r/bytebeat/comments/123jytq/morse_code_encoder/",
+    "date": "2023-03-27",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

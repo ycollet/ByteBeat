@@ -1,0 +1,33 @@
+{
+  "file": "songs/363787635234f94a4dc2a9448047a33b.js",
+  "title": "aturned777 remake using arrays",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fbdc197c692c15d8a34c5f00a6404163c2621fb9cb5b7fd24fc5366e535ec9c9",
+  "upstream": {
+    "hash": "363787635234f94a4dc2a9448047a33b",
+    "codeMinLen": 106,
+    "codeMin": "t>>t*'1234'[(t>>13)%4]/[4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22][(t>>15)%16]>>[.5,2][(t>>12)%2]",
+    "codeLen": 109,
+    "code": "t>>t*[1,2,3,4][(t>>13)%4]/[4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22][(t>>15)%16]>>[.5,2][(t>>12)%2]",
+    "author": "Maxi",
+    "name": "aturned777 remake using arrays",
+    "url": "https://dollchan.net/btb/res/500.html#1694",
+    "date": "2023-07-23",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "d0f086db4564e2ad51970cd662806c36",
+        "author": "aturned777",
+        "name": null,
+        "url": "https://dollchan.net/btb/res/3.html#406"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

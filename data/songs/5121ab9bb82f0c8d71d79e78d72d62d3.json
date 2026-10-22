@@ -1,0 +1,33 @@
+{
+  "file": "songs/5121ab9bb82f0c8d71d79e78d72d62d3.js",
+  "title": "cool dubstep song",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9216203676c01288921ca68d84d1c9ccb1b268271afa795d276b45ac9dd1cbae",
+  "upstream": {
+    "hash": "5121ab9bb82f0c8d71d79e78d72d62d3",
+    "codeMinLen": 161,
+    "codeMin": "(63+64*sin(n=t*(t&t>>12)/164))*(t>>13<60)+t*random()%((-t>>8)%128+128)*(t>>13<64)+(63+64*sin(n*50/22050)+(3E5/(t&32767)&90)+(3E6/(t+16384&32767)&100))*(t>>13>63)",
+    "codeLen": 185,
+    "code": "((63+sin((t*(t&t>>12))/164)*64)*(t>>13<60)+(t*random()%((-t>>8)%128+128))*(t>>13<64))+((63+sin((t*(t&t>>12)*50/22050)/164)*64)+(3E5/(t&32767)&90)+(3E6/((t+16384)&32767)&100))*(t>>13>63)",
+    "author": "RealZynx92",
+    "name": "cool dubstep song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q6emvo/cool_dubstep_song/",
+    "date": "2021-10-12",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "8c20e2e2fbf0ffe9cbbe9b940d700448",
+        "author": "RealZynx92",
+        "name": "dubstep_thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q5oh91/dubstep_thingy/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-03-23"
+  }
+}

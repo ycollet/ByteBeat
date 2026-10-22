@@ -1,0 +1,38 @@
+{
+  "file": "songs/1e3a1cd9bc32a1fef6509db433e90996.js",
+  "title": "lazy jones - star dust",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1025bc2f1fe075d2c7ba4a677c980a2e2b842826c4fb4a4ae47a2aaa7f71c54c",
+  "upstream": {
+    "hash": "1e3a1cd9bc32a1fef6509db433e90996",
+    "codeMinLen": 219,
+    "codeMin": "r=1.25*t,w=(x,y)=>(t*2**(x/12)/y%256/4-32)*(-cos(r*PI/4096)+1),w([-12,12,15,17,19,0,-12,0,-12,12,15,17,19,20,19,15,17,5,-7,5,15,7,19,12,-12,0,-12,0,-12,0,-12,0][31&r>>13],.99)+w([0,0,0,0,5,7,0,0][7&r>>15],'21'[1&r>>13])",
+    "codeLen": 222,
+    "code": "r=t*1.25,w=(x,y)=>((t*2**(x/12)/y%256/4)-32)*(-cos(r*PI/4096)+1),\nw([-12,12,15,17,19,0,-12,0,-12,12,15,17,19,20,19,15,17,5,-7,5,15,7,19,12,-12,0,-12,0,-12,0,-12,0][31&r>>13],.99)+w([0,0,0,0,5,7,0,0][7&r>>15],'21'[1&r>>13])",
+    "author": "Zackx",
+    "name": "lazy jones - star dust",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/155w0cg/lazy_jones_star_dust_kernkraft_400/",
+      "https://dollchan.net/btb/res/204.html#1685"
+    ],
+    "date": "2023-07-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      }
+    ],
+    "coverName": "Lazy Jones - Star Dust",
+    "coverUrl": "https://youtu.be/YsorGbKwNlA?t=23",
+    "tags": [
+      "256"
+    ]
+  }
+}

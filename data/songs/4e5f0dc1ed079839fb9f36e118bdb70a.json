@@ -1,0 +1,40 @@
+{
+  "file": "songs/4e5f0dc1ed079839fb9f36e118bdb70a.js",
+  "title": "short simple music",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "33e3a0de8ad760bc942d2785736ff7bb8a0556815860966d31b33c53e8374f77",
+  "upstream": {
+    "hash": "4e5f0dc1ed079839fb9f36e118bdb70a",
+    "codeLen": 260,
+    "code": "t*[2,0,2.35,3,2,2,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22,1.6,1.6,0,0,1.6,1.6,2,2,1.6,1.6,0,0,1.6,1.6,2,2,1.74,1.74,2.22,2.35,1.74,2.22,2.35,2.22,1.74,1.74,2.22,2.35,1.74,2.35,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22][t>>12&63]|t>>\"5655\"[t>>16&3]",
+    "author": "Decent-Manager-6169",
+    "name": "short simple music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s7cb1v/short_simple_music_based_on_simple_step_sequencer/",
+    "date": "2022-01-19",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "5552308f4eecadb941469f0c35d78ff7",
+        "author": "neverforgettoleave",
+        "name": "simple step sequencer",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/jmbsoh/simple_step_sequencer/",
+          "https://www.reddit.com/r/bytebeat/comments/1fdycar/comment/lmkhcog/"
+        ]
+      },
+      {
+        "hash": "728a216d7650c94741d7658a1d2d214c",
+        "author": "1583736",
+        "name": "Cool waveform i guess (second one)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ntpnza/cool_waveform_i_guess/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-06"
+  }
+}

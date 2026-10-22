@@ -1,0 +1,25 @@
+{
+  "file": "songs/4c336ce2b5900e0e975c2dd3de1bed0e.js",
+  "title": "ɪɴɗʊʂʈɾɪʌʟɪʈɤ",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "affa59716174c5a08d95df4b924f1c4c8876d080852d4cb67a72fdee03216606",
+  "upstream": {
+    "hash": "4c336ce2b5900e0e975c2dd3de1bed0e",
+    "codeMinLen": 71,
+    "codeMin": "t*((t>>13)%8+1)&t*((t>>10&4|t>>12&6|t>>16&12)&6|(t>>18)%8)-(-t>>16)%4*9",
+    "codeLen": 81,
+    "code": "(t*(((t>>13)%8)+1))&t*((t>>10&4|t>>12&6|t>>16&12)&6|((t>>18)%8))-(((-t>>16)%4)*9)",
+    "author": "kOLbOSa_exe",
+    "name": "ɪɴɗʊʂʈɾɪʌʟɪʈɤ",
+    "url": "https://www.reddit.com/r/bytebeat/comments/x9odix/%C9%AA%C9%B4%C9%97%CA%8A%CA%82%CA%88%C9%BE%C9%AA%CA%8C%CA%9F%C9%AA%CA%88%C9%A4/",
+    "date": "2022-09-09",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

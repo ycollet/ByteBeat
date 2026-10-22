@@ -1,0 +1,40 @@
+{
+  "file": "songs/3f303d7b5ba53c2fb524d71e160dd39b.js",
+  "title": "non-existence",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3f303d7b5ba53c2fb524d71e160dd39b.js",
+  "sha256": "d96862d51eb725415683a39536f3c72e9469070da16ee0b58a147f522ac21332",
+  "upstream": {
+    "hash": "3f303d7b5ba53c2fb524d71e160dd39b",
+    "codeLen": 3410,
+    "fileOrig": 1,
+    "codeText": "/*\n * non-existence\n * by troubleshoot\n * (remix of Nothing Is Real)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=120,K=H=S=k=h=s=b1=b2=b3=b4=c1=c2=h1=h2=h3=m1=m2=r1=r2=r3=r4=r5=r6=s1=s2=0,Ki=Hi=Sn=1,dbuf=[],e=(a,b,c)=>(1-(a*b<1?a*b:1))**c),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "non-existence",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1nuu7af/nonexistence/",
+    "date": "2025-09-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "7af429ba103f8817757277d56753b5d3",
+        "author": "Two2Fall",
+        "name": "Nothing is real",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gzwwdr/i_finished_my_song_for_the_bytebattle_season_2/",
+          "https://bytebeat.oops.wtf/season2/entries.html"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2025-11-04"
+  }
+}

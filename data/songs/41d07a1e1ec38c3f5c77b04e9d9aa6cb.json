@@ -1,0 +1,30 @@
+{
+  "file": "songs/41d07a1e1ec38c3f5c77b04e9d9aa6cb.js",
+  "title": "filter thing",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03361a55bcc3e5b34a1c0cee7b575613634902b78b6da74a56ca9e58c9a49aac",
+  "upstream": {
+    "hash": "41d07a1e1ec38c3f5c77b04e9d9aa6cb",
+    "codeLen": 375,
+    "code": "a=(t*=2/3)*1.01*2**([0,-2,0,3,5,7,10,12,-5,-2,0,3,5,7,10,12,-7,-2,-4,0,3,5,10,5,0,-2,-4,0,3,5,10,5,-9,-7,-5,-2,-4,0,3,8,-5,-7,-5,-2,-4,0,3,8,-5,-2,7,5,-5,-2,7,3,-5,-2,5,2,0,3,2,-2][t/1.66>>12&63]/12),a=(a%256+a%254)/4,b=t*.503*2**([0,-2,-4,-5][t/1.66>>16&3]/12),b=(b%256+b%255)/5,d=a+b,t>0?0:e=f=0,g=k=>min(max(f+=(e+=d-f)-(e*=k/(k+1)),0),255),g(abs(sin(t/1.66*PI/65536))*64)",
+    "author": "PortablePorcelain",
+    "name": "filter thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15bsx3s/filter_thing/",
+    "date": "2023-07-28",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "4c3f5dd50504fa814de8c135a8518498",
+        "author": "Decent-Manager-6169",
+        "name": "Synthwave",
+        "url": "https://dollchan.net/btb/res/520.html#577"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

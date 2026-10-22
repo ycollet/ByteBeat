@@ -1,0 +1,29 @@
+{
+  "file": "songs/6d36be1366f9dfd9aa9fc24815434521.js",
+  "title": "3008 - Friday",
+  "author": "Evening-Survey-9492",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6d36be1366f9dfd9aa9fc24815434521.js",
+  "sha256": "2292503ef08b0b07c0c60723d256b60fd66987ddc24f49f0dc23ba2d6cdb39dd",
+  "upstream": {
+    "hash": "6d36be1366f9dfd9aa9fc24815434521",
+    "codeLen": 15279,
+    "fileOrig": 1,
+    "codeText": "let arrays = []\nlet BPM = 93.825\nlet baseFreq = 220\n\nlet Volume = 30\n\nlet kick = (time, startTime) => {\n\tlet t = time - startTime",
+    "isTruncated": 1,
+    "author": "Evening-Survey-9492",
+    "name": "3008 - Friday",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1o1l2mn/3008_friday",
+    "date": "2025-10-09",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Roblox 3008 OST - Friday Theme",
+    "coverUrl": "https://www.youtube.com/watch?v=UYq0xU_7F98",
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-10-09"
+  }
+}

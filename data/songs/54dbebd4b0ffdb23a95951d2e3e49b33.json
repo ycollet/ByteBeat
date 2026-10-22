@@ -1,0 +1,25 @@
+{
+  "file": "songs/54dbebd4b0ffdb23a95951d2e3e49b33.js",
+  "title": "Some kind of Non-JS echo effect I discovered?",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "54a95ad67a2106e56124c4d3606627f3c4085d973961777d5c76b96c335b5729",
+  "upstream": {
+    "hash": "54dbebd4b0ffdb23a95951d2e3e49b33",
+    "codeMinLen": 27,
+    "codeMin": "t*(t>>12)<<(-t>>10&7)&-t>>2",
+    "codeLen": 31,
+    "code": "((t*(t>>12))<<(-t>>10&7))&-t>>2",
+    "author": "Devan Wolf",
+    "name": "Some kind of Non-JS echo effect I discovered?",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

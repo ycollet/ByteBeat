@@ -1,0 +1,28 @@
+{
+  "file": "songs/fe9d0c24b0d5dd7e8a40c6ed0729cc95.js",
+  "title": "another pcm test",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fe9d0c24b0d5dd7e8a40c6ed0729cc95.js",
+  "sha256": "0405221167470f87319abc92f1da4a68a9fef76851acb851b6447ae1a332f2e3",
+  "upstream": {
+    "hash": "fe9d0c24b0d5dd7e8a40c6ed0729cc95",
+    "codeLen": 165963,
+    "fileOrig": 1,
+    "codeText": "c=(v,mi,mx)=>min(max(v,mi),mx),\nvol=4,\nsampledata=\"~~~~~~~~~~~~~~~~}~~}}}}|}}||}|||||||||||{{{z{zyzzyyyzzyzzzyzzzyzyzzzzzzz{{{z{{{|{{||||||||||}}|}||||}}}}}}~}~~~~~~}}}|}}|}||{z{z{|{|||{z{zzzz{{{{{|}|~~~}}}~~~~}~~}}}||}}}}}}}|{{{{{{{{||~~~}{{zyz{{|~~~~~~~~}}||{z{|||{~~~~|zyxwwuuuuusrqprqoppommonnppppqrrsvvwyz||}}~",
+    "isTruncated": 1,
+    "author": "GDPlayer_1035",
+    "name": "another pcm test",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b5a3ld/another_pcm_test/",
+    "date": "2024-03-03",
+    "sampleRate": 22050,
+    "coverName": "Ice Cube - It Was A Good Day",
+    "coverUrl": "https://youtu.be/h4UqMyldS7Q",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-14"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/6343ecfd57a4c4fcd16f8685554d5cb5.js",
+  "title": "1fccccf1",
+  "author": "PortablePorcelain",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e7cfc1ce874c0ed924ed627278d5a5f44158bd172b83f16a7000d3f330df76f9",
+  "upstream": {
+    "hash": "6343ecfd57a4c4fcd16f8685554d5cb5",
+    "codeMinLen": 85,
+    "codeMin": "((0x1fccccf1>>(t>>10)*(t>>11))%8*2**((t>>16&3)-1)*t|t>>3)%128+32*sin(5E3/(t&4095))-32",
+    "codeLen": 112,
+    "code": "a=((t*(Math.pow(2, (t>>16&3)-1)))*((0x1fccccf1>>(t>>10)*(t>>11))%8))|t>>3,b=a%128-32,c=sin(5000/(t&4095))*32,b+c",
+    "author": "PortablePorcelain",
+    "name": "1fccccf1",
+    "url": "https://dollchan.net/btb/res/55.html#55",
+    "date": "2022-04-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-08"
+  }
+}

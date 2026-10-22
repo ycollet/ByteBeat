@@ -1,0 +1,25 @@
+{
+  "file": "songs/f79809e1a51c24f2e3776d816602e711.js",
+  "title": "tetris bud",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a8bf2a87854b29f639d12a3287896e10944e99b1ae496f4f3895787bf8d1d792",
+  "upstream": {
+    "hash": "f79809e1a51c24f2e3776d816602e711",
+    "codeLen": 430,
+    "code": "m=-t,u=.83,k=[18,18,20,9][t/1.2>>13&3],v=u*2*t*2**([13,13,8,9,11,11,9,8,6,6,6,9,13,13,11,9,8,8,8,9,11,11,13,13,9,9,6,m,6,6,m,m,m,11,11,14,18,18,16,14,13,13,13,9,13,m,11,9,8,8,8,9,11,11,13,13,9,9,6,m,6,6,m,m][t/1.2>>13&63]/12)/128*PI,v2=u*(1+(t/1.2>>13&1))*((t/1.2>>15&15)>=8?2:1)*t*2**([13,13,18,18,17,13,18,k,11,11,9,9,8,1,6,6][t/1.2>>15&15]/12)/512*PI,sin(v/2+sin(v*1.5)-atan(cos(v*2)))/5+sin(v2+sin(v2/2)*(32-t/1.2/256%32)/6)/2",
+    "author": "hcdphobe",
+    "name": "tetris bud",
+    "url": "https://www.reddit.com/r/bytebeat/comments/155kp69/tetris_bud_by_hcdphobe/",
+    "date": "2023-07-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Tetris theme",
+    "coverUrl": "https://youtu.be/NmCCQxVBfyM",
+    "tags": [
+      "1k"
+    ]
+  }
+}

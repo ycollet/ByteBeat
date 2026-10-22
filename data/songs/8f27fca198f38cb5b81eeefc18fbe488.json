@@ -1,0 +1,33 @@
+{
+  "file": "songs/8f27fca198f38cb5b81eeefc18fbe488.js",
+  "title": "something i made while experimenting with my own remix of TIRO",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4d88b7f88f7f302c0c2f2f092600d5ccdfda565ca8d55efa6a78b0989c70a281",
+  "upstream": {
+    "hash": "8f27fca198f38cb5b81eeefc18fbe488",
+    "codeMinLen": 163,
+    "codeMin": "t/=5.5,((t*(t&16384?6:5)*(3-(3&-t>>9)+(3&t>>8))>>(2&t>>(59392>t%65536?t&4096?2:11:2))|t>>4)/2&127)+(3E4/(t&4095)&128)+random()*((-t>>5)%64+64)+(t*'23'[t>>14&1]&64)",
+    "codeLen": 169,
+    "code": "t/=5.5,((t*(t&16384?6:5)*(3-(3&-t>>9)+(3&t>>8))>>(2&t>>(t%65536<59392?(t&4096?2:11):2))|t>>4)/2&127)+(3E4/(t&4095)&128)+(random()*(((-t>>5)%64)+64))+(t*\"23\"[t>>14&1]&64)",
+    "author": "RealZynx92",
+    "name": "something i made while experimenting with my own remix of TIRO",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s70nm1/something_i_made_while_experimenting_with_my_own/",
+    "date": "2022-01-18",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "14594f06604769b0fcf67415ac57188e",
+        "author": "RealZynx92",
+        "name": "remix of \"The time is running out!\"",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qf9meb/remix_of_the_time_is_running_out_by_stephanshi/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

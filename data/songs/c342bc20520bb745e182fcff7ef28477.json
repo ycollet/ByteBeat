@@ -1,0 +1,29 @@
+{
+  "file": "songs/c342bc20520bb745e182fcff7ef28477.js",
+  "title": "I don't feel so good...",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c342bc20520bb745e182fcff7ef28477.js",
+  "sha256": "350d5580a4cb152aee2ae5076089b3bbea597e867708262be05b3a9c294877aa",
+  "upstream": {
+    "hash": "c342bc20520bb745e182fcff7ef28477",
+    "codeLen": 4624,
+    "fileOrig": 1,
+    "codeText": "let mod=(n,m=1)=>(n%m+m)%m,\n    flr=Math.floor,TAU=Math.PI*2,\n    read=(a,i)=>a[mod(floor(i),a.length)],\n    mix=(a,b,x)=>a+x*(b-a),\n    readLerp=(a,i)=>mix(a[mod(floor(i),a.length)],a[mod(floor(i)+1,a.length)],mod(i)),\n    rand=(...a)=>a.length===2?mix(a[0],a[1],Math.random()):a.length?Math.random()*a[0]:Math.random(),\n    nHz=n=>440*2**(n/12),\n    sine=x=>Math.sin(TAU*x),",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "I don't feel so good...",
+    "description": "Very cool grainy sounds.",
+    "url": "https://dollchan.net/btb/res/3.html#5725",
+    "date": "2025-03-25",
+    "mode": "Funcbeat",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-31"
+  }
+}

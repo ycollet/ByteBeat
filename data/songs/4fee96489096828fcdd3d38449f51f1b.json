@@ -1,0 +1,26 @@
+{
+  "file": "songs/4fee96489096828fcdd3d38449f51f1b.js",
+  "title": "Multi-voice ByteBeat",
+  "author": "Radnyx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4fee96489096828fcdd3d38449f51f1b.js",
+  "sha256": "3976835fea7c4e7bcbc6f96c09fb4b8b86246c255f40078d14660f155c741e3e",
+  "upstream": {
+    "hash": "4fee96489096828fcdd3d38449f51f1b",
+    "codeLen": 31127,
+    "fileOrig": 1,
+    "codeText": "128\n\n+((sin(t/\n(\n+1.45*(0||(t >= 232800 && t < 233600))\n+4.34*(0||(t >= 28000 && t < 28800)||(t >= 51200 && t < 64000)||(t >= 79200 && t < 80000)||(t >= 130400 && t < 131200)||(t >= 153600 && t < 166400)||(t >= 181600 && t < 182400))\n+1.23*(0||(t >= 230400 && t < 232800))\n+4.86*(0||(t < 800)||(t >= 28800 && t < 51200)||(t >= 80000 && t < 103200)||(t >= 131200 && t < 153600)||(t >= 182400 && t < 204800))",
+    "isTruncated": 1,
+    "author": "Radnyx",
+    "name": "Multi-voice ByteBeat",
+    "url": "https://battleofthebits.com/arena/Entry/Multi-voice+ByteBeat/17523/",
+    "date": "2015-04-14",
+    "sampleRate": 8000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2026-01-16"
+  }
+}

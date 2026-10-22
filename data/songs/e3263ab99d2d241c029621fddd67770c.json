@@ -1,0 +1,26 @@
+{
+  "file": "songs/e3263ab99d2d241c029621fddd67770c.js",
+  "title": "Volume meter",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e3263ab99d2d241c029621fddd67770c.js",
+  "sha256": "af7b940e71d336d21590f63425d46569827b793e2834b0be639274cb50e93fd4",
+  "upstream": {
+    "hash": "e3263ab99d2d241c029621fddd67770c",
+    "codeLen": 4184,
+    "fileOrig": 1,
+    "codeText": "f=(x,w)=>((w*2+(floor(((x*128)%w|(t>>(t%(8*w))/w)%w|(t>>128)%w)-((t>>(t%(8*w))/w)%w|(t>>128)%w)/2)%w/(w/256)))%256),\r\nxp=\r\nf(t*2**([0,2,3,7,2,3,7,5][[t>>13,t>>10&t>>13][t>>19&1]&7]/12-3),2**12)/3\r\n+(t/4*2**([0,2,3,5][t>>17&3]/12))%256/4\r\n+48*random()*(1-(t>>4)/256%1)*[1,1-(t/64&1&t>>13),1-(t/64&1&t>>13),1-(t/128&1&t>>12)][t>>14&3]\r\n+sin((2**19/(t%2**13+1)*'10010100'[t>>13&7])/128*PI)*32+32,\r\n\r\nr_DC = 0, //Reduce DC? (this is for in case your audio driver not sounding weird downsides it reduses 50% of the au",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "Volume meter",
+    "description": "Volume meter in the error console.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1d2zhbm/uhhh/",
+    "date": "2024-05-29",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

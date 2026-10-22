@@ -1,0 +1,30 @@
+{
+  "file": "songs/01414c49b647707685efaa8dca099e69.js",
+  "title": "Dialup explained",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/01414c49b647707685efaa8dca099e69.js",
+  "sha256": "e3a7cf5ae5902d7707c52f850801fd230dfb7be6bff2c75fd795a152a4b35f6c",
+  "upstream": {
+    "hash": "01414c49b647707685efaa8dca099e69",
+    "codeLen": 7387,
+    "fileOrig": 1,
+    "codeText": "// Change this to 1 to more easily read the explanation.\nconst read = 0;\n\nlet clock = 0;\nlet sampleRate = 0;\nlet tick = 1;\n\nfunction display() {",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Dialup explained",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1i054vm/dialup_explained/",
+    "date": "2025-01-13",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "V.90 Dial-Up Connection",
+    "coverUrl": "https://www.youtube.com/watch?v=jpMrTxMV6E4",
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-04"
+  }
+}

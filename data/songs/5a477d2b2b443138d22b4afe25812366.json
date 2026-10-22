@@ -1,0 +1,30 @@
+{
+  "file": "songs/5a477d2b2b443138d22b4afe25812366.js",
+  "title": "Grains of Sand Instrumental Recreation",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5a477d2b2b443138d22b4afe25812366.js",
+  "sha256": "ec7b78514bdf6c3b65bd2330f163aa138cee667fa7d907c4c28b4d6f4cd27af4",
+  "upstream": {
+    "hash": "5a477d2b2b443138d22b4afe25812366",
+    "codeLen": 7298,
+    "fileOrig": 1,
+    "codeText": "ST=(t/=1.09,t?0:Reverb=Array(13362).fill(0),a=(\n\nv=-9e9,\n\nsm1=[4,3,-1,-4][t/4.4>>11&3],\nsm2=[4,2,-3,-6][t/4.4>>11&3],\nsm3=[6,3,-1,-4][t/4.4>>11&3],\nsm4=[6,4,0,-5][t/4.4>>11&3],",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Grains of Sand Instrumental Recreation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11rp2f2/grains_of_sand_instrumental_recreation/",
+    "date": "2023-03-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Andrew Huang - 300000 Note Song (Grains of Sand)",
+    "coverUrl": "https://www.youtube.com/watch?v=XOCgs_nMxDc",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

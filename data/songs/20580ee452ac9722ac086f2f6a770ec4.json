@@ -1,0 +1,30 @@
+{
+  "file": "songs/20580ee452ac9722ac086f2f6a770ec4.js",
+  "title": "Super Mario Bros. 3 Thingy",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/20580ee452ac9722ac086f2f6a770ec4.js",
+  "sha256": "289144dcba2105f167b68e2145eccca58fccb738c47637188343b814c85cf6fa",
+  "upstream": {
+    "hash": "20580ee452ac9722ac086f2f6a770ec4",
+    "codeLen": 10770,
+    "fileOrig": 1,
+    "codeText": "// UNCOMMENTED & UNDOCUMENTED VERSION\n\nSR = 48000, \nTN = 440,\nSpB = 16384,\nV = 128,\nBpM = 102,\n",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Super Mario Bros. 3 Thingy",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1o8nnzb/super_mario_bros_3_thingy/",
+    "date": "2025-10-17",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "Super Mario Bros 3 OST - Whistle Sound & Warp Map",
+    "coverUrl": "https://youtu.be/-t-969wZ7hA",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-07",
+    "date_edited": "2025-12-10"
+  }
+}

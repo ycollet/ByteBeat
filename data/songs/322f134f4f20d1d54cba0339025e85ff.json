@@ -1,0 +1,30 @@
+{
+  "file": "songs/322f134f4f20d1d54cba0339025e85ff.js",
+  "title": "otherworldly blossoming",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/322f134f4f20d1d54cba0339025e85ff.js",
+  "sha256": "5c75106b754381e355f3ad9db624d8e46e5571dbb1d878afc42bf4313063d9a2",
+  "upstream": {
+    "hash": "322f134f4f20d1d54cba0339025e85ff",
+    "codeMinLen": 787,
+    "codeFormLen": 968,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "X=[0,-3,0,-9],Y=sin,U=undefined,t||(S=[44,,48,,39,,,35,,39,,30,,,26,,30,,17,,,13,,17,,-5],S2=[-22,13,22,13,0,13,22,-9-22,13,22,13,-9,13,22],P=0,L=28,N=[],T=0,i=0,DL=Array(e=8).fill().map((_,i)=>Array(round(4e3*1.25**i)).fill(0))),T||(T=13e3,N=N.filter(x=>x[0]<2e5),S[i%28]==U||N.push([0,S[i%28]+X[i/56&3],1]),S2[i%14]==U||N.push([0,S2[i%14]+X[i/56&3]-22,0]),i++),s=N[l='length']?N.map(x=>(p=2*PI*x[0]/48e3*2**(x[1]/22)*333,o=Y(p+x[2]*Y(p)*Y(t+Y(t/1e5)*3e4)**2)*(.85+.1*(x[2]|(x[1]<-21)))**(x[0]/1e3)*Y(PI/2*min(x",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "otherworldly blossoming",
+    "url": "https://battleofthebits.com/arena/Entry/otherworldly+blossoming+%28floatbeat+48k%29.txt/84130/",
+    "date": "2026-04-20",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-05-10",
+    "date_edited": "2026-06-05"
+  }
+}

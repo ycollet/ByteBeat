@@ -1,0 +1,34 @@
+{
+  "file": "songs/2dad1de7ec2fc96426f7c0186d2fc458.js",
+  "title": "sus4 (Spaaaace!)",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d0bc67b82758e3197e538f9acd7940cdd547b679699262d1ad379f7ff1300c0d",
+  "upstream": {
+    "hash": "2dad1de7ec2fc96426f7c0186d2fc458",
+    "codeLen": 262,
+    "code": "T=t/5E3,b=T>>7,k=b+2&4?8:4,S=(s,p,d=0)=>(t*2**(p+'057'[(T-d)/s%3|0]/12+((1-(T>>5&3))%2+1)/4)&128)/3,N=p=>1E5*sin(T*p|0)&64,S(2,0)+S(2,0,3)/2+(b&&S(0,-2))+(b>1&&S(.25,1)*(1-T%16/20))+(b>2&&.4*N(1E6)*(1-(T+k/2)%k/k))+(b>3&&(64/(T%k)&64)+(T&k&&.6*N(330)*(1-T%k/k)))",
+    "author": "Chasyxx",
+    "name": "sus4 (Spaaaace!)",
+    "description": "\"Dark Forest\" with 0,5,7 pattern.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10k73al/comment/j6ksxue/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-01-31",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0c8f1f876ccea2f144287a89038b964f",
+        "author": "SthephanShi",
+        "name": "Dark Forest",
+        "url": [
+          "https://battleofthebits.com/arena/Entry/Dark+forest/57555/",
+          "https://www.reddit.com/r/bytebeat/comments/10k73al/dark_forest/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

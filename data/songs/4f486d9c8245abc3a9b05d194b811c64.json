@@ -1,0 +1,23 @@
+{
+  "file": "songs/4f486d9c8245abc3a9b05d194b811c64.js",
+  "title": "Tansin",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fbb140450f48a7044677df40a94ab322a3420032953c63628f53b2b354217d18",
+  "upstream": {
+    "hash": "4f486d9c8245abc3a9b05d194b811c64",
+    "codeLen": 192,
+    "code": "t/=44100,T=2*PI*t,n=4*(x=2**([0,2,-2,4,-5,-3,-1,1][t/4&7]/12))/(1+(t*8&3)),sin(sin(T*n*500)+atan(tan(T*n*75)))/4+(tanh(tan(T*x*100))+tanh(tan(T*x*101))+tanh(tan(T*x*125))+tanh(tan(T*x*150)))/6",
+    "author": "ANoUserXD",
+    "name": "Tansin",
+    "url": "https://battleofthebits.com/arena/Entry/Tansin/62947/",
+    "date": "2023-11-11",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

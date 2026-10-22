@@ -1,0 +1,30 @@
+{
+  "file": "songs/1a7f912f32fe711733e2c02c54b6192b.js",
+  "title": "Technological Bass",
+  "author": "teadrinker",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2249295fb71a660cc3a7b8b75684f5fdd7ab93aef2ba3a14b88865efb1f6364b",
+  "upstream": {
+    "hash": "1a7f912f32fe711733e2c02c54b6192b",
+    "codeMinLen": 241,
+    "codeMin": "s=t/4E4,s+=(1-exp(-s))*38,t=s*6.4,x=108*s*(s<50?t*.97:1+(t|0)%3/2*!!(t/4&16))*((t&63)>47?1.19:1)%2-1,f=1-pow(t%1,-sin(t/8)*1.8+2),x=-(.44*(f-2)*(f+.7)*x*(x*x-1))/((f-.25)*x*x-f/2-.25),b=t/4%1,(x+(sin(b**.53*214)-x)*min(max(1-2*b,0),1)+1)*127",
+    "codeLen": 244,
+    "code": "s=t/4e4,s+=(1-exp(-s))*38,t=s*6.4,x=108*s*(s<50?t*0.97:1+((t|0)%3)/2*!!(t/4&16))*((t&63)>47?1.19:1)%2-1,f=1-pow(t%1,-sin(t/8)*1.8+2),x=-(.44*(f-2)*(f+.7)*x*(x*x-1))/((f-.25)*x*x-f/2-.25),b=t/4%1,(x+(sin(b**.53*214)-x)*min(max(1-2*b,0),1)+1)*127",
+    "author": "teadrinker",
+    "name": "Technological Bass",
+    "description": "Lovebyte 2023 competition  - 1st place.",
+    "url": [
+      "https://demozoo.org/music/318957/",
+      "https://github.com/teadrinker/bytebeat-notes"
+    ],
+    "date": "2023-02-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-09",
+    "date_edited": "2025-11-09"
+  }
+}

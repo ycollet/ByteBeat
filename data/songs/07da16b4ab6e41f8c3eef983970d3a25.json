@@ -1,0 +1,40 @@
+{
+  "file": "songs/07da16b4ab6e41f8c3eef983970d3a25.js",
+  "title": "Echoes of the Crystal Heart",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/07da16b4ab6e41f8c3eef983970d3a25.js",
+  "sha256": "9f90283c870f26679e1dd148fc0a0ccb021ba6b8d6d9076f152e46f56abbc828",
+  "upstream": {
+    "hash": "07da16b4ab6e41f8c3eef983970d3a25",
+    "codeLen": 4299,
+    "fileOrig": 1,
+    "codeText": "/*!\n *      •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · Echoes of the Crystal Heart ♪\n *      •───────────────•°•❀•°•───────────────•\n */\n\nt || (fx = [],\n",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Echoes of the Crystal Heart",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1vbe846/echoes_of_the_crystal_heart/",
+      "https://www.bytebeat.cloud/post/8ccae996-be95-47e6-a570-7135abaf8fc0",
+      "https://dollchan.net/btb/res/7164.html#16207"
+    ],
+    "date": "2026-07-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "30daa2d8022d19a6c96c33d96d55cb82",
+        "author": "pck404",
+        "name": "Lullaby",
+        "url": "https://www.bytebeat.cloud/post/e457b3ce-b16d-4909-9a47-a7ce5797ca0d"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-07-31"
+  }
+}

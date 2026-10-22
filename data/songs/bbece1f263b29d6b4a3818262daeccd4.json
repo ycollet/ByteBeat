@@ -1,0 +1,28 @@
+{
+  "file": "songs/bbece1f263b29d6b4a3818262daeccd4.js",
+  "title": "somehow created this downsample effect",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bbece1f263b29d6b4a3818262daeccd4.js",
+  "sha256": "762884809005d3431670850bc448eafb8687c9184a7b302df76e83deeb3d9445",
+  "upstream": {
+    "hash": "bbece1f263b29d6b4a3818262daeccd4",
+    "codeMinLen": 588,
+    "codeLen": 941,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=t/1.3,t?0:(fx=Array(3e6).fill(0)),t-=t%(2**(T>>14&3)*4),fxi=0,lp=(inp,w)=>{if(w==0)return inp;out=inp+fx[fxi],fx[fxi]=out/(1+1/w);fxi++;return fx[fxi-1]/w;},m=n=>440/375*(2**(n/12)),x=(n)=>(tan(cos(lp(T%16384/16384*3,500)*sin(t*m(n)*PI/128)))/2),kick=tanh(sin(15*sqrt(T%16384)**.5))*(1-T%16384/16384)**5*2*(~T>>14&1),hihat=(random()-.5)*(1-T%8192/8192)**4/1.5,snare=tanh(sin(sqrt(T%16384+random()*45)*2))*(1-T%16384/16384)**5*(T>>14&1)*2,((x((z=[5,3,2,0][T>>16&3]-12)-24)+x(z)+x(z+3)+x(z+7)+x(z+10))/6+lp(t*m(z",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "somehow created this downsample effect",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gx5m74/somehow_created_this_downsample_effect/",
+    "date": "2024-11-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

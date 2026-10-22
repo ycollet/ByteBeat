@@ -1,0 +1,23 @@
+{
+  "file": "songs/bb4dea91dc355240e4cb98657461e6dd.js",
+  "title": "the lone system",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8f4bfba95f81beb7cc24cb73c0658a6106ac387adec9a894a378e94ef55eb741",
+  "upstream": {
+    "hash": "bb4dea91dc355240e4cb98657461e6dd",
+    "codeLen": 316,
+    "code": "p=v=>2**(v/12),a=v=>Array(3072*v).fill(0),t?0:(y=[0,0,0],d=[a(1),a(4)]),s=min(max(t/65536%1*16-1,0),2)/2,c=[0,4+s,2,-1.5-s/2,0,4+s,9,12][t>>16&7],w=(v,q)=>sin(y[v]+=p(q)/25)**2,z=(m=((y[0]+=p([0,5][t>>10&1]+c))&32)/(1+t/16384%4)+16*(w(1,c)+w(2,c+5)))+d[0].shift()+d[1].shift(),d[0].push(z/2),d[1].push(z/2.5),(z+m)/2",
+    "author": "lhphr",
+    "name": "the lone system",
+    "description": "An echo type of thing with some pitch sliding.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-06-02",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/ee729a20c122ebe117ac11101baab9c1.js",
+  "title": "Animation with bytebeat",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ee729a20c122ebe117ac11101baab9c1.js",
+  "sha256": "752622382c82fd440a5f1c962b5a2cc534db02e79d3a3bf5c21591d60d5ca001",
+  "upstream": {
+    "hash": "ee729a20c122ebe117ac11101baab9c1",
+    "codeMinLen": 144,
+    "codeMin": "r=1024,ce=(a,j)=>{for(i=output=0;i<=j;i++)output+=a(t-i*r);return output/(j*5)},wave=x=>asin(sin(x*PI/128)),a=t=>64*wave(t*(t>>14&t)),ce(a,16)*5",
+    "codeLen": 204,
+    "fileOrig": 1,
+    "codeText": "r=1024,ce=(a,j)=>{for(i=output=0;i<=j;i++)output+=a(t-i*r);return output/(j*5)},wave=x=>asin(sin(x*PI/128)),a=t=>64*wave(t*(t>>14&t)),ce(a,16)*5",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Animation with bytebeat",
+    "description": "Set to Points or Waveform mode, max zoom.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hiv8vp/animation_with_bytebeat/",
+    "date": "2024-12-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "drawing": {
+      "mode": "Points",
+      "scale": "0"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-11-19"
+  }
+}

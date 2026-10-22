@@ -1,0 +1,36 @@
+{
+  "file": "songs/80cfe95310cdac74bed71f7dc7f7b744.js",
+  "title": "GDPlayer_1035’s thing remix v3",
+  "author": "newmemesfromsnapchat",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/80cfe95310cdac74bed71f7dc7f7b744.js",
+  "sha256": "cdb22525d7e71ba7d62b5762a031ea54e9c715e2f78adbf413ec0aded8457025",
+  "upstream": {
+    "hash": "80cfe95310cdac74bed71f7dc7f7b744",
+    "codeMinLen": 736,
+    "codeLen": 768,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(c_=d_=0),c_+=d_+=(random()-random()-c_-d_)/max(.9993**(t/2/16%8192)*800,1),a=((t>>t%(t>>12)|(t&t>>1&t&t>>2)*t/4096)&255)*[min(t/128/128/16,1),log(1.0005**(t/2%8192))/4][sign(max(atan(t-524288),0))]*1.1/128/2-.5,b=t*((t>>14&1)*(t>>15&1)*(t>>16&1)+1)-.9993**(t/2*((t>>14&1)*(t>>15&1)*(t>>16&1)+1)%8192/((t>>14&1)*(t>>15&1)*(t>>16&1)+1)*3)*7600,sin(.998**(t/2%8192)*80)*sign(max(atan(t-524288),0))/1.5+((random()-random())*.9995**(t/2%8192)*(t>>14&1)/1.5+(random()-random())*.999**(t*2%8192)/1.5)*sign(max(atan(",
+    "isTruncated": 1,
+    "author": "newmemesfromsnapchat",
+    "name": "GDPlayer_1035’s thing remix v3",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ii3wjj/comment/mb9go0v/",
+    "date": "2025-02-06",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "7ba7303625e39698783a1e1fef72528c",
+        "author": "newmemesfromsnapchat",
+        "name": "GDPlayer_1035’s thing remix v2",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ii3wjj/comment/mb9c4o8/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

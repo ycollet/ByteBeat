@@ -1,0 +1,27 @@
+{
+  "file": "songs/0f35201729ee67d8574c5bc49e0907e9.js",
+  "title": "swing rhythm",
+  "author": "Trollge-Guy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2884d17864fe3410f318a66ebd6a13be9204ab92101b9e22a68c5505287778f2",
+  "upstream": {
+    "hash": "0f35201729ee67d8574c5bc49e0907e9",
+    "codeMinLen": 23,
+    "codeMin": "(t>>2)*(t>>6)|t>>3^t>>2",
+    "codeLen": 25,
+    "code": "(t>>2)*(t>>6)|(t>>3)^t>>2",
+    "author": "Trollge-Guy",
+    "name": "swing rhythm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g78kj1/comment/lstloac/",
+    "date": "2024-10-19",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_added": "2025-11-08",
+    "date_edited": "2025-11-09"
+  }
+}

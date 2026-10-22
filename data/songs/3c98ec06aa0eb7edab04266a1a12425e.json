@@ -1,0 +1,27 @@
+{
+  "file": "songs/3c98ec06aa0eb7edab04266a1a12425e.js",
+  "title": "floatbeat tolerable claps",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3c98ec06aa0eb7edab04266a1a12425e.js",
+  "sha256": "856fc86e63738a6b81b63c0d673071e107bdc153f4d97f08f05363852cef9c71",
+  "upstream": {
+    "hash": "3c98ec06aa0eb7edab04266a1a12425e",
+    "codeMinLen": 588,
+    "codeLen": 593,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t>0?(T=t/s*4.2,b=c,c=(54613>>T%16)%2*(1-(2*T&1)),0<c-b?A=0:A+=1/s,o=p,p=(T-.02|0)%4>>1,0<p-o?B=0:B+=1/s,k=m(2E3/(1+600*A),31),a=(a+k/s)%1,d=.008,h=q+q/(1-z),z=.5-.3*(1-1/(1+35*B)),i=2*random()-1,e+=z*(i-e+h*(e-f)),f+=z*(e-f),g+=z*(f-g),j=(f-g)*(B<d?2*v(B,d):B<2*d?.9*v(B-d,d):B<3*d?v(B-2*d,d):v(B-3*d,.11)),x=(T/4.2*32*((2*T&T>>2)%11%9%7)+.5)%1-.5+3*atan(2*j+min(m(1.5*sin(a*PI*2)*exp(-m(A*A*15,0)),-1),1)/2),d=.009,r=r*(1-d)+x*x*d,w=w*(1-d)+r*d,y=y*(1-d)+w*d,u=min(m(y,.2),1),u=0<u?sqrt((2-u)*u)/u:1,x*u/4):(a=b",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "floatbeat tolerable claps",
+    "url": "https://www.reddit.com/r/bytebeat/comments/138lvxw/floatbeat_tolerable_claps/",
+    "date": "2023-05-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

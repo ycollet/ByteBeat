@@ -1,0 +1,27 @@
+{
+  "file": "songs/167813a6fc3e7a9fe43a488cba44afa0.js",
+  "title": "FM bass such as sega genesis",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/167813a6fc3e7a9fe43a488cba44afa0.js",
+  "sha256": "ea05971aa62b8d3c4dce110ceb5a0b816821fac672664de64e2d6128dd8ad843",
+  "upstream": {
+    "hash": "167813a6fc3e7a9fe43a488cba44afa0",
+    "codeMinLen": 184,
+    "codeMin": "e=512,s=r=8,p=[1.5,1.79,2,1,1,2,1,1,1.6,1,1,1.5,1,1,1.2,1][(t>>12)%16]*[1,1,1.5,1.34][3&t>>17],sin(sin(sin(sin(p*t*PI/16)/8*(r-t/e%s)+p*t*PI/16)/6*(r-t/e%s)+p*t*PI/256)+p*t*PI/128)/1.5",
+    "codeLen": 199,
+    "fileOrig": 1,
+    "codeText": "e=512,s=r=8,p=[1.5,1.79,2,1,1,2,1,1,1.6,1,1,1.5,1,1,1.2,1][(t>>12)%16]*[1,1,1.5,1.34][3&t>>17],sin(sin(sin(sin(p*t*PI/16)/8*(r-t/e%s)+p*t*PI/16)/6*(r-t/e%s)+p*t*PI/256)+p*t*PI/128)/1.5",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "FM bass such as sega genesis",
+    "url": "https://dollchan.net/btb/res/204.html#267",
+    "date": "2022-12-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

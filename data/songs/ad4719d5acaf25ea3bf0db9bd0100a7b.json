@@ -1,0 +1,23 @@
+{
+  "file": "songs/ad4719d5acaf25ea3bf0db9bd0100a7b.js",
+  "title": "Feel the Bit!",
+  "author": "TomCat",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4b69685be7d23bb70d5375cec992d70a479af39bd860dc2ae98169241c77da28",
+  "upstream": {
+    "hash": "ad4719d5acaf25ea3bf0db9bd0100a7b",
+    "codeLen": 255,
+    "code": "t*=.4,T=t>>8,W=f=>abs((f&255)*t/16%256-128),C=i=>W('2X^K@m~^\"@K6\"@K6'.charCodeAt(i+x%4+(T/4&8))+26)*S(16),S=s=>(-s*t&65535)/2**17,k=t&8191,(k>>T&32)+(4e4/k&32)+(81>>(T/4&7)&1&&4e4*sin(t*t)&31)+W(W(b=19+[-4,4,6,1,-4,9,6,1][x=T>>8&7])/64+4*b)*S(1)+C(0)+C(4)",
+    "author": "TomCat",
+    "name": "Feel the Bit!",
+    "description": "Lovebyte 2022 competition.",
+    "url": "https://demozoo.org/music/305283/",
+    "date": "2022-02-12",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/593ef084737276b2e744985ff748b92c.js",
+  "title": "octave transition",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7d46a22186ba1945bad82a73e3be1f00df7a9dab3cbc23b25482dfa43949f9f7",
+  "upstream": {
+    "hash": "593ef084737276b2e744985ff748b92c",
+    "codeMinLen": 80,
+    "codeMin": "64*sin(11*(s=PI*(q=t%(a=(f=409600)+f/11/PI)>a/2?a-t%a:t%a)/800)*2**(s%.002))+128",
+    "codeLen": 81,
+    "code": "sin((s=PI*(q=t%(a=(f=409600)+f/11/PI)>a/2?a-t%a:t%a)/800)*11*2**(s%0.002))*64+128",
+    "author": "lhphr",
+    "name": "octave transition",
+    "description": "An interesting transition between different octaves.",
+    "url": "https://dollchan.net/btb/res/44.html#54",
+    "date": "2022-04-29",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

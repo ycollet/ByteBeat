@@ -1,0 +1,1 @@
+l=0,t?0:a=Array(n=97*256).fill(0),f=(z,v)=>sin(l++<z?f(z,v)-v:(l=0,v)),x=a.shift(),t/=16+(sin(t/164882)/40),f=q=>(y=q,a.push(y/4-a[n/2|0]/2+a[n/4|0]/3),x),f(sin(sin(t*((((t>>13)+11521)*0xf01dab1eb01dface).toString(9))[t>>9&15]*PI/([32,48,64,24][t>>15&3]))*(sin(t*PI/8192)+2)*((t/163840)+1))+random()*sin(t/5555)/4)

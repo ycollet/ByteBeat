@@ -1,0 +1,22 @@
+{
+  "file": "songs/cf60aed6f1b33dd31b28dd54012e24c9.js",
+  "title": "Harmonics",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8a886581d35ff00aee34eb0adb29a7af66cdcb56d3b9f220a4876ada76ee3e01",
+  "upstream": {
+    "hash": "cf60aed6f1b33dd31b28dd54012e24c9",
+    "codeLen": 30,
+    "code": "t<<2^t>>4^t<<4&t>>8|t<<1&-t>>4",
+    "author": "SthephanShi",
+    "name": "Harmonics",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

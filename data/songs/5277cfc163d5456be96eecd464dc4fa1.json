@@ -1,0 +1,26 @@
+{
+  "file": "songs/5277cfc163d5456be96eecd464dc4fa1.js",
+  "title": "inside the cornputer",
+  "author": "Baron Knoxburry",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5277cfc163d5456be96eecd464dc4fa1.js",
+  "sha256": "437089b768aa1cba8e9702def5b73e01a45002adaf795cb8846a9862c49a300a",
+  "upstream": {
+    "hash": "5277cfc163d5456be96eecd464dc4fa1",
+    "codeLen": 6397,
+    "codeFormLen": 6645,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "// GLOBALS\nvolume = 95,\nsample_rate = 44100,\nbpm = 188,\ntempo = Math.floor((32 / bpm) * sample_rate),\nfm1out = sqr = puls = 0,\nkb = 0b000001,\nsb = 0b000010,",
+    "isTruncated": 1,
+    "author": "Baron Knoxburry",
+    "name": "inside the cornputer",
+    "url": "https://battleofthebits.com/arena/Entry/inside+the+cornputer/60413/",
+    "date": "2021-05-31",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

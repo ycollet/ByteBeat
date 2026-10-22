@@ -1,0 +1,25 @@
+{
+  "file": "songs/e3e893d8ea178050b4bc1c4dad0cee49.js",
+  "title": "shlakoblochyje manipuljacii",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 20000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8e64ef6affd33120a9546140c86ec0c506926b3832eb962c72a8a78765fa32a5",
+  "upstream": {
+    "hash": "e3e893d8ea178050b4bc1c4dad0cee49",
+    "codeMinLen": 156,
+    "codeMin": "m=[8,8,5,6][(t>>15)%4]/12,(sin(-(.1*m*t%3))/3+sin(-(.05*m*t%3))/3+sin(-(.075*m*t%3)))*(~t>>9&31)/31+1-sin(t*m*.2%3)*(~t>>[7,6,7,6,7,7,6,5][(t>>14)%8]&31)/64",
+    "codeLen": 161,
+    "code": "m=[8,8,5,6][(t>>15)%4]/12,\n(sin(-(0.1*m*t%3))/3+sin(-(0.05*m*t%3))/3+sin(-(0.075*m*t%3)))*(~t>>9&31)/31+1-sin(t*m*0.2%3)*(~t>>[7,6,7,6,7,7,6,5][(t>>14)%8]&31)/64",
+    "author": "kOLbOSa_exe",
+    "name": "shlakoblochyje manipuljacii",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18mpkm1/shlakoblochyje_manipuljacii/",
+    "date": "2023-12-20",
+    "mode": "Floatbeat",
+    "sampleRate": 20000,
+    "tags": [
+      "256"
+    ]
+  }
+}

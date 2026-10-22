@@ -1,0 +1,26 @@
+{
+  "file": "songs/4509c59c3c616f35120550829a905efa.js",
+  "title": "Microscopic Ambience",
+  "author": "Iwaku",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "74653e0c49fd24521ac10364cfa9d7c197fd8536dd4ff324ee8eb66990cc5e19",
+  "upstream": {
+    "hash": "4509c59c3c616f35120550829a905efa",
+    "codeLen": 87,
+    "code": "min(t/5e5,1)*cos(sin(sin(sin(sin(.1*t*PI/2e4)+.1*t*PI/16)+t*PI/500)+t*PI/1e5)+t*PI/8e5)",
+    "author": "Iwaku",
+    "name": "Microscopic Ambience",
+    "url": [
+      "https://dollchan.net/btb/res/3.html#2480",
+      "https://www.reddit.com/r/bytebeat/comments/17aeb6i/133858267710%E2%81%B7_microscopic_ambience/"
+    ],
+    "date": "2023-10-17",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

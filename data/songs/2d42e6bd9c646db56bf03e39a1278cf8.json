@@ -1,0 +1,28 @@
+{
+  "file": "songs/2d42e6bd9c646db56bf03e39a1278cf8.js",
+  "title": "Parametric Guitar + Amp",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2d42e6bd9c646db56bf03e39a1278cf8.js",
+  "sha256": "a98b09e1868077484a287661947f7bc4cfd2cf7c48aa1ed1058bbc2aa3702f46",
+  "upstream": {
+    "hash": "2d42e6bd9c646db56bf03e39a1278cf8",
+    "codeLen": 3362,
+    "fileOrig": 1,
+    "codeText": "let mod=(n,d)=>n%d>=0?n%d:n%d+d;\nlet clamp=(mn,mx)=>q=>max(min(q,mx),mn);\n\nclass Clock {\n\tconstructor(freq) {\n\t\tthis.f = freq;\n\t};\n\ttick(t) {",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Parametric Guitar + Amp",
+    "description": "Experimenting with <a href='https://www.reddit.com/r/bytebeat/comments/1dyjink/string_noises_using_the_karplusstrong_algorithm/' target='_blank'>\"String noises using the Karplus-Strong algorithm\"</a> by Sychamis.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f5bwuf/parametric_guitar_amp/",
+    "date": "2024-08-31",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-12-04"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/2b966822921a70b03fdf488bed34e00a.js",
+  "title": "Enlightment",
+  "author": "emelchenko",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "903a07c9cc342866cf59fb30d0c0da5bf7a1ab3d94d8bbc87619e40a4e999795",
+  "upstream": {
+    "hash": "2b966822921a70b03fdf488bed34e00a",
+    "codeMinLen": 255,
+    "codeMin": "t?0:A=Array(n=11111).fill(0),a=(t>2**22?0:(t*'1234123412346543'[t>>12&15]*(b=[1,1.2,1.5,1.7][t>>17&3])&128)%256*(1-t%4096/4096)+(t>2**21+2**20?0:(t<524288?0:t&4096?0:random()*32)+(t<2**20?0:1E5/(t&8191)&64))+(t<2**21?0:t*b/8&63))%512+A[t%n],A[t%n]=a/2,a/2",
+    "codeLen": 260,
+    "code": "t?0:A=Array(n=11111).fill(0),a=(t>2**22?0:(t*'1234123412346543'[t>>12&15]*(b=[1,1.2,1.5,1.7][t>>17&3])&128)%256*(1-t%4096/4096)+(t>((2**21)+(2**20))?0:(t<2**19?0:t&4096?0:random()*32)+(t<2**20?0:1e5/(t&8191)&64))+(t<2**21?0:t*b/8&63))%512+A[t%n],A[t%n]=a/2,a/2",
+    "author": "emelchenko",
+    "name": "Enlightment",
+    "description": "Bytebattle Season 2 Competition - Newbie rank winner.",
+    "url": "https://bytebeat.oops.wtf/season2/entries.html",
+    "date": "2024-11-26",
+    "sampleRate": 40000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-04"
+  }
+}

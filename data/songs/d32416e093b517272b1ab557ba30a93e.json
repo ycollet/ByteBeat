@@ -1,0 +1,25 @@
+{
+  "file": "songs/d32416e093b517272b1ab557ba30a93e.js",
+  "title": "Slant",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d32416e093b517272b1ab557ba30a93e.js",
+  "sha256": "7981c0d3010e789c8df636c9b960256874e76af85afe2143dfe9fd35d9917b44",
+  "upstream": {
+    "hash": "d32416e093b517272b1ab557ba30a93e",
+    "codeLen": 2609,
+    "fileOrig": 1,
+    "codeText": "// \r\n//         ██\r\n//       ██  ██\r\n//     ██      ██\r\n//       ██      \r\n// ██      ██      ██\r\n//   ██  ██      ██\r\n//     ██      ██\r",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "Slant",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cwq9ei/slant/",
+    "date": "2024-05-20",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

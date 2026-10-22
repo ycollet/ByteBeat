@@ -1,0 +1,42 @@
+{
+  "file": "songs/64e5df34481503d85039885c6d89505a.js",
+  "title": "Synthwave hardcore mix #2",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/64e5df34481503d85039885c6d89505a.js",
+  "sha256": "8a7ea7b1aed3298e31a55931a6bfa4eaef652f25700e5e3019f6e8a4efaccf64",
+  "upstream": {
+    "hash": "64e5df34481503d85039885c6d89505a",
+    "codeLen": 627,
+    "fileOrig": 1,
+    "codeText": "r=t*1.5,l=16384,u=8192,\nmn=(k,x,y)=>min(max(k,x),y),\nx=j=>mn((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.392%64-32,\nmn((w=r=>r>0&&(e=a=>s('1 4 B RN I G F8BF G 8 B6 8 4 643'[31&(11&r>>13)+(r>>15)],a)||(n=a=>s('14BD6B86'[7&r>>16],a)/2,n(1)+n(j)),e(1)+e(j))*(1-r/u%1*[.75,1][1&r>>19]),w(r)+w(r-(d=24576))/2+w(r-2*d)/3+w(r-3*d)/4),-32,31)+mn(-(b=a=>s('D9BG'[3&r>>17],a)*8,b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)**2+1E4*sin(6*cbrt(r%l))*(1-r/l%1/2)**14*!(r&l)/'14'[1&r>>15]+((t*sin(t>>2)&64)-32)*(1-r/l/2%1)**6*14*!(~r&2*l),-64,63",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Synthwave hardcore mix #2",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#4352",
+      "https://www.reddit.com/r/bytebeat/comments/1f7jf0i/synthwave_hardcore_mix_2/"
+    ],
+    "date": "2024-09-02",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "64602ff4182fcf2ca396f22ef91d2051",
+        "author": "Zackx",
+        "name": "Hardcore mix #2 midnight",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4066",
+          "https://www.reddit.com/r/bytebeat/comments/1ei423e/hardcore_mix_2_midnight/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

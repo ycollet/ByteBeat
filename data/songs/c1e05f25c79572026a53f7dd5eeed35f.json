@@ -1,0 +1,26 @@
+{
+  "file": "songs/c1e05f25c79572026a53f7dd5eeed35f.js",
+  "title": "rain",
+  "author": "InfinitySnapz",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c1e05f25c79572026a53f7dd5eeed35f.js",
+  "sha256": "f443e255d81a52faacd9ff8164d9e1fa79017e4e1c024f91d11838712cb81e3c",
+  "upstream": {
+    "hash": "c1e05f25c79572026a53f7dd5eeed35f",
+    "codeMinLen": 164,
+    "codeMin": "t<2?(a=0,b=0,c=0):(a=.999*a+.001*random(),b<0?(b=.7*random(),c=random()):b-=1/44100,abs(256*a*(5*sin(t/5E4)+10)%256-128)+255*(t/300*(10*c+200)&2)*b**(random()/5+4))",
+    "codeLen": 220,
+    "fileOrig": 1,
+    "codeText": "t<2?(a=0,b=0,c=0):(a=.999*a+.001*random(),b<0?(b=.7*random(),c=random()):b-=1/44100,abs(256*a*(5*sin(t/5E4)+10)%256-128)+255*(t/300*(10*c+200)&2)*b**(random()/5+4))",
+    "isTruncated": 1,
+    "author": "InfinitySnapz",
+    "name": "rain",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ceg1gu/rain/",
+    "date": "2019-07-17",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/52bdb3f53879a0bcaf066216c5533d0f.js",
+  "title": "Bad ending theme",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/52bdb3f53879a0bcaf066216c5533d0f.js",
+  "sha256": "32a8700b93eb449382296ab1ca9f1e5fe07c6bdc4755a3c3c39c22a064b0d4a0",
+  "upstream": {
+    "hash": "52bdb3f53879a0bcaf066216c5533d0f",
+    "codeMinLen": 193,
+    "codeMin": "S=x=>t*2**(x/12),(S([4,2,0,-1][C=t>>16&3])/3%85+S('97549'[C])/3%85+S([12,11,9,8][C])/3%85+S([-3,4,-3,2,-3,4,-3,2,-5,4,-5,2,-5,4,-5,2,-7,4,-7,2,-7,0,-7,-1,-8,4,-8,2,-8,0,-8,-1][t>>13&31])%256)/2",
+    "codeLen": 823,
+    "fileOrig": 1,
+    "codeText": "S=x=>t*2**(x/12),(S([4,2,0,-1][C=t>>16&3])/3%85+S('97549'[C])/3%85+S([12,11,9,8][C])/3%85+S([-3,4,-3,2,-3,4,-3,2,-5,4,-5,2,-5,4,-5,2,-7,4,-7,2,-7,0,-7,-1,-8,4,-8,2,-8,0,-8,-1][t>>13&31])%256)/2",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Bad ending theme",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fu0lrw/arpeggios/",
+    "date": "2024-10-02",
+    "sampleRate": 33000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-04"
+  }
+}

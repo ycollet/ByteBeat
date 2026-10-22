@@ -1,0 +1,28 @@
+{
+  "file": "songs/85eb4598020f941e7aea3e10297971a9.js",
+  "title": "ByteCrusher (fm synth and sequencer setup)",
+  "author": "Bp103",
+  "mode": "Floatbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/85eb4598020f941e7aea3e10297971a9.js",
+  "sha256": "6b8cf41e22ce4f931b0e38c14552c5b60533d6919eb414925af9843156037acb",
+  "upstream": {
+    "hash": "85eb4598020f941e7aea3e10297971a9",
+    "codeLen": 5349,
+    "codeFormLen": 6215,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SampleRate=22000, delay=SampleRate*4, debug=1,\nt==0?(notetbl=[],retrig=[],oldOutput=[],oldIndex=[],debugr=[],console=0):0,\nmain(t);\n// byteCrusher by Bp103.\nfunction main(t)\n{\n\tt%=SampleRate/(22/141); //Song approximate loop point (lags to death otherwise)\n\tif(t==0)init();",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "ByteCrusher (fm synth and sequencer setup)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/zp3iv1/bytecrusher_fm_synth_and_sequencer_setup/",
+    "date": "2022-12-18",
+    "mode": "Floatbeat",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ]
+  }
+}

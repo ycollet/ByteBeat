@@ -1,0 +1,32 @@
+{
+  "file": "songs/ea0fb34736135a8ae9bd9ad70dff9d30.js",
+  "title": "Prepare to fight",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "006afe783c05670df9fe10693d6fb88fe8b32ec7555ae20fce5b4e7118478f6a",
+  "upstream": {
+    "hash": "ea0fb34736135a8ae9bd9ad70dff9d30",
+    "codeLen": 58,
+    "code": "2*t*(t&16384?6:5)*(4-(3&t>>8))>>(3&-t>>15)|t>>(t&4096?3:4)",
+    "author": "SthephanShi",
+    "name": "Prepare to fight",
+    "description": "Long period, sound is changing from low to high.",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "3040094e07749bfe7ee19a994994bde0",
+        "author": "SthephanShi",
+        "name": "Funny inverted sound",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

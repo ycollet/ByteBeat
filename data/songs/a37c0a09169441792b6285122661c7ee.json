@@ -1,0 +1,30 @@
+{
+  "file": "songs/a37c0a09169441792b6285122661c7ee.js",
+  "title": "extended Ievan Bytebeat Polkka",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2aa890bfae71b7c31f4b1cd4678f2c0eac673d711b1e2bb68ad58d32c65f188f",
+  "upstream": {
+    "hash": "a37c0a09169441792b6285122661c7ee",
+    "codeLen": 389,
+    "code": "t*=11839.744/11025,p=2**((x=(t>>13&3)==2)/6),s=\"1103111211111112110311102222111211110022222211031111022222221103\"[t>>11&63],((~t>>3&(t>>11&1?x?5:4.8:4-(t>>12&1))*t/p&(t>>7)+t*6/p&255)>>1)+(t*((s>2?t*(s-2):~(t*s))>>10&1)*2**((\"hhmmmmooppmmmmmpookkkkooppmmmmmmhhmmmmooppmmmmmptttrppooppmmmmmottttrrppookk kkorrrrppooppmmmmppttttrrppookkkkoorrrrppooppmmmmmm\".charCodeAt(t>>10&127)-85)/12)&96)",
+    "author": "lhphr",
+    "name": "extended Ievan Bytebeat Polkka",
+    "url": "https://dollchan.net/btb/res/44.html#481",
+    "date": "2022-11-30",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "f26d7ac8f36f86d52cc4164285addde6",
+        "author": "May_I_Change_My_Name",
+        "name": "Ievan Bytebeat Polkka",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ye43du/comment/itwj5bt/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

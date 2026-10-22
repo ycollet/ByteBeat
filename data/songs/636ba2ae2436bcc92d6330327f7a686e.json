@@ -1,0 +1,35 @@
+{
+  "file": "songs/636ba2ae2436bcc92d6330327f7a686e.js",
+  "title": "DrummedAwayToPomerania",
+  "author": "IncreaseRegular",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "eb1f96ea9386acebe4173fe9c54b15dc38c591890d0153cc3d04076bd47940e9",
+  "upstream": {
+    "hash": "636ba2ae2436bcc92d6330327f7a686e",
+    "codeMinLen": 235,
+    "codeMin": "t>>=2,c=((2*t&8*t|t/32&36*t&18*t&9*t|t/128&32*t&t/64*t|t/16&t/4|t/32&t/16|t/12&t/8&t/6)&255)/128-1,k=sin(4E3/('1001001001011010'[t>>10&15]*t&1023)&255)*2.5,h=(tan(t*random())&1)/(1+(t>>8&3)),s=sin(t*t*t)/(1+(t>>10&3))*(t>>12&1),c+k+h+s",
+    "codeLen": 237,
+    "code": "t>>=2,c=(((2*t&8*t|t/32&36*t&18*t&9*t|t/128&32*t&t/64*t|t/16&t/4|t/32&t/16|t/12&t/8&t/6)&255)/128)-1,k=sin(4e3/('1001001001011010'[t>>10&15]*t&1023)&255)*2.5,h=(tan(t*random())&1)/(1+(t>>8&3)),s=sin(t*t*t)/(1+(t>>10&3))*(t>>12&1),c+k+h+s",
+    "author": "IncreaseRegular",
+    "name": "DrummedAwayToPomerania",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1lz4bec/combinations_i_think_3_whatever_edition",
+    "date": "2025-07-13",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "1cbab5b9b8bae85c743fd42e514a235c",
+        "author": "wyngwyrm",
+        "name": "WhiskedAwayToPomerania",
+        "url": "https://battleofthebits.com/arena/Entry/WhiskedAwayToPomerania.txt/57975/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-01"
+  }
+}

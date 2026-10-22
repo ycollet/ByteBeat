@@ -1,0 +1,32 @@
+{
+  "file": "songs/cb0d2a71c2e13ae430e4680ffd667d0f.js",
+  "title": "Forsaken",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cb0d2a71c2e13ae430e4680ffd667d0f.js",
+  "sha256": "e9f3514b26fdfc9e9a2e2b4ff1e1a98bc618442cb60a7ec9fdb3dc9344fd3977",
+  "upstream": {
+    "hash": "cb0d2a71c2e13ae430e4680ffd667d0f",
+    "codeMinLen": 7863,
+    "codeLen": 10697,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(z=t-t,on=cos(z),tw=on+on,tri=tw+on,fr=tw+tw,ei=fr+fr,sx=ei+ei,si=tri*tw,twlv=si*tw,tV=sx*tw,tVI=tV*tw,tVII=tVI*tw,sv=si+on,tVIII=tVII*tw,tIX=tVIII*tw,tX=tIX*tw,tXI=tX*tw,tXII=tXI*tw,tXIII=tXII*tw,tXIV=tXII*fr,tXV=tXIV*tw,tXVI=tXV*tw,tXVIII=tXVI*fr,rIs=tXIII+tX+tIX+tVIII+tV+sx+fr+tw,rIIs=tXIII+tXII+tIX+tVIII+tVII+tVI+tV,rIIIs=tXIII+tXI+tX+tIX+tVIII,rIVs=tXIV+tXII+tX+tIX+tVII+sx,rIIv=tVIII+tV,rIIIv=tVIII+tVI,rIVv=tVIII+tVII,tn=ei+tw,Mx=tn**si,N=sx+ei,Gn=tV+sx,Sk=tn+Gn,oF=Gn*tw,yI=twlv+tw,yII=yI+on,yIV=yII",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "Forsaken",
+    "description": "Bytebattle Season 6 Competition. The name isn't about that game from Roblox, it's about the code. It might be the first actual full song ever created without writing any number in code.",
+    "url": "https://dollchan.net/btb/res/6537.html#10002",
+    "date": "2025-10-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-22",
+    "date_edited": "2025-11-05"
+  }
+}

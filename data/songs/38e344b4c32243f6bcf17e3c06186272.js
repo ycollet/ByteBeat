@@ -1,0 +1,3 @@
+r=t/1.16,n=(x,y)=>(((t*2**(parseInt(x,36)/12)/1.183/y)&255)-128)/2*'1010101010110100'[15&r>>12],
+n(['HHFFHHFFHHAAAA','DDFFDDFFDDHHHH'][1&r>>17][15&r>>12],1)+
+n(['HHFFHHFFHHAAAA','EEFFEEFFEEHHHH'][1&r>>17][15&r>>12],5)

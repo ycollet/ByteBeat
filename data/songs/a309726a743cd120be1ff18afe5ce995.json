@@ -1,0 +1,27 @@
+{
+  "file": "songs/a309726a743cd120be1ff18afe5ce995.js",
+  "title": "krampus beat",
+  "author": "blower5",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a309726a743cd120be1ff18afe5ce995.js",
+  "sha256": "f520e818f4ddb43b55cc8729e4c739446d3cc36d554033b9d094bb321f833b18",
+  "upstream": {
+    "hash": "a309726a743cd120be1ff18afe5ce995",
+    "codeLen": 641,
+    "fileOrig": 1,
+    "codeText": "//blower - krampus beat\n//floatbeat48k\nS=48e3,T=t/S,Q=(t>>18)%8!=0,A=90,m=n=>A*2**((n-49)/12),r=x=>random(),this.v??=0,F=(B,d)=>(v++||(b=Array(3).fill(0)),b.shift(),b.push(d-b[1]*B[3]-b[0]*B[4]),(d*B[0]+b[1]*B[1]+b[0]*B[2])),L=(p,q)=>(w=p/S*2*PI,s=sin(w),c=cos(w),a=s/q/2,[(1+c)/2,-1-c,(1+c)/2,-2*c,1-a].map(x=>x*1/(1+a))),X0=(x,y)=>((T*m(y)*x[0]%2+r()/8)-1)*x[1],X1=(x,y)=>(z=0,x.forEach(e=>z+=X0(e,y)),atan(z)),tanh(tanh(F(L(1e3+sin(T*.6)*600,7),X1([[2.01,3],[1.98,3],[6.03,5],[1,Q?25:0]],\"0070:<070:<07955\".ch",
+    "isTruncated": 1,
+    "author": "blower5",
+    "name": "krampus beat",
+    "description": "BotB Advent Calendar 2025 entry - 2nd place (bytebeat1k).",
+    "url": "https://battleofthebits.com/arena/Entry/krampus+beat/80930/",
+    "date": "2025-12-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-01-19"
+  }
+}

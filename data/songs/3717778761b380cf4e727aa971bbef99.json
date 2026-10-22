@@ -1,0 +1,26 @@
+{
+  "file": "songs/3717778761b380cf4e727aa971bbef99.js",
+  "title": "all hell breaks loose",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3dbb6c12a2bb43cac79be57a0d67ad31856bcd7bbb7c664336848331869204f8",
+  "upstream": {
+    "hash": "3717778761b380cf4e727aa971bbef99",
+    "codeMinLen": 84,
+    "codeMin": "t?(_c=2*random()-1,a+=.1*(_c-a),b+=.1*(a-b),c+=.6*(b-c),c*2/(t*1.15/4096%1)):a=b=c=0",
+    "codeLen": 86,
+    "code": "t?(_c=2*random()-1,a+=.1*(_c-a),b+=.1*(a-b),c+=.6*(b-c),c*2/(t*1.15/4096%1)):(a=b=c=0)",
+    "author": "troubleshootcorps",
+    "name": "all hell breaks loose",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hjp761/all_hell_breaks_loose/",
+    "date": "2024-12-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-17"
+  }
+}

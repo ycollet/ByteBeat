@@ -1,0 +1,27 @@
+{
+  "file": "songs/87ed983f0c4db14f59df35ecbfb3be9b.js",
+  "title": "my headache generator",
+  "author": "frantic",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/87ed983f0c4db14f59df35ecbfb3be9b.js",
+  "sha256": "ccaa8a1eb81311433f6aa7c8c27ed69379a1056c15274a5b367474c6b6600799",
+  "upstream": {
+    "hash": "87ed983f0c4db14f59df35ecbfb3be9b",
+    "codeLen": 1620,
+    "codeFormLen": 1858,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "TAU = 2 * 3.141592, \nSAMPRATE = 44100,\nCIRBUFSIZE = floor(SAMPRATE * 3),\nTEMPOISH = SAMPRATE / 10, \nSECOND = t / TEMPOISH, \nBEAT = t % TEMPOISH / TEMPOISH, \nMEASURE = (floor(SECOND / 8)) % 4,\nFREQ = (70 * (pow(1.5, MEASURE))),",
+    "isTruncated": 1,
+    "author": "frantic",
+    "name": "my headache generator",
+    "url": "https://battleofthebits.com/arena/Entry/my+headache+generator/17548/",
+    "date": "2015-04-16",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-26"
+  }
+}

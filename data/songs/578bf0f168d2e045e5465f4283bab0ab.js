@@ -1,0 +1,1 @@
+f=a=>sin(t/128/187.50*a*PI),p=a=>{q=0;a.forEach(b=>q+=f(b)/a.length);return q},vowels=[[660,1700,2400],[530,1850,2500],[270,2300,3000],[640,1200,2400],[300,870,2250]],p(vowels[(t>>15)%vowels.length])

@@ -1,0 +1,25 @@
+{
+  "file": "songs/2443b41ca158058e43ed5f4833a59ec1.js",
+  "title": "PsOt iT nO rDeDiT",
+  "author": "rubi",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "87cc7ab724896dc7e044ca50d9573202b1215122c4b892700966344d1d301484",
+  "upstream": {
+    "hash": "2443b41ca158058e43ed5f4833a59ec1",
+    "codeMinLen": 153,
+    "codeMin": "((t*[0,1,0,1,0,1,0,1.5][(t>>13)%8]>>1&96)+(t*[5,4.8,4.6,4.8,3,0,2.8,0,3,3,2.8,2.8,2,0,1,0][(t>>12)%16]>>2&64)+90*sin(t/11025)+64*sin(4E3/(t&16383)))/2-30",
+    "codeLen": 157,
+    "code": "((t*[0,1,0,1,0,1,0,1.5][(t>>13)%8]>>1&96)+(t*[5,4.8,4.6,4.8,3,0,2.8,0,3,3,2.8,2.8,2,0,1,0][(t>>12)%16]>>2&64)+(90*sin(t/11025))+(64*sin(4e3/(t&16383))))/2-30",
+    "author": "rubi",
+    "name": "PsOt iT nO rDeDiT",
+    "url": "https://www.reddit.com/r/bytebeat/comments/shuj5e/psot_it_no_rdedit/",
+    "date": "2022-02-01",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

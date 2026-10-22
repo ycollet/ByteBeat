@@ -1,0 +1,30 @@
+{
+  "file": "songs/5a2800623d2aa38c577bc0d361838675.js",
+  "title": "0xBADA441E",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 20000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5a2800623d2aa38c577bc0d361838675.js",
+  "sha256": "17989266e7730c5d493feeceebf7b0439fc4896b701f72f5b9edc26b0b1673d5",
+  "upstream": {
+    "hash": "5a2800623d2aa38c577bc0d361838675",
+    "codeLen": 2043,
+    "codeFormLen": 2894,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "K=t=>(dt=\"00020001\"[t>>13&7],f=0.9995**(t&8191>>dt),asin(sin(100*f))*42*f+96+15*random()*f**9)*1.6,\nK2=t=>(f=0.9995**(t&8191),asin(sin(100*f))*42*f+64+15*random()*f**9)*1.6,\nC=t=>t+8192>>14&t>>12&t>>13&1?128*atan(sin(t/16)+sin(t/9))/1.0015**(t&2047):0,\nH=t=>t+2048>>12&(~t>>13&3)>0?32*random()/1.001**(t&2047):0,\nH2=t=>t+2048>>12&1?32*random()/1.001**(t&2047):0,\nF=t=>(random()*(t>>8&255))/4,\nT=p=>2**(p/12),\ns=t>1<<19,s2=t>>13,",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "0xBADA441E",
+    "description": "The very first implementation of Bad Apple! Full song with stereo and echoes.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/112ry0r/somebody_had_to_do_it/",
+    "date": "2023-02-15",
+    "sampleRate": 20000,
+    "stereo": 1,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "tags": [
+      "big"
+    ]
+  }
+}

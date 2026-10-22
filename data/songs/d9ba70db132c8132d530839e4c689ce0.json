@@ -1,0 +1,27 @@
+{
+  "file": "songs/d9ba70db132c8132d530839e4c689ce0.js",
+  "title": "Bytebeat Concerto No. 1",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "98386a73a9262df111395e5a462ac4297404ab02cab602e8f7e4d51e0267ee9f",
+  "upstream": {
+    "hash": "d9ba70db132c8132d530839e4c689ce0",
+    "codeMinLen": 312,
+    "codeMin": "t*=34.647*256/11025,o=(t>>13)%3,T=p=>2**(p/12),C=(p,m)=>(2*t*p&~t>>5+o|3*t*p&~t>>4+o|4*(m?T(3):1.25)*t*p&~t>>3+o)*2**o&255,S=p=>t*p%64+t*p%32.1+t*p%15.96+t*p%8.04+t*p%3.97,(S(T('aaeeecfffe`a^^ccce^^^c`^\\\\\\\\cccehhhcefhhhejhccchec'.charCodeAt((t>>12)%48)-97))<<1)+C(T('55770050'[t/3>>13&7]-5),2>((t/3>>13)-2&7))>>2",
+    "codeLen": 322,
+    "code": "t*=34.647*256/11025,o=(t>>13)%3,T=(p)=>2**(p/12),C=(p,m)=>(2*t*p&~t>>(5+o)|3*t*p&~t>>(4+o)|4*(m?T(3):1.25)*t*p&~t>>(3+o))*2**o&255,S=(p)=>t*p%64+t*p%32.1+t*p%15.96+t*p%8.04+t*p%3.97,(S(T(\"aaeeecfffe`a^^ccce^^^c`^\\\\\\\\cccehhhcefhhhejhccchec\".charCodeAt((t>>12)%48)-97))<<1)+C(T(\"55770050\"[t/3>>13&7]-5),((t/3>>13)-2&7)<2)>>2",
+    "author": "May_I_Change_My_Name",
+    "name": "Bytebeat Concerto No. 1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ye7djq/bytebeat_concerto_no_1/",
+    "date": "2022-10-26",
+    "sampleRate": 11025,
+    "coverName": "Tchaikovsky Piano Concerto No. 1",
+    "coverUrl": "https://www.youtube.com/watch?v=82l3q15YfYQ",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-09-24"
+  }
+}

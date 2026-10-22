@@ -1,0 +1,23 @@
+{
+  "file": "songs/aa6c1bad674fc4dfef453b47372621d6.js",
+  "title": "String noises using the Karplus-Strong algorithm",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fe5ef82522aae82cd1f54e30574a23624beca43b03d9dff955a7d9bf86552959",
+  "upstream": {
+    "hash": "aa6c1bad674fc4dfef453b47372621d6",
+    "codeLen": 83,
+    "code": "f=436,t==0?b=Array.from({length:f},()=>random()):(b[t%f]=(b[t%f]+b[(t-1)%f])/2)*2-1",
+    "author": "Sychamis",
+    "name": "String noises using the Karplus-Strong algorithm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dyjink/string_noises_using_the_karplusstrong_algorithm/",
+    "date": "2024-07-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

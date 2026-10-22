@@ -1,0 +1,39 @@
+{
+  "file": "songs/d5191618bc254adc44818c882833ae22.js",
+  "title": "remix of miiro's 1-line symphony",
+  "author": "stephth",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0d1d480c0134dbb46514e76cbca3d626dadf8874b3b71f4f3e417fa2db000a0a",
+  "upstream": {
+    "hash": "d5191618bc254adc44818c882833ae22",
+    "codeMinLen": 31,
+    "codeMin": "(9*t&t>>4|5*t&t>>7|3*t&t>>10)-1",
+    "codeLen": 32,
+    "code": "(t*9&t>>4|t*5&t>>7|t*3&t/1024)-1",
+    "author": "stephth",
+    "name": "remix of miiro's 1-line symphony",
+    "url": [
+      "https://news.ycombinator.com/item?id=3063359#3064986",
+      "https://youtu.be/tCRPUv8V22o?t=206"
+    ],
+    "date": "2011-10-03",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

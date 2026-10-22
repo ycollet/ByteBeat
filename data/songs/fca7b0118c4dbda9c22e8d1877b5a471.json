@@ -1,0 +1,30 @@
+{
+  "file": "songs/fca7b0118c4dbda9c22e8d1877b5a471.js",
+  "title": "First Contact",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 42000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fca7b0118c4dbda9c22e8d1877b5a471.js",
+  "sha256": "3413c7cfed0443463857ffbc56b5e3ac7065a7c49038ca6d1288d2c2b2f0b8eb",
+  "upstream": {
+    "hash": "fca7b0118c4dbda9c22e8d1877b5a471",
+    "codeMinLen": 909,
+    "codeLen": 915,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(Z=[]),Y=0,LP=(A,C)=>(X=Y++,Z[X]??=0,Z[X]+=(A-Z[X])*C),(T=t/11.25)?(a=(isNaN(x=min(max(sin(T*PI/((T>>13&7)+1)*(T>>12&3?(T/3>>10&3)+1:0))/(T/(64*((T>>12&1)+1))%8)**2*(T>>13&1)*(1+sin(T*PI/4096))+sin(10*cbrt(T%4096))/2+sin(T*T&31)*(T>>9&7)*(T>>12&5)*(T/1024%1-1)**round(sin(T*PI/8192)+2)/8+sin(sin(T/(sin(T*PI/32768)*8))*(sin(T*PI/18432)*9))*(T/512%1-1)**4+sin(T*PI)*(T/256%1-1.1+abs(sin(T*PI/12288)*1.25))**8*sin(T*PI/98304)*2+sin(80*cbrt(T%12288))*(T/3>>12&1)/4+sin((a=T*PI/8*'1121234211215412'[T>>9&15])+sin(",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "First Contact",
+    "description": "\"I... I saw them. I felt them. I don't quite understand how yet, but they heard me. They understood me. And... I understood them.\"\r\n\r\nA clear demonstration of what one can accomplish with such simple functions.",
+    "url": "https://dollchan.net/btb/res/6946.html#9446",
+    "date": "2025-09-28",
+    "mode": "Floatbeat",
+    "sampleRate": 42000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-28",
+    "date_edited": "2025-10-27"
+  }
+}

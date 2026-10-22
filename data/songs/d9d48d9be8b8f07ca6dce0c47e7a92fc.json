@@ -1,0 +1,25 @@
+{
+  "file": "songs/d9d48d9be8b8f07ca6dce0c47e7a92fc.js",
+  "title": "—",
+  "author": "k0370_",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8e1ada8ce64b37125cb89768fc86a33594607634266d43558b56ef71cc3ff01e",
+  "upstream": {
+    "hash": "d9d48d9be8b8f07ca6dce0c47e7a92fc",
+    "codeMinLen": 21,
+    "codeMin": "t*t>>9|t*(t>>16)|t>>4",
+    "codeLen": 25,
+    "code": "((t*t>>9|t*(t>>16))|t>>4)",
+    "author": "k0370_",
+    "name": "—",
+    "url": "https://dollchan.net/btb/res/3.html#258",
+    "date": "2022-10-10",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

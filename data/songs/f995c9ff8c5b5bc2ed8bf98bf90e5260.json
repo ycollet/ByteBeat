@@ -1,0 +1,32 @@
+{
+  "file": "songs/f995c9ff8c5b5bc2ed8bf98bf90e5260.js",
+  "title": "( ͡° ͜ʖ ͡°) #2",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "48ba450be0b41ffee60c80db10d429f2cd2fbc3bdb0f5cc0fbea8c1b1b932c49",
+  "upstream": {
+    "hash": "f995c9ff8c5b5bc2ed8bf98bf90e5260",
+    "codeMinLen": 244,
+    "codeMin": "F=[a=sin(t>>3),2][l=+(t>66536)],F2=[sin(t),3][l],F3=a=>[sin(t>>a),2][l],F4=[,2][+(2**18<t)],(([a,F,A=sin(t),F3(4),x=sin(t>>2),F4,A,F4,a,F3(3),A,F4,x,F4,A,F2][(128+t>>11)%16]*t&128+t>>3)-20&255)/3+32*sin(3E3/(t*'11111112'[7&t>>12]%4096)**.02)+32",
+    "codeLen": 310,
+    "code": "F=[sin(t>>3),2][(t>66536?1:0)],F2=[sin(t),3][(t>66536?1:0)],F3=a=>[sin(t>>a),2][(t>262144?1:0)],F4=[,2][(t>262144?1:0)],\n((([sin(t>>3),F,sin(t),F3(4),sin(t>>2),F4,sin(t),F4,sin(t>>3),F3(3),sin(t),F4,sin(t>>2),F4,sin(t),F2][(128+t>>11)%16]*t&128+t>>3)-20)&255)/3+sin(3E3/(t*'11111112'[7&t>>12]%4096)**.02)*32+32",
+    "author": "Zackx",
+    "name": "( ͡° ͜ʖ ͡°) #2",
+    "url": "https://dollchan.net/btb/res/204.html#785",
+    "date": "2023-04-07",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "b13da96ba4ca8d4648679380f7a2caef",
+        "author": "rubi",
+        "name": "( ͡° ͜ʖ ͡°)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s6xqf1/%CA%96/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/102cc6f5ca94645878056524d9e4e1ec.js",
+  "title": "FM Ctrl+V",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ecd16d9c394a195d9ef9f4ac967bc9fca830e7811f9bbafcdb14304555bfafe4",
+  "upstream": {
+    "hash": "102cc6f5ca94645878056524d9e4e1ec",
+    "codeMinLen": 206,
+    "codeMin": "t*=44100/48E3,a=t*4*[2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32],b=t/2*'020202030'[(t>>13)%8],p=PI/128,sin(a*p+cos(a/4*p)-sin(a/4*p))/4-sin(b*p+cos(b/2*p))/4",
+    "codeLen": 222,
+    "code": "t*=44100/48000,s=sin,e=cos,a=([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t*4),b=([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t*.5),c=PI/128,s(a*c+e(a/4*c)-s(a/4*c))/4-s(b*c+e(b/2*c))/4",
+    "author": "hcdphobe",
+    "name": "FM Ctrl+V",
+    "url": "https://dollchan.net/btb/res/163.html#486",
+    "date": "2023-02-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "0466e5621443532a47fc11e1154d76ae",
+        "author": "rubi",
+        "name": "Ctrl+V",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0ytc9/ctrlv/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

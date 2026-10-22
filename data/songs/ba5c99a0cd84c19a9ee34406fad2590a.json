@@ -1,0 +1,33 @@
+{
+  "file": "songs/ba5c99a0cd84c19a9ee34406fad2590a.js",
+  "title": "NO ARRAY ARRAY SONG sin ver",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e37b30ccb162a1a17284d57340fc5582ea72f7c6956d86f992de095fa3abb9b2",
+  "upstream": {
+    "hash": "ba5c99a0cd84c19a9ee34406fad2590a",
+    "codeMinLen": 42,
+    "codeMin": "sin((t/t+(t>>12)%6+(t>>16)%3)*t>>4)*32+128",
+    "codeLen": 52,
+    "code": "sin((((t/t+(((t>>12)%6))+((t>>16)%3))))*t>>4)*32+128",
+    "author": "kOLbOSa_exe",
+    "name": "NO ARRAY ARRAY SONG sin ver",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qjmy4v/no_array_array_song/",
+    "date": "2021-10-31",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "f9cf6f39bf13d3fdd600878a9d69e5a6",
+        "author": "kOLbOSa_exe",
+        "name": "NO ARRAY ARRAY SONG",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qjmy4v/no_array_array_song/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

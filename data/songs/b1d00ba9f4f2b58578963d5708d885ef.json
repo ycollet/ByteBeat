@@ -1,0 +1,31 @@
+{
+  "file": "songs/b1d00ba9f4f2b58578963d5708d885ef.js",
+  "title": "YAEAEAE!!!",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c3e843488a3d5141feaf6a1e8f12b9e20ee042a6308099ce006a52b1561358f3",
+  "upstream": {
+    "hash": "b1d00ba9f4f2b58578963d5708d885ef",
+    "codeLen": 102,
+    "code": "t/=32E3,T=2*PI*t,n=176,.7*sin((4.8*(2*abs(1-n*t%2)-1)+2*sin(64*n*T))*(1+2.3*sin(1+.4*T+sin(1.1*T)))+T)",
+    "author": "SthephanShi",
+    "name": "YAEAEAE!!!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11nq8yn/voice_generator/",
+    "date": "2023-03-10",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "4179f5412e55cb883321dc196e1ce003",
+        "author": "SthephanShi",
+        "name": "Voice generator",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11nq8yn/voice_generator/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

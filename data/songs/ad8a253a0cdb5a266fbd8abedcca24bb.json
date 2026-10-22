@@ -1,0 +1,24 @@
+{
+  "file": "songs/ad8a253a0cdb5a266fbd8abedcca24bb.js",
+  "title": "having fun with square waves",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "54cd21ef2c05be55541cff5da41a2f625804f8ebacfa17b58916d09b39ded12b",
+  "upstream": {
+    "hash": "ad8a253a0cdb5a266fbd8abedcca24bb",
+    "codeMinLen": 108,
+    "codeMin": "(t&64/(t&t>>12?t&t>>14?1:2:4))+(t/[1,2,8,2,4,3,2,3][(t>>13)%8]&64)+(sqrt(1E3*(t&16383))&64)+(t*(t&t>>12)&32)",
+    "codeLen": 109,
+    "code": "(t&64/(t&t>>12?t&t>>14?1:2:4))+(t/[1,2,8,2,4,3,2,3][(t>>13)%8]&64)+(sqrt((t&16383)*1000)&64)+(t*(t&t>>12)&32)",
+    "author": "RealZynx92",
+    "name": "having fun with square waves",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qeml94/having_fun_with_square_waves/",
+    "date": "2021-10-24",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

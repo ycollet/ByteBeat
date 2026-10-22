@@ -1,0 +1,35 @@
+{
+  "file": "songs/bd67084fbe328f33b9eaa9001cb664fd.js",
+  "title": "Your T!me Has Expired",
+  "author": "UltraDasher965",
+  "mode": "Floatbeat",
+  "rate": 52000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bd67084fbe328f33b9eaa9001cb664fd.js",
+  "sha256": "0248c4c885aaa3709e18508c4365dc296c8fab739d59248096ada187958f8e37",
+  "upstream": {
+    "hash": "bd67084fbe328f33b9eaa9001cb664fd",
+    "codeLen": 534,
+    "fileOrig": 1,
+    "codeText": "p=v=>2**(v/12),z=12*(t>>18&1),\n\nw=t/32768%1,\nw2=t/16384%1,\n\nr=s=>(t>>13&1&&p(0xA7305730>>(t>>14&28)&15)*t*s/11&32),\n\ne=(sin((t>>13&1&&p(0xA7305730>>(t>>14&28)&15)*t/22&32))*200),",
+    "isTruncated": 1,
+    "author": "UltraDasher965",
+    "name": "Your T!me Has Expired",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1q7kwn6/your_tme_has_expired/",
+    "date": "2026-01-09",
+    "mode": "Floatbeat",
+    "sampleRate": 52000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "fd00ddf7d113e2530b94dd6081b3378d",
+        "author": "lhphr",
+        "name": "T!me Tr!al",
+        "url": "https://dollchan.net/btb/res/44.html#88"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-01-10"
+  }
+}

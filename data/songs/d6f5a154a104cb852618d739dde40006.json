@@ -1,0 +1,24 @@
+{
+  "file": "songs/d6f5a154a104cb852618d739dde40006.js",
+  "title": "Another Xor-based Dubstep",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "749d76fd4234af00d32a11c026f627bafdec075100d6bf94c18380af9e9ea797",
+  "upstream": {
+    "hash": "d6f5a154a104cb852618d739dde40006",
+    "codeMinLen": 315,
+    "codeMin": "t/=2.7,f=d=>d^d/2*(abs(sin(t*PI/4096*2**(((t>>14|t>>12&-t>>11&t/3>>13)%5-(-t>>11&t>>15)*(t>>12)%7)%5)))*64),f(t/2%64)/6%128%49*256/49*max(t/8192%1-.25,0)+(cbrt(t%4096*7)*1.2&1)*128*max(1-t/2048%(4/(1+!(-t&61440))),0)+(t&4096?random()*(1-t/4096%1)**2*64:0)+(-t&4096&&t&8192?(t>>1)*(t>>1)*E%PI/PI*2*(1-t/4096%1)*64:0)",
+    "codeLen": 323,
+    "code": "t/=2.7,f=d=>d^d/2*(abs(sin(t*PI/4096*2**(((t>>14|t>>12&-t>>11&t/3>>13)%5-(-t>>11&t>>15)*(t>>12)%7)%5)))*64),(f(t/2%64)/6%128%49*256/49*max(t/8192%1-.25,0)+(cbrt(t%4096*7)*1.2&1)*128*max(1-t/2048%(4/(1+!(-t&61440))),0))+(t&4096?random()*(1-t/4096%1)**2*64:0)+((-t&4096)&&(t&8192)?((t>>1)*(t>>1)*E%PI/PI*2)*(1-t/4096%1)*64:0)",
+    "author": "PortablePorcelain",
+    "name": "Another Xor-based Dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gwrrxj/another_xorbased_dubstep/",
+    "date": "2024-11-22",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

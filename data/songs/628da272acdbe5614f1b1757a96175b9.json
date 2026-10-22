@@ -1,0 +1,30 @@
+{
+  "file": "songs/628da272acdbe5614f1b1757a96175b9.js",
+  "title": "STORM",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/628da272acdbe5614f1b1757a96175b9.js",
+  "sha256": "a4307acb3e3fa4a10846d4ced9ce3deeb444a0d39313bb78a53c50492e2b7d1a",
+  "upstream": {
+    "hash": "628da272acdbe5614f1b1757a96175b9",
+    "codeMinLen": 1432,
+    "codeLen": 2041,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(mn=(a,mi=0,ma=255)=>min(max(a,mi),ma),f=[],bL=(a,u,d=u)=>(f[fi]??=0,f[fi]=f[fi]<a?max(f[fi]+u,a):min(f[fi]-d,a),f[fi++]),L=(a,u,d=u)=>(f[fi]??=0,f[fi]=f[fi]<a?min(f[fi]+u,a):max(f[fi]-d,a),f[fi++]),H=(a,u,d=u)=>a-L(a,u,d),O=(a,u,b)=>a+H(a,u)*b,B=(_=>{function B(S,sd=1) {this.a=Array.from({length:S},x=>0);this.s=S;this.sd=sd}B.prototype.r=function(i,O=0){i=(i+this.s*this.sd-O)/this.sd;I=i|0;d=i-I;r=this.a[I%this.s]*(1-d)+this.a[(I+1)%this.s]*d;return r};B.prototype.w=function(i,v){this.a[i/this.sd%this.s",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "STORM",
+    "description": "ByteBattle Season 2 Competition.",
+    "url": "https://bytebeat.oops.wtf/season2/entries.html",
+    "date": "2024-11-26",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-12-25"
+  }
+}

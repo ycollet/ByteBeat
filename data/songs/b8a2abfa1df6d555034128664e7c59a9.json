@@ -1,0 +1,29 @@
+{
+  "file": "songs/b8a2abfa1df6d555034128664e7c59a9.js",
+  "title": "ADPCM in bytebeat",
+  "author": "Sychamis",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b8a2abfa1df6d555034128664e7c59a9.js",
+  "sha256": "da2b10c583de4e5d8021f2de27929f9d415538d0f2e70a7ff3757d9826ec0b13",
+  "upstream": {
+    "hash": "b8a2abfa1df6d555034128664e7c59a9",
+    "codeLen": 227555,
+    "fileOrig": 1,
+    "codeText": "t==0?(file=\"a9a69a5a5a66597171a5a95c63963935a359639c9a3699cc670e9c726c8e9c8759c4fa0e1fe407f041d863b3eeb1eb807f203f04251a6cfeec19783fce0b91018cf65b3ea1ba2fb6226110c3f3159f29dc77fc8670019435d95f30fcc7fd0271003895d66fa95f29ff02322030abae9de55d93bf806a02245bee5de5ad1aff006a00c1affce9f6312ff202988811dfed1bdc0a37ee0069102b7fdce77083dbaea0461057f7d517d00e33cf2038117f8cfebe81020ab6b9fd4bf69f040436f59398408a248633fe1fed39abd72995e98cc76e3d52a35873d82d0804a924ab3899c69ed8ffc24f8e7ef522551b55ee6a4d0479acc640e0431e21e4",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "ADPCM in bytebeat",
+    "description": "Adaptive differential pulse-code modulation in bytebeat. Bit depth: ~45.48kbps",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1e7ey8x/103_bit_per_sample_improved_dpcm_audio/",
+    "date": "2024-07-20",
+    "sampleRate": 44100,
+    "coverName": "Otis McDonald - Scarlet Fire",
+    "coverUrl": "https://youtu.be/8yOskhDn468",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

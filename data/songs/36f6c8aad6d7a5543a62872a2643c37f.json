@@ -1,0 +1,27 @@
+{
+  "file": "songs/36f6c8aad6d7a5543a62872a2643c37f.js",
+  "title": "Dead Data early wip",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/36f6c8aad6d7a5543a62872a2643c37f.js",
+  "sha256": "286dc073252507fcd7e9b4538cb4c4c7a6f3e62ae068a2db60df6d5af2bc9507",
+  "upstream": {
+    "hash": "36f6c8aad6d7a5543a62872a2643c37f",
+    "codeMinLen": 1021,
+    "codeLen": 1442,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:{u,p,w}=(()=>{avg=ar=>{S=0;for(n of ar)S+=n;return S/ar.length},ph=c=>pt*2**(c/12),sq=(sz,ln,sp)=>parseInt(sz[(r>>sp)%ln],36),sph=(sz,ln,sp)=>ph(sq(sz,ln,sp)),saw=P=>-P&255,tri=P=>256-abs(saw(P)*2-256)-.5,pws=(P,pw=.5)=>(saw(P)>pw*255)*255,pwt=(P,pw=.5)=>(tri(P)>pw*255)*255;return {u:{avg,sq},p:{ph,sph},w:{sin,saw,tri,pws,pwt}}})(),r=t*.6%(2<<17),pt=t,r32=(r/4096)%1,r16=(r/8192)%1,r8=(r/(8192*2))%1,r4=(r/(8192*4))%1,bseq='aaaaaaaaaaaaaaa66666666666668888', bph=p.sph(bseq,32,12),lfo=w.tri(r),chSeq=['hh f",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "Dead Data early wip",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/comment/lr23q1k/",
+    "date": "2024-10-09",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-03"
+  }
+}

@@ -1,0 +1,1 @@
+p=x=>t*2**(parseInt(x,36)/12),((t>>12^(t>>12)-2)%11*(p('CFHHHHEEEEAAACCCCFHHHJMJHJOOVVQ'[t>>13&31])/4|t>>12)&127)+(p('8A7C8ACF'[t>>15&7])*(1+(t>>13&1))/8&128)

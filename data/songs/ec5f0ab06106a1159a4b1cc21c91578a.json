@@ -1,0 +1,33 @@
+{
+  "file": "songs/ec5f0ab06106a1159a4b1cc21c91578a.js",
+  "title": "Gabriel Miceli's \"Techno\" but the melodies are on opposite ears",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d2a039daee42bc43063214955a78602844bab7eb4941ee651be1757041649376",
+  "upstream": {
+    "hash": "ec5f0ab06106a1159a4b1cc21c91578a",
+    "codeMinLen": 60,
+    "codeMin": "[((t/10|0)^(t/10|0)-1280)%11*t,((t/640|0)^(t/640|0)-2)%13*t]",
+    "codeLen": 64,
+    "code": "[(((t/10|0)^(t/10|0)-1280)%11*t),(((t/640|0)^(t/640|0)-2)%13*t)]",
+    "author": "PortablePorcelain",
+    "name": "Gabriel Miceli's \"Techno\" but the melodies are on opposite ears",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ukua3q/gabriel_micelis_techno_but_the_melodies_are_on/",
+    "date": "2022-05-08",
+    "sampleRate": 11025,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "55c37e7f21435808f608250018606e47",
+        "author": "Gabriel Miceli",
+        "name": "Techno",
+        "url": "https://youtu.be/V4GfkFbDojc?t=314"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

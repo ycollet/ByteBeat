@@ -1,0 +1,24 @@
+{
+  "file": "songs/d136dafc9f8bca903d7bb82a4b7ee8f6.js",
+  "title": "Bytebeat But It Actually Breaks The Laws Of Physics",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d4023c060a587b135730fac3bea2e64e9f0443f9c79d592d743d10875f48d28a",
+  "upstream": {
+    "hash": "d136dafc9f8bca903d7bb82a4b7ee8f6",
+    "codeMinLen": 364,
+    "codeMin": "S=sin,C=cos,1.5*(8*S(t/36+C(t/72.1)*[(t>>14&31)+1,(-t>>14&31)+1][t>>19&1]/12)+8*C(t/48+S(t/96.5)*[(t>>15&31)+1,(-t>>15&31)+1][t>>20&1]/6)+8*S(t/18+C(t/36.1)*[(t>>12&31)+1,(-t>>12&31)+1][t>>17&1]/6)+8*C(t/24+S(t/48.5)*[(t>>13&31)+1,(-t>>13&31)+1][t>>18&1]/3)+32+random()*((-t>>7&31)+1)*(-t>>12&1)+random()*((-t>>9&31)+1)*(-t>>14&1)+abs(1536*log(t&16383)%256-128)/2)",
+    "codeLen": 410,
+    "code": "S=Math.sin,C=Math.cos,(S(t/36+C(t/72.1)*[((t>>14&31)+1),((-t>>14&31)+1)][t>>19&1]/12)*8+C(t/48+S(t/96.5)*[((t>>15&31)+1),((-t>>15&31)+1)][t>>20&1]/6)*8+S(t/18+C(t/36.1)*[((t>>12&31)+1),((-t>>12&31)+1)][t>>17&1]/6)*8+C(t/24+S(t/48.5)*[((t>>13&31)+1),((-t>>13&31)+1)][t>>18&1]/3)*8+32+Math.random()*((-t>>7&31)+1)*(-t>>12&1)+Math.random()*((-t>>9&31)+1)*(-t>>14&1)+Math.abs(1536*Math.log(t&16383)%256-128)/2)*1.5",
+    "author": "HypernovaHeathen",
+    "name": "Bytebeat But It Actually Breaks The Laws Of Physics",
+    "url": "https://www.youtube.com/watch?v=EvxN3D3MuD8",
+    "date": "2021-10-28",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

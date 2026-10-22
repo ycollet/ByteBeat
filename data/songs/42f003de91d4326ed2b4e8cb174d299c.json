@@ -1,0 +1,24 @@
+{
+  "file": "songs/42f003de91d4326ed2b4e8cb174d299c.js",
+  "title": "8) SAW",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6fa4265141f64726a331524ad9d0b61908e3c64fd242354234aee6c5044d9eba",
+  "upstream": {
+    "hash": "42f003de91d4326ed2b4e8cb174d299c",
+    "codeMinLen": 135,
+    "codeMin": "(1.5>t/2560%11.6?7.5*t:1>t/5120%2.5?5.7*t:5*t)&2*t>>5.5^(12*!t|t>>5|(4*t|!t>>8)^(~t<<6|50*~t)*t*t*t|12*t|t>>4|(-5*t|t>>8)^(t<<0|128*t))",
+    "codeLen": 184,
+    "code": "(((t/2560)%11.6<1.5?(t*7.5):(0)+(t/5120)%2.5<1?(t*5.7):(t*5))&(t*2>>5.5))^((((!t*12)|(t>>5))|((t*4)|(!t>>8))^((~t<<6)|(~t*50))*t*t*t)|((t*12)|(t>>4))|((t*~4)|(t>>8))^((t<<!6)|(t*128)))",
+    "author": "Anonymous from russian imageboards",
+    "name": "8) SAW",
+    "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

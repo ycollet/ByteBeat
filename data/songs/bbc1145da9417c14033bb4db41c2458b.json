@@ -1,0 +1,25 @@
+{
+  "file": "songs/bbc1145da9417c14033bb4db41c2458b.js",
+  "title": "Sequen_0x6",
+  "author": "SamsaDev",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5e81f442054cce447add0b6cdb88596b606a93749ee674b102018cda9214507f",
+  "upstream": {
+    "hash": "bbc1145da9417c14033bb4db41c2458b",
+    "codeMinLen": 63,
+    "codeMin": "t*(t>>30|t>>13)/2>>(t*(t>>18|t>>10)&7^t>>7|t>>18)|t/16>>(t&t/6)",
+    "codeLen": 86,
+    "code": "(((t*(t>>30|t>>13)/2)) >> (t*(t>>50|t>>10)&7^t>>7|t>>82)) | (t>>4|t>>4) >> (t&(t/0x6))",
+    "author": "SamsaDev",
+    "name": "Sequen_0x6",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bgce1u/sequen_0x6_cool_name/",
+    "date": "2024-03-16",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

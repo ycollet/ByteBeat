@@ -1,0 +1,42 @@
+{
+  "file": "songs/a00b0b2b71bb1a12c31a4ea1dc9b4b44.js",
+  "title": "W A R M T H",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a00b0b2b71bb1a12c31a4ea1dc9b4b44.js",
+  "sha256": "24a27407209c6698bc2945cd51dbc783818f49aa63dbcbcee4dc5e7b0979495b",
+  "upstream": {
+    "hash": "a00b0b2b71bb1a12c31a4ea1dc9b4b44",
+    "codeMinLen": 896,
+    "codeLen": 1603,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "b=t*.27,bt=(x,l,s)=>(x>>s)%l,D=(s,vol)=>(b&(16384*s)-1)/vol,SW=(x,a)=>a*sin(x*PI/64)+a,fm=(x,m)=>SW(x+SW(x,m),255),S=(arr,s)=>t*.82*2**(arr[bt(b,arr.length,s)]/12),t?0:Z=[],X=0,lpf=(a,c)=>(Y=X++,Z[Y]??=0,Z[Y]+=(a-Z[Y])*c),hpf=(a,c)=>a-lpf(a,c),bpf=(a,hc,lc)=>hpf(lpf(a,lc),hc),lbf=(a,c,v)=>a+lpf(a,c)*v,hbf=(a,c,v)=>a+hpf(a,c)*v,(tanh(hpf(hbf(lbf(tanh((tanh(bpf(SW(170*cbrt(b%16384),64),.01,.1)/20*max(1-D(1,1.6e4)*2,0)**2)*45+45+tanh(fm(S([-24,-33,-28,-31],16),(1-D(.25,1.6e4))**4*35+10)*(1-D(.25,1.6e4))**4/100",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "W A R M T H",
+    "description": "Spam 1 pole filters on a song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f87fek/w_a_r_m_t_h/",
+    "date": "2024-09-03",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "b1136a294d8fe06844292e7ad87fabdf",
+        "author": "MarioFan171",
+        "name": "Warm EDM Chords",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1dnbyjm/warm_edm_chords/"
+      },
+      {
+        "hash": "153dc48bf39a80ffa0ae923a42f99086",
+        "author": "feeshbread",
+        "name": "Infenitely instantiable 1 pole (6db/oct) filters",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1f7i53w/infenitely_instantiable_1_pole_6dboct_filters/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-03"
+  }
+}

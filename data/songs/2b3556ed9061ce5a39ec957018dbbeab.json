@@ -1,0 +1,24 @@
+{
+  "file": "songs/2b3556ed9061ce5a39ec957018dbbeab.js",
+  "title": "Untitled (2b3556ed)",
+  "author": "godinpants",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5667711f7124f78fe4a30fb8ad61ecf45f8ef8007ce1c49a2e9228714e83e40c",
+  "upstream": {
+    "hash": "2b3556ed9061ce5a39ec957018dbbeab",
+    "codeMinLen": 44,
+    "codeMin": "t/3>>t%40+5|t/(24+t&3)>>t%(15-(t>>15)%8*6)+5",
+    "codeLen": 80,
+    "code": "t / 3 >> (t % 40 + 5) | t / (24 + t & 3) >> (t % (15 - ((t >> 15) % 8) * 6) + 5)",
+    "author": "godinpants",
+    "url": "https://chipmusic.org/forums/post/79378/#p79378",
+    "date": "2011-10-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

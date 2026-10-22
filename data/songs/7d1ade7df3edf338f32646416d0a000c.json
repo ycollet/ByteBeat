@@ -1,0 +1,25 @@
+{
+  "file": "songs/7d1ade7df3edf338f32646416d0a000c.js",
+  "title": "4) CAT-GIRL",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "70afee4f589219cf007f89d3edeaa47b0275214dc3a20e3ead0f048b2515a026",
+  "upstream": {
+    "hash": "7d1ade7df3edf338f32646416d0a000c",
+    "codeMinLen": 78,
+    "codeMin": "129E3>t?(35E3>t?8:84E3>t?9:8)*t|(t>>2)+(67500>t?13:98E3>t?12:13)*t|t>>3|t>>5:0",
+    "codeLen": 232,
+    "code": "t<35000?((t*8)|(t>>2)+(t*13)|(t>>3)%t|t>>5):(t<67500?((t*9)|(t>>2)+(t*13)|(t>>3)%t|t>>5):(t<84000?((t*9)|(t>>2)+(t*12)|(t>>3)%t|t>>5):(t<98000?((t*8)|(t>>2)+(t*12)|(t>>3)%t|t>>5):(t<129000?((t*8)|(t>>2)+(t*13)|(t>>3)%t|t>>5):t%0))))",
+    "author": "Anonymous from russian imageboards",
+    "name": "4) CAT-GIRL",
+    "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

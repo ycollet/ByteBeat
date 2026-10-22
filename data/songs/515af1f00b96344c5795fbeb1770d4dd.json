@@ -1,0 +1,26 @@
+{
+  "file": "songs/515af1f00b96344c5795fbeb1770d4dd.js",
+  "title": "ᓯᑯ ᓯᓚ ᑖᖅᑐᒥ ᐆᒻᒪᑦ",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "82882d97f48911e5d5b658ece51b0c6add2b3b549a89a40b90ede83834d8e567",
+  "upstream": {
+    "hash": "515af1f00b96344c5795fbeb1770d4dd",
+    "codeMinLen": 422,
+    "codeMin": "c=z=>t*2**(([5+z,3+z,2+z,z,5+z,3+z,10+z,7+z][t>>17&7]-5)/12),a=y=>t/2205*2**(('MQTWY]`cec`]YWTQ'.charCodeAt(t>>12&15)+[5,3,2,0,5,3,10,7][t>>17&7]-y)/12)%2.8,12*((c(0)>>4)%2.8-(t>2**20)*((c(o=.05)>>5)%2.8+(2+(t>2**21))/3*(60620&1<<(t%2**17>>13)?(1-t%2**14/2**14)*sin(t**PI):0)))+(t>2**21)*((3641807121&1<<(t%2**18>>13)?22*sin(1024/(t%2**13)**.05):0)+12*((c(2*o)/64%2.8&c(2*o)/32.2)+(c(-o)>>3)%2.8/2-(a(o)+a(12))/2%2.8))+128",
+    "codeLen": 423,
+    "code": "c=z=>t*2**(([5+z,3+z,2+z,z,5+z,3+z,10+z,7+z][t>>17&7]-5)/12),a=y=>t/2205*2**(('MQTWY]`cec`]YWTQ'.charCodeAt(t>>12&15)+[5,3,2,0,5,3,10,7][t>>17&7]-y)/12)%2.8,12*((c(0)>>4)%2.8-(t>2**20)*((c(o=1/20)>>5)%2.8+(2+(t>2**21))/3*(60620&1<<(t%2**17>>13)?(1-t%2**14/2**14)*sin(t**PI):0)))+(t>2**21)*((0xd9119111&1<<(t%2**18>>13)?22*sin(1024/(t%2**13)**.05):0)+12*((c(2*o)/64%2.8&c(2*o)/32.2)+(c(-o)>>3)%2.8/2-(a(o)+a(12))/2%2.8))+128",
+    "author": "lhphr",
+    "name": "ᓯᑯ ᓯᓚ ᑖᖅᑐᒥ ᐆᒻᒪᑦ",
+    "description": "%2.8 led to an interesting waveform. The arpeggio was annoying to set up.",
+    "url": "https://dollchan.net/btb/res/44.html#54",
+    "date": "2022-04-28",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

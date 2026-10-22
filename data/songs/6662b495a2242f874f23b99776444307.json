@@ -1,0 +1,31 @@
+{
+  "file": "songs/6662b495a2242f874f23b99776444307.js",
+  "title": "191. Dubstep",
+  "author": "Zera12873",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6662b495a2242f874f23b99776444307.js",
+  "sha256": "287076a9190e4d1c5e2babc44c986bd72c4d7538201641f997041619fc95f39e",
+  "upstream": {
+    "hash": "6662b495a2242f874f23b99776444307",
+    "codeMinLen": 299,
+    "codeMin": "v=5E4/(1E4+t%4E4)*(B=sin)((t%4E4)**.2*50),(c=_=>v=A(v))((_=>v+=2*B(random())/1.0002**((t+4E4)%8E4))((_=>v+=A(B(t**3)/1.0002**(t%2E4))/2)(c(X=t/1250,v+=(A=tanh)(B(t/4E4*PI*2**((C=int)(X<<X^(X>>3|X>>6))%4)-6)**5*B(t*PI/200*(1+C(2*(X>>5|X>>7)/(1+C(X>>X)))%8))*B(t*PI/25)**3*100+B(t*PI/800)*25),v/=2))))",
+    "codeLen": 632,
+    "fileOrig": 1,
+    "codeText": "v=5E4/(1E4+t%4E4)*(B=sin)((t%4E4)**.2*50),(c=_=>v=A(v))((_=>v+=2*B(random())/1.0002**((t+4E4)%8E4))((_=>v+=A(B(t**3)/1.0002**(t%2E4))/2)(c(X=t/1250,v+=(A=tanh)(B(t/4E4*PI*2**((C=int)(X<<X^(X>>3|X>>6))%4)-6)**5*B(t*PI/200*(1+C(2*(X>>5|X>>7)/(1+C(X>>X)))%8))*B(t*PI/25)**3*100+B(t*PI/800)*25),v/=2))))",
+    "isTruncated": 1,
+    "author": "Zera12873",
+    "name": "191. Dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1nzfky3/isgjs_dump",
+    "date": "2025-10-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Deca Quitin - Images and Sounds Generated using JavaScript 2",
+    "coverUrl": "https://youtu.be/ZhXSiNTTTNc?t=443",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-09",
+    "date_edited": "2025-12-15"
+  }
+}

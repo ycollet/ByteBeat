@@ -1,0 +1,45 @@
+{
+  "file": "songs/114f6f1ec08833d359ffecb8de1e5399.js",
+  "title": "remix of no limit with ambience",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/114f6f1ec08833d359ffecb8de1e5399.js",
+  "sha256": "b73e4d31f7790e6f14608f62de5f80add88d53f0df91b3640c8b21f716bc5a1f",
+  "upstream": {
+    "hash": "114f6f1ec08833d359ffecb8de1e5399",
+    "codeMinLen": 602,
+    "codeLen": 650,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=4,r=(x,y,z)=>(t?0:a=Array(y).fill(0),b=x%256+a.shift(),a.push(b*z),b),g='6689'[t>>14&3]*t/6,r(r(r(sin(sin(g*PI/12)+sin(g*PI/20)*(t/2%1024/1024-.5)*sin(t*PI/5E4)*10)/2,12288,-.5)/2-r(sin(sin(g*PI/10)+sin(g*PI/15)*(t/3%1024/1024-.5)*sin(t*PI/49E3)*10)/2,16383,-.5)/2,16384,.5)/2+!!(t>>17)*(w=t-2**17,g*=1.05,w>>6^w>>8|w>>12|g)/256%.25*2+(!!(t>>18)*(sin(sqrt(t%4096)*PI*1.3)/2.3)-.5)+g/256%.5*!!(t/1.5>>18)*(t%4096)/4096+!!(t/1.25>>19)*(g/128%.5*(t%4096)/4096+g/100%.5*(t%4096)/4096+(t>>11&1?g/32*[1,2,2.5,3][t>>",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "remix of no limit with ambience",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11ie4ws/remix_of_no_limit_with_ambience/",
+    "date": "2023-03-04",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "df1cc10c791217d7dc75b5950f75253b",
+        "author": "ryg",
+        "name": "another take on simplifying mu6k's thing",
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=10#c388986",
+          "https://youtu.be/tCRPUv8V22ot=394"
+        ]
+      },
+      {
+        "hash": "3cf13eef5e1d990c4a0e44819d017848",
+        "author": "PortablePorcelain",
+        "name": "ambience",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11icxja/ambience/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

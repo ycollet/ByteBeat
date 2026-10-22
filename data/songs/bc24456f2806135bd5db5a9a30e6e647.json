@@ -1,0 +1,32 @@
+{
+  "file": "songs/bc24456f2806135bd5db5a9a30e6e647.js",
+  "title": "2-bit song hardcore remix",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1ade2d833131a19ceeb999c273ec4389628f996e6bbfca3c59a886430349267c",
+  "upstream": {
+    "hash": "bc24456f2806135bd5db5a9a30e6e647",
+    "codeMinLen": 84,
+    "codeMin": "(sqrt(5E3*(t&16383))&128)+(3E6/(t+16384&32767)&128)+(t/2*(t&t>>11)&64)|t/32&128&t/16",
+    "codeLen": 89,
+    "code": "(sqrt((t&16383)*5000)&128)+(3E6/((t+16384)&32767)&128)+(t/2*(t&t>>11)&64)|(t/32&128)&t/16",
+    "author": "RealZynx92",
+    "name": "2-bit song hardcore remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qdfa0i/2bit_song/",
+    "date": "2021-10-22",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "c372eb96bb63a4eff806c7ca61b3d53b",
+        "author": "RealZynx92",
+        "name": "2-bit song",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q36kta/2bit_song/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

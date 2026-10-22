@@ -1,0 +1,26 @@
+{
+  "file": "songs/096268a01511da18db2e3cc6541f2305.js",
+  "title": "Tetris Music Theme",
+  "author": "ameen272",
+  "mode": "Bytebeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/096268a01511da18db2e3cc6541f2305.js",
+  "sha256": "cf5c422679a4508bfde9e132eebddaf95bd89c9d8eb5decff248bd85ca368f66",
+  "upstream": {
+    "hash": "096268a01511da18db2e3cc6541f2305",
+    "codeLen": 1347,
+    "fileOrig": 1,
+    "codeText": "// volume management (long notes fixed!)\nsqu0vol=[16,15,14,13,12,11,10,9,8,8,8,8,8,8,8,8]\n[(t/[2,1,2,1,2,1,2,1,2,1,2,2,2,2,2][(t>>14)%16])>>9&15],\nsqu1vol=[15,14,13,12,11,10,9,8,8,8,8,8,8,8,8,8][((t/[2,1,2,1,2,1,2,1,2,1,2,2,2,2,2][(t>>14)%16]))>>9&15],\ntrivol=[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16][t>>8&15],\nnoivol=[15,12.5,10,5,2.5,0,0,0,0,0,0,0,0,0,0,0][t>>8&15],\n\n",
+    "isTruncated": 1,
+    "author": "ameen272",
+    "name": "Tetris Music Theme",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hg853q/made_this_cuz_bored/",
+    "date": "2024-12-17",
+    "sampleRate": 33000,
+    "coverName": "Tetris theme",
+    "coverUrl": "https://youtu.be/NmCCQxVBfyM",
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/566ca74ee6c0ab80add508ff18815b53.js",
+  "title": "Ethereal Byteshop v1.0",
+  "author": "Cattoadishere",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/566ca74ee6c0ab80add508ff18815b53.js",
+  "sha256": "4e1ca1916b103d72cfa6b83656c8805ab0789f6642b078bc17c5dacc4b49f695",
+  "upstream": {
+    "hash": "566ca74ee6c0ab80add508ff18815b53",
+    "codeLen": 4109,
+    "fileOrig": 1,
+    "codeText": "// A remix of My Singing Monsters - Ethereal Workshop\n\nBPM=140,\n\nr = repeat = (x, y) => Array(x).fill(y).flat(9),\n\nt ? 0 : fx = r(3e5, 0),\nt ? 0 : vars = r(3e5, 1),",
+    "isTruncated": 1,
+    "author": "Cattoadishere",
+    "name": "Ethereal Byteshop v1.0",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1k2mihy/ethereal_byteshop_v10/",
+    "date": "2025-04-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Ethereal Workshop - Full Song Wave 7 (My Singing Monsters)",
+    "coverUrl": "https://www.youtube.com/watch?v=PWRx2IoVqs8",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-18",
+    "date_edited": "2025-12-18"
+  }
+}

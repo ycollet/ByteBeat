@@ -1,0 +1,24 @@
+{
+  "file": "songs/4737983030c098583bedc5261c783a20.js",
+  "title": "The devil was behind you",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "55b4f6c98c40400920da2c0515fb881937dfeca4208bd10050e7a77257a77266",
+  "upstream": {
+    "hash": "4737983030c098583bedc5261c783a20",
+    "codeMinLen": 134,
+    "codeMin": "p=t*2**([0,3,-1,-1][3&t>>16]/12),((1.04*p&255)+(1.05*p&255))/3.5+(t>>5&(-t>>2)*(-t>>5))%256/3+(3E6/(t*'10000100'[7&t>>11]&2047)&128)/2",
+    "codeLen": 138,
+    "code": "p=t*2**(([0,3,-1,-1][3&t>>16])/12),\n((p*1.04&255)+(p*1.05&255))/3.5+\n(t>>5&(-t>>2)*(-t>>5))%256/3+(3e6/(t*'10000100'[7&t>>11]&2047)&128)/2",
+    "author": "Zackx",
+    "name": "The devil was behind you",
+    "url": "https://dollchan.net/btb/res/204.html#381",
+    "date": "2023-02-06",
+    "sampleRate": 16000,
+    "tags": [
+      "256"
+    ]
+  }
+}

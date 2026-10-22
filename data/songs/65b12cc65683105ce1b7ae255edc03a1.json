@@ -1,0 +1,23 @@
+{
+  "file": "songs/65b12cc65683105ce1b7ae255edc03a1.js",
+  "title": "Bytebreak",
+  "author": "WoolWL",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a2edafe54d4d4ac48eb63bf30ddde129f64261a597093496a45a27fd19eac53a",
+  "upstream": {
+    "hash": "65b12cc65683105ce1b7ae255edc03a1",
+    "codeLen": 202,
+    "code": "((t&32767)>>13==2|(t&65535)>>12==9?(t^-(t/8&t>>5)*(t/8&127))&(-(t>>5)&255)*((t&65535)>>12==9?2:1):(t&8191)%((t>>5&255^240)==0?1:t>>5&255^240))/4*3+(t*4/(4+(t>>15&3))&128)*(-t>>11&2)*((t&32767)>>13!=2)/3",
+    "author": "WoolWL",
+    "name": "Bytebreak",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1atswzl/bytebreak/?rdt=37311&onetap_auto=true",
+    "date": "2024-02-18",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

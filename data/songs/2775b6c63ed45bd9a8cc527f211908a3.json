@@ -1,0 +1,25 @@
+{
+  "file": "songs/2775b6c63ed45bd9a8cc527f211908a3.js",
+  "title": "afternoon walk",
+  "author": "potasmic",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2775b6c63ed45bd9a8cc527f211908a3.js",
+  "sha256": "d0e67d7f349626e8227f7fe7ec795fcc05223daecf1dd2e1d4af4a36c7f946ce",
+  "upstream": {
+    "hash": "2775b6c63ed45bd9a8cc527f211908a3",
+    "codeLen": 1434,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * potasmic - afternoon walk\n *\n */\n\nvar transpose = 2;",
+    "isTruncated": 1,
+    "author": "potasmic",
+    "name": "afternoon walk",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

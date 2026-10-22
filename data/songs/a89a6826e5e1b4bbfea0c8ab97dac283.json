@@ -1,0 +1,24 @@
+{
+  "file": "songs/a89a6826e5e1b4bbfea0c8ab97dac283.js",
+  "title": "Simple Cross Sequencer demo",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a89a6826e5e1b4bbfea0c8ab97dac283.js",
+  "sha256": "fbdc948f022550f2e1c127521f71efffcd4ffa05db52668a8cfc0e7a3dac0555",
+  "upstream": {
+    "hash": "a89a6826e5e1b4bbfea0c8ab97dac283",
+    "codeLen": 1144,
+    "fileOrig": 1,
+    "codeText": "// TrashImpossible3699 MMXXIV\n// i did make my own sequencer, but i did not compose in ZzFXM. also the same sequencer / concept as this: https://www.reddit.com/r/bytebeat/comments/1gh48lu/depp_bytebeat_cover/\n\ns=10700,\ntune=x=>pow(2,x/12),\nnoise=x=>(z=1e5,sin(x*PI*z*z*z)*z),\ndec=x=>(-int(t*x/s)&255),\nsong=[",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "Simple Cross Sequencer demo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gr15ou/simple_cross_sequencer_demo/",
+    "date": "2024-11-14",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

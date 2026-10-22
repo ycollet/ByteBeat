@@ -1,0 +1,33 @@
+{
+  "file": "songs/18419b481a753efea8eea24a53fbe320.js",
+  "title": "no limit basic without ternary operators",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f5367e7f952abb0821504045cf50db3dd8ebeb66d00577a39372dcacac1ff12b",
+  "upstream": {
+    "hash": "18419b481a753efea8eea24a53fbe320",
+    "codeLen": 36,
+    "code": "t*(15&39014>>(12&t>>14))/6|t>>6^t>>8",
+    "author": "hcdphobe",
+    "name": "no limit basic without ternary operators",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h1g64d/no_limit_basic_without_ternary_operators/",
+    "date": "2024-11-27",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "e6f28beeccee7a98d3917fba9229f6fc",
+        "author": "Chasyxx",
+        "name": "no limit basic",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ab6j79/no_limit_basic/"
+      }
+    ],
+    "coverName": "2 Unlimited - No Limit",
+    "coverUrl": "https://youtu.be/qM5W7Xn7FiA",
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

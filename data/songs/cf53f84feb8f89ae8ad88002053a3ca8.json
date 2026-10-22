@@ -1,0 +1,40 @@
+{
+  "file": "songs/cf53f84feb8f89ae8ad88002053a3ca8.js",
+  "title": "ChiptuneSynth",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 67750,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2c1726c46296a64502c5de6881858e82597d28f0124dd09e1eef0e3add5e4ba7",
+  "upstream": {
+    "hash": "cf53f84feb8f89ae8ad88002053a3ca8",
+    "codeLen": 489,
+    "code": "l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>(t*2**(parseInt(a,36)/12)/b*.495&64)-32,w=t=>t>0&&(e=a=>s(['8DFGKPSW','8DFGKNPW','8DFGKNPU','6BFIKNSZ'][3&t>>17][7&(10&t>>10)+(t>>11>>'4321'[3&t>>19])],a)/2,e(1)+e(j))*(1-t/u%1*[.75,1][1&t>>19]),w(t)+w(t-(d=24576))/3+w(t-d*2)/4+w(t-d*3)/6+(b=a=>s('DD9B'[3&t>>17],a),b(8)+b(4/j))*(t/l%2)*(1-t%u/1E4)+sin(cbrt(t%l)*8)*64*(1-t/l%1)*!(t&l)+(random()*48-24)*(1-t/c%1)*!(t&c)+((t*sin(t>>2)&32)-16)*(1-t/l/2%1)*!(~t&l*2)),-128),127),[x(1.005),x(.995)]",
+    "author": "Zackx",
+    "name": "ChiptuneSynth",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#3798",
+      "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+    ],
+    "date": "2024-06-16",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 67750,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "6917602634b77d125d30832f6f470628",
+        "author": "Zackx",
+        "name": "Square melody synth",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3733",
+          "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/d43dcab2c58d6db40b8ca1ceea4c6692.js",
+  "title": "level1",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 4000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d43dcab2c58d6db40b8ca1ceea4c6692.js",
+  "sha256": "b99cdc04070ee1f813511d14ce6bd8ccea251abdecf52f86e4f43d89591beac5",
+  "upstream": {
+    "hash": "d43dcab2c58d6db40b8ca1ceea4c6692",
+    "codeLen": 72394,
+    "fileOrig": 1,
+    "codeText": "((4e4/(t-40421)|0)*(t>=40421&&t<41052)%256/8)+(((t*t)%256/(((t-42947)>>6)+1)|0)*(t>=42947&&t<43578)%256/8)+((4e4/(t-44210)|0)*(t>=44210&&t<44842)%256/8)+((4e4/(t-46736)|0)*(t>=46736&&t<47368)%256/8)+(((t*t)%256/(((t-48000)>>6)+1)|0)*(t>=48000&&t<48631)%256/8)+((4e4/(t-50526)|0)*(t>=50526&&t<51157)%256/8)+(((t*t)%256/(((t-53052)>>6)+1)|0)*(t>=53052&&t<53684)%256/8)+((4e4/(t-54315)|0)*(t>=54315&&t<54947)%256/8)+((4e4/(t-56842)|0)*(t>=56842&&t<57473)%256/8)+(((t*t)%256/(((t-58105)>>6)+1)|0)*(t>=58105&&t<58736)",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "level1",
+    "description": "A test of a \"primitive\" version of the midi to bytebeat tool.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bmme14/level1/",
+    "date": "2024-03-24",
+    "sampleRate": 4000,
+    "coverName": "Petscop OST - Level1",
+    "coverUrl": "https://youtu.be/2SDn2rUCpJQ",
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

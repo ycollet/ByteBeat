@@ -1,0 +1,24 @@
+{
+  "file": "songs/6a6ef558616c8823991c92cab29db908.js",
+  "title": "Untitled (6a6ef558)",
+  "author": "George",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6052a6048d0ba795fc7b02f5daf1eae4cda48f186979fbe848205d4fe00d999d",
+  "upstream": {
+    "hash": "6a6ef558616c8823991c92cab29db908",
+    "codeMinLen": 16,
+    "codeMin": "20*t*t*(t>>11)/7",
+    "codeLen": 20,
+    "code": "20 * t*t* (t >>11)/7",
+    "author": "George",
+    "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318282586154#c3276288453210259061",
+    "date": "2011-10-10",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

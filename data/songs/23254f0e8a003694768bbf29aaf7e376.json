@@ -1,0 +1,26 @@
+{
+  "file": "songs/23254f0e8a003694768bbf29aaf7e376.js",
+  "title": "Erebus zenith instrumental",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 79189,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/23254f0e8a003694768bbf29aaf7e376.js",
+  "sha256": "e5fe7bff5044ddd084091aa606d2a7f147893ea4e8ff41befce459d2a19667b9",
+  "upstream": {
+    "hash": "23254f0e8a003694768bbf29aaf7e376",
+    "codeLen": 569,
+    "fileOrig": 1,
+    "codeText": "n=4096,m=2048,(t*.2115*2**([1,2,-1,1][t>>17&3]/12)&64?-V:V=32/(1+t/32768%4))+(t*.423*2**([1,1,2,2,8,8,8,9,8,8,8,8,8,8,6,6,9,9,9,9,11,11,11,11,9,9,8,8,8,8,8,8,6,6,6,6,8,8,8,8,6,6,4,4,2,2,2,2,1,1,1,1,1,1,-4,-4,-4,-4,-3,-3,-3,-3,-1,-1,1,1,2,2,8,8,11,11,13,13,13,13,13,13,6,6,9,9,9,9,11,11,11,11,9,9,8,8,8,8,8,8,6,6,6,6,13,13,13,13,16,16,13,13,11,9,8,8,6,6,6,6,4,4,2,2,2,2,-1,-1,-1,-1,1,1][t>>13&127]/12)&64?-W:W=32/(1+t/[n,n,n,m,n,n,n,n,n,n,m,n,n,n,m,n,n,n,m,n,n,n,m,n,n,n,n,m,n,n,n,n,n,n,n,m,n,n,n,n,n,n,m,n,n,n,m,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Erebus zenith instrumental",
+    "url": "https://dollchan.net/btb/res/520.html#992",
+    "date": "2023-05-03",
+    "sampleRate": 79189,
+    "coverName": "VD - Erebus - zenith",
+    "coverUrl": "https://youtu.be/WAJR72cOpCg?t=1085",
+    "tags": [
+      "1k"
+    ]
+  }
+}

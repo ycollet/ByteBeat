@@ -1,0 +1,26 @@
+{
+  "file": "songs/b31e77a90712131640d0897e169c4d6a.js",
+  "title": "underbeats",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b31e77a90712131640d0897e169c4d6a.js",
+  "sha256": "aff7ab38e16a637a82dd0732a4c8604688b6cf82db38302fb560f0ba3a3a3f0c",
+  "upstream": {
+    "hash": "b31e77a90712131640d0897e169c4d6a",
+    "codeMinLen": 1161,
+    "codeLen": 1181,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:re=Array(n=3E3).fill(0),song=t*[1,1.2,1.2,1.5,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1.6,1,1.2,1.2,1.5,1.6,,,1.8,,1.6,,,1.8,1.6,1.6,1.4,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,,,,,,,,,,.9,1.1,1.1,1.4,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,.9,1.1,1.1,1.4,1.5,,,1.6,,1.5,,,1.8,1.6,1.6,1.4,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2][(t>>12)%96]||0,s=asin(sin(song/32+sin(song/32)*1.7))/2%256*78+128,sq=b=>(t*[0,0,0,0,.5,0,0,.5,.5,0,0,0,0,.5,0,.5,.4,.4,0,.4,0,0,.4,0,0,0,0,.4,.5,0,0,0,0,.4,.5,0,.5,0,.5,.4,.5,0,.5,0,0,0,0,0,0,0,",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "underbeats",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16g71sm/underbeats_remix_of_underbyte/",
+    "date": "2023-09-11",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ]
+  }
+}

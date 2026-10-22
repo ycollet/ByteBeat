@@ -1,0 +1,24 @@
+{
+  "file": "songs/81d826fbfa605329abcd75f107aee8d5.js",
+  "title": "atari styled bass",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "994396b8aa0ca8d3a76e656f8172ef040091d058230032dcfb66963c4789d176",
+  "upstream": {
+    "hash": "81d826fbfa605329abcd75f107aee8d5",
+    "codeMinLen": 89,
+    "codeMin": "28*'808080080080800880808080080808800880808080808080088008808'[round(t/20)%57]&t/90&-t/91",
+    "codeLen": 108,
+    "code": "nse=\"808080080080800880808080080808800880808080808080088008808\",\n(nse[round(t/20)%nse.length])*28&t/90&-t/91",
+    "author": "GDPlayer_1035",
+    "name": "atari styled bass",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qcp8dy/atari_styled_bass/",
+    "date": "2021-10-21",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/5cb5bc10d8feabb9670c6237c995602f.js",
+  "title": "SthephanShi’s Neurofunk remix",
+  "author": "Own_Elevator4214",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dc3347b2defbca9491e077f7dc1df409c17cca15e27f94ee30ef7b05d2dd9733",
+  "upstream": {
+    "hash": "5cb5bc10d8feabb9670c6237c995602f",
+    "codeMinLen": 229,
+    "codeMin": "t/=4,k=x=>127*sin(800*cbrt(t%x)*PI/128)/2+127,s=[t*((t&4096?t%65536<59392?6:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?4:10))|t>>(t&16384?t&8192?4:2:3),k(4096)|k(2048),t&4096?random()*128|t>>4:127],3*(s[0]%256+s[1]%256+s[2]%256)/1275-1.2",
+    "codeLen": 289,
+    "code": "2*(1.5*(t/=4,songs=[(t*((t&4096?t%65536<59392?6:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?4:10))|t>>(t&16384?t&8192?4:2:3)),(sin(800*cbrt(t%4096)*PI/128)/2*127+127)|(sin(800*cbrt(t%2048)*PI/128)/2*127+127),t&4096?random()*128|t>>4:127],\r\nsongs[0]%256/5+\r\nsongs[1]%256/5+\r\nsongs[2]%256/5)/255-0.6)",
+    "author": "Own_Elevator4214",
+    "name": "SthephanShi’s Neurofunk remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fueqxh/my_sthephanshis_neurofunk_remix/",
+    "date": "2024-10-02",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

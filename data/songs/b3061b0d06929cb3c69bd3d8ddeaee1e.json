@@ -1,0 +1,35 @@
+{
+  "file": "songs/b3061b0d06929cb3c69bd3d8ddeaee1e.js",
+  "title": "Corrupted Harpsichord",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b3061b0d06929cb3c69bd3d8ddeaee1e.js",
+  "sha256": "edae6b1182e106981903360e833c1825bd5e1c1840ed32a9c8b08b65cc4c95e7",
+  "upstream": {
+    "hash": "b3061b0d06929cb3c69bd3d8ddeaee1e",
+    "codeMinLen": 697,
+    "codeLen": 700,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?(L+=1+sin(t*PI**2/65536)/256,T+=.75,P+=2,s=(x,y)=>Array.from(y,z=>x(P*2**(z/12)*PI)).reduce((a,b)=>a+b)/y[U],i=L*2**([[0,3,7,12,15,12,7,3],[3*(t>>15&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[8,12,15,20,24,20,15,12]][T>>16&3][T>>12&7]/12)*PI,fm=(s,q=1,r=sin)=>r(s/2+r(s/2-1)*r(r(s+r(s))/2+sin(s/2))**3*q),k=sin(fm(i/32,33,k=>sin(sin(k)*sin(k/2+T/16384)*(sin(T*PI/2**18)+2))/PI*2)/(T/4096%1+.2)),j=(k+=r[u=T%r[U]|0],r[u]=4*k/7)-r[u/2|0],j=j/3+s(k=>fm(k/64,2,k=>asin(sin(k)))*fm(k/64+T*PI/32768,4,k=>2*asin(s",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Corrupted Harpsichord",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14323xb/corrupted_harpsichord/",
+    "date": "2023-06-07",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8ee04059783be40bea00923ddad1bab1",
+        "author": "lhphr",
+        "name": "the throwback",
+        "url": "https://dollchan.net/btb/res/44.html#481"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/b0f12d3c886595198da26feb4e2d4f6c.js",
+  "title": "multi channel with function",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "40527b9d09a501ba23274644c9e270d559f51a86b32657685792e71e7e1ac85a",
+  "upstream": {
+    "hash": "b0f12d3c886595198da26feb4e2d4f6c",
+    "codeMinLen": 180,
+    "codeMin": "e=x=>t*2**((x-4.4)/12),s=(a,b,c)=>(a&128)/2+(b&32)+c%128/2,s(e([0,12,0,12,-7,5,-5,7][7&t>>13]),e([0,2,4,5,7,7,12,12,10,7,5,7,9,5,9,5][15&t>>12]),e([0,4,7,12,16,19,24,28][7&t>>17]))",
+    "codeLen": 188,
+    "code": "e=x=>t*2**((x-4.4)/12),s=(a,b,c)=>((a&128)/2+(b&32)+(c%128)/2),\ns(\ne([0,12,0,12,-7,5,-5,7][7&t>>13]),\ne([0,2,4,5,7,7,12,12,10,7,5,7,9,5,9,5][15&t>>12]),\ne([0,4,7,12,16,19,24,28][7&t>>17]))",
+    "author": "Zackx",
+    "name": "multi channel with function",
+    "url": "https://dollchan.net/btb/res/204.html#974",
+    "date": "2023-04-29",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

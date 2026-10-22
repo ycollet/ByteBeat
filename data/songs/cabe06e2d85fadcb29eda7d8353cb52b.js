@@ -1,0 +1,1 @@
+ab=function(mult, hz){return Math.sin(t/hz)*mult+128;}, ab(100,[2,6,8,5][(t>>1003)%4]-[0,1.4,1.2,1.1][(t>>15)%4])&~t>>6

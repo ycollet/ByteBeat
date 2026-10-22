@@ -1,0 +1,29 @@
+{
+  "file": "songs/8054df0ab5d583547af89bf08b5ce419.js",
+  "title": "Skrillex",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8054df0ab5d583547af89bf08b5ce419.js",
+  "sha256": "8c45522be776c735201fa2ef92be6d84e014abaac2ee3e1a1276844239b413f0",
+  "upstream": {
+    "hash": "8054df0ab5d583547af89bf08b5ce419",
+    "codeMinLen": 1014,
+    "codeLen": 1016,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(x=z=Array(16).fill(b=c=0)),b+=140/288E4,l=.5,g=(i,t,b)=>t(i/2+t(i/2-1)*t(t(i+t(i))/2+t(i/2))**3*b*4096)/2,h=(t,b,n)=>{for(i=m=q=0;i<t.length;i++)b>t[i]&&(q++,m=b-t[i]);return n?1*m/(t[q%t.length]-t[q-1%t.length])-1:min(m-1,0)},k=(i,t,b,n,e)=>(this.u=i=>2**(i/12),r=u(t),atan(sin(i/256*r%1*b*PI*4)*(i/256*r%1-1)*n-e)),i=(cbrt(sin(c+=cbrt(h(j=[0,3,6,8,16,19,22,24,30,32],4*b%32,0)+.4)/256-1/128))*h(j,4*b%32,1)/1.5+sin(t>>8*sin(t*PI/64))/2*h([0,3,6,8,14],4*b%(-b>>2&3?16:8))/4+k(t/2,[0,12,10,12,15,15,12,19,17,",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Skrillex",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14vl5ky/we_like_to_party/",
+    "date": "2023-07-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Skrillex - Scary Monsters and Nice Sprites",
+    "coverUrl": "https://youtu.be/WSeNSzJ2-Jw",
+    "tags": [
+      "1k"
+    ]
+  }
+}

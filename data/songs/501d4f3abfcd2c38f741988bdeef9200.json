@@ -1,0 +1,28 @@
+{
+  "file": "songs/501d4f3abfcd2c38f741988bdeef9200.js",
+  "title": "Drum sound palette test",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/501d4f3abfcd2c38f741988bdeef9200.js",
+  "sha256": "c6594deb2f20009da8a85ff5a0a725a311b390fe41e80f04c34085c4a3c07967",
+  "upstream": {
+    "hash": "501d4f3abfcd2c38f741988bdeef9200",
+    "codeLen": 2902,
+    "fileOrig": 1,
+    "codeText": "// removed SampleRate variable as it was set and not used anywhere\n\n    mod=(n,m)=>(n%m+m)%m,fract=x=>(x%1+1)%1,\n    TAU=Math.PI*2,sine=x=>Math.sin(TAU*x),\n    mix=(a,b,t)=>a+(b-a)*t,\n    pulse=x=>fract(x)<.5?1:-1,\n    sinRnd=x=>fract(Math.sin(x*15345.733*Math.sin(x*2342.51))),\n    dot=(a,b)=>a.map((x,i)=>a[i]*b[i]).reduce((m,n)=>m+n),",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "Drum sound palette test",
+    "description": "Drum sound palette test, creating percussion samples from mathematical expressions.",
+    "url": "https://dollchan.net/btb/res/3.html#5859",
+    "date": "2025-04-15",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-01"
+  }
+}

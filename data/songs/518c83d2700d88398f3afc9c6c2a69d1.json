@@ -1,0 +1,34 @@
+{
+  "file": "songs/518c83d2700d88398f3afc9c6c2a69d1.js",
+  "title": "some hl1 typa music",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fa983303ab12a474a915db867fdefa9b879cee6b15931da332dbf9fdf5352b04",
+  "upstream": {
+    "hash": "518c83d2700d88398f3afc9c6c2a69d1",
+    "codeMinLen": 262,
+    "codeMin": "t/=6,ts=x=>tan(sin(x)),a=x=>ts(3*x/((x>>(x>>14^x>>11)&7^x>>13&6|x>>12&5)+2))*(32-(x>>6)&31)+32,(a(t+1E3)/5+a(t)/1.5+a(t-3E3)/2+a(t-6E3)/3+a(t-9E3)/4+a(t-12E3)/5)*cbrt(sin(t/8E3*PI))/200+sin(400/((t&4095)+1))/5+random()*(4095-(t*((t>>14^t>>11)&1?4:2)&4095))/32768",
+    "codeLen": 273,
+    "code": "t/=48000/8000,ts=x=>tan(sin(x)),a=t=>ts(3*t/((t>>(t>>14^t>>11)&7^t>>13&6|t>>12&5)+2))*(32-(t>>6)&31)+32,(a(t+1E3)/5+a(t)/1.5+a(t-3E3)/2+a(t-6E3)/3+a(t-9E3)/4+a(t-12E3)/5)*cbrt(sin(t/8E3*PI))/200+sin(4e2/((t&4095)+1))/5+random()*(4095-(t*(((t>>14^t>>11)&1)?4:2)&4095))/32768",
+    "author": "kOLbOSa_exe",
+    "name": "some hl1 typa music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1am6le0/some_hl1_typa_music_crystal_cave/",
+    "date": "2024-02-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "cc45960b865704d33fa2a587d5c0800e",
+        "author": "kOLbOSa_exe",
+        "name": "Slightly metal crystal cave",
+        "url": "https://www.reddit.com/r/bytebeat/comments/156bg4d/slightly_metal_crystal_cave/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-30"
+  }
+}

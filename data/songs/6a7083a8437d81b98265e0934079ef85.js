@@ -1,0 +1,1 @@
+t*Math.pow(2,("kotojokohogohotojokohogokokhpmjmjfokhomkjhggcc kotojokohogohotojokohogokokhpmjmjfrmorokfjkkkkkkrpomkjkmokmpoprrjjkkoommoottqqhjkkjjhfecebccccccfffhihfdfcdahhhjkjhghegcmjcjmjpjojmjkhchkhohmhkhjhkhmhohphmhoomkjkhhhhhh".charCodeAt((t>>10)&255)-58)/12)*63>>6&132

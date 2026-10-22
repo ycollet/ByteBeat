@@ -1,0 +1,35 @@
+{
+  "file": "songs/75bb94570ff5b85304d7aa6ccda18e7f.js",
+  "title": "get submerged",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/75bb94570ff5b85304d7aa6ccda18e7f.js",
+  "sha256": "927d623430c1f0df0b1d292b44fde3e116dfb9f58d79b71e49da2f0d54242fb7",
+  "upstream": {
+    "hash": "75bb94570ff5b85304d7aa6ccda18e7f",
+    "codeLen": 1232,
+    "fileOrig": 1,
+    "codeText": "i=0,sa=48e3,samp=1/sa,BPM=165,T=t*samp/30*BPM,p=1/1.43,R=()=>random()-.5,t||(f=[],F=(x,l,r)=>(f[I=i++]??=0,f[J=i++]??=0,f[J]+=f[I]+=(x*l-f[I])*r-f[J]*l,f[J]),H=(x,l,r)=>x-F(x,l,r),P=(t,z,x,c=4)=>(f[j=i++]??=0,f[k=i++]??=0,f[k]+=f[j]+=(2**(z[t]/12+x)-f[j]||0)/sa/30*BPM*c)*p*!isNaN(z[t])),S=t=>t/128%2-1,k1='10000000100000001000000010000010',k2='10000000100000001000000010010011',k3='10000000100000101000000010001111',c=[[-4,0,-7,-4],[0,3,-2,0],[5,7,3,[3,4][1&T/8]]],o=T*2%(k1+k2+k1+k3)[T*2&127]||1,s=T*2%(16>>(2*",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "get submerged",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1scdxvw/get_submerged/",
+    "date": "2026-04-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "75f845cda85e133256e61fed75aa7ac3",
+        "author": "troubleshootcorps",
+        "name": "submersion",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1mabhbt/submersion_wip/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-04-05"
+  }
+}

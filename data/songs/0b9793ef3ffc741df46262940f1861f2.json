@@ -1,0 +1,35 @@
+{
+  "file": "songs/0b9793ef3ffc741df46262940f1861f2.js",
+  "title": "pov it's 2012 and shit is LOUD",
+  "author": "feeshbread",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0b9793ef3ffc741df46262940f1861f2.js",
+  "sha256": "9e7b11577e7a783cf30e49bd1cd98f72c41bda52a8f7b7e724b702a54351b360",
+  "upstream": {
+    "hash": "0b9793ef3ffc741df46262940f1861f2",
+    "codeLen": 1429,
+    "fileOrig": 1,
+    "codeText": "// Infenitely instantiable 1 Pole Filters\n// (every call = new filter instance)\nt?0:z1=[],\ncallCount=0,\nlpf=lowPassFilter=(a,c)=>(\n\tcall=callCount++,\n\tz1[call]??=0,\n\tz1[call]+=(a-z1[call])*c",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "pov it's 2012 and shit is LOUD",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f4ylws/comment/lkuu14c/",
+    "date": "2024-08-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "df6abc720e74c54fb03b915df987f968",
+        "author": "feeshbread",
+        "name": "pov it's 2012",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1f4ylws/comment/lkqcqkj/?context=3"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-12-25"
+  }
+}

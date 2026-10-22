@@ -1,0 +1,30 @@
+{
+  "file": "songs/36ab3e492111f164eae9d2d735d4ad1d.js",
+  "title": "Drone",
+  "author": "lehandsomeguy",
+  "mode": "Floatbeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/36ab3e492111f164eae9d2d735d4ad1d.js",
+  "sha256": "7a8079f760c0cc446e2d9d8c1a15156af8dd79d040a67049b88dbdeac9d9cda8",
+  "upstream": {
+    "hash": "36ab3e492111f164eae9d2d735d4ad1d",
+    "codeMinLen": 204,
+    "codeMin": "f=x=>x%1,m=(a,b,c)=>(a*(1-c))+(b*c),n=x=>sin((x+10)*sin(pow(x+10,f(x)+10))),(t=>{a=0;for(j=0;j<13;j++){a+=sin((2100+(n((j+2)+int(t))*2500))*t)*(1-f(t*int(m(1,5,n((j+5.24)+int(t))))))}return a/9})(t/11025)",
+    "codeLen": 580,
+    "codeFormLen": 378,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "f=x=>x%1,m=(a,b,c)=>(a*(1-c))+(b*c),n=x=>sin((x+10)*sin(pow(x+10,f(x)+10))),(t=>{a=0;for(j=0;j<13;j++){a+=sin((2100+(n((j+2)+int(t))*2500))*t)*(1-f(t*int(m(1,5,n((j+5.24)+int(t))))))}return a/9})(t/11025)",
+    "isTruncated": 1,
+    "author": "lehandsomeguy",
+    "name": "Drone",
+    "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/",
+    "date": "2016-03-03",
+    "mode": "Floatbeat",
+    "sampleRate": 11025,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/ff8140457302cc0ba1b93f07aea27d4b.js",
+  "title": "pill-relaxing.filter",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8dd0ec0803a713a3640d91c5a6c7547583ff3fbef97b26b91180a1edce2c9426",
+  "upstream": {
+    "hash": "ff8140457302cc0ba1b93f07aea27d4b",
+    "codeMinLen": 442,
+    "codeMin": "s=x=>sin(x*PI/128),a=t/1.3,h=a>>11&15,u=x=>x>0&&sin(12*cbrt(a*x%8192/x))/2,b=(d1=1*random()-.5,this.d2??=0,d2+=(d1-d2)/8,d2),c=u('1   1     1 1'[15&a>>12]),b=b*(h==8)*(32-a/64%32)/16,f=x=>.25*-t*2**(x/12),z=f([5,3,8,10][a>>15&3])*(1+(a>>12&1))%256,d=(k=1*random()-.5,this.k2??=0,k2+=(k-k2)/3,k2)*(32-a/64%32)/33*(h==6),this.l??=0,l+=.05*(z-l)*(32-a/128%32)*exp(2*sin(t/50340))/8,this.q??=0,q+=(l-q)*exp(1.5*sin(t/61440))/10,q/256+.5+c/3+b+d/6",
+    "codeLen": 450,
+    "code": "s=x=>sin(x*PI/128),a=t/1.3,h=a>>11&15,u=x=>x>0&&sin(12*cbrt(a*x%8192/x))/2,b=(d1=1*random()-.5,this.d2??=0,d2+=(d1-d2)/8,d2),c=u('1   1     1 1'[15&a>>12]),b=b*(8==h)*(32-(a/64%32))/16,f=x=>.25*-t*2**(x/12),z=f([5,3,8,10][a>>15&3])*(1+(a>>12&1))%256,d=(k=1*random()-.5,this.k2??=0,k2+=(k-k2)/3,k2)*(32-(a/64%32))/33*(6==h),this.l??=0,l+=(z-l)*((32-(a/128%32))*.05*exp(sin(t/50340)*2))/8,this.q??=0,q+=(l-q)*exp(sin(t/61440)*1.5)/10,q/256+.5+c/3+b+d/6",
+    "author": "hcdphobe",
+    "name": "pill-relaxing.filter",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14dtjx3/pillrelaxingfilter/",
+    "date": "2023-06-20",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

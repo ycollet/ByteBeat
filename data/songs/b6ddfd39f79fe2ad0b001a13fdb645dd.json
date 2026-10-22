@@ -1,0 +1,24 @@
+{
+  "file": "songs/b6ddfd39f79fe2ad0b001a13fdb645dd.js",
+  "title": "1-bit song",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ef797a282e7f010b9dc56f459d92dabf327affdc8dfe0a214cee8c35fabc3349",
+  "upstream": {
+    "hash": "b6ddfd39f79fe2ad0b001a13fdb645dd",
+    "codeMinLen": 201,
+    "codeMin": "48*(random()*'0000202020002020'[t/1.2>>10&15]&1)+6E4/(t/1.2&4095)+t*[1,random(),random(),random(),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][(t/1.2>>10)+16&31]+(t/'12483456'[t/1.2>>16&7]&40)&64",
+    "codeLen": 207,
+    "code": "(48*(random()*\"0000202020002020\"[t/1.2>>10&15]&1))+(6E4/(t/1.2&4095))+(t*[1,random(),random(),random(),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0][(t/1.2>>10)+16&31])+(t/\"12483456\"[t/1.2>>16&7]&40)&64",
+    "author": "RealZynx92",
+    "name": "1-bit song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qmk3k8/1bit_song/",
+    "date": "2021-11-04",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

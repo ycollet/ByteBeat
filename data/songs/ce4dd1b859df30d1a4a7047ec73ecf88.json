@@ -1,0 +1,23 @@
+{
+  "file": "songs/ce4dd1b859df30d1a4a7047ec73ecf88.js",
+  "title": "Rain drum",
+  "author": "Straight_Ambition375",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e5ef4b24cdf8686be7cde58271078f353fa2dff02f7e5b70237c2cf4c1de7cb0",
+  "upstream": {
+    "hash": "ce4dd1b859df30d1a4a7047ec73ecf88",
+    "codeLen": 22,
+    "code": "-t%(t/(12|t%(t>>4)))/7",
+    "author": "Straight_Ambition375",
+    "name": "Rain drum",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hdb464/rain_drum/",
+    "date": "2024-12-13",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

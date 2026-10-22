@@ -1,0 +1,34 @@
+{
+  "file": "songs/f993bd3d7a3f2b026aa0167cf91a11f8.js",
+  "title": "relief",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a6c5c79ddb5b4976324c95b6968ea6682d6dea1b76fcb02478ff3dab57f8aea0",
+  "upstream": {
+    "hash": "f993bd3d7a3f2b026aa0167cf91a11f8",
+    "codeLen": 217,
+    "code": "t/=1.1,off=8**9,v=4e3,a=(t,x=1.002)=>{for(A=B=0;A<7;A++)B+=t>0&&t*x**A*2**([0,2,5,7,9,10,12,17][(1+(t>>13&3)%3)*(t>>15-(t>>13&1^t>>12&3)^t>>14&3)&7]/12)&192-(t>>5&64);return B/A/2},a(t+off)+a(t-v+off)/2+a(t-v*2+off)/3",
+    "author": "ANoUserXD",
+    "name": "relief",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1nc11ym/relief_remix_of_anxious/",
+    "date": "2025-09-08",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "33fda2708f2017ffd9480b37727c5391",
+        "author": "ANoUserXD",
+        "name": "anxious",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gsvp94/anxious/",
+          "https://dollchan.net/btb/res/2628.html#4982"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-10-01"
+  }
+}

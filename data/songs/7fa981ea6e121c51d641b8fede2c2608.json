@@ -1,0 +1,32 @@
+{
+  "file": "songs/7fa981ea6e121c51d641b8fede2c2608.js",
+  "title": "Explosive beat",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4e9883f210ec5a6e62ad4e952bebf1da4cc8cbc4dcf0f6f7c41fe38a0561542c",
+  "upstream": {
+    "hash": "7fa981ea6e121c51d641b8fede2c2608",
+    "codeLen": 29,
+    "code": "(t>>4)*(t>>3)|t>>(t&4096?3:2)",
+    "author": "SthephanShi",
+    "name": "Explosive beat",
+    "description": "Obtained from combining the two formulas.",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "c13691a719aaeee7e82ed11e7b4739b9",
+        "author": "SthephanShi",
+        "name": "Explosions",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

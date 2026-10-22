@@ -1,0 +1,26 @@
+{
+  "file": "songs/40c42450613e2f4ec34581b98f3d7b75.js",
+  "title": "siren",
+  "author": "Weird_Arg2",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ee96b8791498a70d7148fc33fbb846d3ddc0830df4d61a9fb325b94408082fe0",
+  "upstream": {
+    "hash": "40c42450613e2f4ec34581b98f3d7b75",
+    "codeMinLen": 164,
+    "codeMin": "c=cos,r=x=>(t?0:a=Array(n=12288).fill(0),b=x+a[t%n],a[t%n]=b/2,b),r((c(t/10)+c(t/11)+c(t/12)+c(t/13)+c(t/14)+c(t/15)+c(t/16)+c(t/17)+c(t/18)+c(t/19)+c(t/20))/9)/1.5",
+    "codeLen": 182,
+    "code": "r=x=>(t?0:a=Array(12288).fill(0),b=x+a.shift(),a.push(b/2),b),r((cos(t/10)+cos(t/11)+cos(t/12)+cos(t/13)+cos(t/14)+cos(t/15)+cos(t/16)+cos(t/17)+cos(t/18)+cos(t/19)+cos(t/20))/9)/1.5",
+    "author": "Weird_Arg2",
+    "name": "siren",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14zo4ms/uhhh_cave/",
+    "date": "2023-07-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-22"
+  }
+}

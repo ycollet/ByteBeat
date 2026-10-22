@@ -1,0 +1,27 @@
+{
+  "file": "songs/0c69b3a6bf22f1fb38fe8e4ffd5db0ae.js",
+  "title": "The Krampus Kids Must Walk That Bass",
+  "author": "doctorn0gloff",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0c69b3a6bf22f1fb38fe8e4ffd5db0ae.js",
+  "sha256": "16553749b5e2dac738b1a91f206452451435d01c2945163a99e289320965f09c",
+  "upstream": {
+    "hash": "0c69b3a6bf22f1fb38fe8e4ffd5db0ae",
+    "codeLen": 1020,
+    "fileOrig": 1,
+    "codeText": "d=1/48e3,T=t*d,t||(I=0,A=495,vp=1,P5=2/3,P4=4/3,M3=5.05/4,m3d=5.05/6,m3=1/m3d,m7=16/9,fl=floor,r=P5,nx=1,S=sin,X=random,Y=()=>Array(7).fill(0),z=Y(),w=Y(),C=(...a)=>a[fl(X()*a.length)],CR=(l,h)=>X()*(h-l)+l,j=0,v=0,vx=[[m3,m7],[M3,m7]],\nP=_=>(v0=vx[v][0],v1=vx[v][1],v1=v1==m7&&v==0?C(m7,2):v1,ch=n=>C(0,0,0,0,n),c1=2-ch(2),c2=c1?ch(1.2):0,c3=C(0,2),ht=C(v0,v1)*m3d,J=j%20>10?0:1,[[0,0,3,1],[3,0,CR(1.6,4),nx==P4?(r==P5?m3:.5):nx==P5?C(M3/2,.5):.5],[0,2,c1,v0],[0,3,c1,v1],[2,2,2,v0],[2,3,2,v1],[5,2,c3,v0],[5,4,",
+    "isTruncated": 1,
+    "author": "doctorn0gloff",
+    "name": "The Krampus Kids Must Walk That Bass",
+    "description": "Generates a randomized song. BotB Advent Calendar 2025 entry - 3rd place (bytebeat1k).",
+    "url": "https://battleofthebits.com/arena/Entry/The+Krampus+Kids+Must+Walk+That+Bass/80946/",
+    "date": "2025-12-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-01-19"
+  }
+}

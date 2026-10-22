@@ -1,0 +1,29 @@
+{
+  "file": "songs/4bf6cf963b4cedb0568cf2e35476a7dc.js",
+  "title": "Nuclearoids Remake",
+  "author": "aniruF",
+  "mode": "Funcbeat",
+  "rate": 38775.465,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4bf6cf963b4cedb0568cf2e35476a7dc.js",
+  "sha256": "00a8fe136f1b288b51cc0599935dbc27e5fdd5bc81446c0951aeb7e1257c9b48",
+  "upstream": {
+    "hash": "4bf6cf963b4cedb0568cf2e35476a7dc",
+    "codeLen": 2731,
+    "fileOrig": 1,
+    "codeText": "return t=>(\nGlobalDetune=gd=0,//detune in ¢\nü=142,\nClam=a=>min(max(a,0),1),\nClamp=A=>min(max(A,-1),1),\nc=\"charCodeAt\",\nЯ=(A,os=0)=>(t+os*(60/A))/(60/A)%1,\nDec=(F,C=1,os=0)=>(1-Я(F,os))**C,",
+    "isTruncated": 1,
+    "author": "aniruF",
+    "name": "Nuclearoids Remake",
+    "url": "https://dollchan.net/btb/res/5289.html#5766",
+    "date": "2025-04-06",
+    "mode": "Funcbeat",
+    "sampleRate": 38775.465,
+    "coverName": "Arseniy Shkljaev - Nuclearoids",
+    "coverUrl": "https://www.youtube.com/watch?v=-vglLxV5yYk",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2025-10-18"
+  }
+}

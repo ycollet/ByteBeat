@@ -1,0 +1,38 @@
+{
+  "file": "songs/a16fc6f56cd6fd025ac246d516f65bee.js",
+  "title": "[ 2 K - D A N C E ] (re re re re remix)",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a16fc6f56cd6fd025ac246d516f65bee.js",
+  "sha256": "bc228eaa8db1890ba424c817e5599246d2920300da02888a612a8489ad4270aa",
+  "upstream": {
+    "hash": "a16fc6f56cd6fd025ac246d516f65bee",
+    "codeLen": 2819,
+    "fileOrig": 1,
+    "codeText": "\n /*\n  *\n  * PrincessPriscillaPT - ☆ [ 2 K - D A N C E ] ( re re re re remix ) ☆\n  *\n  */\n\nbpm=88,sr=48e3,ts=t*abs(bpm/(sr*60)*32768)/8,tt=(t/sr*256)*440*2**(0/12),",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "[ 2 K - D A N C E ] (re re re re remix)",
+    "description": "Updated on 2026/01/10",
+    "url": "https://dollchan.net/btb/res/7164.html#8317",
+    "date": "2025-07-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "78429940b572c2c7dc994b45263bf1e2",
+        "author": "feeshbread",
+        "name": "[ SQUARE, DANCE ]",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-27",
+    "date_edited": "2026-01-10"
+  }
+}

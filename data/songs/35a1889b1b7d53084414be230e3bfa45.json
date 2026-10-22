@@ -1,0 +1,36 @@
+{
+  "file": "songs/35a1889b1b7d53084414be230e3bfa45.js",
+  "title": "cool Dubstep thing",
+  "author": "D3nschøt",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "23a800e61caa2ab697bc938177837db99cba29cba248edcdd34bef04718f9fc0",
+  "upstream": {
+    "hash": "35a1889b1b7d53084414be230e3bfa45",
+    "codeMinLen": 156,
+    "codeMin": "root=(a,b)=>a**(1/b),a=t/64%256,x=t*(39030>>(t>>17&3)*4&15)/6,sin((root(a+1,8)*64-1)*PI)*42+(x/(x&t>>12)&255)/3-42+sin(x*(5156>>(t>>12&3)*4&15)/4/128*PI)*42",
+    "codeLen": 169,
+    "code": "root=(a,b)=>a**(1/b),a=t/64%256,\r\n\r\nx=t*(0x9876>>(t>>17&3)*4&15)/6,\r\nsin((root(a+1,8)*64-1)*PI)*42+(x/(x&t>>12)&255)/3-42+sin(((x*(0x1424>>(t>>12&3)*4&15)/4))/128*PI)*42",
+    "author": "D3nschøt",
+    "name": "cool Dubstep thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dpghuo/idk/",
+    "date": "2024-06-27",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "a52be2d61d8831b88fefb55def908ca5",
+        "author": "Gabriel Miceli",
+        "name": "Crude Sinewave Dubstep",
+        "url": [
+          "https://www.youtube.com/watch?v=V4GfkFbDojc",
+          "https://youtu.be/V4GfkFbDojc?t=148"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

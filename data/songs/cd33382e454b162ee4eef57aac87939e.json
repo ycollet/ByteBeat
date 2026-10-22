@@ -1,0 +1,40 @@
+{
+  "file": "songs/cd33382e454b162ee4eef57aac87939e.js",
+  "title": "technostep42",
+  "author": "awogler9124812041",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c88002d989e6bc619868741e66e8d073b107971c968b2579a9ac2a0bc1104d27",
+  "upstream": {
+    "hash": "cd33382e454b162ee4eef57aac87939e",
+    "codeMinLen": 272,
+    "codeMin": "d=sin(sqrt(t%16384))/2+(random()-.5)*((4096-t&4095)/4096)*(t>>13&1),forty2=min(t*((t>>12)+2&10)/4%256/(256/(t>>12&1?16:1)),1)-.5,[(sin(t&t>>12&t*PI/256)+sin(t&t>>12|t*PI/256))/4+d/2+forty2/2*(t>>18&1),(sin(t&t>>12|t*PI/256)+sin(t&t>>12^t*PI/256))/4+d/2+forty2/2*(t>>18&1)]",
+    "codeLen": 293,
+    "code": "d=sin(sqrt(t%16384))/2+(random()-0.5)*((4096-t&4095)/4096)*(t>>13&1),\r\nforty2=min(t*(42&((t>>12)+2)&15)/4%256/(256/((t>>12&1)?16:1)),1)-0.5,\r\n[(sin((t&t>>12)&t*PI/256)+sin((t&t>>12)|t*PI/256))/4+d/2+forty2/2*(t>>18&1),(sin((t&t>>12)|t*PI/256)+sin((t&t>>12)^t*PI/256))/4+d/2+forty2/2*(t>>18&1)]",
+    "author": "awogler9124812041",
+    "name": "technostep42",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bpycu6/technostep42/",
+    "date": "2024-03-28",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      },
+      {
+        "hash": "d871f695a9268fbd58377983af5ae719",
+        "author": "krcko",
+        "name": "Modem melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

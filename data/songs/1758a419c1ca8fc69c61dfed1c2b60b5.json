@@ -1,0 +1,25 @@
+{
+  "file": "songs/1758a419c1ca8fc69c61dfed1c2b60b5.js",
+  "title": "exsynth sequences song",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ab4a4a27631b1a7c601b472d1d45c977b04376637c20a7c1cb0df405609527d3",
+  "upstream": {
+    "hash": "1758a419c1ca8fc69c61dfed1c2b60b5",
+    "codeLen": 142,
+    "code": "a=t=>(t*2**(parseInt('0CV0COHJ8OMQAMTY'[(t>>13)%16],36)/12)/2.4&128)*(1-t%8192/12E3),a(t)+a(t-12288)/2+a(t-24576)/4+a(t-36864)/8+a(t-49152)/16",
+    "author": "Zackx",
+    "name": "exsynth sequences song",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1683",
+      "https://dollchan.net/btb/res/204.html#1816"
+    ],
+    "date": "2023-07-21",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

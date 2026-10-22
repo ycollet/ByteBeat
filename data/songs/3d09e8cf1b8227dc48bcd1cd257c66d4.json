@@ -1,0 +1,25 @@
+{
+  "file": "songs/3d09e8cf1b8227dc48bcd1cd257c66d4.js",
+  "title": "Fractalized Past",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c72da987f1be49cd0cdb65f071adcd7da914fd4aadcc29c5ddbfcce050ceb257",
+  "upstream": {
+    "hash": "3d09e8cf1b8227dc48bcd1cd257c66d4",
+    "codeLen": 78,
+    "code": "(t>>10^t>>11)%5*((t>>14&3^t>>15&1)+1)*t%99+((3+(t>>14&3)-(t>>16&1))/3*t%99&64)",
+    "author": "lhphr",
+    "name": "Fractalized Past",
+    "description": "Sounds familiar...",
+    "url": "https://dollchan.net/btb/res/44.html#69",
+    "date": "2022-05-26",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

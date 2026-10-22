@@ -1,0 +1,35 @@
+{
+  "file": "songs/4a4a9326c92c455f1b53676482035bbd.js",
+  "title": "3D sphere animation 1/16 light",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3925df6a6024ac65854f6b198af8789847f553b9fbb3b7c329533dc8025c531f",
+  "upstream": {
+    "hash": "4a4a9326c92c455f1b53676482035bbd",
+    "codeLen": 112,
+    "code": "T=(t-2048)%8192,k=PI*t/262144,y=1-T%16/8,x=(T>>5)/64-1,max(x*sin(3*k)+y*sin(2*k)+sqrt(1-x**2-y**2)-1,-1)+.6||-.2",
+    "author": "SthephanShi",
+    "name": "3D sphere animation 1/16 light",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18yl6an/3d_sphere_animation/",
+    "date": "2024-01-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "60476a9a1b9d466cc63f105ec9c595e9",
+        "author": "SthephanShi",
+        "name": "3D sphere animation 1/16",
+        "url": "https://www.reddit.com/r/bytebeat/comments/18yl6an/3d_sphere_animation/"
+      }
+    ],
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "4"
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

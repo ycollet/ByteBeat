@@ -1,0 +1,42 @@
+{
+  "file": "songs/64602ff4182fcf2ca396f22ef91d2051.js",
+  "title": "Hardcore mix #2 midnight",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/64602ff4182fcf2ca396f22ef91d2051.js",
+  "sha256": "3dcb10d76de9bebb4b8c3cf7461ac1a3823374b35886755b303b3aafbca5f22e",
+  "upstream": {
+    "hash": "64602ff4182fcf2ca396f22ef91d2051",
+    "codeLen": 549,
+    "fileOrig": 1,
+    "codeText": "r=t*1.75,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.392%64-32,min(max((w=r=>r>0&&(e=a=>s('1 4 B RN I G F8BF G 8 B6 8 4 643'[31&(11&r>>13)+(r>>15)],a)||(n=a=>s('14BD6B86'[7&r>>16],a)/2,n(1)-n(j)),e(1)+e(j))*(1-r/u%1*[.5,1][1&r>>20]),w(r)+w(r-(d=24576))/2+w(r-2*d)/3+w(r-3*d)/4),-32),31)+min(max((-(b=a=>s('DD99BBGB'[7&r>>16],a)*8,b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)+1E4*sin(6*cbrt(r%l))*(1-r/l%1)*!(r&l)),-64),63)+((t*sin(t>>2)&64)-32)*(1-r/l/2%1)**2*!(~r&2*l)+(64*random()-32)*(1-r/u%1",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Hardcore mix #2 midnight",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#4066",
+      "https://www.reddit.com/r/bytebeat/comments/1ei423e/hardcore_mix_2_midnight/"
+    ],
+    "date": "2024-08-02",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "db520d39c9f6969e69219d2c5132502b",
+        "author": "Zackx",
+        "name": "Sunset road",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4013",
+          "https://www.reddit.com/r/bytebeat/comments/1edi5ya/pwmsynth_master/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

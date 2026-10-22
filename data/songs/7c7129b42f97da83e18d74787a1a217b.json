@@ -1,0 +1,32 @@
+{
+  "file": "songs/7c7129b42f97da83e18d74787a1a217b.js",
+  "title": "empty - 4mat",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7c7129b42f97da83e18d74787a1a217b.js",
+  "sha256": "08eeb0024d38882ac86fb5aa9ca33150590be8f90740954552c26d1416b26675",
+  "upstream": {
+    "hash": "7c7129b42f97da83e18d74787a1a217b",
+    "codeMinLen": 959,
+    "codeLen": 1257,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Bpm=120,Hz=44100,tf=abs((((t/Hz/180*3)*256*128)*Bpm)),C=261.63/(T=4/2.972),Db=277.18/T,D=293.66/T,Eb=311.13/T,E=329.63/T,F=349.23/T,Gb=369.99/T,G=392.00/T,Ab=415.30/T,A=440.00/T,Bb=466.16/T,B=493.88/T,M=[E,E,A,A,C*2,D*2,F,F][N=tf/2>>16&7]/256,m1=([E,D,C,C,E,D,A/2,A/2][N])/256,mx=([4.75,5,5,5,4.75,5,4.75,4.75][N]),m2=(([G,Gb,D,D,D,D,G,Gb,D,D,D,D,G,Gb,C,C,C,C,C,C,C,C,C,C,G,Gb,D,D,D,D,G,Gb,D,D,D,D,A/2,A/2,A/2,A/2,A/2,A/2,A/2,A/2,A/2,A/2,A/2,A/2,G,Gb,A,A,A,A,G,Gb,B,B,B,B,G,Gb,C,C,C,C,C,C,C,C,C,C,G,Gb,D,D,D,D,G,",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "empty - 4mat",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1b2yjmz/empty_4mat/",
+      "https://youtu.be/GggJssu1m2w"
+    ],
+    "date": "2024-02-29",
+    "sampleRate": 44100,
+    "coverName": "Matt Simmonds - Empty (512 bytes)",
+    "coverUrl": "https://deepsid.chordian.net/?file=/MUSICIANS/0-9/4-Mat/Empty_512_bytes.sid",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-06"
+  }
+}

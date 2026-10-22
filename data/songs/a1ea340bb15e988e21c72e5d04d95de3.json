@@ -1,0 +1,31 @@
+{
+  "file": "songs/a1ea340bb15e988e21c72e5d04d95de3.js",
+  "title": "quartz",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a1ea340bb15e988e21c72e5d04d95de3.js",
+  "sha256": "d40774c0522042ad55c432c0d14463747778b378aabc932a79886a909918911c",
+  "upstream": {
+    "hash": "a1ea340bb15e988e21c72e5d04d95de3",
+    "codeLen": 48315,
+    "fileOrig": 1,
+    "codeText": "t || (_ => {\n\n///\n///  definitions\n///\n\nconst BPM = 120;\nconst TPB = 4;   // ticks per beat",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "quartz",
+    "description": "Built own music framework, it contains: a midi-like sequencer (only really resembles the way midi files work internally), several synths, audio effects (filters, delay, reverb), a mixer with routing support. \"Decadent Decade\" battle, 1st place (Bytebeat)",
+    "url": "https://battleofthebits.com/arena/Entry/quartz+%28bytebeat%29/79532/",
+    "date": "2025-08-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "9sphere - quartz",
+    "coverUrl": "https://battleofthebits.com/arena/Entry/quartz/77297/",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2026-06-16"
+  }
+}

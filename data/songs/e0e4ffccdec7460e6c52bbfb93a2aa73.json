@@ -1,0 +1,33 @@
+{
+  "file": "songs/e0e4ffccdec7460e6c52bbfb93a2aa73.js",
+  "title": "minimal sierpinski harmony",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f86cee9b15efe5ab4bb4728569417b946e3142b37371407c2bec8bce53009aad",
+  "upstream": {
+    "hash": "e0e4ffccdec7460e6c52bbfb93a2aa73",
+    "codeLen": 6,
+    "code": "t&t>>8",
+    "author": "viznut",
+    "name": "minimal sierpinski harmony",
+    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

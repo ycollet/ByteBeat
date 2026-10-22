@@ -1,0 +1,32 @@
+{
+  "file": "songs/901092f8f459c007914aaa4f037558ec.js",
+  "title": "t% funk",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fb59bdbd9bf61ddf8d8ab12442091b209390161b8512b6f76b149ba418cf8899",
+  "upstream": {
+    "hash": "901092f8f459c007914aaa4f037558ec",
+    "codeLen": 59,
+    "code": "(t%(t&t>>12)/2**(t/1024%4-3)&127)+(8e3**(1-t%16384/1e4)&64)",
+    "author": "lhphr",
+    "name": "t% funk",
+    "description": "Another remix of \"idk it's 't%'\"? Why not.",
+    "url": "https://dollchan.net/btb/res/44.html#66",
+    "date": "2022-05-19",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "3bd4a5d87b9b21b5d5055761f96b17a8",
+        "author": "lhphr",
+        "name": "idk it's \"t%\"",
+        "url": "https://dollchan.net/btb/res/44.html#44"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

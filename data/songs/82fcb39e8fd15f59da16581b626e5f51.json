@@ -1,0 +1,48 @@
+{
+  "file": "songs/82fcb39e8fd15f59da16581b626e5f51.js",
+  "title": "BAATYR DIMENSION",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/82fcb39e8fd15f59da16581b626e5f51.js",
+  "sha256": "ca2eb1a24478b399491af168caab5a05244604491b14448adda7102d1499f474",
+  "upstream": {
+    "hash": "82fcb39e8fd15f59da16581b626e5f51",
+    "codeLen": 13755,
+    "fileOrig": 1,
+    "codeText": "disp = 0,\n\nwv = t => (y = t % 256, 127 > y ? y : 2 * (256 - y)),\nms = int(t / 1e4),\np = t / 1e4 % 16,\np2 = t / 1e4,\nb = p % 4,\nqn = p % 1,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "BAATYR DIMENSION",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#9017",
+      "https://www.reddit.com/r/bytebeat/comments/1n9w7qg/baatyr_dimension/"
+    ],
+    "date": "2025-09-06",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "fbdde26b39a2cfb0bb4005da790ebae4",
+        "author": "MarioFan171",
+        "name": "BAATYR.EXE",
+        "url": [
+          "https://dollchan.net/btb/res/2971.html#8636",
+          "https://www.reddit.com/r/bytebeat/comments/1mghpgb/baatyrexe/"
+        ]
+      },
+      {
+        "hash": "7aa7d7fe84806523417f3ef02f319fb0",
+        "author": "burlynn n01se",
+        "name": "A NΞW DIMΞNSION",
+        "url": "https://battleofthebits.com/arena/Entry/A+N%CE%9EW+DIM%CE%9ENSION/42606/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-11-17",
+    "date_edited": "2025-11-19"
+  }
+}

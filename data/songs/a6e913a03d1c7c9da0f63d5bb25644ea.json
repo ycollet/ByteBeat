@@ -1,0 +1,24 @@
+{
+  "file": "songs/a6e913a03d1c7c9da0f63d5bb25644ea.js",
+  "title": "b-trtrrrrrt-eat",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e875608f859b93d7dc985003e7c2e8d41dfe4eaecdcc6dd5e9f53d72a7dd233c",
+  "upstream": {
+    "hash": "a6e913a03d1c7c9da0f63d5bb25644ea",
+    "codeMinLen": 81,
+    "codeMin": "s=(x,y)=>sin(t/x)*y+128,(log(s(s(t/(t/1E4),32),32))|t>>12)*(t>>7)&4E5/(t>>2&4095)",
+    "codeLen": 93,
+    "code": "s = (x, y) => sin(t/x)*y+128,\n(log(s(s(t/(t/10000),32),32))|t>>12)*(t>>7)&(4e5/((t>>2)&4095))",
+    "author": "kOLbOSa_exe",
+    "name": "b-trtrrrrrt-eat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qcoocw/btrtrrrrrteat/",
+    "date": "2021-10-21",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

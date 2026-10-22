@@ -1,0 +1,26 @@
+{
+  "file": "songs/4244d581511b94e9c7632e1b58920335.js",
+  "title": "Don't know what to name 2",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 34500,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4244d581511b94e9c7632e1b58920335.js",
+  "sha256": "26e5edde1bb44ed202130f18f637e8b355561664921d448e680246fa01c9d66c",
+  "upstream": {
+    "hash": "4244d581511b94e9c7632e1b58920335",
+    "codeMinLen": 690,
+    "codeLen": 747,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:Reverb=Array(12288).fill(0),Reverb2=(v=-9E9,n=.976,W='1110'[t>>11&3],S=t%16384,a=t*n*2**([4,7,7,0,2,2,v,0,2,2,v,4,2,2,0,0,4,7,7,0,2,2,v,0,2,2,v,4,2,2,0,0,4,7,7,0,2,2,v,0,2,2,2,4,2,2,0,0,0,0,0,0,v,v,0,0,0,0,7,4,4,4,v,v][t>>13&63]/12)*[W,W,W,W,1,1,1,W,1,1,1,W,1,W,1,W,W,W,W,W,1,1,1,W,1,1,1,W,1,W,1,W,W,W,W,W,1,1,1,W,1,1,W,W,1,W,1,W,1,1,1,1,1,1,W,1,1,W,W,1,1,1,1,1][t>>13&63]&64,b=((t*2*n*2**([7,7,4,2,2,v,0,4,2,2,0,0,-3,-3,0,0,7,7,4,2,2,v,0,4,2,2,0,0,7,7,4,4][t>>12&31]/12)&127)+32&128)/2.5,c=(((t*1.995*n*2**(",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Don't know what to name 2",
+    "url": "https://dollchan.net/btb/res/520.html#2365",
+    "date": "2023-09-29",
+    "sampleRate": 34500,
+    "tags": [
+      "1k"
+    ]
+  }
+}

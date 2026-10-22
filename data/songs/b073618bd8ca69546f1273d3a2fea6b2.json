@@ -1,0 +1,24 @@
+{
+  "file": "songs/b073618bd8ca69546f1273d3a2fea6b2.js",
+  "title": "Random Bytebeat Loop Song",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9254abc7f32dc64f3860bd0b1f027b3f85d61dcb8cc93a5150fe66506319fc98",
+  "upstream": {
+    "hash": "b073618bd8ca69546f1273d3a2fea6b2",
+    "codeMinLen": 459,
+    "codeMin": "Pattern=t*1.125**'5533224412321423'[t>>15&15]/8,Sequence=t*1.25**'4323432343234323432343234323432365456545654565456545654565456545'[t>>14&63]*'1010110010101100101011001010110010001010100010101000101010001010'[t>>11&63]/32,(Pattern&16)+(1.02*Pattern&16)+(1.51*Pattern&16)+(1.53*Pattern&16)+(16*sin(Pattern/3)+16*cos(Pattern/4))+Sequence%16+1.5*Sequence%16+Sequence/2%16+Sequence/2*1.5%16+random()*((-t>>6&31)+1)*(-t>>11&1)+random()*((-t>>8&31)+1)*(-t>>13&1)+32",
+    "codeLen": 505,
+    "code": "Pattern=t*Math.pow(1.125,\"5533224412321423\"[t>>15&15])/8,Sequence=t*Math.pow(1.25,\"4323432343234323432343234323432365456545654565456545654565456545\"[t>>14&63])*\"1010110010101100101011001010110010001010100010101000101010001010\"[t>>11&63]/32,(Pattern&16)+(Pattern*1.02&16)+(Pattern*1.51&16)+(Pattern*1.53&16)+(Math.sin(Pattern/3)*16+Math.cos(Pattern/4)*16)+(Sequence%16)+(Sequence*1.5%16)+(Sequence/2%16)+(Sequence/2*1.5%16)+Math.random()*((-t>>6&31)+1)*(-t>>11&1)+Math.random()*((-t>>8&31)+1)*(-t>>13&1)+32",
+    "author": "HypernovaHeathen",
+    "name": "Random Bytebeat Loop Song",
+    "url": "https://youtu.be/H1h9TzPJTiE",
+    "date": "2023-11-28",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

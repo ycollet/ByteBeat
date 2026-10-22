@@ -1,0 +1,28 @@
+{
+  "file": "songs/cf164918df89cdd4539afa61a172d5f5.js",
+  "title": "\"So far this recipe is a bit easier than the other ones\"",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cf164918df89cdd4539afa61a172d5f5.js",
+  "sha256": "9e7fe27a6455a06a090f7a43547516091e99aa79f821e332039869b9718b2b17",
+  "upstream": {
+    "hash": "cf164918df89cdd4539afa61a172d5f5",
+    "codeMinLen": 622,
+    "codeLen": 651,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=t-131072,Hz=120/60*16384,n=440/Hz*128*2**(3/12),S=((t*sin((t%140)>>3)&128)*'0010'[t>>13&3]*(-t>>5&255)>>8),P=((t*sin((t%27.5)>>4)&128)*'00100000100000000010000011'[t>>12&31]*(-t>>4&255)>>8),P2=((t*sin((t%79)>>5)&128)*((t>>12&15)==15)*(-t>>4&255)/5>>6),K=((t*sin((-t%256)>>6)&128)*'100001'[t>>13&7]*(-t>>5&255)*3>>10),H=(t*random()*(-t>>10&1)*'0000101'[t>>11&7]&-t>>2)%256/6,Chr=Chr=>t/2*n*2**(Chr/12)&64,Chr=(Chr('5555113633331131'[T>>15&15])+Chr([1,-3,-1,-3][T>>17&3])+Chr([-4,-6][T>>17&1])+Chr([-11,-18,-13,-",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "\"So far this recipe is a bit easier than the other ones\"",
+    "url": "https://dollchan.net/btb/res/520.html#5575",
+    "date": "2025-03-05",
+    "sampleRate": 32768,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-11-21"
+  }
+}

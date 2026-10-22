@@ -1,0 +1,42 @@
+{
+  "file": "songs/417ca8befd0eeb6a2798511e3eb4b278.js",
+  "title": "Arcade machine",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "afc5964d9b885d0fa6a64630a6d607be65b297f8de442fd53365975a369a1ca8",
+  "upstream": {
+    "hash": "417ca8befd0eeb6a2798511e3eb4b278",
+    "codeMinLen": 504,
+    "codeMin": "r=1.125*t,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>(t*2**(parseInt(a,36)/12)/b*.554&64)-32,w=r=>r>0&&(e=a=>s(['8DFGKPSW','8DFGKNPW','8DFGKNPU','6BFIKNSZ'][3&r>>17][7&(11&r>>[13,10][k=1&r>>17])-(7&r>>15)+(r>>14)],a)/2,e(1)+e(j))*(1-r/u%1*[.75,.5][k]),w(r)+w(r-(d=12288))/3+w(r-2*d)/4+w(r-3*d)/5+-(b=a=>s('DD98'[3&r>>17],a),b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)+(48*random()-24)*(1-r/c%1)*!(r&c)+64*sin(8*cbrt(r%l))*(1-r/l%1)*!(r&l)+((t*sin(t>>2)&32)-16)*(1-r/l/2%1)*!(~r&2*l)),-128),127),[x(1.005),x(.995)]",
+    "codeLen": 506,
+    "code": "r=t*1.125,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>(t*2**(parseInt(a,36)/12)/b*.554&64)-32,w=r=>r>0&&(e=a=>s(['8DFGKPSW','8DFGKNPW','8DFGKNPU','6BFIKNSZ'][3&r>>17][7&((11&r>>[13,10][k=1&r>>17])-(7&r>>15)+(r>>14))],a)/2,e(1)+e(j))*(1-r/u%1*[.75,.5][k]),w(r)+w(r-(d=12288))/3+w(r-d*2)/4+w(r-d*3)/5+-(b=a=>s('DD98'[3&r>>17],a),b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)+(random()*48-24)*(1-r/c%1)*!(r&c)+sin(cbrt(r%l)*8)*64*(1-r/l%1)*!(r&l)+((t*sin(t>>2)&32)-16)*(1-r/l/2%1)*!(~r&l*2)),-128),127),[x(1.005),x(.995)]",
+    "author": "Zackx",
+    "name": "Arcade machine",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#3902",
+      "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+    ],
+    "date": "2024-07-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "9013f2c9cfa9338169a95944c085afcc",
+        "author": "Zackx",
+        "name": "Dance in square machine",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3755",
+          "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

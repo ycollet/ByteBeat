@@ -1,0 +1,23 @@
+{
+  "file": "songs/bdd405f6c464be6302292bce1044dbbd.js",
+  "title": "H_YPN0T1Z3%",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "beb63c80844a8c9fa51989f2b0a78b5b0b7e5a73718866924613a8d179059252",
+  "upstream": {
+    "hash": "bdd405f6c464be6302292bce1044dbbd",
+    "codeLen": 21,
+    "code": "(t>>3&1)*t>>3^t/128*t",
+    "author": "absolute197",
+    "name": "H_YPN0T1Z3%",
+    "url": "https://www.reddit.com/r/bytebeat/comments/122rwfc/h_ypn0t1z3/",
+    "date": "2023-03-26",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/351df06ea8ce64c7b4137d3ff890ca7d.js",
+  "title": "Recreated HappyBeat",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/351df06ea8ce64c7b4137d3ff890ca7d.js",
+  "sha256": "11bdee1c9eefe57d70fe4c9207bde5ba89e22c2abc36ad6bd908bb28faf8b3be",
+  "upstream": {
+    "hash": "351df06ea8ce64c7b4137d3ff890ca7d",
+    "codeLen": 1413,
+    "fileOrig": 1,
+    "codeText": "t?0:(u=2.5,v=2**17,X=Array(256).fill(0),Y=Array(15360).fill(0),song=rev=0),l=(t/=6)*u,k=-6,d=0,\nsynth = (speed, value, radix, bandWidth = 1) => {\n\traw = parseInt((value2 = value.toString(radix))[speed % value2.length | 0], radix);\n\tX[++d] = (X[d] * bandWidth + raw) / (bandWidth + 1);\n\td++;\n\treturn X[--d]\n},\npitch = (speed = t, transpose = 0) => {",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Recreated HappyBeat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14ph67c/recreated_happybeat/",
+    "date": "2023-07-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "94da5346c900b64f3da5d00858e63b77",
+        "author": "Yung Gotenks",
+        "name": "happybeat",
+        "url": "https://battleofthebits.com/arena/Entry/happybeat/31161/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

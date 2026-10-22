@@ -1,0 +1,34 @@
+{
+  "file": "songs/da4cc1f9aadb49917f1968a3cb136d6f.js",
+  "title": "rain dance",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cd40e2c969d697a8dc361a1cec73bdf2a45ecc034175a1ba047db43258a5c7e8",
+  "upstream": {
+    "hash": "da4cc1f9aadb49917f1968a3cb136d6f",
+    "codeLen": 326,
+    "code": "P='push',F='fill',A=Array,L='length',t>.5||(a=A(l=131072)[F](0),b=A(l*2)[F](0),c=A(l*3)[F](0),d=A(l*4)[F](0),e=A(l*5)[F](0),f=A(l*6)[F](0),g=A(l*7)[F](0)),t*=9,x=sin(t*PI/1920)*(t/l/32%1-1)**8+a[t%a[L]]+b[t%b[L]]+c[t%c[L]]+d[t%d[L]]+e[t%e[L]]+f[t%f[L]]+g[t%g[L]],a[P](x/2),b[P](x/2),c[P](x/2),d[P](x/2),e[P](x/2),f[P](x/2),x/3",
+    "author": "eSlashMachine",
+    "name": "rain dance",
+    "description": "Generates sounds of various pitch from a recurring sine ping using arrays.",
+    "url": "https://dollchan.net/btb/res/6946.html#9529",
+    "date": "2025-10-02",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "1ba659112372d6b0efc655bc586c64e4",
+        "author": "eSlashMachine",
+        "name": "Music Generator",
+        "url": "https://dollchan.net/btb/res/6946.html#9525"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-12-01",
+    "date_edited": "2025-12-01"
+  }
+}

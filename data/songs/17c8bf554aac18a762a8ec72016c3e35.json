@@ -1,0 +1,28 @@
+{
+  "file": "songs/17c8bf554aac18a762a8ec72016c3e35.js",
+  "title": "gTrackerNSST+V",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/17c8bf554aac18a762a8ec72016c3e35.js",
+  "sha256": "d80b7649e009cd8244db2a7bfcb888b99ff3641ad223923e0441fd3373e93482",
+  "upstream": {
+    "hash": "17c8bf554aac18a762a8ec72016c3e35",
+    "codeLen": 9911,
+    "fileOrig": 1,
+    "codeText": "createFilters=(...names)=>{for(i of names){this[i]??={a:0,b:0,c:0,d:0,e:0,f:0,g:0,h:0}}},\nuseFilter=(value,name,amount=0.5,stage='h',acidity=0.9)=>(\nz=acidity+acidity/(1-amount),\nthis[name].a+=amount*(value-this[name].a+z*(this[name].a-this[name].b)),\nthis[name].b+=amount*(this[name].a-this[name].b),\nthis[name].c+=amount*(this[name].b-this[name].c),\nthis[name].d+=amount*(this[name].c-this[name].d),\nthis[name].e+=amount*(this[name].d-this[name].e),",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "gTrackerNSST+V",
+    "description": "NSST + Vibrato added.",
+    "url": "https://dollchan.net/btb/res/756.html#1333",
+    "date": "2023-06-18",
+    "sampleRate": 32000,
+    "coverName": "Omori OST - 168 OMORI & 169 OMORI - ALTER",
+    "coverUrl": "https://youtu.be/zBpUvvkKma0",
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

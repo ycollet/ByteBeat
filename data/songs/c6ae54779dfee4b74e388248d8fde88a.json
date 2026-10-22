@@ -1,0 +1,34 @@
+{
+  "file": "songs/c6ae54779dfee4b74e388248d8fde88a.js",
+  "title": "Fantastic Dreams",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 33500,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c6ae54779dfee4b74e388248d8fde88a.js",
+  "sha256": "fe63ff13e38f42e69c8c1cf3fd527cfa1a2ec59b32b44f74fe2d056f42d33f12",
+  "upstream": {
+    "hash": "c6ae54779dfee4b74e388248d8fde88a",
+    "codeMinLen": 1251,
+    "codeLen": 1483,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:z1=[],callCount=0,lpf=lowPassFilter=(a,c)=>(call=callCount++,z1[call]??=0,z1[call]+=(a-z1[call])*c),hpf=highPassFilter=(a,c)=>(a-lpf(a,c)),mn=(x,m=-128,mx=127)=>min(max(x,m),mx),r=t*.824,k=int(r>>19),st=int(k>=4),mms=['EHLOSEHLCHLOSCHL','EHELEOEQCHCLCOCQAHAJAOAJCHCLCOCL'][st], mcs=[['ECA9','LLJG','OQTT'],['ECAC','LLJL','OQTQ']][st],mls='ELOQ',f=i=>i%256/2+(2**(7/12)*i%256/2),d=i=>i%256/2+(i*1.015%256/2),pw=(i,x)=>(i%256/2+x)&128,p=a=>t*2**(parseInt(a,36)/12),x=j=>(w=r=>(e=a=>r>0&&((pw(a*p(mms[(r>>13)%mm",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Fantastic Dreams",
+    "description": "Bytebattle Season 4 Competition - 2nd place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1jrifdp/fantastic_dreams/",
+      "https://bytebeat.oops.wtf/season4/entries.html"
+    ],
+    "date": "2025-04-04",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 33500,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-12"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/7c10407ec29a3d9ae5b4ef94c632a59d.js",
+  "title": "Neurofunk, heavyAF breakbeat edition",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7c10407ec29a3d9ae5b4ef94c632a59d.js",
+  "sha256": "e43b1a58831e0c07190b6bb97d8d64b3abccab4ee74764c21989fb8d76eb2e9a",
+  "upstream": {
+    "hash": "7c10407ec29a3d9ae5b4ef94c632a59d",
+    "codeMinLen": 238,
+    "codeMin": "s=sin(t>>5),h=1&t,t*=.18,b=2E5/(t&2**10/[1,,h,,s,,h,1,1,,s,,1,1,1,h,1,,h,,s,,h,,1,2,s,1,s,1,t&42,1.06*t&55][(t>>10)%32]-1),n=t*((t&4096?59392>t%65536?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?10:3:2),[b%149^n,b%150^n]",
+    "codeLen": 261,
+    "fileOrig": 1,
+    "codeText": "s=sin(t>>5),h=1&t,t*=.18,b=2E5/(t&2**10/[1,,h,,s,,h,1,1,,s,,1,1,1,h,1,,h,,s,,h,,1,2,s,1,s,1,t&42,1.06*t&55][(t>>10)%32]-1),n=t*((t&4096?59392>t%65536?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?10:3:2),[b%149^n,b%150^n]",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Neurofunk, heavyAF breakbeat edition",
+    "url": "https://www.reddit.com/r/bytebeat/comments/zr9def/neurofunk_heavyaf_breakbeat_edition_stereo/",
+    "date": "2022-12-21",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

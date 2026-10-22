@@ -1,0 +1,22 @@
+{
+  "file": "songs/1dc872288674952da907ab59b28dc363.js",
+  "title": "The Portana",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c2b2eb6227e6866b5acc32e7acfb4d21aac5bf0e74c6b7c745c379025972231f",
+  "upstream": {
+    "hash": "1dc872288674952da907ab59b28dc363",
+    "codeLen": 217,
+    "code": "T=t*.68,c=4096,f=x=>.5*t*2**(x/12),e=x=>((f([0,24,0,24,27,27,0,24,0,24,-2,22,29,29,22,27][(T-x>>12)%16])&127)+48&128)*(c-(T-x>>((3&T-x>>13)==2?1:0))%c)/c,(e(0)/2+e(2048)/3+e(4096)/4+e(6144)/6+e(8192)/8+e(10240)/9)*1.5",
+    "author": "hcdphobe",
+    "name": "The Portana",
+    "url": "https://dollchan.net/btb/res/163.html#1468",
+    "date": "2023-07-02",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

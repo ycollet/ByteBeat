@@ -1,0 +1,1 @@
+t*2*2**(parseInt("KMNPRTUUU"[t>>11],36)/12)&128

@@ -1,0 +1,36 @@
+{
+  "file": "songs/7fedd2890438e7a3261dc302575dec51.js",
+  "title": "Ｓｙｎｔｈｗａｖｉｆｉｅｄ",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7fedd2890438e7a3261dc302575dec51.js",
+  "sha256": "de09898cc9531e84aeccd378c21dfa97feeceb9725ca98b3807f4e65bd49e536",
+  "upstream": {
+    "hash": "7fedd2890438e7a3261dc302575dec51",
+    "codeMinLen": 457,
+    "codeMin": "t?0:A=Array(n=12288).fill(0),T=t/2*(6+((t^t/2^t/4&t/8)>>13&3))/6,B=t/4*(6+(t>>18&3))/6,TR=x=>(T%127+T%128)/2,bass=(B%128+B%127&128)/2,rv=ins=TR(t)+TR(t-1E10)/3+A[t%n]/1.5,A[t%n]=rv/2,kseq=[1,2,1,4,1,2,1,4][t>>13&7]||0,kick=50*sin(1.7**(-t/(512/kseq)%64+8))+50+1.5,seq=[1,1,,1,,1,1][t>>13&7],snare=(128*sin(t*tan(t))+128)%128/1.5*(-t&8191*seq)/24E3,bseq=[,1,,1,,1,,1][t>>13&7],bell=(1&t)*128*(-t&8191*bseq)/24E3,(bass/1.25+ins/1.5)/1.75+(kick+snare+bell)/1.2",
+    "codeLen": 494,
+    "fileOrig": 1,
+    "codeText": "t?0:A=Array(n=12288).fill(0),T=t/2*(6+((t^t/2^t/4&t/8)>>13&3))/6,B=t/4*(6+(t>>18&3))/6,TR=x=>(T%127+T%128)/2,bass=(B%128+B%127&128)/2,rv=ins=TR(t)+TR(t-1E10)/3+A[t%n]/1.5,A[t%n]=rv/2,kseq=[1,2,1,4,1,2,1,4][t>>13&7]||0,kick=50*sin(1.7**(-t/(512/kseq)%64+8))+50+1.5,seq=[1,1,,1,,1,1][t>>13&7],snare=(128*sin(t*tan(t))+128)%128/1.5*(-t&8191*seq)/24E3,bseq=[,1,,1,,1,,1][t>>13&7],bell=(1&t)*128*(-t&8191*bseq)/24E3,(bass/1.25+ins/1.5)/1.75+(kick+snare+bell)/1.2",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Ｓｙｎｔｈｗａｖｉｆｉｅｄ",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cn2mjt/comment/l34cctd/",
+    "date": "2024-05-08",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "6f5d5f5e173158fc33d56f4c142cf41e",
+        "author": "D3nschøt",
+        "name": "Random Note generator 2",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1cn2mjt/random_note_generator_2/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-08-29",
+    "date_edited": "2025-09-29"
+  }
+}

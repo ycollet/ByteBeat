@@ -1,0 +1,25 @@
+{
+  "file": "songs/73ea384fc7261967e9407ab51dbeb0e4.js",
+  "title": "they're getting closer",
+  "author": "Bp103",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03f1787c04152adf20c22f2d814e8bed97a7e333edb252c4045d42de06ea4f1b",
+  "upstream": {
+    "hash": "73ea384fc7261967e9407ab51dbeb0e4",
+    "codeMinLen": 86,
+    "codeMin": "r=44100,q=t/r,sin(q*(1.3*exp(16*q%8*-2)+9E9*exp(64*q%8*-60))+(q/2*r&8*q%r)%tan(q*r%2))",
+    "codeLen": 106,
+    "code": "r=44100,q=t/r,sin(q*(1.3*exp(-2*((q*16)%8))+(9e9*exp(-60*((q*64)%8))))+(((q/2)*r)&((q*8)%r))%tan((q*r)%2))",
+    "author": "Bp103",
+    "name": "they're getting closer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rtld2d/theyre_getting_closer/",
+    "date": "2022-01-01",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

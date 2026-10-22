@@ -1,0 +1,29 @@
+{
+  "file": "songs/515b29335b7f2563079fb039176e30ae.js",
+  "title": "akimbo",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/515b29335b7f2563079fb039176e30ae.js",
+  "sha256": "7693845593c74000660baab8c675cf5d4d1ea3e20a3ac2d2cce4a847790f9778",
+  "upstream": {
+    "hash": "515b29335b7f2563079fb039176e30ae",
+    "codeLen": 2368,
+    "fileOrig": 1,
+    "codeText": "/*\n * akimbo\n * by troubleshoot\n * (recreation of Isolation)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=200,K=H=S=k=h=s=b1=b2=b3=b4=h1=h2=m1=m2=s1=s2=s3=0,Ki=Hi=Sn=1,r=Array(m=16384).fill(0),R=i=>r[i%m],br=Array(m).fill(0),BR=i=>br[i%m],e=(a,b,c)=>(1-(a*b<1?a*b:1))**c,e2=(a,b)=>1>a/b?(n=1-a/b)*n:0),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "akimbo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1n4tnvu/akimbo/",
+    "date": "2025-08-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Nighthawk22 - Isolation",
+    "coverUrl": "https://youtu.be/O07SX0BliAQ",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

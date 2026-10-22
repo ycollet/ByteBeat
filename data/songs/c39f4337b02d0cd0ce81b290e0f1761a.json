@@ -1,0 +1,35 @@
+{
+  "file": "songs/c39f4337b02d0cd0ce81b290e0f1761a.js",
+  "title": "Cave_8",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 29000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c39f4337b02d0cd0ce81b290e0f1761a.js",
+  "sha256": "5237cab8045f5eb5623316a83621a959196a675a2ce00f481ccaf00c303f08fd",
+  "upstream": {
+    "hash": "c39f4337b02d0cd0ce81b290e0f1761a",
+    "codeMinLen": 336,
+    "codeMin": "t||(rvA=[]),rvI=0,$A=t==0,rv=(X,L,dry=.5,wet=.5,dry2=0,T=t,Q=false)=>(t&&void 0!=rvA[rvI]||rvA.push(Array(L).fill(0)),OUTPUT1=rvA[rvI][Q?int(T%L):t%L]=rvA[rvI][Q?t%L:int(T%L)]*wet+(X&255)*dry,Q?OUTPUT1+X*dry2:rvA[rvI][t%L]+X*dry2),R=10*t/(4+(t>>17)%16)*(1+(3&t>>15))>>(1&t>>14)&128,2*rv(R*1.00003**(-(t&16383)),16384,.2,.8,0,t/1.004,!0)",
+    "codeLen": 427,
+    "fileOrig": 1,
+    "codeText": "t||(rvA=[]),rvI=0,$A=t==0,rv=(X,L,dry=.5,wet=.5,dry2=0,T=t,Q=false)=>(t&&void 0!=rvA[rvI]||rvA.push(Array(L).fill(0)),OUTPUT1=rvA[rvI][Q?int(T%L):t%L]=rvA[rvI][Q?t%L:int(T%L)]*wet+(X&255)*dry,Q?OUTPUT1+X*dry2:rvA[rvI][t%L]+X*dry2),R=10*t/(4+(t>>17)%16)*(1+(3&t>>15))>>(1&t>>14)&128,2*rv(R*1.00003**(-(t&16383)),16384,.2,.8,0,t/1.004,!0)",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Cave_8",
+    "description": "Good for some horror game. Reminds the \"Government Funding\" cover for Backrooms.",
+    "url": "https://dollchan.net/btb/res/756.html#2528",
+    "date": "2023-10-23",
+    "sampleRate": 29000,
+    "remix": [
+      {
+        "hash": "367f45e464bc6bc15ba8347a709fc418",
+        "author": "Chasyxx",
+        "name": "cave_7",
+        "url": "https://dollchan.net/btb/res/756.html#1762"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

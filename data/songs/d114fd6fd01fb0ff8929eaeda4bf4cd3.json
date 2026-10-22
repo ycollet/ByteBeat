@@ -1,0 +1,36 @@
+{
+  "file": "songs/d114fd6fd01fb0ff8929eaeda4bf4cd3.js",
+  "title": "stadion",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d114fd6fd01fb0ff8929eaeda4bf4cd3.js",
+  "sha256": "a03128f42b38cc9fe7dcc58052c2230c6ef3af810c80eebb682a73e1451c866b",
+  "upstream": {
+    "hash": "d114fd6fd01fb0ff8929eaeda4bf4cd3",
+    "codeMinLen": 156,
+    "codeMin": "t/=2,h=t=>(u=10^t>>15&7,u+=3,y=(t>>11&7)/u,f=8*t*y,z=16*t/u&99|f|1.01*f,2*z)&255,(()=>{a=h(t)/4;for(ij=1;8>ij;ij++)a+=h(t-1025*ij)/(9*ij);return a/128-1})()",
+    "codeLen": 237,
+    "fileOrig": 1,
+    "codeText": "t/=2,h=t=>(u=10^t>>15&7,u+=3,y=(t>>11&7)/u,f=8*t*y,z=16*t/u&99|f|1.01*f,2*z)&255,(()=>{a=h(t)/4;for(ij=1;8>ij;ij++)a+=h(t-1025*ij)/(9*ij);return a/128-1})()",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "stadion",
+    "description": "mu6k's code with reverb.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18it7a4/stadion/",
+    "date": "2023-12-15",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "remix": [
+      {
+        "hash": "496feb208f0fb1589c9263d3ce83966a",
+        "author": "mu6k",
+        "name": "The detuned sound",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401841"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

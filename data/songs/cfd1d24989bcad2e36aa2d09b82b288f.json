@@ -1,0 +1,38 @@
+{
+  "file": "songs/cfd1d24989bcad2e36aa2d09b82b288f.js",
+  "title": "Hardcore remix of Small Gifts",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cfd1d24989bcad2e36aa2d09b82b288f.js",
+  "sha256": "0f4ddb8b34abe4efd08a5d22ce886411aa817b7bdc6100e582a43fc656647fcf",
+  "upstream": {
+    "hash": "cfd1d24989bcad2e36aa2d09b82b288f",
+    "codeMinLen": 799,
+    "codeLen": 821,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "K=2*sin(6*cbrt(t%16384))*64*(1-t/16384%1+.3),S=((t*sin(t>>2)&128)-64)*(1-t/8192%1+.5),H=(128*random()-64)*(1-t/16384%1),R=0,x=j=>(w=t=>(e=a=>t>0&&(wv=64/PI*a*t*1.015*.4*1.75**(([45,48,52,48,57,52,60,57,45,48,52,48,57,60,57,52,43,47,50,47,55,50,59,55,43,47,50,47,55,59,55,50,41,45,48,45,53,48,57,53,41,45,48,45,53,57,53,48,43,47,50,47,55,50,59,55,43,47,50,47,55,59,55,50][t>>13&63]-85)/10)%256-128,((tanh(wv*PI/128)*8*((t&131072?t:-t)>>9&255)&128)%256-64)*(1-t/8192%1)*3),e(1)/2+e(j)/2),b=a=>1.5*(tan(t*a/4*1.015*",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Hardcore remix of Small Gifts",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1k2ebxu/hardcore_remix_of_small_gifts/",
+    "date": "2025-04-18",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "65a052e24623b00b879e71f5c4a4b65e",
+        "author": "eSlashMachine",
+        "name": "Small Gifts",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ig9d7n/small_gifts_an_actual_song/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2025-11-25"
+  }
+}

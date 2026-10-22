@@ -1,0 +1,27 @@
+{
+  "file": "songs/b246ac2b34ec39fdcff7c4af8674865f.js",
+  "title": "happy thing with long sierpinski harmony",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "79284d3186253aa3a512d400a1ac3e16f794ad9edf5cd26f45ff5ffce01b51a6",
+  "upstream": {
+    "hash": "b246ac2b34ec39fdcff7c4af8674865f",
+    "codeMinLen": 297,
+    "codeMin": "r=12288,a=t=>(t*2**(([[0,2,4,5,7,9,11,14,0,2,4,5,7,9,11,16],[-3,4,7,9,12,14,12,16,-3,4,7,9,12,14,12,19]][!(~t>>16&2)|[1&t>>17]][(t>>13)%16]+.7)/12)&t>>12&255)*(1-t%8192/16E3)/2,[a(t)+a(t-r)/2+a(t-r*2)/8+a(t-r*3)/6+a(t-r*4)/12+a(t-r*5)/12,a(t)+a(t-r)/4+a(t-r*2)/6+a(t-r*3)/8+a(t-r*4)/8+a(t-r*5)/24]",
+    "codeLen": 300,
+    "code": "r=12288,a=t=>(t*2**(([[0,2,4,5,7,9,11,14,0,2,4,5,7,9,11,16],[-3,4,7,9,12,14,12,16,-3,4,7,9,12,14,12,19]][!(~t>>16&2)|[1&t>>17]][(t>>13)%16]+.7)/12)&t>>12&255)*(1-t%8192/16e3)/2,\n[\na(t)+a(t-r)/2+a(t-r*2)/8+a(t-r*3)/6+a(t-r*4)/12+a(t-r*5)/12,\na(t)+a(t-r)/4+a(t-r*2)/6+a(t-r*3)/8+a(t-r*4)/8+a(t-r*5)/24]",
+    "author": "Zackx",
+    "name": "happy thing with long sierpinski harmony",
+    "url": "https://dollchan.net/btb/res/204.html#873",
+    "date": "2023-04-19",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/4bc605e9afc291446ec497ba49142ffe.js",
+  "title": "remix of the salinewin version of neurofunk",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4bc605e9afc291446ec497ba49142ffe.js",
+  "sha256": "9fea1c0d93065eca00330d31218da7ef02bf5bcfec78b5786c0db202a2e24c98",
+  "upstream": {
+    "hash": "4bc605e9afc291446ec497ba49142ffe",
+    "codeLen": 1158,
+    "fileOrig": 1,
+    "codeText": "t ? 0 : (\n\tfx = Array(3e6).fill(0) // this array stores memory for the effects\n),\n\nfxi = 0, // iterates over the fx array\n// inp - input\nlp = (inp,w) => { // lowpass function (w - strength of effect (0 is the minimum value))\n\tif (w == 0) return inp",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "remix of the salinewin version of neurofunk",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gvt62q/remix_of_the_salinewin_version_of_neurofunk/",
+    "date": "2024-11-20",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

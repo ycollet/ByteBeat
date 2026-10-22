@@ -1,0 +1,24 @@
+{
+  "file": "songs/7efd42f0ff59327737cf783d754b387b.js",
+  "title": "here enjoy some choords I made :)",
+  "author": "LJ",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7c54b70bd21fab5a2a212d7fe36a019bb0400ca45101d83b44be33a7ff2c52e4",
+  "upstream": {
+    "hash": "7efd42f0ff59327737cf783d754b387b",
+    "codeMinLen": 143,
+    "codeMin": "(abs(t*(.02+.01*(1E-4*t&4))*(1+1E-4*t%4<<5)%255-128)&255)+t%100*.3*abs(.25*sin(5E-5*t)+.5)+min(.5*max((t>>16)-2,0),1)*(.1*t&15)*(.01*t&255)/112",
+    "codeLen": 185,
+    "code": "((Math.abs(t*(.02+(t*.0001&0x4)*.01)*(1+((t*.0001)%4)<<5)%0xFF-0x80))&0xFF) + (t%100)*.3*Math.abs(sin(t*.00005)*.25+.5)+Math.min(Math.max((t>>16)-2,0)*.5,1)*(t*.1&0xF)*(t*.01&0xFF)/0x70",
+    "author": "LJ",
+    "name": "here enjoy some choords I made :)",
+    "url": "https://www.pouet.net/topic.php?which=8357&page=26#c524954",
+    "date": "2016-12-15",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

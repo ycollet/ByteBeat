@@ -1,0 +1,24 @@
+{
+  "file": "songs/cafbd6584a7f6aec6b565582c372207e.js",
+  "title": "Plaate",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "107a6d1b60cd31832ba030023097345ace7c20b711c809e4317789b102dd7039",
+  "upstream": {
+    "hash": "cafbd6584a7f6aec6b565582c372207e",
+    "codeMinLen": 119,
+    "codeMin": "t/=1.25,h=t*1.15**((t>>13&3|t>>14&5)^t>>16&3^-5|t>>14&t>>15&1)*1.15**(((t>>15&t>>16)+4^7)%((t>>13&1)+3)+1)*1.5,h|1.01*h",
+    "codeLen": 140,
+    "code": "t=t/1.25,h=t*Math.pow(1.15,((t>>13&3|t>>14&5)^t>>16&3)^-5|t>>14&t>>15&1)*Math.pow(1.15,((((t>>15&t>>16)+4^7)%((t>>13&1)+3))+1))*1.5,h|h*1.01",
+    "author": "HypernovaHeathen",
+    "name": "Plaate",
+    "url": "https://www.pouet.net/topic.php?post=564605",
+    "date": "2020-08-15",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

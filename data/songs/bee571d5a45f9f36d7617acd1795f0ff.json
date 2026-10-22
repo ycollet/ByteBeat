@@ -1,0 +1,32 @@
+{
+  "file": "songs/bee571d5a45f9f36d7617acd1795f0ff.js",
+  "title": "BЯΣΛKXӨЯᄃӨЯΣ",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "22706fb984bf630d405236fc79161655089a3cb8c1da1c2e8d78ed5344087ce9",
+  "upstream": {
+    "hash": "bee571d5a45f9f36d7617acd1795f0ff",
+    "codeMinLen": 228,
+    "codeMin": "(t^t>>(-t*'1111111211111124'[15&t>>14]>>12&3)<<(t>>14&7))%256/3+(300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13]",
+    "codeLen": 232,
+    "code": "(t^t>>(-t*'1111111211111124'[15&t>>14]>>12&3)<<(t>>14&7))%256/3+((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/24e3)*'00100101'[7&t>>13]",
+    "author": "Zackx",
+    "name": "BЯΣΛKXӨЯᄃӨЯΣ",
+    "url": "https://dollchan.net/btb/res/204.html#891",
+    "date": "2023-04-20",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "songs/b433501f757dbbc623a54af7ae80e46c.js",
+  "title": "BM9 harmony",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e6801fef58497e99fc81236b9b2524996b54e2353b1dd4ba452947e4139de556",
+  "upstream": {
+    "hash": "b433501f757dbbc623a54af7ae80e46c",
+    "codeMinLen": 36,
+    "codeMin": "2*t&t>>8|5*t&t>>7|9*t&t>>4|15*t&t>>4",
+    "codeLen": 44,
+    "code": "2*t&(t>>8)|5*t&(t>>7)|9*t&(t>>4)|15*t&(t>>4)",
+    "author": "May_I_Change_My_Name",
+    "name": "BM9 harmony",
+    "url": "https://www.reddit.com/r/bytebeat/comments/yi1cf9/u_wot_m9/",
+    "date": "2022-10-31",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

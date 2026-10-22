@@ -1,0 +1,29 @@
+{
+  "file": "songs/5782dbf49d4858e3519e6166b79a24c0.js",
+  "title": "Deep Coolth",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 24576,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5782dbf49d4858e3519e6166b79a24c0.js",
+  "sha256": "bd4f78055ac1a49a88c3d97f110c8f362b8b6ce774102db2709e31123bf9c59a",
+  "upstream": {
+    "hash": "5782dbf49d4858e3519e6166b79a24c0",
+    "codeMinLen": 554,
+    "codeLen": 582,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Hz=24576,n=430/Hz*128*2**.25,vi=63+sin(t/1E3)*8,N=t%262144/100,c=t>>17&1,St=a=>(A=((t+vi*a)*n*2**([0,3+c,7,10+c,14][(t>>[0,0,0,0,0,12][t%6])%5]/12)%256/256-.5)/(t%4096+N*2)*(1+N)*3*min(1,t/16384%1),Sn=(sin(asin(sin(8*cbrt(t%4096))))+((t*sin(t*(7+a*2)>>3)&255)/255-.5)*cbrt(-t%4096+250)/16)*(1-t%4096+4096)/5E3*'00001000'[t>>12&7],Hh=((t*random()&255)/128-1)/(t%4096+128)*40,Kc=asin(sin(sqrt(t%8192*1.5)))*(1-t%8192+8192)/17E3*(-t>>13&1),Oh=(((t+9E9)*sin(t%[3,100,100,100][t&3])&128)/256-.25)*(t>>13&1)/(t%8192+40",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Deep Coolth",
+    "url": "https://dollchan.net/btb/res/520.html#6067",
+    "date": "2025-04-29",
+    "mode": "Floatbeat",
+    "sampleRate": 24576,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-11"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/6eb0c6af0c93e757d12a6b064182519b.js",
+  "title": "Bots",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "92d594fb2fa5c546667780bb51f3708d4d0c886f37cd3f6521f7dd368aecb5a0",
+  "upstream": {
+    "hash": "6eb0c6af0c93e757d12a6b064182519b",
+    "codeMinLen": 43,
+    "codeMin": "-(30*sin(t>>4)^t>>9|(tan(t>>13)&t>>4)*t>>5)",
+    "codeLen": 47,
+    "code": "-(((30*sin(t>>4))^t>>9)|(tan(t>>13)&t>>4)*t>>5)",
+    "author": "rubi",
+    "name": "Bots",
+    "url": "https://www.reddit.com/r/bytebeat/comments/raab29/bots_44100_hz/",
+    "date": "2021-12-06",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

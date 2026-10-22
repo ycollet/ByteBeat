@@ -1,0 +1,24 @@
+{
+  "file": "songs/90d724ccd0bf84acc9fa2afc351bf6cf.js",
+  "title": "Untitled (90d724cc)",
+  "author": "bear @ celephais",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "51cb4f2a2ee12bc3b1a3d2e5dadfdab6bb5d2d246fddfb44af74e9d907aab6c7",
+  "upstream": {
+    "hash": "90d724ccd0bf84acc9fa2afc351bf6cf",
+    "codeMinLen": 30,
+    "codeMin": "t+(t^t>>6)-t*((t%16?2:6)&t>>9)",
+    "codeLen": 39,
+    "code": "t+(t&t^t>>6)-t*((t>>9)&(t%16?2:6)&t>>9)",
+    "author": "bear @ celephais",
+    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

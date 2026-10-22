@@ -1,0 +1,22 @@
+{
+  "file": "songs/b90b4c592154f38391f868afc5cd021e.js",
+  "title": "funny boi",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cb15c5c92e55706d673a798f233b4127fe161069e9967e03020ed77d398ba9e3",
+  "upstream": {
+    "hash": "b90b4c592154f38391f868afc5cd021e",
+    "codeLen": 103,
+    "code": "[3,0,3,0,3,3,2,2,3,3,3.5,3.5,3,3,2.5,2.5,3,2.9,3,2.9,3,0,3,0,2.5,2.5,2,2,1.8,1.8,2,2][(t>>12)%32]*t&191",
+    "author": "rubi",
+    "name": "funny boi",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s1bltj/funny_boi/",
+    "date": "2022-01-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

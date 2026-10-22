@@ -1,0 +1,29 @@
+{
+  "file": "songs/697a55bd2ecb256b6033a30534c270eb.js",
+  "title": "Brazilian Type Beat 9",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 35498.6666666667,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/697a55bd2ecb256b6033a30534c270eb.js",
+  "sha256": "c0eaae78c98264a033b00169d66664dd2f357a31c0c0c585ec25973d2603638f",
+  "upstream": {
+    "hash": "697a55bd2ecb256b6033a30534c270eb",
+    "codeMinLen": 537,
+    "codeLen": 545,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t+=524288,v=NaN,n=.512*1.245,(((a=t*n*2**([16,11,11,13,16,11,[11,11,11,14][t>>13&3],14,16,11,11,13,16,11,11,14][t>>15&15]/12),a%127+a%127.5+a%128+a%128.5+a%129)+(b=t*n*2**([13,8,9,9,13,8,9,9][t>>15&7]/12),b%127+b%127.5+b%128+b%128.5+b%129)+(c=t*n*2**([9,5,6,5,9,5,\"6665\"[t>>13&3],5,9,5,6,5,9,5,6,5][t>>15&15]/12),c%127+c%127.5+c%128+c%128.5+c%129)+(d=t*n*2**(\"6122\"[t>>15&3]/12),d%127+d%127.5+d%128+d%128.5+d%129))*\"1101101100101110\"[t>>12&15]/7+\"0010010011010001\"[t>>12&15]*128)/128-1.4+expm1(sin(1.5**(-t%16384",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Brazilian Type Beat 9",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c8k1wg/brazilian_type_beat_9_just_sped_up_16sloso_and_a/",
+    "date": "2024-04-20",
+    "mode": "Floatbeat",
+    "sampleRate": 35498.6666666667,
+    "coverName": "KingSammelot - Shploink Overdose",
+    "coverUrl": "https://youtu.be/2Nvqxt18oxQ",
+    "tags": [
+      "1k"
+    ]
+  }
+}

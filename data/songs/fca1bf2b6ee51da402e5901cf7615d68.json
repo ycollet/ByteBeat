@@ -1,0 +1,29 @@
+{
+  "file": "songs/fca1bf2b6ee51da402e5901cf7615d68.js",
+  "title": "feeshbread reverb test 3 (fm synthesis)",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fca1bf2b6ee51da402e5901cf7615d68.js",
+  "sha256": "b6348598f5ec81b701bd589175f539576ed7358fc87d418a8770e19f1b174f6c",
+  "upstream": {
+    "hash": "fca1bf2b6ee51da402e5901cf7615d68",
+    "codeMinLen": 605,
+    "codeLen": 671,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:(f=[],lp=(a,c)=>(f[L=C++]??=0,f[L]+=(a-f[L])*c),hp=(a,c)=>a-lp(a,c),bp=(a,hc,lc)=>hp(lp(a,lc),hc),s=(a,U,D)=>(f[S=C++]??=0,sr=f[S],f[S]+=(a-sr)*(sr<a?U:D)),d=(a,h,m,F=x=>x)=>{f[R=C++]??=Array(M=1e4).fill(0);D=a;du=0;for(H of h){G=(M+T-round(H.t))%M;D+=f[R][G]*H.fb;du+=f[R][G]*H.m}f[R][T%M]=F(D);return a*(1-m)+du*m}),C=0,T=t,v=t/(4-(t>>15&1^t>>13&3|t>>19&3^t>>14&1))*(1+(t>>16&3^t>>15&1)/3),m=sin(v*PI/128+sin(v/256*PI)**2*(1+2*(t/4**7%1))+sin(v*PI/64)**3+cos(v*PI/32)**4*(1-t/8192%1))*(1-t%4**7%12288/8192%",
+    "isTruncated": 1,
+    "author": "ANoUserXD",
+    "name": "feeshbread reverb test 3 (fm synthesis)",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1nu65ru/feeshbread_reverb_test_3_fm_synthesis/",
+    "date": "2025-09-30",
+    "mode": "Floatbeat",
+    "sampleRate": 40000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2026-02-18"
+  }
+}

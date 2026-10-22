@@ -1,0 +1,37 @@
+{
+  "file": "songs/891a6c1fc04aa6282d24aa4104474153.js",
+  "title": "W E L L / T H A T S / L O U D",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/891a6c1fc04aa6282d24aa4104474153.js",
+  "sha256": "0cca65c0250c3645870f222c5089fec61e6d1e1d1e31ad5b9c998db228f31316",
+  "upstream": {
+    "hash": "891a6c1fc04aa6282d24aa4104474153",
+    "codeMinLen": 433,
+    "codeMin": "m=a=>min(max(a,0),255),A=(C=(r=t*2.2)/16384)%1,h=_=>(random()*2&1)*255*(1-A)**3*.3,k=S=>m(sin(cbrt(3E4*(r%16384)**.55))*(1.97-A**.15)**3*127+(((t*(1+S)*sin((t>>2)**(1+S)*100))&256)-128)*A**.4*!!(C&7)+128),b=t/2*2**([12,12,12,[[10,22,15,3,22,15,27,10][7&r>>14]],12,12,8,10][X=7&r>>17]/12),X===3?b=b%1024*(.7-A*.4):0,a=.8414*b*4&b*5,7&r>>16?0:a=a&255,B=S=>(S^(b/256*5&1)?a/8+b*5/2:a/4+b/5)&255*.95,o=o=>m(C&3?B(o)+h():k(o)),[o(0),o(1)]",
+    "codeLen": 572,
+    "fileOrig": 1,
+    "codeText": "m=a=>min(max(a,0),255),A=(C=(r=t*2.2)/16384)%1,h=_=>(random()*2&1)*255*(1-A)**3*.3,k=S=>m(sin(cbrt(3E4*(r%16384)**.55))*(1.97-A**.15)**3*127+(((t*(1+S)*sin((t>>2)**(1+S)*100))&256)-128)*A**.4*!!(C&7)+128),b=t/2*2**([12,12,12,[[10,22,15,3,22,15,27,10][7&r>>14]],12,12,8,10][X=7&r>>17]/12),X===3?b=b%1024*(.7-A*.4):0,a=.8414*b*4&b*5,7&r>>16?0:a=a&255,B=S=>(S^(b/256*5&1)?a/8+b*5/2:a/4+b/5)&255*.95,o=o=>m(C&3?B(o)+h():k(o)),[o(0),o(1)]",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "W E L L / T H A T S / L O U D",
+    "description": "Powerful bass beat in style of 1788-L.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fi2dku/comment/lnh0krp/",
+    "date": "2024-09-17",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "91075a847f03c3ba25c60b1053787a75",
+        "author": "Fenix-F",
+        "name": "Sounds like distorted teleporter sound from HL2",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fi2dku/sounds_like_distorted_teleporter_sound_from_hl2/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-30"
+  }
+}

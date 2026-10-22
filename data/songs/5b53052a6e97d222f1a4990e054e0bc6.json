@@ -1,0 +1,26 @@
+{
+  "file": "songs/5b53052a6e97d222f1a4990e054e0bc6.js",
+  "title": "let there be silence",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5b53052a6e97d222f1a4990e054e0bc6.js",
+  "sha256": "8388750bede7899ddb5d934d3def1f652a223d9332a37c1bb29b4a2e50200d34",
+  "upstream": {
+    "hash": "5b53052a6e97d222f1a4990e054e0bc6",
+    "codeMinLen": 607,
+    "codeLen": 613,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "h=1.08,s=t/h,z=(a,c)=>1.05*t*(s&1048576?h:.965)*2**(parseInt(a[c%a.length],36)/12),pwm=d=>64*(d%511>d%512),sq=x=>x/4&64,saw=d=>d/4&63,dp=(sn=20*random(),k=sq(t*(1+(15&-t>>7)/2)),sl=50*random(),arr=[sn,,,,k,,k,,sl,,,,k,,,,],arr[(s>>11)%arr.length]*(-s>>3&255)>>8),a1=pwm(2*z(s&65536?s&32768?'lgd9':'jea7':s&32768?'mhea':'e952',s>>10)),a2=sq(z('q l s l t m v m q j s j t v ssl ',s>>12)),a=a1+a2+2.5*dp,b=saw(z(s&262144?s&131072?'eeeggghhjjheeeqqssqqmmjjllllllll':'lllljhgeeeeeeeeghhhhjjjjhhhhgggg':s&131072?'e 9h 9",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "let there be silence",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1flxmve/comment/lo9lt0t/",
+    "date": "2024-09-21",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

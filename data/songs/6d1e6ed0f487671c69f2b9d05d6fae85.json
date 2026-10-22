@@ -1,0 +1,29 @@
+{
+  "file": "songs/6d1e6ed0f487671c69f2b9d05d6fae85.js",
+  "title": "get sepulched",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6d1e6ed0f487671c69f2b9d05d6fae85.js",
+  "sha256": "0b84d2596aa4cf32bbff4f1d3fc9b10963c29dc270c82cf02f520ab88cdd4fb6",
+  "upstream": {
+    "hash": "6d1e6ed0f487671c69f2b9d05d6fae85",
+    "codeLen": 3085,
+    "fileOrig": 1,
+    "codeText": "/*\n * get sepulched\n * by troubleshoot\n * (remake of Sepulchre)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=82,K=H=S=k=h=s=b1=b2=h1=h2=h3=s1=s2=s3=sl1=sl2=0,Ki=Hi=Sn=1,r=Array(m=16384).fill(0),R=i=>r[i%m],br=Array(m).fill(0),BR=i=>br[i%m],mr=Array(m).fill(0),MR=i=>mr[i%m],sr=Array(m).fill(0),SR=i=>sr[i%m],clip=x=>atan(1.5*x)/1.5,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c), // thas a lot of arrays",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "get sepulched",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mgbkvx/get_sepulched/",
+    "date": "2025-08-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Blast Brothers - Sepulchre",
+    "coverUrl": "https://battleofthebits.com/arena/Entry/Sepulchre/57663/",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

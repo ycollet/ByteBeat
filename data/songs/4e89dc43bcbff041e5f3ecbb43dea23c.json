@@ -1,0 +1,31 @@
+{
+  "file": "songs/4e89dc43bcbff041e5f3ecbb43dea23c.js",
+  "title": "remix of sthephanshi's hard level",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5d6f6866a6d4f14d69b2995c6ee3869da893a910e440b7c1b04f3cadea3f2472",
+  "upstream": {
+    "hash": "4e89dc43bcbff041e5f3ecbb43dea23c",
+    "codeLen": 251,
+    "code": "a=t/4*(t&65536?7:5)*(5-(3&t>>10))>>(3&-t>>(t&16384?4:18)),b=cos(a*PI/128+abs(8*sin(t*PI/1048576))*sin(a*PI/128)*(1-t/4096%1))*(t/16384%1)+sin(40/(t/2048%8+.3))*(1-t/16384%1),b/2+(random()-.5)*.998**(t%8192)+sin((t/4|0)**3)/2*.9994**(t%16384)*(t>>14&1)",
+    "author": "ANoUserXD",
+    "name": "remix of sthephanshi's hard level",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1btzugr/remix_of_sthephanshis_hard_level/",
+    "date": "2024-04-02",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

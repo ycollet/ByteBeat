@@ -1,0 +1,33 @@
+{
+  "file": "songs/86c9695d84a605031c9bfcaa0766d061.js",
+  "title": "slidy stereo",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "398906d77ba5975e0f574c81895bd44ce0ac536b31319794609eb53e7a5b123e",
+  "upstream": {
+    "hash": "86c9695d84a605031c9bfcaa0766d061",
+    "codeMinLen": 253,
+    "codeMin": "seq=(r,s,T=t,x=0)=>(i=T/2**s,j=i|0,k=(i-j)**x,L=r.length,x?(1-k)*r[j%L]+k*r[(j+1)%L]:r[j%L]),d=p=>t*1.25*'1243'[(t>>12)%4]/seq([1,1.25,1.5,1.3],5,t>>11,p?3:8),s=p=>(m=d(p)/4,m%64+m/4%64.249+(m%64+m/2%64&32)+(m%64+d/4%64&32)+(m%64+m%64.5&32)),[s(0),s(1)]",
+    "codeLen": 299,
+    "code": "seq=(r,s,T=t,x=0)=>(i=T/2**s,j=i|0,k=(i-j)**x,L=r.length,x?(1-k)*r[j%L]+k*r[(j+1)%L]:r[j%L]),\r\n\r\nd=p=>t*1.25*[1,2,4,3][(t>>12)%4]/seq([1,1.25,1.5,1.3],5,t>>11,p?3:8),\r\ns=p=>(((d(p)/4%64+d(p)/16%64.249))+((d(p)/4%64+d(p)/8%64)&32)+((d(p)/4%64+d/4%64)&32)+((d(p)/4%64+d(p)/4%64.5)&32)),\r\n\r\n[s(0),s(1)]",
+    "author": "Greaserpirate",
+    "name": "slidy stereo",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fvuwm3/comment/lqb4j94/",
+    "date": "2024-10-04",
+    "sampleRate": 32768,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f46fed25fb1755f131f296f957b35e2e",
+        "author": "akurwtools",
+        "name": "ω",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fvuwm3/%CF%89/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

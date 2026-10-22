@@ -1,0 +1,30 @@
+{
+  "file": "songs/af623c5ede14ccf5b6305622a0593fdb.js",
+  "title": "astral blur",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 24000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/af623c5ede14ccf5b6305622a0593fdb.js",
+  "sha256": "742e14c350ce4414974a6dd9c6c18c3ad9e0406197e20cd00c80442c8a3e63fd",
+  "upstream": {
+    "hash": "af623c5ede14ccf5b6305622a0593fdb",
+    "codeLen": 22228,
+    "fileOrig": 1,
+    "codeText": "/// updated on 10/2/2025 to reflect alternate sample rates\n\nt || (_ => {\n\n///\n///  definitions\n///\n",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "astral blur",
+    "description": "\"the thoughtforms, they sang to me. their voices, muddled by the cosmos...\" (see full text on BotB) Summer Chip XV battle - 1st place (bytebeat).\r\nSamplerate reduced to 24kHz.",
+    "url": "https://battleofthebits.com/arena/Entry/astral+blur/79754",
+    "date": "2025-09-14",
+    "mode": "Floatbeat",
+    "sampleRate": 24000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-08-29",
+    "date_edited": "2026-02-25"
+  }
+}

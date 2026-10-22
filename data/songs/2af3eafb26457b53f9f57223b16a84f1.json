@@ -1,0 +1,36 @@
+{
+  "file": "songs/2af3eafb26457b53f9f57223b16a84f1.js",
+  "title": "RYG but c compatible",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "676bc545b148c1f43780259f7a0dc05bb822b198cd64f753bba1bfeee7361fdc",
+  "upstream": {
+    "hash": "2af3eafb26457b53f9f57223b16a84f1",
+    "codeMinLen": 79,
+    "codeMin": "((t/4*((t>>12^(t>>12)-2)%11)|t>>13)&127)+(t/12*(0x98646363>>(t>>11&28)&15)&128)",
+    "codeLen": 81,
+    "code": "((t/2*((t>>12^(t>>12)-2)%11)/2|t>>13)&127)+(t/12*(0x98646363>>(t>>11&28)&15)&128)",
+    "author": "D3nschøt",
+    "name": "RYG but c compatible",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dmadpn/ryg_but_c_compatible/",
+    "date": "2024-06-23",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

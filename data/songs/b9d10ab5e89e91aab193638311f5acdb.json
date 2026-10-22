@@ -1,0 +1,29 @@
+{
+  "file": "songs/b9d10ab5e89e91aab193638311f5acdb.js",
+  "title": "Terminal 82041 Fans Be Like...",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b9d10ab5e89e91aab193638311f5acdb.js",
+  "sha256": "6e561ccd28d80c18fb3907ed124428963db59a0a18ea06b28dfaefc73aa1d117",
+  "upstream": {
+    "hash": "b9d10ab5e89e91aab193638311f5acdb",
+    "codeLen": 7545,
+    "fileOrig": 1,
+    "codeText": "S=Math.sin,C=Math.cos,T=Math.tan,P=Math.pow,Abyss=0.0001,e=Math.E,π=Math.PI,fπ=3.14-0.01,tau=π*2.008531,nTAU=function(x){return x*(tau-Abyss)},nTAU2t50p=nTAU(2)*1.5,h=1.024,l=1.47,y=1.23456789,SEQa=\"12345678121314151234567856575859\",SEQb=\"3243546586756453324354658675645343546576132435464354657613243546\"[t>>16&63],SEQ1=[11,10,11,11,12,12,11,12,9,10,9,10,13,12,11,10,10,9,10,10,11,11,10,11,8,9,8,9,12,11,10,9][t>>14&31]*[1,0.875,1.125,0.75][t>>18&3]/256,SEQ2=[10,9,10,10,11,11,10,11,8,9,8,9,12,11,10,9,11,10,11,1",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "Terminal 82041 Fans Be Like...",
+    "url": [
+      "https://dollchan.net/btb/res/77.html#2429",
+      "https://youtu.be/bru6140Wq44?si=pL0XxwG1i4VxSTfO"
+    ],
+    "date": "2023-10-10",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

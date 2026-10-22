@@ -1,0 +1,26 @@
+{
+  "file": "songs/c00c8cb712dbf5aa18e8c6ee78ea85ca.js",
+  "title": "1 1278084&t 12345678890",
+  "author": "Holiday-Charge-1313",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "519beabc6a5b5abe23b2a67fb6dda1f8cc2ea170243843a8627a1b07fc1c67d6",
+  "upstream": {
+    "hash": "c00c8cb712dbf5aa18e8c6ee78ea85ca",
+    "codeMinLen": 62,
+    "codeMin": "(z=(x=t>>6^t>>13)*4^t)+t>>(y=t>>11)%8|t%32^y<<x-t/3.12524|y<<6",
+    "codeLen": 64,
+    "code": "((z=(x=t>>6^t>>13)*4^t)+t>>(y=t>>11)%8|t%32^y<<x-t/3.12524|y<<6)",
+    "author": "Holiday-Charge-1313",
+    "name": "1 1278084&t 12345678890",
+    "url": "https://www.reddit.com/r/bytebeat/comments/zxmmzm/comment/j3nh0ri",
+    "date": "2022-12-28",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-08",
+    "date_edited": "2025-11-09"
+  }
+}

@@ -1,0 +1,1 @@
+t?T++:(R=Array(N=12),T=0,R[0]=1,R[1]=1),R[T%N]=R[T%N]^R[(T-1)%N]^R[(T-4)%N]^R[(T-6)%N]^R.reduce((s,n)=>s^n,0),R[T%N]

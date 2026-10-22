@@ -1,0 +1,27 @@
+{
+  "file": "songs/774c20b14f4e0411d4bae5543e25400e.js",
+  "title": "Messing around with PCM",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/774c20b14f4e0411d4bae5543e25400e.js",
+  "sha256": "00f633b2125829ddd7f00e57feee63208b6be17ac3604c8b8d1ff58fb618d854",
+  "upstream": {
+    "hash": "774c20b14f4e0411d4bae5543e25400e",
+    "codeLen": 63483,
+    "fileOrig": 1,
+    "codeText": "(xp = (x)=> 'OPPPQQQRRRSSSSSTTTTSSSSTTTTTTTUUUUUUTTTTSSSSSSSRRRRRRQQQQQQPOONMMLKKKJJJJJJKKKLLMMNNOPPPQQQRRRSSSSSSSSSSSSSSTTTTTUUUUUUUUTTTTSSSSSSRRRRRRRQQQQPPOONMLLKKKJJJJJJKKKLLMMNNOOPPQQQRRRSSSSSSSSSSSSSSTTTTTUUUUUUUUUTTTTSSSSSSRRRRRRQQQQPPOONMLLKKKJJJJJJKKKLLMMNNOOPPQQQRRRRSSSSSSSSSSSSSTTTTTUUUUUUUUUTTTTSSSSSSRRRRRRQQQQPPOONMLLKKKJJJJJJKKKLLMMNNOOPPQQQRRRRSSSSSSSSSSSSSTTTTTUUUUUUUUUUTTTTSSSSSSRRRRRQQQQPPOONMLLKKKJJJJJJKKKLLMMNNOOPPQQQRRRRSSSSSSSSSSSSSSTTTTUUUUUUUUUUTTTTSSSSSSRRRRRQQQQPPOONMLLKKKJJJJJJKKKL",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "Messing around with PCM",
+    "description": "Used audacity, excel and notepad++",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bzcwrm/messing_around_with_pcm/",
+    "date": "2024-04-09",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

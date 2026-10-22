@@ -1,0 +1,33 @@
+{
+  "file": "songs/f949aab6008f2965e306b58cbef81269.js",
+  "title": "Sunlit Streets of Manehattan",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f949aab6008f2965e306b58cbef81269.js",
+  "sha256": "1e89bdfeed1c53d8951e93b2b5b367c84783c91f024c77f7deddf390f9e3e3e9",
+  "upstream": {
+    "hash": "f949aab6008f2965e306b58cbef81269",
+    "codeLen": 1070,
+    "fileOrig": 1,
+    "codeText": "t?0:f=[],i=0,lp=(a,c)=>(fi=i++,f[fi]??=0,f[fi]+=(a-f[fi])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),r=t/48e3*125/60*16384,l=16384,u=8192,c=4096,s=(a,b)=>t/48e3*256*445*2**((parseInt(a,36)+4)/12)/b/8%64-32,x=j=>tanh(bp((((tanh((w=r=>r>0&&((m=a=>s(\"FGNGFGBGFGNGGPNGFGNGFGBGFGNGKLKG\"[31&((21&r>>12)^(r>>14))+(r>>12&r>>13)],a*2),m(1)+m(j/3))+(cm=a=>tanh(s(\"GGKIGGFBGGIGKLKF\"[r>>14&15],a)/12)*12*!!(r>>19),cm(1)+cm(j)))*!(r>>22),w(r)+w(r-(d=12288))/2+w(r-2*d)/3+w(r-3*d)/4)/2**(6.5-!!(r>>20)*1.5))+tanh((h=(m,a",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Sunlit Streets of Manehattan",
+    "description": "Updated on 2026/07/31",
+    "url": [
+      "https://dollchan.net/btb/res/7164.html#14885",
+      "https://www.bytebeat.cloud/post/c882e727-cc0b-46c5-9ce6-ac7d4c020ca2"
+    ],
+    "date": "2026-02-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-02-21",
+    "date_edited": "2026-10-20"
+  }
+}

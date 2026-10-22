@@ -1,0 +1,39 @@
+{
+  "file": "songs/a5880984d4e0b441b6078a09aa8c95f2.js",
+  "title": "Long Sierpinski Harmony",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d1e14a43cc573c852d2bc3b4a030a97bde0896ca4bb8d738f210339e6b0f28fa",
+  "upstream": {
+    "hash": "a5880984d4e0b441b6078a09aa8c95f2",
+    "codeMinLen": 18,
+    "codeMin": "5*t&t>>7|3*t&t>>10",
+    "codeLen": 22,
+    "code": "(t*5&t>>7)|(t*3&t>>10)",
+    "author": "viznut",
+    "name": "Long Sierpinski Harmony",
+    "url": [
+      "https://youtu.be/tCRPUv8V22o?t=10",
+      "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+    ],
+    "date": "2011-10-10",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

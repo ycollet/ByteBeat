@@ -1,0 +1,33 @@
+{
+  "file": "songs/9071aba63a27275389191280c3aaf4c5.js",
+  "title": "remix of \"kernkraft 400\" #2",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2b05ff40688152ead7fe8fdd77a133c384811633f87efaf78bb252e8db27c6ca",
+  "upstream": {
+    "hash": "9071aba63a27275389191280c3aaf4c5",
+    "codeMinLen": 356,
+    "codeMin": "t*=1E4/48E3,c=x=>sin(cbrt(t*x%4096/x)*20),s=t*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52*PI/128,e=t*2*((t>>11&1)+1)*[1,1,1,1,4/6,.6,1,1][t>>13&7]*1.52*PI/128,sin(s-sin(s+sin(s)*1.1+cos(s))*2)/4+sin(e+sin(e/2))*(-t&2047)/4333+c('11111112'[t>>12&7])/8+sin(32*random())*(-t&4095)*(t>>12&1)/19999",
+    "codeLen": 363,
+    "code": "t*=1e4/48e3,c=x=>sin(cbrt(t*x%4096/x)*20),s=t*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52*PI/128,e=t*2*((t>>11&1)+1)*[1,1,1,1,4/6,.6,1,1][t>>13&7]*1.52*PI/128,sin(s-sin(s+sin(s)*1.1+cos(s))*2)/4+sin(e+sin(e/2))*(-t&2047)/4333+c([1,1,1,1,1,1,1,2][t>>12&7])/8+sin(32*random())*(-t&4095)*(t>>12&1)/19999",
+    "author": "hcdphobe",
+    "name": "remix of \"kernkraft 400\" #2",
+    "url": "https://dollchan.net/btb/res/163.html#769",
+    "date": "2023-04-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "ca4dab2a8bd3324b8ec6d754128bdaac",
+        "author": "hcdphobe",
+        "name": "remix of \"kernkraft 400\"",
+        "url": "https://www.reddit.com/r/bytebeat/comments/112nn9c/remix_of_melody_of_kernkraft_400_by_zombie_nation/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

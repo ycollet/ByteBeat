@@ -1,0 +1,23 @@
+{
+  "file": "songs/63d52ddb8766b9ef8fd222ccd76bd375.js",
+  "title": "Cool percussion track",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "48b2316a6937be7c93f137368c47278809dddcabeb3268c26c2af8de144b1a78",
+  "upstream": {
+    "hash": "63d52ddb8766b9ef8fd222ccd76bd375",
+    "codeLen": 31,
+    "code": "-t*(t>>3|t>>4|t>>5|t>>6|t>>7)-t",
+    "author": "Devan Wolf",
+    "name": "Cool percussion track",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

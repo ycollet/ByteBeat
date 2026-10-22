@@ -1,0 +1,33 @@
+{
+  "file": "songs/ff8b535a3eb38c83772300585cd3d08c.js",
+  "title": "FM stimmer",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "554a50066214a05a0cf8926c5dd893c47ebd8bfbcef187d20a436be6be12b194",
+  "upstream": {
+    "hash": "ff8b535a3eb38c83772300585cd3d08c",
+    "codeMinLen": 220,
+    "codeMin": "p=(t>>15&t>>13)*[3,2,1.5,0][3&t>>11]/2,b=.5*[1,2][1&t>>13]*[2,2.5,3,3.5][3&t>>15]/2,sin(sin(p*t/4.79)/40*(32-t/256%32)+p*t/40.743665)*(32-t/256%32)/64+sin(sin(b*t/81.48732)/6*(32-t/256%32)+b*t/40.743665)*(32-t/256%32)/48",
+    "codeLen": 232,
+    "code": "p=(t>>15&t>>13)*[3,2,1.5,0][3&t>>11]/2,b=([1,2][1&t>>13]*0.5)*[2,2.5,3,3.5][3&t>>15]/2,\nsin(sin(p*t/4.79)/40*(32-(t/256)%32)+p*t/40.743665)*(32-(t/256)%32)/64+sin(sin(b*t/81.48732)/6*(32-(t/256)%32)+b*t/40.743665)*(32-(t/256)%32)/48",
+    "author": "Zackx",
+    "name": "FM stimmer",
+    "url": "https://dollchan.net/btb/res/204.html#266",
+    "date": "2022-11-29",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

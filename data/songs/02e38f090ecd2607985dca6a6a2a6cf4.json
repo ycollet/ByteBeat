@@ -1,0 +1,28 @@
+{
+  "file": "songs/02e38f090ecd2607985dca6a6a2a6cf4.js",
+  "title": "ΛᄃIDIƧƬIᄃ",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b7079f3486daed236c75aff01eb293223d063d3e00652f975f009743ab51d848",
+  "upstream": {
+    "hash": "02e38f090ecd2607985dca6a6a2a6cf4",
+    "codeMinLen": 163,
+    "codeMin": "r=1.8*t,e=(r>>13)%12,(((t*2**(parseInt('3FF3FF3F1D4G'[e],36)/12)/3.4&255)*(1-(r>>'02202200000'[e])%8192/1E4)*(-cos(t/4E4)+2)&64)-32)*(~r>>'566566555555'[e]&255)>>6",
+    "codeLen": 166,
+    "code": "r=t*1.8,e=(r>>13)%12,((((t*2**(parseInt('3FF3FF3F1D4G'[e],36)/12)/3.4&255)*(1-(r>>'02202200000'[e])%8192/10e3)*(-cos(t/4E4)+2)&64)-32)*(~r>>'566566555555'[e]&255)>>6)",
+    "author": "Zackx",
+    "name": "ΛᄃIDIƧƬIᄃ",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/150ewfy/%CE%BB%E1%84%83idi%C6%A8%C6%ADi%E1%84%83/",
+      "https://dollchan.net/btb/res/204.html#1625"
+    ],
+    "date": "2023-07-15",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

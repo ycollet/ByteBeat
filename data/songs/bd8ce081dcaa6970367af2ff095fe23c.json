@@ -1,0 +1,24 @@
+{
+  "file": "songs/bd8ce081dcaa6970367af2ff095fe23c.js",
+  "title": "hardcore bass",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "10c8e80337617fbe96d8857d2e6d423950ac4e4a760323cecc02e8f1a983978c",
+  "upstream": {
+    "hash": "bd8ce081dcaa6970367af2ff095fe23c",
+    "codeMinLen": 140,
+    "codeMin": "d='3363111311133386'[15&t>>13],(4E4/(t*d%16384+512)**.1&128)/2+(t*sin(t>>1)&-t>>7&127)*(t&16384)/24E3+64-sin(t*PI/246)*((t>>7&127)+48&128)/3",
+    "codeLen": 147,
+    "code": "d='3363111311133386'[15&t>>13],((4e4/(t*d%16384+512)**.1)&128)/2+(t*sin(t>>1)&(-t>>7&127))*(t&8192*2)/24e3+64-sin(t*PI/246)*((t>>7&127)+(48)&128)/3",
+    "author": "Zackx",
+    "name": "hardcore bass",
+    "url": "https://dollchan.net/btb/res/204.html#863",
+    "date": "2023-04-18",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

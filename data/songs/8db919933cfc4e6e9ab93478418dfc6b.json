@@ -1,0 +1,38 @@
+{
+  "file": "songs/8db919933cfc4e6e9ab93478418dfc6b.js",
+  "title": "drum machine interpreter v0.1",
+  "author": "Iwaku",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8db919933cfc4e6e9ab93478418dfc6b.js",
+  "sha256": "80e60c7c5f13c6c43ae6ac2e801910016de972b8b09cfad4e86556381a343156",
+  "upstream": {
+    "hash": "8db919933cfc4e6e9ab93478418dfc6b",
+    "codeLen": 2314,
+    "fileOrig": 1,
+    "codeText": "about=`\r\nDrum Machine Interpreter v0.1 - by Iwaku\r\n------------------------------------------\r\n`,\r\n/*\r\nThis is a simple drum machine that allows sequencing when different channels are enabled.\r\nThe drum machine interprets a 2D array containing the arrays that represent each pattern.\r\nIt also includes an info area shown by `throw`ing it.\r",
+    "isTruncated": 1,
+    "author": "Iwaku",
+    "name": "drum machine interpreter v0.1",
+    "description": "Allows sequencing when different channels are enabled. Visualizations using throw in the error console.",
+    "url": [
+      "https://dollchan.net/btb/res/3.html#2371",
+      "https://www.reddit.com/r/bytebeat/comments/16vq1yi/drum_machine_interpreter_v01_no_limit_remix/"
+    ],
+    "date": "2023-09-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "626f58cda572b647c7095ec2fb989eeb",
+        "author": "mu6k",
+        "name": "No Limit",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388931"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

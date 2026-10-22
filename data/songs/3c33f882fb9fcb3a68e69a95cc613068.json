@@ -1,0 +1,23 @@
+{
+  "file": "songs/3c33f882fb9fcb3a68e69a95cc613068.js",
+  "title": "80s video game noise",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "44e55c59d4c6deca6ac2d67420ca3f50c504b51341c58114e521c9102815030f",
+  "upstream": {
+    "hash": "3c33f882fb9fcb3a68e69a95cc613068",
+    "codeLen": 56,
+    "code": "(t*(3&-t>>8|(t>>10&9)+4*(6&t>>10)+4)&128)*(-t>>2&255)>>7",
+    "author": "Zackx",
+    "name": "80s video game noise",
+    "url": "https://dollchan.net/btb/res/204.html#923",
+    "date": "2023-04-23",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

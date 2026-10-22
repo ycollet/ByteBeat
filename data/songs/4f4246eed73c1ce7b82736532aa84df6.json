@@ -1,0 +1,32 @@
+{
+  "file": "songs/4f4246eed73c1ce7b82736532aa84df6.js",
+  "title": "42 melody with adjustable decay",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0db305ec0f1fea3a3d7a0944e37a443bf03361ccfaeaae9c3e2240e2e3bebff7",
+  "upstream": {
+    "hash": "4f4246eed73c1ce7b82736532aa84df6",
+    "codeLen": 32,
+    "code": "t*(42&t>>10)%256*(1-t%2048/3000)",
+    "author": "SthephanShi",
+    "name": "42 melody with adjustable decay",
+    "url": "https://dollchan.net/btb/res/204.html#459",
+    "date": "2023-02-23",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "0d9cce3617f2145e8a1b23b443b1cf0f",
+        "author": "Zackx",
+        "name": "42 melody with decay",
+        "url": "https://dollchan.net/btb/res/204.html#439"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-03-25"
+  }
+}

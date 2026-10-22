@@ -1,0 +1,28 @@
+{
+  "file": "songs/46ee945be40a58b6e60c38746b7a9846.js",
+  "title": "a little cover of versus",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/46ee945be40a58b6e60c38746b7a9846.js",
+  "sha256": "fbc444e80cd2009c011151393ff6aacbe47e4a666bc16ef99cd76f796679433f",
+  "upstream": {
+    "hash": "46ee945be40a58b6e60c38746b7a9846",
+    "codeMinLen": 526,
+    "codeLen": 748,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "bass=sin((a=t*1.06**('4422022033044055442202203304405544220220330440554422888866665555'[t*1.5>>13&63]-15))*PI/64+cos(a*PI/127))/2*64+64,guitar=(x=a,x2=sin(x*PI/64)%256*127+127,xa=(x%256.3+x%128+x%64+x%32+x%16+x%128.8+x%64.8+x%32.8+x%16.8)/3*(1.5*~t/8&4095)/4096,((x2+xa&x2+xa&x)/2+(x2+xa&4*x&x2+xa&x)/2)/3),dr1=32*sin(30*log(.75*t&16383))+64+guitar+(t*sin(t>>3)*(.75*t>>14&1)&.75*~t>>7&127)/2,ev=(5*(1&t)*(~t*[.375,.375,.75,.1875,.1875,.75,.1875,.1875][1.5*t>>14&7]&4095)/400+dr1)/1.2,bass*'1000'[i=1.5*t>>19&3]+",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "a little cover of versus",
+    "url": "https://www.reddit.com/r/bytebeat/comments/199zb6p/a_little_cover_of_versus/",
+    "date": "2024-01-18",
+    "sampleRate": 44100,
+    "coverName": "Versus - Heaven Pierce Her",
+    "coverUrl": "https://youtu.be/BhEnjxYLBYo?si=nismylq3ubWHH3Z6",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/54aeed23f9ea20bceefa176eb74b0f1d.js",
+  "title": "I'm late to the party",
+  "author": "rrrola",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "20c202c6af822e881a87f7de288e4bb953dec5c5a89bac00588b7c5102996a27",
+  "upstream": {
+    "hash": "54aeed23f9ea20bceefa176eb74b0f1d",
+    "codeLen": 25,
+    "code": "t*(4+(t>>9)%3)&t/3>>7&224",
+    "author": "rrrola",
+    "name": "I'm late to the party",
+    "url": "https://www.pouet.net/topic.php?which=8357&page=5#c388529",
+    "date": "2011-09-30",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

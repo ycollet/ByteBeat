@@ -1,0 +1,32 @@
+{
+  "file": "songs/fe3e79c5e2bca895f4f31685d71ef074.js",
+  "title": "Aliens are close",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d1be2f44a94971bc8661f2e1d2f5f05fca05bea6c3a607fb7b2e1cb3379eb366",
+  "upstream": {
+    "hash": "fe3e79c5e2bca895f4f31685d71ef074",
+    "codeLen": 43,
+    "code": "t*(t&16384?6:5)*(3+(1&t>>8))>>(3&t>>9)|t>>5",
+    "author": "SthephanShi",
+    "name": "Aliens are close",
+    "description": "t>>5 rhythm",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "c0c82dd2dcf39f0487389ccd6d5199b9",
+        "author": "SthephanShi",
+        "name": "Aliens on approach",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

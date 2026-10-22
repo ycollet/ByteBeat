@@ -1,0 +1,46 @@
+{
+  "file": "songs/c4c5af335d9befcf3eba6579a9a1d4fb.js",
+  "title": "Remix of Zackx Synthwave Tutorial",
+  "author": "Two2Fall",
+  "mode": "Floatbeat",
+  "rate": 33500,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c4c5af335d9befcf3eba6579a9a1d4fb.js",
+  "sha256": "852bdebf27be14c939a38927ff290c47f94ddc427f6d33dcbbc5ab9c50a94726",
+  "upstream": {
+    "hash": "c4c5af335d9befcf3eba6579a9a1d4fb",
+    "codeMinLen": 441,
+    "codeMin": "FMB=(F,D)=>(D=max(.5,D),cos(sin(sin(F*PI/127)*D+F*PI/64)+sin(F*PI/8)*D*.35-2))*D,FMb=(F,D)=>(sin(cos(sin(F*PI/256))*8*D+sin(F*PI/128)+F*PI/64+cos(sin(F*PI/32))*D)*max(.5,D)),P=(I,MOD=0)=>t*2**((parseInt(I,36)+MOD)/12),(FMb(P('C5C8'[3&t>>17],-24),1-t/131072%1)+FMB(P('07BE749G67CJEB9B'[15&t>>13])*2/'1325'[3&t>>17],1-t/8192%1))/2+(sin(t**3)*(1-t/16384%1)**3.5*(t>>14&1)+sin(t**3)*(1-t/4096%1)**7/4+sin(12*cbrt(t%16384))*max(.5,1-t/16384%1))/4",
+    "codeLen": 793,
+    "fileOrig": 1,
+    "codeText": "FMB=(F,D)=>(D=max(.5,D),cos(sin(sin(F*PI/127)*D+F*PI/64)+sin(F*PI/8)*D*.35-2))*D,FMb=(F,D)=>(sin(cos(sin(F*PI/256))*8*D+sin(F*PI/128)+F*PI/64+cos(sin(F*PI/32))*D)*max(.5,D)),P=(I,MOD=0)=>t*2**((parseInt(I,36)+MOD)/12),(FMb(P('C5C8'[3&t>>17],-24),1-t/131072%1)+FMB(P('07BE749G67CJEB9B'[15&t>>13])*2/'1325'[3&t>>17],1-t/8192%1))/2+(sin(t**3)*(1-t/16384%1)**3.5*(t>>14&1)+sin(t**3)*(1-t/4096%1)**7/4+sin(12*cbrt(t%16384))*max(.5,1-t/16384%1))/4",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Remix of Zackx Synthwave Tutorial",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1kjdqqb/fm_stuff/",
+    "date": "2025-05-10",
+    "mode": "Floatbeat",
+    "sampleRate": 33500,
+    "remix": [
+      {
+        "hash": "1a421a16985c974a2034ca2bd29c7770",
+        "author": "Zackx",
+        "name": "Bytewave/Synthbyte engine example",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3982",
+          "https://www.reddit.com/r/bytebeat/comments/1e9edwr/here_is_an_examples_how_does_work_my_engine_for/"
+        ]
+      },
+      {
+        "hash": "144ce8345ffc73b07fce566a8c3edcd7",
+        "author": "Two2Fall",
+        "name": "FM Loop",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1kh7mop/fm_loop/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-25",
+    "date_edited": "2025-12-07"
+  }
+}

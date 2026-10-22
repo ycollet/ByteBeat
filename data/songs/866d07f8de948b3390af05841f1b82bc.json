@@ -1,0 +1,48 @@
+{
+  "file": "songs/866d07f8de948b3390af05841f1b82bc.js",
+  "title": "CASCADE",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/866d07f8de948b3390af05841f1b82bc.js",
+  "sha256": "f2a9eb471fb6422d8ec5fb56948c11938d206234cbe75ea9ab0e7759707825ca",
+  "upstream": {
+    "hash": "866d07f8de948b3390af05841f1b82bc",
+    "codeLen": 5528,
+    "fileOrig": 1,
+    "codeText": "t2=t,\n\nBPM=172,\nsR=sampleRate=48e3,\nsPB=samplesPerBeat=32768,\nu=t*abs(BPM/((120*sR)/sPB)),\n\ntt=(t/sR*256)*440*2**(-14/12),",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "CASCADE",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8967",
+      "https://www.reddit.com/r/bytebeat_2/comments/1n5iql5/cascade/"
+    ],
+    "date": "2025-09-01",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "e98ecda467d71d6fefee904f7a1a717c",
+        "author": "MarioFan171",
+        "name": "OSIRIS",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1c66gmx/osiris_floatbeat/"
+      },
+      {
+        "hash": "5b052e9741983ecc9a2440a26e1f53f9",
+        "author": "tejeez",
+        "name": null,
+        "url": [
+          "https://youtu.be/GtQdIYUtAHg?t=45",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-01",
+    "date_edited": "2025-11-19"
+  }
+}

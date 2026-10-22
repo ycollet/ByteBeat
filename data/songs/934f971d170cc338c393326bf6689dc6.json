@@ -1,0 +1,26 @@
+{
+  "file": "songs/934f971d170cc338c393326bf6689dc6.js",
+  "title": "Adornee - Find the Chomiks OST",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/934f971d170cc338c393326bf6689dc6.js",
+  "sha256": "d271bf19e23073058c54a8eb65a82aad4a1381141d8e9da38a1fdb1095d57990",
+  "upstream": {
+    "hash": "934f971d170cc338c393326bf6689dc6",
+    "codeLen": 1979,
+    "fileOrig": 1,
+    "codeText": "v=-9e9,n=t*1.68,F='11111011'[t>>12&7],G=[1,1,1,1,1,1,1,1,1,1,F,1,1,1,1,1][t>>15&15],mel1=(n/2*2**([-5,-1,0,4,v,2,0,-1,-3,v,-1,v,0,v,4,v,5,4,2,0,v,7,5,4,0,v,4,2,v,0,-1,0][t>>13&31]/12)&-t>>7)&63,mel2=A=2**([0,0,4,2,2,4,5,4,7,5,4,0,0,4,2,0,-1,-1,0,-5,-5,-5,-1,-3,-1,-1,0,-5,-5,-8,-8,-8,0,0,4,7,7,5,4,2,9,4,4,4,4,2,0,2,4,4,2,7,7,7,5,4,2,2,0,7,7,4,4,4][t>>13&63]/12),mel2=A*n*G&95,\tmel3=A/4*n*G&35,mel4=n/8*2**([7,4,7,4,9,7,9,7,5,0,7,2,9,7,9,7][t>>14&15]/12)*(-t>>13&1)&127&-t>>7,mel5=(n/2*2**([0,0,0,7,7,4,4,-1,-3,-",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Adornee - Find the Chomiks OST",
+    "url": "https://dollchan.net/btb/res/520.html#2248",
+    "date": "2023-09-08",
+    "sampleRate": 40000,
+    "coverName": "Adornee - Find the Chomiks OST",
+    "coverUrl": "https://youtu.be/CewFzmoFqi0",
+    "tags": [
+      "big"
+    ]
+  }
+}

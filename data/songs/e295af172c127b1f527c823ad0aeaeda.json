@@ -1,0 +1,22 @@
+{
+  "file": "songs/e295af172c127b1f527c823ad0aeaeda.js",
+  "title": "the 42 melody",
+  "author": "Unknown",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f8314cc0a31496656a4c37c13579412197161a5c52e342ffea66fc74b039a4f9",
+  "upstream": {
+    "hash": "e295af172c127b1f527c823ad0aeaeda",
+    "codeLen": 12,
+    "code": "t*(42&t>>10)",
+    "name": "the 42 melody",
+    "description": "Separately discovered by several people on irc.",
+    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

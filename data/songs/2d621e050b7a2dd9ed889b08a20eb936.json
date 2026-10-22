@@ -1,0 +1,35 @@
+{
+  "file": "songs/2d621e050b7a2dd9ed889b08a20eb936.js",
+  "title": "Patrick The Android's Vocals",
+  "author": "Admirable-Dot-5854",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "01889cc2f73bbe662f23e6aaa0d5afc647557a0e9957d43935dcc869d6297181",
+  "upstream": {
+    "hash": "2d621e050b7a2dd9ed889b08a20eb936",
+    "codeMinLen": 191,
+    "codeMin": "f=a=>sin(t%541/8E3*a),p=a=>{q=0;a.forEach(b=>q+=f(b)/a.length);return q},DTMF=[[312,2497],[520,1995],[681,1659],[558,1201],[335,865]],p(DTMF[(t>>13&-t>>12)%DTMF.length])*128%256*(1-t%541/541)",
+    "codeLen": 195,
+    "code": "f=a=>sin(t%541/8e3*a),p=a=>{q=0;a.forEach(b=>q+=f(b)/a.length);return q},DTMF=[\n[312,2497],[520,1995],[681,1659],\n[558,1201],[335,865]],(p(DTMF[(t>>13&-t>>12)%DTMF.length])*128)%256*(1-t%541/541)",
+    "author": "Admirable-Dot-5854",
+    "name": "Patrick The Android's Vocals",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1imghdr/comment/mc768c7/",
+    "date": "2025-02-10",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "578bf0f168d2e045e5465f4283bab0ab",
+        "author": "awogler9124812041",
+        "name": "formant synthesis",
+        "url": "https://www.reddit.com/r/bytebeat/comments/15x6jtg/formant_synthesis/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-09-28"
+  }
+}

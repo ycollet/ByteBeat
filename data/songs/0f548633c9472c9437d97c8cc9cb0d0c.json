@@ -1,0 +1,29 @@
+{
+  "file": "songs/0f548633c9472c9437d97c8cc9cb0d0c.js",
+  "title": "Pizza Time",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0f548633c9472c9437d97c8cc9cb0d0c.js",
+  "sha256": "12ae996725de38511a7744faf348bf9fd7d646b255ae3932f97613ef355e1b2e",
+  "upstream": {
+    "hash": "0f548633c9472c9437d97c8cc9cb0d0c",
+    "codeMinLen": 920,
+    "codeLen": 970,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "c=1.2E-7,t=-log(log(2)*(-t*c+log(E)/log(2)))/(c*log(2)),t%=2654208,t-=t<2064384?0:589824,T=q=>2**(q/12),S=t=>((t&t>>2&255)+(.99*t&255)+(1.01*t&255))/3,e=1-(t/3>>3)/256%1,m='kppppppp0po0ok0km0mhh0hhhh0hf0dddddddd0hf0ddddddddddd0kppppppp0po0ok0km0mhh0hhhh0hf0dddddddd0hf0ddddddddddd0hhhhhhhh0hj0jh0hj0jhh0cccc0cc0ccccccccccc0kkkkkkkk0kmomk0kmomkk0ffff0ff0ffffffffffff0ooom00ooom00p0om0pooooo0ooom00ooom00p0om0pk0hh0hh0hh0hh0hh0hh0hh0hppppp0r0pm0pk0hh0ik0ih0fddddd0',s=t/3>>11,g=s%3,b=q=>(S(t*T(q[0]))+S(t*T(q[1]))+",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Pizza Time",
+    "description": "The pitch rise at a constant rate per repetition (about 4 semitones per full loop) and goes to infinity at 272.5sec.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15i9lk6/pizza_time/",
+    "date": "2023-08-04",
+    "sampleRate": 44100,
+    "coverName": "Spider-Man 2: The Game Pizza Theme",
+    "coverUrl": "https://youtu.be/czTksCF6X8Y",
+    "tags": [
+      "1k"
+    ]
+  }
+}

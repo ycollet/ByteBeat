@@ -1,0 +1,27 @@
+{
+  "file": "songs/ecc062789c167920e215042c72094c92.js",
+  "title": "advanced technology",
+  "author": "maj-6",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ecc062789c167920e215042c72094c92.js",
+  "sha256": "5abc65b9e74bd3f82d6917aaf3a0b7e7e6d54d01b50923dedcd8b3d70119d15b",
+  "upstream": {
+    "hash": "ecc062789c167920e215042c72094c92",
+    "codeMinLen": 1304,
+    "codeLen": 1336,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t*=.22,h=4096,q=h/2,u=12,Q=t>>11,H=t>>12,m=t>>13,X=16,Z=1.5,e=m%2,p=m%8,B=m>>3,S=m%32<31,M=B<24?m>>7:m>>6,J=(m>>4)%2,K=!J,i=.1,j=.01,k=.001,E=(m,q=0,j=1,B=1)=>min(max((m-(t+q)*j%(m*j))/m,0),B)/B,r=m=>(m+=4,(1.45+.09*M)*(1<<m/7)*1.0594**(2*m%14-(m%7>3))),T=0|t,F=80/(T%q/64),N=m=>m*m/(1+(495&t))%1*64,f=(f,n)=>min(1.2*(w=4*B/(t%(64*q)%(2+t/2%(32*q)/(2*q))),P=N(t+f),Y=N(T+f),z=(m,q=1+j,B=1,E=1,K=i,p=0)=>B*(r(m)*(p*w+K*F+t)|q*r(m)*(K*F+p*w+t)<<E)%256,R=m=>t%m/m,l=7==p?1:(5^Q%7)%2+1,L=(m,q=1)=>K*(j+i*R(h))*z(m,1+",
+    "isTruncated": 1,
+    "author": "maj-6",
+    "name": "advanced technology",
+    "url": "https://battleofthebits.com/arena/Entry/advanced+technology+%5B44.1k+stereo_+1_337+bytes%5D/54547/",
+    "date": "2022-06-07",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ]
+  }
+}

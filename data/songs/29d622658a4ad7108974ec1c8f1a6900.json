@@ -1,0 +1,26 @@
+{
+  "file": "songs/29d622658a4ad7108974ec1c8f1a6900.js",
+  "title": "random bytebeat thing with delay effect",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/29d622658a4ad7108974ec1c8f1a6900.js",
+  "sha256": "d40110d66fc04cf0e1808f0d4da471bcc79ebf7851233c8afeacb32732c3a321",
+  "upstream": {
+    "hash": "29d622658a4ad7108974ec1c8f1a6900",
+    "codeLen": 2263,
+    "codeFormLen": 2860,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "q=(t+(44100*128))/44100,r=1.05946309,a=880,as=a*r,b=as*r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,\n//Coded and Composed by Bp103\n\narp=[\n\ta,d,f,\n\t0,0,0,\n\t0,0,0,\n\t0,0,0,",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "random bytebeat thing with delay effect",
+    "url": "https://twitter.com/Bp103/status/1401194230656253952",
+    "date": "2021-06-05",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

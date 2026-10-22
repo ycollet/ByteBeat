@@ -1,0 +1,24 @@
+{
+  "file": "songs/7afc7005872ce4ce3049a12f78aebef7.js",
+  "title": "Drum Pattern",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "39253e0ce9809ae16e1f169ead9bf6eaed05a2a8dbc2459271990ed8bb4aa41a",
+  "upstream": {
+    "hash": "7afc7005872ce4ce3049a12f78aebef7",
+    "codeMinLen": 150,
+    "codeMin": " a=(a,b)=>b.test(a.toString(2)),tt=t>>4&255,drum=t=>a(t+tt,/^...1/)&&(a(t+tt,/^..1/)||a(t+tt,/^....1/)),drum(t%(2048/[1,1,1,1,1,1,2,2][t>>11&7]))&&255",
+    "codeLen": 162,
+    "code": "a=(a,b)=>(b.test(a.toString(2))),\ntt=((t>>4)&255),\ndrum=(t)=>a(t+tt,/^...1/)&&(a(t+tt,/^..1/)||a(t+tt,/^....1/)),\n\ndrum(t%(2048/[1,1,1,1,1,1,2,2][t>>11&7]))?255:0",
+    "author": "Chasyxx",
+    "name": "Drum Pattern",
+    "url": "https://dollchan.net/btb/res/756.html#967",
+    "date": "2023-04-28",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

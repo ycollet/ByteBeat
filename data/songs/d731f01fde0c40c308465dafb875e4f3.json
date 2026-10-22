@@ -1,0 +1,24 @@
+{
+  "file": "songs/d731f01fde0c40c308465dafb875e4f3.js",
+  "title": "Random Note Generator",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e2459227f5d9a68ba8a0b99f2c31aacdd8a5c0ed12f3c380102304f1bf127f7f",
+  "upstream": {
+    "hash": "d731f01fde0c40c308465dafb875e4f3",
+    "codeMinLen": 117,
+    "codeMin": "(t*3/4*2**(\"0353\"[(t>>17)%4]/12)/2%255+t/.9949695125*2**((((t%2**20>>13^(8**8-t%2**20>>13)-3)%11*3^3)+7)/12-2)%256)/2",
+    "codeLen": 152,
+    "code": "(((t*3/4*2**((((\"0353\"[(t>>17)%4])))/12)/2)%255+(t/0.9949695125*2**((((((((((t%(2**20))>>13)^(((8**8)-(t%(2**20)))>>13)-3))%11)*3)^3)+7)/12-2)))%256))/2",
+    "author": "D3nschøt",
+    "name": "Random Note Generator",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1clh00u/idk_post_from_my_hiatus/",
+    "date": "2024-05-06",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

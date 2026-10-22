@@ -1,0 +1,39 @@
+{
+  "file": "songs/ee323b8d54bfce1cd0e8ec2e2d97f645.js",
+  "title": "Interesting patterns",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9779d96f6190a01547664d3dc014694920a88d550053074b0b92a42b6c58208d",
+  "upstream": {
+    "hash": "ee323b8d54bfce1cd0e8ec2e2d97f645",
+    "codeLen": 209,
+    "code": "a=x=>((t*304.444*(x**.25/1024)&128)%256-64)/256/2.666,[a(128)+a(129)+a(130)+a(131)+a(132)+a(133)+a(134)+a(135)+a(136)+a(137)+a(138),a(128)+a(127)+a(126)+a(125)+a(124)+a(123)+a(122)+a(121)+a(120)+a(119)+a(118)]",
+    "author": "PrincessPriscillaPT",
+    "name": "Interesting patterns",
+    "description": "Set \"Diagram\" mode and zoom to 2(-8). Inspiration: \"Interesting polyrhythm-based machine\".",
+    "url": "https://dollchan.net/btb/res/7164.html#8972",
+    "date": "2025-09-02",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "d54f805e0331d933751a250ccccfcb4c",
+        "author": "kOLbOSa_exe",
+        "name": "Intresting polyrhythm-based machine",
+        "url": "https://dollchan.net/btb/res/27.html#1401"
+      }
+    ],
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "8"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-09-28"
+  }
+}

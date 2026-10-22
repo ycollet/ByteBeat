@@ -1,0 +1,27 @@
+{
+  "file": "songs/aa10f19816092fe368256ac17194425d.js",
+  "title": "The Evaluator",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/aa10f19816092fe368256ac17194425d.js",
+  "sha256": "834275998aabdb369e626b4a5af206d02c486b706888891677e459416e1bb272",
+  "upstream": {
+    "hash": "aa10f19816092fe368256ac17194425d",
+    "codeMinLen": 979,
+    "codeLen": 993,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "eval(unescape(escape`琿〺砽礽〬㈵㔼⡧㵛⡡㴨砽砯㈫⡺㴨眽⠱⬱⨧㜷㤸❛琾㸱㐦㍝⤯㠩⩴⨧ㄱ〲㈱㈲❛琾㸱〦㝝⤥㌲⤦⡹㵸⨲⨪⸵籸㸾ㅞ礯ㄮ㔩⤫⡢㴱㘪獩渨㈰㐸⼨琥㠱㤲⤪⨮〱⤫ㄶ⤬⡳㴨愯㉼⡣㵺⼨ㄫ⡴㸾ㄵ☱⤩☳㈩⼸⤫⡡☱⸵⩴⤩⬲⩢⭣⬨搽㘴⨨㌽㴨琾㸱㔦㌩⤪⡵㴨焽琥㈪⨱㔩⩱⽱⨪⸵⩐䤥ㄩ┨焫㄰㈴㸾㄰⤩ⱡ⬱⸵⩢⬴⩢┳㈫挫⡯㴨⡥㵛瘽㈪⠷㴽⡴㸾ㄲ☷⤩⨨ㄭ⸵⨨琾㸱㔦ㄩ⤬瘬Ⱜ瘬瘬Ⱜ㈬㈮㌷㔬㌬㑝孴㸾㠦ㄵ崪眪琯㈩⼲☱㔩⬨攦ㄵ⤩⬮㜪⡦㴶㐪⡴㸾ㄲ☱⤪甦繴㸾㜰⤬爽猫㈪戫㐪戥㌲⭣⭤⭯⬮㠪昬⡬㵢⭣⤫⸵⩦ⱬ⭤⬨㈪攦㌱⤫⸵⩦ⱲⵤⱲⱮ㵸⽷籬Ɱ⭢⬱⸵⨨攦㌱⤬戫⡭㴨瀽稯㈦琾㸸☳ㄩ⭯⤬⸹⩳⭢⭤⬲⩭ⱲⵤⰮ㠵⩲⬮㐪漫瀬愫氫⸶⩦⭭ⱬ⬮㐪昫洫⸶⩤Ⱘ愦㌲⤫戫洬⡺☳ㄩ⭭Ɒ⭯⨨ㄭ琾㸱㘦ㄩ嵛琾㸱㝝⤿㈵㔺朦㈵5`.replace(/u(..)/g,'$1%')))",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "The Evaluator",
+    "description": "This song doesn't loop, and it's 5 minutes long.",
+    "url": "https://dollchan.net/btb/res/44.html#54",
+    "date": "2022-04-26",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

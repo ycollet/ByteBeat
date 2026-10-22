@@ -1,0 +1,38 @@
+{
+  "file": "songs/b4f213f9535155f53ab39a1b3b1f9354.js",
+  "title": "BM9 harmony speed up with drum",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44400,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f042255c5b869811e8dffa1c483507640924dcf1286098cc37b11ba9b0d3120a",
+  "upstream": {
+    "hash": "b4f213f9535155f53ab39a1b3b1f9354",
+    "codeMinLen": 224,
+    "codeMin": "i=t/4,(2*i&i>>8|5*i&i>>7|9*i&i>>4|15*i&i>>4)%256/2.5+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13])/1.25",
+    "codeLen": 228,
+    "code": "i=t/4,(2*i&i>>8|5*i&i>>7|9*i&i>>4|15*i&i>>4)%256/2.5+(((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/24e3)*'00100101'[7&t>>13])/1.25",
+    "author": "Zackx",
+    "name": "BM9 harmony speed up with drum",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12vt718/list_of_my_creatorremixes_2/",
+    "date": "2023-04-23",
+    "sampleRate": 44400,
+    "remix": [
+      {
+        "hash": "b433501f757dbbc623a54af7ae80e46c",
+        "author": "May_I_Change_My_Name",
+        "name": "BM9 harmony",
+        "url": "https://www.reddit.com/r/bytebeat/comments/yi1cf9/u_wot_m9/"
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

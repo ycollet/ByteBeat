@@ -1,0 +1,28 @@
+{
+  "file": "songs/793a1a88070d434ecc082259c2557165.js",
+  "title": "Earl Grey Groove",
+  "author": "Savestate",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/793a1a88070d434ecc082259c2557165.js",
+  "sha256": "52e98610cf3984ed7af2c8592f326a205d62d2f00c9d7c5684cd17f047409ed4",
+  "upstream": {
+    "hash": "793a1a88070d434ecc082259c2557165",
+    "codeMinLen": 893,
+    "codeLen": 4092,
+    "codeFormLen": 3660,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "(((a=0==(s=int(t/9600%8)))*(y=2*t)*1.5873+(b=1==s)*y*(v=1.4983)+(c=2==s)*y*v+(d=3==s)*y+(e=4==s)*y*1.5873+(g=5==s)*y*v+(h=6==s)*y+(i=7==s)*y)%(m=256)+((a|e)*(u=4*y)*v+u*(1.3348*(b|c|g|h)+.8908*d+1.2599*i))%m+u*(i+1.1892*(a|e)+1.1224*(b|c|g|h)+d*v)%m+u*((a|e)+.8908*(b|g|h)+.9438*c+1.1892*d+.7491*i)%m+u*(.7937*(a|e)+.7491*(b|c|g|h)+d/2+.627*i)%m)/8*(0!=(32>(w=int(t/800%96)))*(1<<w&0xC007307)+(32<=w&&64>w)*(1<<w&1929842288)+(64<w)*(1<<w&0xE70C400))+(t*sin(t*cos(t))%18+25)*(0!=(1<<t/200%24&1052928))+(t*sin(t*co",
+    "isTruncated": 1,
+    "author": "Savestate",
+    "name": "Earl Grey Groove",
+    "url": "http://battleofthebits.com/arena/Entry/Earl+Grey+Groove/20500/",
+    "date": "2016-01-13",
+    "sampleRate": 8000,
+    "tags": [
+      "big"
+    ]
+  }
+}

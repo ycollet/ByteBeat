@@ -1,0 +1,22 @@
+{
+  "file": "songs/2182e4a0d0242f91869098387bb7fa20.js",
+  "title": "fm synth, i guess...?",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0c751aeacce6768a6beb6a43c4b7ed582033ee835f4fa0f94f136a8a8814db16",
+  "upstream": {
+    "hash": "2182e4a0d0242f91869098387bb7fa20",
+    "codeLen": 310,
+    "code": "a=t/1.15,c=t*1.05,d=c*1.1,e=d*1.15,f=d*1.2,b=[a,c,d,a,f,a,c,e][t>>14&7],m=[a,t,c,d,0,0,e,0][t>>12&7],i=[a,c,t,e][t>>17&3],25+4*tan(sin(b/81.5)+cos(b/81.5))+8*atan(sin(m/20.375)+cos(m/20.375))+100+sin(sin(i/40.75*4)+cos(i/40.75*4))*\"4321\"[t>>15&3]+16*sin(4E3/(t&16383)%100)+tan(sin([t,0,0,0][t>>10&3]*cos(t)))*2",
+    "author": "RealZynx92",
+    "name": "fm synth, i guess...?",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qlodty/fm_synth_i_guess/",
+    "date": "2021-11-03",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

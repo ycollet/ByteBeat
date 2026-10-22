@@ -1,0 +1,26 @@
+{
+  "file": "songs/c736299f3bcc92c84932016d722bd0a3.js",
+  "title": "Semi-accurate Roland TR-808 Rimshot",
+  "author": "polyzium",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c736299f3bcc92c84932016d722bd0a3.js",
+  "sha256": "a87b4113357201af3206fa32ff2fd943c04814565bb2aad470af153b679416bc",
+  "upstream": {
+    "hash": "c736299f3bcc92c84932016d722bd0a3",
+    "codeLen": 1547,
+    "fileOrig": 1,
+    "codeText": "class RS {\n    constructor() {\n        this.phase1 = 0;\n        this.phase2 = 0;\n        this.env1 = 0;\n        this.env2 = 0;\n        this.aOut = 0;\n        this.aOutPrev = 0;",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "Semi-accurate Roland TR-808 Rimshot",
+    "url": "https://dollchan.net/btb/res/3.html#10808",
+    "date": "2025-11-24",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-18"
+  }
+}

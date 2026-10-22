@@ -1,0 +1,24 @@
+{
+  "file": "songs/f2092272cee929a573eda600d3be40ed.js",
+  "title": "a beat thingy with drums",
+  "author": "Salty_Formal5291",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b782fd0a7addee4b6aa8db095d7ace886cad8857c05c1d57c4733f7cc368b8b0",
+  "upstream": {
+    "hash": "f2092272cee929a573eda600d3be40ed",
+    "codeMinLen": 55,
+    "codeMin": "4E5/(t&2**12-1)+t*(7&t>>10)*[3,2.5,2,2.25][(t>>15)%4]/2",
+    "codeLen": 57,
+    "code": "4E5/(t&(2**12-1))+t*(7&t>>10)*[3,2.5,2,2.25][(t>>15)%4]/2",
+    "author": "Salty_Formal5291",
+    "name": "a beat thingy with drums",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1heywyr/somebody_remix_this/",
+    "date": "2024-12-15",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

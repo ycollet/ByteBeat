@@ -1,0 +1,40 @@
+{
+  "file": "songs/69f97a6be20cbbcecba959052f633a96.js",
+  "title": "tejeez' first song with drums",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ba0a0efb7e978d0ef02b99c9d749f85cd74819184e97c54ce7748eff4504cd65",
+  "upstream": {
+    "hash": "69f97a6be20cbbcecba959052f633a96",
+    "codeLen": 71,
+    "code": "(t>>9&1+t>>12&7?0:9001/(t%4096)-t/9&8?-1:0)^t>>4&t*(t>>5|t>>8)>>(t>>16)",
+    "author": "Greaserpirate",
+    "name": "tejeez' first song with drums",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g57g96/the_perfect_c_compatible_drums/",
+    "date": "2024-10-16",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "5b052e9741983ecc9a2440a26e1f53f9",
+        "author": "tejeez",
+        "name": null,
+        "url": [
+          "https://youtu.be/GtQdIYUtAHg?t=45",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      },
+      {
+        "hash": "7908f03d9960255046c75ff425fe082e",
+        "author": "Greaserpirate",
+        "name": "the perfect c compatible drums",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g57g96/the_perfect_c_compatible_drums/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

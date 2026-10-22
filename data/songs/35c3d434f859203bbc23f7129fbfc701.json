@@ -1,0 +1,36 @@
+{
+  "file": "songs/35c3d434f859203bbc23f7129fbfc701.js",
+  "title": "Rabid Symphony with Octaver and Organ",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/35c3d434f859203bbc23f7129fbfc701.js",
+  "sha256": "f92c5947c60e98fb20bd858c24fc88aec866a4b9b7803c63d4b05b46b351b289",
+  "upstream": {
+    "hash": "35c3d434f859203bbc23f7129fbfc701",
+    "codeMinLen": 688,
+    "codeLen": 716,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t2=t,r=repeat=(x,y)=>Array(x).fill(y).flat(9),t?0:fx=r(4e4,0),fxi=0,rv=reverb=(x,len=16e3,feedb=.7,dry=.4,wet=1,dsp=2,T=t2)=>(ech=y=>fxi+(0|(y%len)/dsp),x=x*dry+wet*fx[ech(T)]||0,t2%dsp?0:fx[ech(t2)]=x*feedb,fxi+=0|(len/dsp),x),m=mix=(x,vol=1,dist=0)=>((x*vol*(1+dist))%(256*vol))||0,cseq=(arr,spd)=>t/2*2**((arr.charCodeAt((t>>spd)%arr.length)-58)/12)*63>>8%132,mel='kotojokohogohotojokohogokokhpmjmjfokhomkjhggcckotojokohogohotojokohogokokhpmjmjfrmorokfjkkkkkkrpomkjkmokmpoprrjjkkoommoottqqhjkkjjhfecebccccccff",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Rabid Symphony with Octaver and Organ",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1e9eaf4/comment/leigjyt/",
+    "date": "2024-07-23",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "6a7083a8437d81b98265e0934079ef85",
+        "author": "rabidcow",
+        "name": "Rabid symphony",
+        "url": "https://www.reddit.com/r/programming/comments/mbakl/experimental_oneline_algorithmic_music/c2zn7qv/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

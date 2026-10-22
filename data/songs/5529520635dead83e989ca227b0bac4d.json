@@ -1,0 +1,25 @@
+{
+  "file": "songs/5529520635dead83e989ca227b0bac4d.js",
+  "title": "string instruments, with a metallic triangle",
+  "author": "marmakoide",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "971ce4611e535c8ebf75859ab0616dd63b6e3f5d50a45e188cc2bb8e0ad2d68a",
+  "upstream": {
+    "hash": "5529520635dead83e989ca227b0bac4d",
+    "codeMinLen": 28,
+    "codeMin": "t>>(t&7)|t<<(t&42)|t>>7|t<<5",
+    "codeLen": 36,
+    "code": "(t>>(t&7))|(t<<(t&42))|(t>>7)|(t<<5)",
+    "author": "marmakoide",
+    "name": "string instruments, with a metallic triangle",
+    "url": "https://www.pouet.net/topic.php?which=8357&page=8#c388874",
+    "date": "2011-10-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

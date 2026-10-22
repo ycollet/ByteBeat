@@ -1,0 +1,33 @@
+{
+  "file": "songs/931da4da7abb705d68b7e15d3a57fdbf.js",
+  "title": "Customizable Amen Break",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c83fc9970d4e7ffb4e95106b5f66b850c0ef8dda924464880cd374a0fee8d55b",
+  "upstream": {
+    "hash": "931da4da7abb705d68b7e15d3a57fdbf",
+    "codeMinLen": 396,
+    "codeMin": "a='++++++++!!!!!!!!////////--  //  --  //  ++++++++////////--  //  ++++++++++++++++////////--  //  --  //  ++++++++////////--  //  ',b=a[(t>>10)%a.length],min(max((b=='+'?512*tanh(4*tanh(sin(16*sqrt(t%8192)**.5)))*(1-t%8192/8192):b=='-'?512*random()*(1-t%8192/8192)+(t>>6)%128-128:b=='/'?+(16*((t*sin(t/1.25>>3)&32)-16)*(1-t%8192/8192)):0)+192*sin(1.5*t+3*random())*(1-t%8192/8192)**.5,-128),127)",
+    "codeLen": 400,
+    "code": "a='++++++++!!!!!!!!////////--  //  --  //  ++++++++////////--  //  ++++++++++++++++////////--  //  --  //  ++++++++////////--  //  ',b=a[(t>>10)%a.length],min(max(((b=='+'?tanh(4*tanh(sin(16*sqrt(t%8192)**.5)))*512*(1-t%8192/8192):b=='-'?random()*512*(1-t%8192/8192)+((t>>6)%128)-128:b=='/'?+(((t*sin(t/1.25>>3)&32)-16)*16*(1-t%8192/8192)):0)+sin(t*1.5+random()*3)*192*(1-t%8192/8192)**.5),-128),127)",
+    "author": "PrincessPriscillaPT",
+    "name": "Customizable Amen Break",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h69y07/comment/m0cj5xq/",
+    "date": "2024-12-04",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "bb58e4dc9f3a61784f5efd1bb2695a9b",
+        "author": "emelchenko",
+        "name": "customizable beat",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1h69y07/customizable_beat/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/a155e2b4be650b7d5327bc82596ca372.js",
+  "title": "Untitled (a155e2b4)",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b6214b497126773e97e415ac5bd3f0f030e14f9917693725469f180ee4844296",
+  "upstream": {
+    "hash": "a155e2b4be650b7d5327bc82596ca372",
+    "codeMinLen": 24,
+    "codeMin": "t*((t>>12|t>>8)&63&t>>4)",
+    "codeLen": 32,
+    "code": "t*(((t>>12)|(t>>8))&(63&(t>>4)))",
+    "author": "viznut",
+    "url": [
+      "https://youtu.be/GtQdIYUtAHg?t=8",
+      "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+    ],
+    "date": "2011-09-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

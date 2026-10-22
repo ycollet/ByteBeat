@@ -1,0 +1,42 @@
+{
+  "file": "songs/932a986f3bd722eddc66a6100cdb8e84.js",
+  "title": "adventurous song using midi to bytebeat tool 2.0",
+  "author": "awogler9124812041",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/932a986f3bd722eddc66a6100cdb8e84.js",
+  "sha256": "68a2db50b1382439722634779be1110680ae0c69c6231daa9b028b2a92e31cfb",
+  "upstream": {
+    "hash": "932a986f3bd722eddc66a6100cdb8e84",
+    "codeLen": 15756,
+    "fileOrig": 1,
+    "codeText": "return(m=[[[75,0,0.09],[77,0.09,0.181],[79,0.181,0.272],[80,0.272,0.363],[75,0.363,0.454],[77,0.454,0.545],[79,0.545,0.636],[80,0.636,0.727],[75,0.727,0.818],[77,0.818,0.909],[79,0.909,1],[80,1,1.09],[75,1.09,1.181],[77,1.181,1.272],[79,1.272,1.363],[80,1.363,1.454],[77,1.454,1.545],[79,1.545,1.636],[80,1.636,1.727],[79,1.727,1.818],[77,1.818,1.909],[79,1.909,2],[80,2,2.09],[79,2.09,2.181],[77,2.181,2.272],[79,2.272,2.363],[80,2.363,2.454],[79,2.454,2.545],[77,2.545,2.636],[79,2.636,2.727],[80,2.727,2.818],",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "adventurous song using midi to bytebeat tool 2.0",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1git2wk/comment/lviatmw/",
+    "date": "2024-11-05",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "85d4513798179ba7f6ad2760681300e5",
+        "author": "awogler9124812041",
+        "name": "adventurous song",
+        "url": "https://www.reddit.com/r/bytebeat/comments/120gv4f/adventurous_song_the_result_of_combining_the/"
+      },
+      {
+        "hash": "09bdd814edfc20ba5954762f19c0af76",
+        "author": "awogler9124812041",
+        "name": "midi to bytebeat tool 2.0",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1git2wk/midi_to_bytebeat_tool_20_demonstration/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

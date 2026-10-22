@@ -1,0 +1,31 @@
+{
+  "file": "songs/894e30c7870c69e4bda3158677abf845.js",
+  "title": "The Bytebeat (Eek!)",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/894e30c7870c69e4bda3158677abf845.js",
+  "sha256": "1ff189470c8a8b65c0cd805a3c38eea3c2cdaeb2747a93e9985a6fe86dadf5b1",
+  "upstream": {
+    "hash": "894e30c7870c69e4bda3158677abf845",
+    "codeLen": 15355,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{let F=globalThis._F;if(!F||F.k!==1394230200){let Mx=max,Mn=min,Fl=floor,Ci=ceil,Rd=round,Ab=abs,Sn=sin,Cs=cos,Th=tanh,A=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~\",P=\"CVWBrScCA|ILZ=0m?@?XicYVCMjww@g_h>roWj6O1!6K+Po#~sQsO,xgZf09wh4Yrfq_il35a2bJo/nb!5_[;o?<nEnKnvPL:wvF2waP~CE6q{#[#/[!!9(Q9x_;kdTFrYUBBJ}a3-X4pWQwCw/tRHg_.u~rvHTIpAo2uL48hkxCf(_m?NQDsXSKjx$GpORK[ygv#oXXA2Q8o5k[mKwpLBKd~8f=SoWf]a_qXwnbmU7C%}0jD%DOXw8JEZvG87zt7D^wGQsrx0/jJDl<*mz$rS*~",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "The Bytebeat (Eek!)",
+    "url": "https://www.bytebeat.cloud/post/acf49777-068c-4b1e-bae5-9adbbd48136d",
+    "date": "2026-10-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Surasshu - Eek!",
+    "coverUrl": "https://youtu.be/zQEP6kzuroI",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2026-10-06",
+    "date_edited": "2026-10-18"
+  }
+}

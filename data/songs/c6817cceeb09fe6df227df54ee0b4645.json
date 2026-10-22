@@ -1,0 +1,29 @@
+{
+  "file": "songs/c6817cceeb09fe6df227df54ee0b4645.js",
+  "title": "embarkening",
+  "author": "jumbledFox",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c6817cceeb09fe6df227df54ee0b4645.js",
+  "sha256": "7adae1d585bab73c9baf02e86e9502d71d6599d23bb2de5c15a7ae708af68a54",
+  "upstream": {
+    "hash": "c6817cceeb09fe6df227df54ee0b4645",
+    "codeMinLen": 247,
+    "codeMin": "m=t*(1+(t>>17&1)*.04),j=t>>9,f=t>>14&1,(96&m*[,f?5.3:6,5][2568327513>>(j&62)&3])+(64&m*(t>>15&1?'22 44 3':'22 22 4')[n=t>>11&7]/2)*.8+(80&m*[6,5,8,6,10,8,12,10,7,6,9,7,10.5,9,14,10.5][(j&7)+f*8])/((j&1)+1)+(t*t*.09*'31133131'[n]&13)*(~t>>3&255)/56",
+    "codeLen": 389,
+    "fileOrig": 1,
+    "codeText": "m=t*(1+(t>>17&1)*.04),j=t>>9,f=t>>14&1,(96&m*[,f?5.3:6,5][2568327513>>(j&62)&3])+(64&m*(t>>15&1?'22 44 3':'22 22 4')[n=t>>11&7]/2)*.8+(80&m*[6,5,8,6,10,8,12,10,7,6,9,7,10.5,9,14,10.5][(j&7)+f*8])/((j&1)+1)+(t*t*.09*'31133131'[n]&13)*(~t>>3&255)/56",
+    "isTruncated": 1,
+    "author": "jumbledFox",
+    "name": "embarkening",
+    "description": "\"Made a cute little song! First bytebeat and quite chuffed [pleased] with it, especially how I compressed the main melody into a U32 split up into two bytes each acting as an index into a 'note' array.\" - jumbledFox",
+    "url": "https://dollchan.net/btb/res/3.html#5529",
+    "date": "2025-02-25",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-18",
+    "date_edited": "2025-12-08"
+  }
+}

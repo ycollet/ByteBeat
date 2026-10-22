@@ -1,0 +1,30 @@
+{
+  "file": "songs/24ae53dffee0cd261b00d13586694b7d.js",
+  "title": "Step sequencer with interpolation",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/24ae53dffee0cd261b00d13586694b7d.js",
+  "sha256": "61c70f124255e1c6b2206edd0e0d6f2e4e877ab38141a19435184855d578145e",
+  "upstream": {
+    "hash": "24ae53dffee0cd261b00d13586694b7d",
+    "codeMinLen": 300,
+    "codeMin": "s=(a,s,T=t,l=0,e=1)=>(i=T/2**s,j=i|0,k=(i-j)**e,L=a.length,l?(1-k)*a[j%L]+k*a[(j+1)%L]:a[j%L]),m=(i,...x)=>i+2**(s(...x)/12),b=m(t?b:0,[0,12,12,0],15,t,1,2)%256,p=s([15,14],18,t,1,16),a=m(t?a:0,[12,10,12,0,7,0],p-log2(3),t,1,9)%256,M=m(t%8192?M:0,[0,12],16,t,1,2),T=9e3/(t%8192),[a/3+b/8+T,a/5+b/4+T]",
+    "codeLen": 3076,
+    "codeFormLen": 3120,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "s=(a,s,T=t,l=0,e=1)=>(i=T/2**s,j=i|0,k=(i-j)**e,L=a.length,l?(1-k)*a[j%L]+k*a[(j+1)%L]:a[j%L]),m=(i,...x)=>i+2**(s(...x)/12),b=m(t?b:0,[0,12,12,0],15,t,1,2)%256,p=s([15,14],18,t,1,16),a=m(t?a:0,[12,10,12,0,7,0],p-log2(3),t,1,9)%256,M=m(t%8192?M:0,[0,12],16,t,1,2),T=9e3/(t%8192),[a/3+b/8+T,a/5+b/4+T]",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Step sequencer with interpolation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10vpfsu/another_generalpurpose_effect_step_sequencer_with/",
+    "date": "2023-02-07",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-13"
+  }
+}

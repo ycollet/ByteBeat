@@ -1,0 +1,39 @@
+{
+  "file": "songs/d27546dc875a7e5bdb6daf824263cad0.js",
+  "title": "Melody XOR breakcore",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9faaadeff76c0a936268684d0ce0ff2cfeb58322ef70fa0063134632c3ff3029",
+  "upstream": {
+    "hash": "d27546dc875a7e5bdb6daf824263cad0",
+    "codeMinLen": 241,
+    "codeMin": "p=t/2**('08753875'[7&t>>16]/12),(1.38*p^1.39*p>>(-t>>12&3)<<(t>>15&3))%256/3+(300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13]",
+    "codeLen": 247,
+    "code": "p=t/2**(('08753875'[7&t>>16])/12),(p*1.38^p*1.39>>(-t>>12&3)<<(t>>15&3))%256/3+((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/24e3)*'00100101'[7&t>>13]",
+    "author": "Zackx",
+    "name": "Melody XOR breakcore",
+    "url": "https://dollchan.net/btb/res/204.html#899",
+    "date": "2023-04-21",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      },
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-22"
+  }
+}

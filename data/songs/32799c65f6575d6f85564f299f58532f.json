@@ -1,0 +1,35 @@
+{
+  "file": "songs/32799c65f6575d6f85564f299f58532f.js",
+  "title": "remix of Two2Fall's Chiptune",
+  "author": "ANoUserXD",
+  "mode": "Signed Bytebeat",
+  "rate": 57000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "487cac4dba39d34ec7a12ba15d2313d191c090fe812266f06fd3b893c56fa171",
+  "upstream": {
+    "hash": "32799c65f6575d6f85564f299f58532f",
+    "codeMinLen": 447,
+    "codeMin": "x=j=>(b=a=>t*2**('6666666622224449'[t>>14&15]/12-2)*a%256/2.1*(t/16384%2)*(1-t%8192/9E3),a=t=>(t*=t>0,(t*j*2**(parseInt('6968696DD6966984289 289 49B 49GD'[t>>13&31],36)/12)%128+40+(t>>8&15)&128)%256*(1-t/8192%1)),min(max((a(t)+a(t-6144)/2+a(t-12288)/3+a(t-18432)/4)*2/3+(b(1)+b(j)+b(2*j))*7/9+80*tanh(3*sin((t&16383)**.51))*(1&-t>>14)+230*random()*(1-t/8192%1)**4+(t*sin(t>>2)&128)*(1-t/32768%1)**5*(1&t>>15)/1.3-144,-128),127)),[x(1.006),x(.994)]",
+    "codeLen": 455,
+    "code": "x=j=>(b=a=>(t*2**('6666666622224449'[t>>14&15]/12-2)*a)%256/2.1*(t/16384%2)*(1-t%8192/9e3),(a=t=>(t*=t>0,((t*j*2**(parseInt(\"6968696DD6966984289 289 49B 49GD\"[t>>13&31],36)/12)%128+40+(t>>8&15))&128)%256*(1-t/8192%1)),min(max((a(t)+a(t-6144)/2+a(t-12288)/3+a(t-18432)/4)*2/3+(b(1)+b(j)+b(2*j))*7/9+(80*tanh(3*sin((t&16383)**.51)))*(1&-t>>14)+230*random()*(1-t/8192%1)**4+(t*sin(t>>2)&128)*(1-t/32768%1)**5*(1&t>>15)/1.3-144,-128),127))),[x(1.006),x(.994)]",
+    "author": "ANoUserXD",
+    "name": "remix of Two2Fall's Chiptune",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ic1tgu/comment/m9pxxg5/",
+    "date": "2025-01-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 57000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "eb251e5a238e628caa8322e5e322bd28",
+        "author": "Two2Fall",
+        "name": "Chiptune With The Zackx Song Engine",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ic1tgu/chiptune_with_the_zackx_song_engine/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-21"
+  }
+}

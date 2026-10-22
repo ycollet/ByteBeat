@@ -1,0 +1,37 @@
+{
+  "file": "songs/8185f31f6a566e9b920dffb3bc704f5e.js",
+  "title": "Chase in the Forest",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "288953024e17a1f7961ed3acf8402936e12f6a4046f9bda9db6cd992a8602c26",
+  "upstream": {
+    "hash": "8185f31f6a566e9b920dffb3bc704f5e",
+    "codeLen": 262,
+    "code": "T=t/5E3,b=T>>7,k=b+2&4?4:8,S=(s,p,d=0)=>(t*2**(p+'023'[(T-d)/s%3|0]/12+((1-(T>>5&3))%2+1)/4)&128)/3,N=p=>1E5*sin(T*p|0)&64,S(2,0)+S(2,0,3)/2+(b&&S(0,-2))+(b>1&&S(1,k/4)*(1-T%16/20))+(b>2&&.4*N(1E6)*(1-(T+k/2)%k/k))+(b>3&&(64/(T%k)&64)+(T&k&&.6*N(330)*(1-T%k/k)))",
+    "author": "SthephanShi",
+    "name": "Chase in the Forest",
+    "description": "Another harmony by changing the pattern.",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Dark+forest/57555/",
+      "https://www.reddit.com/r/bytebeat/comments/10k73al/dark_forest/"
+    ],
+    "date": "2023-01-09",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0c8f1f876ccea2f144287a89038b964f",
+        "author": "SthephanShi",
+        "name": "Dark Forest",
+        "url": [
+          "https://battleofthebits.com/arena/Entry/Dark+forest/57555/",
+          "https://www.reddit.com/r/bytebeat/comments/10k73al/dark_forest/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

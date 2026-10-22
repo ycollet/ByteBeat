@@ -1,0 +1,31 @@
+{
+  "file": "songs/3a323e937bd9283f040a8b9e9439554b.js",
+  "title": "Sine Mosaic Pattern",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ddb1214f75800657764d3930be21f519a4f8c5e444b39b1ee09dd85b30d95c18",
+  "upstream": {
+    "hash": "3a323e937bd9283f040a8b9e9439554b",
+    "codeMinLen": 100,
+    "codeMin": "a=(x=128)=>abs(sin(t*PI/x)),a()*a(126)*a(126.5)*a(127.5)*a(127)*a(128.5)*a(129)*a(129.5)*a(130)*32-1",
+    "codeLen": 102,
+    "code": "a=(x=128)=>abs(sin(t*PI/x)),(a()*a(126)*a(126.5)*a(127.5)*a(127)*a(128.5)*a(129)*a(129.5)*a(130))*32-1",
+    "author": "MarioFan171",
+    "name": "Sine Mosaic Pattern",
+    "description": "Set \"Diagram\" mode and zoom to 2(-7).",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mpynn0/sine_mosaic_pattern/",
+    "date": "2025-08-14",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "7"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-26"
+  }
+}

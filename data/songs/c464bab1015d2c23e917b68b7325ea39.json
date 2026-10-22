@@ -1,0 +1,32 @@
+{
+  "file": "songs/c464bab1015d2c23e917b68b7325ea39.js",
+  "title": "inside castle",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c2e54763ae5432de21b0a2ec4827b9f376e43b93bc6140a3dda09ed908457085",
+  "upstream": {
+    "hash": "c464bab1015d2c23e917b68b7325ea39",
+    "codeMinLen": 268,
+    "codeMin": "a=t=>(p=[2,4,5,9,2,4,5,9,2,4,5,9,12,9,7,5,0,2,4,7,0,2,4,7,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,5,-2,0,2,5,-2,0,2,-2,-3,-1,1,4,-3,-1,1,4,-3,-1,1,7,-3,-1,1,9][(t>>13)%64],z=t*2**(p/12)*3.2,(z&128)/1.5)*(1-t%8192/12E3),a(t)+a(t-12168)/2+a(t-24336)/4+a(t-36504)/8+a(t-48672)/16",
+    "codeLen": 276,
+    "code": "a=t=>(p=[2,4,5,9,2,4,5,9,2,4,5,9,12,9,7,5,0,2,4,7,0,2,4,7,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,5,-2,0,2,5,-2,0,2,-2,-3,-1,1,4,-3,-1,1,4,-3,-1,1,7,-3,-1,1,9][(t>>13)%64],z=t*2**(p/12)*3.2,(z&128)/1.5)*(1-t%8192/12e3),a(t)/1+a(t-12168)/2+a(t-12168*2)/4+a(t-12168*3)/8+a(t-12168*4)/16",
+    "author": "Zackx",
+    "name": "inside castle",
+    "url": "https://dollchan.net/btb/res/204.html#480",
+    "date": "2023-02-26",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "ca2647b6f1b759ea23e53a0df811fbfd",
+        "author": "Zackx",
+        "name": "Castle at the night",
+        "url": "https://dollchan.net/btb/res/204.html#414"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

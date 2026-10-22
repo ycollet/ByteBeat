@@ -1,0 +1,26 @@
+{
+  "file": "songs/eb32274f1a0fc09898a08fbb6c8c04fe.js",
+  "title": "Blocked Forever Instrumental Revamp",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 36864,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/eb32274f1a0fc09898a08fbb6c8c04fe.js",
+  "sha256": "c0161b9d8e8cd64f690c2d3efeaa77f17a9b918ae1043e7b75b052ff6cf6e0dd",
+  "upstream": {
+    "hash": "eb32274f1a0fc09898a08fbb6c8c04fe",
+    "codeLen": 3704,
+    "fileOrig": 1,
+    "codeText": "// cmon who really needs that big ahh text\n\n\n\nt+=('00000000000000000000000000000000000000000000000000000000011111111111111111111111111111111122'[t>>16]*458752), //this is a shifter, you may ask 'why?', well the original 'Blocked Forever Instrumental' has alot of copy of instruments, and i dont want that\n\n\np=([t,-t][t>>15&1]>>10&31)+32,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Blocked Forever Instrumental Revamp",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h8p937/blocked_forever_instrumental_revamp/",
+    "date": "2024-12-07",
+    "sampleRate": 36864,
+    "coverName": "FNF Vs Dave and Bambi - Blocked Forever V2",
+    "coverUrl": "https://youtu.be/_wLZXrYEN9E",
+    "tags": [
+      "big"
+    ]
+  }
+}

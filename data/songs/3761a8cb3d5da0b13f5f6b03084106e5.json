@@ -1,0 +1,36 @@
+{
+  "file": "songs/3761a8cb3d5da0b13f5f6b03084106e5.js",
+  "title": "qai",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "25e9cdfa29da829962253b2b7bf7e2180b49271619c7440c3890aa840257d48d",
+  "upstream": {
+    "hash": "3761a8cb3d5da0b13f5f6b03084106e5",
+    "codeMinLen": 239,
+    "codeMin": "t?0:d=Array(x=3E4).fill(0),Q=t/5E3,k=Q/4%1,q=Q|0,c=++'7798'[q/16&3]/8,w=v=>sin(PI*sin(t/2.7/v*c)),s=22*w(q%4+(q/4&3)+1)+28*asin(w(16/'11022122'[q&7]))+d[T=t%x],d[T]=(s/3+d[x/2]/4+d[x/4]/3),k*s+28*sin(20*(1E3*k)**.4-1E3*(1-k)**(8*Q&32))+128",
+    "codeLen": 247,
+    "code": "t?0:d=Array(x=3e4).fill(0),Q=t/5e3,k=Q/4%1,q=Q|0,c=('7798'[q/16&3]- -1)/8,w=v=>sin(PI*sin(t/2.7/v*c)),s=(w(q%4+(q/4&3)+1)*22+28*asin(w(16/'11022122'[q&7])))+d.shift(),d.push(s/3+d[x/2]/4+d[x/4]/3),k*s+28*sin(20*(1e3*k)**.4-1e3*(1-k)**(8*Q&32))+128",
+    "author": "lhphr",
+    "name": "qai",
+    "description": "Somewhat reminiscent of \"The Evaluator\".",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/ye0jc7/nice_little_melody/itz42ai/?context=3",
+      "https://dollchan.net/btb/res/44.html#367"
+    ],
+    "date": "2022-10-27",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "aa10f19816092fe368256ac17194425d",
+        "author": "lhphr",
+        "name": "The Evaluator",
+        "url": "https://dollchan.net/btb/res/44.html#54"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

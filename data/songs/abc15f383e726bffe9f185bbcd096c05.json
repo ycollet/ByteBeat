@@ -1,0 +1,28 @@
+{
+  "file": "songs/abc15f383e726bffe9f185bbcd096c05.js",
+  "title": "stereo chords based on 0b5vr's 128 voices generator",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 44000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/abc15f383e726bffe9f185bbcd096c05.js",
+  "sha256": "b9e6d0880fa74b60af336b6a80f3e66d3a43148f59f01567e79c237b0b9a13e9",
+  "upstream": {
+    "hash": "abc15f383e726bffe9f185bbcd096c05",
+    "codeLen": 665,
+    "fileOrig": 1,
+    "codeText": "T=t/21120,i=64,o=q=[0,0],r=(e,t)=>(m=0,e.forEach(e=>e<t?m=t-e:0),m),(()=>{while(i--)o[1&i]+=((t*(j=[58,69,46,52][2.5<T%4|T>>1&2]/50)*[40,(e=2.5<T%8)?50:48,60,e?75.2:70.8,90][(i>>1)%5]/40+1e4*(1+sin(i+t/7e5)))%(a=256)-128)/1e3})(),o.forEach((e,i)=>t?l[i]+=(e%a-l[i])*(1-r([0,.75,1.5,2.5,3.25],T%4))**(7+5*sin(T*PI/8)):l=q),e=(e,t,i)=>(1-(e*t<1?e*t:1))**i,B=(g=(c=32768)*T)%c/48e3/4,k=atan(2*sin(7*cbrt(g%c)))*e(B,15,2)*(~g>>15&1),h=(m=sin(t**7))/4*e(g%8192/48e3/4,2==(g>>13&3)?10:40,3),y=atan(sin(8*cbrt(g%c))*e(B",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "stereo chords based on 0b5vr's 128 voices generator",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1r9um2u/stereo_chords_based_on_0b5vrs_128_voices_generator/",
+    "date": "2026-02-20",
+    "mode": "Floatbeat",
+    "sampleRate": 44000,
+    "stereo": 1,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2026-07-31"
+  }
+}

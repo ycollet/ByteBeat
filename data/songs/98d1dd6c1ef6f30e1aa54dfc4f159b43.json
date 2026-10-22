@@ -1,0 +1,34 @@
+{
+  "file": "songs/98d1dd6c1ef6f30e1aa54dfc4f159b43.js",
+  "title": "Good old fractal melody but it has a kick and drum and the pattern changes",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "34008d588b85aaacca3d7b072936b0f1968fa14aa0ec3608f2acf5779d15fbb0",
+  "upstream": {
+    "hash": "98d1dd6c1ef6f30e1aa54dfc4f159b43",
+    "codeMinLen": 281,
+    "codeMin": "thr=a=>{throw a},KickThing=t/1024&3?\"✋\":\"👊\",SnareThing=t/4096&1?\"💥\":\"💣\",t&15?((t>>9^(t>>9)-1^1)%((t>>14)+1)*t&128)+(50*sqrt(t%4096)&64)*(1-t/4096%1)+random()*((t>>12&1)*64)*(1-t/4096%1):thr(\"\\nCurrent Pattern: \"+((t>>14)+1)+\"\\n Kick: \"+KickThing+\"\\n Snare: \"+SnareThing)",
+    "codeLen": 300,
+    "code": "thr=x=>{throw x},KickThing=t/1024&3?\"✋\":\"👊\",SnareThing=t/4096&1?\"💥\":\"💣\",t&15?(((t>>9^(t>>9)-1^1)%((t>>14)+1))*t&128)+(50*sqrt(t%4096)&64)*(1-t/2%2048/2048)+(random()*((t>>12&1)*64)*(1-t/2%2048/2048)):thr(\"\\nCurrent Pattern: \"+ ((t>>14)+1) + \"\\n Kick: \" + KickThing+\"\\n Snare: \"+SnareThing)",
+    "author": "Maxi",
+    "name": "Good old fractal melody but it has a kick and drum and the pattern changes",
+    "url": "https://dollchan.net/btb/res/500.html#3797",
+    "date": "2024-06-20",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "87366ade567d1aa63f11f65f725693ab",
+        "author": "Blueberry",
+        "name": "Good old fractal melody",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389114"
+      }
+    ],
+    "tags": [
+      "1k",
+      "console"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

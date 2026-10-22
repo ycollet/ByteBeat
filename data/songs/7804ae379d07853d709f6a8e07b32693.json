@@ -1,0 +1,32 @@
+{
+  "file": "songs/7804ae379d07853d709f6a8e07b32693.js",
+  "title": "Aliens attack",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "20f4af9caa9cb88a6c08371e4638e27ddb420b01633510a1b4e2b057a8869dea",
+  "upstream": {
+    "hash": "7804ae379d07853d709f6a8e07b32693",
+    "codeLen": 49,
+    "code": "t*(t&16384?6:5)*(4-(1&t>>8))>>(3&t>>9)|(t|t*3)>>5",
+    "author": "SthephanShi",
+    "name": "Aliens attack",
+    "description": "Complicated (t|t*3)>>5 rhythm with explosive drums.",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "f8afda7e61792a7b85d90ac75eb7f501",
+        "author": "SthephanShi",
+        "name": "Aliens are here",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

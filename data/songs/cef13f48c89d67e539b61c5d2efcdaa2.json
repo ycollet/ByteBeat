@@ -1,0 +1,24 @@
+{
+  "file": "songs/cef13f48c89d67e539b61c5d2efcdaa2.js",
+  "title": "Crystal Cave",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e58c252fac99e2b5f656e7ac94adac630073f0779a6b7b96825c097ce1dd7eea",
+  "upstream": {
+    "hash": "cef13f48c89d67e539b61c5d2efcdaa2",
+    "codeMinLen": 102,
+    "codeMin": "a=t=>cbrt(cos(t/((t>>10&3^t>>13&6|t>>12&7)+2)))*(32-(t>>6)&31)+32,(a(t)/1.5+a(t-3E3)/2+a(t-6E3)/3)+100",
+    "codeLen": 137,
+    "code": "a = (t) => (cbrt(cos(t/(((t>>10&3)^(t>>13&6)|(t>>12&7))+2)))*(32-(t>>6)&31))+32,\n(a(t)/1.5+a(t-3000)/2+a(t-6000)/3)*cbrt(sin(t/8000))+100",
+    "author": "kOLbOSa_exe",
+    "name": "Crystal Cave",
+    "url": "https://www.reddit.com/r/bytebeat/comments/154me2z/crystal_cave/",
+    "date": "2023-07-20",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

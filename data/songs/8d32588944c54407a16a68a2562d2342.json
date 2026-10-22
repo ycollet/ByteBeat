@@ -1,0 +1,40 @@
+{
+  "file": "songs/8d32588944c54407a16a68a2562d2342.js",
+  "title": "short cooling",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8d32588944c54407a16a68a2562d2342.js",
+  "sha256": "771e6a1be7978127afd06d50f85292f8dd39ea38d7a45c0dc7ccc38f73a12053",
+  "upstream": {
+    "hash": "8d32588944c54407a16a68a2562d2342",
+    "codeLen": 3174,
+    "fileOrig": 1,
+    "codeText": "/*\n * short cooling (unfinished)\n * by troubleshoot\n * (remake of 𝑳𝒐𝒏𝒈 𝑾𝒂𝒓𝒎𝒕𝒉)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=97,K=H=S=k=h=s=a1=a2=b1=b2=c1=c2=f2=p1=p2=h1=h2=h3=s1=s2=s3=0,Ki=Hi=Sn=1,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c,clip=x=>atan(1.4*x)/1.4,r=Array(m=15e3).fill(0),R=i=>r[i%m],cr=Array(m=15e3).fill(0),CR=i=>cr[i%m],ar=Array(m).fill(0),AR=i=>ar[i%m],e2=(a,b)=>1>a/b?(n=1-a/b)*n:0),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "short cooling",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1m3jr3h/long_warmth_remake_wip/",
+    "date": "2025-07-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e7595ec82ff424dcae1566e5f8d444e9",
+        "author": "Decent-Manager-6169",
+        "name": "𝑳𝒐𝒏𝒈 𝑾𝒂𝒓𝒎𝒕𝒉",
+        "url": [
+          "https://dollchan.net/btb/res/520.html#5783",
+          "https://bytebeat.oops.wtf/season4/entries.html"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-22",
+    "date_edited": "2025-11-04"
+  }
+}

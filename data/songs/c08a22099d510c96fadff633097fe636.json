@@ -1,0 +1,28 @@
+{
+  "file": "songs/c08a22099d510c96fadff633097fe636.js",
+  "title": "A Blocked Forever V2 Preview",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 73728,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c08a22099d510c96fadff633097fe636.js",
+  "sha256": "ecd187c98206046419dde265d571395630a26c9dca8aeb5e3f0cd3617707f5b0",
+  "upstream": {
+    "hash": "c08a22099d510c96fadff633097fe636",
+    "codeMinLen": 939,
+    "codeLen": 947,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "S='4111111111111111'[t>>11&15],N='41111111'[t>>11&7],p=[32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33],Q='10'[t>>11&1],n=1.82*t,PWM1=(n/2*2**([6,6,9,8,6,6,4,4,1,1,-1,-1,1,1,4,4,1,1,2,1,-1,-1,1,-1,-3,-3,-1,-3,-4,-4,-8,-8,-3,-3,-1,-1,1,1,-1,-1,2,2,1,1,8,8,9,8,6,6,4,4,1,1,-1,-1,5,5,1,1,8,8,5,5][t>>14&63]/12)&127)*[S,N,S,S,S,S,S,S,S,N,S,N,S,N,S,S,S,S,S,S,S,S,S,N,S,S,S",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "A Blocked Forever V2 Preview",
+    "url": "https://dollchan.net/btb/res/520.html#1261",
+    "date": "2023-06-08",
+    "sampleRate": 73728,
+    "coverName": "FNF Vs Dave and Bambi - Blocked Forever V2",
+    "coverUrl": "https://youtu.be/_wLZXrYEN9E",
+    "tags": [
+      "1k"
+    ]
+  }
+}

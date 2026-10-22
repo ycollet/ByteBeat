@@ -1,0 +1,32 @@
+{
+  "file": "songs/fabe135c721dea8fd2cfc0598a575d4f.js",
+  "title": "arabic beat #2 remix",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7ef3c57091363ac36d7b7ce2894bb9b4c1d77ba9bf350ff04a4f23d0fcb80e47",
+  "upstream": {
+    "hash": "fabe135c721dea8fd2cfc0598a575d4f",
+    "codeMinLen": 102,
+    "codeMin": "(t%((t&-16|t>>11)&42)<<2|t>>4)%256/2+(t*random()&63*'10101110'[(t>>10)%8]|t>>6&63)+50*(3E3/(t&4095)&1)",
+    "codeLen": 106,
+    "code": "((t%((t&-16|t>>11)&42)<<2|t>>4)%256/2)+(t*random()&63*\"10101110\"[(t>>10)%8]|t>>6&63)+((3e3/(t&4095)&1)*50)",
+    "author": "psubscirbe",
+    "name": "arabic beat #2 remix",
+    "url": "https://dollchan.net/btb/res/284.html#317",
+    "date": "2023-01-08",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "d5787e81caf9ad027bf76ae5d8942de6",
+        "author": "SthephanShi",
+        "name": "Arabic beat #2",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

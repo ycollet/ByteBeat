@@ -1,0 +1,23 @@
+{
+  "file": "songs/56e4f6b606acebabda5319b1b46de4da.js",
+  "title": "Tunnel sounds music?",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "00c380cbd9a6cc92e5b8ea78f57e5ab1d02c2e4a8281ff285a5e48a1163ce936",
+  "upstream": {
+    "hash": "56e4f6b606acebabda5319b1b46de4da",
+    "codeLen": 34,
+    "code": "(43*(t|t>>11)&255)*(8|~t>>6&55)>>6",
+    "author": "Devan Wolf",
+    "name": "Tunnel sounds music?",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

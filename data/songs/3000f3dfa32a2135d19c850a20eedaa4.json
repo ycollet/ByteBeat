@@ -1,0 +1,37 @@
+{
+  "file": "songs/3000f3dfa32a2135d19c850a20eedaa4.js",
+  "title": "wheezing modem + moon scanner generalization",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1641de053946f0fad5168d149e37e37edcc47a3ef2bf95e3799abe09130385c2",
+  "upstream": {
+    "hash": "3000f3dfa32a2135d19c850a20eedaa4",
+    "codeLen": 76,
+    "code": "(t-(t^t>>5)+t*(t>>14&14)&255)/2+(100*((t<<2|t>>5|t^63)&(t<<10|t>>11))&255)/2",
+    "author": "psubscirbe",
+    "name": "wheezing modem + moon scanner generalization",
+    "url": "https://www.reddit.com/r/bytebeat/comments/155p571/rachet_modem_moon_scanner_generalization/",
+    "date": "2023-06-21",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "aeb1c80b97213c71c1d2b5982d0431cb",
+        "author": "SthephanShi",
+        "name": "Wheezing modem",
+        "url": null
+      },
+      {
+        "hash": "8359225792f81583c616646d63d49b58",
+        "author": "viznut",
+        "name": "moon scanner generalization",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/ddec84641d7ee7732505c7d8d28033da.js",
+  "title": "I've Come To Make An Announcement",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ddec84641d7ee7732505c7d8d28033da.js",
+  "sha256": "f63cc33f7d52d3e04fb70db98b4b26d2ce612817e768fa87e4ec5c5c8d21ef6a",
+  "upstream": {
+    "hash": "ddec84641d7ee7732505c7d8d28033da",
+    "codeLen": 8189,
+    "codeFormLen": 10324,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "kq=\"6578\",ke=\"7865\",kw=\"5867\",mod=1.368+(Math.E/29.504),amp=1.1+(Math.E/37.7219),Pattern1=\"10100110111101010010011011110100\",Pattern2=\"1010010100010110001001010001011100100101000101100010010100010110\",Pattern3=\"67654323676543235656787856567878\",Pattern4=\"4533445050444433223435333322222256445560605555443345464444333333\",GR=1.61803399,NbPs1=1.35792468,NbPs2=1.23456789,NbPs3=GR+(NbPs2/10),NbPs4=1.47-(GR/(NbPs2*NbPs3)-0.741),Equal=Math.E-1.1,f0=t*((t/Equal>>17&3)+9),PatternX=t*Math.pow(1.125,\"6545\"[t/Equal>>17&",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "I've Come To Make An Announcement",
+    "url": "https://dollchan.net/btb/res/77.html#77",
+    "date": "2022-06-18",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

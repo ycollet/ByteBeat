@@ -1,0 +1,25 @@
+{
+  "file": "songs/0f9c9d795786cba913c33d343db86e8e.js",
+  "title": "unrealistic XOR dubstep",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a1b61493235e1d6eb0d71b612f629338bd3da91d3794abff8aff2248a375bfb9",
+  "upstream": {
+    "hash": "0f9c9d795786cba913c33d343db86e8e",
+    "codeMinLen": 124,
+    "codeMin": "(t?(n=(p=t*2**('00113317'[7&t>>14]/12),p^p>>!(t&131072)>>1),l+=((n&255)-l)*(-cos(t*PI/2048/'2241'[3&t>>14])+1)/2):l=0)/128-1",
+    "codeLen": 126,
+    "code": "(t?(n=(p=t*2**('00113317'[7&t>>14]/12),p^p>>!(t&131072)>>1),l+=((n&255)-l)*(-cos(t*PI/2048/'2241'[3&t>>14])+1)/2):(l=0))/128-1",
+    "author": "Zackx",
+    "name": "unrealistic XOR dubstep",
+    "url": "https://dollchan.net/btb/res/204.html#2057",
+    "date": "2023-08-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

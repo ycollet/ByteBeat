@@ -1,0 +1,23 @@
+{
+  "file": "songs/11d30e27aa64e509a3ea613d5bf7b695.js",
+  "title": "t",
+  "author": "Unknown",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+  "upstream": {
+    "hash": "11d30e27aa64e509a3ea613d5bf7b695",
+    "codeLen": 1,
+    "code": "t",
+    "name": "t",
+    "description": "Just a t...",
+    "sampleRate": 48000,
+    "tags": [
+      "256",
+      "c",
+      "test"
+    ],
+    "date_edited": "2026-08-14"
+  }
+}

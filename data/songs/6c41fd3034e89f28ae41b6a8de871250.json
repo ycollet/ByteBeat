@@ -1,0 +1,25 @@
+{
+  "file": "songs/6c41fd3034e89f28ae41b6a8de871250.js",
+  "title": "The new unnamed bytebeat by George on blogspot",
+  "author": "George",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b13c488c554193d13cee9f9c7819e593730eb9fb91861b02bb259c099a0b633e",
+  "upstream": {
+    "hash": "6c41fd3034e89f28ae41b6a8de871250",
+    "codeLen": 19,
+    "code": "t*(t^t>>20*(t>>11))",
+    "author": "George",
+    "name": "The new unnamed bytebeat by George on blogspot",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gwe43y/the_new_unnamed_bytebeat_by_george_on_blogspot/",
+    "date": "2024-11-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

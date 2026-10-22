@@ -1,0 +1,27 @@
+{
+  "file": "songs/a027b689a204851247029422a72beb83.js",
+  "title": "Pacman Thingy #2",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "11a074f1f6b25c9744968bd61210b93548bf5425b3eed543a5ed7cb91b551d4c",
+  "upstream": {
+    "hash": "a027b689a204851247029422a72beb83",
+    "codeMinLen": 54,
+    "codeMin": "128*asin(sin(PI*t/512*(11+((t&4096?t:-t)>>9&15))))/1.6",
+    "codeLen": 61,
+    "code": "h=asin(sin(t/4*(11+((t&4096?t:-t)>>9&15))*PI/128))/1.6*128,\nh",
+    "author": "Two2Fall",
+    "name": "Pacman Thingy #2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1i6syue/comment/m8ezxhr/",
+    "date": "2025-01-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-21",
+    "date_edited": "2025-11-21"
+  }
+}

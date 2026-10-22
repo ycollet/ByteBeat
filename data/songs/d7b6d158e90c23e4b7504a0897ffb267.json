@@ -1,0 +1,32 @@
+{
+  "file": "songs/d7b6d158e90c23e4b7504a0897ffb267.js",
+  "title": "Stimmer (Sine Edition)",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "61e76e55852a5dfeafd075e85001e9ada67e6c44d183411930fc711bba46738c",
+  "upstream": {
+    "hash": "d7b6d158e90c23e4b7504a0897ffb267",
+    "codeMinLen": 118,
+    "codeMin": "(a=t*(4|7&t>>13)>>(~t>>11&1),b=42*sin(a/4/5.1)+64)+(c=t*(t>>11&t>>13)*(~t>>9&3)&127,sin(c/4/10.2)*((-t>>7&15)+1)*4+64)",
+    "codeLen": 136,
+    "code": "(a=(t*(4|7&t>>13)>>(~t>>11&1)),\nb=Math.sin(a/4/5.1)*42+64)+(c=(t*(t>>11&t>>13)*(~t>>9&3)&127),\nd=Math.sin(c/4/10.2)*((-t>>7&15)+1)*4+64)",
+    "author": "Decent-Manager-6169",
+    "name": "Stimmer (Sine Edition)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rk7x5o/stimmer_sine_edition/",
+    "date": "2021-12-20",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

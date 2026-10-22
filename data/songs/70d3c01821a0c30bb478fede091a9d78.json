@@ -1,0 +1,30 @@
+{
+  "file": "songs/70d3c01821a0c30bb478fede091a9d78.js",
+  "title": "i hate myself",
+  "author": "TrashImpossible3699",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/70d3c01821a0c30bb478fede091a9d78.js",
+  "sha256": "901c9f8f0c832678a62efda70344ccfdd0a323d247d41abd820748b16080753c",
+  "upstream": {
+    "hash": "70d3c01821a0c30bb478fede091a9d78",
+    "codeMinLen": 682,
+    "codeLen": 689,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(M=l=Q=p=0,_Z=Array(8400).fill(0)),d=t/1.45,I=16*sin(t/91E4),O=[[-14,-9,-5,-2,2],[-12,-9,-7,-3,2],[-17,-14,-10,-7,-3],[-22,-17,-10,-7,-2]],Y=sin(4E3/(100+d%16384/3))*.3,g=\"00000001111111122222222233333333\",Z=[1,1,1.5,1.5,1,1,1,1],k=[-2,-3,-7,-10],V=O[g[(d>>13)%32]].reduce((x,c)=>x+atan(tan(d*2*PI*pow(2,c/12)/128))*.05,0),M+=(V-M)/(18-I),f=random()*255,B=sin(f),p+=(B-p)/.89,S=(B-p)*5/(1+d*Z[(d>>13)%8]%8192/64),l+=Q+=(B-l-Q)/16,z=l*.7/exp(d%32768/1536)*(1&d>>15),x=sin(sin(d*pow(2,k[(d>>16)%4]/12)*PI/32)/ex",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "i hate myself",
+    "description": "Bytebattle Season 3 Competition.",
+    "url": "https://bytebeat.oops.wtf/season3/entries.html",
+    "date": "2025-02-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-04"
+  }
+}

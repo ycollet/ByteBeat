@@ -1,0 +1,49 @@
+{
+  "file": "songs/509bb4d3fe282a6d5b5cf323dd094311.js",
+  "title": "Combination (Fanfare? + Street Surfer)",
+  "author": "raer",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ca7faca1e059cccf023f0fa2386313de3135fc870327bda854104313edd068bd",
+  "upstream": {
+    "hash": "509bb4d3fe282a6d5b5cf323dd094311",
+    "codeMinLen": 185,
+    "codeMin": "(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))^((t&8192?t&4096?t&1024?2*t:4*t:t&512?4*t:4.2*t:(t&4096?t&1024?2*t:10*t:t&512?2*t:8*t)>>2)*(t&16384?3:2)|t*(t&16384?1/8:1/(.01*t))>>1)",
+    "codeLen": 228,
+    "code": "((t&4096)?((t*(t^t%255)|(t>>4))>>1):(t>>3)|((t&8192)?t <<2:t)) ^ ((((t&8192)?((t&4096)?((t&1024)?t*2:t*4):((t&512)?t*4:t*4.2)):((t&4096)?((t&1024)?t*2:t*10):((t&512)?t*2:t*8))>>2)*((t&16384)?3:2))|t*((t&16384)?1/8:1/(.01*t))>>1)",
+    "codeFormLen": 240,
+    "fileForm": 1,
+    "codeText": "(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))^((t&8192?t&4096?t&1024?2*t:4*t:t&512?4*t:4.2*t:(t&4096?t&1024?2*t:10*t:t&512?2*t:8*t)>>2)*(t&16384?3:2)|t*(t&16384?1/8:1/(.01*t))>>1)",
+    "isTruncated": 1,
+    "author": "raer",
+    "name": "Combination (Fanfare? + Street Surfer)",
+    "description": "The formatted version is the actual c-compatible version, as \"Fanfare?\" requires two explicit casts to be c-compatible.",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=4#c388504",
+    "date": "2011-09-30",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "a184c2c272dd587f2d2331c766e11b79",
+        "author": "varjohukka",
+        "name": "Fanfare?",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=4#c388503"
+      },
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-09-25"
+  }
+}

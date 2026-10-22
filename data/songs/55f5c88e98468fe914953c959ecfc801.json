@@ -1,0 +1,27 @@
+{
+  "file": "songs/55f5c88e98468fe914953c959ecfc801.js",
+  "title": "Empty 512 Chars",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 21500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "295a6171a6b537212c57423313fbeabec2156251b28d268bd3cca47ea5afbff1",
+  "upstream": {
+    "hash": "55f5c88e98468fe914953c959ecfc801",
+    "codeMinLen": 508,
+    "codeMin": "T=q=>2**(q/12),r=.7*t,es='11021101'[r>>12&7],be=(es==0||es==2&&~r>>11&1?0:r>>9-es&15?~(r>>6-es):r>>3-es)&127,bc=T('0x'+'00558A11'[r>>15&7]),bp=[.5,T(-5),1]['0022222000222211'[r>>11&15]]*bc,b=((t*bp&255)<(r>>8&31))*be,ae=.999**(r&2047),ap=[0,T(7),2,T(17),4,2,T(17),1][r>>11&7],a=t*ap%128*ae,n='037',j='047',cp=T(-'02440277'[r>>15&7]),cn=T(eval('njjjnjnn'[r>>15&7])[(3*r>>10)%3])*cp,c=40*((t*cn&63)<((r>>10)+32&63)),de=.9995**(r&8191),d=r>>13&1?64*(sin(800/(de+1))+random()):64*sin(150*de),60+d*de*.9+(a+b+c)/2",
+    "codeLen": 512,
+    "code": "T=q=>2**(q/12),r=t*.7,es='11021101'[r>>12&7],be=(es=='0'||es=='2'&&~r>>11&1?0:r>>9-es&15?~(r>>6-es):r>>3-es)&127,bc=T('0x'+'00558A11'[r>>15&7]),bp=[.5,T(-5),1]['0022222000222211'[r>>11&15]]*bc,b=((t*bp&255)<(r>>8&31))*be,ae=.999**(r&2047),ap=[0,T(7),2,T(17),4,2,T(17),1][r>>11&7],a=t*ap%128*ae,n='037',j='047',cp=T(-'02440277'[r>>15&7]),cn=T(eval('njjjnjnn'[r>>15&7])[(r*3>>10)%3])*cp,c=((t*cn&63)<((r>>10)+32&63))*40,de=.9995**(r&8191),d=r>>13&1?(sin(800/(de+1))+random())*64:sin(150*de)*64,60+d*de*.9+(a+b+c)/2",
+    "author": "May_I_Change_My_Name",
+    "name": "Empty 512 Chars",
+    "description": "Using effect of changing the PWM duty cycle of the square wave arpeggiator.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11x6wzo/empty_512_chars/",
+    "date": "2023-03-21",
+    "sampleRate": 21500,
+    "coverName": "Matt Simmonds - Empty (512 bytes)",
+    "coverUrl": "https://deepsid.chordian.net/?file=/MUSICIANS/0-9/4-Mat/Empty_512_bytes.sid",
+    "tags": [
+      "1k"
+    ]
+  }
+}

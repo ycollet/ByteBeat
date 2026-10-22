@@ -1,0 +1,34 @@
+{
+  "file": "songs/8b347569a6d125d75c486fe7375484d2.js",
+  "title": "song chooser",
+  "author": "orion_aboy",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8b347569a6d125d75c486fe7375484d2.js",
+  "sha256": "4e5b10104cefc04971b77e930b4845b0ec16e978119e2377d61b31a12a199853",
+  "upstream": {
+    "hash": "8b347569a6d125d75c486fe7375484d2",
+    "codeLen": 560,
+    "fileOrig": 1,
+    "codeText": "sr=44100,t||(oldt=0,realt=0,olddiff=0,song=0),songNames=[\"42 melody\",\"sierpenski harmony\",\"street surfer\"],songCode=[(t)=>(t*(42&t>>10)),(t)=>(t&t>>8),(t)=>(t&4096?t/2*(t^t%255)|t>>5:t/8|(t&8192?4*t:t))],difference=t-oldt,oldt=t,difference,realt++,sign(difference)!=sign(olddiff)?(song+=sign(difference),realt=0):difference/olddiff==2?(song+=sign(difference),realt=0):0,olddiff=difference,song=min(songCode.length-1,max(0,song)),realt%1024?songCode[song](floor(realt*8000/sr)):(()=>{throw songNames.map((a,b)=>((",
+    "isTruncated": 1,
+    "author": "orion_aboy",
+    "name": "song chooser",
+    "description": "Detect your samplerate with \"samplerate detector\", then put it into sr and the sample rate part (Important! It will not work otherwise)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18w4gzw/song_chooser/",
+    "date": "2024-01-01",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "4f4e186155b9601b675094cec6df5a28",
+        "author": "orion_aboy",
+        "name": "samplerate detector",
+        "url": "https://www.reddit.com/r/bytebeat/comments/18w4gzw/song_chooser/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "console"
+    ]
+  }
+}

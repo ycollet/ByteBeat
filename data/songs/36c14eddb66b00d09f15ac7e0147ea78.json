@@ -1,0 +1,44 @@
+{
+  "file": "songs/36c14eddb66b00d09f15ac7e0147ea78.js",
+  "title": "Morning day",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/36c14eddb66b00d09f15ac7e0147ea78.js",
+  "sha256": "8b7d9e68ea71d3f272de263f32f5c2a7f8f2041043bd6e0921cd1671ab29b7c0",
+  "upstream": {
+    "hash": "36c14eddb66b00d09f15ac7e0147ea78",
+    "codeMinLen": 542,
+    "codeLen": 549,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "r=12288,e=x=>t*2**((x+.75)/12),a=t=>(e([0,2,4,5,7,9,11,14,0,2,4,5,7,9,11,16,-3,4,7,9,12,14,12,16,-3,4,7,9,12,14,12,19][(t>>13)%32]+12)&256)*(1-t%8192/16E3)/6,g=((300**((t*[1,,,4,,4,4,8,1,,,4,,4,8,16][15&t>>13]%32768)**.04)&128)/2.75+random()*(-t&4095)/150*(524288<t)+(t*sin(t>>2)&255)*(-t&8191)/32E3*'00100101'[7&t>>13])*(262144<t),b=((127&e([0,0,0,2,-3,-3,-3,4][7&t>>15])/8)+(16*sin(t/2E4)+64)&128)/3*(1048576<t),[a(t)+a(t-r)/2+a(t-r*2)/8+a(t-r*3)/6+a(t-r*4)/12+a(t-r*5)/12+g+b,a(t)+a(t-r)/4+a(t-r*2)/6+a(t-r*3)",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Morning day",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/12sl3rv/i_made_perfectly_song_with_2_songs/",
+      "https://dollchan.net/btb/res/204.html#892"
+    ],
+    "date": "2023-04-20",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "b246ac2b34ec39fdcff7c4af8674865f",
+        "author": "Zackx",
+        "name": "happy thing with long sierpinski harmony",
+        "url": "https://dollchan.net/btb/res/204.html#873"
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

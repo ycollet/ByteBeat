@@ -1,0 +1,36 @@
+{
+  "file": "songs/7c69b1a5f9c4e32fbabcd0d9af392230.js",
+  "title": "strangle and hold (Unsolicited remix)",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7c69b1a5f9c4e32fbabcd0d9af392230.js",
+  "sha256": "6df7ff7f7b3a515adcf1ed61f9ab4adeea472b4d610c87a09d813e0958eaa464",
+  "upstream": {
+    "hash": "7c69b1a5f9c4e32fbabcd0d9af392230",
+    "codeMinLen": 970,
+    "codeLen": 979,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?(int(F=(t-3)/s/6*B),A=t/s/6*B|0,Q=(t/1500*o(r(C[A/16&3][0])%12)&202)/200-.64,W=(q,y)=>asin(sin(t/s*p*o(q)+y*sin(t/s*8*p))),l=parseInt('C7CEFEC0CEFHJHFFIEIJLJIFEEEE00EFHJHFE0EFH0FHFFEECEFEC0CCBCECB870'[A&63],36),v=l?[W(l,1),W(l,-1)]:[0,0],P=q=>(e=.2**(q/s/6*B%8),q/s/6*B&8?(2*random()-1)*e:sin(100*e)*e*8),SE=(Z,e,i)=>i>16?0:e<0?0:Z(e)/2+SE(Z,e-8192/6*B+(i==0?4096/6*B:0),i+2)/2,n=A%16,n<8&&A>F?a[n]=b[n]=0:0,M(0),M(1),M(2),M(3),M(4),M(5),M(6),M(7),[(S(0)+T(1)+S(2)+T(3)+S(4)+T(5)+S(6)+T(7)+(A>63?A>127?Q+v[0]:Q",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "strangle and hold (Unsolicited remix)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15ioa1o/comment/juypz6j/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-08-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "88acf7a15893f604c2af1d982ec76d0c",
+        "author": "SleepingLugia",
+        "name": "strangle and hold",
+        "url": "https://www.reddit.com/r/bytebeat/comments/15ioa1o/strangle_and_hold/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/c7a3808ad0c35d918cf77284b8c0a6c8.js",
+  "title": "Spring Fever",
+  "author": "Jimmyoshi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c7a3808ad0c35d918cf77284b8c0a6c8.js",
+  "sha256": "f7679b6a12bdfe8bccd78c8053e37af6d4a307e723eb9104882f86c633c09933",
+  "upstream": {
+    "hash": "c7a3808ad0c35d918cf77284b8c0a6c8",
+    "codeLen": 317658,
+    "codeFormLen": 389074,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "init(),\n\nwindow.data = \n  (t > 10 && window.data) ? window.data : \n{\n\twavetables: [\n\t\t[ 96, 80, 64, 48, 48, 32, 32, 32, 32, 48, 48, 64, 80, 80, 96, 112, 128, 128, 144, 160, 176, 192, 192, 208, 224, 208, 192, 176, 160, 144, 128, 112 ],\n\t\t[ 128, 144, 160, 176, 192, 208, 224, 240, 255, 240, 224, 208, 192, 176, 160, 144, 128, 112, 96, 80, 64, 48, 32, 16, 0, 16, 32, 48, 64, 80, 96, 112 ]",
+    "isTruncated": 1,
+    "author": "Jimmyoshi",
+    "name": "Spring Fever",
+    "url": "https://battleofthebits.com/arena/Entry/Spring+Fever/21648/",
+    "date": "2016-04-23",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "file": "songs/68edc521f173725361d6517095c3c011.js",
+  "title": "VVC!!BIDS",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "07462e8f80ca71ddbdece20396b8c8b2f58f62a98308889ecdea3ad2236a8ea8",
+  "upstream": {
+    "hash": "68edc521f173725361d6517095c3c011",
+    "codeLen": 267,
+    "code": "t>0?(y[0]=t>>12&15,y[1]=t>>15&1,y[2]=t>>16&1,z=x=>2**(x/12),S=(p,t)=>t*p&255,m=NaN,k1=[-12,m,0,m,7,m,10,m,12,12,m,7,7,m,0,m],k2=y[1]?10:12,i1=t*z(k1[y[0]]),i2=t*z(k2),i3=t=>S(1,t)+S(z(7),t)+S(z(10),t)+S(2*z(3),t)>>2,y[2]?(i3(i2-16)>i3(i2))*128:(i1/2&127)+16&128):y=[]",
+    "author": "hcdphobe",
+    "name": "VVC!!BIDS",
+    "url": "https://dollchan.net/btb/res/163.html#1579",
+    "date": "2023-07-10",
+    "sampleRate": 40000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

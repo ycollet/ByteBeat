@@ -1,0 +1,26 @@
+{
+  "file": "songs/72a97ab5ae5f19c29b1042c7e6473b99.js",
+  "title": "Cover of DEAF KEV - Invincible",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "08a498f877e7d42ebaa61f87df0d6612b534f5de3ca062a0af546703c99697e8",
+  "upstream": {
+    "hash": "72a97ab5ae5f19c29b1042c7e6473b99",
+    "codeMinLen": 397,
+    "codeMin": "T=1.4*t,high=t/2*2**([3,3,3,3,0,0,0,7,7,7,7,7,8,8,8,7,7,7,7,7,3,3,3,2,2,2,2,5,5,3,2,-2][(T>>13)%32]/12)&95,low=(t/2*2**([0,-4,3,-2][(T>>16)%4]/12)&191)/2+128,medium=(high+low)/4,kick=(sin(t|127)*t/128&128)*(-T>>3&2047)/2048*'1000'[(T>>14)%4],sn=(sin(12*t|127)*t&128)*(-T>>3&2047)/2048*'0010'[(T>>14)%4],hit=(random()*t&128)*(3*-T>>3&2047)/2048*'101'[(3*T>>14)%3],beat=(kick+sn+hit)/3,2*medium+beat",
+    "codeLen": 415,
+    "code": "T=t*1.4,high=t/2*2**([3,3,3,3,0,0,0,7,7,7,7,7,8,8,8,7,7,7,7,7,3,3,3,2,2,2,2,5,5,3,2,-2][(T>>13)%32]/12)&95,low=(t/2*2**([0,-4,3,-2][(T>>16)%4]/12)&191)/2+128,medium=(high+low)/4,kick=((sin(t|127)*t/128&128)*(-T>>3&2047)/2048)*[1,0,0,0][(T>>14)%4],sn=((sin(t*12|127)*t&128)*(-T>>3&2047)/2048)*[0,0,1,0][(T>>14)%4],hit=((random()*t&128)*(-T*3>>3&2047)/2048)*[1,0,1][(T*3>>14)%3],beat=(kick+sn+hit)/3,(medium+beat/2)*2",
+    "author": "ChrisRM380",
+    "name": "Cover of DEAF KEV - Invincible",
+    "url": "https://dollchan.net/btb/res/368.html#3483",
+    "date": "2024-05-12",
+    "sampleRate": 44100,
+    "coverName": "DEAF KEV - Invincible",
+    "coverUrl": "https://youtu.be/J2X5mJ3HDYE",
+    "tags": [
+      "1k"
+    ]
+  }
+}

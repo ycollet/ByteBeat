@@ -1,0 +1,29 @@
+{
+  "file": "songs/a89897610320f96a97cef08ebbe5449d.js",
+  "title": "i messed up on amen break",
+  "author": "BaenHoHoHo",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a89897610320f96a97cef08ebbe5449d.js",
+  "sha256": "08a7bc19613923dbbe16843b1e54d5742b9bbf9fee5861361b66e5bc783f8f9c",
+  "upstream": {
+    "hash": "a89897610320f96a97cef08ebbe5449d",
+    "codeMinLen": 598,
+    "codeLen": 619,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "(t*=2.5/48E3)?(t%=16,(8>t&&d(ar,t,4)+d(ar2,t,4)+d(ar3,t,4))+(8<t&&12>t&&d(ar4,t,4)+d(ar2,t,4)+d(ar6,t,4))+(12<t&&d(ar7,t,4)+d(ar8,t,4)+d(ar5,t,4)+d(ar9,t,.5))||0):(a=b=0,p=(f,c)=>2**(parseInt(f[c],36)/12),d=(x,y,s=1)=>(z=x[s*y%x.length|0],w=exp(12*s*y%12/s),'|'==z?((1536/(s*y%1+.2)/s&64)-32)*.997**w:'/'==z?(64*random()-32)/w:'-'==z?32*sin((3072*y|0)**3)/w:'>'==z?127*random()*.9**w-64:0),ar='| |       |     ',ar2='/ / / / / / / / ',ar3='    -  - -  -  -',ar4='| |       |     ',ar5='/ / / / /   / / ',ar6='   ",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "i messed up on amen break",
+    "url": "https://dollchan.net/btb/res/117.html#4038",
+    "date": "2024-07-31",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "'Amen Break' from 'Winstons - Amen, Brother'",
+    "coverUrl": "https://youtu.be/NkU4hsaFglU?si=5L07GE3_q5slKI5E",
+    "tags": [
+      "1k"
+    ]
+  }
+}

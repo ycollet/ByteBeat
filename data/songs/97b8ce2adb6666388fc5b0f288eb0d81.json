@@ -1,0 +1,35 @@
+{
+  "file": "songs/97b8ce2adb6666388fc5b0f288eb0d81.js",
+  "title": "Bossabeat minified",
+  "author": "Kouzerumatsu",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/97b8ce2adb6666388fc5b0f288eb0d81.js",
+  "sha256": "fb1436501296444ece82c3047573f2ce1b7c05ebdcd27eec1d222c75ee4633b0",
+  "upstream": {
+    "hash": "97b8ce2adb6666388fc5b0f288eb0d81",
+    "codeLen": 2942,
+    "codeFormLen": 3202,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "// bossabeat; minification: Kouzerumatsukite (6 aug 2023)\nsd =\n\"NNNNNNNNNN  BB  BB  SSSSOOOONNNNNNN NNNNNNN NN  BBBBBBB NNNNNN  OOOOOOOOOO  CC  CC  OOOOLLLLJJJJJJJ JJJJJJJ JJ  7777777 JJJJJJ  \"+\n\"NNNNNNNNNN  BB  BB  SSSSOOOONNNNNNN NNNNNNN NN  BBBBBBB NNNNNN  OOOOOOOOOO  CC  CC  OOOOLLLLJJJJJJJ JJJJJJJ JJ  7777777 JJJJJJ  \"+\n\"NNNNNNNNNN  BB  BB  SSSSOOOONNNNNNN NNNNNNN NN  BBBBBBB NNNNNN  OOOOOOOOOO  CC  CC  OOOOLLLLJJJJJJJ JJJJJJJ JJ  7777777 JJJJJJ  \"+\n\"QQQQQQQQQQ  EE  EE  QQQQOOOONNNNNNN NNNNNNN NN  BBBB",
+    "isTruncated": 1,
+    "author": "Kouzerumatsu",
+    "name": "Bossabeat minified",
+    "description": "In fact, rewrited from scratch with other tracker tools.",
+    "url": "https://dollchan.net/btb/res/415.html#1848",
+    "date": "2023-08-06",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "ce6acdbe63b42fc38b4933155253a9de",
+        "author": "raphaelgoulart",
+        "name": "bossabeat",
+        "url": "https://battleofthebits.com/arena/Entry/bossabeat/21386/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

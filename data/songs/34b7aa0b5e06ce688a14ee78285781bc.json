@@ -1,0 +1,37 @@
+{
+  "file": "songs/34b7aa0b5e06ce688a14ee78285781bc.js",
+  "title": "Hydroxide [PrincessPriscillaPT Remix]",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/34b7aa0b5e06ce688a14ee78285781bc.js",
+  "sha256": "110d253278e486a986553ee486904188485884b6abc3e8cbe258c2dc5fdc68f3",
+  "upstream": {
+    "hash": "34b7aa0b5e06ce688a14ee78285781bc",
+    "codeLen": 3475,
+    "fileOrig": 1,
+    "codeText": "/* MarioFan171 - Hydroxide (Initiate) (PrincessPriscillaPT Remix) */\n\n/* Variables you can change */\nBPM=130,\nsR=sampleRate=48e3,\nsPB=samplesPerBeat=32768,\nr=t*abs(BPM/((60*sampleRate)/samplesPerBeat)),\n",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Hydroxide [PrincessPriscillaPT Remix]",
+    "url": "https://dollchan.net/btb/res/7164.html#8579",
+    "date": "2025-07-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5ebb31793ec5e7f8630d78626635af14",
+        "author": "MarioFan171",
+        "name": "Hydroxide",
+        "url": "https://dollchan.net/btb/res/2971.html#8553"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-13"
+  }
+}

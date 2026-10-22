@@ -1,0 +1,39 @@
+{
+  "file": "songs/3ae9d18ce549010ecc93eb9f3d673c2d.js",
+  "title": "Chords Are Justed",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "75f95f5f04aab06622b093c52439c1349d1bc3d551125cb3171d943bc5847607",
+  "upstream": {
+    "hash": "3ae9d18ce549010ecc93eb9f3d673c2d",
+    "codeMinLen": 287,
+    "codeMin": "t/=1.5,n=1.76*2**.25,vi=63+sin(t/1E3)*8,Fl=10-(t>>9&127)*.07,De=t%65536%12288+2E3,St=b=>(t?f+=(((-t+vi*b)/'2124'[t>>16&3]*n/8*2**('1566'[t>>16&3]/12)*[a=[4,6,10,15],'2357',a,[8,12,19,[30,30,27,24][t>>14&3]]][t>>16&3][(t>>0)%'2344'[t>>19&3]]&127)/128-.5)/De*6E3-f/Fl:f=0)/Fl,[St(0),St(3)]",
+    "codeLen": 315,
+    "code": "t/=48/32,\n\nn=44/3200*128*2**(3/12),\nvi=63+sin(t/1e3)*8,\nFl=10-(t>>9&127)*.07,\nDe=((t%65536)%12288)+2E3,\n\nSt=c=>((t?f+=((((-t+vi*c)/'2124'[t>>16&3]*n/8*2**('1566'[t>>16&3]/12)*[a=[4,6,10,15],'2357',a,[8,12,19,[30,30,27,24][t>>14&3]]][t>>16&3][(t>>0)%'2344'[t>>19&3]]&127)/128-.5)/De*6e3)-f/Fl:f=0)/Fl),\n[St(0),St(3)]",
+    "author": "Decent-Manager-6169",
+    "name": "Chords Are Justed",
+    "description": "The filter is made by sdayoisadu",
+    "url": "https://dollchan.net/btb/res/520.html#5538",
+    "date": "2025-02-28",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "ec367e683ccd68e162a74220502d4b98",
+        "author": "sdayoisadu",
+        "name": "stimmer with filter",
+        "url": "https://www.reddit.com/r/bytebeat/comments/196cxd1/stimmer_with_filter/"
+      }
+    ],
+    "coverName": "Aloboi - Give Me More",
+    "coverUrl": "https://youtu.be/xFRPQhiSI5E",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-11-06"
+  }
+}

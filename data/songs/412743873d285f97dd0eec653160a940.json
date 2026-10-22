@@ -1,0 +1,24 @@
+{
+  "file": "songs/412743873d285f97dd0eec653160a940.js",
+  "title": "Another level",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e5df81936720025290ea0b7ea4532099a33c6297ad7a37b55a684223eb55cab7",
+  "upstream": {
+    "hash": "412743873d285f97dd0eec653160a940",
+    "codeLen": 55,
+    "code": "t*(t&16384?6:5)*(1+(3&t>>(t&2048?4:10)))>>(3&t>>8)|t>>2",
+    "author": "SthephanShi",
+    "name": "Another level",
+    "description": "Adding a noise beat by using ternary operator.",
+    "url": "https://dollchan.net/de/res/706.html#707",
+    "date": "2019-01-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/93f64dd68f347785951bdca7f7d4c84d.js",
+  "title": "Sample/Wavetable sequencer",
+  "author": "Sychamis",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/93f64dd68f347785951bdca7f7d4c84d.js",
+  "sha256": "2d92110f7b9ba03b98bbbc2fb48ed112a4aa68f060902e83351544bbfbfc66ce",
+  "upstream": {
+    "hash": "93f64dd68f347785951bdca7f7d4c84d",
+    "codeLen": 12888,
+    "fileOrig": 1,
+    "codeText": "// Base 64 sample/wavetable sequencer test\n// April 2024 - Sychamis\n\n// Original song: Pokémon Gen1 Vermillion city, by Junichi Masuda\n\n\n// Samples\nconst pulse = \"ppppppppppppppppppppppppppppppppppppppppppppppDDDDDDDDDDDDDDD\";",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Sample/Wavetable sequencer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cdms1z/samplewavetable_sequencer/",
+    "date": "2024-04-26",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Junichi Masuda - Pokemon Blue/Red Vermillion City",
+    "coverUrl": "https://youtu.be/h7yDXSq18mY",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

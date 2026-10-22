@@ -1,0 +1,28 @@
+{
+  "file": "songs/d74bca1ee5457fdc62dbad9c829f885c.js",
+  "title": "Ogryzek Empire Thingy",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 33860.267,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d74bca1ee5457fdc62dbad9c829f885c.js",
+  "sha256": "0a6dc9a769f46895af670081aad292f2a6e7f83448cff99b601d967491cbeb2b",
+  "upstream": {
+    "hash": "d74bca1ee5457fdc62dbad9c829f885c",
+    "codeMinLen": 517,
+    "codeLen": 552,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "n=2.02,t?0:r=Array(16384).fill(0),k=((t*n*2**([3,3,3,3,,,8,10,6,6,,,3,3,2,2,-2,-2,,,5,5,,,6,5,6,5,3,3,3,3,3,3,3,3,,,8,10,6,6,,,3,3,2,2,-2,-2,,,5,5,,,6,5,6,5,2,2,2,2,10,10,10,10,,,11,10,8,8,,,6,6,5,5,3,3,,,5,5,,,3,2,3,2,-1,-1,-1,-1,2,2,2,2,,,8,10,6,6,,,3,3,2,2,-2,-2,-1,2,5,5,-1,3,5,5,2,3,6,6,2,5][t>>11&127]/12)&95)*(-t%[A=[8192,2048,4096,4096,4096,4096,2048,8192][t>>13&7],A,A,[A,[4096,2048][t>>12&1]][t>>15&1]][t>>16&3]>>6&255)>>8)+((t*n/4*2**([-2,-6,-1,-7][t>>16&3]/12)&127)*(-t>>8&255)>>9)+r.shift(),r.push(k",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Ogryzek Empire Thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g730gz/ogryzek_empire_thingy/",
+    "date": "2024-10-19",
+    "sampleRate": 33860.267,
+    "coverName": "Ogryzek - EMPIRE",
+    "coverUrl": "https://youtu.be/L8H7J8VANQo",
+    "tags": [
+      "1k"
+    ]
+  }
+}

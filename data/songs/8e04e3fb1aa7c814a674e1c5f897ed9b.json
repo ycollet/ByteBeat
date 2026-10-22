@@ -1,0 +1,24 @@
+{
+  "file": "songs/8e04e3fb1aa7c814a674e1c5f897ed9b.js",
+  "title": "hardcore bass",
+  "author": "mineralcoinboi224",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4e63ad6304268b1465803e5c1694bbab9ff3b8915a15f1862dcfce091f393850",
+  "upstream": {
+    "hash": "8e04e3fb1aa7c814a674e1c5f897ed9b",
+    "codeMinLen": 232,
+    "codeMin": "sth='KHHHSHSHHSHKHSHH',K=32*sin(16*log(t%8192/80))&64,H=((t*t*sin(t>>1)&255)*(-t>>5&255)>>8)/4,S=((t*sin(t>>3)&255)*(-t>>5&255)>>8)/2,h=sth[t>>13&sth.length-1]=='K'?K:sth[t>>13&sth.length-1]=='H'?H:sth[t>>13&sth.length-1]=='S'?S:0,h",
+    "codeLen": 295,
+    "code": "sth ='KHHHSHSHHSHKHSHH', // Stats Hardcore\r\nK=32*sin(16*log(t%8192/80))&64, // Kick\r\nH=((t*t*sin(t>>1)&255)*(-t>>5&255)>>8)/4, // HiHat\r\nS=((t*sin(t>>3)&255)*(-t>>5&255)>>8)/2, // Snare\r\nh=(sth[t>>13&(sth.length-1)]=='K'?K:sth[t>>13&(sth.length-1)]=='H'?H:sth[t>>13&(sth.length-1)]=='S'?S:0),\r\nh",
+    "author": "mineralcoinboi224",
+    "name": "hardcore bass",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gyalyv/my_new_hardcore_bass/",
+    "date": "2024-11-23",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

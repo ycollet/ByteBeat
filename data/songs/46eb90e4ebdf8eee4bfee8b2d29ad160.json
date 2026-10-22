@@ -1,0 +1,26 @@
+{
+  "file": "songs/46eb90e4ebdf8eee4bfee8b2d29ad160.js",
+  "title": "disheveeeel",
+  "author": "keramon",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "87fe3bec5db5f272698ae00abde80f75d0e387f105c34a8cc5bf39326b68631d",
+  "upstream": {
+    "hash": "46eb90e4ebdf8eee4bfee8b2d29ad160",
+    "codeMinLen": 12,
+    "codeMin": "t*t%(t/3.33)",
+    "codeLen": 18,
+    "code": "t * t % (t / 3.33)",
+    "author": "keramon",
+    "name": "disheveeeel",
+    "description": "The original source for this and the rest of keramon's work no longer exists.",
+    "url": "https://battleofthebits.com/arena/Entry/disheveeeel.txt/17655/",
+    "date": "2015-04-29",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

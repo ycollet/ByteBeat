@@ -1,0 +1,28 @@
+{
+  "file": "songs/a2c409d688509c50d4234351d574ea0e.js",
+  "title": "Cathedral Bell",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a2c409d688509c50d4234351d574ea0e.js",
+  "sha256": "f6d9cbf474092d73e9e42f8ff2a55a4fbb2691008bc756eae6ceb69bb1b185c1",
+  "upstream": {
+    "hash": "a2c409d688509c50d4234351d574ea0e",
+    "codeMinLen": 209,
+    "codeMin": "S=f=>sin(t/48E3*2*PI*f),stretch=.06,W=(f,e=2,i=1)=>i<24&&S(f*i)+W(f*(1+stretch),e,i+1)/e,env=.99998**(t%1E5)*(1-.995**(t%1E5)),rolloff=1.7-cbrt(env)/2,.15*(W(118,rolloff)+W(117.7,rolloff)+W(118.5,rolloff))*env",
+    "codeLen": 367,
+    "fileOrig": 1,
+    "codeText": "S=f=>sin(t/48E3*2*PI*f),stretch=.06,W=(f,e=2,i=1)=>i<24&&S(f*i)+W(f*(1+stretch),e,i+1)/e,env=.99998**(t%1E5)*(1-.995**(t%1E5)),rolloff=1.7-cbrt(env)/2,.15*(W(118,rolloff)+W(117.7,rolloff)+W(118.5,rolloff))*env",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Cathedral Bell",
+    "description": "Parametric bell synthesis by stretching the harmonics of a saw wave.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1eoxoet/cathedral_bell/",
+    "date": "2024-08-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

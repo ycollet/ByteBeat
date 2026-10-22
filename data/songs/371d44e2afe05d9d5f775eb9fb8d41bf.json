@@ -1,0 +1,31 @@
+{
+  "file": "songs/371d44e2afe05d9d5f775eb9fb8d41bf.js",
+  "title": "stimmer but square and sawtooth are swap",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9af389bd438dfe11f8ee9aabc0375f1453dda4139dc0463a0033744d47dc4dc8",
+  "upstream": {
+    "hash": "371d44e2afe05d9d5f775eb9fb8d41bf",
+    "codeLen": 67,
+    "code": "(t/2*(4|7&t>>13)>>(~t>>11&1)&127)+(t*2*(t>>11&t>>13)*(~t>>9&3)&128)",
+    "author": "Decent-Manager-6169",
+    "name": "stimmer but square and sawtooth are swap",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rk816x/stimmer_but_square_and_sawtooth_are_swap/",
+    "date": "2021-12-20",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

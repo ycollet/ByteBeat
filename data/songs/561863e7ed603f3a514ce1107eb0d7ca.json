@@ -1,0 +1,33 @@
+{
+  "file": "songs/561863e7ed603f3a514ce1107eb0d7ca.js",
+  "title": "quick remix using my usual tech",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/561863e7ed603f3a514ce1107eb0d7ca.js",
+  "sha256": "9cb40de133b4a205914c8f2c6095c4930f3a4b9eab91872476fc5b180bbf2818",
+  "upstream": {
+    "hash": "561863e7ed603f3a514ce1107eb0d7ca",
+    "codeLen": 7527,
+    "fileOrig": 1,
+    "codeText": "// A collection of effects you can use on _ANY_ variable that changes\n\n// Original t, increments one per sample. The reverb, harmonifier, hihat, and snare need this.\nt2 = t,\n\n// Change t here, not below, or it messes with the snare/hihat sounds\nt *= 1.2 / 12,\n",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "quick remix using my usual tech",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/comment/jei1fir/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-04-01",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

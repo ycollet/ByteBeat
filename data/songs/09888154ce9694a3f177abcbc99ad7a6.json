@@ -1,0 +1,33 @@
+{
+  "file": "songs/09888154ce9694a3f177abcbc99ad7a6.js",
+  "title": "more keyboard stuff",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/09888154ce9694a3f177abcbc99ad7a6.js",
+  "sha256": "2f6e7b3acb6412479964f1777d9969724b53b95e8bce12148d50c1f75ac3ecc9",
+  "upstream": {
+    "hash": "09888154ce9694a3f177abcbc99ad7a6",
+    "codeLen": 13658,
+    "fileOrig": 1,
+    "codeText": "f=(keys)=>{\n\t\tif (!Array.isArray(keys)) {\n\t\t\tkeys=[keys];\n\t\t}\n\n\t\t// Check for 'off' in the array\n\t\tif (keys.includes('off')) {\n\t\t\tconst line1=",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "more keyboard stuff",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hhy8oq/more_keyboard_stuff/",
+    "date": "2024-12-19",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "527a40d3e32d95260655f84c8bfa12bb",
+        "author": "D3nschøt",
+        "name": "keyboard",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1hhija9/idk_a_keyboard/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

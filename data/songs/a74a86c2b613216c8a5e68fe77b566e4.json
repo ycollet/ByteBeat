@@ -1,0 +1,28 @@
+{
+  "file": "songs/a74a86c2b613216c8a5e68fe77b566e4.js",
+  "title": "gTrackerNSST: Bad apple port",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a74a86c2b613216c8a5e68fe77b566e4.js",
+  "sha256": "3357fce70bd96aa74c5b25b463a35c9cd05ec7d072d4ff649814fd0891482f36",
+  "upstream": {
+    "hash": "a74a86c2b613216c8a5e68fe77b566e4",
+    "codeLen": 30006,
+    "fileOrig": 1,
+    "codeText": "t/=4,\n\nt<1?(this.LFSR=65535):0,\n\nthis.noise??= function(t,o=2,w=0) {\n\n\n\t//if (t<2) {console.error(\"start\")}",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "gTrackerNSST: Bad apple port",
+    "description": "Chasyxx's own tracker format, Noise + 2x Squares + Triangle. The first to come up with the idea of displaying data by throwing errors. Very convenient and visual!",
+    "url": "https://dollchan.net/btb/res/756.html#1323",
+    "date": "2023-06-18",
+    "sampleRate": 32000,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

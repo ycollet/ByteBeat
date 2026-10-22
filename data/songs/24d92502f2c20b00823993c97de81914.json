@@ -1,0 +1,36 @@
+{
+  "file": "songs/24d92502f2c20b00823993c97de81914.js",
+  "title": "vaporwave remix of",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/24d92502f2c20b00823993c97de81914.js",
+  "sha256": "c6f12af6ab0e936e53061ccdacefd44c70c2a80f32be3d5ba246948d23490c11",
+  "upstream": {
+    "hash": "24d92502f2c20b00823993c97de81914",
+    "codeLen": 1617,
+    "fileOrig": 1,
+    "codeText": "t || (\n\tfx = Array(3e6).fill(0)\n),\n\nZ = t/1.4,\nb = Z>>13,\nB = b>>3,\n",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "vaporwave remix of",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h37z2n/some_sort_of_vaporwave_remix_of_something_new/",
+    "date": "2024-11-30",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f34b2f5776ad27dc583538d471c302d1",
+        "author": "maj-6",
+        "name": "\"Something New\" using functions",
+        "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/#post157167"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-20"
+  }
+}

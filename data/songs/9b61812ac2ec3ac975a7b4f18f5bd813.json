@@ -1,0 +1,28 @@
+{
+  "file": "songs/9b61812ac2ec3ac975a7b4f18f5bd813.js",
+  "title": "Binary Finary - 1998",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9b61812ac2ec3ac975a7b4f18f5bd813.js",
+  "sha256": "8f0b5c0b68e859677197b05d3d2834698f9c277b899712ecf7568a9bd1a0f312",
+  "upstream": {
+    "hash": "9b61812ac2ec3ac975a7b4f18f5bd813",
+    "codeLen": 1264,
+    "fileOrig": 1,
+    "codeText": "(floatbeat=(p=t*130*2**(parseInt(\"07c07c07c07c07c707c07c07h07h07h73fj3fj3fj3fj3fjf3fj3fj3fj3fj3fjf3fj3fj3fj3fj3fjf3fj3fj5hl5hl5hlh7jm7jq7jm7jq7jm77jm7jq7jm7jq7jm7\"[t/5143&127],36)/12)/48000)%1*2-1,hz=3500+1500*Math.sin(t/3e4)+3000*Math.exp(-t%5143/700),q=1,b=this.b||0,l=this.l||0,f=hz/10700,h=(g=Math.tanh(1.15*floatbeat-l+q*(0.015*b-0.1*b**3)))+0.1*g*g-0.04*g*g*g,this.b=b+f*((k=Math.tanh(1.4*h))*(1+0.15*k)-0.05*k*k*k),this.l=l+f*((m=Math.tanh(1.4*this.b))*(1+0.15*m)-0.05*m*m*m),W=Math.tanh(1.2*this.l-0.5*q*",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "Binary Finary - 1998",
+    "url": "https://www.bytebeat.cloud/post/f25c1ab2-9298-4db8-a9d3-b9748f0e97a4",
+    "date": "2026-09-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Binary Finary - 1998",
+    "coverUrl": "https://youtu.be/QKwK-ZhTurg",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-18"
+  }
+}

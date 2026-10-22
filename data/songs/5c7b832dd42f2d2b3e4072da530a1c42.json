@@ -1,0 +1,31 @@
+{
+  "file": "songs/5c7b832dd42f2d2b3e4072da530a1c42.js",
+  "title": "Bad Apple animation with melody",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 256000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5c7b832dd42f2d2b3e4072da530a1c42.js",
+  "sha256": "236ebbe747d551626ec2b5571b4f72f4369950bf5a981b744f809c5083787ed2",
+  "upstream": {
+    "hash": "5c7b832dd42f2d2b3e4072da530a1c42",
+    "codeLen": 5820,
+    "fileOrig": 1,
+    "codeText": "T=q=>2**(q/12),\nm1=\"ACDFHHMKHHAAHFDCACDFHHFD\"+(t*2.5>>22&1?\"CCDDFFHH\":\"CACDCA@C\"),\nP=[65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65527,65475,16128,7680,0,32768,0,0,0,0,14336,16128,65472,65504,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65531,65475,7936,0,0,0,0,0,0,1040,15360,65280,65504,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65535,65507,65473,40704,40448",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Bad Apple animation with melody",
+    "description": "Implementation of the first frames. Set \"Points\" mode and zoom to 1/32 on monitors, or 1/64 on phones.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/137568e/um/",
+    "date": "2023-05-04",
+    "sampleRate": 256000,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "drawing": {
+      "mode": "Points",
+      "scale": 5
+    },
+    "tags": [
+      "big"
+    ]
+  }
+}

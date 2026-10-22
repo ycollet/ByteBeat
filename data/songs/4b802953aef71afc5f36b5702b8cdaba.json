@@ -1,0 +1,23 @@
+{
+  "file": "songs/4b802953aef71afc5f36b5702b8cdaba.js",
+  "title": "preciserr",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3564ab384aa9948038f07edd6006d34de3180ecc3bdc8b019509008c4ad70ec7",
+  "upstream": {
+    "hash": "4b802953aef71afc5f36b5702b8cdaba",
+    "codeLen": 95,
+    "code": "x=t&t>>12,y=t/4096,z=!(~t>>13&15),(y/x%1==y%x/x)*(y/2**!z%1)**.5*127+(50*(t%2**(13-z))**.5&128)",
+    "author": "lhphr",
+    "name": "preciserr",
+    "description": "A song created with the use of precision errors in floats.",
+    "url": "https://dollchan.net/btb/res/44.html#1367",
+    "date": "2023-04-21",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

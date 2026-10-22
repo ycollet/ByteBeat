@@ -1,0 +1,35 @@
+{
+  "file": "songs/81fd2d5ca1de2f520fcbe9994b0f5929.js",
+  "title": "W A V E S",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/81fd2d5ca1de2f520fcbe9994b0f5929.js",
+  "sha256": "f635bbdde344b00b9028a4192b6068304359149cc404f7463e12582035ad99bb",
+  "upstream": {
+    "hash": "81fd2d5ca1de2f520fcbe9994b0f5929",
+    "codeLen": 1923,
+    "fileOrig": 1,
+    "codeText": "\n// Infenitely instantiable 1 Pole Filters\n// (every call = new filter instance)\nt?0:z1=[],\ncallCount=0,\nlpf=lowPassFilter=(a,c)=>(\n\tcall=callCount++,\n\tz1[call]??=0,",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "W A V E S",
+    "description": "lpf mod, delay and some tweaks",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f87fek/w_a_r_m_t_h/",
+    "date": "2024-09-03",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "a00b0b2b71bb1a12c31a4ea1dc9b4b44",
+        "author": "feeshbread",
+        "name": "W A R M T H",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1f87fek/w_a_r_m_t_h/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-01-12"
+  }
+}

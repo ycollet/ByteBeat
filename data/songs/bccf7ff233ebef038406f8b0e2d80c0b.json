@@ -1,0 +1,33 @@
+{
+  "file": "songs/bccf7ff233ebef038406f8b0e2d80c0b.js",
+  "title": "With Brazilian Bubble 2",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 38229.333,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "89085b4bb2b9afbf4f687df888377344133fab15c9275abaa5978bf783f0b674",
+  "upstream": {
+    "hash": "bccf7ff233ebef038406f8b0e2d80c0b",
+    "codeMinLen": 210,
+    "codeMin": "sin((t%(a=4096)+1E3)*PI/140/'5222222222222222'[t>>13&15]/256*(t%a)*(-t>>11&1)*'1001001000101000'[t>>12&15])*8+(((p=1.482*t*'12'[t>>13&1]/2*2**('0358'[3&t>>16]/12))&-t>>5)%256/2+p%512/8+(p*1.5%256&-t>>6)/3)/96-1",
+    "codeLen": 212,
+    "code": "sin((t%(a=4096)+1e3)*PI/140/'5222222222222222'[t>>13&15]/256*(t%a)*(-t>>11&1)*'1001001000101000'[t>>12&15])*8+(((p=1.482*t*'12'[t>>13&1]/2*2**('0358'[3&t>>16]/12))&-t>>5)%256/2+p%512/8+((p*1.5%256)&-t>>6)/3)/96-1",
+    "author": "Decent-Manager-6169",
+    "name": "With Brazilian Bubble 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gfibqs/with_brazilian_bubble_2/",
+    "date": "2024-10-30",
+    "mode": "Floatbeat",
+    "sampleRate": 38229.333,
+    "remix": [
+      {
+        "hash": "47a78b8645d719aaf8bfb29e8ec2bec1",
+        "author": "Decent-Manager-6169",
+        "name": "Badly Brazilian Bubble",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gepu7i/badly_brazilian_bubble/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

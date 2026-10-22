@@ -1,0 +1,38 @@
+{
+  "file": "songs/a91ffb6911abc400fde6d84d17eba3ad.js",
+  "title": "Audisual",
+  "author": "Icycle-Bycicle-24",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a91ffb6911abc400fde6d84d17eba3ad.js",
+  "sha256": "fe98d3f35a67772e614982e9958a550cf88f1be66b796bbefd39e895db0a6a13",
+  "upstream": {
+    "hash": "a91ffb6911abc400fde6d84d17eba3ad",
+    "codeLen": 2095,
+    "fileOrig": 1,
+    "codeText": "t -= 256*16,\nb = floor(t/8192),\nx = floor(t/256)%32,\ny = (t%8-3),\nm = floor(t/131072),\n\nJ = n => n==[][0]?0:n,\nR = n => tan(1/sin(n))&255,",
+    "isTruncated": 1,
+    "author": "Icycle-Bycicle-24",
+    "name": "Audisual",
+    "description": "Audio and visuals. Set \"Diagram\" mode and zoom to 1/8 or 1/16.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bsw9dz/so_i_made_a_bytebeat_song_that_sounds_decent_and/",
+    "date": "2024-04-01",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "cc044d0fb359d7fb1089a481a1900e2e",
+        "author": "awogler9124812041",
+        "name": "spinning line",
+        "url": "https://www.reddit.com/r/bytebeat/comments/167xhpa/graphics_in_bytebeat_spinning_line/"
+      }
+    ],
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "3"
+    },
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-03"
+  }
+}

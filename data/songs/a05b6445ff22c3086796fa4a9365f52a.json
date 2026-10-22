@@ -1,0 +1,26 @@
+{
+  "file": "songs/a05b6445ff22c3086796fa4a9365f52a.js",
+  "title": "my CPU frying because I forgot to change the paste",
+  "author": "Lia",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "91d4e460f607e6133d6c64b9e1bd908de1b88a4dfcfff3865ba082f77273cd9e",
+  "upstream": {
+    "hash": "a05b6445ff22c3086796fa4a9365f52a",
+    "codeMinLen": 298,
+    "codeMin": "123.2+(25*min(5,random()*sin(t/565)/(t%1110/(1133.2+55*sin(t/56+65))))+max(55*sin(int(t/(10+5*sin(int(t/(555+5*sin(t/5655))))))+int(t/65)),-22)+max(30,66*sin(t/(19.2+3*sin(t/655656)+sin(t/13333.2))))+275/66*sin(t/(5566566/(5*t+sin(t/65)))+t/5656656*random()*55))/3+min(sin(int(t/5)),sin(t/5556))*12",
+    "codeLen": 492,
+    "code": "(56*2+56/5)+(5*5*Math.min((5+5+5+5+5+5+5+5+5+5)/10,(Math.random()*Math.sin(t/565))/((t%(555+555))/((5666/5)+(55)*Math.sin(t/56+65))))+Math.max(55*(Math.sin(int(t/(5+5+5*Math.sin(int(t/(555+5*Math.sin(t/5655))))))+int(t/65))),-(55+55)/5)+Math.max(30,66*Math.sin(t/(((6+6+6+6/5)+(5+5+5)/5*Math.sin(t/655656))+Math.sin(t/(66666/5)))))+(55*5)/66*(Math.sin(t/(5566566/(5*t+Math.sin(t/65)))+55*(t/5656656*Math.random()))))/((5+5+5)/5)+Math.min(Math.sin(int(t/5)),5/5*Math.sin(t/5556))*((6+6+6+6)/2)",
+    "author": "Lia",
+    "name": "my CPU frying because I forgot to change the paste",
+    "url": "https://battleofthebits.com/arena/Entry/my+CPU+frying+because+I+forgot+to+change+the+paste.txt/32236/",
+    "date": "2019-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-17",
+    "date_edited": "2025-11-17"
+  }
+}

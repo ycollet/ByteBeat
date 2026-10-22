@@ -1,0 +1,24 @@
+{
+  "file": "songs/73f04abbc70ce66d4a744e0a403d9e22.js",
+  "title": "enemy spider",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0ad9b9699f02c20e743d487ca3fde53e8259b9cf4cd9fee58e8c25a965d5ab15",
+  "upstream": {
+    "hash": "73f04abbc70ce66d4a744e0a403d9e22",
+    "codeLen": 418,
+    "code": "T=t/3072,y=-4,M=p=>t*2**(eval('33    33    33  33    33    444 1111  yyyyy 1 8 6 4 3 1 6 4 3 1 0000000000000000'[T+32*((T>>5&3)==2)+32&127])/12-1/4)/p%32>16+8*cos(PI*T/16)&&22,(M(.5)^M(4))/2+M(4)+M(2)+M(1)/2+((t>>5^t>>1)%39>16&&36*(1-T/(2-!(T/2+1&31))%1)*'0010001000100011'[T/2&15])+(32*asin(sin(t/2**('5379'[T/32&3]/12+8)%32*PI)**2)**(T/8%1)&~T%32)+1.5*(T/4&1)*(t/16%16+t/24%16)+((T%8*1e8)**.4&39)+(2e3**(1-T/2%2)&32)",
+    "author": "lhphr",
+    "name": "enemy spider",
+    "url": "https://dollchan.net/btb/res/44.html#367",
+    "date": "2022-09-29",
+    "sampleRate": 44100,
+    "coverName": "The Giant Enemy Spider",
+    "coverUrl": "https://youtu.be/pAoDgCF-feg",
+    "tags": [
+      "1k"
+    ]
+  }
+}

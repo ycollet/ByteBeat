@@ -1,0 +1,1 @@
+t ? T++ :(R = Array(N = 16), T = 0), R[T%N] = random()*256&1, R[0]

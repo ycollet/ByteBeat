@@ -1,0 +1,22 @@
+{
+  "file": "songs/0a73027050ce38b8a83aea81ff043ce5.js",
+  "title": "better vibrato",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "91ee2acf1807f4eac8778905b722df17e29021d89b49fee207e6d6bfbb23947d",
+  "upstream": {
+    "hash": "0a73027050ce38b8a83aea81ff043ce5",
+    "codeLen": 25,
+    "code": "a=63+sin(t/6e3)*64,t+a&64",
+    "author": "absolute197",
+    "name": "better vibrato",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14dl95n/comment/joqimtv/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-06-19",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/65405660697ff93b13e745064c6acbcf.js",
+  "title": "a remix of \"PARTY!\"",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 37500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "10edeaab55c9e8525d53176ea0b9187a87919a9761b95ceec44c3cb4c0ce7667",
+  "upstream": {
+    "hash": "65405660697ff93b13e745064c6acbcf",
+    "codeMinLen": 203,
+    "codeMin": "t/=4,b=a=>t*2**([0,2,4,4,0,2,-3,-3][7&t>>14]/12)*1.05%a/2,((((t+t%[1,3,5,2][t/3>>10&3])*2**([0,1,3,5,7,8][(t>>10)%6]/12)<<(1.25*(t>>[10,11][t/3>>10&1])&3)>>1&63)-(t>>10&31|1)|t>>2)&255)/2.5+b(127)+b(128)",
+    "codeLen": 205,
+    "code": "t/=4,b=w=>t*2**([0,2,4,4,0,2,-3,-3][7&t>>14]/12)*1.05%w/2,((((t+t%[1,3,5,2][(t/3>>10)&3])*2**([0,1,3,5,7,8][(t>>10)%6]/12)<<((t>>[10,11][t/3>>10&1])*1.25&3)>>1&63)-(t>>10&31|1)|t>>2)&255)/2.5+b(127)+b(128)",
+    "author": "Zackx",
+    "name": "a remix of \"PARTY!\"",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/12onki0/comment/jgnq7mz/?utm_source=reddit&utm_medium=web2x&context=3",
+      "https://dollchan.net/btb/res/204.html#853"
+    ],
+    "date": "2023-04-17",
+    "sampleRate": 37500,
+    "remix": [
+      {
+        "hash": "f98a4fe4acde7bcec8583acf69bfb837",
+        "author": "Scary-Sand2937",
+        "name": "PARTY!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/12onki0/party/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

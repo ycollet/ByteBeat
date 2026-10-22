@@ -1,0 +1,26 @@
+{
+  "file": "songs/29659014447bf90ad01c47740f2a6b0d.js",
+  "title": "dance",
+  "author": "turblentdrink",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0eaab3c14ceaeebdc98f7f9169c0a9842bb4fe23c9e6059f3503b22c587c9371",
+  "upstream": {
+    "hash": "29659014447bf90ad01c47740f2a6b0d",
+    "codeMinLen": 194,
+    "codeMin": "sin(20*1E8**(-8*(t/=48E3)%1))/4*((4*t&7)==(t*(2+[0,1,-1,1][t/8&3])&3))+sin(b=t*8E3)*sin(t*PI*8)**8/4*((4*t&7)==(3*t&3)+1)+sin(50*1E8**(-2*t%1))/4+sin(sin(b/16)*sin(t/2)*32)*(1-t*'4446'[t&3]%1)/8",
+    "codeLen": 239,
+    "code": "f=t=>{var b=t*8000;var b1=t*8192;return sin(1E8**(-t*8%1)*20)/4*((t*4&7)==(t*(2+[0,1,-1,1][t/8&3])&3))+sin(b)*sin(t*Math.PI*8)**8/4*((t*4&7)==((t*3&3)+1))+sin(1E8**(-t*2%1)*50)/4+sin(sin(b/16)*sin(t/2)*32)*(1-t*'4446'[t&3]%1)/8},f(t/48000)",
+    "author": "turblentdrink",
+    "name": "dance",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18pfne0/dance_floatbeat/",
+    "date": "2023-12-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-23"
+  }
+}

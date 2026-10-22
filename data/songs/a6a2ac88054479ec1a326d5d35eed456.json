@@ -1,0 +1,34 @@
+{
+  "file": "songs/a6a2ac88054479ec1a326d5d35eed456.js",
+  "title": "Gold-Island Style",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 76458.667,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a6a2ac88054479ec1a326d5d35eed456.js",
+  "sha256": "9497d6d89ba95a43e137a77892f14d59844757d5542b9703f1f08cdf0f42d580",
+  "upstream": {
+    "hash": "a6a2ac88054479ec1a326d5d35eed456",
+    "codeMinLen": 996,
+    "codeLen": 998,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "v=-9E9,T=.2196,(a=c=>32*abs(cbrt(sin(t*PI/128*T*2**(c[t>>17&7]/12)))),(t*T*2*2**([-1,-1,2,2,4,4,6,6,7,7,6,6,4,4,2,2,4,4,1,1,4,4,9,9,4,4,1,1,4,4,9,9,6,6,2,2,-1,-1,6,6,2,2,-1,-1,6,6,2,2,6,6,2,2,-6,-6,6,6,2,2,-6,2,2,2,6,6,7,7,2,2,7,7,11,11,7,7,11,11,14,14,11,11,13,13,9,9,4,4,1,1,9,9,4,4,1,1,4,4,2,2,6,6,9,9,14,14,2,2,6,6,9,9,14,14,1,1,4,4,9,9,13,13,16,16,13,16,16,16,13,13,2,2,-3,-3,2,2,-3,-3,2,2,6,6,2,2,6,6,1,1,-3,-3,-8,-8,-11,-11,-8,-8,-3,-3,1,1,-3,-3,-1,-1,2,2,-6,-6,-1,-1,2,2,-1,-1,-6,-6,2,2,-6,-6,-1,-1,-3,-3",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Gold-Island Style",
+    "url": "https://dollchan.net/btb/res/520.html#1629",
+    "date": "2023-07-16",
+    "sampleRate": 76458.667,
+    "remix": [
+      {
+        "hash": "6cf6f1cbc66d59fa79bf6f6dbead7174",
+        "author": "Decent-Manager-6169",
+        "name": "what the hell did i made",
+        "url": "https://dollchan.net/btb/res/520.html#702"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/4ae025200e4a18313c624fe4ff1b0172.js",
+  "title": "SArpnt's \"Funcbeat Example\" in Floatbeat",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4486c220091ee47335012d6cfd5cc1aafbee6e7b1406e515e63960b8d2e50991",
+  "upstream": {
+    "hash": "4ae025200e4a18313c624fe4ff1b0172",
+    "codeLen": 162,
+    "code": "(t/=48E3)?(P=(t*2**((\"$$$000,,,,,,,,''\".charCodeAt(t*4.3&15)+22)/12)%1>t/2%1*.6+.2)/2-.25,l+=r+=(P-l-r*3)/(cos(t/5)*170+200),l+sin((t*4.3%2+.01)**.3*180)/4):l=r=0",
+    "author": "PortablePorcelain",
+    "name": "SArpnt's \"Funcbeat Example\" in Floatbeat",
+    "description": "Uses modified kick. Minified by several r/bytebeat users.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18nyjtz/comment/khkt2ep/",
+    "date": "2023-12-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "a4d17d18963258cc0bbac1381c56d7e0",
+        "author": "SArpnt",
+        "name": "Example",
+        "url": "https://bytebeat.ficial.net/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

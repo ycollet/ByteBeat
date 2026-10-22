@@ -1,0 +1,44 @@
+{
+  "file": "songs/1c3666ccdac31288b9ae8777c222c61c.js",
+  "title": "Drum and Bass of \"PARTY!\"",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1c3666ccdac31288b9ae8777c222c61c.js",
+  "sha256": "2efbb40c75063270665aefc9a958d5e91df7369f441de4d686956fd8af0ae8b9",
+  "upstream": {
+    "hash": "1c3666ccdac31288b9ae8777c222c61c",
+    "codeMinLen": 1021,
+    "codeLen": 1522,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "p=2.85,F=abs(t/48E3/60*16384*175),t?0:Z=[],X=0,lp=(a,c)=>(Z[Y=X++]??=0,Z[Y]+=(a-Z[Y])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),n=(a,l,h)=>(hp(a,h)+lp(a,l))/1.75,s=r=>t*2**((parseInt(r,36)+p)/12),a=(1-F/512*1.75%1)**1.5,b=(G=1-F/16384%1)**8*1.31,c=(F/4096%1)*(N=F>>14&1)*252,d=G**1.5*N*365,e=s('13501358'[F>>16&7]),f=6*(E=F/8192%1)**3,g=[f,1,1,1,f,1,1,1,1,1,f,1,f,1,1,1,f,1,1,1,f,1,f,1,1,1,f,1,f,1,1,1][(H=F>>12)&31],m=((t+t%'1352'[H&3])/2*2**(([0,1,3,5,7,8][H%6]+p)/12)<<(1.25*(F>>[12,13][F/3>>12&1])&3))",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Drum and Bass of \"PARTY!\"",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1i9e67z/dnb_party/",
+      "https://dollchan.net/btb/res/7164.html#7257"
+    ],
+    "date": "2025-01-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "65405660697ff93b13e745064c6acbcf",
+        "author": "Zackx",
+        "name": "a remix of \"PARTY!\"",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/12onki0/comment/jgnq7mz/?utm_source=reddit&utm_medium=web2x&context=3",
+          "https://dollchan.net/btb/res/204.html#853"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-17",
+    "date_edited": "2025-12-06"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/03b09dbf36b0cc7bd9188113b278d79a.js",
+  "title": "Game (C R O S S)",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 12288,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ec8dd1a96ed2d332df9a4e6b42cbc25bbd50243a6d739f152cf7e01b916ec84e",
+  "upstream": {
+    "hash": "03b09dbf36b0cc7bd9188113b278d79a",
+    "codeMinLen": 343,
+    "codeMin": "(t*[1.02,1.215,1.53,1.53,1.02,1.215,1.53,1.36][(t>>15)%8]>>1)%63+(t*[1.02,1.215,1.53,1.53,1.02,1.215,1.53,1.36][(t>>15)%8]>>1)%64+32*random()*(1-(1&t>>10))+(t*[sin(t>>4),sin(t>>1)][(t>>13)%2]&-t>>7&63)+(t>>18?4*(t*[1.025,.5125,.765,0,0,0,0,0,1.22,.61,.91,0,0,0,0,0,1.1425,.57125,.8625,0,0,0,0,0,.8625,.57125,1.725,0,0,0,0,0][(t>>12)%32]&16):0)",
+    "codeLen": 355,
+    "code": "(t*[1.02,1.215,1.53,1.53,1.02,1.215,1.53,1.36][(t>>15)%8]>>1)%63+(t*[1.02,1.215,1.53,1.53,1.02,1.215,1.53,1.36][(t>>15)%8]>>1)%64+32*random()*(1-(1&t>>10))+(t*[sin(t>>4),sin(t>>1)][(t>>13)%2]&-t>>7&63)+(t>>18?(((t*([1.025,0.5125,0.765,0,0,0,0,0,1.22,.61,.91,0,0,0,0,0,1.1425,0.57125,0.8625,0,0,0,0,0,0.8625,0.57125,1.725,0,0,0,0,0][(t>>12)%32]))&16)*4):0)",
+    "author": "Chasyxx",
+    "name": "Game (C R O S S)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/vs8dtg/game_c_r_o_s_s/",
+    "date": "2022-07-06",
+    "sampleRate": 12288,
+    "remix": [
+      {
+        "hash": "836bc699f24f4a413132601be5705fc8",
+        "author": "rubi",
+        "name": "Vegal *A N G E R Y*",
+        "url": "https://www.reddit.com/r/bytebeat/comments/sgjf3j/vegal_a_n_g_e_r_y/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

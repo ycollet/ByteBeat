@@ -1,0 +1,38 @@
+{
+  "file": "songs/83abe176c570883206103e521d4eed4a.js",
+  "title": "Atomfunk",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 54000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "90d0def9bd19a37a3d0d5128d7031fbe67a52b829f5dde7fdbcd8a2afcd80eb1",
+  "upstream": {
+    "hash": "83abe176c570883206103e521d4eed4a",
+    "codeMinLen": 248,
+    "codeMin": "t/=6,a=_=>((((t*((t&4096?t%65536<59392?7:t%1|t>>5:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?4:3:2))&255)/128-1+sin(t*PI/32/'12'[(t>>12)%2]*[1,1.05][(t>>14)%2])/2+sin(2*sqrt(t%4096)))/2+random()/4*(t>>12&1)*(1-t/4096%1))/1.1,[a(),a()]",
+    "codeLen": 476,
+    "code": "t/=6,[((((t*((t&4096?t%65536<59392?7:t%1|t>>5:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?4:3:2))&255)/128-1+sin(t*PI/32/[1,2][(t>>12)%2]*[1,1.05][(t>>14)%2])/2+sin(2*sqrt(t%4096)))/2+random()/4*(t>>12&1)*(1-t/2%2048/2048))/1.1,((((t*((t&4096?t%65536<59392?7:t%1|t>>5:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?4:3:2))&255)/128-1+sin(t*PI/32/[1,2][(t>>12)%2]*[1,1.05][(t>>14)%2])/2+sin(2*sqrt(t%4096)))/2+random()/4*(t>>12&1)*(1-t/2%2048/2048))/1.1]",
+    "author": "Maxi",
+    "name": "Atomfunk",
+    "url": [
+      "https://dollchan.net/btb/res/500.html#4012",
+      "https://www.reddit.com/r/bytebeat/comments/1eejv9m/atomfunk/"
+    ],
+    "date": "2024-07-29",
+    "mode": "Floatbeat",
+    "sampleRate": 54000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "4fcef8bedeccd174f70839b9903e0c9e",
+        "author": "SthephanShi",
+        "name": "Neurofunk - Fist punch version",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

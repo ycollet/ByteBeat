@@ -1,0 +1,28 @@
+{
+  "file": "songs/a7124feba64336f6ba58d074afb0a7bc.js",
+  "title": "sequencer thingy",
+  "author": "GDPlayer_1035",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a7124feba64336f6ba58d074afb0a7bc.js",
+  "sha256": "f3c77f3cf866689be5c9b74251a94df74dd2eacf1d76c4b5c3cf5686d70206e9",
+  "upstream": {
+    "hash": "a7124feba64336f6ba58d074afb0a7bc",
+    "codeLen": 4648,
+    "fileOrig": 1,
+    "codeText": "// thingy sequencer by gdplayer\r\n// code refactored by chatgpt\r\n// ye\r\n// version 1\r\nfunction tone(t, freq) {\r\n    return Math.sin(2 * Math.PI * freq * t);\r\n}\r\n\r",
+    "isTruncated": 1,
+    "author": "GDPlayer_1035",
+    "name": "sequencer thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1geru93/sequencer_thingy_update/",
+    "date": "2024-10-29",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Rick Astley - Never Gonna Give You Up",
+    "coverUrl": "https://youtu.be/dQw4w9WgXcQ",
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

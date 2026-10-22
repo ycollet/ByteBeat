@@ -1,0 +1,26 @@
+{
+  "file": "songs/95699420591d4a26539c771437ecc312.js",
+  "title": "Progression",
+  "author": "Vilcans",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ce5a43c8704bd8a579885b311be366775c303837947b0f1bae263c8dcafca9d4",
+  "upstream": {
+    "hash": "95699420591d4a26539c771437ecc312",
+    "codeMinLen": 254,
+    "codeMin": "[3*sin(1400/(9+t%8192/99))+sin(t/99)*t%max(.01,cos((t+4E3&8191)/2E3))+sin(t)*t%2/(1+t%2048/77),12,11,10,t>>16==7?t>>7:9+(t>>17)].reduce((a,s,i)=>a+sin([2,2.7,2,3][t>>15&3]*2**(i-7)*t*[1,4,2,3,4,6,7.13,6][t>>s&7])*1E3/(1E3+t%(1<<s))*(t>>16>i-2)*6/i)*8+128",
+    "codeLen": 256,
+    "code": "[3*sin(1400/(9+t%8192/99))+sin(t/99)*t%max(.01,cos(((t+4e3)&8191)/2e3))+sin(t)*t%2/(1+t%2048/77),12,11,10,t>>16==7?t>>7:9+(t>>17)].reduce((a,s,i)=>a+sin([2,2.7,2,3][t>>15&3]*2**(i-7)*t*[1,4,2,3,4,6,7.13,6][t>>s&7])*1e3/(1e3+t%(1<<s))*(t>>16>i-2)*6/i)*8+128",
+    "author": "Vilcans",
+    "name": "Progression",
+    "description": "Lovebyte 2023 competition.",
+    "url": "https://demozoo.org/music/318956/",
+    "date": "2023-02-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-09"
+  }
+}

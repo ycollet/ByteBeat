@@ -1,0 +1,36 @@
+{
+  "file": "songs/1e0ab38cc47e14a48ef4e7d6718b2395.js",
+  "title": "an update from a post that sounds like dubstep but really isn't supposed to",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1e0ab38cc47e14a48ef4e7d6718b2395.js",
+  "sha256": "073864fe3955e24ae5968d5d640b4cdbb6178147e4095febe1e43e05fdfa551e",
+  "upstream": {
+    "hash": "1e0ab38cc47e14a48ef4e7d6718b2395",
+    "codeMinLen": 848,
+    "codeLen": 938,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Pulse=(x,y)=>((t*y-x)%256/2-t*y%256/2+128+x/2%256)%256,x=(t>>13)&7,zz=abs((t>>9)%512-256),zx=[0,12,19,24,26,27,31,36,38,39,41,43,45,46,48,50,51,53,55,60,62,63,65,67,69,70,72,75,77,79,84,86][(t&t>>13)&31],z=[0,12,19,24,26,27,26,24][x],xp=Pulse(zz,0.25*round(2**(z/12)*16)/16*0.91875)/4+((t/4*0.91875*round(2**(zx/12)*16)/16)&255)/3+(sin((2**19)/(t%(2**16))*PI/128)*128+128)/4+(((((t>>2)/9%256)*((t>>2)/5%256)*((t>>2)/4%256))&255)/256*(((-abs(t)>>7)&256?0:1-(abs(t)>>7&255)/256))*256&255)/4,info=function(length){P",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "an update from a post that sounds like dubstep but really isn't supposed to",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c8da1r/idk_an_update_from_a_post_that_sounds_like/",
+    "date": "2024-04-20",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "223f52fde36ee29c4486c273f3a5247d",
+        "author": "D3nschøt",
+        "name": "uhhhh",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1c6g7l2/uhhhh/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "console"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

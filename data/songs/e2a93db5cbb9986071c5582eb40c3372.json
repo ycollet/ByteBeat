@@ -1,0 +1,25 @@
+{
+  "file": "songs/e2a93db5cbb9986071c5582eb40c3372.js",
+  "title": "beat thing",
+  "author": "k0370_",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9626f6cfece09f16197cbf12825d0ef2feab76661e0fb6e94dcdd68111158977",
+  "upstream": {
+    "hash": "e2a93db5cbb9986071c5582eb40c3372",
+    "codeMinLen": 43,
+    "codeMin": "(6*t&t>>5|127*t>>4)>>t/64&t>>5|t>>4|t>>t/64",
+    "codeLen": 45,
+    "code": "((t*6&t>>5|127*t>>4)>>t/64&t>>5|t>>4|t>>t/64)",
+    "author": "k0370_",
+    "name": "beat thing",
+    "url": "https://dollchan.net/btb/res/3.html#258",
+    "date": "2022-10-26",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

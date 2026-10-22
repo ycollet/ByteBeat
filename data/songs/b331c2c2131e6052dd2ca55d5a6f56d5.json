@@ -1,0 +1,36 @@
+{
+  "file": "songs/b331c2c2131e6052dd2ca55d5a6f56d5.js",
+  "title": "Sine wave melody remix remix",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b331c2c2131e6052dd2ca55d5a6f56d5.js",
+  "sha256": "cc3355e9ed4bec0f650566796795462edb91802fd5ed968b6c6bf0c780eb4041",
+  "upstream": {
+    "hash": "b331c2c2131e6052dd2ca55d5a6f56d5",
+    "codeMinLen": 665,
+    "codeLen": 938,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "this.v??=0,w=v/(o=23),r=(w,s,i)=>(v++||(a=Array(9*s|0).fill(0)),w=w%256+a[z=v%a.length],a[z]=w*i,w),p=(w,s=0)=>w*2**((s-2)/12),fm=(s,i=2,n=2,r=16)=>sin(s/i+sin(s/n)*(w/r%256/64))/2,e=[[64,75,96,64][w>>15&3],[32,37.5,84,32][w>>15&3]],m=(s,i)=>w/(256*i)%1*s,f=(a,b,c,d)=>r((a*sin(w/4*'2424242425243321'[w>>10&15]*(1+(w>>10&3)))+b*sin(w/4*'1212321454632413'[w>>10&15]*(1+(w>>10&3)))+sin(16*w/[e[0],16,17,16,14,16,17,16,e[1],16,17,16,21,24,26,32][w>>11&15]))/4*(sin(w/c)+3)+fm(p(w/PI,[0,3,12,8,10].sort(d)[5/E*(w>>9)",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Sine wave melody remix remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11sr2re/sine_wave_melody_remix_remix/",
+    "date": "2023-03-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "0bd3086a13eb8b7d447386bd28e5c2aa",
+        "author": "May_I_Change_My_Name",
+        "name": "Slowed \"Sine Melody\" down and added a chord progression",
+        "url": "https://www.reddit.com/r/bytebeat/comments/rwd856/comment/itquhlj/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/8b254d2a1aa235ae4735921da90ab461.js",
+  "title": "Now this actually sounds pretty cool",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "450df98558819ff19b07aa145802ed23f81bf8c368f9520d600bae5297b9b77e",
+  "upstream": {
+    "hash": "8b254d2a1aa235ae4735921da90ab461",
+    "codeLen": 57,
+    "code": "d=t*465/(43+6*(t>>15&3^1)),((d/4&t>>6)+d/2&127)+(d/6&127)",
+    "author": "Gabriel Miceli",
+    "name": "Now this actually sounds pretty cool",
+    "url": [
+      "https://www.youtube.com/watch?v=V4GfkFbDojc",
+      "https://youtu.be/V4GfkFbDojc?t=450"
+    ],
+    "date": "2016-07-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

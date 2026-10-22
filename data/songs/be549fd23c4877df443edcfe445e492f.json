@@ -1,0 +1,28 @@
+{
+  "file": "songs/be549fd23c4877df443edcfe445e492f.js",
+  "title": "some chords i made with fl studio",
+  "author": "hrllobrothers4",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/be549fd23c4877df443edcfe445e492f.js",
+  "sha256": "2e68da3d56de3c228298c94ff15eca21eb858388f3a4e25da533e46c611b3610",
+  "upstream": {
+    "hash": "be549fd23c4877df443edcfe445e492f",
+    "codeMinLen": 583,
+    "codeLen": 664,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:ec=Array(n=12288).fill(0),SAMP_RATE=48000,ts=t/SAMP_RATE,d=261.63,rb=277.18,r=293.66,mb=311.13,m=329.63,f=349.23,sb=369.99,s=392.00,lb=415.30,l=440.00,sib=466.16,si=493.88,nn=x=>abs(sin(ts*x*4))*2-1.25,M1=nn([si,d*2,d*2,d*2,sib,sib,lb,lb,s,s,s,s][t/1.2>>15&15]),M2=nn([l,l,s,f,sb,sb,sb,sb,f,f,f,f][t/1.2>>15&15]),M3=nn([sb,sb,m,d,rb,rb,rb,rb,r,r,r,r][t/1.2>>15&15]),B1=nn([s/2,s/2,sb/2,sb/2,s/2,s/2][t/1.2>>16&7]),B2=nn([m/2,m/2,rb/2,rb/2,mb/2,mb/2][t/1.2>>16&7]),B3=nn([d/2,d/2,lb/4,lb/4,sib/2,sib/2][t/1.2>",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "some chords i made with fl studio",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f9zuoe/some_chords_i_made_with_fl_studio/",
+    "date": "2024-09-06",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

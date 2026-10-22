@@ -1,0 +1,34 @@
+{
+  "file": "songs/dcfe5dfa763db33ec159e82264aa0b48.js",
+  "title": "cool reverb with filter",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e19ef5cd077ea2d6e1edcc2e3b51ef5b0ca48a44238d03a1f7227a41d91094e8",
+  "upstream": {
+    "hash": "dcfe5dfa763db33ec159e82264aa0b48",
+    "codeMinLen": 215,
+    "codeMin": "t/=1.5,this.v??=0,r=(w,i,s)=>(v++||(a=Array(i).fill(0)),w=w%256+a[z=v%a.length],a[z]=w*s,w),f=t?(f*(1+(l=[~t>>9&255,t>>9&255][t>>17&1]))+(r(t*2**([0,3,5,7,8,7,10,7][t>>14&7]/12)%256/4,24576,.75)&255))/(2+l):0,f/64-2",
+    "codeLen": 217,
+    "code": "t/=1.5,this.v??=0,r=(w,i,s)=>(v++||(a=Array(i).fill(0)),w=w%256+a[z=v%a.length],a[z]=w*s,w),f=t?(f*(1+(l=[~t>>9&255,t>>9&255][t>>17&1]))+(r(t*2**([0,3,5,7,8,7,10,7][t>>14&7]/12)%256/4,24576,.75)&255))/(2+(l)):0,f/64-2",
+    "author": "ANoUserXD",
+    "name": "cool reverb with filter",
+    "url": "https://www.reddit.com/r/bytebeat/comments/154h111/cool_reverb_with_filter/",
+    "date": "2023-07-20",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "26207f3ba5fde602c9ad9bec5b1bff03",
+        "author": "Greaserpirate",
+        "name": "a limiter (that also removes offsets)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10nnfbt/another_effect_function_a_limiter_that_also/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

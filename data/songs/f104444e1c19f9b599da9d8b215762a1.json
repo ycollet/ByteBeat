@@ -1,0 +1,32 @@
+{
+  "file": "songs/f104444e1c19f9b599da9d8b215762a1.js",
+  "title": "i mashed my keyboard",
+  "author": "SleepingLugia",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f104444e1c19f9b599da9d8b215762a1.js",
+  "sha256": "8ccb989299f5f423dc8b8aef64c329e8cc3ba9a92df25c4a98f375424a5607b2",
+  "upstream": {
+    "hash": "f104444e1c19f9b599da9d8b215762a1",
+    "codeLen": 630,
+    "fileOrig": 1,
+    "codeText": "i=t/2500,j=i>>1,e=1+i%2*3,a='jsijiswjiwndwijiwoqw내에즈ㅡ춰뱌ㅑ챠ㅐ대ㅏㅏ마ㅏㄴjjsikospqpqpp너ㅑㅔㅔ베ㅏ으ㅜㅑㅂㅈ브ㅑ느ㅑㅓㅑㅂㄴ더ㅑㅓㅑ너ㅐㅜㅑㅜㅇ댜우댜우댜우저우더우어우냐어냐너재너재뱌내뱌내멍쟈누ㅐ버ㅐ배ㅐㅔ네ㅐㅏ바ㅏ배ㅐㅏ어ㅓ야ㅓㅇ쟈ㅓ어저얃어댜ㅏ저ㅐㅏㅐ뱌ㅔ재베ㅐ베ㅐㅔㅐㅐㄱ더ㅡㅏ',l=a.length,a.charCodeAt(t/4*[1,1,1.2,.9][i>>5&3]&j*a.charCodeAt((j+a.charCodeAt(j/16%l))%l)/24%l)%(1+(j&65535))%256/e/2-54/e+128+(1e3/(.5+(n=i%8*2))&99)/(1+n)*(i>256)-((t%207^t%25+999*sin(t>>4))&96)/(1+n)*(i>384)*(i%16>8)",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "i mashed my keyboard",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15ldcnc/i_mashed_my_keyboard/",
+    "date": "2023-08-08",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "a9187e40f0ee3ba2df89e3c9e1e37754",
+        "author": "Spimfurt",
+        "name": "mini drums at your disposal",
+        "url": "https://dollchan.net/btb/res/3.html#1799"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/7f6d87c242519142181b4e05745413d3.js",
+  "title": "3 lines of code",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "eab3adb9eacf9a6ba24cc3426e88c143265cef4e5a5e3867f0ab620eba579164",
+  "upstream": {
+    "hash": "7f6d87c242519142181b4e05745413d3",
+    "codeMinLen": 101,
+    "codeMin": ".99*(m=t/12*'4663658264825483658364827'[(t>>13)%25])%80+m%80+(t*random()&63|t>>5&63*((t&16383)<8192))",
+    "codeLen": 109,
+    "code": "m=t/12*\"4663658264825483658364827\"[(t>>13)%25],\nsn=t*random()&63|t>>5&63*((t&16383)<8192),\n(m*.99%80+m%80)+sn",
+    "author": "psubscirbe",
+    "name": "3 lines of code",
+    "url": "https://dollchan.net/btb/res/284.html#285",
+    "date": "2023-01-01",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-23"
+  }
+}

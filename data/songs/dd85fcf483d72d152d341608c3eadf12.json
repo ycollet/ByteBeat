@@ -1,0 +1,34 @@
+{
+  "file": "songs/dd85fcf483d72d152d341608c3eadf12.js",
+  "title": "what i'm making at midnight (remix)",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "26c6ad584225edc56b06e0b375a4c4229b224f1df2991a9d18155754739e20cd",
+  "upstream": {
+    "hash": "dd85fcf483d72d152d341608c3eadf12",
+    "codeMinLen": 434,
+    "codeMin": "S=44100,t*=S/48E3,s=1.05,q=(o=t)=>o*2**(([0,7,12,0,7,12,0,7,12,0,7,15,14,15,10,5,-4,3,8,-4,3,8,-4,3,8,-4,3,8,-5,2,7,10][(o*s>>13)%32]-2)/12+2),sq=(o=t)=>isNaN(q(o))?0:q(o),t?0:v=x=y=0,w=(t,l)=>min(max(asin(sin(t*PI/128))*l*2/PI,-.5),.5),x=(t,l,x)=>(y=v+=(w(t,1/l*x)-v/l)/l,y/l),f=t=>x(sq(t)+w(sq(t)/4,.75)*sin(t*s*PI/2**18)*512,2,b=6*-(t*s/8192%1-1))*b/16,[f(t)*3+f(t-24576/s)*3/2+f(t-49152/s)*.6,f(t)*3+f(t-12288/s)+f(t-36864/s)*.75]",
+    "codeLen": 437,
+    "code": "S=44100,t*=S/48000,s=1.05,q=(o=t)=>o*2**(([0,7,12,0,7,12,0,7,12,0,7,15,14,15,10,5,-4,3,8,-4,3,8,-4,3,8,-4,3,8,-5,2,7,10][(o*s>>13)%32]-2)/12+2),sq=(o=t)=>isNaN(q(o))?0:q(o),t?0:v=x=y=0,w=(t,l)=>min(max(asin(sin(t*PI/128))*l*2/PI,-.5),.5),x=(t,l,x)=>(y=v+=(w(t,1/l*x)-v/l)/l,y/l),f=t=>x(sq(t)+w(sq(t)/4,.75)*sin(t*s*PI/2**18)*512,2,(b=-(t*s/8192%1-1)*6))*b/16,[f(t)*3+f(t-24576/s)*3/2+f(t-49152/s)*.6,f(t)*3+f(t-12288/s)+f(t-36864/s)*.75]",
+    "author": "PortablePorcelain",
+    "name": "what i'm making at midnight (remix)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14vcmji/what_im_making_at_midnight_remix/",
+    "date": "2023-07-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "3f46baf3d6ea1dc6e90c238fc49dadbd",
+        "author": "Zackx",
+        "name": "what i making in midnight (harmony)",
+        "url": "https://dollchan.net/btb/res/204.html#772"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

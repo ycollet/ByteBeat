@@ -1,0 +1,33 @@
+{
+  "file": "songs/915b3e6db17724e54f034b6e75b7e508.js",
+  "title": "A Black Hole Inside of a Nebula",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/915b3e6db17724e54f034b6e75b7e508.js",
+  "sha256": "1392773c7bcca79875e969e2293945bf55535fe0c47d694d92c24bab7e41b07f",
+  "upstream": {
+    "hash": "915b3e6db17724e54f034b6e75b7e508",
+    "codeLen": 5834,
+    "fileOrig": 1,
+    "codeText": "quality=6,\no=t/quality,\nof=o*1.024,\nSF=1.1,\ncounter=0,\nt?0:(\nrev=Array(delay=12288).fill(0),\n",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "A Black Hole Inside of a Nebula",
+    "description": "Bytebattle Season 4 Competition - 3rd place (overall), 1st place (master rank).",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1kel0wu/sentlexr_a_black_hole_inside_of_a_nebula/",
+      "https://bytebeat.oops.wtf/season4/entries.html"
+    ],
+    "date": "2025-05-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-04"
+  }
+}

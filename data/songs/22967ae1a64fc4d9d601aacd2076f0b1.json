@@ -1,0 +1,29 @@
+{
+  "file": "songs/22967ae1a64fc4d9d601aacd2076f0b1.js",
+  "title": "G minor Bach",
+  "author": "skurk",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/22967ae1a64fc4d9d601aacd2076f0b1.js",
+  "sha256": "ae2cab28ba4311d7ad687c313fe2581c38cbb302d217e03bb681e03a0dba0409",
+  "upstream": {
+    "hash": "22967ae1a64fc4d9d601aacd2076f0b1",
+    "codeMinLen": 548,
+    "codeLen": 587,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "30*cos(t*2**('B*918/916-918/91B*918/916-918/91>*;2:1;26/;2:1;2>*;2:1;26/;2:1;2A*;291;28/;291;2A*;291;28/;291;2B*=-;,=-91=-;,=-B*=-;,=-91=-;,=-E*>6=4>692>6=4>6E*>6=4>692>6=4>6D*<3:1<380<3:1<3D*<3:1<380<3:1<3D(=4<3=481=4<3=4D(=4<3=481=4<3=4B(:18/:16.:18/:1B(:18/:16.:18/:1B&;2:1;26/;2:1;2B&;2:1;26/;2:1;2@&;,9*;,8/;,9*;,@&;,9*;,8/;,9*;,@%=-;,=-91=-;,=-@%=-;,=-91=-;,=->*=-;,=-92=-;,=->*=-;,=-92=-;,=->,8/6-8/428/6-8/>,8/6-8/428/6-8/=-412/4192412141=-412/4192412141;-6341613/634163;-6341613/634163;,8/6-8/528/6-8/;,",
+    "isTruncated": 1,
+    "author": "skurk",
+    "name": "G minor Bach",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=11#c389045",
+    "date": "2011-10-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "coverName": "Bach: Prelude & Fugue in C minor, BWV 847",
+    "coverUrl": "https://youtu.be/CGVL5j6BEKs",
+    "tags": [
+      "1k"
+    ]
+  }
+}

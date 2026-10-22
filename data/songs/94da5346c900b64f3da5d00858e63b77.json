@@ -1,0 +1,28 @@
+{
+  "file": "songs/94da5346c900b64f3da5d00858e63b77.js",
+  "title": "happybeat",
+  "author": "Yung Gotenks",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/94da5346c900b64f3da5d00858e63b77.js",
+  "sha256": "f2576ad9d733648274efef1a29f986ff03c3560e94ff9ec3e878fe083022902a",
+  "upstream": {
+    "hash": "94da5346c900b64f3da5d00858e63b77",
+    "codeLen": 1629,
+    "codeFormLen": 1824,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "//SONG; happybeat\n//special thanks to raphaelgoulart for explaining how his song \"1k dance\" worked.\n\nG1=0.75,\nA1=0.84,\nB1=0.94,\nC2=1,\nD2=1.12,",
+    "isTruncated": 1,
+    "author": "Yung Gotenks",
+    "name": "happybeat",
+    "url": "https://battleofthebits.com/arena/Entry/happybeat/31161/",
+    "date": "2019-03-11",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

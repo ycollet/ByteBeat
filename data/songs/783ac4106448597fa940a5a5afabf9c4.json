@@ -1,0 +1,25 @@
+{
+  "file": "songs/783ac4106448597fa940a5a5afabf9c4.js",
+  "title": "e",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c4821bcfca19dcfbc8a36f5abaad9b6aa24715e5cfb1987c0cdb33f9876d8ee3",
+  "upstream": {
+    "hash": "783ac4106448597fa940a5a5afabf9c4",
+    "codeMinLen": 39,
+    "codeMin": "(2*t&255)*(-t>>6&t>>7)>>8|t&t>>1|t&t>>1",
+    "codeLen": 41,
+    "code": "((2*t&255)*(-t>>6&t>>7)>>8|t&t>>1)|t&t>>1",
+    "author": "MeWhen-I-StubMyToe",
+    "name": "e",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10xk918/e/",
+    "date": "2023-02-09",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

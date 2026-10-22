@@ -1,0 +1,24 @@
+{
+  "file": "songs/6d18b3ee6f805e0e3972dd7b5c7fedb4.js",
+  "title": "Sine Music Test 1",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "84cb6b38058fd11fd3cd6d2ca5be6e6a9daebe8fa64f577b6780eb7be816cdba",
+  "upstream": {
+    "hash": "6d18b3ee6f805e0e3972dd7b5c7fedb4",
+    "codeMinLen": 371,
+    "codeMin": "a=t*'87'[t/1.1>>16&1]/2.75,a=(64*cos(a/5.13/8)+64)/8,b=t*'87'[t/1.1>>16&1]/2.75/.8,b=(64*cos(b/5.13/8)+64)/8,c=(t*random()|t/1.1>>7)&31*[1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,0][t/1.1>>12&15],d=(t*random()|t/1.1>>9)&31*[0,1][t/1.1>>15&1],e=t*[0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0][t/1.1>>12&15]*[2.4,2.15,2.4,2.15,2.7,2.15,2.7,2.15][t/1.1>>16&7]/2.75,e=(64*cos(e/14.8)+64)/4,a+b+c+d+e",
+    "codeLen": 401,
+    "code": "a=t*\"87\"[t/1.1>>16&1]/2.75,a=(Math.cos(a/5.13/8)*64+64)/8,\nb=t*\"87\"[t/1.1>>16&1]/2.75/0.8,b=(Math.cos(b/5.13/8)*64+64)/8,\nc=(t*Math.random()|t/1.1>>7)&31*[1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,0][t/1.1>>12&15],\nd=(t*Math.random()|t/1.1>>9)&31*[0,1][t/1.1>>15&1],\ne=t*[0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0][t/1.1>>12&15]*[2.4,2.15,2.4,2.15,2.7,2.15,2.7,2.15][t/1.1>>16&7]/2.75,e=(Math.cos(e/14.8)*64+64)/4,a+b+c+d+e",
+    "author": "Decent-Manager-6169",
+    "name": "Sine Music Test 1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rn8xsl/sine_music_test_1/",
+    "date": "2021-12-24",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

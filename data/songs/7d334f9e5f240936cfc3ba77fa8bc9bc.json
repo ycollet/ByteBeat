@@ -1,0 +1,24 @@
+{
+  "file": "songs/7d334f9e5f240936cfc3ba77fa8bc9bc.js",
+  "title": "what the hell did i just made again?",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 70997,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/7d334f9e5f240936cfc3ba77fa8bc9bc.js",
+  "sha256": "f1756cbe871f96c0dc0b33a94dca90d667489e2e8816ef58ea0e3e8990a8ed40",
+  "upstream": {
+    "hash": "7d334f9e5f240936cfc3ba77fa8bc9bc",
+    "codeMinLen": 587,
+    "fileMin": 1,
+    "codeText": "T=.236,a=k=>([t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,-t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,t,-t,t,t,t,t,t,t,t,t,-t,t,t][t>>14&63]*k*T*2**([11,11,7,7,2,2,7,7,7,7,9,9,11,11,7,7,9,9,6,6,2,2,6,6,9,9,11,11,9,9,6,6,11,11,7,7,4,4,7,7,9,9,11,11,9,9,7,7,12,12,7,7,4,4,7,7,12,12,12,12,11,11,7,9,11,11,7,7,2,2,7,7,7,7,9,9,11,11,7,7,9,9,6,6,2,2,6,6,9,9,11,11,9,9,6,6,7,7,4,4,-1,-1,4,4,4,4,-1,-1,4,4,-1,-1,7,7,4,4,0,0,4,4,7,7,7,7,6,6,7,9][t>>13&127]/12)&63),b=k=>(abs(cbrt(sin(t*PI/128*T*2**(k[t>>17",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "what the hell did i just made again?",
+    "url": "https://dollchan.net/btb/res/520.html#712",
+    "date": "2023-03-29",
+    "sampleRate": 70997,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/496feb208f0fb1589c9263d3ce83966a.js",
+  "title": "The detuned sound",
+  "author": "mu6k",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d37be9c0c7f3cb0d9462f1727484b11e5876ecc5c591cb3f19da95cc8fbc3750",
+  "upstream": {
+    "hash": "496feb208f0fb1589c9263d3ce83966a",
+    "codeMinLen": 72,
+    "codeMin": "[(u=10^t>>15&7,u+=3,y=(t>>11&7)/u,f=8*t*y,z=16*t/u&99|f|1.01*f,2*z),z*4]",
+    "codeLen": 78,
+    "code": "[(u=10^(t>>15&7),u+=3,y=(t>>11&7)/u,f=t*8*y,z=(t*16/u)&0x63|f|f*1.01,z*2),z*4]",
+    "author": "mu6k",
+    "name": "The detuned sound",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401841",
+    "date": "2012-02-26",
+    "sampleRate": 8000,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ]
+  }
+}

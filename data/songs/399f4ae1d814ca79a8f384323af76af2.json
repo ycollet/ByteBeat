@@ -1,0 +1,29 @@
+{
+  "file": "songs/399f4ae1d814ca79a8f384323af76af2.js",
+  "title": "POK",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/399f4ae1d814ca79a8f384323af76af2.js",
+  "sha256": "1c29cb46ddfd23e07850bf41acc4b225127af63f6cbe6ed8ece36d7cfb114e9d",
+  "upstream": {
+    "hash": "399f4ae1d814ca79a8f384323af76af2",
+    "codeMinLen": 369,
+    "codeMin": "t%=2097165,a=_=>max(min(max(min(sin((t%[16384,12288][(t>>14)%2])**[0,.6,1,1.01][(t>>19)%4])/(t/'86'[(t>>14)%2]/2048%1)/4+sin(t*PI/64*[1,1.25,.5,.4][(t>>16)%4]),1),-1)*((1-t/12288%1)/sin(t*PI/262144))*32+sin(sin(t*PI/128*[1,1.25,.5,.4][(t>>16)%4])*'0148'[(t>>19)%4])+random()*'0001'[(t>>19)%4]*(1-t/8192%1)*8,1),-1)/2*min(1,t/4E5),m=a(),n=a(),[isNaN(m)?1:m,isNaN(n)?1:n]",
+    "codeLen": 718,
+    "fileOrig": 1,
+    "codeText": "t%=2097165,a=_=>max(min(max(min(sin((t%[16384,12288][(t>>14)%2])**[0,.6,1,1.01][(t>>19)%4])/(t/'86'[(t>>14)%2]/2048%1)/4+sin(t*PI/64*[1,1.25,.5,.4][(t>>16)%4]),1),-1)*((1-t/12288%1)/sin(t*PI/262144))*32+sin(sin(t*PI/128*[1,1.25,.5,.4][(t>>16)%4])*'0148'[(t>>19)%4])+random()*'0001'[(t>>19)%4]*(1-t/8192%1)*8,1),-1)/2*min(1,t/4E5),m=a(),n=a(),[isNaN(m)?1:m,isNaN(n)?1:n]",
+    "isTruncated": 1,
+    "author": "Maxi",
+    "name": "POK",
+    "url": "https://dollchan.net/btb/res/500.html#2351",
+    "date": "2023-09-26",
+    "mode": "Floatbeat",
+    "sampleRate": 33000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

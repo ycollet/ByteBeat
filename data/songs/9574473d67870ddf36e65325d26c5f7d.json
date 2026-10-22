@@ -1,0 +1,26 @@
+{
+  "file": "songs/9574473d67870ddf36e65325d26c5f7d.js",
+  "title": "Alternate Wail",
+  "author": "May_I_Change_My_Name",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "738745261babe42dd1e5b524dcf5079c087750dda9a2f041e0bef98bd849f4e5",
+  "upstream": {
+    "hash": "9574473d67870ddf36e65325d26c5f7d",
+    "codeMinLen": 162,
+    "codeMin": "F=t=>(r=t+1E5*sin(2*PI*t/1E6),80*asin(sin(PI*r*(1.1*t&32768?5:6)/256))),E=(z,t,f,i=0)=>i<18?t<0?0:z(t)+E(z,t-8192,f,i+1)*f:0,E(F,t,.7)/3+16*random()*sin(t*PI/3E5)",
+    "codeLen": 163,
+    "code": "F=t=>(r=t+1E5*sin(2*PI*t/1E6),asin(sin(PI*r*(t*1.1&32768?5:6)/256))*80),E=(Z,t,f,i=0)=>i<18?t<0?0:Z(t)+E(Z,t-8192,f,i+1)*f:0,E(F,t,0.7)/3+random()*16*sin(t*PI/3E5)",
+    "author": "May_I_Change_My_Name",
+    "name": "Alternate Wail",
+    "description": "Siren Head effect.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15jjbff/trivial_interpolated_pitch/",
+    "date": "2023-08-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

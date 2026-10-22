@@ -1,0 +1,43 @@
+{
+  "file": "songs/e7e031c60ebdf51f25d0cd037612cba9.js",
+  "title": "Take On Me",
+  "author": "polyzium",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e7e031c60ebdf51f25d0cd037612cba9.js",
+  "sha256": "fc75b1d16af70895b1bbc11a8af8f92cd63aef00e82ef31222be4ff12715443a",
+  "upstream": {
+    "hash": "e7e031c60ebdf51f25d0cd037612cba9",
+    "codeLen": 2691905,
+    "fileOrig": 1,
+    "codeText": "t==0?(\n    // Initialize\n    RESP_INC = 7,\n    RESP_DEC = 20,\n    RESP_PREC = 8,\n    LPF_STRENGTH = 100,\n\n    // RESP_INC = 1,",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "Take On Me",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1euxbis/1_bit_per_sample_dfpwm_audio/",
+    "date": "2024-08-18",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "bcf47d4f2f080860e56ba737d96fcb90",
+        "author": "Sychamis",
+        "name": "Take on me",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1e7ey8x/103_bit_per_sample_improved_dpcm_audio/"
+      },
+      {
+        "hash": "7ceecc450f04a38764d5fad28ab99711",
+        "author": "polyzium",
+        "name": "1 bit per sample DFPWM audio",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1euxbis/1_bit_per_sample_dfpwm_audio/"
+      }
+    ],
+    "coverName": "A-ha - Take On Me",
+    "coverUrl": "https://youtu.be/djV11Xbc914",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-06"
+  }
+}

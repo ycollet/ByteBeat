@@ -1,0 +1,29 @@
+{
+  "file": "songs/b49fe4aa332284c7f9b48ea4f0c6e715.js",
+  "title": "waefrom",
+  "author": "kOLbOSa_exe",
+  "mode": "Floatbeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b49fe4aa332284c7f9b48ea4f0c6e715.js",
+  "sha256": "bb2e3d7e5d94c83991ad313e4eed2c23ee9d61503358bcc5fd3651ce7e086c8d",
+  "upstream": {
+    "hash": "b49fe4aa332284c7f9b48ea4f0c6e715",
+    "codeMinLen": 354,
+    "codeMin": "(wfg(wf=\"0000ffff0000ffff0000ffffffff0000ffff0000ffffffff0000ffffffff\",t*((t>>12^t>>13|t>>11)%9)/8,10)+wfg(wf,t*((t>>12^t>>13|t>>11)%8)/8,10)+wfg(wf,t*((t>>14^t>>13|t>>14)%5)/32,10))/(255+((t>>((t>>14^t>>13|t>>14)&2?4:3)))%256)-1;function wfg(wf,t,l){out=parseInt(wf[t%wf.length],16)*l;if(isNaN(out)){out=parseInt(wf[round(t)%wf.length],16)*l}return out}",
+    "codeLen": 439,
+    "fileOrig": 1,
+    "codeText": "(wfg(wf=\"0000ffff0000ffff0000ffffffff0000ffff0000ffffffff0000ffffffff\",t*((t>>12^t>>13|t>>11)%9)/8,10)+wfg(wf,t*((t>>12^t>>13|t>>11)%8)/8,10)+wfg(wf,t*((t>>14^t>>13|t>>14)%5)/32,10))/(255+((t>>((t>>14^t>>13|t>>14)&2?4:3)))%256)-1;function wfg(wf,t,l){out=parseInt(wf[t%wf.length],16)*l;if(isNaN(out)){out=parseInt(wf[round(t)%wf.length],16)*l}return out}",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "waefrom",
+    "description": "Custom waveform construction.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15z6p46/waefrom/",
+    "date": "2023-08-23",
+    "mode": "Floatbeat",
+    "sampleRate": 11025,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

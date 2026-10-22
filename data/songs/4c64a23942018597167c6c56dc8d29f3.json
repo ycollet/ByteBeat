@@ -1,0 +1,28 @@
+{
+  "file": "songs/4c64a23942018597167c6c56dc8d29f3.js",
+  "title": "shy smile",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4c64a23942018597167c6c56dc8d29f3.js",
+  "sha256": "2dac5a9a3715e128cb8ad113f85001f6a5efe22a9e6cedca730a7fabbfbdd60b",
+  "upstream": {
+    "hash": "4c64a23942018597167c6c56dc8d29f3",
+    "codeLen": 145715,
+    "codeFormLen": 131896,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 44100,\nBPM = 130,\nbeat = BPM * (t / SAMP_RATE) / 60,\ntick = floor(beat * 48) % 11520,\n\nC = 261.63,\nDb = 277.18,\nD = 293.66,",
+    "isTruncated": 1,
+    "author": "raphaelgoulart",
+    "name": "shy smile",
+    "url": "https://battleofthebits.com/arena/Entry/shy+smile/31801/",
+    "date": "2019-06-01",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

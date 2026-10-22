@@ -1,0 +1,30 @@
+{
+  "file": "songs/88acf7a15893f604c2af1d982ec76d0c.js",
+  "title": "strangle and hold",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/88acf7a15893f604c2af1d982ec76d0c.js",
+  "sha256": "4601e62d42c16457d409fb0a1c68cc94385015666b7c3a3900aac80692b20b0c",
+  "upstream": {
+    "hash": "88acf7a15893f604c2af1d982ec76d0c",
+    "codeMinLen": 556,
+    "codeLen": 563,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?(F=int((t-3)/s/6*B),A=t/s/6*B|0,n=A%16,n<8&&A>F?a[n]=b[n]=0:0,M(0),M(1),M(2),M(3),M(4),M(5),M(6),M(7),[(S(0)+T(1)+S(2)+T(3)+S(4)+T(5)+S(6)+T(7))/8,(T(0)+S(1)+T(2)+S(3)+T(4)+S(5)+T(6)+S(7))/8]):(s=48E3,p=PI,B=25,C=['CEFJMQRV','9CEILOQU','8CEHKOQT','7CEJOQTV'],r=n=>parseInt(n,36),o=n=>357.5*2**(n/12),y=(n,m)=>Array(n).fill(m),a=y(16,0),b=y(16,s),c=y(16,0),S=n=>sin(2*p*a[n])*c[n],T=n=>cos(2*p*a[n])*c[n]*min(1E3*b[n],1),I=(i,n)=>(a[i]=(a[i]+o(n)/s)%1,b[i]+=1/s),L=i=>I(i,r(C[A+64-i>>4&3][i])-12),N=i=>c[i]=1/(1",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "strangle and hold",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15ioa1o/strangle_and_hold/",
+    "date": "2023-08-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Jeroen Tel - Stranglehold",
+    "coverUrl": "https://youtu.be/FpOM4Fs08kU",
+    "tags": [
+      "1k"
+    ]
+  }
+}

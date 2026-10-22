@@ -1,0 +1,24 @@
+{
+  "file": "songs/f5de180d7eeb1a962dc13db2f42dfb9e.js",
+  "title": "Noise",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "498d32d8e45edcf7a43b142dc780c7532a5fb67dd742338ce2e21cee569eaaaa",
+  "upstream": {
+    "hash": "f5de180d7eeb1a962dc13db2f42dfb9e",
+    "codeMinLen": 133,
+    "codeMin": "s=t>>4,r=(s+2742)*(s+2755)*s,cos(r)*((t>>9)%32)+32+sin(r)*(32-(t>>'6654'[(t>>15)%4])%32)+32+40*(4E4/(t/'8842'[(t>>15)%4]&2047)%128&2)",
+    "codeLen": 145,
+    "code": "s=t>>4,rng=(s+2742)*(s+2755)*s,cos(rng)*((t>>9)%32)+32+sin(rng)*(32-(t>>\"6654\"[(t>>15)%4])%32)+32+((((4e4/(t/\"8842\"[(t>>15)%4]&2047))%128)&2)*40)",
+    "author": "kOLbOSa_exe",
+    "name": "Noise",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14lyjiv/noise/",
+    "date": "2023-06-29",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

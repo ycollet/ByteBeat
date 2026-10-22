@@ -1,0 +1,22 @@
+{
+  "file": "songs/c15321dfe66de1df2dafbf1854d4dae5.js",
+  "title": "corhd 2",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35498.668,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5c8cb9e9c279daf0df8ab005410785e71ae2a8af2d815d6167d05a0d1e47405f",
+  "upstream": {
+    "hash": "c15321dfe66de1df2dafbf1854d4dae5",
+    "codeLen": 415,
+    "code": "t||(A=B=0),n=.96,a=a=>t/4*n*2**(a[t>>16&3]/12)&63,((a([0,3,3,2])+a([3,7,8,7])+a([7,10,12,11]))*(-(t%65536)>>9&255)/.8>>9)+(((A+=B+=(n*2*2**([0,2,3,5,'6777'[t>>12&3],'79'[t>>13&1],10,10,12,10,8,7,[10,11,11,11][t>>12&3],[11,10][t>>13&1],7,7][t>>14&15]/12)-B)/[1,1,[1,4e3,4e3,4e3,4e3,5e3,5e3,6e3][t>>12&7],1][t>>15&3])*['11101110'[t>>12&7],'11111110'[t>>12&7]][t>>16&1]&255)*(-(t%('12'[t>>16&1]*16384))/.7>>8&255)>>10)",
+    "author": "Decent-Manager-6169",
+    "name": "corhd 2",
+    "url": "https://dollchan.net/btb/res/520.html#5098",
+    "date": "2024-12-02",
+    "sampleRate": 35498.668,
+    "tags": [
+      "1k"
+    ]
+  }
+}

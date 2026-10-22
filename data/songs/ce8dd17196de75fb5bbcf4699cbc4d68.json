@@ -1,0 +1,25 @@
+{
+  "file": "songs/ce8dd17196de75fb5bbcf4699cbc4d68.js",
+  "title": "polysine",
+  "author": "Glebguything",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "38f9b10287af2101086553739a34162e716f5bcb61c9d0b2f5835caae95d0b1f",
+  "upstream": {
+    "hash": "ce8dd17196de75fb5bbcf4699cbc4d68",
+    "codeMinLen": 83,
+    "codeMin": "a=n=>sin(t*PI/256*n)%256*(-t/n/4&2047)/16E3,a(8)+a(7)+a(6)+a(5)+a(4)+a(3)+a(2)+a(1)",
+    "codeLen": 86,
+    "code": "a=(n)=>sin(t*PI/256*n)%256*(-t/n/4&2047)/2E3/8,a(8)+a(7)+a(6)+a(5)+a(4)+a(3)+a(2)+a(1)",
+    "author": "Glebguything",
+    "name": "polysine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g3awfe/comment/ls049im/",
+    "date": "2024-10-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

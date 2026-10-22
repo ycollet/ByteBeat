@@ -1,0 +1,28 @@
+{
+  "file": "songs/64c7044f062ff1b3b38858b041cf6fbd.js",
+  "title": "HITLER-CHANデートシム",
+  "author": "Jimmyoshi",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/64c7044f062ff1b3b38858b041cf6fbd.js",
+  "sha256": "b8a4a9967de7540e574e0f916e26a46fc644b2f2074526da55e1987d3578e919",
+  "upstream": {
+    "hash": "64c7044f062ff1b3b38858b041cf6fbd",
+    "codeMinLen": 550,
+    "codeLen": 636,
+    "codeFormLen": 690,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "a=()=>(k=22050,tk=(11.5*t/k&65535)%96,c(tk)+c(tk-4)/10+(6-tk%6)*(2<tk%6&&4>tk%6?128*random():0)/24),c=tk=>(o1=d(b(\"000fffjj0ffhhh0jjjhh0ffff00aa0aa0ccddddff0cc0aa0000mm0mm0kkjjj0hh0ff0hh0000mm0mm0kk0jjjj00hhh000\",tk)),o2=d(b(\"NNN000000NNNIII000000IIIKKK000000KKKLLL000000LLLGGG000000GGGHHH000000HHHIII000000IIIAAA000000III\",tk)),o3=d(b(\"000R00000R00000P00000P00000N00000N00000R00000R00000N00000N00000R00000R00000P00000P00000M00000M00\",tk)+12),o1+o2+o3),d=n=>(ff=16.4*2**(n/12),q=k/ff,8==n||20==n?0:t%q>=q/2?16:-1",
+    "isTruncated": 1,
+    "author": "Jimmyoshi",
+    "name": "HITLER-CHANデートシム",
+    "url": "https://battleofthebits.com/arena/Entry/HITLER-CHAN%E3%83%87%E3%83%BC%E3%83%88%E3%82%B7%E3%83%A0.txt/25871/",
+    "date": "2017-06-16",
+    "sampleRate": 22050,
+    "tags": [
+      "1k"
+    ]
+  }
+}

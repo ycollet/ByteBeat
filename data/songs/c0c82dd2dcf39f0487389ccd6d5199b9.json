@@ -1,0 +1,32 @@
+{
+  "file": "songs/c0c82dd2dcf39f0487389ccd6d5199b9.js",
+  "title": "Aliens on approach",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f4b36986b8aaaadb631e5d5302c161127e87435b7eb5dc14c07c943ab918abe4",
+  "upstream": {
+    "hash": "c0c82dd2dcf39f0487389ccd6d5199b9",
+    "codeLen": 43,
+    "code": "t*(t&16384?6:5)*(3-(1&t>>8))>>(3&t>>9)|t>>4",
+    "author": "SthephanShi",
+    "name": "Aliens on approach",
+    "description": "Slowing down the explosions to 3&t>>9, get a heavy beat.",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "216fd7273e2e48010d4099519918f8fb",
+        "author": "SthephanShi",
+        "name": "Boss level #4",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/e353576b515aea59427c139bbc2cf16a.js",
+  "title": "js compatible cat",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fd0e8ed10ec16920750a60cb31919b2cd001afcf970e880211f5d816179081aa",
+  "upstream": {
+    "hash": "e353576b515aea59427c139bbc2cf16a",
+    "codeMinLen": 78,
+    "codeMin": "x='2431'[t>>12&3],(t/(1+(7&t>>12)*1.4/(1+(3&t>>12)))&15)*-t/64*x*(1+(1&t>>12))",
+    "codeLen": 83,
+    "code": "x=[2,4,3,1][t>>12&3],((t/(1+(7&t>>12)*1.4/(1+(3&t>>12)))&15)*-t/64)*x*(1+(1&t>>12))",
+    "author": "Glebguything",
+    "name": "js compatible cat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hh4w1g/a_c_compatible_cat_tried_to_meow_to_a_js/",
+    "date": "2024-12-18",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "8f12a610c842518ee7e829caa5ec27f6",
+        "author": "SthephanShi",
+        "name": "Meowing cat calling",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

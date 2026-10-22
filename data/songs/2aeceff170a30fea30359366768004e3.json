@@ -1,0 +1,34 @@
+{
+  "file": "songs/2aeceff170a30fea30359366768004e3.js",
+  "title": "A short tune using string noises",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "45ef1805ac20c6d5c3af07dfe6795d92595fd5858b03ae451c1354c74c8b1a3e",
+  "upstream": {
+    "hash": "2aeceff170a30fea30359366768004e3",
+    "codeLen": 168,
+    "code": "t%14e3==0?(f=[436,291,183,218,550,367,183,218,367,291,183,243,486,243,194,243][int(t/14e3)%16],b=Array.from({length:f},()=>random())):(b[t%f]=(b[t%f]+b[(t-1)%f])/2)*2-1",
+    "author": "Sychamis",
+    "name": "A short tune using string noises",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dyjink/string_noises_using_the_karplusstrong_algorithm/",
+    "date": "2024-07-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "aa6c1bad674fc4dfef453b47372621d6",
+        "author": "Sychamis",
+        "name": "String noises using the Karplus-Strong algorithm",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1dyjink/string_noises_using_the_karplusstrong_algorithm/"
+      }
+    ],
+    "coverName": "Josh Hutcherson - Whistle",
+    "coverUrl": "https://www.youtube.com/watch?v=BbeeuzU5Qc8",
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-20"
+  }
+}

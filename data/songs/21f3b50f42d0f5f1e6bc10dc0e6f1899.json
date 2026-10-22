@@ -1,0 +1,32 @@
+{
+  "file": "songs/21f3b50f42d0f5f1e6bc10dc0e6f1899.js",
+  "title": "rickroll with parseInt",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9e2090827e74f4fa11db523cf2056df6eea43922285748a3c160ac0dcc444bcc",
+  "upstream": {
+    "hash": "21f3b50f42d0f5f1e6bc10dc0e6f1899",
+    "codeLen": 103,
+    "code": "t*2**(parseInt('ACFCJJ JJ HHHHHHACEAHH HH FFFFFFACFCFF HH EEEEEECCAAHHHHHHFFFFFF'[63&t>>12],36)/12)&255",
+    "author": "Zackx",
+    "name": "rickroll with parseInt",
+    "url": "https://dollchan.net/btb/res/204.html#1405",
+    "date": "2023-06-26",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "845f73ae42b869eeaa7adb39bc2ece84",
+        "author": "Gasman",
+        "name": "some kind of 80s synth type thing (Never Gonna Give You Up)",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389109"
+      }
+    ],
+    "coverName": "Rick Astley - Never Gonna Give You Up",
+    "coverUrl": "https://youtu.be/dQw4w9WgXcQ",
+    "tags": [
+      "256"
+    ]
+  }
+}

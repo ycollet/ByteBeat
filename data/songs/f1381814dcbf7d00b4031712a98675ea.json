@@ -1,0 +1,27 @@
+{
+  "file": "songs/f1381814dcbf7d00b4031712a98675ea.js",
+  "title": "Cascade",
+  "author": "WoolWL",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f1381814dcbf7d00b4031712a98675ea.js",
+  "sha256": "361ed9e310376c67842b274977d0198d85485202e63d35f5faf3f31b57f561b4",
+  "upstream": {
+    "hash": "f1381814dcbf7d00b4031712a98675ea",
+    "codeMinLen": 939,
+    "codeLen": 1243,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "sr=44100,q0=\"4_D_3_B2_92_92_94_D3_B2_92_92_923_C_2_A1_81_81_83_C2_A1_81_81_81\",q1=\"8_G_6_E4_D4_D4_D8_G6_E4_D4_D4_D47_F_5_D3_C3_C3_C7_F5_D3_C3_C3_C3\",q2=\"9_I98_G9_E9_E9_E9_I8_G9_E9_E9_E98_H87_F8_D8_D8_D8_H7_F8_D8_D8_D8\",q3=\"D_LDB_KD_ID_ID_ID_LB_KD_ID_ID_IDC_KCA_JC_HC_HC_HC_KA_JC_HC_HC_HC\",b0=\"III_GG_EE_EE_GG_III_GG_EE_EE_GG_HHH_FF_DD_DD_FF_HHH_FF_DD_DD_FF_\",p0=\"KHHHSHKHHHKHSHHHKHHHSHKHHSKHSHKH\",f=(n,i)=>2**((parseInt(n[int(t/i)%n.length],36)+3)/12)/4*448,p=(n,i,v)=>(x=n[int(t/i)%n.length],x==\"K\"?kik(t%i,v):x",
+    "isTruncated": 1,
+    "author": "WoolWL",
+    "name": "Cascade",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1aoaafx/a_bunch_of_songs_i_made/",
+    "date": "2024-01-08",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-06"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/9730e8503da767fafe1ed399a39ce051.js",
+  "title": "boss incoming!",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "02a91a2ac5c3b63ae016ee7f415d3e76596eac9ea785d641565cbd8fdf2f256a",
+  "upstream": {
+    "hash": "9730e8503da767fafe1ed399a39ce051",
+    "codeMinLen": 346,
+    "codeMin": "q=x=>parseInt(x,36),T=1.4*t,y=4*T/3,p=t*2**(q(['79AEA9','79AHA9','39AEA9','269CA9'][3&y>>17][(T>>13)%6])/12),(p%256+p%255)/6+((127&t*2**(q('7732'[3&y>>17])/12)/8)+(y>>10)&128)/2*(y>524288)+(64&t*2**(q(['7AE','AEH','37A',['279','69C'][1&T>>17]][3&y>>17][(y>>11)%3])/12))/3*(y>1048576)+16*random()*'200020203320200020202030'[(T>>12)%24]*(y>2097152)",
+    "codeLen": 350,
+    "code": "q=x=>parseInt(x,36),T=t*1.4,y=T*4/3,p=t*2**(q(['79AEA9','79AHA9','39AEA9','269CA9'][3&y>>17][(T>>13)%6])/12),(p%256+p%255)/6+((127&t*2**(q('7732'[(3&y>>17)])/12)/8)+(y>>10)&128)/2*(524288<y)+(64&t*2**(q(['7AE','AEH','37A',['279','69C'][1&T>>17]][3&y>>17][(y>>11)%3])/12))/3*(1048576<y)+(random()*16*'200020203320200020202030'[(T>>12)%24])*(2097152<y)",
+    "author": "Zackx",
+    "name": "boss incoming!",
+    "description": "\"Someone in the forest found the rarest sword and suddenly the boss will appear.\" Nice arpeggios.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/14o7gdv/they_alone_in_the_forest/",
+      "https://dollchan.net/btb/res/204.html#1462"
+    ],
+    "date": "2023-07-02",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

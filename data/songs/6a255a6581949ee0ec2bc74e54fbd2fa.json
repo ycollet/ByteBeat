@@ -1,0 +1,28 @@
+{
+  "file": "songs/6a255a6581949ee0ec2bc74e54fbd2fa.js",
+  "title": "2) ZEMFIRA",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3a88a04bb2d5fb0029084d9ceb65dedbe787b2c7020a2e4f04aa845de9d281b1",
+  "upstream": {
+    "hash": "6a255a6581949ee0ec2bc74e54fbd2fa",
+    "codeMinLen": 20,
+    "codeMin": "430*(5*t>>11|5*t>>1)",
+    "codeLen": 25,
+    "code": "((t*40>>430|t*40>>4)*430)",
+    "author": "Anonymous from russian imageboards",
+    "name": "2) ZEMFIRA",
+    "url": [
+      "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+      "http://arhivach.xyz/thread/28592/#71681967"
+    ],
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

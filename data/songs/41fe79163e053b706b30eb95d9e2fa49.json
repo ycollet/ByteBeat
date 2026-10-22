@@ -1,0 +1,26 @@
+{
+  "file": "songs/41fe79163e053b706b30eb95d9e2fa49.js",
+  "title": "momentum presence",
+  "author": "pck404",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/41fe79163e053b706b30eb95d9e2fa49.js",
+  "sha256": "d3d79033bed2df000c23003034683358c36d07755246cefe5864f2f984abb3d1",
+  "upstream": {
+    "hash": "41fe79163e053b706b30eb95d9e2fa49",
+    "codeLen": 1682,
+    "fileOrig": 1,
+    "codeText": "SR=8e3,\nt/=SR,\nt*=1.4,\n\nmtof=(n)=>440 * 2 ** ((n - 69) / 12),\n\ngate16=(t,seq)=>(\n  (seq>>(t&15)&1)",
+    "isTruncated": 1,
+    "author": "pck404",
+    "name": "momentum presence",
+    "url": "https://www.bytebeat.cloud/post/447ebb36-fc8e-47e8-9a0c-d7183cd9d877",
+    "date": "2025-12-14",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-06-20"
+  }
+}

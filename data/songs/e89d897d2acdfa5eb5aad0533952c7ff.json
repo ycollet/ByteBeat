@@ -1,0 +1,25 @@
+{
+  "file": "songs/e89d897d2acdfa5eb5aad0533952c7ff.js",
+  "title": "this shit is addictive",
+  "author": "lucasvb",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e4d2c7cdf8d2f8440c85554ea5070f21da4fcf4a0dfe0b82d1f4a28cc0911ac1",
+  "upstream": {
+    "hash": "e89d897d2acdfa5eb5aad0533952c7ff",
+    "codeMinLen": 38,
+    "codeMin": "(t>>6|t<<1)+(t>>5|t<<3|t>>3)|t>>2|t<<1",
+    "codeLen": 40,
+    "code": "(t>>6|t<<1)+((t>>5|t<<3)|t>>3)|t>>2|t<<1",
+    "author": "lucasvb",
+    "name": "this shit is addictive",
+    "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/",
+    "date": "2011-10-02",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

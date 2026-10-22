@@ -1,0 +1,24 @@
+{
+  "file": "songs/31b2dc8e10dcca5e44bfee751933ea8a.js",
+  "title": "Time machine",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7d1cb958107b4ab91fff52c372a8f6cf8ebf1a7e8a0c96847e918b33a521559b",
+  "upstream": {
+    "hash": "31b2dc8e10dcca5e44bfee751933ea8a",
+    "codeMinLen": 41,
+    "codeMin": "t=t**4/2**48,t=t^t/256|t/256*1.25,t&t/256",
+    "codeLen": 58,
+    "code": "t=t*t*t*t/2**48,D1=t/2**8,D2=t/2**8*1.25,t=t^D1|D2,t&t/256",
+    "author": "MeWhen-I-StubMyToe",
+    "name": "Time machine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14vdnh5/time_machine/",
+    "date": "2023-07-10",
+    "sampleRate": 32768,
+    "tags": [
+      "256"
+    ]
+  }
+}

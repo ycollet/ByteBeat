@@ -1,0 +1,31 @@
+{
+  "file": "songs/39a48db22f8d527cc7459d93287ecd24.js",
+  "title": "Ａｍｅｎ　ｂｒｅａｋｎｉｇｈｔ　ポひゕ",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/39a48db22f8d527cc7459d93287ecd24.js",
+  "sha256": "b006af85a3532895c8008c0e0c62e48fc86ee446b84c015b8cc0ed91c2e309b3",
+  "upstream": {
+    "hash": "39a48db22f8d527cc7459d93287ecd24",
+    "codeLen": 76920,
+    "fileOrig": 1,
+    "codeText": "//credit: PCM converter by Zackx, helped & Filtered by kouzerumatsu, samples pads: https://samplefocus.com/samples/haunted-ambient-pad-loop,DnB: https://samplefocus.com/samples/glitched-amen\n((t?0:n_=null),filter=(_=>(n_==null)?(m_=0,n_=_):(m_+=(_-n_)/4,n_+=(m_-n_)/4)),g=parseInt,filter((g('FFGGGGGGGGGGFFFFFFFFFEFHIJJKKHECBABDFHIIIIHGEDDDFHIHGGFDDDFHHHIJKIFCAAACGJLLLLKIECABCDDEGHHGFGHHIJJIGCBBCCCFIKJIHHGFEEEFFFEEFGFDDEFGHJLMLIFDB99CGIIHIJKHECDEFGHIIGDCEFEFGHJJHEDCCCDFHHHHJKIGFFGFEDCCDDFHIIHIKLKHECB989CGJKLL",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Ａｍｅｎ　ｂｒｅａｋｎｉｇｈｔ　ポひゕ",
+    "description": "Credit to Kouzerumatsu for the PCM explanation, as well as for creating a Python code converter and sample data for ByteBeat, which he also developed.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/144k6bb/",
+      "https://dollchan.net/btb/res/204.html#1269"
+    ],
+    "date": "2023-06-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-21"
+  }
+}

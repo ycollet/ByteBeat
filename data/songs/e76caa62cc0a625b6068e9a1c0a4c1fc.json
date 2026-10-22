@@ -1,0 +1,27 @@
+{
+  "file": "songs/e76caa62cc0a625b6068e9a1c0a4c1fc.js",
+  "title": "Byte_Tech",
+  "author": "fendoap",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8d31f17e5ccf7a8e9e618d52433911cb262fb89e524e09307aae4aa182cb1a42",
+  "upstream": {
+    "hash": "e76caa62cc0a625b6068e9a1c0a4c1fc",
+    "codeMinLen": 221,
+    "codeMin": "s=46E3,a=t/(s/10)|0,b=a%4==0|a%32==2,c=128,d=(a>>1)%32,f=d%8==0|d==31,(a>c)*(a%8==3)*(t^t/2%32-16)+3*f*((t/(12-(a%6*4)+12)^19)%12)*(a%8+2)%c*2+!f*(((t/16^17)%64)*(a%4+1)*!b+tanh((1+10*(a%64==2))*cos(35*log(5*t%s)))*c*b)+c",
+    "codeLen": 241,
+    "code": "s=4.6e4,a=(t/(s/10)|0),b=a%4==0|a%32==2,c=128,d=(a>>1)%32,f=d%8==0|d==31,\ne=((t/(12-(a%6*4)+12)^19)%12),(a>128)*(a%8==3)*(t^t/2%32-16)+\n+3*f*e*(a%8+2)%c*2\n+!f*(\n((t/16^17)%64)*(a%4+1)*!b\n+tanh((1+1e1*(a%64==2))*cos(35* log((5*t%s))))*c*b\n)+c",
+    "author": "fendoap",
+    "name": "Byte_Tech",
+    "description": "Lovebyte 2024 competition.",
+    "url": "https://demozoo.org/music/337714/",
+    "date": "2024-02-10",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-10-07",
+    "date_edited": "2025-11-03"
+  }
+}

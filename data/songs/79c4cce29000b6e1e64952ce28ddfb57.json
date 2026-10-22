@@ -1,0 +1,25 @@
+{
+  "file": "songs/79c4cce29000b6e1e64952ce28ddfb57.js",
+  "title": "Sawtooth bass",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2fefdc339fb1a9e85c7763ea49ed5256601ff9c4f328fcd05a518fa7e7651e76",
+  "upstream": {
+    "hash": "79c4cce29000b6e1e64952ce28ddfb57",
+    "codeMinLen": 60,
+    "codeMin": "z=[1,.8865,.79,.593][t>>14&3],(z*t%100+z*t%100.5+z*t%67)/1.2",
+    "codeLen": 65,
+    "code": "z=[1,0.8865,0.79,0.593][(t>>14)%4],(z*t%100+z*t%100.5+z*t%67)/1.2",
+    "author": "Zackx",
+    "name": "Sawtooth bass",
+    "url": "https://dollchan.net/btb/res/204.html#247",
+    "date": "2022-11-14",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-22"
+  }
+}

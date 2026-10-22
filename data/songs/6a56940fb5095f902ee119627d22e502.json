@@ -1,0 +1,26 @@
+{
+  "file": "songs/6a56940fb5095f902ee119627d22e502.js",
+  "title": "waver",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e11504480b37ac8f1c6c23c36cdb5f731419a99e9323a31578a43a711c79bece",
+  "upstream": {
+    "hash": "6a56940fb5095f902ee119627d22e502",
+    "codeMinLen": 255,
+    "codeMin": "m=a=>(32-(t>>7+(t>>12&3)-(t>>14&2)&31))*asin(1/sin(t*PI/65536)*sin(t/36*2**(('44204469'[t>>16&7]-4+a)/12)))|0,k=(f,w,x=2**f)=>16*sin(1E3*w/(t%x/x)**.01)|0,max(min(m(0)+m(.05)-m(-.05)-m(.14)+m(-.1),16),-16)+k(12+(t>>15&3)-(t>>13&3)^t>>12&3,1)+2*k(14,3)+128",
+    "codeLen": 259,
+    "code": "m=a=>(32-(t>>(7+(t>>12&3)-(t>>14&2))&31))*asin(1/sin(t*PI/65536)*sin(t/36*2**(('44204469'[t>>16&7]-4+a)/12)))|0,k=(f,w,x=2**f)=>16*sin(w*1e3/(t%x/x)**.01)|0,max(min(m(0)+m(.05)-m(-.05)-m(.14)+m(-.1),16),-16)+k(12+(t>>15&3)-(t>>13&3)^(t>>12&3),1)+2*k(14,3)+128",
+    "author": "lhphr",
+    "name": "waver",
+    "description": "A loop with... buzzing kicks?",
+    "url": "https://dollchan.net/btb/res/44.html#69",
+    "date": "2022-05-23",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

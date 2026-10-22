@@ -1,0 +1,36 @@
+{
+  "file": "songs/daf808d8b7db7bd1ccc62215d7da6c17.js",
+  "title": "SID SOJRTSS",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 59400,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/daf808d8b7db7bd1ccc62215d7da6c17.js",
+  "sha256": "70c5f50c028881221375312e4ce9359a6ea9bccdf6fb58fc800c22737e28118b",
+  "upstream": {
+    "hash": "daf808d8b7db7bd1ccc62215d7da6c17",
+    "codeMinLen": 232,
+    "codeMin": "f=[\"37a\",\"38c\",\"58e\",\"7af\"];f.forEach((s,i)=>{p=[];s.split('').forEach(l=>{v=parseInt(l,36);if(v){p.push(v)}});f[i]=p});c=(t,a,b)=>t*440*2**(a/12)%1*128+b&128?.7:-.7;return t=>c(t,f[t/2&3][t*2**5%3|0]-12,t*2**6)*(2-t*2**(t/8|0)%2)/2",
+    "codeLen": 279,
+    "fileOrig": 1,
+    "codeText": "f=[\"37a\",\"38c\",\"58e\",\"7af\"];f.forEach((s,i)=>{p=[];s.split('').forEach(l=>{v=parseInt(l,36);if(v){p.push(v)}});f[i]=p});c=(t,a,b)=>t*440*2**(a/12)%1*128+b&128?.7:-.7;return t=>c(t,f[t/2&3][t*2**5%3|0]-12,t*2**6)*(2-t*2**(t/8|0)%2)/2",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "SID SOJRTSS",
+    "url": "https://dollchan.net/btb/res/163.html#3322",
+    "date": "2024-04-19",
+    "mode": "Funcbeat",
+    "sampleRate": 59400,
+    "remix": [
+      {
+        "hash": "4e2a4eff43afcb0a52aa930013ad32cf",
+        "author": "hcdphobe",
+        "name": "SOJRTSS.BYTEBEAT",
+        "url": "https://dollchan.net/btb/res/163.html#877"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-27"
+  }
+}

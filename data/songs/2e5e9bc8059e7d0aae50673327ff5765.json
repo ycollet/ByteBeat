@@ -1,0 +1,26 @@
+{
+  "file": "songs/2e5e9bc8059e7d0aae50673327ff5765.js",
+  "title": "rhythmic thing",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1d0daa4848b77ab97359eee4ab5ea6199f043ece501e84ad138b5102ff715612",
+  "upstream": {
+    "hash": "2e5e9bc8059e7d0aae50673327ff5765",
+    "codeMinLen": 13,
+    "codeMin": "t*2>>(t*9>>5)",
+    "codeLen": 15,
+    "code": "t*2>>(t*4.5>>4)",
+    "author": "SArpnt",
+    "name": "rhythmic thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/govfve/rhythmic_thing/",
+    "date": "2020-05-23",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-10-22"
+  }
+}

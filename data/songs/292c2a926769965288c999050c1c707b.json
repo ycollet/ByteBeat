@@ -1,0 +1,29 @@
+{
+  "file": "songs/292c2a926769965288c999050c1c707b.js",
+  "title": "not your ordinary bytebeat",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/292c2a926769965288c999050c1c707b.js",
+  "sha256": "59665edb895ea1916d3d92e192e407d723c5ab5ca6ec6f31f4157148d544a9d0",
+  "upstream": {
+    "hash": "292c2a926769965288c999050c1c707b",
+    "codeMinLen": 624,
+    "codeLen": 749,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "kR=-t/[1,1,1,1,2,1.5,2,1][(t>>14)%8],k=(t,g,p)=>sin((sin(g*PI/16384/4)+1)*p*sin(sin(l=t*PI/64)+sin(l*2)+sin(l*3)+sin(l*4.001)+sin(l*5.002)+sin(l*6.008))+sin(sin(l*1.01)+sin(l*2.01)))/8,main=()=>{b=asin(sin(64*1.002**(kR%16384)))/4*sin(t*PI/262144),c=asin(cos(64*1.002**(kR%16384)))/4*cos(t*PI/262144);if(t/32&16384){a=t*2/[6,6,5,4,6,6,5,4.5][(t>>14)%8],d=t*[16,16,16,32,2,4,2,64][(t>>14)%8];db=k(a,d,1.5+sin(t*PI/16384/32));a=(t/4*'1234'[(t>>11)%4]&16)*(2+(-t>>7&15))/2048;return[b+db+a,c+db-.4+a]}a=t/[6,6,5,4,6",
+    "isTruncated": 1,
+    "author": "Maxi",
+    "name": "not your ordinary bytebeat",
+    "url": "https://dollchan.net/btb/res/500.html#2582",
+    "date": "2023-11-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

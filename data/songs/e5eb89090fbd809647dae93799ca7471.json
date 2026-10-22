@@ -1,0 +1,33 @@
+{
+  "file": "songs/e5eb89090fbd809647dae93799ca7471.js",
+  "title": "Cave's mystery V2",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e5eb89090fbd809647dae93799ca7471.js",
+  "sha256": "945e354e44dd84f9f703824a3dc0785b0270cedfc779adc8291d7f25c61c93a8",
+  "upstream": {
+    "hash": "e5eb89090fbd809647dae93799ca7471",
+    "codeLen": 1715,
+    "fileOrig": 1,
+    "codeText": "\r\nt/=1.5,\r\nt?0:ec=Array(n=12288).fill(0),\r\nSAMP_RATE = 32000,\r\nts = t/SAMP_RATE,\r\nd = 261.63,\r\nrb = 277.18,\r\nr = 293.66,\r",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "Cave's mystery V2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1eee1ht/caves_mystery_v2/",
+    "date": "2024-07-28",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "ec4aad6ca278dc59ff04ecb7f2069026",
+        "author": "hrllobrothers4",
+        "name": "MISTERIUM cave rework",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ee75kj/working_on_misterium_cave_rework/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

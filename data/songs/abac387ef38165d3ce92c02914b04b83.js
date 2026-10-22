@@ -1,0 +1,4 @@
+t||(f=[]),i=0,
+lp=(a,c)=>(fi=i++,f[fi]??=0,f[fi]+=(a-f[fi])*c),hp=(a,c)=>a-lp(a,c),bp=(a,hc,lc)=>hp(lp(a,lc),hc),t?0:d_fx=[],d_fxi=0,d_max=1e5,dlay=(inp,time=1,mix=.55,feedb=.55)=>(d_fxii=d_fxi++,d_fx[d_fxii]??=new Float32Array(d_max),out=inp+d_fx[d_fxii][t%round(time)],d_fx[d_fxii][t%round(time)]=out*feedb,inp*(1-mix)+out*mix),
+r=t*(128/(48e3*60)*16384),pwm=(t,l,m)=>t?(sign((m?asin(sin(t*PI/128))/asin(1):sin(t*PI/128))-l)/2+l/2):0,
+dlay(tanh(hp(bp(pwm(t/48e3*128*344.53125*2**(([-7,-3,0,4,7,11,14][(parseInt("Priscilla",36)>>(((r>>11)^(3&r>>13))-2&30)&15)%7]+1)/12),1-r/131072%1-r/8192%(r>>13&7?.5:1)/16,1)*2,.05,.9),.08)),(60*48e3)/(128*16/3/4),.55,.55)

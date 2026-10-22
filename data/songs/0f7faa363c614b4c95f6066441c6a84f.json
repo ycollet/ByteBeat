@@ -1,0 +1,38 @@
+{
+  "file": "songs/0f7faa363c614b4c95f6066441c6a84f.js",
+  "title": "DKC Scorch n' Torch - EDM Remix",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0f7faa363c614b4c95f6066441c6a84f.js",
+  "sha256": "60096176606b0093f2a71b51ce6c7111519a2b874dc2308509e4d2086c0b53dc",
+  "upstream": {
+    "hash": "0f7faa363c614b4c95f6066441c6a84f",
+    "codeLen": 2232,
+    "fileOrig": 1,
+    "codeText": "// Meta\n\ntune=.78,\nspeed=.91875,\nT=t*tune,\nb=t*speed,\n\nr = repeat = (x, y) => Array(x).fill(y).flat(9),",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "DKC Scorch n' Torch - EDM Remix",
+    "url": "https://dollchan.net/btb/res/2971.html#4130",
+    "date": "2024-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "b1136a294d8fe06844292e7ad87fabdf",
+        "author": "MarioFan171",
+        "name": "Warm EDM Chords",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1dnbyjm/warm_edm_chords/"
+      }
+    ],
+    "coverName": "Donkey Kong Country: Tropical Freeze Soundtrack - Scorch 'N' Torch",
+    "coverUrl": "https://youtu.be/JFP4wn0dejc",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-12",
+    "date_edited": "2025-11-13"
+  }
+}

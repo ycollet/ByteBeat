@@ -1,0 +1,31 @@
+{
+  "file": "songs/97f6e491b43c9c09a788f9c8ffb69be5.js",
+  "title": "KEYGEN",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/97f6e491b43c9c09a788f9c8ffb69be5.js",
+  "sha256": "8e5da2a9b3f31fe737e59ac657c8d2ca4584cd9986a6d760b7fe1b5c4764c018",
+  "upstream": {
+    "hash": "97f6e491b43c9c09a788f9c8ffb69be5",
+    "codeLen": 18325,
+    "fileOrig": 1,
+    "codeText": "// Deltarune - KEYGEN\n// https://www.youtube.com/watch?v=DEDeNeKqyzs\nconst instruments = 10;\nconst startingTempo = 1000;\nconst A4 = 440;\n\nconst MajorScale = {\n\tC: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "KEYGEN",
+    "description": "Midi engine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gdpjem/keygen/",
+    "date": "2024-10-28",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Deltarune Chapter 2 - KEYGEN",
+    "coverUrl": "https://youtu.be/DEDeNeKqyzs",
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-09-24"
+  }
+}

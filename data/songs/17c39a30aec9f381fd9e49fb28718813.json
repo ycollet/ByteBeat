@@ -1,0 +1,37 @@
+{
+  "file": "songs/17c39a30aec9f381fd9e49fb28718813.js",
+  "title": "Remix of Two2Fall's beepbox song",
+  "author": "Greaserpirate",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/17c39a30aec9f381fd9e49fb28718813.js",
+  "sha256": "f761016cf9889875feef6fb6a7b3d526667aef43b4a795c7b0f6734333c47560",
+  "upstream": {
+    "hash": "17c39a30aec9f381fd9e49fb28718813",
+    "codeLen": 5056,
+    "fileOrig": 1,
+    "codeText": "// main functions\nseqnote = x => t * 2 ** ((x) / 12),\naddharmony3 = (ch1, ch2, ch3) => (ch1 % 85) + (ch2 % 85) + (ch3 % 85),\naddharmony = (ch1, ch2) => (ch1 % 127) + (ch2 % 127),\nreverse = (x, l, d) => x % 256 * (t & l) / d,\ndecay = (x, l, d) => x % 256 * (-t & l) / d,\n\nT = t,",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Remix of Two2Fall's beepbox song",
+    "description": "Gradually gets more intense, dramatic buildup, converted to slidy mseq(), added a melody, and a spooky surprise.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fsb3e3/comment/lplyu9w/",
+    "date": "2024-09-30",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "6391726434fd5cfb0caa6389cedeb2b2",
+        "author": "Two2Fall",
+        "name": "a cover of a song i made on beepbox",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fsb3e3/a_cover_of_a_song_i_made_on_beepbox_a_few_months/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-11-19"
+  }
+}

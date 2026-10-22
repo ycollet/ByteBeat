@@ -1,0 +1,37 @@
+{
+  "file": "songs/144ce8345ffc73b07fce566a8c3edcd7.js",
+  "title": "FM Loop",
+  "author": "Two2Fall",
+  "mode": "Floatbeat",
+  "rate": 33500,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/144ce8345ffc73b07fce566a8c3edcd7.js",
+  "sha256": "253aae0f2f7bbf34b75d88e70446a29984348c099799a7eed405bca3a3e3be6d",
+  "upstream": {
+    "hash": "144ce8345ffc73b07fce566a8c3edcd7",
+    "codeMinLen": 667,
+    "codeLen": 1310,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "FMP=(F,D,H=256)=>sin(sin(F*PI/H)*D+sin(F*PI/H*2)+sin(F*PI/H*4)*D+sin(F*PI/H*16)*D/2+sin(F*PI/1.001/H*2+.25)*2*D+cbrt(sin(F*PI/H)*4)/1.5*D)*max(.5,D),FMB=(F,D)=>(D=max(.5,D),cos(sin(sin(F*PI/127)*D+F*PI/64)+sin(F*PI/8)*D*.35-2))*D,FMb=(F,D)=>(sin(cos(sin(F*PI/256))*8*D+sin(F*PI/128)+F*PI/64+cos(sin(F*PI/32))*D)*max(.5,D)),P=(I,MOD=0)=>t*2**((parseInt(I,36)+MOD)/12),(['23','56','9A','EF'].reduce((A,S)=>A+(FMP(P(S[1&t>>18],12),1-t/262144%1)),0)/5+FMB(P('25272527252925293537353735393539'[31&t>>14]),1-t/16384%1)",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "FM Loop",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1kh7mop/fm_loop/",
+    "date": "2025-05-07",
+    "mode": "Floatbeat",
+    "sampleRate": 33500,
+    "remix": [
+      {
+        "hash": "0c7e29aa256c9c2d86476261014b66f2",
+        "author": "Two2Fall",
+        "name": "Funeral Song",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1k1ru5m/two2falls_funeral_song_fmfloatbeat/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-25",
+    "date_edited": "2025-12-07"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "songs/d0d94f34846b1f3614879c105905234f.js",
+  "title": "Small Gifts (Remake)",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d0d94f34846b1f3614879c105905234f.js",
+  "sha256": "5118991335ff40ced9b8c56932e756d166a10182b0cf01a6e7cc83565ec6a406",
+  "upstream": {
+    "hash": "d0d94f34846b1f3614879c105905234f",
+    "codeMinLen": 1015,
+    "codeLen": 1043,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "tra=-85,t||(z=[],dl=Array(l=12288).fill(0)),x=0,lp=(a,c)=>(y=x++,z[y]??=0,z[y]+=(a-z[y])*c),kt1='10100010001000101010001000100011'[int(t/4096)&31],st1='0000100101001000'[int(t/4096)&15],kt2=(int(t/4096)&3)==0,k=kt=>lp(sin(4*cbrt(t%4096))*(t/4096%1-1)*kt,.1),s=st=>(sin(6*cbrt(t%4096))+random()-random())*(t/4096%1-1)**2*st,d=(kt,st)=>min(max(k(kt)+s(st),-.5),.5),m1='-04094<9-0409<94+/2/72;7+/2/7;72)-0-5095)-0-5950+/2/72;7+/2/7;72',m2='-+)+',a=t*PI/8*2**((m1.charCodeAt(63&t>>13)+tra)/12),b=t*PI/32*2**((m2.char",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Small Gifts (Remake)",
+    "description": "\"This sounds much better.\" - eSlashMachine",
+    "url": "https://dollchan.net/btb/res/6946.html#9349",
+    "date": "2025-09-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "65a052e24623b00b879e71f5c4a4b65e",
+        "author": "eSlashMachine",
+        "name": "Small Gifts",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ig9d7n/small_gifts_an_actual_song/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-12-08",
+    "date_edited": "2025-12-10"
+  }
+}

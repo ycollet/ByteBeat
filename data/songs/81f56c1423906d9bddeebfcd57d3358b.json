@@ -1,0 +1,38 @@
+{
+  "file": "songs/81f56c1423906d9bddeebfcd57d3358b.js",
+  "title": "return on the earth",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 34200,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "55757d16832462a8dca7b0e249b5e43d41247054ca2df1157d03aa4a4a92f012",
+  "upstream": {
+    "hash": "81f56c1423906d9bddeebfcd57d3358b",
+    "codeMinLen": 265,
+    "codeMin": "p=t=>(a=(x,y)=>t*2**(parseInt(x[(t>>y)%x.length],34)/12)/1.44,a('BPIFKDMKFIHAHIHD',13)&128)/2*(1-t%8192/12E3)+((a('BBBDFFFA',14)>>4&63)+(t>>11)&64)/1.8+((a('356ADFHDIHDA8651',13)&63)+(.99*a('356ADFHDIHDA8651',13)&63))/2.5,p(t)+p(t-12288)/2+p(t-24576)/4+p(t-36864)/8",
+    "codeLen": 269,
+    "code": "p=t=>(a=(x,y)=>t*2**(parseInt(x[(t>>y)%x.length],34)/12)/1.44,\na('BPIFKDMKFIHAHIHD',13)&128)/2*(1-t%8192/12E3)+\n((a('BBBDFFFA',14)>>4&63)+(t>>11)&64)/1.8+\n((a('356ADFHDIHDA8651',13)&63)+(a('356ADFHDIHDA8651',13)*.99&63))/2.5,\np(t)+p(t-12288)/2+p(t-24576)/4+p(t-36864)/8",
+    "author": "Zackx",
+    "name": "return on the earth",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1906",
+      "https://www.reddit.com/r/bytebeat/comments/15qdvex/automatic_chord_engine/"
+    ],
+    "date": "2023-08-14",
+    "sampleRate": 34200,
+    "remix": [
+      {
+        "hash": "f802b899180daccc8b21219a1e1980f9",
+        "author": "Zackx",
+        "name": "fly into sky",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1904",
+          "https://www.reddit.com/r/bytebeat/comments/15qdvex/automatic_chord_engine/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

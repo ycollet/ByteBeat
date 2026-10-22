@@ -1,0 +1,44 @@
+{
+  "file": "songs/a50e53c60750fa306450e1c6a8f1553e.js",
+  "title": "Through the Star System",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/a50e53c60750fa306450e1c6a8f1553e.js",
+  "sha256": "e740a70f75e8a910353999beb4a8a7a0b7e23c3c5a42ec075a584087189294f2",
+  "upstream": {
+    "hash": "a50e53c60750fa306450e1c6a8f1553e",
+    "codeMinLen": 970,
+    "codeFormLen": 2008,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "b=t/44100,gT=8.8*b,b*=1.1,k=b/224&1?5:4,b%=224,G=(d,p,v,a=0,m=5,n=5)=>(t+v*sin(5*(T=gT-d)))*2**(p+('6202'[(T>>5)%4]-3)/12+(a&&int((w=abs((T/a&31)-17))/n)-(5514>>w%m*k&15)/12)),S=x=>(x&128)/4,I=x=>abs((x&255)-128)/4,E=(f,c,w,q,d,p,v,a,m,n)=>(o=0,w&&Array(4).fill().map((e,i)=>o+=(!i||c==i%2||1-q)*f(G(d*i,p,v,a,m,n))/(i+1)),w*o),R=(s,l,x=1)=>b<s?0:b<s+l?(b-s)/l:x,F=(s,l)=>b<s?1:b<s+l?1-(b-s)/l:0,D=(t,h)=>1-gT%t/h,P=(c,v,p=.5)=>v*(abs((b+4*c)%8/4-1)-p)+1,f=F(192,32),A=(c,v)=>1.2*(E(S,c,R(0,8,F(32,32)),.6,2+R(8,",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Through the Star System",
+    "description": "\"You are traveling by the Galaxy, flying through another star system. Your path passes by its planets, asteroid belts and gas clouds, past the Red Giant in the center...\"<br>00:00 - 'Star System', 03:24 (204s) - 'Red Giant'<br>Summer Chip XIII battle - 1st place (bytebeat).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Through+the+Star+System/61058/",
+      "https://www.reddit.com/r/bytebeat/comments/15b0t6f/through_the_star_system/"
+    ],
+    "date": "2023-07-25",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "8546397b29b357c43e0da63b15ef8b84",
+        "author": "Gasman",
+        "name": "Steady On Tim, It's Only A Budget Game",
+        "url": [
+          "https://demozoo.org/music/305284/",
+          "http://www.sizecoding.org/wiki/Steady_On_Tim"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

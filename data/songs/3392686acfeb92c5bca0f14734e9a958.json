@@ -1,0 +1,27 @@
+{
+  "file": "songs/3392686acfeb92c5bca0f14734e9a958.js",
+  "title": "Bee Patrol",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35498.66666,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3392686acfeb92c5bca0f14734e9a958.js",
+  "sha256": "1358a3f81496c0ed407ecdd5ee92342d528d29471b8137f0b71fd428e9a15f9a",
+  "upstream": {
+    "hash": "3392686acfeb92c5bca0f14734e9a958",
+    "codeLen": 1224,
+    "fileOrig": 1,
+    "codeText": "t%=3932160,\r\nn=.945,\r\n\r\nA=(t*n/2*2**([2,,1,,0,,1,,2,,,,0,,,,2,,,,2,,,,2,,0,,-1,,0,,2,,1,,0,,1,,2,,,,0,,,,2,,,,2,,2,,0,-3,0,,0,,1][t>>12&63]/12)&63)+(t*n/4*2**([2,-10,,-10,2,,2,][t>>13&7]/12)*(-t>>12&1)&63)*1.2,\r\n\r\nB=(t*n/8.01*2**([a=[6,6,6,6,6,11,11,6],a,a,[7,7,7,7,7,11,11,6]][t>>16&3][t>>13&7]/12)*'0011000011011011'[t>>12&15]&63)*1.6,\r\n\r\nC=((t*n/3.99*2**([b=[-3,-1,2,4,-3,-1,-3,4][t>>15&7],b,['9999666644444222'[t>>13&15],[-3,-1,-3,4][t>>15&3]][t>>17&1],b][(t-786432)>>18&3]/12)*['10010010','10001000'][t>>17&",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Bee Patrol",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cx439g/bee_patrol_thingy/",
+    "date": "2024-05-21",
+    "sampleRate": 35498.66666,
+    "stereo": 1,
+    "coverName": "Bee Swarm Simulator - Bee Patrol",
+    "coverUrl": "https://youtu.be/TLrXDfG4N6o",
+    "tags": [
+      "big"
+    ]
+  }
+}

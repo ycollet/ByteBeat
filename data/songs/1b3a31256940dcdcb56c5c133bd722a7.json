@@ -1,0 +1,32 @@
+{
+  "file": "songs/1b3a31256940dcdcb56c5c133bd722a7.js",
+  "title": "filtered arpeg",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7cc3432d1ddeb366f167ecd1c933ea1ccf29593a6a17b62c81c55fff8e4008cc",
+  "upstream": {
+    "hash": "1b3a31256940dcdcb56c5c133bd722a7",
+    "codeMinLen": 342,
+    "codeMin": "t*=441/480,d=((15+1*'1370'[t>>17&3])/8*'12346543'[t>>12&7]*(t/4)%192+160)%256/2+(sqrt(5E3*(t%65536&2**[9,12,12,14,,,,,13,12,11,14][(t>>11&15|t^t/32%8*t)&11]-1))&128),h=(i=0)+1,c=(d,k)=>(this[h]??=this[i]??=0,g=(k,h,i)=>min(max(this[i]+=(this[h]+=d/4+64-this[i])-(this[h]*=1/(1+k/24E3)),0),255),h++,i++,g(k,--h,--i)),c(d,1E3*abs(t/2**19%1-.5))",
+    "codeLen": 346,
+    "code": "t*=441/480,d=((15+1*'1370'[t>>17&3])/8*'12346543'[t>>12&7]*(t/4)%192+160)%256/2+(sqrt(5E3*(t%65536&(2**[9,12,12,14,,,,,13,12,11,14][(t>>11&15|t^t/32%8*t)&11])-1))&128),h=(i=0)+1,c=(d,k)=>(this[h]??=this[i]??=0,g=(k,h,i)=>min(max(this[i]+=(this[h]+=d/4+64-this[i])-(this[h]*=1/(1+k/24000)),0),255),h++,i++,g(k,--h,--i)),c(d,abs(t/2**19%1-.5)*1000)",
+    "author": "PortablePorcelain",
+    "name": "filtered arpeg",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15ciw98/filtered_arpeg/",
+    "date": "2023-07-29",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "ae6e2f090ed556d045166a3cab71ca35",
+        "author": "lhphr",
+        "name": "Unnecessary-ARPEG.hc",
+        "url": "https://dollchan.net/btb/res/44.html#50"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

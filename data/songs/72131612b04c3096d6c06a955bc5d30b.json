@@ -1,0 +1,32 @@
+{
+  "file": "songs/72131612b04c3096d6c06a955bc5d30b.js",
+  "title": "moving square",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/72131612b04c3096d6c06a955bc5d30b.js",
+  "sha256": "2892452761ad8e69c1b41449523614bf4921cdd99c78d05407b26d5ed7147ca7",
+  "upstream": {
+    "hash": "72131612b04c3096d6c06a955bc5d30b",
+    "codeMinLen": 382,
+    "codeMin": "t||(height=2,width=height*4,buffer=[],clearBuffer=()=>{buffer.length=0;for(i=0;i<height;i++)buffer.push(Array(width).fill(0))},clearBuffer()),frame=floor(t/(height*1024)),setPixel=(x,y,v)=>{buffer[y][x]=parseInt(v)},anim=[0,1,2,3,4,5,6,7,7,6,5,4,3,2,1,0],t%(height*1024)==0?(()=>{\tclearBuffer();setPixel(anim[t>>12&15],t>>15&1,anim[t>>11&15]*36)})():0,buffer[t%height][(t>>8)%width]",
+    "codeLen": 469,
+    "fileOrig": 1,
+    "codeText": "t||(height=2,width=height*4,buffer=[],clearBuffer=()=>{buffer.length=0;for(i=0;i<height;i++)buffer.push(Array(width).fill(0))},clearBuffer()),frame=floor(t/(height*1024)),setPixel=(x,y,v)=>{buffer[y][x]=parseInt(v)},anim=[0,1,2,3,4,5,6,7,7,6,5,4,3,2,1,0],t%(height*1024)==0?(()=>{\tclearBuffer();setPixel(anim[t>>12&15],t>>15&1,anim[t>>11&15]*36)})():0,buffer[t%height][(t>>8)%width]",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "moving square",
+    "description": "The very first graphics drawing in \"Diagram\" mode. Zoom to 1/2 or 1/4.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/167bkrc/graphics_in_bytebeat_moving_square/",
+    "date": "2023-09-01",
+    "sampleRate": 48000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "1"
+    },
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

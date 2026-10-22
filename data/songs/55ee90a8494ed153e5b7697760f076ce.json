@@ -1,0 +1,27 @@
+{
+  "file": "songs/55ee90a8494ed153e5b7697760f076ce.js",
+  "title": "7 Channels",
+  "author": "Salty_Formal5291",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/55ee90a8494ed153e5b7697760f076ce.js",
+  "sha256": "179aee1e8edd23bcf1c88007a68f044147bcb195d795a208f6c68e0667ad3513",
+  "upstream": {
+    "hash": "55ee90a8494ed153e5b7697760f076ce",
+    "codeMinLen": 624,
+    "codeLen": 829,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "c=[[,],[,],[1,,,1,,1,2,2,2,2,3,2],[1,,,1,,1,2,2,2,2,3,2],[1,,,3,,3,3,2,,2,1,2]][min(t>>19,4)][(t*3>>15)%12],p=Array.from({length:50},(b,a)=>1.05946309**(a-23)),p[[12,8,5,7][(t>>17)%4]]*t%255/8+(p[[,15,14,,15,14,,12,10,,12,10,,8,7,,8,7,,10,8,,8,7][(t*3>>16)%24]]*t>>5&1?0:24)+(p[[,12,7,,12,7,,8,3,,8,3,,5,0,,5,0,,7,3,,5,3][(t*3>>16)%24]]*t>>5&1?0:24)+1E5/(t*3%32768)%64*(c==1|c==3)+(64-(t>>10)%64)*random()*(c==2|c==3)+(t*(t>>19>5)*p[12+[0,0,2,3,3,5,7,7,0,7,7,3,5,5,0,5,5,3,2,2,0,-1,-1,-1,0,0,2,3,7,12,17,17,15,12",
+    "isTruncated": 1,
+    "author": "Salty_Formal5291",
+    "name": "7 Channels",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hi0qfb/salty_formals_official_playlist_no_1_7_channels/",
+    "date": "2024-12-19",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-17"
+  }
+}

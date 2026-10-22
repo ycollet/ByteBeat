@@ -1,0 +1,29 @@
+{
+  "file": "songs/ea6bbddc49005a6c42dbe24622f9e05d.js",
+  "title": "Another Every End thingy",
+  "author": "a-desmos-grapher",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a3ad2dec46d60b4095cfdade0f351097f63a96f1771249bf2381d699b2c24fbf",
+  "upstream": {
+    "hash": "ea6bbddc49005a6c42dbe24622f9e05d",
+    "codeMinLen": 406,
+    "codeMin": "sr=48E3,ts=t*abs(150/(sr*120)),v=(t,p,te)=>sin(max(-PI/2,min(PI/2,asin(sin(t*PI+p*PI))*te)))/2+.5,tt=2**(parseInt('5 5 5 5 5 5 5 5 55  5 5 55  55  5 5 55  55  55  55  5 5 5 5 008855  55  5 5 55  55  5 5 5 5 008855  55  5 5 008855  5588cccc0000'[ts*16&127],36)/12-5/12)*t*256*55,(sin(t/sr%(128/tt*t)*((v(ts/2,2,1.5)*140+50)*256)*PI/32)+sin(t/sr%(128/tt*t)*(v(ts/2,1,1.5)*3080+2200)*PI))/2*(1-tt/128/sr%1)||0",
+    "codeLen": 434,
+    "code": "bpm=150/120,t/=48000,t1=t*bpm,v=(t,phase,tension)=>sin(max(-PI/2,min(PI/2,asin(sin(t*PI+phase*PI))*tension)))/2+0.5,m1=2**(parseInt(\n'5 5 5 5 5 5 5 5 55  5 5 55  55  5 5 55  55  55  55  5 5 5 5 008855  55  5 5 55  55  5 5 5 5 008855  55  5 5 008855  5588cccc0000'[t1*16&127],36)/12-5/12)*t*256*55,n3=isNaN(n2=(sin(t%(128/m1*t)*((v(t1/2,2,1.5)*140+50)*256)*PI/32)+sin(t%(128/m1*t)*(v(t1/2,1,1.5)*3080+2200)*PI))/2*(1-m1/128%1))?0:n2,n3",
+    "author": "a-desmos-grapher",
+    "name": "Another Every End thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ow4gu0/another_yes_another_every_end_thingy",
+    "date": "2025-11-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Dimrain47Music - Every End",
+    "coverUrl": "https://www.youtube.com/watch?v=TBHcEXU493M",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-20",
+    "date_edited": "2025-11-21"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/0bc4aff4d2159e08404a2dd2b3ac3612.js",
+  "title": "mind swift",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0bc4aff4d2159e08404a2dd2b3ac3612.js",
+  "sha256": "f4527ea2bf9beb2da2e3ce6109d0bc6b251833d9c8ce6b28478df7fec100bc87",
+  "upstream": {
+    "hash": "0bc4aff4d2159e08404a2dd2b3ac3612",
+    "codeLen": 5745,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - mind swift\n *\n */\n\nvar sampleRate = 48000;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "mind swift",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

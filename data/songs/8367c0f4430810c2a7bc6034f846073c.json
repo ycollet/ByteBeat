@@ -1,0 +1,26 @@
+{
+  "file": "songs/8367c0f4430810c2a7bc6034f846073c.js",
+  "title": "I swear I've heard this melody before",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8367c0f4430810c2a7bc6034f846073c.js",
+  "sha256": "a3650cc7f1039ec0c69202ccc422558401ca368e052934efb47c575289331f51",
+  "upstream": {
+    "hash": "8367c0f4430810c2a7bc6034f846073c",
+    "codeLen": 1077,
+    "fileOrig": 1,
+    "codeText": "Hz=14/6*16384,\nt/=48e3/Hz,\nn=440/Hz*128*2**(3/12),\nvi=63+sin(t/1e3)*9,\nFl=4*'3333113111331133'[t>>12&15],\nv=-9e9,\nA=t>>16&3,\nB=t%8192,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "I swear I've heard this melody before",
+    "url": "https://dollchan.net/btb/res/520.html#6716",
+    "date": "2025-05-28",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-11"
+  }
+}

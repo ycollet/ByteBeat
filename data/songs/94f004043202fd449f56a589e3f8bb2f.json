@@ -1,0 +1,25 @@
+{
+  "file": "songs/94f004043202fd449f56a589e3f8bb2f.js",
+  "title": "Music Theorists Rejoice!",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/94f004043202fd449f56a589e3f8bb2f.js",
+  "sha256": "304f2c5d7030047a9b7a9a9350c1a51ede871c6cb18a52f818d63dba0fb14e1d",
+  "upstream": {
+    "hash": "94f004043202fd449f56a589e3f8bb2f",
+    "codeLen": 1203,
+    "fileOrig": 1,
+    "codeText": "t||(\nF=1408/2205,m=q=>r=>r==q,c=(l,I)=>(r=l[0].match(/^([A-G][#b]?)([Mm+o]|mM|maj|min|augM?|dim)?([5679]|1[13])?((?:(?:add|#|b)(?:[569]|1[13])|sus[24])*)(?:\\/([A-G6][#b]?))?$/),R=q=>'A BC D EF G'.indexOf(q[0])+'b #'.indexOf(q[1]??' ')-1,i='min aug dim maj m + o M mM augM'.split(' ').findIndex(m(r[2]))&3,s=[[0,,3,,7],[0,,4,,8],[0,,3,,6],[0,,4,,7]][i],u=s[1],s.push(...Array(8)),((S=r[4].match(/sus([24])/))&&(S=S[1],s[S==2?1:3]=S|S>>2)||r[3]==5)&&delete s[2],P=[9,14,,17,,21],r[3]>6&&(s[6]=(i!=2)+9+/M|maj/.test",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Music Theorists Rejoice!",
+    "description": "A chord parsing function designed to be used with tagged templates.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15kyjqp/music_theorists_rejoice/",
+    "date": "2023-08-08",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

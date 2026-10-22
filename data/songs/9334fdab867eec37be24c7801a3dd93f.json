@@ -1,0 +1,24 @@
+{
+  "file": "songs/9334fdab867eec37be24c7801a3dd93f.js",
+  "title": "Chords",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "81a1b5fb4eeb7bbf355c633a329c654d33dbf7bc581224854ab52630f6e73cb1",
+  "upstream": {
+    "hash": "9334fdab867eec37be24c7801a3dd93f",
+    "codeMinLen": 178,
+    "codeMin": "t*=1.015,A4=440,r=10661,T=t*2/A4,a=t=>T*[988,1319,1480,988,1245,1661,988,1480,1760,988,1319,1976,988,1479,1661,2489][int(t/7074)%16]%256/2%256*(1-t%7074/8192),a(t)+a(t-r)/2||a(t)",
+    "codeLen": 185,
+    "code": "t*=1.015,A4=440,r=10661,T=t*2/A4,(a=t=>(T*[988,1319,1480,988,1245,1661,988,1480,1760,988,1319,1976,988,1479,1661,2489,][int(t/7074)%16]%256/2)%256*(1-t%7074/8192)),a(t)+(a(t-r)/2)||a(t)",
+    "author": "Two2Fall",
+    "name": "Chords",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hczpyj/chords/",
+    "date": "2024-12-13",
+    "sampleRate": 33000,
+    "tags": [
+      "256"
+    ]
+  }
+}

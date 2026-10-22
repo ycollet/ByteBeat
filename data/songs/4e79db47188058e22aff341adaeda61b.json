@@ -1,0 +1,24 @@
+{
+  "file": "songs/4e79db47188058e22aff341adaeda61b.js",
+  "title": "can someone remix my bytebeat again?",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b0f35e072a8563aa4c2e20aabdd99793d0e330c0f58e429e527b7670009e492f",
+  "upstream": {
+    "hash": "4e79db47188058e22aff341adaeda61b",
+    "codeMinLen": 110,
+    "codeMin": "t/=6,a=t*[5.95,7,7.9,8.9][t>>13&3]/8,a%32+a%31.8+(t*[7.9,8.9,5.95,7][t>>13&3]/2&63*[1,0,1,0,1,1,1,0][t>>10&7])",
+    "codeLen": 116,
+    "code": "t=t/6,a=t*[5.95,7,7.9,8.9][t>>13&3]/8,a=(a%32+a%31.8)+\n(t*[7.9,8.9,5.95,7][t>>13&3]/2&63*[1,0,1,0,1,1,1,0][t>>10&7])",
+    "author": "Decent-Manager-6169",
+    "name": "can someone remix my bytebeat again?",
+    "url": "https://www.reddit.com/r/bytebeat/comments/seqpws/can_someone_remix_my_bytebeat_again/",
+    "date": "2022-01-28",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

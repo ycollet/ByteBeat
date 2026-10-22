@@ -1,0 +1,30 @@
+{
+  "file": "songs/6b97068b625e01113182c7a6b5fd2a5d.js",
+  "title": "THE DANGER ZONE REMIX",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9128b79aea0fffce405bab711784b0f5dfb3d8178084e0b65aeac2dadd6a03d2",
+  "upstream": {
+    "hash": "6b97068b625e01113182c7a6b5fd2a5d",
+    "codeLen": 156,
+    "code": "(([1,.5,1,1.2,1,.5,1,.9,1,.5,1,1.2,4,3.5,4,3][(t>>13)%16]*t&128)/2+(3e5/(t&32767)&96)+(3e6/(t+32768&65535)&96)+random()*(t>>14&1)*64*1.0001**(-t%16384))/1.5",
+    "author": "BaenHoHoHo",
+    "name": "THE DANGER ZONE REMIX",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14zxntu/the_danger_zone_remix/",
+    "date": "2023-07-15",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "5e61616f6048bb407b2d171573cbf897",
+        "author": "rubi",
+        "name": "the danger zone",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0xhgq/the_danger_zone/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

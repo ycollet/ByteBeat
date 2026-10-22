@@ -1,0 +1,1 @@
+s=x=>(v=q=>(x*q&255)/5,v(1)+v(1.006)+v(2)+v(2.01)+v(1.5)*.5),n=x=>t*1.975*2**(parseInt((x),36)/12),s(n('4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffiiiiffffddddffff4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffijjjffffddddffff4444bbbbaabbaabbddddbbbbaabbaa668888ffffddffddffiiiiffffbbbbccccdddd        ddddffff        ffffggg g g hh  hh  iiiiiiiiiiiiiiii'[255&t>>11]))

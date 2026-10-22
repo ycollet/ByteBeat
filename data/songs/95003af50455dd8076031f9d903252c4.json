@@ -1,0 +1,22 @@
+{
+  "file": "songs/95003af50455dd8076031f9d903252c4.js",
+  "title": "Synthesizer",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2123fbf8bc53d4f58ff3b8acb53c52528360e69e218298e8b1ebd3f20e4c760a",
+  "upstream": {
+    "hash": "95003af50455dd8076031f9d903252c4",
+    "codeLen": 87,
+    "code": "a=t*[1,1.5,1,1.2,0,1.2,1.5,1.8][t>>13&7],a*.499%256/4+a%256/4+a*1.49%256/4+a*1.99%256/4",
+    "author": "ANoUserXD",
+    "name": "Synthesizer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14yxiaj/synthesizer/",
+    "date": "2023-07-14",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/a4cc915e7a4bbd0374c19f87ab84a16f.js",
+  "title": "goofy ahh noises",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d9992d46e9ea66b4b9c75be22a073028729e52ed9f266979b54fb6e5e8a6d5d8",
+  "upstream": {
+    "hash": "a4cc915e7a4bbd0374c19f87ab84a16f",
+    "codeMinLen": 23,
+    "codeMin": "t%round(tan(t/1E5)*2E4)",
+    "codeLen": 26,
+    "code": "t%round(tan(t/100000)*2e4)",
+    "author": "RealZynx92",
+    "name": "goofy ahh noises",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11f7l48/goofy_ahh_noises/",
+    "date": "2023-03-01",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

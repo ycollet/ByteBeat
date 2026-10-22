@@ -1,0 +1,42 @@
+{
+  "file": "songs/5c59de6b3bae790d7d91e4afeb433c37.js",
+  "title": "Gallop Through the Leaves",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5c59de6b3bae790d7d91e4afeb433c37.js",
+  "sha256": "f1c0d16cd98a486e52c762e5c90961a7214ece4811288a98489243f88a984678",
+  "upstream": {
+    "hash": "5c59de6b3bae790d7d91e4afeb433c37",
+    "codeLen": 10117,
+    "fileOrig": 1,
+    "codeText": "/*!\n *    •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · Gallop Through the Leaves\n *    •───────────────•°•❀•°•───────────────•\n */\n\n(() => {\n\tpi = Math.PI; tau = 2 * Math.PI;",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Gallop Through the Leaves",
+    "url": [
+      "https://www.bytebeat.cloud/post/142187b5-6f08-4049-ad72-a714bc80762f",
+      "https://dollchan.net/btb/res/7164.html#16803"
+    ],
+    "date": "2026-08-21",
+    "mode": "Floatbeat",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "fc89085830806ad64888918fff12993f",
+        "author": "viznut",
+        "name": "Combined xpansive's and varjohukka's stuff",
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=4#c388488",
+          "https://youtu.be/qlrs2Vorw2Y?t=150"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-09-22"
+  }
+}

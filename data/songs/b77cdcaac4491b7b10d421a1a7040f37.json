@@ -1,0 +1,32 @@
+{
+  "file": "songs/b77cdcaac4491b7b10d421a1a7040f37.js",
+  "title": "remix of \"Cat-girl\". Nya (＾• ω •＾)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fcc02190cf7e008fb6c364ab1f2499bbec72aa136ddce51ce3d05906a502b448",
+  "upstream": {
+    "hash": "b77cdcaac4491b7b10d421a1a7040f37",
+    "codeMinLen": 202,
+    "codeMin": "t/=4,p=t*[.7,.945][1&t>>15],86-(17*t|(t>>2)+(t&32768?13:14)*t|t>>3|t>>5)%256/3+32*sin(12*cbrt(t%4096))+32+(10*random()*(~t>>4&255)>>6)*(t&4096)/4E3+((p%128+p%127)/2*(~t>>3&255)>>7)%256/3.5*'12'[1&t>>11]",
+    "codeLen": 208,
+    "code": "t/=4,\np=t*[0.7,0.945][1&t>>15],\n86-(17*t|(t>>2)+(t&32768?13:14)*t|t>>3|t>>5)%256/3+sin(12*cbrt(t%4096))*32+32+\n(10*random()*(~t>>4&255)>>6)*(t&4096)/4e3+((p%128+p%127)/2*(~t>>3&255)>>7)%256/3.5*[1,2][1&t>>11]",
+    "author": "Zackx",
+    "name": "remix of \"Cat-girl\". Nya (＾• ω •＾)",
+    "url": "https://dollchan.net/btb/res/204.html#457",
+    "date": "2023-02-23",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "ff248613fb2fbb943898ce122ecdcae6",
+        "author": "SthephanShi",
+        "name": "Cat-girl",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/d75829bc1a675fb62a4e935a4b161f14.js",
+  "title": "Wanderer",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/d75829bc1a675fb62a4e935a4b161f14.js",
+  "sha256": "350a364dc7ef25a19839c4f80b23cf0944709e872009c7e1b43c550851e506e5",
+  "upstream": {
+    "hash": "d75829bc1a675fb62a4e935a4b161f14",
+    "codeMinLen": 1621,
+    "codeFormLen": 3550,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "s=6.4,T=t*s/48E3,b=T/8%112,U=['C78A','5013'],V='55 77 33 00 0 0 11 11 11 33 3 3 ',W=[['5 0 3 0 5 0 3 0 5 0 3 0 5 0 3 0 '],['5 0 3 0 5 3 7 3 8 3 7 3 8 887 53','5 0 3 0 5 3 7 3 8 AA7 3 87887753'],['55553333555577778888AAAA88887777','55553333555577778888777733330000'],['50553033535570778388A3AA83887377','50553033505570778388707730330000'],['FFFFHHCCCCCCAAAADDDDFFDDDDCCCCCC','HHHHHHCCCCCCJJJJKKKKJJFFFFFFFFCC']],X=[['6 6 6 6 2 6 6 6 6 266 6 266EEEEE'],['3 7 7 7 3 7 3 7 7 37F 7 17FFFFFF'],['P VVV VVV VPV VSS VVV ",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Wanderer",
+    "description": "\"You have passed through the portal, but there is no way back. You walk on the new world and think about your destiny. Sunset on the horizon, tomorrow will be a new day..\" Summer Chip XIV battle - 1st place (bytebeat).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Wanderer/70375/",
+      "https://www.reddit.com/r/bytebeat/comments/1eq6m9n/wanderer/"
+    ],
+    "date": "2024-08-10",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

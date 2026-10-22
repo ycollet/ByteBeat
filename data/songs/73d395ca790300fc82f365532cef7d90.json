@@ -1,0 +1,28 @@
+{
+  "file": "songs/73d395ca790300fc82f365532cef7d90.js",
+  "title": "Last Palette",
+  "author": "pigdevil2010",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/73d395ca790300fc82f365532cef7d90.js",
+  "sha256": "275467ed9132f95ebb868641befa8765181c6cb9868cd024391eea356f9916eb",
+  "upstream": {
+    "hash": "73d395ca790300fc82f365532cef7d90",
+    "codeMinLen": 696,
+    "codeLen": 741,
+    "codeFormLen": 998,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "(((t<<4-(3*t>>13&1))/\"@Lf@DUfD\".charCodeAt(3*t>>14&7)|3*t>>9)&31)+(((t<<4-(3*t>>13&1))/\"3@L39DU93@L39D+9\".charCodeAt(3*t>>14&15)|3*t>>9)*(254>>(3*t>>20&7)&1)&31)+(((t<<2)/\"LL`rLL`U\".charCodeAt(3*t>>18&7)|6)*(254>>(3*t>>21&7)&1)&31)+(((t<<2)/\"MMasMMaV\".charCodeAt(3*t>>18&7)|6)*(254>>(3*t>>21&7)&1)&31)+(((t<<4)/\"3@Lf\".charCodeAt(t>>11&3)|3*-t>>12&7)*(22235>>(3*t>>14&15)&1)*(126>>(3*t>>21&7)&1)&15)+(((t*t/21+t&t>>3|3*t>>9|3*t>>10)-9*(3*t>>16&1))*(6>>(3*t>>22&3)&1)&63)+(((t<<5)/\"LLLD@DUfLLL3DD+933L3&+39@@f@DDUf",
+    "isTruncated": 1,
+    "author": "pigdevil2010",
+    "name": "Last Palette",
+    "url": "https://battleofthebits.com/arena/Entry/Last+Palette/25369/",
+    "date": "2017-04-17",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

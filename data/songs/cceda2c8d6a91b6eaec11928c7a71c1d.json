@@ -1,0 +1,26 @@
+{
+  "file": "songs/cceda2c8d6a91b6eaec11928c7a71c1d.js",
+  "title": "Doom E1M1 theme recreation",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "229b1803724c7cb89436698f781352d2e17438fc13d8ecc40d96a9b0a2e0a662",
+  "upstream": {
+    "hash": "cceda2c8d6a91b6eaec11928c7a71c1d",
+    "codeMinLen": 374,
+    "codeMin": "q='5 5 JJ5 5 FF5 5 AA5 5 ==5 5 ==??5 5 JJ5 5 FF5 5 AA5 5 ========  5 5 JJ5 5 FF5 5 AA5 5 ==5 5 ==??5 5 JJ5 5 FF5 5 AA5 5 ========  < < XX< < RR< < MM< < II< < IILL< < XX< < RR< < MM< < IIIIIIII  5 5 JJ5 5 FF5 5 AA5 5 ==5 5 ==??5 5 JJ5 5 FF5 5 AA5 5 ========  ',s=t/540%q.length,b=(q.charCodeAt(s)-32)*(t/8),tanb=64*tan(b*PI/512)-128,sinb=64*sin(b*PI/64)-128,(tanb|sinb)-sinb",
+    "codeLen": 388,
+    "code": "q='5 5 JJ5 5 FF5 5 AA5 5 ==5 5 ==??5 5 JJ5 5 FF5 5 AA5 5 ========  5 5 JJ5 5 FF5 5 AA5 5 ==5 5 ==??5 5 JJ5 5 FF5 5 AA5 5 ========  < < XX< < RR< < MM< < II< < IILL< < XX< < RR< < MM< < IIIIIIII  5 5 JJ5 5 FF5 5 AA5 5 ==5 5 ==??5 5 JJ5 5 FF5 5 AA5 5 ========  ',s=((t/540)%q.length),b=(q.charCodeAt(s)-32)*(t/8),tanb=tan(b*Math.PI/512)*64-128,sinb=sin(b*Math.PI/64)*64-128,(tanb|sinb)-sinb",
+    "author": "PortablePorcelain",
+    "name": "Doom E1M1 theme recreation",
+    "url": "https://dollchan.net/btb/res/55.html#55",
+    "date": "2022-04-30",
+    "sampleRate": 8000,
+    "coverName": "Doom OST - E1M1 - At Doom's Gate",
+    "coverUrl": "https://youtu.be/BSsfjHCFosw",
+    "tags": [
+      "1k"
+    ]
+  }
+}

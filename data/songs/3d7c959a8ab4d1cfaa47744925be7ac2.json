@@ -1,0 +1,26 @@
+{
+  "file": "songs/3d7c959a8ab4d1cfaa47744925be7ac2.js",
+  "title": "slow bomberman",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "abef965ee5bc9ccb4d7ba172299ebc55e5f31b63366cfd49019857afe49af534",
+  "upstream": {
+    "hash": "3d7c959a8ab4d1cfaa47744925be7ac2",
+    "codeMinLen": 382,
+    "codeMin": "trig=a=>parseInt('FEDCBA98765432100123456789ABCDEF'[a>>2&31]??'0',16)*8,trig(t*2**([0,n=NaN,0,n,12,n,0,n,3,n,n,n,7,n,9,n,10,n,n,n,10,n,n,n,9,9,n,n,n,n,n,n,-2,n,-2,n,10,n,-2,n,2,n,n,n,5,n,7,n,8,n,n,n,7,n,8,n,-2,n,-3,n,-2,n,n,n,-5,n,-5,n,7,n,-5,n,5,n,n,n,4,n,5,n,-5,n,n,n,7,n,n,n,-5,-5,n,n,n,n,n,n,-5,n,-5,n,7,n,-5,n,5,n,n,n,4,n,5,n,-5,n,n,n,7,n,n,n,-5,n,-5,n,-3,n,-1][t>>11&127]/12))",
+    "codeLen": 386,
+    "code": "trig=x=>parseInt(\"FEDCBA98765432100123456789ABCDEF\"[x>>2&31]??\"0\",16)*8,\r\ntrig(t*2**([0,(n=NaN),0,n,12,n,0,n,3,n,n,n,7,n,9,n,10,n,n,n,10,n,n,n,9,9,n,n,n,n,n,n,-2,n,-2,n,10,n,-2,n,2,n,n,n,5,n,7,n,8,n,n,n,7,n,8,n,-2,n,-3,n,-2,n,n,n,-5,n,-5,n,7,n,-5,n,5,n,n,n,4,n,5,n,-5,n,n,n,7,n,n,n,-5,-5,n,n,n,n,n,n,-5,n,-5,n,7,n,-5,n,5,n,n,n,4,n,5,n,-5,n,n,n,7,n,n,n,-5,n,-5,n,-3,n,-1][t>>11&127]/12))",
+    "author": "psubscirbe",
+    "name": "slow bomberman",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gx3qba/slow_bomberman/",
+    "date": "2024-11-22",
+    "sampleRate": 32000,
+    "coverName": "Bomberman (NES) Music - Stage Theme",
+    "coverUrl": "https://youtu.be/eNB8V1NPYc0)",
+    "tags": [
+      "1k"
+    ]
+  }
+}

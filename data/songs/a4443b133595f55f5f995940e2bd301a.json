@@ -1,0 +1,30 @@
+{
+  "file": "songs/a4443b133595f55f5f995940e2bd301a.js",
+  "title": "Game level",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fc75a0710ce352468258565a0a622035335978068a756dbf5abbc493b2c4a72d",
+  "upstream": {
+    "hash": "a4443b133595f55f5f995940e2bd301a",
+    "codeLen": 45,
+    "code": "t*(2-(1&-t>>11))*(5+(2&t>>14))>>(3&t>>8)|t>>2",
+    "author": "SthephanShi",
+    "name": "Game level",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "cc360652dce315e2a159654825179edc",
+        "author": "viznut",
+        "name": "Another attempt at melody construction",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388930"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

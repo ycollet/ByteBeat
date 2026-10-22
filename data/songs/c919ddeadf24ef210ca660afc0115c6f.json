@@ -1,0 +1,32 @@
+{
+  "file": "songs/c919ddeadf24ef210ca660afc0115c6f.js",
+  "title": "Aliens encounter",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1dbc298c8df160513364800f8bdea322fd6d6f5e40a7d746037410aad54835ab",
+  "upstream": {
+    "hash": "c919ddeadf24ef210ca660afc0115c6f",
+    "codeLen": 54,
+    "code": "t*(t&16384?6:5)*(4-(1&t>>8))>>(3&t>>9)|t>>(t&4096?3:4)",
+    "author": "SthephanShi",
+    "name": "Aliens encounter",
+    "description": "Making a ternary rhythm gives an EXTRA HARD BEAT!",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "7804ae379d07853d709f6a8e07b32693",
+        "author": "SthephanShi",
+        "name": "Aliens attack",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

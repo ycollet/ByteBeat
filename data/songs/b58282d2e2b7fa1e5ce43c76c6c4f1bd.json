@@ -1,0 +1,24 @@
+{
+  "file": "songs/b58282d2e2b7fa1e5ce43c76c6c4f1bd.js",
+  "title": "Alien dungeon",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a086b9c7322fc01b6db74d5a72566304a047adb626db1757549a673550cc0733",
+  "upstream": {
+    "hash": "b58282d2e2b7fa1e5ce43c76c6c4f1bd",
+    "codeLen": 44,
+    "code": "t*(t&16384?7:5)*(3+(3&t>>14))>>(3&t>>9)|t>>6",
+    "author": "SthephanShi",
+    "name": "Alien dungeon",
+    "description": "So sinister.. t>>6 gives a fading effect.",
+    "url": "https://dollchan.net/de/res/706.html#707",
+    "date": "2019-01-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

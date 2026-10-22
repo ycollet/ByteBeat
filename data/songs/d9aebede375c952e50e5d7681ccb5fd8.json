@@ -1,0 +1,25 @@
+{
+  "file": "songs/d9aebede375c952e50e5d7681ccb5fd8.js",
+  "title": "polytropon",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d9aebede375c952e50e5d7681ccb5fd8.js",
+  "sha256": "1cabb59e1dda994750338214340a27955bd70e2149fe97bb368d9774ed047d37",
+  "upstream": {
+    "hash": "d9aebede375c952e50e5d7681ccb5fd8",
+    "codeLen": 3842,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - polytropon\n *\n */\n\nvar sampleRate = 48000;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "polytropon",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

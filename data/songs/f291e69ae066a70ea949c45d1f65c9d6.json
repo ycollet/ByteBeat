@@ -1,0 +1,24 @@
+{
+  "file": "songs/f291e69ae066a70ea949c45d1f65c9d6.js",
+  "title": "driving my 8 bit car",
+  "author": "Direm01",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "50e59cb1f98b113ec0753e3586f0d58fd47b512706ab23526b02d24d384828a6",
+  "upstream": {
+    "hash": "f291e69ae066a70ea949c45d1f65c9d6",
+    "codeMinLen": 25,
+    "codeMin": "52445*((t>>6)*t>>430)%1E3",
+    "codeLen": 31,
+    "code": "(((t>>6)*t)>>430)*[0xccDD]%1000",
+    "author": "Direm01",
+    "name": "driving my 8 bit car",
+    "url": "https://www.reddit.com/r/bytebeat/comments/7e7a61/t6t4300xccdd1000_11khz_infix/",
+    "date": "2017-11-20",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/7057a46a025c534de231cfedd4f62b54.js",
+  "title": "badapple",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "72d5cbd32f5ac9d7bec2331f6c6cdc8d834a3b10cf9d193c5e78bea2948a5ea2",
+  "upstream": {
+    "hash": "7057a46a025c534de231cfedd4f62b54",
+    "codeLen": 95,
+    "code": "a='4679BBGEBB44B9764679BB976',t>>t*2**(parseInt((a+'4676436'+a+'67799BB')[63&t*1.2>>11],36)/12)",
+    "author": "Zackx",
+    "name": "badapple",
+    "description": "The shortest Bad Apple cover!",
+    "url": "https://dollchan.net/btb/res/204.html#1470",
+    "date": "2023-07-03",
+    "sampleRate": 8000,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "tags": [
+      "256"
+    ]
+  }
+}

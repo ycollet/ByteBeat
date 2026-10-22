@@ -1,0 +1,30 @@
+{
+  "file": "songs/ddec95e7ac2d79b5c5f6bc10e57eaf1c.js",
+  "title": "remix of SWAG-75's ambience",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "65bd5537dc755b178e4da7842fad4d4852312ae78c00b0728d014cd335ebcc78",
+  "upstream": {
+    "hash": "ddec95e7ac2d79b5c5f6bc10e57eaf1c",
+    "codeLen": 219,
+    "code": "T=t*1.2,sin(8/(T/16384%1+.05))*32+([1,0,2,0,1.2,0,2.4,0,1.35,0,2.7,1.5,0,3,0,1.5][(T>>12)%16]*t*.63&127)/2+(t*tan([t>>3,t>>1][T>>15&1])&128)/2*(1-T/16384%1)*(T>>14&1)+32+((t*.63*[1,.9,.8,.75][T>>16&3]&255)+(T>>8)&256)/4",
+    "author": "ANoUserXD",
+    "name": "remix of SWAG-75's ambience",
+    "url": "https://dollchan.net/btb/res/368.html#2970",
+    "date": "2024-02-11",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "645c7479884d3b32f2be0a169a84d09c",
+        "author": "ChrisRM380",
+        "name": "Recreated SWAG-75's ambience",
+        "url": "https://dollchan.net/btb/res/368.html#2964"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

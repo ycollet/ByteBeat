@@ -1,0 +1,26 @@
+{
+  "file": "songs/bedbf2acee40fd1250e06e01c303a184.js",
+  "title": "bytefunk",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bedbf2acee40fd1250e06e01c303a184.js",
+  "sha256": "1768ba330836fcdb3d956c2d56b4107b4ca413acdc26529720c3d748ce74c8db",
+  "upstream": {
+    "hash": "bedbf2acee40fd1250e06e01c303a184",
+    "codeLen": 107019,
+    "codeFormLen": 106016,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 22050,\nBPM = 150,\nbeat = BPM * (t / SAMP_RATE) / 120,\ntick = floor(beat * 48) % 6656,\n\nC = 261.63,\nDb = 277.18,\nD = 293.66,",
+    "isTruncated": 1,
+    "author": "raphaelgoulart",
+    "name": "bytefunk",
+    "url": "https://battleofthebits.com/arena/Entry/bytefunk/31042/",
+    "date": "2019-03-05",
+    "sampleRate": 22050,
+    "tags": [
+      "big"
+    ]
+  }
+}

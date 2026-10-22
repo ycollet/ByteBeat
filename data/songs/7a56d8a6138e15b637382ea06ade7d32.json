@@ -1,0 +1,34 @@
+{
+  "file": "songs/7a56d8a6138e15b637382ea06ade7d32.js",
+  "title": "The time is running out!!!",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a3f78d4d598050e63763db65c38e10a6e7b472007eee4e5d574e0e60bf8b8d59",
+  "upstream": {
+    "hash": "7a56d8a6138e15b637382ea06ade7d32",
+    "codeMinLen": 79,
+    "codeMin": "t*(2&t>>13?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t&4096|(t>>11)%32>28?2:16))|t>>3",
+    "codeLen": 81,
+    "code": "t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t%65536<59392?t&4096?2:16:2))|t>>3",
+    "author": "SthephanShi",
+    "name": "The time is running out!!!",
+    "description": "More complicated drums",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/",
+    "date": "2021-10-17",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "cfed107712776695d40734b15370e22a",
+        "author": "SthephanShi",
+        "name": "The time is running out!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/79eae8ab309c14ffa193d642cda9b144.js",
+  "title": "50. Hi-Tech Bytebeat",
+  "author": "Zera12873",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fb860c98a4672fc8fc6405775161e6ebc7737f2c3df693d5c0b063fcb8db6c4e",
+  "upstream": {
+    "hash": "79eae8ab309c14ffa193d642cda9b144",
+    "codeMinLen": 193,
+    "codeMin": "(min(max((X=sin)((t%2E4)**.1*200)*50+X(t*((Y=t/1E4)|Y^(h=t/5E3)&Y/2)*PI/102.4)*X(Y/2*PI)**2*100,-1),1)*80+X((t*4%2E4)**.3)*127)/256%1+('00000011010101100010001101001000'[h&31])*(t&t/1250)/256%1",
+    "codeLen": 306,
+    "code": "clamp=(l,x,h)=>min(max(x,l),h),pi=PI,(clamp(-1,sin((t%2e4)**0.1*200)*(50)+sin((t*((t/1e4)|(t/1e4)^(t/5e3)&(t/2e4)))*pi/512*5)*(0+1*sin(t/2e4*pi))**2*100,1)*80+(sin(((t*4)%2e4)**0.3)*127))/256%1+([0,0,0,0,0,0,1,1,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0][(floor(t/5e3))%32]==1?((t&(t/1250))/256)%1:0)",
+    "author": "Zera12873",
+    "name": "50. Hi-Tech Bytebeat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1nzfky3/isgjs_dump",
+    "date": "2025-10-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Deca Quitin - Images and Sounds Generated using JavaScript",
+    "coverUrl": "https://youtu.be/5enR8uzlGsQ?t=170",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-09",
+    "date_edited": "2025-11-09"
+  }
+}

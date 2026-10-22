@@ -1,0 +1,36 @@
+{
+  "file": "songs/df08ba8f69aea044399225a7c41b6f85.js",
+  "title": "remix of crude sinewave dubstep",
+  "author": "PortablePorcelain",
+  "mode": "Signed Bytebeat",
+  "rate": 169000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "60371e5015e29b5c66552c8b72af44e2c1be73e898b89238fbaffa2c15edc1e6",
+  "upstream": {
+    "hash": "df08ba8f69aea044399225a7c41b6f85",
+    "codeMinLen": 212,
+    "codeMin": "c=v=>sin(v*PI),b=t/4,q=c(b*(b&b>>12)/11025/2)/2,n=6E5/(b&16383)/256%1,k=6E5/(b+16383&32767)/256%1.5,o=6E4/(b&4095)/256%.5,g=min((4*b/[8,8,8,9,10,10,9,9][b>>15&7]&255)*(-b>>5&255)>>8,128),w=min(96*(q+n-k-o)+g,127)",
+    "codeLen": 227,
+    "code": "c=(v)=>sin(v*PI),b=t/4,q=c(b*(b&b>>12)/11025/2)/2,n=((6e5/(b&16383))/256)%1,k=((6e5/(b+16383&32767))/256)%1.5,o=((6e4/(b&4095))/256)%0.5,g=min((4*b/[8,8,8,9,10,10,9,9][b>>15&7]&255)*(-b>>5&255)>>8,128),w=min((q+n-k-o)*96+g,127)",
+    "author": "PortablePorcelain",
+    "name": "remix of crude sinewave dubstep",
+    "url": "https://dollchan.net/btb/res/55.html#82",
+    "date": "2022-06-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 169000,
+    "remix": [
+      {
+        "hash": "a52be2d61d8831b88fefb55def908ca5",
+        "author": "Gabriel Miceli",
+        "name": "Crude Sinewave Dubstep",
+        "url": [
+          "https://www.youtube.com/watch?v=V4GfkFbDojc",
+          "https://youtu.be/V4GfkFbDojc?t=148"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

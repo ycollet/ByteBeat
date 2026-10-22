@@ -1,0 +1,37 @@
+{
+  "file": "songs/34cb51e2224de69e7bae1052d0e365ed.js",
+  "title": "My Remix of 'Hush'",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 54612,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/34cb51e2224de69e7bae1052d0e365ed.js",
+  "sha256": "a6429af51d9f06f5dc8a3fa6021c1521df3fa4e0a08dbe0c165416d7aceeee58",
+  "upstream": {
+    "hash": "34cb51e2224de69e7bae1052d0e365ed",
+    "codeLen": 3875,
+    "fileOrig": 1,
+    "codeText": "(p = (s) => 2**((s-.5)/12),\nPads = (Pitch, Length) => 113-(((((-t*p(Pitch)&127)+(-t*1.001*p(Pitch)&127)+(-t*.995*p(Pitch)&127))/2)*8)+random()*96)/8,\nPWM = (Pitch, Off) => ((((t*p(Pitch)&127+t*p(Pitch*1.00390625)&128)*(1-((t/(2**14))-Off)%1)))*6)/8,\nArp = (Pitch) => ((t*8*p(Pitch)&63*[16,16,16,16][(t>>14)%4])-[16,512,512,512][(t>>14)%4]+random()*[0,128,128,128][(t>>14)%4])/6,\nBass = (Pitch) => ((sin(t*4*p(Pitch)*PI/512+sin(t*6*p(Pitch)*PI/256+sin(t*8*p(Pitch)*PI/128)+sin(t*2*p(Pitch)*PI/64))))*-667)/8,\nSynt",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "My Remix of 'Hush'",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gbp1m8/my_remix_of_hush/",
+      "https://dollchan.net/btb/res/7164.html#7209"
+    ],
+    "date": "2024-10-25",
+    "sampleRate": 54612,
+    "remix": [
+      {
+        "hash": "1855abce508824f57a5a979b52a23cb0",
+        "author": "Icycle-Bycicle-24",
+        "name": "hush",
+        "url": "https://www.reddit.com/r/bytebeat/comments/16cxfn5/hush/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

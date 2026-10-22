@@ -1,0 +1,27 @@
+{
+  "file": "songs/6b83654cf8346ec1a1d09e45e6988002.js",
+  "title": "TB303ish",
+  "author": "polyzium",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6b83654cf8346ec1a1d09e45e6988002.js",
+  "sha256": "c853ff3441fbd8d2b92f136d96c059aed33a96970d7dc0bb1ce1aa11bbcfd3df",
+  "upstream": {
+    "hash": "6b83654cf8346ec1a1d09e45e6988002",
+    "codeLen": 4878,
+    "codeFormLen": 5177,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "bt=12,\n\nSAMP_RATE = 44100,\nBPM = 140,\nts = t / SAMP_RATE,\nbeat = BPM * ts / 60,\ntick = floor(beat * 48) % 192+1,\n",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "TB303ish",
+    "url": "https://dollchan.net/btb/res/3.html#120",
+    "date": "2022-07-29",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

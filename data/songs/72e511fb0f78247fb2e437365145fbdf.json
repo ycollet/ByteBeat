@@ -1,0 +1,42 @@
+{
+  "file": "songs/72e511fb0f78247fb2e437365145fbdf.js",
+  "title": "destabilizer",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e39d6d13c08ea21198e65a70495ca06a22d6c7ee9b3e6475286f3af5c7d4a6ab",
+  "upstream": {
+    "hash": "72e511fb0f78247fb2e437365145fbdf",
+    "codeMinLen": 115,
+    "codeMin": "m=(t,q)=>{s=t;for(i=0;i<q;i++)s+=s>>8;return s},dt=m(t,178)-t/616.4+132>>1,f=t=>(5*t&t>>7|3*t&4*t>>10),[f(dt),f(t)]",
+    "codeLen": 313,
+    "code": "tt=t,r=8,u=0x84,a=(b)=>(t^t+b),m=function(t,q){s = t;for (i=0; i<q; i++){s=s+(s>>r)}return s}, a=m(t,178),a-=(t/616.4)-(u),[a,(r<8?(t<<8-r):(t>>r-8))%256==0?255:1],t=a>>1,\n\ni=(5*t&t>>7|3*t&4*t>>10),ttt=tt,tt=t,t=ttt,o=5*t&t>>7|3*t&4*t>>10,d=[i,o],f=[t,tt],\n\nf //change to d to hear an example song with distortion",
+    "author": "Chasyxx",
+    "name": "destabilizer",
+    "description": "A system that makes t a bit unstable. Set the max zoom.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/112iate/destabilizer/",
+    "date": "2023-02-15",
+    "sampleRate": 8000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "drawing": {
+      "mode": "Waveform",
+      "scale": "0"
+    },
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-26"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/db82422b668584ee34047d82e01d4e0f.js",
+  "title": "Send in the Clowns (if that makes it stop) ",
+  "author": "GolezTrol",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bce43403c17502fd7e4098012f18b7c4586be5c293c615c37c102fb9a899e025",
+  "upstream": {
+    "hash": "db82422b668584ee34047d82e01d4e0f",
+    "codeMinLen": 48,
+    "codeMin": "t>>4|(t>>12)+(222&t*(1+(7685152>>(t>>12)&15)/8))",
+    "codeLen": 50,
+    "code": "t>>4|(t>>12)+(222&(t*(1+(7685152>>(t>>12)&15)/8)))",
+    "author": "GolezTrol",
+    "name": "Send in the Clowns (if that makes it stop) ",
+    "description": "Lovebyte 2022 competition.",
+    "url": "https://demozoo.org/music/305278/",
+    "date": "2022-02-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

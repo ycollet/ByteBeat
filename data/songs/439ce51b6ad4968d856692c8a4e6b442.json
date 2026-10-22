@@ -1,0 +1,33 @@
+{
+  "file": "songs/439ce51b6ad4968d856692c8a4e6b442.js",
+  "title": "cool music",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 10500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "200471dc62dadf39e5515b23964791b63db2d3f96477fa1b0968ef82d965f1b4",
+  "upstream": {
+    "hash": "439ce51b6ad4968d856692c8a4e6b442",
+    "codeMinLen": 162,
+    "codeMin": "a=t*[1,1.2,1.35,1.5][3&t>>14]>>2,(a%63+a%64+(4E4/(t&4095)&64)+(t*sin(t>>2)*(1&t>>12)&-t>>6&63)+(t*2*[1,1,1,,.9,,1,1,1,,.9,,1.2,,t&16384?1.35:1][15&t>>10]&63))/1.5",
+    "codeLen": 167,
+    "code": "a=t*[1,1.2,1.35,1.5][3&t>>14]>>2,((a%63+a%64)+(4e4/(t&2**12-1)&64)+(t*sin(t>>2)*(1&t>>12)&-t>>6&63)+(t*2*[1,1,1,,.9,,1,1,1,,.9,,1.2,,t&16384?1.35:1][15&t>>10]&63))/1.5",
+    "author": "rubi",
+    "name": "cool music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14l697q/cool_music/",
+    "date": "2023-06-28",
+    "sampleRate": 10500,
+    "remix": [
+      {
+        "hash": "bbedaa205af3cb6c17443a494b0db102",
+        "author": "rubi",
+        "name": "his name gort",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14k9idd/his_name_gort/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

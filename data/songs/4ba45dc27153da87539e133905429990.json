@@ -1,0 +1,26 @@
+{
+  "file": "songs/4ba45dc27153da87539e133905429990.js",
+  "title": "why do i keep making this",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 70997,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c52ecd52e3c74a36cd22e04ac39b921ab1ed402672a61df295a98519651dcfd9",
+  "upstream": {
+    "hash": "4ba45dc27153da87539e133905429990",
+    "codeMinLen": 162,
+    "codeMin": "T=.236,a=k=>32*abs(cbrt(sin(t*PI/128*T*2**(k[t>>17&3]/12)))),(t/2*T*2**([7,2,4,0][t>>17&3]/12)*((t>>14&1)+2)&63)+a([7,6,7,12.1])+a([11,9,4,0])+a([18.95,18,16,16])",
+    "codeLen": 246,
+    "code": "T=.236,(t/2*T*2**([7,2,4,0][t>>17&3]/12)*((t>>14&1)+2)&63)+(abs(cbrt(sin(t*PI/128*T*2**([7,6,7,12.1][t>>17&3]/12))))*32)+(abs(cbrt(sin(t*PI/128*T*2**([11,9,4,0][t>>17&3]/12))))*32)+(abs(cbrt(sin(t*PI/128*T*2**([18.95,18,16,16][t>>17&3]/12))))*32)",
+    "author": "Decent-Manager-6169",
+    "name": "why do i keep making this",
+    "url": "https://dollchan.net/btb/res/520.html#737",
+    "date": "2023-03-31",
+    "sampleRate": 70997,
+    "coverName": "Forever Bound - Stereo Madness",
+    "coverUrl": "https://youtu.be/JhKyKEDxo8Q",
+    "tags": [
+      "256"
+    ]
+  }
+}

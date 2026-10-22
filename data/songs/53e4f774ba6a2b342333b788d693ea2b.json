@@ -1,0 +1,26 @@
+{
+  "file": "songs/53e4f774ba6a2b342333b788d693ea2b.js",
+  "title": "cave",
+  "author": "Weird_Arg2",
+  "mode": "Floatbeat",
+  "rate": 100000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "eebf44cd2d4c9f98459902b2d6aa4e8b2d7410f82cf920071d828a3eb946560e",
+  "upstream": {
+    "hash": "53e4f774ba6a2b342333b788d693ea2b",
+    "codeMinLen": 160,
+    "codeMin": "c=cos,r=x=>(t?0:a=Array(12288).fill(0),b=x+a.shift(),a.push(b/2),b),r((c(t/194)+c(t/192)+c(t/190)+c(t/195)+c(t/69)+c(t/78)+c(t/84)+c(t/86)+c(t/128)+c(t/153))/8)",
+    "codeLen": 174,
+    "code": "r=x=>(t?0:a=Array(12288).fill(0),b=x+a.shift(),a.push(b/2),b),r((cos(t/194)+cos(t/192)+cos(t/190)+cos(t/195)+cos(t/69)+cos(t/78)+cos(t/84)+cos(t/86)+cos(t/128)+cos(t/153))/8)",
+    "author": "Weird_Arg2",
+    "name": "cave",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14zo4ms/uhhh_cave/",
+    "date": "2023-07-14",
+    "mode": "Floatbeat",
+    "sampleRate": 100000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-22"
+  }
+}

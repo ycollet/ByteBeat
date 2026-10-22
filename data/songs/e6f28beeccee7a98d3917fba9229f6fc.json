@@ -1,0 +1,36 @@
+{
+  "file": "songs/e6f28beeccee7a98d3917fba9229f6fc.js",
+  "title": "no limit basic",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0fd758bae0636f3faf9c163aa386fb6a5830a81dd92dc6239b5604f850a6d8a0",
+  "upstream": {
+    "hash": "e6f28beeccee7a98d3917fba9229f6fc",
+    "codeMinLen": 41,
+    "codeMin": "t*(t>>17&1?t>>16&1?24:21:16)>>4|t>>6^t>>8",
+    "codeLen": 45,
+    "code": "(t*(t>>17&1?t>>16&1?24:21:16)/16)|(t>>6^t>>8)",
+    "author": "Chasyxx",
+    "name": "no limit basic",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ab6j79/no_limit_basic/",
+    "date": "2024-01-26",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "df1cc10c791217d7dc75b5950f75253b",
+        "author": "ryg",
+        "name": "another take on simplifying mu6k's thing",
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=10#c388986",
+          "https://youtu.be/tCRPUv8V22ot=394"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

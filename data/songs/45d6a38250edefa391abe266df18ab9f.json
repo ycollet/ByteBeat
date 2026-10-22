@@ -1,0 +1,27 @@
+{
+  "file": "songs/45d6a38250edefa391abe266df18ab9f.js",
+  "title": "tempotacular!!!",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/45d6a38250edefa391abe266df18ab9f.js",
+  "sha256": "2fc1af15b5b489815db359691a89bbaa3d7ee4084585ed8462c3e6ab0c3cc078",
+  "upstream": {
+    "hash": "45d6a38250edefa391abe266df18ab9f",
+    "codeMinLen": 562,
+    "codeLen": 564,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?a=a+(b=max((589824-a)/65536,1))+[0,0,1,3,5,-1,-3,-5][i]/20:b=a=0,c=z=>2**(z/12),d=z=>2*32**z**.5&63,e=z=>d(sin(h/PI*b/z))/3,f=c(((a>>16)+2&6)-2),g=z=>t*f/7.5*c(z)&31,h=[t,a][!(i=a>>19)&1],j=d(sin(t/11*c([0,3,5,7,12,15,18][a>>10+(a>>11&6)&7]))),k=d(sin(2048/(a%(l=2**14))**.05)),m=e(32)-e(8/f)-e(6/f),n=2*(g(0)+g(4)+g(7))/3,o=16*(1-a%l/l)*sin((t>>2)**3)*(a>>14&1),p=t/30*f*c('0+($    74+('.charCodeAt(a>>11&11)+.5)&24,min(!(i>>3)*((a>>14&31)-(i==7)!=31?[3*e(32)-k,q=m+j-k,q+=n,q-=o,q-p,q-m+k/2-p,m+j-k/2-p,2*j/3",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "tempotacular!!!",
+    "description": "This is one of the more unique ones because the BPM changes throughout the song. Also got a decently complex melody.",
+    "url": "https://dollchan.net/btb/res/44.html#66",
+    "date": "2022-05-14",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

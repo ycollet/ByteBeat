@@ -1,0 +1,24 @@
+{
+  "file": "songs/8514806b3b294aa56ef20becf5270dcb.js",
+  "title": "Extraordinary thread of FRACTAL MUSIC",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7e7a02fca9aaca248cf62acabc0bb13df4756bcaa21c96ef21fcc4d0bb164ba9",
+  "upstream": {
+    "hash": "8514806b3b294aa56ef20becf5270dcb",
+    "codeMinLen": 49,
+    "codeMin": "t*t/1E4%100|t%29+t%46+t%((t>>14)%2?34:43)+t%17<<1",
+    "codeLen": 59,
+    "code": "(t*t/10000)%100|((t%29+t%46+t%((t>>14)%2?34:43))+(t%17))<<1",
+    "author": "Anonymous from russian imageboards",
+    "name": "Extraordinary thread of FRACTAL MUSIC",
+    "url": "http://arhivach.xyz/thread/28592/#71681647",
+    "date": "2014-07-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

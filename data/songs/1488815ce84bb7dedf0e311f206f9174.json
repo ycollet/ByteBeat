@@ -1,0 +1,27 @@
+{
+  "file": "songs/1488815ce84bb7dedf0e311f206f9174.js",
+  "title": "melody of \"Creating music in one line of C code\" by Bisqwit",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e76ce17ce9661033e1d20ff6aba06547449eb52acfc05690b04e6634632f3c0d",
+  "upstream": {
+    "hash": "1488815ce84bb7dedf0e311f206f9174",
+    "codeMinLen": 267,
+    "codeMin": "r=1.18*t,s=d=>(d&15)*(-d&15)*(((d&16)>>3)-1)/192*(1-r%8192/8E3),p=t/2.82*2**([0,,12,,0,,12,,10,,9,,7,,9,10,12,,5,,5,,12,10,9,,7,,0,,,,10,,10,9,7,,9,10,12,,5,,5,,5,9,7,,7,-12,0,,-10,-8,5,,0,,-7][63&r>>13]/12),s(p)+s(p/2)+random(t**2.5)/3*'1011'[3&r>>13]*(1-r%8192/8E3)",
+    "codeLen": 279,
+    "code": "r=t*1.18,snm=d=>(d&15)*(-d&15)*(((d&16)>>3)-1)/192*(1-r%8192/8e3),p=t/2.82*2**(([0,,12,,0,,12,,10,,9,,7,,9,10,12,,5,,5,,12,10,9,,7,,0,,,,10,,10,9,7,,9,10,12,,5,,5,,5,9,7,,7,-12,0,,-10,-8,5,,0,,-7][63&r>>13])/12),\n(snm(p)+snm(p/2))+\nrandom(t**2.5)/3*'1011'[3&r>>13]*(1-r%8192/8e3)",
+    "author": "Zackx",
+    "name": "melody of \"Creating music in one line of C code\" by Bisqwit",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12uichk/cover_of_creating_music_in_one_line_of_c_code_on/",
+    "date": "2023-04-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Bisqwit - Creating music in one line of C code",
+    "coverUrl": "https://youtu.be/L9KLnN0GczI",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/471873759d8ec55f91db4bd1235f55c2.js",
+  "title": "Song by Gabriel Miceli",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a07ba3acf6bef4bf84c63e5eedd541878e4fb7d90c82dafcc8572853eaf080e6",
+  "upstream": {
+    "hash": "471873759d8ec55f91db4bd1235f55c2",
+    "codeLen": 24,
+    "code": "(t&t+t/256)-t*(t>>15)&64",
+    "author": "Gabriel Miceli",
+    "name": "Song by Gabriel Miceli",
+    "url": "https://youtu.be/V4GfkFbDojc?t=508",
+    "date": "2016-07-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "songs/c1deb0ea300eef94f67f5a0498b5af14.js",
+  "title": "Convolutional Reverb",
+  "author": "May_I_Change_My_Name",
+  "mode": "Signed Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c1deb0ea300eef94f67f5a0498b5af14.js",
+  "sha256": "0cfa8594887a709bd14ccc5c127694d0bcbeb2b5b92abc4429e8b0832255d569",
+  "upstream": {
+    "hash": "c1deb0ea300eef94f67f5a0498b5af14",
+    "codeLen": 17744,
+    "fileOrig": 1,
+    "codeText": "t||(lKernel=unescape(escape`䁿䀅䃺䀅䃺䀅䃺䀄䃻䀄䃼䀃䃼䀂䃽䀂䃾䀁䃾䀀䃿䀀䃿䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䀀䀀䀀䀀䀀䃿䀀䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䀀䃿䀀䀀䃿䀀䃿䀀䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀂䀂䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀂䀂䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀀䃿䀀䃿䃿䀀䃿䀀䃿䀀䃿䀀䃿䀁䀃䃿䀀䃿䀀䃿䀀䀀䃿䀀䃿䀁䃾䃿䀀䃿䃿䀀䃿䀀䃿䀀䃿䀀䃾䃼䀀䀀䃿䀀䃿䀀䀃䀀䃿䀀䃿䀀䃿䀀䃾䃼䀀䃿䀀䃿䀃䀁䃿䀀䃿䃿䀀䃿䃼䀀䃼䃿䀀䃿䀀䃿䀀䃿䀁䃾䃽䃾䃽䀂䃿䀀䃿䀀䀀䃿䀀䃿䀂䃽䃿䃾䃿䀀䃿䃼䃿䀁䃼䃾䃿䀀䃿䀁䃽䃽䃿䀀䀁䃿䃿䀀䃽䃽䀁䃿䀁䃽䃽䀀䃿䀀䃾䃿䀀䃿䀀䃼䃾䀀䀀䃿䃿䀂䃺䃼䃿䃿䀀䃿䀀䃽䃽䀁䃽䀁䀁䃾䃾䃺䃿䀃䃾䃽䀀䃽䀁䃿䀀䀀䃾䀄䀁䀃䃽䀀䃽䃽䀀",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Convolutional Reverb",
+    "description": "Applying reverb by convolution with the kernel (the unit impulse response of MuLab's \"Large Room\" effect module).",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fd2gos/comment/lmcswra/",
+    "date": "2024-09-10",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 11025,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "cceda2c8d6a91b6eaec11928c7a71c1d",
+        "author": "PortablePorcelain",
+        "name": "Doom E1M1 theme recreation",
+        "url": "https://dollchan.net/btb/res/55.html#55"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-24"
+  }
+}

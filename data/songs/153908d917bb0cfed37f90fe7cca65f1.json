@@ -1,0 +1,26 @@
+{
+  "file": "songs/153908d917bb0cfed37f90fe7cca65f1.js",
+  "title": "sparta remix chord progression",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "13d41fce1df212ddd4c08e7c3a95c60eb5700cd4863cf8392ed7139d1f084998",
+  "upstream": {
+    "hash": "153908d917bb0cfed37f90fe7cca65f1",
+    "codeMinLen": 84,
+    "codeMin": "[a,b,c]=['259','37A','037','37A'][t>>15&3],p=x=>t*2**(++x/12)%64,p(a)+p(b)+p('0x'+c)",
+    "codeLen": 128,
+    "code": "seq=[[2,5,9],[3,7,10],[0,3,7],[3,7,10]][t>>15&3],f=(a,b,c)=>(p=(a,b)=>(a*2**((b+1)/12)),p(t,a)%64+p(t,b)%64+p(t,c)%64),f(...seq)",
+    "author": "PortablePorcelain",
+    "name": "sparta remix chord progression",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11kp8bu/128char_sparta_remix_chord_progression/",
+    "date": "2023-03-07",
+    "sampleRate": 32000,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "file": "songs/50f1edd0b214c351046375451ae0e4bb.js",
+  "title": "Useless1",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35280,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f4a04692baed02cab4a7ec182fe54287db04f87de2d5f6134ce3bb0c46002518",
+  "upstream": {
+    "hash": "50f1edd0b214c351046375451ae0e4bb",
+    "codeLen": 235,
+    "code": "(t?0:Reverb=Array(12288).fill(0),Reverb2=(\"12132210\"[t*3.5*2**([-8,-5,2,4,7,14,7,4,2,-5,-8,-5,2,4,7,14,-10,-6,1,2,6,13,6,2,1,-6,-10,-6,1,2,6,13][t>>13&31]/12)>>5&7]/'34567777'[t>>10&7])+Reverb.shift(),Reverb.push(Reverb2/2),Reverb2)*96",
+    "author": "Decent-Manager-6169",
+    "name": "Useless1",
+    "url": "https://dollchan.net/btb/res/520.html#2612",
+    "date": "2023-11-09",
+    "sampleRate": 35280,
+    "tags": [
+      "256"
+    ]
+  }
+}

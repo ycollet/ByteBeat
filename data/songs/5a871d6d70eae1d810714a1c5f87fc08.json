@@ -1,0 +1,26 @@
+{
+  "file": "songs/5a871d6d70eae1d810714a1c5f87fc08.js",
+  "title": "Distorted metallic delay matrix",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5a871d6d70eae1d810714a1c5f87fc08.js",
+  "sha256": "d6d22753c6024aba41506107adec638d71bd198141858b65946bb4e3d33ea70e",
+  "upstream": {
+    "hash": "5a871d6d70eae1d810714a1c5f87fc08",
+    "codeLen": 2324,
+    "fileOrig": 1,
+    "codeText": "SR=32e3;TAU=PI*2;\nmod=(n,m)=>(n%m+m)%m;\nclamp=(x,mn,mx)=>min(max(x,mn),mx);\nmix=(a,b,t)=>a+(b-a)*t;\nmakeArray=(n,v,norm=false)=>Array.from({length:n},(_,i)=>typeof v===\"function\"?v(norm?i/n:i):v);\nclass Delay{\n constructor(maxLen=SR,feedback=.9){\n  maxLen=max(0,floor(maxLen))+1;",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "Distorted metallic delay matrix",
+    "url": "https://dollchan.net/btb/res/3.html#13494",
+    "date": "2026-03-22",
+    "mode": "Funcbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-18"
+  }
+}

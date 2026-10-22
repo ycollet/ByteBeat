@@ -1,0 +1,30 @@
+{
+  "file": "songs/89b2fca2b37ebdf919d4195c714d3fc9.js",
+  "title": "I've refined my tools",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/89b2fca2b37ebdf919d4195c714d3fc9.js",
+  "sha256": "c3107fbc67842058a8a67d015e4d9308eb0e1d30289c01cff96fe4fdedc260a2",
+  "upstream": {
+    "hash": "89b2fca2b37ebdf919d4195c714d3fc9",
+    "codeMinLen": 1011,
+    "codeLen": 1276,
+    "codeFormLen": 1563,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "s=sin(t>>5),h=1&t,t*=.18,rpt=(beats,fill)=>Array(beats).fill(fill),beat=(arr,len,spd,vel=2e4,morph=t,oct=0)=>(vel/(morph&(2**(spd-oct)/(arr[(t>>spd)%len]))-1)),mix=(x,vol,dist=0)=>(x*vol*(1+dist))%(256*vol),m=(x,v,d)=>isNaN(mix(x,v,d))?0:mix(x,v,d),seq=(arr,len,spd)=>arr[(t>>spd)%len],mseq=(arr,len,spd,transp=0)=>t*1.05946**(transp+seq(arr,len,spd)),p=[4,9,4.5,7.5],q=[1,,,,,1,,1],q2=[1,h,s,h,h,2,s,h],mel=[0,0,7,8,7,0,3,5,7,5,3,5,2,3,2,5],mel2=[3,3,2,2,0,0,5,-2],bass=[8,5,0,10],lead1=m(mseq(mel,16,11)&beat([",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "I've refined my tools",
+    "url": "https://www.reddit.com/r/bytebeat/comments/107yrts/ive_refined_my_tools/",
+    "date": "2023-01-10",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-07"
+  }
+}

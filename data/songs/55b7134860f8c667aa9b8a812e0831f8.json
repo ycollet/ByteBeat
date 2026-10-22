@@ -1,0 +1,26 @@
+{
+  "file": "songs/55b7134860f8c667aa9b8a812e0831f8.js",
+  "title": "\"credits song for my death\" remake",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 72000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "16fa786c7aa0b239890dd344cb45add64421178bc33579fe2f8d22b748c7bfee",
+  "upstream": {
+    "hash": "55b7134860f8c667aa9b8a812e0831f8",
+    "codeMinLen": 172,
+    "codeMin": "r=24576,a=t=>abs((.875*t*2**([1,5,12,1,5,12,10,8,0,4,10,0,4,10,13,12,5,8,15,5,8,15,13,12,3,7,13,3,13,12,10,12][(t>>14)%32]/12)&255)-128)&255,(a(t)-.5&224)+(a(t-r)-.5&224)/2",
+    "codeLen": 177,
+    "code": "r=24576,a=t=>(abs((t*0.875*2**([1,5,12,1,5,12,10,8,0,4,10,0,4,10,13,12,5,8,15,5,8,15,13,12,3,7,13,3,13,12,10,12][(t>>14)%32]/12)&255)-128)&255),(a(t)-0.5&224)+(a(t-r)-0.5&224)/2",
+    "author": "ChrisRM380",
+    "name": "\"credits song for my death\" remake",
+    "url": "https://dollchan.net/btb/res/368.html#3241",
+    "date": "2024-04-04",
+    "sampleRate": 72000,
+    "coverName": "vivivivivi - song for my death",
+    "coverUrl": "https://youtu.be/urxeNbBc1nk",
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/139b4f0e09e091802bf520a51e4e4c15.js",
+  "title": "Paradigm Contacter",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e3afa911231d60e536cbe4e01761222bedc05cee76bbd2808a9216e6667da592",
+  "upstream": {
+    "hash": "139b4f0e09e091802bf520a51e4e4c15",
+    "codeMinLen": 342,
+    "codeMin": "(f=((l=(r=t%2**20)%2**14)>>13&1)+(31==r%2**19>>14))?0:x=y=0,z=(((x=x/1.001-l)/4&(l|x)+l*(4!=r>>17)*(r>2**16))+(r>2**17)*(y=y+l&l>>5)^64*x/r*y>>1&127*(196608<r)*(2!=r>>18))+(r>2**18)*(x>>(4+4*(s=r>>17&1))*y>>5+s),((r>2**18)-(47==r>>14)?f?x/(1-s/1024)|y/2:z:15==r%2**19>>14?n*q:z)^(t>r)*(0==r>>13)*(n=l*l/sqrt(l)%1)*((q=(~r+128>>6)%128+191)-63)",
+    "codeLen": 346,
+    "code": "(f=((l=(r=t%2**20)%2**14)>>13&1)+(r%2**19>>14==31))?0:x=y=0,z=(((x=x/1.001-l)/4&(l|x)+l*(r>>17!=4)*(r>2**16))+(r>2**17)*(y=y+l&l>>5)^64*x/r*y>>1&127*(r>196608)*(r>>18!=2))+(r>2**18)*(x>>(4+4*(s=r>>17&1))*y>>(5+s)),((r>2**18)-(r>>14==47)?f?x/(1-s/1024)|y/2:z:r%2**19>>14==15?n*q:z)^(t>r)*(r>>13==0)*(n=l*l/sqrt(l)%1)*((q=((~r+128>>6)%128+191))-63)",
+    "author": "lhphr",
+    "name": "Paradigm Contacter",
+    "description": "This doesn't work properly on the Greggman page or the Paul Hayes page, so this formula can probably be used to test a bytebeat player's accuracy and efficiency.",
+    "url": "https://dollchan.net/btb/res/44.html#53",
+    "date": "2022-04-23",
+    "sampleRate": 11025,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

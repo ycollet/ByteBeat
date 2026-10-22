@@ -1,0 +1,37 @@
+{
+  "file": "songs/c4c4a76c6439ec637f99b2b148f15d85.js",
+  "title": "accurate chords of bee.",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2f5837f137080bf2babf73310e25ece08ba50c917b1d33e90178d456d86aa64f",
+  "upstream": {
+    "hash": "c4c4a76c6439ec637f99b2b148f15d85",
+    "codeMinLen": 451,
+    "codeMin": "n=1.02,A1=t*n/4*2**([12,12,,,,,12,12,5,5,,,,,5,7,10,10,,,,,9,9,7,7,,,,,7,7][t>>12&31]/12)&64,a=b=>(t*n*2**(b[t>>15&3]/12-1)&64)*'00101000'[t>>12&7],A2=a([12,12,10,14])+a([15,15,14,17])+a([19,17,17,19])+a([22,21,21,22]),A1+A2,H=t*'101011111011111'[t>>12&15]*(-t>>11&1)*random()&31&-t>>6,Cb=(cbrt(sin(t/'111122244124412'[t>>12&15]*n*PI/8.2*2**('18'[t&1]/12)))*64+64&255)*(-t>>3&255)*'001010010111011'[t>>12&15]*(-t>>11&1)>>10,A1*1.5+A2/1.5+Cb*1.5+H*1.25",
+    "codeLen": 457,
+    "code": "n=1.02,\nA1=t*n/4*2**([12,12,,,,,12,12,5,5,,,,,5,7,10,10,,,,,9,9,7,7,,,,,7,7][t>>12&31]/12)&64,a=a=>(t*n*2**(a[t>>15&3]/12-1)&64)*'00101000'[t>>12&7],A2=a([12,12,10,14])+a([15,15,14,17])+a([19,17,17,19])+a([22,21,21,22]),A1+A2,\n\nH=t*'101011111011111'[t>>12&15]*(-t>>11&1)*random()&31&-t>>6,\n\nCb=(cbrt(sin(t/'111122244124412'[t>>12&15]*n*PI/8.2*2**('18'[t&1]/12)))*64+64&255)*(-t>>3&255)*'001010010111011'[t>>12&15]*(-t>>11&1)>>10,\nA1*1.5+A2/1.5+Cb*1.5+H*1.25",
+    "author": "PrincessPriscillaPT",
+    "name": "accurate chords of bee.",
+    "url": [
+      "https://dollchan.net/btb/res/520.html#6028",
+      "https://dollchan.net/btb/res/7164.html#7365"
+    ],
+    "date": "2025-04-27",
+    "sampleRate": 32768,
+    "remix": [
+      {
+        "hash": "fa66ca88d08469f7e82e94932a4c5843",
+        "author": "Decent-Manager-6169",
+        "name": "bee.",
+        "url": "https://dollchan.net/btb/res/520.html#5993"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-11",
+    "date_edited": "2025-11-13"
+  }
+}

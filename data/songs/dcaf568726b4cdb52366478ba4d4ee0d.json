@@ -1,0 +1,28 @@
+{
+  "file": "songs/dcaf568726b4cdb52366478ba4d4ee0d.js",
+  "title": "Niarix Visions",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dcaf568726b4cdb52366478ba4d4ee0d.js",
+  "sha256": "fbd729ad7c26a61fa25e79d7c109276407e71668a59139798b8ccce5290db52f",
+  "upstream": {
+    "hash": "dcaf568726b4cdb52366478ba4d4ee0d",
+    "codeLen": 819,
+    "fileOrig": 1,
+    "codeText": "t?0:d=Array(w=3*(u=4096)).fill(v=y=0),t%=2**23,Y=t/u,s=sin,c=(x,y,z)=>t*2**(y[Y>>4&7]/12+z)%16>8+4*s(t*PI/x),e=(y,z=0)=>!(z&&z-1)*c(16*u,'22572253',y-6)+!z*(c(14*u,'00260021',y-5.5)+c(3*w,'33693364',y-5.5)),h=!!(~Y>>3&15),b=Y>>4&2,x=b/b&&43-max(t/2/u%32,31),l=12,m=10+b,n=m+b,o='030-3-5-8-l-8-5-0-353-0-5-m-nxxx'[Y&31],y+=(z=2**((+o+2||this[o])/12))*(~t>>11&1||Y%64>61)||-y,v+=z||-v,B=y&32^y/2.01&32,F=y/2.02&16,a=[0,A=y/2%32,2*A+h*(B-A),A+B-F,A^B-F,(h?y:v)/2&48,I=v/2&32,I+F,I+h*(F-B),k=I+B-F,k-y%32,I+h*(A+F),B",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "Niarix Visions",
+    "description": "Rather complicated with it containing pitch sliding and an unique method of approaching the melody via accessing the this variable.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/142alfa/niarix_visions/",
+      "https://dollchan.net/btb/res/44.html#1367"
+    ],
+    "date": "2023-05-31",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

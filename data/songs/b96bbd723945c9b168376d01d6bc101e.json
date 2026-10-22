@@ -1,0 +1,32 @@
+{
+  "file": "songs/b96bbd723945c9b168376d01d6bc101e.js",
+  "title": "Ito ang 24 oras",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b96bbd723945c9b168376d01d6bc101e.js",
+  "sha256": "293e1a8a85d482431a7af8ae75ad3361d154d238c0fba5de14544f3d808cf455",
+  "upstream": {
+    "hash": "b96bbd723945c9b168376d01d6bc101e",
+    "codeLen": 866,
+    "fileOrig": 1,
+    "codeText": "v=22050/32000,v1=1.05,c=1.047*v*v1,cs=1.107*v*v1,d=1.173*v*v1,ds=1.243*v*v1,e=1.318*v*v1,f=1.392*v*v1,fs=1.476*v*v1,g=1.571*v*v1,gs=1.656*v*v1,a=1.755*v*v1,as=1.862*v*v1,b=1.978*v*v1,t*=v,t*=32e3/22050,t%=622592,t==0&&(fird=[],secd=[]),first=[c,0,0,c,0,0,0,c,d,0,0,d,0,0,0,d,ds,0,0,ds,0,0,0,ds,f,0,f,0,g,0,g],second=[0,0,ds,d,ds,ds,g,g,f,f,f,ds,ds,ds,d,d,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds,ds],third=[0,0,fs,f,fs,fs,as,as,gs,gs,gs,fs,fs,fs,f,f,gs,gs,gs,gs,gs,gs,gs,b,as,as,as,gs,gs,gs,fs,fs],forth=[f,f",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "Ito ang 24 oras",
+    "url": "https://dollchan.net/btb/res/163.html#825",
+    "date": "2023-04-13",
+    "sampleRate": 22050,
+    "remix": [
+      {
+        "hash": "2d01a0c4c5b52764077f5dde46fb7026",
+        "author": "hcdphobe",
+        "name": "short melody of 24 oras",
+        "url": "https://www.reddit.com/r/bytebeat/comments/vrn5o6/short_melody_of_24_oras/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

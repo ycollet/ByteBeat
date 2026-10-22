@@ -1,0 +1,25 @@
+{
+  "file": "songs/d08030ccb98963085c28fea702966c31.js",
+  "title": "uhhh",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d910760db3c4ebc995e4b8e228aeeb8a5a04f92566d9734d97a9ff8d78d2dc1a",
+  "upstream": {
+    "hash": "d08030ccb98963085c28fea702966c31",
+    "codeMinLen": 60,
+    "codeMin": "((t*((79>>(t>>12)%8&15)+1)/4|t/32)&t/32-(t>>18)%2+64)-t/32+1",
+    "codeLen": 64,
+    "code": "(((t*((79>>((t>>12)%8)&15)+1)/4)|t/32)&t/32+64-(t>>18)%2)-t/32+1",
+    "author": "D3nschøt",
+    "name": "uhhh",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bzgldb/uhhh/",
+    "date": "2024-04-09",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

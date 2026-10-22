@@ -1,0 +1,32 @@
+{
+  "file": "songs/47f18d6bd134cbb7755e9d88cde867f1.js",
+  "title": "Boss level #5",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "304b07687f1ce595b80258c34078bddf32cf0c681389c1324c7fe7e2ae987e30",
+  "upstream": {
+    "hash": "47f18d6bd134cbb7755e9d88cde867f1",
+    "codeLen": 44,
+    "code": "t*(t&16384?7:5)*(1+(3&t>>10))>>(3&t>>8)|t>>2",
+    "author": "SthephanShi",
+    "name": "Boss level #5",
+    "description": "With (1+(3&t>>10)) expression and t>>2 rhythm.",
+    "url": "https://dollchan.net/de/res/706.html#707",
+    "date": "2019-01-12",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "d2e984ebb4e1d7c1c004be2fc74feccb",
+        "author": "SthephanShi",
+        "name": "Boss level #2",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

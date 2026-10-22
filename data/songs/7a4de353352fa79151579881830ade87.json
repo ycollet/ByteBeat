@@ -1,0 +1,24 @@
+{
+  "file": "songs/7a4de353352fa79151579881830ade87.js",
+  "title": "tuned_phase time_modulation",
+  "author": "argarak",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/formatted/7a4de353352fa79151579881830ade87.js",
+  "sha256": "e5ec92a2fe4d522e451e3856fdee7ed4dd91556905030e11b2adaf8e1c412f18",
+  "upstream": {
+    "hash": "7a4de353352fa79151579881830ade87",
+    "codeFormLen": 3111,
+    "fileForm": 1,
+    "codeText": "/*\n * tuned_phase time_modulation\n * by argarak\n * adapted for bytebeat players by SthephanShi\n */\n\ndc = 128,\ndecreaseAmount = 20,",
+    "isTruncated": 1,
+    "author": "argarak",
+    "name": "tuned_phase time_modulation",
+    "url": "https://battleofthebits.com/arena/Entry/tuned_phase+time_modulation/34772/",
+    "date": "2020-05-10",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

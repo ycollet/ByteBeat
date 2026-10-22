@@ -1,0 +1,38 @@
+{
+  "file": "songs/acd5855317e44eef75bec0a0b2434eb2.js",
+  "title": "neurobreakcore",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c1b6912b0f3b999454b9679c534fc0f1dacf2f1128854d3f39940d6a9f062244",
+  "upstream": {
+    "hash": "acd5855317e44eef75bec0a0b2434eb2",
+    "codeMinLen": 283,
+    "codeMin": "l=t/4,(l*((l&4096?59392>l%65536?7:l&7:16)+(1&l>>14))>>(3&-l>>(l&2048?2:10))|l>>(l&16384?l&4096?10:3:2))%256/2.5+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13])/1.25",
+    "codeLen": 287,
+    "code": "l=t/4,(l*((l&4096?59392>l%65536?7:l&7:16)+(1&l>>14))>>(3&-l>>(l&2048?2:10))|l>>(l&16384?l&4096?10:3:2))%256/2.5+(((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/24e3)*'00100101'[7&t>>13])/1.25",
+    "author": "Zackx",
+    "name": "neurobreakcore",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12vt718/list_of_my_creatorremixes_2/",
+    "date": "2023-04-23",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

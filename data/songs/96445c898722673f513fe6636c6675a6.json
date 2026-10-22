@@ -1,0 +1,39 @@
+{
+  "file": "songs/96445c898722673f513fe6636c6675a6.js",
+  "title": "pulsar update (stereo + better detune)",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/96445c898722673f513fe6636c6675a6.js",
+  "sha256": "10f545fb78b4bd31730703b287944bf9118f1930805f4e953c1f49da01fac240",
+  "upstream": {
+    "hash": "96445c898722673f513fe6636c6675a6",
+    "codeMinLen": 796,
+    "codeLen": 893,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "a=385,k=1.8,tempo=48,echo=24,delay=.35,fdbk=.9,mix=.5,det=1e-2,t!=0?0:(fd=fdbk,e=echo,m=1+fd*(pow(fd,e)-1)/(fd-1)*mix,fq=Array(e).fill(0).map(_=>a*pow(2,det*(2*random()-1))),tk=t=>(pow(2,k-1)*sign((t/384e3+.5)%1-.5)*pow(abs((t/384e3+.5)%1-.5),k)+round(t/384e3))*tempo,fr=(b,x)=>b*pow(2,(x-69)/12),s=x=>sin(2*PI*x),w=x=>s(x)+.15*s(2*x)+.1*s(3*x)+.03*s(4*x)+.02*s(5*x)+.008*s(6*x)+.003*s(8*x),v=x=>x/pow(x,x)*min(3-x,1),f=(b,tm)=>w(fr(b,[68,61,...n[floor(tk(tm)/84)%n.length],71,63][floor(tk(tm))%7])*tm/48e3)*v(3*",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "pulsar update (stereo + better detune)",
+    "url": "https://dollchan.net/btb/res/3.html#7461",
+    "date": "2025-06-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "bb16ae4690793dc719405cf071608b6e",
+        "author": "luna197",
+        "name": "pulsar",
+        "url": "https://battleofthebits.com/arena/Entry/pulsar/75362/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-12-22"
+  }
+}

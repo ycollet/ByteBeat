@@ -1,0 +1,1 @@
+sin(t*Math.PI/255+sin(t*Math.PI/128)*(t/(65536+(16384*Math.random()))))*64

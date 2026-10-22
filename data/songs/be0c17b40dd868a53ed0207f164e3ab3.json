@@ -1,0 +1,25 @@
+{
+  "file": "songs/be0c17b40dd868a53ed0207f164e3ab3.js",
+  "title": "CBRT-FILE R00TZ",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8a87707aed6bef99a8076f428053c709284e480f99ffc90e895dd1add34b05c9",
+  "upstream": {
+    "hash": "be0c17b40dd868a53ed0207f164e3ab3",
+    "codeMinLen": 306,
+    "codeMin": "l=t%2**20,n=l*l/PI%1,(l>>13)-31?1.5*(cbrt(6E7/(r='11141112'[l>>13&7])*(r*l&8191))&64)+(l>>13&1)*(l>2**17)*(l>>8*l&31)+(l>2**18)*(l*(m='45764586'[l>>15&7])*(5+1*'12357532'[l>>11&7])/20)%64+(l>2**19)*(16*sin((l<<r/2-1)*PI/15435*44*(1*m+3))+16)+(786432<l)*(l>>14&1)*((~l+256>>8)%64+63)*n:((~l+128>>7)%64+95)*n",
+    "codeLen": 324,
+    "code": "l=t%2**20,n=(l*l/Math.PI)%1,(l>>13)-31?((cbrt(6e7/(r='11141112'[l>>13&7])*(r*l&8191))&64)*1.5+(l>>13&1)*(l>2**17)*(l>>8*l&31)+(l>2**18)*(l*(m='45764586'[l>>15&7])*(5+1*'12357532'[l>>11&7])/20)%64)+(l>2**19)*(16*sin((l<<(r/2-1))*Math.PI/15435*44*(1*m+3))+16)+(l>786432)*((l>>14&1)*((~l+256>>8)%64+63)*n):((~l+128>>7)%64+95)*n",
+    "author": "lhphr",
+    "name": "CBRT-FILE R00TZ",
+    "description": "Sort of a proper song?",
+    "url": "https://dollchan.net/btb/res/44.html#50",
+    "date": "2022-04-22",
+    "sampleRate": 22050,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/6c37b5c02e3c7ef731bdbb869a65715b.js",
+  "title": "for every \"loop\" it slightly changes",
+  "author": "No_Half-d01-8875",
+  "mode": "Bytebeat",
+  "rate": 22550,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "aae2c217d2556dfc185c80fb76eccb8e0b92ad41af3871316753c6daab62fad8",
+  "upstream": {
+    "hash": "6c37b5c02e3c7ef731bdbb869a65715b",
+    "codeLen": 24,
+    "code": "-t%(-t>>(t&t>>12))&-t>>5",
+    "author": "No_Half-d01-8875",
+    "name": "for every \"loop\" it slightly changes",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bug17o/for_every_loop_it_slightly_changes/",
+    "date": "2024-04-03",
+    "sampleRate": 22550,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

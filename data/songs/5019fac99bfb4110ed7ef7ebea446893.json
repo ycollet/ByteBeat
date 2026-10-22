@@ -1,0 +1,25 @@
+{
+  "file": "songs/5019fac99bfb4110ed7ef7ebea446893.js",
+  "title": "a really long polyrythm in g major",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 65536,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9d50aee181d97282bb1dd79e8340d6d60e0da0ff5b005ef2f96a193be07838a7",
+  "upstream": {
+    "hash": "5019fac99bfb4110ed7ef7ebea446893",
+    "codeLen": 349,
+    "code": "t/=16,(a=(x,l)=>(8*t*2**(x/12)&128)*(-t/64*l/2&2047)/2E3/13)(0,32)+a(2,33)+a(4,34)+a(6,35)+a(7,36)+a(9,37)+a(11,38)+a(12,39)+a(14,40)+a(16,41)+a(18,42)+a(19,43)+a(21,44)+a(23,45)+a(24,46)+a(26,47)+a(28,48)+a(30,49)+a(31,50)+a(33,51)+a(35,52)+a(36,53)+a(38,54)+a(40,55)+a(42,56)+a(43,57)+a(45,58)+a(47,59)+a(48,60)+a(50,61)+a(52,62)+a(54,63)+a(55,64)",
+    "author": "ChrisRM380",
+    "name": "a really long polyrythm in g major",
+    "url": [
+      "https://dollchan.net/btb/res/368.html#3362",
+      "https://dollchan.net/btb/res/368.html#3402"
+    ],
+    "date": "2024-04-07",
+    "sampleRate": 65536,
+    "tags": [
+      "1k"
+    ]
+  }
+}

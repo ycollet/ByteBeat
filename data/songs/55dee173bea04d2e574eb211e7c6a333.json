@@ -1,0 +1,32 @@
+{
+  "file": "songs/55dee173bea04d2e574eb211e7c6a333.js",
+  "title": "Sylenth1 · \"001: ARP 303 Saw\" Preset Remake",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/55dee173bea04d2e574eb211e7c6a333.js",
+  "sha256": "99e4c14886e25e1935defb46b202334babb76adb3ed4b92b5bb102bfae03f895",
+  "upstream": {
+    "hash": "55dee173bea04d2e574eb211e7c6a333",
+    "codeLen": 1527,
+    "fileOrig": 1,
+    "codeText": "/* Sylenth1 · \"001: ARP 303 Saw\" Preset Remake */\n\n/* initializations */\nt||(m=0,fx=[],rfx=[],buf=[]),rfxi=0,fxi=0,dlyfxi=0,dMax=1e5,dt=t,\n\n/* filters */\nlp=(a,c)=>(\n\tlp_fxii=fxi++,",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Sylenth1 · \"001: ARP 303 Saw\" Preset Remake",
+    "description": "Updated on 2026/05/31",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/s/iNVDffQRQM",
+      "https://www.bytebeat.cloud/post/0b9cfa11-3186-4eb2-978e-41b0a2db429a"
+    ],
+    "date": "2026-04-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-04-04",
+    "date_edited": "2026-05-31"
+  }
+}

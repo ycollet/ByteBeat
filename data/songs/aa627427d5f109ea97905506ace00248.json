@@ -1,0 +1,34 @@
+{
+  "file": "songs/aa627427d5f109ea97905506ace00248.js",
+  "title": "First Snow",
+  "author": "eSlashMachine",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/aa627427d5f109ea97905506ace00248.js",
+  "sha256": "f8c6688fde0dc5a65d939dc27b79bc60d087e4788981a365d52883c35e93ecfb",
+  "upstream": {
+    "hash": "aa627427d5f109ea97905506ace00248",
+    "codeLen": 2978,
+    "codeFormLen": 3091,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 44100,\nBPM = 100,\nbeat = BPM * (t / SAMP_RATE) / 60,\ntick = floor(beat * 48) % 776,\n\nC = 261.63,\nDb = 277.18,\nD = 293.66,",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "First Snow",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h4e31q/i_tried_really_hard_on_this_omg_first_big_js/",
+    "date": "2024-12-01",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "640d0b6fb1a9c6e9bdab5965e486dab2",
+        "author": "Jimmyoshi",
+        "name": "damnit kf i have to do homework why'd you have to pick now to host a bytebeat ohb",
+        "url": "https://battleofthebits.com/arena/Entry/damnit+kf+i+have+to+do+homework+why%27d+you+have+to+pick+now+to+host+a+bytebeat+ohb+%5BPLAY+IN+22000+Hz+wow%5D.txt/17659/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

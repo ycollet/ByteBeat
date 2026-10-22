@@ -1,0 +1,27 @@
+{
+  "file": "songs/5aa0274666e377119759911ac2321e2b.js",
+  "title": "Infernal Rhythm",
+  "author": "Iwaku",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d35152892788aa848b1c8c41344dce1dcb5bf4814c8496345fed9b770652c690",
+  "upstream": {
+    "hash": "5aa0274666e377119759911ac2321e2b",
+    "codeLen": 156,
+    "code": "(t*1.4&t>>4|t*[1.8,1.7][t>>18&1]&t>>8|t*(x=[12,15,16,19][t>>18&3]*.1)&t>>7|t*1.8&t>>5|(t>>22&1)*(t*x&t>>6)|(t>>23&1)*(t*x*2&t>>3))-2*(t>>20&3)*(1+(t>>22&3))",
+    "author": "Iwaku",
+    "name": "Infernal Rhythm",
+    "description": "Lovebyte 2024 competition.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1apg8qv/infernal_rhythm_appeared_in_lovebyte_2024/",
+      "https://dollchan.net/btb/res/3.html#2627"
+    ],
+    "date": "2024-02-09",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "file": "songs/ecd3e2abae19cab769b40aabb031c35c.js",
+  "title": "i think i just commited a crime",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "85a7ce804d763ab85db2140e82c2c8a17f16a37ec1067ce8155f674fb5e3d30f",
+  "upstream": {
+    "hash": "ecd3e2abae19cab769b40aabb031c35c",
+    "codeLen": 109,
+    "code": "(t*[2,1.8,1.5,1,2,3,1.5,1][(t>>14)%8]>>1&95)*4e3/(t&[2047,12287,16383,16383,511,1023,16383,16383][(t>>14)%8])",
+    "author": "rubi",
+    "name": "i think i just commited a crime",
+    "url": "https://www.reddit.com/r/bytebeat/comments/skiv5q/i_think_i_just_commited_a_crime/",
+    "date": "2022-02-04",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

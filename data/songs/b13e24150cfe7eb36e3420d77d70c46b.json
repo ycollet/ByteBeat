@@ -1,0 +1,25 @@
+{
+  "file": "songs/b13e24150cfe7eb36e3420d77d70c46b.js",
+  "title": "im actually proud of this one",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5cd2b6c960d2308ff037b58dc29316ea57d07d0f1e2c4cff73e9346310b028ad",
+  "upstream": {
+    "hash": "b13e24150cfe7eb36e3420d77d70c46b",
+    "codeMinLen": 177,
+    "codeMin": "a=(b,c)=>(t>>b)*[16,19,21,2,19,3,9,18,2,5][(t>>13)%9]|c,d=e=>t>>e,[(a('21'[(t>>17)%2],t>>5)+a('32'[(t>>18)%2],t>>6))|d(5),(a('21'[(t>>17)%2],t>>5)+a('32'[(t>>18)%2],t>>6))|d(6)]",
+    "codeLen": 187,
+    "code": "a=(b,c)=>(t>>b)*[16,19,21,2,19,3,9,18,2,5][(t>>13)%9]|c,\nd=e=>t>>e,\n[((a(\"21\"[(t>>17)%2],t>>5))+(a(\"32\"[(t>>18)%2],t>>6)))|d(5),((a(\"21\"[(t>>17)%2],t>>5))+(a(\"32\"[(t>>18)%2],t>>6)))|d(6)]",
+    "author": "psubscirbe",
+    "name": "im actually proud of this one",
+    "url": "https://www.reddit.com/r/bytebeat/comments/122s69x/im_actually_proud_of_this_one/",
+    "date": "2023-03-26",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ]
+  }
+}

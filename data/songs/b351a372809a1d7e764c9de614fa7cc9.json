@@ -1,0 +1,30 @@
+{
+  "file": "songs/b351a372809a1d7e764c9de614fa7cc9.js",
+  "title": "Stuck a Sierpinski bassline on \"Im Blue\"",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e05035f71d7a33442a188dac5d954250cb0760a5e1d9d8eb6b3b8dc21461bdf5",
+  "upstream": {
+    "hash": "b351a372809a1d7e764c9de614fa7cc9",
+    "codeLen": 497,
+    "code": "a=t*[1.35,.85,1.125,1.35,1.5,1,1.27,1.35,1.35,1.125,1.35,1.7,1.8,1.125,1.7,1.5,1.35,.85,1.125,1.35,1.5,1,1.27,1.35,1.35,1.125,1.35,1.7,1.8,1.125,1.7,1.5,1.35,.85,1.125,1.35,1.5,1,1.27,1.35,1.35,1.125,1.35,1.7,1.8,1.125,1.7,1.5,1.35,.85,1.125,1.35,1.27,.75,1,1.125,1.125,1.125,1,1.125,1.125,1,1.125,1.27][t/2.4>>12&63]/4&63,b=(sin(t/2|t/12)*((-t/2.4>>6&31)+1)+32)*[1,0][t/2.4>>11&1],c=(sin(t/3|t/18)*((-t/2.4>>8&31)+1)+32)*[0,1][t/2.4>>13&1],d=t*[2.25,2,1.8,1.5][t/2.4>>14&3]/8&127&t/2.4>>6,a+b+c+d",
+    "author": "May_I_Change_My_Name",
+    "name": "Stuck a Sierpinski bassline on \"Im Blue\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rs1qqi/comment/itrba3j/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-10-25",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "4ebdc1d80e60b2b9dac47d80952a9220",
+        "author": "Decent-Manager-6169",
+        "name": "Melody Of Im Blue (with drums)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/rs1qqi/comment/hqridb8/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

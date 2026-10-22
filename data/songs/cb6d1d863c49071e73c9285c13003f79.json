@@ -1,0 +1,58 @@
+{
+  "file": "songs/cb6d1d863c49071e73c9285c13003f79.js",
+  "title": "Rainbow Static",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 65536,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cb6d1d863c49071e73c9285c13003f79.js",
+  "sha256": "0d671f594bb0bbada52b497249c0fdac2a732bfbf6a5968cb5f7551d5d1a0eaf",
+  "upstream": {
+    "hash": "cb6d1d863c49071e73c9285c13003f79",
+    "codeLen": 3958,
+    "fileOrig": 1,
+    "codeText": "/*\n\n     ██████╗  █████╗ ██╗███╗   ██╗██████╗  ██████╗ ██╗    ██╗        ███████╗████████╗ █████╗ ████████╗██╗ ██████╗\n     ██╔══██╗██╔══██╗██║████╗  ██║██╔══██╗██╔═══██╗██║    ██║        ██╔════╝╚══██╔══╝██╔══██╗╚══██╔══╝██║██╔════╝\n     ██████╔╝███████║██║██╔██╗ ██║██████╔╝██║   ██║██║ █╗ ██║        ███████╗   ██║   ███████║   ██║   ██║██║     \n     ██╔══██╗██╔══██║██║██║╚██╗██║██╔══██╗██║   ██║██║███╗██║        ╚════██║   ██║   ██╔══██║   ██║   ██║██║     \n     ██║  ██║██║  ██║██║██║ ╚████║██████╔╝╚█████",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Rainbow Static",
+    "description": "Unable to find a link to the original Zackx song.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1h4tsr6/rainbow_static_as_a_song/",
+      "https://dollchan.net/btb/res/7164.html#7232",
+      "https://www.reddit.com/r/bytebeat/comments/1lp1ins/all_my_1k_reremix_remixes/"
+    ],
+    "date": "2024-12-02",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 65536,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "01ea2855acbbd05b5cec0c85edc52672",
+        "author": "PrincessPriscillaPT",
+        "name": "Famous 600k",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gynp54/a_battle_for_bfdibfb_song_remaked/",
+          "https://dollchan.net/btb/res/7164.html#7226"
+        ]
+      },
+      {
+        "hash": "0574a38b5a41a369122ddeea7712ecad",
+        "author": "feeshbread",
+        "name": "1k reremix",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gab25x/comment/ltn5cz5/",
+          "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+        ]
+      },
+      {
+        "hash": "e7b2a635309d17a7814b1b91f5182e02",
+        "author": "rubi",
+        "name": "moj pas je se popiškija u cijelu moju kuču",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14kbt4x/moj_pas_je_se_popi%C5%A1kija_u_cijelu_moju_ku%C4%8Du/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-16"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/4e2a4eff43afcb0a52aa930013ad32cf.js",
+  "title": "SOJRTSS.BYTEBEAT",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4c862e6e7828afb0b0f464c9cb0d076a17dd39329544afe1a2ffad7884c747b8",
+  "upstream": {
+    "hash": "4e2a4eff43afcb0a52aa930013ad32cf",
+    "codeMinLen": 406,
+    "codeMin": "volume=100,x=volume>100?0:volume<0?0:volume/100,samp_rate=44100,p=256,beat=p*t/samp_rate,c=65.41*beat,cs=69.3*beat,d=73.42*beat,ds=77.78*beat,e=82.41*beat,f=87.31*beat,fs=92.5*beat,g=98*beat,gs=103.83*beat,a=110*beat,as=116.54*beat,b=123.47*beat,sqr=x=>(x&128)*(-beat/2*pow(2,beat>>11)&255)/256,h1=sqr([c,c,d,e][beat>>9&3]*4),h2=sqr([e,f,f,g][beat>>9&3]*4),h3=sqr([g,a,b,c*2][beat>>9&3]*4),(h1+h2+h3)*x/1.5",
+    "codeLen": 408,
+    "code": "volume=100,x=volume>100?0:volume<0?0:volume/100,samp_rate=44100,p=256,beat=p*t/samp_rate,c=65.41*beat,cs=69.30*beat,d=73.42*beat,ds=77.78*beat,e=82.41*beat,f=87.31*beat,fs=92.50*beat,g=98*beat,gs=103.83*beat,a=110*beat,as=116.54*beat,b=123.47*beat,sqr=x=>(x&128)*(-beat/2*pow(2,beat>>11)&255)/256,h1=sqr([c,c,d,e][beat>>9&3]*4),h2=sqr([e,f,f,g][beat>>9&3]*4),h3=sqr([g,a,b,c*2][beat>>9&3]*4),(h1+h2+h3)*x/1.5",
+    "author": "hcdphobe",
+    "name": "SOJRTSS.BYTEBEAT",
+    "url": "https://dollchan.net/btb/res/163.html#877",
+    "date": "2023-04-20",
+    "sampleRate": 44100,
+    "coverName": "Orangepaprika67 - Songs of Just Repeating the Same Sound",
+    "coverUrl": "https://youtu.be/dZc4NjVoDUQ",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

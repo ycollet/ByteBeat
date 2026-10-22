@@ -1,0 +1,33 @@
+{
+  "file": "songs/01df2c8725a0e4e57876c5fad5381b15.js",
+  "title": "trip to otherworld stereo mix",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/01df2c8725a0e4e57876c5fad5381b15.js",
+  "sha256": "c47b1b8d72ac7a5ed5828e483fa67f24843dd2541be8ff2e13641677a96be408",
+  "upstream": {
+    "hash": "01df2c8725a0e4e57876c5fad5381b15",
+    "codeLen": 1211,
+    "fileOrig": 1,
+    "codeText": "this.n??={A:4e3,B:5e3},\nthis.echoA??=Array(n.A).fill(0),\nthis.echoB??=Array(n.B).fill(0),\nt||(\nechoA=Array(n.A).fill(0),\nechoB=Array(n.B).fill(0)\n),\n",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "trip to otherworld stereo mix",
+    "url": "https://dollchan.net/btb/res/756.html#1646",
+    "date": "2023-07-17",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "0097fe0bdfe67916ae20fb52efba8c24",
+        "author": "SthephanShi",
+        "name": "Trip to Otherworld",
+        "url": "https://www.reddit.com/r/bytebeat/comments/127ij8e/trip_to_otherworld/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/e9ec11c2e7b156b70746cec6e66f20d7.js",
+  "title": "Power Up",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 47300,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "08b8039653acff98b7f11a9b02da7206cfdd61c30f91e2413b65f63a65e8a758",
+  "upstream": {
+    "hash": "e9ec11c2e7b156b70746cec6e66f20d7",
+    "codeLen": 77,
+    "code": "(t*2**(parseInt('616ADID269E9EILQL48BGBGKNSN'[t*1.28>>11],36)/12)&127)+32&128",
+    "author": "Zackx",
+    "name": "Power Up",
+    "description": "Sound effect from Super Mario Bros.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1528126/2_sound_effect_super_mario_bros/",
+    "date": "2023-07-17",
+    "sampleRate": 47300,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

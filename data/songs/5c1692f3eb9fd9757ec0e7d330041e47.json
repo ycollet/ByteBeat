@@ -1,0 +1,26 @@
+{
+  "file": "songs/5c1692f3eb9fd9757ec0e7d330041e47.js",
+  "title": "tridecagon sequence",
+  "author": "argarak",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5c1692f3eb9fd9757ec0e7d330041e47.js",
+  "sha256": "7fdd97eeea9263e011d75f7213f1ff41ec8644cd4c156f220d6fb7bc1109cec2",
+  "upstream": {
+    "hash": "5c1692f3eb9fd9757ec0e7d330041e47",
+    "codeLen": 2295,
+    "codeFormLen": 2491,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "\n/*\n * tridecagon sequence\n * by argarak\n *\n * use https://dollchan.net/bytebeat/\n * for playback at 44100Hz\n */",
+    "isTruncated": 1,
+    "author": "argarak",
+    "name": "tridecagon sequence",
+    "url": "https://battleofthebits.com/arena/Entry/tridecagon+sequence/57185/",
+    "date": "2022-12-13",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

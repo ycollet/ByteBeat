@@ -1,0 +1,39 @@
+{
+  "file": "songs/4a7a73e0c7da97e69a6ea3507b863e27.js",
+  "title": "m4ri",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c133f21e934f858b7951d1e0b5ffb0dda502b1f959e4beb6c661e3fa36e87d9a",
+  "upstream": {
+    "hash": "4a7a73e0c7da97e69a6ea3507b863e27",
+    "codeMinLen": 108,
+    "codeMin": "[17*t|(t>>2)+(t&32768?13:14)*t|t>>3|t>>4|t>>5|t>>6,(((t>>2)+(t&32768?13:14)*t)/(1+(t>>12)%4)&128+(t>>12))/3]",
+    "codeLen": 112,
+    "code": "[17*t|(t>>2)+(t&32768?13:14)*t|t>>3|t>>4|t>>5|t>>6,((((t>>2)+(t&32768?13:14)*t)/(1+((t>>12)%4)))&128+(t>>12))/3]",
+    "author": "Chasyxx",
+    "name": "m4ri",
+    "description": "\"I'll make it obvious, I still regret making this one.\" - Chasyxx",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10mbft4/m4ri/",
+    "date": "2023-01-27",
+    "sampleRate": 8000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "ff248613fb2fbb943898ce122ecdcae6",
+        "author": "SthephanShi",
+        "name": "Cat-girl",
+        "url": null
+      }
+    ],
+    "drawing": {
+      "mode": "Waveform",
+      "scale": "0"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-12-01"
+  }
+}

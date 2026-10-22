@@ -1,0 +1,25 @@
+{
+  "file": "songs/9041e8d9311b8769d6cf21615a2e075a.js",
+  "title": "bongo",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c6d734c460cc8ef9c752d49d2f5c2501ea13ccd664148df63457dd0da2564a66",
+  "upstream": {
+    "hash": "9041e8d9311b8769d6cf21615a2e075a",
+    "codeMinLen": 100,
+    "codeMin": "((t*(t&131072?t&65536?3/2:4/3:1)>>(1&~t>>13)&128)*(-t>>5<<(1&t>>15)&255)>>7)+(t>>5<<(1&t>>15)&255)/2",
+    "codeLen": 104,
+    "code": "(((t*(t&131072?t&65536?3/2:4/3:1)>>1*(1&~t>>13)&128)*(-t>>5<<(1&t>>15)&255)>>7)+(t>>5<<(1&t>>15)&255)/2)",
+    "author": "Zackx",
+    "name": "bongo",
+    "url": "https://dollchan.net/btb/res/204.html#932",
+    "date": "2023-04-24",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/626f58cda572b647c7095ec2fb989eeb.js",
+  "title": "No Limit",
+  "author": "mu6k",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fd5b3f2220e190430b906844619a1a29c27dfa6e1583aa2da90a1aac167b5bbc",
+  "upstream": {
+    "hash": "626f58cda572b647c7095ec2fb989eeb",
+    "codeMinLen": 186,
+    "codeMin": "127*sin(2E3/(t&4095))*.2+(t&4095)/8191*((t<<1)*(1+.333*(32767<(t&65535))+.177*(49151<(t&65535)))&255)*.4+.25*((t>>4^t>>6|t>>10|3*t*(1+.333*(32767<(t&65535))+.177*(49151<(t&65535))))&255)",
+    "codeLen": 232,
+    "code": "((sin(2000/(t&0xfff))*127)*0.2 + (( (t<<1)*(1+0.333*((t&0xffff)>0x7fff)+0.177*((t&0xffff)>0xbfff )) )&0xff)*((t&0xfff)/0x1fff)*0.4 + (( ( (t>>4^t>>6|t>>10))|(t*3*(1+0.333*((t&0xffff)>0x7fff)+0.177*((t&0xffff)>0xbfff))) )&0xff)*0.25)",
+    "author": "mu6k",
+    "name": "No Limit",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388931",
+    "date": "2011-10-04",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "coverName": "2 Unlimited - No Limit",
+    "coverUrl": "https://youtu.be/qM5W7Xn7FiA",
+    "tags": [
+      "256"
+    ]
+  }
+}

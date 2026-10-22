@@ -1,0 +1,26 @@
+{
+  "file": "songs/183d047e8aa7b66fbde69c852faaa821.js",
+  "title": "pcm.modshape.wv",
+  "author": "argarak",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/183d047e8aa7b66fbde69c852faaa821.js",
+  "sha256": "0b2c06cfb2ba862348ca078ab809c62bc7e1bbeef0a0377acb7c8e7a740af601",
+  "upstream": {
+    "hash": "183d047e8aa7b66fbde69c852faaa821",
+    "codeLen": 2547,
+    "codeFormLen": 2634,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "/*\n *  == pcm.modshape.wv ==\n *  by argarak\n *  for:: t % 256 compo on battleofthebits.com!\n */\n\n// two different clocks, one used nearer the end\ns = t > 79e5 ? (abs(sin(t/90000)%2)/200)*(t/1000)*2 : (t/1000), ",
+    "isTruncated": 1,
+    "author": "argarak",
+    "name": "pcm.modshape.wv",
+    "url": "https://battleofthebits.com/arena/Entry/pcm.modshape.wv/39543/",
+    "date": "2020-10-31",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

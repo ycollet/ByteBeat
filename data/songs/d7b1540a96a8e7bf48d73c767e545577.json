@@ -1,0 +1,25 @@
+{
+  "file": "songs/d7b1540a96a8e7bf48d73c767e545577.js",
+  "title": "non-javascript 8khz song, turned out pretty good",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "83c316a9f1e994c28391c16eee063f82f9b23011c83eaea3830d85d95bd4278c",
+  "upstream": {
+    "hash": "d7b1540a96a8e7bf48d73c767e545577",
+    "codeMinLen": 89,
+    "codeMin": "(t>>4>>(t&t>>11))*(t>>4>>(t&t>>11)&128?-1:1)+(t>>t/(t&65536?2:3)&63)+(30000/(t&4095)&100)",
+    "codeLen": 99,
+    "code": "(((t>>4)>>(t&(t>>11)))*(((t>>4)>>(t&(t>>11)))&128?-1:1))+(t>>t/(t&65536?2:3)&63)+(3E4/(t&4095)&100)",
+    "author": "RealZynx92",
+    "name": "non-javascript 8khz song, turned out pretty good",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q5rp4d/tried_to_make_a_nonjavascript_8khz_song_turned/",
+    "date": "2021-10-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

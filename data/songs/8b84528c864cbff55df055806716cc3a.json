@@ -1,0 +1,32 @@
+{
+  "file": "songs/8b84528c864cbff55df055806716cc3a.js",
+  "title": "ryg remixed",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "acba943fc0f4b8e13998558080b2d2c8c02d7e62bcc6fd893caea75d979aaf50",
+  "upstream": {
+    "hash": "8b84528c864cbff55df055806716cc3a",
+    "codeMinLen": 71,
+    "codeMin": "127*(t*(1+'4451'[t>>13&3]/10)&t>>9+(.003*t&3))%256/3+(3E5/(t&8191)&127)",
+    "codeLen": 77,
+    "code": "(((t*(1+'4451'[t>>13&3]/10)&t>>9+(.003*t&3))*(127))%256/3)+(3e5/(t&8191)&127)",
+    "author": "psubscirbe",
+    "name": "ryg remixed",
+    "url": "https://dollchan.net/btb/res/284.html#354",
+    "date": "2023-01-16",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "21d6082b53535018429f52e639c07b01",
+        "author": "ryg",
+        "name": "a new industrial chiptune",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=11#c389005"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

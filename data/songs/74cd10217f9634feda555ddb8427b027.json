@@ -1,0 +1,33 @@
+{
+  "file": "songs/74cd10217f9634feda555ddb8427b027.js",
+  "title": "TIRO - United",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/74cd10217f9634feda555ddb8427b027.js",
+  "sha256": "f1ef3152c33bd802611293c0bd6da6e3fcb75cbebfc3a041ac16e8cedf1bab98",
+  "upstream": {
+    "hash": "74cd10217f9634feda555ddb8427b027",
+    "codeLen": 1169,
+    "fileOrig": 1,
+    "codeText": "bci=3.24551233566, //for modulation\r\nvolume=100, //the volume\r\nx=volume>100?0:volume<0?0:volume/100, //check exceeds and below 0 and mute it\r\nsamp_rate=32000,\r\np=256,\r\nbeat=p*t/samp_rate,\r\nv=beat/128,\r\no=1.0216,\r",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "TIRO - United",
+    "url": "https://dollchan.net/btb/res/163.html#626",
+    "date": "2023-03-16",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "cfed107712776695d40734b15370e22a",
+        "author": "SthephanShi",
+        "name": "The time is running out!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

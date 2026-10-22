@@ -1,0 +1,31 @@
+{
+  "file": "songs/796d29f9349ef33d40fd35ac82552319.js",
+  "title": "Robocop with slower tempo",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b1e3d9b4faf8cc473d8a764089c8888c1fc0483e798dfb33f0be495757e906b8",
+  "upstream": {
+    "hash": "796d29f9349ef33d40fd35ac82552319",
+    "codeLen": 44,
+    "code": "(t>>2)*(t&(t&32768?16:24)|t>>(t>>8&24))|t>>3",
+    "author": "SthephanShi",
+    "name": "Robocop with slower tempo",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "cc80836bb65e592e8027984b5aad069f",
+        "author": "SthephanShi",
+        "name": "Robocop",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

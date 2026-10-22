@@ -1,0 +1,23 @@
+{
+  "file": "songs/f61d1d5f65d32cdf5a850f92471f90b1.js",
+  "title": "Inchwormy Beat",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5062dc6caf5f0dff718b0f26aa57341f67ab90a53b4ffed558a35fa9a074abe1",
+  "upstream": {
+    "hash": "f61d1d5f65d32cdf5a850f92471f90b1",
+    "codeLen": 13,
+    "code": "t<<(t>>8)*231",
+    "author": "Devan Wolf",
+    "name": "Inchwormy Beat",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

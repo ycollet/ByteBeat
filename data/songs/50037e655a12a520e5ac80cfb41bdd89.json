@@ -1,0 +1,25 @@
+{
+  "file": "songs/50037e655a12a520e5ac80cfb41bdd89.js",
+  "title": "Excerpt from Uke Song",
+  "author": "Pestis",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "da3bf5c2e9075c9decb8c85e9a945a5a8a0ae4a5903841a3560d202919da45f8",
+  "upstream": {
+    "hash": "50037e655a12a520e5ac80cfb41bdd89",
+    "codeLen": 251,
+    "code": "(e=>{for(d=e?d:[],q=.5*d[e%2e4]||0,i=0;i<4;i++)z=e/4e3+(i?12-3*i:0),x=z%9,q+=x*9**-x*sin(sin(e*2**(((i=>\"222*    222*  22222*  ;;  ME;;23\".charCodeAt(i>>1)-32>>3*(1&i)&7)(z/12%16|16*i)+[0,5,9,14][i])/12-6))*sin(e/3e5)**1.9*5);d[e%2e4]=q})(t),300*q+127",
+    "author": "Pestis",
+    "name": "Excerpt from Uke Song",
+    "description": "Lovebyte Turbo competition.",
+    "url": "https://demozoo.org/music/311729",
+    "date": "2022-08-06",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-03"
+  }
+}

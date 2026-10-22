@@ -1,0 +1,30 @@
+{
+  "file": "songs/a9809040110e9e8f18d35adb6c9718b7.js",
+  "title": "Synthwave remis",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "060fa96a078f38b80bff1ff042758bceb7d981ad52b1e8d03f4c3f993f4f3000",
+  "upstream": {
+    "hash": "a9809040110e9e8f18d35adb6c9718b7",
+    "codeLen": 346,
+    "code": "r=t/1.66,a=t*1.01*2**([0,-2,0,3,5,7,10,12,-5,-2,0,3,5,7,10,12,-7,-2,-4,0,3,5,10,5,0,-2,-4,0,3,5,10,5,-9,-7,-5,-2,-4,0,3,8,-5,-7,-5,-2,-4,0,3,8,-5,-2,7,5,-5,-2,7,3,-5,-2,5,2,0,3,2,-2][r>>12&63]/12),a=(a%256+a%254)/4,b=t*.503*2**([0,-2,-4,-5][r>>16&3]/12),b=(b%256+b%255)/5,(a+b)/2+32*sin(10*cbrt(r%16384))+32+(t*sin(r>>1)&-r>>7&255)*(r&16384)/32E3",
+    "author": "Zackx",
+    "name": "Synthwave remis",
+    "url": "https://dollchan.net/btb/res/520.html#589",
+    "date": "2023-03-11",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "4c3f5dd50504fa814de8c135a8518498",
+        "author": "Decent-Manager-6169",
+        "name": "Synthwave",
+        "url": "https://dollchan.net/btb/res/520.html#577"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

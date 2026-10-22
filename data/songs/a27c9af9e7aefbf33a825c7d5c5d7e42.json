@@ -1,0 +1,24 @@
+{
+  "file": "songs/a27c9af9e7aefbf33a825c7d5c5d7e42.js",
+  "title": "something1",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d7a7725845f266302e175f7c9e4ce4c04b3c9d80ccc68bcdaa99442652389281",
+  "upstream": {
+    "hash": "a27c9af9e7aefbf33a825c7d5c5d7e42",
+    "codeMinLen": 227,
+    "codeMin": "c=1.047,cs=1.107,d=1.173,ds=1.243,e=1.318,f=1.392,fs=1.476,g=1.568,gs=1.656,a=1.755,as=1.862,b=1.977,t*[as,0,as,as,2*cs,2*cs,as,0,2*ds,2*cs,as,as,2*cs,2*cs,gs,gs,as,0,as,as,fs,fs,f,f,2*cs,2*cs,f,f,2*c,2*c,f,f][1.4*t>>12&31]&128",
+    "codeLen": 229,
+    "code": "c=1.047,cs=1.107,d=1.173,ds=1.243,e=1.318,f=1.392,fs=1.476,g=1.568,gs=1.656,a=1.755,as=1.862,b=1.977,\n\nt*[as,0,as,as,cs*2,cs*2,as,0,ds*2,cs*2,as,as,cs*2,cs*2,gs,gs,as,0,as,as,fs,fs,f,f,cs*2,cs*2,f,f,c*2,c*2,f,f][t*1.4>>12&31]&128",
+    "author": "Decent-Manager-6169",
+    "name": "something1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10mbdj0/something1/",
+    "date": "2023-01-27",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

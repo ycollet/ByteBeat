@@ -1,0 +1,33 @@
+{
+  "file": "songs/a564382ded6384100764e32d52d1f1c6.js",
+  "title": "remix of ripthisentry.txt tune 3",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "489fcd6504e878fe3507b6850280579d0dffcd3ee4278ebfed67cd960f41933a",
+  "upstream": {
+    "hash": "a564382ded6384100764e32d52d1f1c6",
+    "codeMinLen": 195,
+    "codeMin": "n=t*[1,0,1,0,2,2,1,0,1,0,2,2,1,0,2,2][int(t/2048)%16],a=.5*sin(n*PI/255+cos(n*PI/128)*(n/(524288+16384*random()))),b=.25*cos((5E4+t/3200)/(t&16383)),c=.1875*sin((2500+t/3200)/(t&4095)),tan(a+b+c)",
+    "codeLen": 233,
+    "code": "n=t*[1,0,1,0,2,2,1,0,1,0,2,2,1,0,2,2][int(t/2048)%16],a=sin(n*Math.PI/255+cos(n*Math.PI/128)*(n/(524288+(16384*Math.random()))))*(128/256),b=cos((50000+(t/3200))/(t&16383))*(64/256),c=sin((2500+(t/3200))/(t&4095))*(48/256),tan(a+b+c)",
+    "author": "PortablePorcelain",
+    "name": "remix of ripthisentry.txt tune 3",
+    "url": "https://www.reddit.com/r/bytebeat/comments/tvnthr/creepy_droning_static_thing/",
+    "date": "2022-04-04",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "ec24b617b6f97604e1b38cd65ee4c672",
+        "author": "raphaelgoulart",
+        "name": "ripthisentry.txt, tune#3",
+        "url": "https://battleofthebits.com/arena/Entry/ripthisentry.txt/32559/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

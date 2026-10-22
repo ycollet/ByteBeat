@@ -1,0 +1,28 @@
+{
+  "file": "songs/39316b175935e22ba017057e4fbed896.js",
+  "title": "Another Beepbox cover",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 49500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8c2dbfcca76e620d5587862cb2a0a130b7212f585524decacfff4757b878d4c2",
+  "upstream": {
+    "hash": "39316b175935e22ba017057e4fbed896",
+    "codeMinLen": 350,
+    "codeMin": "t*=1.015,t/=1.5,[b1,b2,b3]=[\"ECAC\",\"9757\",\"4202\"],s=x=>parseInt(x,36)/12,r=12288,x=i=>(a=t=>(t*2**s([\"E969\"[t>>13&3],\"C747\"[t>>13&3],\"A525\"[t>>13&3],\"C747\"[t>>13&3]][t>>17&3])%256/2+12&128)%256*(1-t%8191/12E3)/2,b=t=>((t*2**s(b1[t>>17&3])&85)+(t*2**s(b2[t>>17&3])&85)+(t*2**s(b3[t>>17&3])&85))/5,b(t)+(a(t)+a(t-i*r)/2+a(t-i*r*2)/4+64)-32),[x(1),x(2)]",
+    "codeLen": 362,
+    "code": "t*=1.015,t/=1.5,[b1,b2,b3]=['ECAC','9757','4202'],s=x=>(parseInt(x,36)/12),r=12288,x=j=>(a=t=>(((t*2**s([\"E969\"[t>>13&3],\"C747\"[t>>13&3],\"A525\"[t>>13&3],\"C747\"[t>>13&3]][t>>17&3]))%256/2+12)&128)%256*(1-t%8191/12e3)/2,b=t=>((t*2**s(b1[t>>17&3])&85)+(t*2**s(b2[t>>17&3])&85)+(t*2**s(b3[t>>17&3])&85))/5,(b(t)+(a(t)+(a(t-j*r)/2)+(a(t-j*r*2)/4)+64))-32),[x(1),x(2)]",
+    "author": "Two2Fall",
+    "name": "Another Beepbox cover",
+    "description": "Inspired by Zackx. Cover source is not released.",
+    "url": "https://www.reddit.com/user/Electrical-While6325/comments/1he6qaz/the_twellwave/",
+    "date": "2024-12-14",
+    "sampleRate": 49500,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-12-04"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/294c29f350765e64eff0fa683a182789.js",
+  "title": "1k dance",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/294c29f350765e64eff0fa683a182789.js",
+  "sha256": "6205a391a9baca8631e0f53725eb610c09a6ab1a8635f24089cc044eb3584f3e",
+  "upstream": {
+    "hash": "294c29f350765e64eff0fa683a182789",
+    "codeMinLen": 947,
+    "codeLen": 1007,
+    "codeFormLen": 1473,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "z=40.7,b=t/2250,r=int(b),y=r%16,a=[1,2,1,2,1.2,2.4,1.2,2.4,1.33,2.67,1.33,2.67,1.5,3,1.5,3][y],o=(c=1<r%64&&33>r%64)?1.19:1.5,n=[0,0,2.38,2.67,2.38,0,2,2.24,0,2.38,0,2.24,0,1.78,0,2,2,2,1,1.19,1.5,0,1.19,1.33,0,1.19,0,c?1.12:1.33,0,o,o,o],x=int(r/4)%4,d=[12,12,10.67,12][x],g=[9.52,9.52,8,8.96][x],h=[8,7.12,6.72,7.52][x],v=2*b%4*1.25,w=int(y/12),u=int(r/16)%4,j=[[19.04,17.92],[14.24,9.52],[10.64,12],[8,0]],sin(1/z*t+7*sin(1.125*t/z)*(0<1-2*b%4?1-2*b%4:0))*(40-15*b%30)+40+(16>b?0:random()*(2==r%4?32-32*b%32:0",
+    "isTruncated": 1,
+    "author": "raphaelgoulart",
+    "name": "1k dance",
+    "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/",
+    "date": "2019-03-10",
+    "sampleRate": 11025,
+    "tags": [
+      "1k"
+    ]
+  }
+}

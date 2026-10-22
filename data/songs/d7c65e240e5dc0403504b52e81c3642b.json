@@ -1,0 +1,26 @@
+{
+  "file": "songs/d7c65e240e5dc0403504b52e81c3642b.js",
+  "title": "𝕺𝕮𝕿𝕬𝖁𝕴𝕺𝕹",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7d75f145fc8238ced1c774c1bedf9e8da6cb8a3bbfc71985872346d4a0696431",
+  "upstream": {
+    "hash": "d7c65e240e5dc0403504b52e81c3642b",
+    "codeMinLen": 25,
+    "codeMin": "(t^t>>8)+t&128^t&t>>8&128",
+    "codeLen": 29,
+    "code": "((t^t>>8)+t)&128^(t&t>>8)&128",
+    "author": "MarioFan171",
+    "name": "𝕺𝕮𝕿𝕬𝖁𝕴𝕺𝕹",
+    "url": "https://dollchan.net/btb/res/2971.html#3381",
+    "date": "2024-04-26",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_added": "2025-11-12"
+  }
+}

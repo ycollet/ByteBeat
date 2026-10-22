@@ -1,0 +1,25 @@
+{
+  "file": "songs/37bcb0ddae2b3f5a4a539277497a03bb.js",
+  "title": "Oh the headaches",
+  "author": "sub",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2dc49cf873f3fbfd4e244c24ee93bdcb38a8b2d44f806a183328a430f7aad178",
+  "upstream": {
+    "hash": "37bcb0ddae2b3f5a4a539277497a03bb",
+    "codeMinLen": 47,
+    "codeMin": "t>>5|(t<<3)+12*t*(t>>13|(t>>1|t>>10|t>>2)&t>>8)",
+    "codeLen": 87,
+    "code": "(t >> 5) | (t << 3) + ( t * 12 * ( (t>>13) | ( (t>>1) | (t>>10) | (t>>2) ) & (t>>8) ) )",
+    "author": "sub",
+    "name": "Oh the headaches",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=2#c388363",
+    "date": "2011-09-28",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

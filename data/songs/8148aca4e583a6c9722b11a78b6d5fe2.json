@@ -1,0 +1,24 @@
+{
+  "file": "songs/8148aca4e583a6c9722b11a78b6d5fe2.js",
+  "title": "some detective theme",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "beab62ae48c29edd1db4f8b63305e327590a887164ae77a98adf8d967f19205f",
+  "upstream": {
+    "hash": "8148aca4e583a6c9722b11a78b6d5fe2",
+    "codeMinLen": 211,
+    "codeMin": "l=(s,o,r,p,u)=>(c=s.charCodeAt(t/r%s.length),2**((c-o)/p)/2**u),p=(w,x,y,z)=>w*x**(y/z),q=x=>l('0$$0$$0$1%0$$0$$0$+.',x,2**13,12,3),t/4*q(12)%63+t*q(17)*'0111'[t/(10*2**14)&3]%63+t*q(8)*'0011'[t/(10*2**14)&3]%63",
+    "codeLen": 223,
+    "code": "l=(s,o,r,p,u)=>(c=s.charCodeAt((t/r)%s.length),2**((c-o)/p)/(2**u)),p=(w,x,y,z)=>w*(x**(y/z)),q=x=>l('0$$0$$0$1%0$$0$$0$+.',x,2**13,12,3),(t/4*q(12))%63+(t*q(17)*'0111'[t/(10*2**14)&3])%63+(t*q(8)*'0011'[t/(10*2**14)&3])%63",
+    "author": "PortablePorcelain",
+    "name": "some detective theme",
+    "url": "https://dollchan.net/btb/res/55.html#109",
+    "date": "2022-07-22",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

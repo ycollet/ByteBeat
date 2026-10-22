@@ -1,0 +1,24 @@
+{
+  "file": "songs/688f8cee23f9013e6b9707f73d804172.js",
+  "title": "genreframe",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0c88187c77dd0b255acf0f21805bd39b31d7ed5f360b6a31b50dee801fcd654a",
+  "upstream": {
+    "hash": "688f8cee23f9013e6b9707f73d804172",
+    "codeMinLen": 86,
+    "codeMin": "2*((x=t%16384)%(x/(y=2+(t>>15&3)-2.25*(7==(t>>15)%8))*(y-1)>>7))|x<<y-2&x>>8-(t>>17&1)",
+    "codeLen": 92,
+    "code": "2*((x=t%16384)%((x/(y=2+(t>>15&3)-2.25*((t>>15)%8==7))*(y-1))>>7))|x<<(y-2)&x>>(8-(t>>17&1))",
+    "author": "lhphr",
+    "name": "genreframe",
+    "url": "https://dollchan.net/btb/res/44.html#50",
+    "date": "2022-04-22",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

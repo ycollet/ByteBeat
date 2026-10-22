@@ -1,0 +1,30 @@
+{
+  "file": "songs/0853da92be04b4ba0884e631c552974a.js",
+  "title": "Simple Drums and Chord (Revamp)",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0853da92be04b4ba0884e631c552974a.js",
+  "sha256": "5f72ddaa12182037defe96994bd9f7665731130dd80607f1aa44d50b0cbce3d5",
+  "upstream": {
+    "hash": "0853da92be04b4ba0884e631c552974a",
+    "codeMinLen": 707,
+    "codeLen": 771,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "n=440/32E3*128*2**(3/12),Fl=20-20*cbrt(abs(sin((t-32768)*PI/32768*(2+'0144'[t>>16&3]*(t>2**19)))))/2,Fl2=1+((t%2**17)/6e3),CB=CB=>cbrt(sin(t%4096*n*2**(CB/12)*PI/64)),(t?f+=((t*n*2**([[-12,-14],'00','32','75',[10,10]][t%5][t>>17&1]/12)&255)/128-1)-f/Fl:f=0)/Fl/2+asin(sin(.8*sqrt(t%8192)))*(1-t%8192+8192)/2e4*(-t>>13&1)*(t>2**18)+((t?f2+=((sin(t%[80,140][t&1])*(t+9e9)&255)/256-.5)-f2/Fl2:f2=0)/Fl2*(-t>>17&1)*(1-(t%2**17-2**17))/3e5+((t*random()&255)/128-1)*(t>>13&1)/((t%8192)+128)*40)*(t>2**19)+(sin(asin(sin",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Simple Drums and Chord (Revamp)",
+    "description": "Plus an 808 cowbell. After 49 seconds, it'll loop with no changes.",
+    "url": "https://dollchan.net/btb/res/520.html#5526",
+    "date": "2025-02-25",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2026-01-06"
+  }
+}

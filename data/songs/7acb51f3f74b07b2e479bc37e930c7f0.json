@@ -1,0 +1,31 @@
+{
+  "file": "songs/7acb51f3f74b07b2e479bc37e930c7f0.js",
+  "title": "Butterfly Funcbeat",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7acb51f3f74b07b2e479bc37e930c7f0.js",
+  "sha256": "2c60215d896dd6065781a05d3bff00ddbe3a923d7ea8d1b7e8760d85996a29fa",
+  "upstream": {
+    "hash": "7acb51f3f74b07b2e479bc37e930c7f0",
+    "codeMinLen": 1615,
+    "codeLen": 2121,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "A=Array();u=undefined;r='render';class Q{constructor(p){this.t=0;this.p=2**(p/12)*1.24}[r](){let s=(this.t*this.p/2&128)/96-.75;++this.t;if(this.t==32768)return u;return s*.9999**this.t}}class T{constructor(p){this.t=0;this.p=2**(p/12)*1.24}[r](){let s=asin(sin(this.t*this.p*PI/256))*2/PI;++this.t;if(this.t==32768)return u;return s*.9998**this.t}};class S{constructor(p){this.t=0;this.p=2**(p/12)*1.24}[r](){let s=sin(this.t*this.p*PI/256)/2;++this.t;if(this.t==32768)return u;return s*.9999**this.t}}return(t,",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Butterfly Funcbeat",
+    "description": "A proof of concept for an arbitrary-voice waveform generator topology. The idea is to construct generating functors that play single notes and put them in a list of active generators; when a generator finishes playing its note, it can return undefined, whereupon it will be deleted from the list.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1awlv56/butterfly_funcbeat/",
+    "date": "2024-02-21",
+    "mode": "Funcbeat",
+    "sampleRate": 40000,
+    "coverName": "Chopin - Etude Op. 25 No. 9 (Butterfly)",
+    "coverUrl": "https://youtu.be/WZYHvEF84NQ",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-23"
+  }
+}

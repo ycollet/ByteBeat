@@ -1,0 +1,38 @@
+{
+  "file": "songs/44c4991e5832ff17b02b070f1df3841c.js",
+  "title": "Pitch Interpolation Tutorial",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 67719.086,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/44c4991e5832ff17b02b070f1df3841c.js",
+  "sha256": "dcb7e1d42ead36af47fdcb80c3a91f783788c6e498b473ffe757e5120dddf044",
+  "upstream": {
+    "hash": "44c4991e5832ff17b02b070f1df3841c",
+    "codeMinLen": 193,
+    "codeMin": "Octave=0,Pitch=-6,Detune=-20,p=(round(Pitch)+(Octave*12)+(Detune/100)),t||(a=b=0),c=a+=b+=(2**(p/12)*2**(parseInt('1144BBRNNIIGGF8BFFGG88B668844643'[t>>13&31],36)/12)-b)/500,(c&127)+(t>>11)&128",
+    "codeLen": 1879,
+    "fileOrig": 1,
+    "codeText": "Octave=0,Pitch=-6,Detune=-20,p=(round(Pitch)+(Octave*12)+(Detune/100)),t||(a=b=0),c=a+=b+=(2**(p/12)*2**(parseInt('1144BBRNNIIGGF8BFFGG88B668844643'[t>>13&31],36)/12)-b)/500,(c&127)+(t>>11)&128",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Pitch Interpolation Tutorial",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h9alxd/pitch_interpolation_tutorial_short/",
+    "date": "2024-12-08",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 67719.086,
+    "remix": [
+      {
+        "hash": "db520d39c9f6969e69219d2c5132502b",
+        "author": "Zackx",
+        "name": "Sunset road",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4013",
+          "https://www.reddit.com/r/bytebeat/comments/1edi5ya/pwmsynth_master/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

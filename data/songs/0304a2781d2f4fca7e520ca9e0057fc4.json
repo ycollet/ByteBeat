@@ -1,0 +1,35 @@
+{
+  "file": "songs/0304a2781d2f4fca7e520ca9e0057fc4.js",
+  "title": "Polysine visualization",
+  "author": "aniruF",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c1acd7d875c282536f600bbbabb40a50139dcd0a183a2cd2791a122d0740596b",
+  "upstream": {
+    "hash": "0304a2781d2f4fca7e520ca9e0057fc4",
+    "codeMinLen": 278,
+    "codeMin": "g=x=>x&&g(x-1)+sin(t*x*PI/256)*(-t/x>>5&255)/256,T=x=>{throw x},t&8191?g(8)/8:T('\\n'+`  ${t>>13}\\n`+Array.from({length:8},(_,i)=>i+1).map(X=>String(X % 100).padStart(2, '0')+Array.from({length:32},(_,i)=>(((t>>13)+i)%(X)==0?'@':' ')).reduce((a,b)=>a+b)).reduce((a,b)=>a+'\\n'+b))",
+    "codeLen": 315,
+    "code": "f=x=>sin(t*x*PI/256)*(-(t/x)>>5&255)/256,g=(x)=>x&&g(x-1)+f(x), pad = n => String(n % 100).padStart(2, '0'),\n\nT=x=>{throw x},t&8191?g(8)/8:T('\\n'+`  ${t>>13}\\n`+Array.from({length:8},(_,i)=>i+1).map(X=>pad(X)+Array.from({length:32},(_,i)=>(((t>>13)+i)%(X)==0?'@':' ')).reduce((a,b)=>(a+b))).reduce((a,b)=>a+'\\n'+b))",
+    "author": "aniruF",
+    "name": "Polysine visualization",
+    "url": "https://dollchan.net/btb/res/5289.html#16451",
+    "date": "2026-08-01",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "ce8dd17196de75fb5bbcf4699cbc4d68",
+        "author": "Glebguything",
+        "name": "polysine",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g3awfe/comment/ls049im/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "console"
+    ],
+    "date_added": "2026-08-23"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/3d38ec9f2b2bc5305029c73586d9a1a1.js",
+  "title": "Someone already did this joke",
+  "author": "Firstnameiskowitz",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a6501432b9e4750265b577c8954b3ffe1aebb6cbd0eb94987d96bcaac3460929",
+  "upstream": {
+    "hash": "3d38ec9f2b2bc5305029c73586d9a1a1",
+    "codeLen": 54,
+    "code": "z=t/2*'12348432'[7&t>>12],z*[1,1.2,4/3,2][3&t>>16]|127",
+    "author": "Firstnameiskowitz",
+    "name": "Someone already did this joke",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11p36h7/more_lazily_made_remixes/",
+    "date": "2023-03-12",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "380ae8972104530aa2e5135a45e9b32c",
+        "author": "Zackx",
+        "name": "Namber tu use square wave",
+        "url": "https://dollchan.net/btb/res/204.html#232"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/4b4110c84f439275d229a1aa42932f60.js",
+  "title": "G Minor Bach Synthwave but faster",
+  "author": "Firstnameiskowitz",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4b4110c84f439275d229a1aa42932f60.js",
+  "sha256": "cf524bdbb1f9f61551e77e3eab2d98c99539851414c3f10432fcceb1377f0948",
+  "upstream": {
+    "hash": "4b4110c84f439275d229a1aa42932f60",
+    "codeLen": 667,
+    "fileOrig": 1,
+    "codeText": "t%=2**20,p=t*2**('B*918/916-918/91B*918/916-918/91>*;2:1;26/;2:1;2>*;2:1;26/;2:1;2A*;291;28/;291;2A*;291;28/;291;2B*=-;,=-91=-;,=-B*=-;,=-91=-;,=-E*>6=4>692>6=4>6E*>6=4>692>6=4>6D*<3:1<380<3:1<3D*<3:1<380<3:1<3D(=4<3=481=4<3=4D(=4<3=481=4<3=4B(:18/:16.:18/:1B(:18/:16.:18/:1B&;2:1;26/;2:1;2B&;2:1;26/;2:1;2@&;,9*;,8/;,9*;,@&;,9*;,8/;,9*;,@%=-;,=-91=-;,=-@%=-;,=-91=-;,=->*=-;,=-92=-;,=->*=-;,=-92=-;,=->,8/6-8/428/6-8/>,8/6-8/428/6-8/=-412/4192412141=-412/4192412141;-6341613/634163;-6341613/634163;,8/6-8/528/6-",
+    "isTruncated": 1,
+    "author": "Firstnameiskowitz",
+    "name": "G Minor Bach Synthwave but faster",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11p36h7/more_lazily_made_remixes/",
+    "date": "2022-03-12",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "7d59aaa87c4e56132f1b71c2cb1093b9",
+        "author": "Zackx",
+        "name": "Synthwave G minor Bach",
+        "url": "https://dollchan.net/btb/res/204.html#449"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

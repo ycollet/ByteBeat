@@ -1,0 +1,35 @@
+{
+  "file": "songs/1adbdd1d1dec0b2b1186dd87a06def3a.js",
+  "title": "π",
+  "author": "BaenHoHoHo",
+  "mode": "Funcbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1adbdd1d1dec0b2b1186dd87a06def3a.js",
+  "sha256": "f03908326e33894a2342dbd46db06a03bc4409f18f0c01aa1b0ca2612b1af78e",
+  "upstream": {
+    "hash": "1adbdd1d1dec0b2b1186dd87a06def3a",
+    "codeMinLen": 1004,
+    "codeLen": 3439,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "N=null;f=Array(2**17);B=240;_s=1;f$=440;l=16;c=B*_s/60;P=(t,n,p)=>2**((n-69)/12+p)*f$;_g=(i,d=.5)=>i%1>d?-1:1;_s=i=>2*i%2-1;sn=i=>sin(4*PI*i);_t=i=>abs(i%2-1)-.5;n=i=>sin((255*i|0)**3);lp=(b,i,S)=>f[b]+=(i-f[b])*S;hp=(b,i,S)=>lp(b,i,S)-i;bp=(b,i,S)=>hp(b+1,lp(b,i,S),S);m=(nf=1,F,b,s,t,$f,o,n,p,S,v=1)=>(q=t*c-o>0?$f(t*P(t,n,p))*S**((t*c-o)%l)**.7/8*v:0,!nf?F(b,q,s):q);return t=>{return[[_g,0,-4,5,.5,2],[_g,1,3,5,.5,2],[_g,2,10,5,.5,2],[_g,3,11,5,.5,2],[_g,4,15,5,.4,2],[_g,6,8,5,.4,2],[_g,7,10,5,.4,2],[_g,8,-",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "π",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1ngry1j/%CF%80/",
+      "https://dollchan.net/btb/res/117.html#9377"
+    ],
+    "date": "2025-09-14",
+    "mode": "Funcbeat",
+    "sampleRate": 44100,
+    "coverName": "[Black MIDI] Synthesia - Pi",
+    "coverUrl": "https://youtu.be/Ay8vzCHkgEk",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-01",
+    "date_edited": "2025-11-20"
+  }
+}

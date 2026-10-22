@@ -1,0 +1,24 @@
+{
+  "file": "songs/1ff0fd29192de7941b58b77c2542733b.js",
+  "title": "Cheerful Transmission incoming !!!",
+  "author": "pouale",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3d58fc45330510d2b455c7a1f98202cbbc4b62e8bb56ef24b75e19a74e5ac2c8",
+  "upstream": {
+    "hash": "1ff0fd29192de7941b58b77c2542733b",
+    "codeMinLen": 154,
+    "codeMin": ".8*(10*(sin(t/4E3%4E3*t)+1)*(t%1E3/1E3)+25*(2*sin(t)+sin(1.25*t)+sin(1.5*t)+sin(.9375*t)+5)*(t%4E3/4E3)+20*(sin(t*(1^-t/2E3%2E3))+1)*(t%1E3/1E3)+t%100*.4)",
+    "codeLen": 222,
+    "code": "0.8 * ((sin(t * (t/4000 % 4000)) + 1) * 10 * (t%1000/1000) + (2 * sin(t) + sin(1.25*t) + sin(1.5*t) + sin(15/16*t) + 5) * 25 * (t%4000/4000) + (sin(t * (1 ^ (- t/ 2000 % 2000))) + 1) * 20 * (t%1000/1000) + (t % 100) * 0.4)",
+    "author": "pouale",
+    "name": "Cheerful Transmission incoming !!!",
+    "url": "https://battleofthebits.com/arena/Entry/Cheerful+Transmission+incoming+%21%21%21.txt/58510/",
+    "date": "2023-02-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

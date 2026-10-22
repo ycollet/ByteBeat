@@ -1,0 +1,38 @@
+{
+  "file": "songs/42d73ee792c4337d8bad8b78f999008c.js",
+  "title": "Melody with array 2",
+  "author": "lehandsomeguy",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/42d73ee792c4337d8bad8b78f999008c.js",
+  "sha256": "abbb7a9401d0c68270a70fd3df76393ffa9d50b78542e1ff2a0c9b4b64c3782f",
+  "upstream": {
+    "hash": "42d73ee792c4337d8bad8b78f999008c",
+    "codeMinLen": 322,
+    "codeMin": "(t=>{s=2;m=[[2,4,5,9,2,4,5,9,-2,4,5,9,-2,4,5,9],[-10,-10,-10,-10,-10,-10,-10,-10,-14,-14,-14,-14,-14,-14,-12,-12],[-22,-19,-22,-19,-22,-19,-22,-19,-26,-22,-26,-22,-26,-22,-24,-20]];M=0;for(i=0;i<m[$='length'];i++){M+=(int(sin(t*pow(2**(1/12),((m[i][int(t*s)%m[i][$]])-49))*44100))+.5)*2*(1-t*s%1)}return M/m[$]})(t/44100);",
+    "codeLen": 895,
+    "codeFormLen": 680,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "(t=>{s=2;m=[[2,4,5,9,2,4,5,9,-2,4,5,9,-2,4,5,9],[-10,-10,-10,-10,-10,-10,-10,-10,-14,-14,-14,-14,-14,-14,-12,-12],[-22,-19,-22,-19,-22,-19,-22,-19,-26,-22,-26,-22,-26,-22,-24,-20]];M=0;for(i=0;i<m[$='length'];i++){M+=(int(sin(t*pow(2**(1/12),((m[i][int(t*s)%m[i][$]])-49))*44100))+.5)*2*(1-t*s%1)}return M/m[$]})(t/44100);",
+    "isTruncated": 1,
+    "author": "lehandsomeguy",
+    "name": "Melody with array 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/",
+    "date": "2016-03-03",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "946064c8e7c707b2f3d95bde736ae19c",
+        "author": "lehandsomeguy",
+        "name": "Melody with array",
+        "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

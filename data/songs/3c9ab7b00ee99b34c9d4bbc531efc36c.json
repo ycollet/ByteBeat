@@ -1,0 +1,30 @@
+{
+  "file": "songs/3c9ab7b00ee99b34c9d4bbc531efc36c.js",
+  "title": "Aethos REACTFUL Short Recreate",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3c9ab7b00ee99b34c9d4bbc531efc36c.js",
+  "sha256": "178b62606751cd761d4328d82b1ec5b3bfb71292be2e8c78f257d196e4c409cf",
+  "upstream": {
+    "hash": "3c9ab7b00ee99b34c9d4bbc531efc36c",
+    "codeLen": 3265,
+    "fileOrig": 1,
+    "codeText": "// What you're seeing is feeshbread's Dead Data Reverb\nt||(wsin=(phase)=>(-cos(phase/128*PI)+1)*128-.5,fx=[],dMax=1e6,lpf=lowPassFilter=(a,c)=>(lp_fxii=fxi++,fx[lp_fxii]??=0,fx[lp_fxii]+=(a-fx[lp_fxii])*c),hpf=highPassFilter=(a,c)=>a-lpf(a,c),bpf=bandPassFilter=(a,hc,lc)=>hpf(lpf(a,lc),hc),dly=multiTabDelay=(audio,heads,dw,fbfn=x=>x)=>{dly_fxii=fxi++;fx[dly_fxii]??=Array(dMax).fill(0);dly_wi\t=dt%dMax;dly_feed=audio;dly_out=0;for(let head of heads){dly_ri=(dMax+dt-round(head.t))%dMax;dly_feed+=fx[dly_fxii][d",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Aethos REACTFUL Short Recreate",
+    "description": "Unable to find the source song link...",
+    "url": "https://dollchan.net/btb/res/520.html#7377",
+    "date": "2025-06-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-11",
+    "date_edited": "2025-11-11"
+  }
+}

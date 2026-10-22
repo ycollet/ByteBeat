@@ -1,0 +1,26 @@
+{
+  "file": "songs/d8a5395a5e5862dcb2d9a2090517d69f.js",
+  "title": "bomb has been planted",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d8a5395a5e5862dcb2d9a2090517d69f.js",
+  "sha256": "8e78508800e80ae6cbc636d55e631c64079316ed94855e702699d6d8470613de",
+  "upstream": {
+    "hash": "d8a5395a5e5862dcb2d9a2090517d69f",
+    "codeLen": 24166,
+    "fileOrig": 1,
+    "codeText": "\"MMNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMKHEEFILNPSUVX\\\\bfgb[TOLHEDDEFD@9546=DLPRUWYZ[Z[ZZXWVSQPOOOMLKJIHIJJKLMMNOOOOPQQQRRQQQPPPOOOOOOSY^_]VQMIGEEFEA<87;AHNQTUWUUUTTTTTSQOOOOOOONMLLLLLLMMMMNOOOOOOOPPPPPOOONIC>;:9:=DMSX[\\\\\\\\[WSPOOQRUWYZZ\\\\agihaWNIFCBBBDFHIJKMNOOOONMOOOPQQQQPOOOOMMMMMMLMLMMMMNOOOOOOOOMMMQX^`]WPOORUUSNKGECBBCEGHHIGD>6449DLSZ`ceeeeeb]VPKFDDEGHHHGEA:545:CLSX]`abba`][VSPOOOOOOOOMKLPV]_^XRNKIGGHIHIJKLNOPQQPOONMOQUXWUQOOQV\\\\^ZSJ@64546=CHMOTWZ",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "bomb has been planted",
+    "description": "Counter Strike terrorists PCM sample and the ticking bomb.",
+    "url": "https://dollchan.net/btb/res/204.html#1495",
+    "date": "2023-07-06",
+    "sampleRate": 32000,
+    "tags": [
+      "big",
+      "sample"
+    ]
+  }
+}

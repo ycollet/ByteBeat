@@ -1,0 +1,32 @@
+{
+  "file": "songs/458c15df5be960f199649b32969b5bd1.js",
+  "title": "madfuldescent{offset} hardcore remix",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "19721329c70c8b7e0f76d370c618a9c16eeccd3a115ce9b97f855aaa81d50cc2",
+  "upstream": {
+    "hash": "458c15df5be960f199649b32969b5bd1",
+    "codeMinLen": 134,
+    "codeMin": "1.999*((t>>(t>>17)%3)*-(t>>9|t>>8|t>>10|t>>3|t)+(t>>(t>>16)%3)*(t>>9|t>>17)&128)/3+(3E4/(t*'1111118844220242'[15&t>>11]%4096)**.1&128)",
+    "codeLen": 136,
+    "code": "1.999*((t>>(t>>17)%3)*-(t>>9|t>>8|t>>10|t>>3|t)+(t>>(t>>16)%3)*(t>>9|t>>17)&128)/3+((3e4/(t*'1111118844220242'[15&t>>11]%4096)**.1)&128)",
+    "author": "Zackx",
+    "name": "madfuldescent{offset} hardcore remix",
+    "url": "https://dollchan.net/btb/res/204.html#898",
+    "date": "2023-04-21",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "a3e9a6a921e6dd0e4a923fce76d986ad",
+        "author": "psubscirbe",
+        "name": "madfuldescent{offset}",
+        "url": "https://dollchan.net/btb/res/284.html#812"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

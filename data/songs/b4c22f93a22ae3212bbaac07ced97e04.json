@@ -1,0 +1,36 @@
+{
+  "file": "songs/b4c22f93a22ae3212bbaac07ced97e04.js",
+  "title": "notitle No.1",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d41a8ee973a13774e7f9c7a38e6a8e204cd915c0f7c1124cb0d976fda2713dcc",
+  "upstream": {
+    "hash": "b4c22f93a22ae3212bbaac07ced97e04",
+    "codeLen": 423,
+    "code": "t?(C=cos,S=sin,[(N=(T,S,C)=>(l=t>>14,a=PI*T/64*2**((((l/2&5|2)^l/8&3+(2*l&6)/3)+t%([0,0,2,3,0,-9,2,-11][l/2&7]+4)*7)/12),S(S(S(S(a+S(a))+C(a/2))+C(2*a)+S(t*PI/4**7)+C(t*PI/24e3))+a/2+C(a*3/4)+S(5/4*a)+4*S(t*PI/3e4))+cbrt(S(3*cbrt(k=t%4**7)))*2*.997**k+(random()-.5)*8*.999**(t%4096)*(1381127833>>(t>>12)&1)+S(t/2)*4*.998**(t%8192)*(t>>13&1)))(t,S,C),N(t*128/127,C,S)].map(k=>(b+=c+=(k-b-15*c)/256*8*abs(sin(t/4e5))))):b=c=0",
+    "author": "ANoUserXD",
+    "name": "notitle No.1",
+    "url": [
+      "https://dollchan.net/btb/res/2628.html#4702",
+      "https://www.reddit.com/r/bytebeat/comments/1gitpu2/comment/lvc38hu/"
+    ],
+    "date": "2024-10-20",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "bc881315fce3e3c46fb5e61313328f05",
+        "author": "BaenHoHoHo",
+        "name": "suicide..",
+        "url": "https://dollchan.net/btb/res/2628.html#4683"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-02"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/3a63f8c7dd1810330ff21c530b89ee08.js",
+  "title": "poly thing",
+  "author": "D3nschøt",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3a63f8c7dd1810330ff21c530b89ee08.js",
+  "sha256": "95e21b7a2bbe4ebfa37f2ed3488acc7b82d3ec63982848e2d3e4afe2ce2661fa",
+  "upstream": {
+    "hash": "3a63f8c7dd1810330ff21c530b89ee08",
+    "codeLen": 1690,
+    "fileOrig": 1,
+    "codeText": "//GG runing it lmao at 44100Hz\nbase=(n,b=10)=> {\n\t\tconst digits = \"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\";\n\t\tconst result = [];\n\t\tlet sign = \"\";\n\t\tif (n<0) {\n\t\t\t\tsign = \"-\";\n\t\t\t\tn = -n;",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "poly thing",
+    "description": "Beautiful animation in the error console.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g2tm59/poly_thing/",
+    "date": "2024-10-13",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_edited": "2025-11-10"
+  }
+}

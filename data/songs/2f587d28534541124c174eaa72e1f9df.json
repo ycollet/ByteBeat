@@ -1,0 +1,25 @@
+{
+  "file": "songs/2f587d28534541124c174eaa72e1f9df.js",
+  "title": "Arcade game",
+  "author": "Niklas_Roy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "78f4093423663c39aed0c2873406d9002dcb682149aa189b8f702a25304de63f",
+  "upstream": {
+    "hash": "2f587d28534541124c174eaa72e1f9df",
+    "codeMinLen": 23,
+    "codeMin": "t*((t>>9|t>>13)&15)&129",
+    "codeLen": 34,
+    "code": "( t* (( t>>9| t>>13 ) & 15)) & 129",
+    "author": "Niklas_Roy",
+    "name": "Arcade game",
+    "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318497618021#c332012386255047591",
+    "date": "2011-10-13",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

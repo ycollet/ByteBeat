@@ -1,0 +1,28 @@
+{
+  "file": "songs/8d47960167dc29feea3daed87d6134b3.js",
+  "title": "Retrixtaria",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 4000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8d47960167dc29feea3daed87d6134b3.js",
+  "sha256": "3eb3c7679c10091f538341784b5d9bf857cf44994e3b47a181ea84716e36da59",
+  "upstream": {
+    "hash": "8d47960167dc29feea3daed87d6134b3",
+    "codeMinLen": 595,
+    "codeLen": 607,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "b=(v=32)=>(j=11*t/10*2**((t>>13&6^t>>14&3)/12))%v^j%v/16*(t>>9&15),x=(s=2)=>.05*a*s^((b(128)&32/s)-2*(b()&8/s))*s,z=s=>b(32/s)-b(64/s)^b(32/s),([a=37649&1<<(t>>9&15)&&32*sin(2048/(t%512)**.0125),a-b(),a-b(64)+b()+(d=2*((3==(t>>14&3))*(k=t**2.5%1*64)&t>>8&63)/3),a-b(64)+.8*(c=2*((t>>11&1)*k&-t>>5&63)/3),w=a-(b(64)^b(12.8))-b()+c+d,x(1),x()-d,w-d,w^b()^b(6.4),b(32)+c/2^b(64)-c/2,z(1)+d/2,a/2-b(64)|b()+c/2,(a+b(64)|2*b()-c/2)-.8*d,x()-b(),x()-b(64)+d,(w-d+x())/1.1+20,(w+x(3))/1.1+20,x(3)+a/2,x()+a/2,2*b(),(y=2",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "Retrixtaria",
+    "description": "This doesn't loop, it's 7 minutes long. Sounds a bit awkward occasionally.",
+    "url": "https://dollchan.net/btb/res/44.html#61",
+    "date": "2022-05-07",
+    "sampleRate": 4000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

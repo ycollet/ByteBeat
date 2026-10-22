@@ -1,0 +1,23 @@
+{
+  "file": "songs/c4f611716fe10f25b7a01cf43fecce01.js",
+  "title": "C compatible ii",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f9d18104e66ff8a77fa1d34d6cbd33ac42f75dfe03a5b31851a5539c0a4d2a98",
+  "upstream": {
+    "hash": "c4f611716fe10f25b7a01cf43fecce01",
+    "codeLen": 22,
+    "code": "t*(15&t>>10)|t>>6^t>>8",
+    "author": "Zackx",
+    "name": "C compatible ii",
+    "url": "https://dollchan.net/btb/res/204.html#1732",
+    "date": "2023-07-26",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

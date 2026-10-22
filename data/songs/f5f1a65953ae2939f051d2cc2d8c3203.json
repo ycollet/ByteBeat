@@ -1,0 +1,32 @@
+{
+  "file": "songs/f5f1a65953ae2939f051d2cc2d8c3203.js",
+  "title": "THE UNICODE SHOW",
+  "author": "Chasyxx",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f5f1a65953ae2939f051d2cc2d8c3203.js",
+  "sha256": "6e32bd90ef061711aca2f09cabb35f366b75fafe5dc096e23fb30fb93c4d1fff",
+  "upstream": {
+    "hash": "f5f1a65953ae2939f051d2cc2d8c3203",
+    "codeLen": 19300,
+    "fileOrig": 1,
+    "codeText": "// THE UNICODE SHOW\n// version II\n// Copyright 2025 Chasyxx. This is licensed under CC-BY-SA-4.0\n// https://creativecommons.org/licenses/by-sa/4.0/\n\n// play this in https://dollchan.net/bb/\n// or https://chasyxx.github.io/EnBeat_NEW/\n// FLOATBEAT 32000HZ",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "THE UNICODE SHOW",
+    "description": "Prepare for the most complex use of errors yet! Contains multiple existing bytebeats and funny references.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1ngbns9/the_unicode_show/",
+      "https://dollchan.net/btb/res/756.html#9395"
+    ],
+    "date": "2025-09-14",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2026-07-13"
+  }
+}

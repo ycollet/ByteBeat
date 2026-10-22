@@ -1,0 +1,22 @@
+{
+  "file": "songs/d3f1543fb1ad8ad8055d264b387e42bf.js",
+  "title": "Falling snow",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fa0bdbf3b8ca99f74814719983ec68a36958bec9f1b6756393b482657b6de93c",
+  "upstream": {
+    "hash": "d3f1543fb1ad8ad8055d264b387e42bf",
+    "codeLen": 144,
+    "code": "r=.77,d=12288/r,a=t=>(128&t*2**(parseInt(['VTSQOJGECEGJOQST','VTRQMJHFAFHJOQRT'][1&t*r>>17][(t*r>>12)%16],36)/12)*1.51),a(t)+a(t-d)/2+a(t-d*2)/4",
+    "author": "Zackx",
+    "name": "Falling snow",
+    "url": "https://dollchan.net/btb/res/204.html#1759",
+    "date": "2023-07-29",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/cc44a4cf3b437496edb368fdd09566d6.js",
+  "title": "Bright DX",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cc44a4cf3b437496edb368fdd09566d6.js",
+  "sha256": "008d465d55df3096c575f0daaf3cca90dbd7858866acc5febe361748ef5e599c",
+  "upstream": {
+    "hash": "cc44a4cf3b437496edb368fdd09566d6",
+    "codeLen": 3712,
+    "fileOrig": 1,
+    "codeText": "//                                                                                             :::\r\n//                                                                                            :::\r\n// :::::::::  :::::::::  :::::::::::  ::::::::  :::     ::: :::::::::::    ::::::::::  :::   :::\r\n// :+:    :+: :+:    :+:     :+:     :+:        :+:     :+:     :+:        :+:     :+:  :+: :+: \r\n// +:+    +:+ +:+    +:+     +:+     +:+        +:+     +:+     +:+        +:+     +:+   +:+:+  \r\n// +#++:++#+  +#++:",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "Bright DX",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1cctpie/bright_dx_finished/",
+    "date": "2024-04-25",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "4f2c134d7db0bffb1d3f26173df7a102",
+        "author": "D3nschøt",
+        "name": "update",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1c9nkpa/update/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

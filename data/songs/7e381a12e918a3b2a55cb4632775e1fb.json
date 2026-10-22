@@ -1,0 +1,35 @@
+{
+  "file": "songs/7e381a12e918a3b2a55cb4632775e1fb.js",
+  "title": "Isolated and edited drums",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f7adee9ae3d4490af3065b9b73f6177380d4350b9ca90452f0e19f5167efd9fb",
+  "upstream": {
+    "hash": "7e381a12e918a3b2a55cb4632775e1fb",
+    "codeLen": 30,
+    "code": "t&4096?(t*(t^t%9)|t>>3)>>1:255",
+    "author": "SArpnt",
+    "name": "Isolated and edited drums",
+    "url": "https://bytebeat.ficial.net",
+    "date": "2021-10-07",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-23"
+  }
+}

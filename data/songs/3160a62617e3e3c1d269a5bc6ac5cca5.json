@@ -1,0 +1,46 @@
+{
+  "file": "songs/3160a62617e3e3c1d269a5bc6ac5cca5.js",
+  "title": "Amazing Dreams",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3160a62617e3e3c1d269a5bc6ac5cca5.js",
+  "sha256": "3f2ede794de1437b15ab38b76391543eda80d9d8952bcc9740e7e9b70ed52534",
+  "upstream": {
+    "hash": "3160a62617e3e3c1d269a5bc6ac5cca5",
+    "codeMinLen": 3223,
+    "codeLen": 4441,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "SampleRate=48000,Tuning=440,Speed=0.63,tt=t*(2**(-9/12))*Tuning*128/SampleRate,ts=t*Speed,Sequence=(Sequence,Speed,fts=ts)=>Sequence[(fts>>Speed)%Sequence.length],SequenceNote=(Notes,Speed,fts,Transpose=0)=>tt*2**((parseInt(Sequence(Notes,Speed,fts),36)+Transpose)/ 12),Reverb=(Func,Level=12,Key=3e3,Divisor=2)=>{Out=Func(ts);for(let Iterations=1;Iterations<=Level;Iterations++){Out+=Func(ts-(Key*Iterations))/(1+Divisor)};return Out},Clamp=(Input)=>min(max(Input,-128),127),Mix=(Arr,Vol)=>(Arr=Arr.map(x=>x%256/",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Amazing Dreams",
+    "description": "ByteBattle Season 5 Competition - 2nd place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1lasoz1/amazing_dreams/",
+      "https://bytebeat.oops.wtf/season5/entries.html"
+    ],
+    "date": "2025-06-14",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "c6ae54779dfee4b74e388248d8fde88a",
+        "author": "Two2Fall",
+        "name": "Fantastic Dreams",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1jrifdp/fantastic_dreams/",
+          "https://bytebeat.oops.wtf/season4/entries.html"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-10",
+    "date_edited": "2025-11-10"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/5b9c93569fa938068f09a106b780187a.js",
+  "title": "wow that was pretty cool",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "aa03f346e45477e028738a474fe7a9c1eca6effd0a62fc9bc3c55a129a42b55b",
+  "upstream": {
+    "hash": "5b9c93569fa938068f09a106b780187a",
+    "codeMinLen": 55,
+    "codeMin": "4E3/~(t/3&4095)%20*'1213'[(t>>5)%4]*'3944'[(t>>12)%4]-2",
+    "codeLen": 59,
+    "code": "(4e3/~((t/3)&4095)%20)*'1213'[(t>>5)%4]*'3944'[(t>>12)%4]-2",
+    "author": "kOLbOSa_exe",
+    "name": "wow that was pretty cool",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q4glqu/wow_that_was_pretty_cool/",
+    "date": "2021-10-09",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

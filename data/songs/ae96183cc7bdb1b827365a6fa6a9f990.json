@@ -1,0 +1,36 @@
+{
+  "file": "songs/ae96183cc7bdb1b827365a6fa6a9f990.js",
+  "title": "far echoes",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 27000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ae96183cc7bdb1b827365a6fa6a9f990.js",
+  "sha256": "2da18a7802f406eade8091221e7fb01473f24ff2556783260c9be92094f99241",
+  "upstream": {
+    "hash": "ae96183cc7bdb1b827365a6fa6a9f990",
+    "codeMinLen": 835,
+    "codeLen": 2587,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(d=[Array(12288).fill(0),Array(6144).fill(0)],y=[0,0,0,0],c='charCodeAt'),t%=2**23,j=0,J=t>>13,M=['5:<A<ACH','5:>A>AFJ','8<ADADHM','27<><>CH'][J>>4&3],X=t/2**17,Q=15>X%16,q=min(X/16,1),r=q|0,R=2*r/3,x=q*!!(~J>>2&3)*atan(X%1*tan(PI*X/(1+3*((L=J>>8&3)==3))+asin(sin((t/25+sin(t/1024)/2)*2**(M[c](J&3)/12-4)))))+d[0].shift(),d[0].push(x/2*(2-X%1)),z=Q*(1-32*X%1)**.5*atan((Z=tan(t/25*2**(M[c](32*X&7)/12-4))/0)==Z&&Z)/4+d[1].shift(),d[1].push(z/(1.5+cos(X*PI*4)/4)),(f=(s,d,e)=>(y[j]+=max(min(s,1),0)*((j?y[j-1]:",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "far echoes",
+    "description": "A space-like song made by toying around with Strato.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10xye9m/far_echoes/",
+    "date": "2023-02-09",
+    "mode": "Floatbeat",
+    "sampleRate": 27000,
+    "remix": [
+      {
+        "hash": "b1808832521d6eb0ebb9add08d1327ed",
+        "author": "lhphr",
+        "name": "Strato",
+        "url": "https://dollchan.net/btb/res/44.html#367"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/28b303e148fd1a5baf6f357b74960617.js",
+  "title": "music for a C64 game",
+  "author": "skurk",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "81fbdc49a7aa4a78bc3841fcb80eeb30076b6d8a854baead5458c2b6c29a7072",
+  "upstream": {
+    "hash": "28b303e148fd1a5baf6f357b74960617",
+    "codeMinLen": 44,
+    "codeMin": "t*(t>>(t&4096?t*t>>12:t>>12))|t<<(t>>8)|t>>4",
+    "codeLen": 59,
+    "code": "t*(t>>((t&4096)?((t*t)/4096):(t/4096)))|(t<<(t/256))|(t>>4)",
+    "author": "skurk",
+    "name": "music for a C64 game",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=8#c388896",
+    "date": "2011-10-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

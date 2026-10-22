@@ -1,0 +1,49 @@
+{
+  "file": "songs/118b76a1297062437c8e075562447ef4.js",
+  "title": "1k Reremix - eSlashMachine's Sunset House",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/118b76a1297062437c8e075562447ef4.js",
+  "sha256": "91477efd39b700f54d1e0866a55d973fd3c3b5389d8e6e5458760b3672e379e3",
+  "upstream": {
+    "hash": "118b76a1297062437c8e075562447ef4",
+    "codeLen": 1332,
+    "fileOrig": 1,
+    "codeText": "BPM=90.000,SampleRate=48e3,tf=abs(t/SampleRate/180*3*32768*BPM),p=(1/SampleRate*32)*440*2**(4/12),t?0:(f=[],lpf=(a,c)=>(li=fi++,f[li]??=0,f[li]+=(a-f[li])*c),hpf=(a,c)=>a-lpf(a,c),bpf=(a,hc,lc)=>hpf(lpf(a,lc),hc),s=(a,cu,cd)=>(si=fi++,f[si]??=0,sr=f[si],f[si]+=(a-sr)*(sr<a?cu:cd)),dm=1e5,d=(a,h,m,fbfn=x=>x)=>{di=fi++;f[di]??=Array(dm).fill(0);dw=dt%dm;df=a;du=0;for (let hd of h){dr=(dm+dt-round(hd.t))%dm;df+=f[di][dr]*hd.fb;du+=f[di][dr]*hd.m;}f[di][dw]=fbfn(df);return a*(1-m)+du*m;},cmp=(a,th,ra,at,rl,sc=a",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "1k Reremix - eSlashMachine's Sunset House",
+    "url": [
+      "https://dollchan.net/btb/res/7164.html#7835",
+      "https://www.reddit.com/r/bytebeat/comments/1lp1ins/all_my_1k_reremix_remixes/"
+    ],
+    "date": "2025-06-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "da904cd4f1059b7c0f34c5c235e3a881",
+        "author": "eSlashMachine",
+        "name": "sunset house meets this remix chain",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ihwhea/sunset_house_meets_this_remix_chain_remixes_of/"
+      },
+      {
+        "hash": "0574a38b5a41a369122ddeea7712ecad",
+        "author": "feeshbread",
+        "name": "1k reremix",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gab25x/comment/ltn5cz5/",
+          "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-13",
+    "date_edited": "2025-11-17"
+  }
+}

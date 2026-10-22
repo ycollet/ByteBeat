@@ -1,0 +1,33 @@
+{
+  "file": "songs/bfde8fefed1f84e4b0c9e6bbfc807ceb.js",
+  "title": "zeit v2 but it's actually c compatible",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6cfd51817ca70c6fb66b1bbf746b25f417b8564e036da771f81f63616d051b9c",
+  "upstream": {
+    "hash": "bfde8fefed1f84e4b0c9e6bbfc807ceb",
+    "codeMinLen": 422,
+    "codeMin": "(((t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>(-t>>20&1?8:11)))>>(3&-t>>(t&(-t&57344?4096:6144)?2:16))|(-t&24576?(3*t>>5)%192:(t>>4)%192)|(t>>20&1?t>>4:t>>(-t>>18&1)+2))&255)>>1)-(t>>18&1?((-t>>1)*(t&16384?7:5)>>(-t>>10&3)&t>>4&255)>>1:(-t>>2)*(t&16384?7:5)>>(-t>>10&3)&(t>>4&255)>>1)+(128&(int)(4E4/(1+(t&(-t&28672?4095:2047)))))+(t>>18&3&&-(t*(t^t%9)&255&-(t>>(t>>11&31?(-t&14336?5:4)-!(-t&28672)-!(-t&122880):6))<<2&255)>>2)+128",
+    "codeLen": 426,
+    "code": "(((t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>(-t>>20&1?8:11)))>>(3&-t>>(t&(-t&57344?4096:6144)?2:16))|(-t&24576?(t*3>>5)%192:(t>>4)%192)|(t>>20&1?t>>4:t>>(-t>>18&1)+2))&255)>>1)-(t>>18&1?((-t>>1)*(t&16384?7:5)>>(-t>>10&3)&t>>4&255)>>1:(-t>>2)*(t&16384?7:5)>>(-t>>10&3)&(t>>4&255)>>1)+(128&(int)(4e4/(1+(t&(-t&28672?4095:2047)))))+((t>>18&3)&&(-(t*(t^t%9)&255&-(t>>(t>>11&31?(-t&14336?5:4)-!(-t&28672)-!(-t&122880):6))<<2&255)>>2))+128",
+    "author": "PortablePorcelain",
+    "name": "zeit v2 but it's actually c compatible",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b4b9l6/zeit_v2_but_its_actually_c_compatible/",
+    "date": "2024-03-02",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "cfed107712776695d40734b15370e22a",
+        "author": "SthephanShi",
+        "name": "The time is running out!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "c"
+    ]
+  }
+}

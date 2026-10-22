@@ -1,0 +1,25 @@
+{
+  "file": "songs/5c4680caa666efaab23cfa0f1e4b00df.js",
+  "title": "creepy droning static thing",
+  "author": "PortablePorcelain",
+  "mode": "Signed Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "22e061a86470b68aab6e0125eb866ed2c19fb8d4209a8a7504827fc09ec75fca",
+  "upstream": {
+    "hash": "5c4680caa666efaab23cfa0f1e4b00df",
+    "codeMinLen": 57,
+    "codeMin": "64*sin(t*PI/255+sin(t*PI/128)*(t/(65536+16384*random())))",
+    "codeLen": 74,
+    "code": "sin(t*Math.PI/255+sin(t*Math.PI/128)*(t/(65536+(16384*Math.random()))))*64",
+    "author": "PortablePorcelain",
+    "name": "creepy droning static thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/tvnthr/creepy_droning_static_thing/",
+    "date": "2022-04-04",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

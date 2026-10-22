@@ -1,0 +1,25 @@
+{
+  "file": "songs/92e77ae394ff61cde5b4e1f9e2c2ba52.js",
+  "title": "Atari 2600-like tune",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 7500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "abf684b6e425a002c6dcee769d2b4c1b5cb4195273f6c6d91befbbd3f605209f",
+  "upstream": {
+    "hash": "92e77ae394ff61cde5b4e1f9e2c2ba52",
+    "codeMinLen": 37,
+    "codeMin": "(11099>>t/'97  65'[t>>10&5]%15&1)*100",
+    "codeLen": 55,
+    "code": "(0b010101101011011>>(t/\"97976565\"[(t>>10)%8]%15)&1)*100",
+    "author": "kOLbOSa_exe",
+    "name": "Atari 2600-like tune",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14hybmh/atari_2600like_tune/",
+    "date": "2023-06-24",
+    "sampleRate": 7500,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-04-30"
+  }
+}

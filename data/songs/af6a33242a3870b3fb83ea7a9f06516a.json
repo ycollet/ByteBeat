@@ -1,0 +1,41 @@
+{
+  "file": "songs/af6a33242a3870b3fb83ea7a9f06516a.js",
+  "title": "RealityWave",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 69000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/af6a33242a3870b3fb83ea7a9f06516a.js",
+  "sha256": "1bcc30539d67e2bbad9fb4770d70dd259dc2a70ec24bee921db260a99b0cccee",
+  "upstream": {
+    "hash": "af6a33242a3870b3fb83ea7a9f06516a",
+    "codeMinLen": 551,
+    "codeLen": 579,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "l=8192,e=24576,u=16384,i=32768,s=(x,t)=>t*2**(parseInt(x,36)/12)%256-128,song=j=>(r=t*.95*j,m=b=>(b*=b>=0,s(\"7C7F7C7H7C7J7C7M8C8F8C8H8C8J8C8M\"[31&b>>14],r/2)%256*(1-b/u%1)**(b&i*16?2:1)/1.5),a=b=>(s('FFHJ'[3&t>>16],r/2*b)%256/3+s('CCCC'[3&t>>16],r/2*b)%256/3+s('78'[1&t>>18],r/2*b)%256/3)*(t%32768/32768)*1.75,min(max(m(t)+m(t-e)/2+m(t-e*2)/4+a(j)+332.8*tanh(2*sin((t%16384)**.5))*(1-t/16384%1)**3*(1&-t>>14)+(96*j*random()%256-16)*(1-t/8192%1)**3+((t*sin(t>>3)&128)%256-64)*(1-t/32768%1)*(1&t>>15),-64),63))*(1-",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "RealityWave",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1iljxsw/two2fall_music_4",
+    "date": "2025-02-09",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 69000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "7af429ba103f8817757277d56753b5d3",
+        "author": "Two2Fall",
+        "name": "Nothing is real",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gzwwdr/i_finished_my_song_for_the_bytebattle_season_2/",
+          "https://bytebeat.oops.wtf/season2/entries.html"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-09-28"
+  }
+}

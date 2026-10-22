@@ -1,0 +1,24 @@
+{
+  "file": "songs/85f3c8c076ca58e9c3392d6f5b5aa012.js",
+  "title": "algorithmic music in a \"constructivist\" way",
+  "author": "a1k0n",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b55e90d8523e03a12fcc4234bdc813389cc234422830849f674296596b9a0bbb",
+  "upstream": {
+    "hash": "85f3c8c076ca58e9c3392d6f5b5aa012",
+    "codeMinLen": 153,
+    "codeMin": "SS=(s,o,r,p)=>(c=s.charCodeAt((t>>r)%p),32==c?0:31&t*2**(c/12-o)),3*SS('0 0     7 7     037:<<',6,10,32)+5*(t&4096?SS('037',4,8,3)*(4096-(t&4095))>>12:0)",
+    "codeLen": 177,
+    "code": "SS=function(s,o,r,p){var c=s.charCodeAt((t>>r)%p);return c==32?0:31&t*Math.pow(2,c/12-o)},SS(\"0 0     7 7     037:<<\",6,10,32) + (t&4096?SS(\"037\",4,8,3)*(4096-(t&4095))>>12 : 0)",
+    "author": "a1k0n",
+    "name": "algorithmic music in a \"constructivist\" way",
+    "url": "https://news.ycombinator.com/item?id=3063359#3064980",
+    "date": "2011-10-03",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

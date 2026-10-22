@@ -1,0 +1,29 @@
+{
+  "file": "songs/abac387ef38165d3ce92c02914b04b83.js",
+  "title": "Melody I made in Lydian scale",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/abac387ef38165d3ce92c02914b04b83.js",
+  "sha256": "79d912aa6044217a6c2438fdcc6b44022350078623579dac69150737e07d49be",
+  "upstream": {
+    "hash": "abac387ef38165d3ce92c02914b04b83",
+    "codeMinLen": 506,
+    "codeMin": "t||(f=[],dF=[]),i=0,A=asin,lp=(a,c)=>(fi=i++,f[fi]??=0,f[fi]+=(a-f[fi])*c),hp=(a,c=.08)=>a-lp(a,c),bp=(a,h=.05,l=.9)=>hp(lp(a,l),h),_d=0,dm=1e5,d=(I,T=1,m=.55,fb=.55)=>(df=_d++,dF[df]??=new Float32Array(dm),out=I+dF[df][t%T],dF[df][t%T]=out*fb,I*(1-m)+out*m),r=t*0.7281777778,p=(t,l,m)=>t?(sign((m?A(sin(t*PI/128))/PI*2:sin(t*PI/128))-l)/2+l/2):0,d(tanh(hp(bp(p(t/48e3*44100*2**(([-7,-3,0,4,7,11,14][(0x2C6399CE>>(((r>>11)^(3&r>>13))-2&30)&15)%7]+1)/12),1-r/131072%1-r/8192%(r>>13&7?.5:1)/16,1)*2))),16875)",
+    "codeLen": 659,
+    "fileOrig": 1,
+    "codeText": "t||(f=[],dF=[]),i=0,A=asin,lp=(a,c)=>(fi=i++,f[fi]??=0,f[fi]+=(a-f[fi])*c),hp=(a,c=.08)=>a-lp(a,c),bp=(a,h=.05,l=.9)=>hp(lp(a,l),h),_d=0,dm=1e5,d=(I,T=1,m=.55,fb=.55)=>(df=_d++,dF[df]??=new Float32Array(dm),out=I+dF[df][t%T],dF[df][t%T]=out*fb,I*(1-m)+out*m),r=t*0.7281777778,p=(t,l,m)=>t?(sign((m?A(sin(t*PI/128))/PI*2:sin(t*PI/128))-l)/2+l/2):0,d(tanh(hp(bp(p(t/48e3*44100*2**(([-7,-3,0,4,7,11,14][(0x2C6399CE>>(((r>>11)^(3&r>>13))-2&30)&15)%7]+1)/12),1-r/131072%1-r/8192%(r>>13&7?.5:1)/16,1)*2))),16875)",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Melody I made in Lydian scale",
+    "url": "https://www.bytebeat.cloud/post/3f207692-cc36-4eae-b213-532f916cbca5",
+    "date": "2026-02-17",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-02-21",
+    "date_edited": "2026-07-31"
+  }
+}

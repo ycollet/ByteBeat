@@ -1,0 +1,26 @@
+{
+  "file": "songs/61ba316bf7db7011f696809e2aef31d1.js",
+  "title": "Brain aneurysm",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c48b29d00316b26d0702b38d9ff62919297faed354eda6e4ccd79c0bea642008",
+  "upstream": {
+    "hash": "61ba316bf7db7011f696809e2aef31d1",
+    "codeMinLen": 156,
+    "codeMin": "bf=i=>i&~i>>3,s=13,t||(n=0),t||(l=[],(()=>{for(a=0;a<256;a++)l.push(bf(a))})()),t%2**s?n+=(l[(t>>s)%l.length]-n)/2048:n=l[(t>>s)%l.length-1]||l[0],(t&255)*n",
+    "codeLen": 168,
+    "code": "bf=i=>i&~i>>3,s=13,t||(n=0),t||(l=[],(()=>{for(let i=0;i<256;i++){l.push(bf(i))}})()),t%(2**s)?n+=(l[(t>>s)%l.length]-n)/2048:n=(l[((t>>s)%l.length)-1]||l[0]),(t&255)*n",
+    "author": "psubscirbe",
+    "name": "Brain aneurysm",
+    "description": "Lowering your volume is advised.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fg2sa1/brain_aneurysm/",
+    "date": "2024-09-13",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-01-16"
+  }
+}

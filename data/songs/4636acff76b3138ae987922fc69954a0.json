@@ -1,0 +1,31 @@
+{
+  "file": "songs/4636acff76b3138ae987922fc69954a0.js",
+  "title": "The Nebula",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4636acff76b3138ae987922fc69954a0.js",
+  "sha256": "be2988aee832a1b6241b089ff9546b3e337357d2564aba3b4a11f4cba004217d",
+  "upstream": {
+    "hash": "4636acff76b3138ae987922fc69954a0",
+    "codeMinLen": 1024,
+    "codeLen": 1211,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Y=cos,Z=tanh,t||(p1=p2=p3=p4=0,w=p=>(-Y(p/128*PI)+1)*128-.5,fx=[],dM=1e6,lp=(a,c)=>(F=fxi++,fx[F]??=0,fx[F]+=(a-fx[F])*c),hp=(a,c)=>a-lp(a,c),bp=(a,hc,lc)=>hp(lp(a,lc),hc),d=(a,hs,dw,N=x=>x)=>{d_F=fxi++;fx[d_F]??=Array(dM).fill(0);d_wi=dt%dM;d_f=a;d_o=0;for(let h of hs){d_ri=(dM+dt-round(h.t))%dM;d_f+=fx[d_F][d_ri]*h.fb;d_o+=fx[d_F][d_ri]*h.m}fx[d_F][d_wi]=N(d_f);return a*(1-dw)+d_o*dw}),fxi=0,dt=t,hs=[[{t:2e4+w(t/220),m:.4,fb:.15},{t:4e4+w(t/240),m:.3,fb:.35},{t:7e4+w(t/310),m:.2,fb:.45},{t:11e4+w(t/370),m",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "The Nebula",
+    "description": "Drifting through the solar system...",
+    "url": "https://dollchan.net/btb/res/6946.html#9387",
+    "date": "2025-09-26",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-28",
+    "date_edited": "2025-11-13"
+  }
+}

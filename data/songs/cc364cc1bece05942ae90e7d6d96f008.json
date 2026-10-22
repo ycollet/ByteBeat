@@ -1,0 +1,28 @@
+{
+  "file": "songs/cc364cc1bece05942ae90e7d6d96f008.js",
+  "title": "Meet the Musician",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 10000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cc364cc1bece05942ae90e7d6d96f008.js",
+  "sha256": "eb838444d56eb0963b6474eff613c7907455a80c13eee4ce10273a5c6b5af203",
+  "upstream": {
+    "hash": "cc364cc1bece05942ae90e7d6d96f008",
+    "codeMinLen": 382,
+    "codeMin": "t-=2048,q=t>>11&7,e=~(1>q?t>>3:3>q?128+(t>>4):7>q?(t>>5)+64:(~t>>5)-64),N=p=>(t*p&255&e)/4,C=n=>N(n[0])+N(n[1])+N(n[2])+N(n[3])+(t*n[0]&255)/4,P=t>>14&3,B=C([[3,4.5,5.25,7.125],[2,3,5,7],[8/3,4,6,20/3],[20/9,50/9,4,20/3]][P]),M=t*'<<<H???0\\x00<6<666H<<<H??00\\x006<<666\\x00<?H<?HQ\\x00HQZHQZ`HQZ`QZ`lQHx\\x00xll\\x00H'.charCodeAt(t>>11&63)/9&175,D=128*sin(4096/(t&4095))+128,M/4+B/3+D/4",
+    "codeLen": 381,
+    "fileOrig": 1,
+    "codeText": "t-=2048,q=t>>11&7,e=~(1>q?t>>3:3>q?128+(t>>4):7>q?(t>>5)+64:(~t>>5)-64),N=p=>(t*p&255&e)/4,C=n=>N(n[0])+N(n[1])+N(n[2])+N(n[3])+(t*n[0]&255)/4,P=t>>14&3,B=C([[3,4.5,5.25,7.125],[2,3,5,7],[8/3,4,6,20/3],[20/9,50/9,4,20/3]][P]),M=t*'<<<H???0\\x00<6<666H<<<H??00\\x006<<666\\x00<?H<?HQ\\x00HQZHQZ`HQZ`QZ`lQHx\\x00xll\\x00H'.charCodeAt(t>>11&63)/9&175,D=128*sin(4096/(t&4095))+128,M/4+B/3+D/4",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Meet the Musician",
+    "url": "https://www.reddit.com/r/bytebeat/comments/108mdge/meet_the_musician/",
+    "date": "2023-01-11",
+    "sampleRate": 10000,
+    "coverName": "Chase William - Some Things Abt Me",
+    "coverUrl": "https://youtu.be/QZLsdW2l_54",
+    "tags": [
+      "1k"
+    ]
+  }
+}

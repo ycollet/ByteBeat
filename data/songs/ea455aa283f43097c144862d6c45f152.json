@@ -1,0 +1,28 @@
+{
+  "file": "songs/ea455aa283f43097c144862d6c45f152.js",
+  "title": "go to sleep",
+  "author": "potasmic",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ea455aa283f43097c144862d6c45f152.js",
+  "sha256": "9103f854f6853192bf54978440848e59cdddc7f2212e5fadbe0f66ab26c13c83",
+  "upstream": {
+    "hash": "ea455aa283f43097c144862d6c45f152",
+    "codeMinLen": 160,
+    "codeMin": "return t=>{s=0;for(i=0;i<(p=PI);i+=p/7){s+=.3*sin(2*p*(T=t<p?t:t-i)*(440+440*(i/.75%4))*[.737,.415,.322,.17][round(T/p/2)%4])*exp(.01-T%p)*(.4-i/4*.4)}return s}",
+    "codeLen": 392,
+    "fileOrig": 1,
+    "codeText": "return t=>{s=0;for(i=0;i<(p=PI);i+=p/7){s+=.3*sin(2*p*(T=t<p?t:t-i)*(440+440*(i/.75%4))*[.737,.415,.322,.17][round(T/p/2)%4])*exp(.01-T%p)*(.4-i/4*.4)}return s}",
+    "isTruncated": 1,
+    "author": "potasmic",
+    "name": "go to sleep",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-23"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/1855abce508824f57a5a979b52a23cb0.js",
+  "title": "hush",
+  "author": "Icycle-Bycicle-24",
+  "mode": "Bytebeat",
+  "rate": 59000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1855abce508824f57a5a979b52a23cb0.js",
+  "sha256": "1811da48b451130749d8307d221ad727a2b68c542fb4ad366ddbd39dd98110b8",
+  "upstream": {
+    "hash": "1855abce508824f57a5a979b52a23cb0",
+    "codeMinLen": 1021,
+    "codeLen": 1693,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "p=s=>2**(s/12),s=P=>t*p(P)&127,S=(P,o=0)=>(t*p(P)&128)*(1-(t/2**14-o)%1),a=P=>t*p(P)&112,+(s([-15,B=-13,-16,A=-11][c=t>>17&3],17)/4)*(t<2**21)+(s([A,-9,B,-8][c],17)/4)*(t<2**21)+(s([-8,-6,-9,-6][c],17)/4)*(t<2**21)+(S((y=[18,,,23,,,,,20,,,18,,,,,11,,,18,,,,,13,,,20,,,11])[t>>14&31])/2)*(x=t>2**20&&t<2**21)+(S(y[int(t/2**14-1.5&31)],.5)/4)*x+(S(y[int(t/2**14-3&31)])/8)*x+(s(A,C=-1)/4)*(t>2**21&&(m=t<2**21+2**17))+(s(-8,C)/4)*(t>2**21&&m)+(s([-6,-4][(t>>16)&1],C)/4)*(t>2**21&&m)+(a([,B,A,C,,-8,-6,-8,,-9,-8,C,",
+    "isTruncated": 1,
+    "author": "Icycle-Bycicle-24",
+    "name": "hush",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16cxfn5/hush/",
+    "date": "2023-09-08",
+    "sampleRate": 59000,
+    "coverName": "BFDI OST - Hush",
+    "coverUrl": "https://youtu.be/XCeNSQJserE",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-06"
+  }
+}

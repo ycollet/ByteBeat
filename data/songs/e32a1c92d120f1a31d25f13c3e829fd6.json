@@ -1,0 +1,35 @@
+{
+  "file": "songs/e32a1c92d120f1a31d25f13c3e829fd6.js",
+  "title": "them bytes be dancin",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e32a1c92d120f1a31d25f13c3e829fd6.js",
+  "sha256": "0e991d57fa94f4d0c6038180e9259d1e9a07accf1e56c7a492f35490d0e50a3e",
+  "upstream": {
+    "hash": "e32a1c92d120f1a31d25f13c3e829fd6",
+    "codeLen": 2947,
+    "fileOrig": 1,
+    "codeText": "/*\n * them bytes be dancin\n * by troubleshoot\n * (remix of 1k dance)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=150,K=H=S=k=h=s=b1=b2=h1=h2=h3=m1=m2=s1=s2=sl1=sl2=0,Ki=Hi=Sn=1,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c,clip=x=>atan(1.4*x)/1.4,r=Array(m=15e3).fill(0),r2=Array(m).fill(0),R=i=>r[i%m],R2=i=>r2[(i+m|0)%m],r3=Array(m).fill(0),R3=i=>r3[(i+m|0)%m]), // thas a lot of arrays",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "them bytes be dancin",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1llji9a/them_bytes_be_dancin/",
+    "date": "2025-06-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "294c29f350765e64eff0fa683a182789",
+        "author": "raphaelgoulart",
+        "name": "1k dance",
+        "url": "https://battleofthebits.com/arena/Entry/1k+dance/31132/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

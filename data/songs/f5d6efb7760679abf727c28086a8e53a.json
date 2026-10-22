@@ -1,0 +1,31 @@
+{
+  "file": "songs/f5d6efb7760679abf727c28086a8e53a.js",
+  "title": "infinite insomnia",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 47250,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f5d6efb7760679abf727c28086a8e53a.js",
+  "sha256": "48580e54c045504768a655d780a839476366383a38c6654b04636f2ac68f8396",
+  "upstream": {
+    "hash": "f5d6efb7760679abf727c28086a8e53a",
+    "codeLen": 5086,
+    "fileOrig": 1,
+    "codeText": "/* \n\n\tinfinite insomnia\n\n\teSlashMachine\n\t\n\tfor bytebattle season 4\n",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "infinite insomnia",
+    "description": "Bytebattle Season 4 Competition.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1jnbjp4/infinite_insomnia_entry_for_bytebattle_season_4/",
+      "https://bytebeat.oops.wtf/season4/entries.html"
+    ],
+    "date": "2025-03-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 47250,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-04"
+  }
+}

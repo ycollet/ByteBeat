@@ -1,0 +1,23 @@
+{
+  "file": "songs/febef17534625950125db04264c705a9.js",
+  "title": "Bassline #countercomplex",
+  "author": "tejeez",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c54584aa8de17d3347f708e99289c0ac0554ef9f3551e22bf5fe2a6a674d1ab3",
+  "upstream": {
+    "hash": "febef17534625950125db04264c705a9",
+    "codeLen": 49,
+    "code": "(~t>>2)*((127&t*(7&t>>10))<(245&t*(2+(5&t>>14))))",
+    "author": "tejeez",
+    "name": "Bassline #countercomplex",
+    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt",
+    "date": "2011-10-05",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/e3db43ed85d2efc2567eede9fbfa141d.js",
+  "title": "An iconic german thingy",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cd3ed7d9addd3859e18bdd1ee6d27ae5eccc81283d241e80a5ce678542ba20e7",
+  "upstream": {
+    "hash": "e3db43ed85d2efc2567eede9fbfa141d",
+    "codeLen": 136,
+    "code": "v=-9e9,t*.7*2**([0,0,0,1,3,v,3,v,3,v,8,v,8,v,12,v,12,12,12,10,8,v,v,v,v,v,v,v,7,v,8,v,10,v,v,v,v,v,v,v,12,12,12,10,8,v][t*.7>>13&63]/12)",
+    "author": "Decent-Manager-6169",
+    "name": "An iconic german thingy",
+    "url": "https://dollchan.net/btb/res/520.html#592",
+    "date": "2023-03-11",
+    "sampleRate": 48000,
+    "coverName": "Deutsches Marschlied - Erika",
+    "coverUrl": "https://youtu.be/vjVCOwSPl0U",
+    "tags": [
+      "256"
+    ]
+  }
+}

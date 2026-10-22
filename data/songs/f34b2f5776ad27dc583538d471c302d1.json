@@ -1,0 +1,37 @@
+{
+  "file": "songs/f34b2f5776ad27dc583538d471c302d1.js",
+  "title": "\"Something New\" using functions",
+  "author": "maj-6",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f34b2f5776ad27dc583538d471c302d1.js",
+  "sha256": "2f4a4d07c6038b7c14ecad0988a8392e4a409c6a222b3b46d476c879c116e6e6",
+  "upstream": {
+    "hash": "f34b2f5776ad27dc583538d471c302d1",
+    "codeMinLen": 186,
+    "codeMin": "b=t>>13,B=b>>3,T=(n,p=600,a=5)=>abs(.08*(1<<(n+=4)/7)*1.0594**(2*n%14-(3<n%7))*(t+a*sin(t/p))%64-32),c=n=>T(n)+T(n+2)+T(n+4)+T(n+6),m=(b^B+3)%12+14,r=17-B%4,+T(m,450,2)+.3*c(r)+T(r-14)/2",
+    "codeLen": 864,
+    "codeFormLen": 1043,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "b=t>>13,B=b>>3,T=(n,p=600,a=5)=>abs(.08*(1<<(n+=4)/7)*1.0594**(2*n%14-(3<n%7))*(t+a*sin(t/p))%64-32),c=n=>T(n)+T(n+2)+T(n+4)+T(n+6),m=(b^B+3)%12+14,r=17-B%4,+T(m,450,2)+.3*c(r)+T(r-14)/2",
+    "isTruncated": 1,
+    "author": "maj-6",
+    "name": "\"Something New\" using functions",
+    "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/#post157167",
+    "date": "2022-06-03",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "7b21b3371de20893a2e7292efde6f7d7",
+        "author": "maj-6",
+        "name": "Something New",
+        "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

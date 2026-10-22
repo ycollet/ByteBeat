@@ -1,0 +1,33 @@
+{
+  "file": "songs/0ec3eb83208b78b9a1dccb4a53a0aa0c.js",
+  "title": "Blossoming Trot of Ponyville",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0ec3eb83208b78b9a1dccb4a53a0aa0c.js",
+  "sha256": "daf706b843d67b4b49c4053b5dc2e9cd91c5e4bf9b30dffe91e8694639be7a12",
+  "upstream": {
+    "hash": "0ec3eb83208b78b9a1dccb4a53a0aa0c",
+    "codeLen": 7812,
+    "fileOrig": 1,
+    "codeText": "/*!\n *      •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · Blossoming Trot of Ponyville\n *      •───────────────•°•❀•°•───────────────•\n */\n\n(() => {\n\tpi = Math.PI; tau = 2 * Math.PI;",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Blossoming Trot of Ponyville",
+    "description": "Updated on 2026/10/21",
+    "url": [
+      "https://www.bytebeat.cloud/post/438aefe1-7b35-4389-abd5-4ee1e64df80d",
+      "https://dollchan.net/btb/res/7164.html#16991"
+    ],
+    "date": "2026-08-30",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-09-22",
+    "date_edited": "2026-10-21"
+  }
+}

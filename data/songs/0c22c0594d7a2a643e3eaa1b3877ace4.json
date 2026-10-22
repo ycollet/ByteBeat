@@ -1,0 +1,32 @@
+{
+  "file": "songs/0c22c0594d7a2a643e3eaa1b3877ace4.js",
+  "title": "Remix of \"My new instrumental in a new year\"",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6db8d624df47eb9ce3e98f5dfdf7db55fae69b2ce32ca9941d34d63c6826a0d8",
+  "upstream": {
+    "hash": "0c22c0594d7a2a643e3eaa1b3877ace4",
+    "codeMinLen": 432,
+    "codeMin": "s=17,q=2**(1/12),u=t>>s-1&1,p=1.042*t,w=64,v=p*[.502,.4,.3,.448][3&t>>s]/(1+(~t>>13&1)),v2=p*[.75,.6,.452,.67][3&t>>s],v3=p*[.896,.796,.75*(u?1:1/q**2),.896][3&t>>s],v4=p*[1.126*(u?q:1),.896*(u?q**2:1),.896,1.126*(u?1:q)][3&t>>s],((v&w)+(v2&w)+(v3&w)+(v4&w))*(t&16383)/16383/1.9+32*sin(20*cbrt(t%16384/40))+32*random()*(-t&8E3)/8E3+(t*[0,sin(t/1.3>>1)][1&t>>14]&-t>>7&127)/3+32*sin(sin(v*PI/128/'21'[1&t>>13])*(-t&8191)/2048/1.5)+64",
+    "codeLen": 435,
+    "code": "s=17,q=2**(1/12),u=t>>s-1&1,\np=1.042*t,w=64,v=p*[.502,.4,.3,.448][3&t>>s]/(1+(~t>>13&1)),v2=p*[.75,.6,.452,.67][3&t>>s],v3=p*[.896,.796,.75*(u?1:1/q**2),.896][3&t>>s],v4=p*[1.126*(u?q:1),.896*(u?q**2:1),.896,1.126*(u?1:q)][3&t>>s],((v&w)+(v2&w)+(v3&w)+(v4&w))*(t&16383)/16383/1.9+32*sin(20*cbrt((t%16384)/40))+32*random()*(-t&8E3)/8E3+(t*[0,sin(t/1.3>>1)][1&t>>14]&-t>>7&127)/3+32*sin(sin(v*PI/128/'21'[1&t>>13])*(-t&8191)/2048/1.5)+64",
+    "author": "May_I_Change_My_Name",
+    "name": "Remix of \"My new instrumental in a new year\"",
+    "url": "https://dollchan.net/btb/res/204.html#411",
+    "date": "2023-02-18",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "06e631c9d3498e3c3268330d28fa43b0",
+        "author": "Zackx",
+        "name": "My new instrumental in new year",
+        "url": "https://dollchan.net/btb/res/204.html#292"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

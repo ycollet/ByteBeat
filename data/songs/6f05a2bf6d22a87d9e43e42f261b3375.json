@@ -1,0 +1,37 @@
+{
+  "file": "songs/6f05a2bf6d22a87d9e43e42f261b3375.js",
+  "title": "slumber 2",
+  "author": "eSlashMachine",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6f05a2bf6d22a87d9e43e42f261b3375.js",
+  "sha256": "a71c03d10c5a74b68036f5a39008747c58266b208e9c9dd3e7907ee174337c02",
+  "upstream": {
+    "hash": "6f05a2bf6d22a87d9e43e42f261b3375",
+    "codeMinLen": 533,
+    "codeLen": 543,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "lr=lr=>(t*=16384/48E3,t||(r=l=>Array(l+lr).fill(0),a=r(8192+lr),b=r(4096+lr),c=r(2048+lr),d=r(1024+lr),e=r(2+lr+1)),s=[[],[5,2.5,4.825,5.625,5,2.5,4.825,4.25,5,2.5,4.825,5.625,5,2.5,4.825,4],[5,5,4.825,4.825,5,5,4.25,4.25,5,5,5.625,5.625,5,5,4.825,4.825]],o=t/(12+lr/2)%s[1][(t>>14)%s[1].length]*(t/512%16-t/128%32+32)*(t/1024%8+5)/8+t/(24+lr/2)%s[2][(t>>14)%s[2].length]*10+a.shift(),a.push(o/1.6),o=o/2+b.shift(),b.push(o/2),o=o/2+c.shift(),c.push(o/2),o=o/2+d.shift(),d.push(o/2),o=o/3+e.shift(),e.push(o/1.25",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "slumber 2",
+    "url": "https://dollchan.net/btb/res/6946.html#6954",
+    "date": "2025-06-06",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "dd9927dd18a1895262ec3dd28a6e65cb",
+        "author": "eSlashMachine",
+        "name": "slumber",
+        "url": "https://dollchan.net/btb/res/6946.html#6953"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-30"
+  }
+}

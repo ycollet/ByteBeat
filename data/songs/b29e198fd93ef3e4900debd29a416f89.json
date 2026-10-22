@@ -1,0 +1,27 @@
+{
+  "file": "songs/b29e198fd93ef3e4900debd29a416f89.js",
+  "title": "Remake of one of no limit's melody",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b29e198fd93ef3e4900debd29a416f89.js",
+  "sha256": "c00476eb33ec4a5f56745e89257d0f39a6b293b7d29f6e221627ac13c9e1e8ba",
+  "upstream": {
+    "hash": "b29e198fd93ef3e4900debd29a416f89",
+    "codeLen": 1847,
+    "fileOrig": 1,
+    "codeText": "//by hcdphobe, date: 2023-05-24\n//sample rates\nsamp=48e3,\nz=256*t/samp,\nw=PI/128,\n//shortcuts\nl='length',\n//the BPM",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "Remake of one of no limit's melody",
+    "url": "https://dollchan.net/btb/res/163.html#1076",
+    "date": "2023-05-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "2 Unlimited - No Limit",
+    "coverUrl": "https://youtu.be/qM5W7Xn7FiA",
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "songs/c1f114c09f63d3272a1a175b7819602b.js",
+  "title": "( ͡° ͜ʖ ͡°) breakcore",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44400,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "19664dc197263846ef60d87d920802ac8ce366347ea6ab476a396ee32b6023fd",
+  "upstream": {
+    "hash": "c1f114c09f63d3272a1a175b7819602b",
+    "codeMinLen": 320,
+    "codeMin": "(([sin(t>>5),2,,2,sin(t>>5),2,,2,sin(t>>5),2,,2,sin(t>>5),2,,3][(768+t>>13)%16]*t/4&768+t>>5)-20&255)/3+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/2E4*'00100101'[7&t>>13])/1.5+cos(t*PI/2)*(1-t%8192/8192)*[0,18][1&t>>13]+18",
+    "codeLen": 327,
+    "code": "((([sin(t>>5),2,,2,sin(t>>5),2,,2,sin(t>>5),2,,2,sin(t>>5),2,,3][(768+t>>13)%16]*t/4&768+t>>5)-20)&255)/3+(((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/20e3)*'00100101'[7&t>>13])/1.5+cos(t*PI/2)*(1-t%8192/8192)*[0,18][1&t>>13]+18",
+    "author": "Zackx",
+    "name": "( ͡° ͜ʖ ͡°) breakcore",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12vt718/list_of_my_creatorremixes_2/",
+    "date": "2023-04-23",
+    "sampleRate": 44400,
+    "remix": [
+      {
+        "hash": "b13da96ba4ca8d4648679380f7a2caef",
+        "author": "rubi",
+        "name": "( ͡° ͜ʖ ͡°)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s6xqf1/%CA%96/"
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

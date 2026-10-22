@@ -1,0 +1,29 @@
+{
+  "file": "songs/2d2015bb8fc0a0cb97f198f089e95842.js",
+  "title": "twenty six",
+  "author": "cabbage drop",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2d2015bb8fc0a0cb97f198f089e95842.js",
+  "sha256": "8e265713b8edc94505224ed06fd0c7c6c11eeb88028ef4bd2d163b03a6d755ce",
+  "upstream": {
+    "hash": "2d2015bb8fc0a0cb97f198f089e95842",
+    "codeMinLen": 1775,
+    "codeLen": 14058,
+    "codeFormLen": 18402,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "128+[0,1,sin(t),(a=n=>2**(n/26))(12),a(15),a(21),a(6),a(19),a(-3),a(9),a(3),a(4)]['0x'+'1111111120000000333333334444444011111111200000005555555500000000111111112333333044444444111111105555555521111110333333334444444011111111200000003333333344444440111111112000000055555555000000001111111123333330444444441111111066666666211111106666666633333330111111112000000033333333444444401111111120000000555555550000000011111111233333304444444411111110555555552111111033333333444444401111111120000000333333334444444011111111",
+    "isTruncated": 1,
+    "author": "cabbage drop",
+    "name": "twenty six",
+    "url": "https://battleofthebits.com/arena/Entry/twenty+six/57195/",
+    "date": "2022-12-13",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-13"
+  }
+}

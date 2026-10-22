@@ -1,0 +1,26 @@
+{
+  "file": "songs/cc35ada9e4a1ab4421d0fdc495b8dc3e.js",
+  "title": "i said there is no more cool waveforms in non-js",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "73266741a34bcc36826a712cc3912f66195de8ce38ec582d8093b9abf29eaf7c",
+  "upstream": {
+    "hash": "cc35ada9e4a1ab4421d0fdc495b8dc3e",
+    "codeMinLen": 18,
+    "codeMin": "8E5*t/(t>>2^t>>12)",
+    "codeLen": 26,
+    "code": "t*((4e5/(t>>2^(t>>12))))*2",
+    "author": "kOLbOSa_exe",
+    "name": "i said there is no more cool waveforms in non-js",
+    "description": "Dubstep-like sound",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rvqvk7/i_said_there_is_no_more_cool_waveforms_in_nonjs/",
+    "date": "2022-01-04",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

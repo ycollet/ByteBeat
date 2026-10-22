@@ -1,0 +1,31 @@
+{
+  "file": "songs/c8a343cd3635b521a88124497758c034.js",
+  "title": "Minor Frere Jaques",
+  "author": "Senzou4770",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c8a343cd3635b521a88124497758c034.js",
+  "sha256": "b74c0a3aef7948807dea9392c9d3f5ebfb555d9c2e620d718c5bc04806d7e292",
+  "upstream": {
+    "hash": "c8a343cd3635b521a88124497758c034",
+    "codeMinLen": 666,
+    "codeLen": 1171,
+    "codeFormLen": 1349,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "S=44100,we=[1,1.25,1.5,1.75,2,2.25,2.50,2.75,3,3.25,3.5,3.75,4,3.75,3.5,3.25,3,2.75,2.5,2.25,2,1.75,1.5,1.25,1.0,0.75,0.5,0.25,0,0.25,0.5,0.75],tri=(p,o)=>we[((t*p/o*8200/S)>>8)%we.length]*30,s=(p,o)=>(t/32*8200/S*p*o)%(255*o),ct=(a,b,c,v)=>(tri(a,1)+tri(b,1)+tri(c,1))*v,C=[ct(c=523.25,D=622.25,g=783.99,.1),ct(c,D,g,.1),ct(c,D,g,.1),ct(c,D,G=830.61,.1)],B=[s(c/8,A=.06)+s(g/8,A),s(c/8,A)+s(g/8,A),s(c/8,A)+s(g/8,A),s(G/16,A)+s(D/8,A)],M=[c,c,d=587.33,d,D,D,c,c,c,c,d,d,D,D,c,c,D,D,f=698.46,f,g,g,g,g,D,D,f,f,g,",
+    "isTruncated": 1,
+    "author": "Senzou4770",
+    "name": "Minor Frere Jaques",
+    "url": "https://www.reddit.com/r/bytebeat/comments/sua62m/minor_frere_jaques_sounds_p_neat_38_lines/",
+    "date": "2022-02-17",
+    "sampleRate": 44100,
+    "coverName": "Frère Jacques",
+    "coverUrl": "https://youtu.be/BC6rvbxdywg",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-22"
+  }
+}

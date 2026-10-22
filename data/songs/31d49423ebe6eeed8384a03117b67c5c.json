@@ -1,0 +1,24 @@
+{
+  "file": "songs/31d49423ebe6eeed8384a03117b67c5c.js",
+  "title": "chocolate chip bytebeat code",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "23c54696054edfbbd15cc3eab0155a682950de7496f2c3678f6ddaf26dbe57a6",
+  "upstream": {
+    "hash": "31d49423ebe6eeed8384a03117b67c5c",
+    "codeMinLen": 83,
+    "codeMin": "t/=4.7,[sin(t>>3),2,sin(t>>1),3][(t>>11)%4]*t|[2,1,.5,.1,2,1,.5,PI][(t>>12)%8]*t>>4",
+    "codeLen": 86,
+    "code": "t/=4.7,[sin(t>>3),2,sin(t>>1),3][(t>>11)%4]*t|[2,1,0.5,0.1,2,1,0.5,PI][(t>>12)%8]*t>>4",
+    "author": "rubi",
+    "name": "chocolate chip bytebeat code",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s69l6o/chocolate_chip_bytebeat_code/",
+    "date": "2022-01-17",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

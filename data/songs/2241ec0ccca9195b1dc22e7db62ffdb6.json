@@ -1,0 +1,30 @@
+{
+  "file": "songs/2241ec0ccca9195b1dc22e7db62ffdb6.js",
+  "title": "CAT-GIRL Alternate Rhythm",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "935a23442c68c3e109e15cf2fe77a9b73a49dc828ed87196291eebf06e8f8170",
+  "upstream": {
+    "hash": "2241ec0ccca9195b1dc22e7db62ffdb6",
+    "codeLen": 212,
+    "code": "t/=4,T=t+2048,p=t*[.7,.945][1&t>>15],86-(17*T|(T>>2)+(t&32768?13:14)*T|T>>3|T>>5)%256/3+32*sin(12*cbrt(t%4096))+32+(10*random()*(~t>>4&255)>>6)*(t&4096)/4E3+((p%128+p%127)/2*(~t>>3&255)>>7)%256/3.5*[1,2][1&t>>11]",
+    "author": "May_I_Change_My_Name",
+    "name": "CAT-GIRL Alternate Rhythm",
+    "url": "https://dollchan.net/btb/res/204.html#460",
+    "date": "2023-02-23",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "b77cdcaac4491b7b10d421a1a7040f37",
+        "author": "Zackx",
+        "name": "remix of \"Cat-girl\". Nya (＾• ω •＾)",
+        "url": "https://dollchan.net/btb/res/204.html#457"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

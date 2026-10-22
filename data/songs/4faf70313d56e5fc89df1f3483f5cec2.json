@@ -1,0 +1,39 @@
+{
+  "file": "songs/4faf70313d56e5fc89df1f3483f5cec2.js",
+  "title": "uwa!! so temperate",
+  "author": "aniruF",
+  "mode": "Floatbeat",
+  "rate": 20480,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4faf70313d56e5fc89df1f3483f5cec2.js",
+  "sha256": "a048fd3c54e1f2a5ebcf73c3a1f9059b449898c8f4eba5a7be029fe0929c976b",
+  "upstream": {
+    "hash": "4faf70313d56e5fc89df1f3483f5cec2",
+    "codeMinLen": 528,
+    "codeLen": 535,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=786432,r=(x,v=12288,z=.5)=>(t?0:a=Array(v).fill(0),b=x%256+a.shift(),a.push(b*z),b),pI=parseInt,A=r(sin(t/20480*2*PI*528*2**(pI(\"J HJC AC7 570   5 35A   5 35D   \"[t>>12&31],36)/12))||0,6144)/2,(t&16384?t&16383:t&8191)?0:S=Array.from({length:s=int(81920/(528*2**((pI(\"8CJ 8CJ 6AH 6AD 8CJ 8CJ BFM BFI\"[t>>13&31],36)||0)/12)))},()=>random()),S[t%s]=S[t%s]/2+S[(t+1)%s]/2,B=r(S[t%s]-.5),D={K:sin(cbrt(t&4095)*8)/(1+(t/256&15))},D.S=D.K/2+(D.H=(random()-.5)*(-t>>4&255)/256),C=D[\"K SKH SK  SKS   \"[t>>12&15]]||0,[B",
+    "isTruncated": 1,
+    "author": "aniruF",
+    "name": "uwa!! so temperate",
+    "url": "https://dollchan.net/btb/res/5289.html#9537",
+    "date": "2025-10-02",
+    "mode": "Floatbeat",
+    "sampleRate": 20480,
+    "remix": [
+      {
+        "hash": "aa6c1bad674fc4dfef453b47372621d6",
+        "author": "Sychamis",
+        "name": "String noises using the Karplus-Strong algorithm",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1dyjink/string_noises_using_the_karplusstrong_algorithm/"
+      }
+    ],
+    "coverName": "Undertale OST - Uwa!! So Temperate",
+    "coverUrl": "https://youtu.be/HCrJNiMmH88",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2025-11-03"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/cf3146028acbdd56848af80b353fb6a2.js",
+  "title": "Song made without functions and DECIMAL NUMBERS",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cf3146028acbdd56848af80b353fb6a2.js",
+  "sha256": "7814194f79d75c7094f82e91371f8278abd8e8f6bf1d4a29fa263be4a778690b",
+  "upstream": {
+    "hash": "cf3146028acbdd56848af80b353fb6a2",
+    "codeMinLen": 272,
+    "codeMin": "(t*((t>>0xa&0x3)+0x1)*(t>>0xe&0x1?0x6/0x5:1)*(t>>0x10&0x3?(t>>0x10&0x3)>1?(t>>0x10&0x3)>2?0x10/0x5:0xc/0x5:0x8/0x5:1)&0x40)%0x100*(-t&0xfff)/0x7d0+((t*((t>>0x1&3)+1)*t/0x1ff)%0x100*(-t&0xfff)/0x4e20)*(t>>0xc&1)+((0x493e0/(t&((t>>0xc&3)>2?t>>14&1?0x7ff:0x3ff:0xfff)))&0x40)",
+    "codeLen": 1204,
+    "fileOrig": 1,
+    "codeText": "(t*((t>>0xa&0x3)+0x1)*(t>>0xe&0x1?0x6/0x5:1)*(t>>0x10&0x3?(t>>0x10&0x3)>1?(t>>0x10&0x3)>2?0x10/0x5:0xc/0x5:0x8/0x5:1)&0x40)%0x100*(-t&0xfff)/0x7d0+((t*((t>>0x1&3)+1)*t/0x1ff)%0x100*(-t&0xfff)/0x4e20)*(t>>0xc&1)+((0x493e0/(t&((t>>0xc&3)>2?t>>14&1?0x7ff:0x3ff:0xfff)))&0x40)",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Song made without functions and DECIMAL NUMBERS",
+    "description": "Unable to find a link to the remix source.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fgpvts/song_made_without_functions_and_decimal_numbers/",
+    "date": "2024-09-14",
+    "sampleRate": 11025,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-31"
+  }
+}

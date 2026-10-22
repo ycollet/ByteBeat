@@ -1,0 +1,36 @@
+{
+  "file": "songs/a15e51dd1cb60623ba985624c674c628.js",
+  "title": "something relaxing..",
+  "author": "BaenHoHoHo",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a15e51dd1cb60623ba985624c674c628.js",
+  "sha256": "902a57efd8396a69c8ff5573f7e83c0a2371486787d00680cbc24c4677b34cf2",
+  "upstream": {
+    "hash": "a15e51dd1cb60623ba985624c674c628",
+    "codeLen": 691,
+    "fileOrig": 1,
+    "codeText": "(T=3*t/5)?c:(L='length',c=1+int(random()*4|0),a=new Array(round(12288*(C=1+int(2*random())))-1).fill(0),w={t:(t,n)=>{var o=PI*t/128;return sin(o+sin(o+sin(o)))*n},o:t=>sin((t|0)**3)},f=(t,n)=>t/n,add=(...n)=>n.map(t=>f(t,n.length)).reduce((t,n)=>t+n)),p=2**([[0,3,7,-4],[8,10,12,7]][T*c&8191?C:C=(int(2*random()))][(T*c&4095?count2:count2=int(random()*4))&3]/12+1)*2**(c/12),s=(n,o)=>add(w.t(n?t*p-o:t*p+o,min(1,T*c/512%16)*.1**(T*c/8192%1)**2),w.o(4*t)*(T*c&8191?C:C=int(random()*3)&1)*1E-36**(T*C/4**7%1)),[add",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "something relaxing..",
+    "url": "https://dollchan.net/btb/res/117.html#9629",
+    "date": "2025-10-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "1ba659112372d6b0efc655bc586c64e4",
+        "author": "eSlashMachine",
+        "name": "Music Generator",
+        "url": "https://dollchan.net/btb/res/6946.html#9525"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-06-04",
+    "date_edited": "2026-06-04"
+  }
+}

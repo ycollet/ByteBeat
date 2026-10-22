@@ -1,0 +1,30 @@
+{
+  "file": "songs/586b746bd11a2299078802c0a08ec102.js",
+  "title": "Blue clouds",
+  "author": "WoolWL",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/586b746bd11a2299078802c0a08ec102.js",
+  "sha256": "593f58533324ace15fdb22067b1770217a5c77f0645d560736ef8f7e11524426",
+  "upstream": {
+    "hash": "586b746bd11a2299078802c0a08ec102",
+    "codeMinLen": 459,
+    "codeMin": "(t/=sr=48E3)||(a=Array(l=sr/5*2|0).fill(0),p=0,m=0),s=t=>(sin(2*PI*t)+1)/2,y=t=>s(s(t))*2-1,w=t=>(asin(sin(2*PI*t+10/9))/(PI/2)+1)/2,v=(t,v)=>t%1<v?1/v*t%1:1/(1-v)*v+1-1/(1-v)*(t%1),n=x=>isNaN(x)?0:2**(x/12)*432,q=[-7,-3,0,4,7,4,2,0,9,4,2,-1,0,-1,-5,-10,-7,-3,0,4,8,4,2,0,9,4,2,-1,0,-1,2,4],b=[-7,-7,-5,-4,-3,-3,0,0],a.push(y(m/2)*v(t*3,1/6)+a.shift()/2),o=(a[l-1]/2+(w(p/4)**2-.5)*2)/2*min(t*sr/64,1),p+=n(b[t*3/2%b.length|0])/sr,m+=n(q[t*3%q.length|0])/sr,o",
+    "codeLen": 671,
+    "fileOrig": 1,
+    "codeText": "(t/=sr=48E3)||(a=Array(l=sr/5*2|0).fill(0),p=0,m=0),s=t=>(sin(2*PI*t)+1)/2,y=t=>s(s(t))*2-1,w=t=>(asin(sin(2*PI*t+10/9))/(PI/2)+1)/2,v=(t,v)=>t%1<v?1/v*t%1:1/(1-v)*v+1-1/(1-v)*(t%1),n=x=>isNaN(x)?0:2**(x/12)*432,q=[-7,-3,0,4,7,4,2,0,9,4,2,-1,0,-1,-5,-10,-7,-3,0,4,8,4,2,0,9,4,2,-1,0,-1,2,4],b=[-7,-7,-5,-4,-3,-3,0,0],a.push(y(m/2)*v(t*3,1/6)+a.shift()/2),o=(a[l-1]/2+(w(p/4)**2-.5)*2)/2*min(t*sr/64,1),p+=n(b[t*3/2%b.length|0])/sr,m+=n(q[t*3%q.length|0])/sr,o",
+    "isTruncated": 1,
+    "author": "WoolWL",
+    "name": "Blue clouds",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1aoaafx/a_bunch_of_songs_i_made/",
+    "date": "2024-02-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Deltarune Chapter 2 OST - Lost Girl",
+    "coverUrl": "https://youtu.be/Py0i3R3vuag",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-06"
+  }
+}

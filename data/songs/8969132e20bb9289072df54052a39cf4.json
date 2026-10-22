@@ -1,0 +1,35 @@
+{
+  "file": "songs/8969132e20bb9289072df54052a39cf4.js",
+  "title": "remix of \"what i making in midnight\" (harmony)",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8969132e20bb9289072df54052a39cf4.js",
+  "sha256": "7f32116f6422bb8b0bf1aeb0a5495d4aba39368d33af60e14bb5eafbf40c038d",
+  "upstream": {
+    "hash": "8969132e20bb9289072df54052a39cf4",
+    "codeLen": 1852,
+    "fileOrig": 1,
+    "codeText": "A = 432, // Hz\n// t /= 1.5,\n// uncomment the line above to hear a slowed down version\ns = (o,n) => max(-1,min(1,3*sin(PI*o/24e3*A*(2**(1/12))**(n-6))))/4*(1-o%8192/8192),\nw = (o,n) => asin(sin(PI*o/24e3*A*(2**(1/12))**(n-6)))/4,\nS = (o,n) => (A*(2**(1/12))**(n-6)*t/48e3%1)*(2-o%8192/4096)/3-.25,\nq = (o,n) => floor(sin(o/7e3)*.25+sin(PI*o/24e3*A*(2**(1/12))**(n-6))/2)/2+.25,\n",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "remix of \"what i making in midnight\" (harmony)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fmrctj/remix_of_what_i_making_in_midnight_harmony_by/",
+    "date": "2024-09-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "3f46baf3d6ea1dc6e90c238fc49dadbd",
+        "author": "Zackx",
+        "name": "what i making in midnight (harmony)",
+        "url": "https://dollchan.net/btb/res/204.html#772"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-01-05"
+  }
+}

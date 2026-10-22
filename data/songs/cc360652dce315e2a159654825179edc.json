@@ -1,0 +1,25 @@
+{
+  "file": "songs/cc360652dce315e2a159654825179edc.js",
+  "title": "Another attempt at melody construction",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5bc8e2ec916d6422493e54267a89a2b6ea3e0be383cfea17bbfba21e3464cb04",
+  "upstream": {
+    "hash": "cc360652dce315e2a159654825179edc",
+    "codeMinLen": 41,
+    "codeMin": "t*(3+(1^t>>10&5))*(5+(3&t>>14))>>(t>>8&3)",
+    "codeLen": 45,
+    "code": "(t*((3+(1^t>>10&5))*(5+(3&t>>14))))>>(t>>8&3)",
+    "author": "viznut",
+    "name": "Another attempt at melody construction",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388930",
+    "date": "2011-10-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

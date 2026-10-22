@@ -1,0 +1,41 @@
+{
+  "file": "songs/7b2a55b3bdf3f535a66baee80f642290.js",
+  "title": "У батарей Extended",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7b2a55b3bdf3f535a66baee80f642290.js",
+  "sha256": "517756d4c7fcd7519edbfb60929f7d60fff57f282eb861fbe6874aefe78c4aae",
+  "upstream": {
+    "hash": "7b2a55b3bdf3f535a66baee80f642290",
+    "codeLen": 1820,
+    "fileOrig": 1,
+    "codeText": "// \"У Батарей (At The Batteries)\"\n// Cover of У Батарей (At The Batteries) - nyan.mp3\n\nBPM=124.38,\nSampleRate=48e3,\nr=abs(t/SampleRate/180*3*32768*BPM),\np=(1/SampleRate*256)*480,\n",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "У батарей Extended",
+    "url": [
+      "https://dollchan.net/btb/res/520.html#7073",
+      "https://dollchan.net/btb/res/7164.html#7326"
+    ],
+    "date": "2025-06-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "b7b658592b301eb1dbcef94c2cb19672",
+        "author": "Decent-Manager-6169",
+        "name": "У батарей thingy",
+        "url": "https://dollchan.net/btb/res/520.html#5641"
+      }
+    ],
+    "coverName": "nyan.mp3 — У батарей",
+    "coverUrl": "https://www.youtube.com/watch?v=i157ibQEoJo",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2026-06-21"
+  }
+}

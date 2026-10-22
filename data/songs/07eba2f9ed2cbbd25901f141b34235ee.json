@@ -1,0 +1,33 @@
+{
+  "file": "songs/07eba2f9ed2cbbd25901f141b34235ee.js",
+  "title": "T!me Tr!al EX",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/07eba2f9ed2cbbd25901f141b34235ee.js",
+  "sha256": "3349e0ef8557245f7b7ca7b1dd756950b06072f8cf2ea661fa6bc893e0296912",
+  "upstream": {
+    "hash": "07eba2f9ed2cbbd25901f141b34235ee",
+    "codeLen": 685,
+    "fileOrig": 1,
+    "codeText": "isNaN(this.T)?P=T=0:0,p=v=>2**(v/12),f=e=>T/2**e%1,m=(s=0,S=0)=>max(64*abs(sin(P/50*p([0,3,7,12,15,19,12,7][T>>11+(T>>13+S&3^T>>14+S&1)&7]+(z=12*(h=T>>18&1))+s)))**.25,16),S=[m(),m()+(c=!!(-T>>15&15))*((k=32*sin(70/(F=f(15))**.3)|0)+(Q=(a=p([0,3,7,12][T>>11&3]+z)*P/11%16)*(1+f(19))*F**(1-f(19)))),A=m()+(d=k+(s=T>>15&1&&16*(1-F)*sin((P/3%1024|0)**3))+a+(b=T>>13&1&&p([0,3,7,5+5*h][T>>16&3])*P/11&32)),B=m()+c*d,(q=m(-12)^m()/6)+(i=a+b+s)-c*s,q+c*(i+k/2-m()*f(15)),A,B,(M=(y=m(0,1))&m(-5,1))+b,M+c*(b+Q+k/2),C=M+",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "T!me Tr!al EX",
+    "description": "\"T!me Tr!al\" as a full song. Contains changes to the song BPM and also doesn't use the built-in time.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-07-04",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "fd00ddf7d113e2530b94dd6081b3378d",
+        "author": "lhphr",
+        "name": "T!me Tr!al",
+        "url": "https://dollchan.net/btb/res/44.html#88"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

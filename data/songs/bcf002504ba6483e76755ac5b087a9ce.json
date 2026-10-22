@@ -1,0 +1,33 @@
+{
+  "file": "songs/bcf002504ba6483e76755ac5b087a9ce.js",
+  "title": "huh?",
+  "author": "BaenHoHoHo",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b47483a3a21a6fb24a5645b9f311815c35ecce6803905d1793b0873e3ced4ef3",
+  "upstream": {
+    "hash": "bcf002504ba6483e76755ac5b087a9ce",
+    "codeMinLen": 460,
+    "codeMin": "fm=x=>sin(x+cos(x/4)*sin(t/4E3)+cbrt(sin(-x/8+tan(sin(x))))+abs(2*sin(x/4))**.5)**23,fm(t>>12+((t>>14^t>>15)&1)&1||t*1.05946**[-3,0,4,2][t>>15&3]*PI/32)/5+max(-1,min(2,t?(a+=random()-a-.5,b+=6*a-b/8,c+=5*b-c,d+=3*c-d):a=b=c=d=0)*.99993**(t+32768&65535)/128+cbrt(sin((t&32767)**.6/1.5))*.99993**(t&32767)+random()*sin(t)*.9992**(t+16384&32767))/4+(t*1.06**[-3,0,4,2][t>>15&3]*(1+(t>>10)%3)&64)*(-t>>8&255|128)/1E5+(t*1.06**[-3,0,4,2][t>>15&3]/256*(t>>13&1)&1)/4",
+    "codeLen": 472,
+    "code": "fm=x=>sin(x+cos(x/4)*sin(t/4E3)+cbrt(sin(-x/8+tan(sin(x))))+abs(sin(x/4)*2)**.5)**23,fm(t>>12+((t>>14^t>>15)&1)&1||t*1.05946**[-3,0,4,2][t>>15&3]*PI/32)/5+max(-1,min(2,t?(a+=random()-a-.5,b+=(6*a-b/8),c+=(5*b-c),d+=(3*c-d)):a=b=c=d=0)*(.99993**(t+32768&65535))/128+cbrt(sin((t&32767)**.6/1.5))*(.99993**(t&32767))+random()*sin(t)*(.9992**(t+16384&32767)))/4+(t*1.06**[-3,0,4,2][t>>15&3]*(1+(t>>10)%3)&64)*(-t>>8&255|128)/1E5+(t*1.06**[-3,0,4,2][t>>15&3]/256*(t>>13&1)&1)/4",
+    "author": "BaenHoHoHo",
+    "name": "huh?",
+    "url": "https://dollchan.net/btb/res/117.html#2593",
+    "date": "2023-11-04",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "8a457fd1045a880149a631b408e45e67",
+        "author": "BaenHoHoHo",
+        "name": "what",
+        "url": "https://www.reddit.com/r/bytebeat/comments/v3ro35/what/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

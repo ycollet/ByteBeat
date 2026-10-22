@@ -1,0 +1,25 @@
+{
+  "file": "songs/29597dfa0abb4d8e86006bbc5b363a25.js",
+  "title": "The \"t^t\" Noise",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 36000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03c4c55c8aa9a7e6c0f4a045f56e0f98fe8bd0ff19b7b20c4c8a0337041c3631",
+  "upstream": {
+    "hash": "29597dfa0abb4d8e86006bbc5b363a25",
+    "codeMinLen": 62,
+    "codeMin": "((t^t*2)*[.9,.89,.8,.687][(t>>15)%4]&127)*.3**(t/16%2048/2048)",
+    "codeLen": 63,
+    "code": "((t^t*2)*[.9,.89,.80,.687][(t>>15)%4]&127)*.3**(t/16%2048/2048)",
+    "author": "Maxi",
+    "name": "The \"t^t\" Noise",
+    "url": "https://dollchan.net/btb/res/500.html#1843",
+    "date": "2023-08-07",
+    "sampleRate": 36000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

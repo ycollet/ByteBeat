@@ -1,0 +1,24 @@
+{
+  "file": "songs/926ecff367d174bb9bc72c248b0a9817.js",
+  "title": "someone remix this",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "67b7c5afd4c96dbf9a781f7e6c4403d23376dca0edaa9eec978d74010c0f6d2d",
+  "upstream": {
+    "hash": "926ecff367d174bb9bc72c248b0a9817",
+    "codeMinLen": 120,
+    "codeMin": "t*2**([-5,2,3,5,7,0,-2,9,7,0,12,12,7,7,10,3][15&t/1.5>>12]/12)*2.08%256*(-t/1.5>>7&31)/96+(2.08*t/2**(t/1.5>>13&3)/8&31)",
+    "codeLen": 124,
+    "code": "(t*2**([-5,2,3,5,7,0,-2,9,7,0,12,12,7,7,10,3][15&t/1.5>>12]/12)*2.08%256)*(-t/1.5>>7&31)/96+(t*2.08/(2**(t/1.5>>13&3))/8&31)",
+    "author": "absolute197",
+    "name": "someone remix this",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14ypf7q/someone_remix_this/",
+    "date": "2023-07-13",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

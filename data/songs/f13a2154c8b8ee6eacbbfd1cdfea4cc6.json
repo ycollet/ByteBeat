@@ -1,0 +1,28 @@
+{
+  "file": "songs/f13a2154c8b8ee6eacbbfd1cdfea4cc6.js",
+  "title": "11) THE HIT OF THE SEASON",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c3af339e31b4f74f64640ec6b7d2234c434c29ed1cd60acb81e7c7efa6a846af",
+  "upstream": {
+    "hash": "f13a2154c8b8ee6eacbbfd1cdfea4cc6",
+    "codeMinLen": 271,
+    "codeMin": "(0<t&65535>t?t%32>t/1E4?t>>4:t>>6:65535<0+t&131070>t?t%32>t%43?t>>4:t>>6:131070<0+t&196605>t?t%36>t%43?t>>4:t>>6:196605<0+t&262140>t?t%64>t%43?t>>4:t>>6:262140<0+t&327675>t?5<t%43?t<<3:t>>6:327675<0+t&393210>t?5<t%27?t<<3:t>>6:393210<0+t&524280>t?5<t%63?t<<3:t>>6:0)&t>>4",
+    "codeLen": 294,
+    "code": "(t>0&t<65535?t%32>(t/10000)?t>>4:t>>6:0+t>65535&t<65535*2?t%32>(t%43)?t>>4:t>>6:0+t>65535*2&t<65535*3?t%36>(t%43)?t>>4:t>>6:0+t>65535*3&t<65535*4?t%64>(t%43)?t>>4:t>>6:0+t>65535*4&t<65535*5?t%43>5?t<<3:t>>6:0+t>65535*5&t<65535*6?t%27>5?t<<3:t>>6:0+t>65535*6&t<65535*8?t%63>5?t<<3:t>>6:0)&(t>>4)",
+    "author": "Anonymous from russian imageboards",
+    "name": "11) THE HIT OF THE SEASON",
+    "url": [
+      "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+      "http://arhivach.xyz/thread/28592/#71678428"
+    ],
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "1k",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/4b02aaff5704a4f5c7c3938ace802e7f.js",
+  "title": "pfhonke",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4b02aaff5704a4f5c7c3938ace802e7f.js",
+  "sha256": "72d765005addf319c44ee0d2b7507c2bf1c0aed21845cae3431f7984d93871c0",
+  "upstream": {
+    "hash": "4b02aaff5704a4f5c7c3938ace802e7f",
+    "codeMinLen": 973,
+    "codeLen": 985,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?(F=t/s/6*13,G=F|0,u=a[0],a[0]=1-(2*F&1),a[0]>u?a[2]=A=0:A+=1/s,a[2]=(a[2]+2E3/(1+500*A)/s)%1,n=parseInt('00C000FD00C000000FDC'[G%32*((G>>2)%32)%37%5*4+(4*F&3)],36)*(G%4<3),u=a[6],a[6]=n*(1-(8*F&1)),a[6]>u?D=0:D+=1/s,a[3]=(a[3]+274*2**(n/12)/2/s)%1,a[5]=(a[5]+50/(1+A)/s)%1,u=a[1],a[1]=F+d&1,a[1]>u?B=0:B+=1/s,u=a[4],a[4]=2*F&1,a[4]>u?C=0:C+=1/s,f=1600/s*(10-4*(1-1/(1+35*B))),z=q+q/(1-f),k=2*random()-1,b[3]+=3E4/s*(k-b[3]+2*(b[3]-b[4])),b[4]+=3E4/s*(b[3]-b[4]),b[0]+=f*(k-b[0]+z*(b[0]-b[1])),b[1]+=f*(b[0]-b[1",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "pfhonke",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15x3rld/pfhonke/",
+    "date": "2023-08-21",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

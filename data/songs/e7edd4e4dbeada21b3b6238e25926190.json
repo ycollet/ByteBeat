@@ -1,0 +1,34 @@
+{
+  "file": "songs/e7edd4e4dbeada21b3b6238e25926190.js",
+  "title": "Lyric Machine",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e7edd4e4dbeada21b3b6238e25926190.js",
+  "sha256": "190e684b90154c7b7020d7ce92c9b96850d5a2e1a046787a8d52dca11d1908d4",
+  "upstream": {
+    "hash": "e7edd4e4dbeada21b3b6238e25926190",
+    "codeLen": 5088,
+    "fileOrig": 1,
+    "codeText": "i=0, //Turn Console On/Off\n\n// Important Variables\n\nT=t,\nt2=t,\n\n// Adjustables",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Lyric Machine",
+    "description": "A breakbeat remix of the Manchu Folk Song \"Xongkoro\" that visualizes the lyrics in the error console.",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8655",
+      "https://www.reddit.com/r/bytebeat/comments/1mhew61/lyric_machine/"
+    ],
+    "date": "2025-08-04",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Manchu Music - Xongkoro",
+    "coverUrl": "https://youtu.be/XxVBB0ynr-o",
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-09-26"
+  }
+}

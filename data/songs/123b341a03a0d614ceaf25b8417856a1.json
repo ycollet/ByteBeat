@@ -1,0 +1,33 @@
+{
+  "file": "songs/123b341a03a0d614ceaf25b8417856a1.js",
+  "title": "I could not explain this to the IT dept",
+  "author": "radian",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "00c12d6ef7745bed31b3d986be0410f2623d55ec428bd56a76f53df2ec8fd97c",
+  "upstream": {
+    "hash": "123b341a03a0d614ceaf25b8417856a1",
+    "codeMinLen": 323,
+    "codeMin": "S=(c,o,r,p)=>(c=c.charCodeAt((t>>r)%p),32==c?0:31&t*2**(c/12-o)),C=()=>t%8?t&8096?S('047',4,8,3)*(4096-(t&4095))>>12:0:t&8096?S('259049',4,8,6)*(4096-(t&4095))>>13:0,S('20 0 0 034 4 0 047 259:<<',7,10,32)+C()+(t&4096?S('047',3,8,3)*(4096-(t&4095))>>12:0)+(t&4096?S('0407',5,16,4)*(4096-(t&4095))>>12:0)+35*(800/(t&16383)&2)",
+    "codeLen": 396,
+    "code": "S=function(c,o,r,p){  var c=c.charCodeAt((t>>r)%p);return c==32?0:31&t*Math.pow(2,c/12-o)},C=function(){if (t%8){return (t&8096?S(\"047\",4,8,3)*(4096-(t&4095))>>12 : 0);}return (t&8096?S(\"259049\",4,8,6)*(4096-(t&4095))>>13 : 0);},S(\"20 0 0 034 4 0 047 259:<<\",7,10,32)+C()+(t&4096?S(\"047\",3,8,3)*(4096-(t&4095))>>12 : 0) +(t&4096?S(\"0407\",5,16,4)*(4096-(t&4095))>>12 : 0) +(((800/(t&16383))&2)*35)",
+    "author": "radian",
+    "name": "I could not explain this to the IT dept",
+    "url": "https://battleofthebits.com/arena/Entry/I+could+not+explain+this+to+the+IT+dept./17673/",
+    "date": "2015-05-04",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "85f3c8c076ca58e9c3392d6f5b5aa012",
+        "author": "a1k0n",
+        "name": "algorithmic music in a \"constructivist\" way",
+        "url": "https://news.ycombinator.com/item?id=3063359#3064980"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-26"
+  }
+}

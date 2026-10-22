@@ -1,0 +1,26 @@
+{
+  "file": "songs/ffc80cdfacb1eb6465b157c4e76f0daf.js",
+  "title": "sequencer",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ffc80cdfacb1eb6465b157c4e76f0daf.js",
+  "sha256": "120cfb610cea6faaf6580cf9dc199bc173de2b0091c7eb502b3ff1324a907b1b",
+  "upstream": {
+    "hash": "ffc80cdfacb1eb6465b157c4e76f0daf",
+    "codeMinLen": 150,
+    "codeMin": "delay=22050,c5=523,d5=587,e5=659,f5=698,g5=783,a5=880,b5=987,c6=1046,tones=[c5,d5,e5,f5,g5,a5,b5,c6][round(t/delay)%8],128*sin(t/44100*tones*6.28)+128",
+    "codeLen": 174,
+    "fileOrig": 1,
+    "codeText": "delay=22050,c5=523,d5=587,e5=659,f5=698,g5=783,a5=880,b5=987,c6=1046,tones=[c5,d5,e5,f5,g5,a5,b5,c6][round(t/delay)%8],128*sin(t/44100*tones*6.28)+128",
+    "isTruncated": 1,
+    "author": "GDPlayer_1035",
+    "name": "sequencer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q5r5zk/sequencer/",
+    "date": "2021-10-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/ae46f2e3e0e6020f0c81e44a0002cedb.js",
+  "title": "getdolphinedlol type beat",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ef232f91605cc95b206176d0a8431683072151b19aee5bbc1824c0a0a47f331d",
+  "upstream": {
+    "hash": "ae46f2e3e0e6020f0c81e44a0002cedb",
+    "codeMinLen": 138,
+    "codeMin": "(([t*sin(t>>4),t*sin(t>>2)][t>>14&1]&-t>>7&127)+(t/7*' 4 4 4 6'[t>>13&7]&63)+(a=t*'4523'[t>>16&3]/7,a%190+a%128)/2+(3E4/(t&16383)&64))/1.5",
+    "codeLen": 142,
+    "code": "((([t*sin(t>>4),t*sin(t>>2)][t>>14&1]&-t>>7)&127)+(t/7*' 4 4 4 6'[t>>13&7]&63)+(a=(t*'4523'[t>>16&3]/7),a%190+a%128)/2+(3e4/(t&16383)&64))/1.5",
+    "author": "BaenHoHoHo",
+    "name": "getdolphinedlol type beat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/153i0lm/getdolphinedlol_lilfluffygoattt_type_beat/",
+    "date": "2023-07-19",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "dd2b2e96d3859c3ac0ef03c090423444",
+        "author": "rubi",
+        "name": "a$$ music",
+        "url": "https://www.reddit.com/r/bytebeat/comments/si40ks/a_music/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

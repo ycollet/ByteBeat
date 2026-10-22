@@ -1,0 +1,27 @@
+{
+  "file": "songs/a5fcefa0808040ceb22eb4f589609e1c.js",
+  "title": "Cover of \"Mr.kitty - After Dark\"",
+  "author": "absolute197",
+  "mode": "Floatbeat",
+  "rate": 39700,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "942cac68d55a9c9c0ca2547874afa8eb8d7702384e4ff1196b3d72ade873c2d3",
+  "upstream": {
+    "hash": "a5fcefa0808040ceb22eb4f589609e1c",
+    "codeLen": 238,
+    "code": "((M=t*2**([0,0,0,11,11,11,7,7,0,0,0,11,11,11,7,7,4,4,4,11,11,11,7,7,4,4,4,11,11,11,7,9,9][(g=t*1.65)>>14&31]/12)/2)%128-64)/1.5*(24+(g>>10&31))/8e3+sin(sin(M*PI/16)+sin(M*PI/32+sin(M*PI/16)*(x=.9999**(g&16383)*1.5)))/4*(-g>>10&31)**.3/2.4",
+    "author": "absolute197",
+    "name": "Cover of \"Mr.kitty - After Dark\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ct112f/cover_of_mrkitty_after_dark_wip/",
+    "date": "2024-05-16",
+    "mode": "Floatbeat",
+    "sampleRate": 39700,
+    "coverName": "Mr.Kitty - After Dark",
+    "coverUrl": "https://youtu.be/sVx1mJDeUjY",
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-12-10",
+    "date_edited": "2025-12-10"
+  }
+}

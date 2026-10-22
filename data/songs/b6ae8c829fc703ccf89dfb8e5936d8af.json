@@ -1,0 +1,36 @@
+{
+  "file": "songs/b6ae8c829fc703ccf89dfb8e5936d8af.js",
+  "title": "simple step sequencer remix #2",
+  "author": "NewFall2020",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b6ae8c829fc703ccf89dfb8e5936d8af.js",
+  "sha256": "bca7d9014bad32804c47f46403452f6b6d47780e4fdebbaeeae78157e52b1c1d",
+  "upstream": {
+    "hash": "b6ae8c829fc703ccf89dfb8e5936d8af",
+    "codeMinLen": 990,
+    "codeLen": 1052,
+    "codeFormLen": 1345,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=1.1,s=2,l=256,tone=a=>t*a*(2**(1/12))**[0,,0,,12,,0,,0,,17,,0,,0,,14,,0,,0,,10,,0,,0,,12,,0,,0,,0,,15,12,7,3,0,,0,,14,12,7,3,0,,0,,12,7,3,0,-12,,0,,15,12,7,3,-4,,-4,,12,,-4,,-4,,15,,-4,,-4,,14,,-4,,-4,,10,,-4,,-4,,12,,-4,,-4,,-4,,12,,-4,,-4,,15,,-4,,-4,,14,,-4,,-4,,10,,-4,,-4,,12,,-4,,-16,,-16,,12,,-16,,-16,,12,,-16,,-17,,14,,-16,,-16,,10,,-16,,-16,,12,,-16,,-16,,-4,,15,12,7,3,-16,,-16,,14,12,7,3,-4,,-4,,12,7,3,-16,-12,,-16,,15,12,7,3,-19,,-19,,12,,-19,,-19,,15,,-19,,-19,,14,,-19,,-19,,10,,-19,,-19,,12,,",
+    "isTruncated": 1,
+    "author": "NewFall2020",
+    "name": "simple step sequencer remix #2",
+    "url": "https://dollchan.net/btb/res/3.html#161",
+    "date": "2022-08-25",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "1b27084563ad9ce8d3ab243e1515e236",
+        "author": "PortablePorcelain",
+        "name": "simple step sequencer remix",
+        "url": "https://dollchan.net/btb/res/55.html#155"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

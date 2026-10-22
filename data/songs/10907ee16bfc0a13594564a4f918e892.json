@@ -1,0 +1,35 @@
+{
+  "file": "songs/10907ee16bfc0a13594564a4f918e892.js",
+  "title": "some Zackx remix",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/10907ee16bfc0a13594564a4f918e892.js",
+  "sha256": "357ddfbfad23636fdccfddf33b8231ffb643d4fea19a4f1c2400f4ba089e63cb",
+  "upstream": {
+    "hash": "10907ee16bfc0a13594564a4f918e892",
+    "codeLen": 3215,
+    "fileOrig": 1,
+    "codeText": "// \"t ? \" statement\nt ? (T = t * s,\n\tE = t * s / 15 * BPM, // speed variable\n\tE ||= 0,\n\tp = t * 1.23 / (slow ? 1.5 : 1), // pitch variable\n\tstmel = det => (\n\t\tvib = slow ? 2e3 : 1e3,\n\t\tp1 = p + (13 * sin(t / vib) + 16),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "some Zackx remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1iygz63/comment/mf2ahyl/",
+    "date": "2025-02-26",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "70971ff85b24f4649f10cff82c062fd2",
+        "author": "feeshbread",
+        "name": "hardstyle remix of a Zackx song",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/comment/lm8vqhu/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

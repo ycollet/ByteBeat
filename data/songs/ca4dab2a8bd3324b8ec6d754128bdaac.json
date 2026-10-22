@@ -1,0 +1,32 @@
+{
+  "file": "songs/ca4dab2a8bd3324b8ec6d754128bdaac.js",
+  "title": "remix of \"kernkraft 400\"",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0fc3427bd3b4fff5e7b31c3e5499a030a5993e31d1ed42b31b3920a7dc628d6c",
+  "upstream": {
+    "hash": "ca4dab2a8bd3324b8ec6d754128bdaac",
+    "codeMinLen": 261,
+    "codeMin": "t*=1E4/44100,w=t/8*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52,c=1E5/(t&4095)&64,e=t*[1,1,1,1,4/6,.6,1,1][t>>13&7]*1.52%256/4,v=random()*((-t>>5)%64+64),k=32,min(255,w%k+1.99*w%k+.505*w%k+c+e+v/1.2)",
+    "codeLen": 275,
+    "code": "t*=10000/44100,w=(t/8*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52),c=(100000/(t&4095)&64),e=(t*[1,1,1,1,4/6,4.8/8,1,1][t>>13&7]*1.52)%256/4,v=random()*((-t>>5)%64+64),k=32,min(255,w%k+w*1.99%k+w*.505%k+c+e+v/1.2)",
+    "author": "hcdphobe",
+    "name": "remix of \"kernkraft 400\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/112nn9c/remix_of_melody_of_kernkraft_400_by_zombie_nation/",
+    "date": "2023-02-15",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

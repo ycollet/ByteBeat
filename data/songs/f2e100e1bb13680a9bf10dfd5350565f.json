@@ -1,0 +1,38 @@
+{
+  "file": "songs/f2e100e1bb13680a9bf10dfd5350565f.js",
+  "title": "HydroCORE X",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f2e100e1bb13680a9bf10dfd5350565f.js",
+  "sha256": "5c554fda9d35875409c7014a54b4cc4b7a3bf1e3f7a708526ca9731bf8552860",
+  "upstream": {
+    "hash": "f2e100e1bb13680a9bf10dfd5350565f",
+    "codeLen": 11089,
+    "fileOrig": 1,
+    "codeText": "// HydroCORE X (rawstyle remix of HydroCORE)\n\n// i spent way too much time on this\n\n// i'm supposed to be asleep right now\n\n// i don't regret it though\n",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "HydroCORE X",
+    "url": "https://dollchan.net/btb/res/6946.html#9547",
+    "date": "2025-10-02",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "3fc59681709a90f39e8203d86d5e96d9",
+        "author": "PrincessPriscillaPT",
+        "name": "HydroCORE",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1mlqcv0/hydrocore"
+      }
+    ],
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-10-03",
+    "date_edited": "2025-11-01"
+  }
+}

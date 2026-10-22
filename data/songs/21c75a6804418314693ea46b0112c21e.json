@@ -1,0 +1,33 @@
+{
+  "file": "songs/21c75a6804418314693ea46b0112c21e.js",
+  "title": "jackpost",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/21c75a6804418314693ea46b0112c21e.js",
+  "sha256": "498b5c792caeee97023853db024a64b14f9ddd368cd6037944d428c0659ea1e4",
+  "upstream": {
+    "hash": "21c75a6804418314693ea46b0112c21e",
+    "codeLen": 2281,
+    "fileOrig": 1,
+    "codeText": "//jackpost\n//by hcdphobe, date: 13-04-2023\nvolume=100, //the volume\nx=volume>100?0:volume<0?0:volume/100, //check exceeds and below 0 and mute it\nsamp_rate=48000,\np=256,\nbeat=p*t/samp_rate,\nv=beat/8,",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "jackpost",
+    "url": "https://dollchan.net/btb/res/163.html#823",
+    "date": "2023-04-13",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8a457fd1045a880149a631b408e45e67",
+        "author": "BaenHoHoHo",
+        "name": "what",
+        "url": "https://www.reddit.com/r/bytebeat/comments/v3ro35/what/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-29"
+  }
+}

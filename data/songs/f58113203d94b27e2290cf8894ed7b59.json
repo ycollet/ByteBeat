@@ -1,0 +1,23 @@
+{
+  "file": "songs/f58113203d94b27e2290cf8894ed7b59.js",
+  "title": "Another weird waveform I made",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a7f1ebc2d59a28fa21a17a8e53397848af350999d853c9c7f09066d2e1effc56",
+  "upstream": {
+    "hash": "f58113203d94b27e2290cf8894ed7b59",
+    "codeLen": 142,
+    "code": "a=t*(t>>14&3|t>>11&7|t>>16&5|t>>14&9)*PI/128,sin(sin(a)+sin(a/1.5)+sin(a/3))/8+expm1(sin(a/2))/8+sinh(sin(a/4))/8+cosh(cos(a))/6+sin(PI-a/2)/8",
+    "author": "ANoUserXD",
+    "name": "Another weird waveform I made",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14d0cv9/another_weird_waveform_i_made/",
+    "date": "2023-06-19",
+    "mode": "Floatbeat",
+    "sampleRate": 16000,
+    "tags": [
+      "256"
+    ]
+  }
+}

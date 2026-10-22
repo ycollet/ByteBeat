@@ -1,0 +1,29 @@
+{
+  "file": "songs/69813a3901622f376bda32af0ad533b3.js",
+  "title": "o toady one",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/69813a3901622f376bda32af0ad533b3.js",
+  "sha256": "dccbe9e852cf83e2c77c668b6f2f59bc51a13425c8df266b651937a4d0c7990e",
+  "upstream": {
+    "hash": "69813a3901622f376bda32af0ad533b3",
+    "codeLen": 18147,
+    "fileOrig": 1,
+    "codeText": "// o toady one\n// show us your wisdom.\n\n// Cover of \"Toady One\" by Dabu\n// from Dwarf Fortress OST\n// https://www.youtube.com/watch?v=Mn9o6Gfnb_I\n\n// Do not change the \"sampleRate\" variable.",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "o toady one",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1eog5me/o_toady_one/",
+    "date": "2024-08-10",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Dwarf Fortress OST Interludes - Toady One",
+    "coverUrl": "https://youtu.be/Mn9o6Gfnb_I",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-09-24"
+  }
+}

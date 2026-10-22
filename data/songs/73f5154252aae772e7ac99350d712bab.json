@@ -1,0 +1,26 @@
+{
+  "file": "songs/73f5154252aae772e7ac99350d712bab.js",
+  "title": "sonic drowning ost",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2a1477e2d430988099214c0da0d0c27d02be555b592dc8b7427f547adcac9f1b",
+  "upstream": {
+    "hash": "73f5154252aae772e7ac99350d712bab",
+    "codeMinLen": 226,
+    "codeMin": "q=t,a=6.05,b=6.4,t*b/4,v=t/4*[a/4,b/4][q>>15&1]&128,f=(((t/4*[a/4,b/4][q>>15&1]*[1,4][q>>13&1]&127)+32&128?-q>>5:0)&255)/2,u=12*t*sin(t>>4)&128?-(q>>7)+384:0,i=12*t*sin(q>>4)&128?-(q>>5):0,ac=min(v/2+f+(u&255)/3+(i&255)/5,255)",
+    "codeLen": 236,
+    "code": "q=t,a=6.05,b=6.4,t*b/4,v=t/4*[a/4,b/4][q>>15&1]&128,f=((((t/4*[a/4,b/4][q>>15&1]*[1,4][q>>13&1]&127)+32)&128?-q>>5:0)&255)/2,u=(t*12)*sin(t>>4)&128?-(q>>7)+384:0,i=(t*12)*sin(q>>4)&128?-(q>>5):0,ac=min(v/2+f+((u)&255)/3+((i)&255)/5,255)",
+    "author": "hcdphobe",
+    "name": "sonic drowning ost",
+    "url": "https://dollchan.net/btb/res/163.html#253",
+    "date": "2022-11-19",
+    "sampleRate": 44100,
+    "coverName": "Sonic 1 Music - Drowning",
+    "coverUrl": "https://youtu.be/9Yw5jkAHgME",
+    "tags": [
+      "256"
+    ]
+  }
+}

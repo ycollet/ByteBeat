@@ -1,0 +1,49 @@
+{
+  "file": "songs/e534a8c80f41fa6ac0b06c1423986b9e.js",
+  "title": "Sunset Road but HARDSTYLE",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e534a8c80f41fa6ac0b06c1423986b9e.js",
+  "sha256": "1b3a366b5829d0c19d0a9d0c768ddbc8831cf40e7afda55c3f536a3ad397c8bc",
+  "upstream": {
+    "hash": "e534a8c80f41fa6ac0b06c1423986b9e",
+    "codeLen": 5276,
+    "fileOrig": 1,
+    "codeText": "// 𝙄𝙣𝙛𝙞𝙣𝙞𝙩𝙚𝙡𝙮 𝙄𝙣𝙨𝙩𝙖𝙣𝙩𝙞𝙖𝙗𝙡𝙚 １ 𝙋𝙤𝙡𝙚 𝙁𝙞𝙡𝙩𝙚𝙧𝙨 - 𝙛𝙚𝙚𝙨𝙝𝙗𝙧𝙚𝙖𝙙\n// [Help]: Use these filters to change your sound for ear candy!\nt?0:z1=[],\ncallCount=0,\n// Low-pass filter (LPF): Smooths a signal by averaging it with previous values.\nlpf=lowPassFilter=(a,c)=>(\n\tcall=callCount++,\n\tz1[call]??=0,",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Sunset Road but HARDSTYLE",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1jo3kma/comment/mkt9tiq/?context=3",
+      "https://dollchan.net/btb/res/7164.html#7294"
+    ],
+    "date": "2025-03-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "db520d39c9f6969e69219d2c5132502b",
+        "author": "Zackx",
+        "name": "Sunset road",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4013",
+          "https://www.reddit.com/r/bytebeat/comments/1edi5ya/pwmsynth_master/"
+        ]
+      },
+      {
+        "hash": "70971ff85b24f4649f10cff82c062fd2",
+        "author": "feeshbread",
+        "name": "hardstyle remix of a Zackx song",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/comment/lm8vqhu/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-11-17"
+  }
+}

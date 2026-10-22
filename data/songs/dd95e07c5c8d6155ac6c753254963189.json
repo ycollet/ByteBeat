@@ -1,0 +1,26 @@
+{
+  "file": "songs/dd95e07c5c8d6155ac6c753254963189.js",
+  "title": "Telephone busy signal",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ece1179b2ebb9a7f239025280f89dde2284240b62917cbbbbc7e9c9314e96434",
+  "upstream": {
+    "hash": "dd95e07c5c8d6155ac6c753254963189",
+    "codeLen": 76,
+    "code": "t/=48e3,(sin(620*t*PI*2)+cos(480*t*PI*2))*min(.3,max(0,tan(sin(t*2*PI)))*40)",
+    "author": "hcdphobe",
+    "name": "Telephone busy signal",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gzj7x0/telephone_busy_signal/",
+      "https://dollchan.net/btb/res/163.html#5059"
+    ],
+    "date": "2024-11-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

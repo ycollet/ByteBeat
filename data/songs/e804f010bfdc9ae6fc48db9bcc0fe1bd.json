@@ -1,0 +1,25 @@
+{
+  "file": "songs/e804f010bfdc9ae6fc48db9bcc0fe1bd.js",
+  "title": "what the Roland TB303 is this???",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "af6b8091f1692cfe4f30cc6cd3ae6d31b1c1590995a5cdec5e68146d6657d4f4",
+  "upstream": {
+    "hash": "e804f010bfdc9ae6fc48db9bcc0fe1bd",
+    "codeMinLen": 471,
+    "codeMin": "t>0?(z=q+q/(1-f),i=t/s*10%32,n=2**((12*'01100001100001100110001001001001'[i|0]+5)/12),n=.5-n*t/s*55%1,k=e,e='10100010100010100010100010100010'[2*i%32|0],v(1/s,.05,.5,.2),f=h(m*(cos(t/s/32*5*p+p)/3+.4),.01),a+=f*(n-a+z*(a-b)),b+=f*(a-b),c+=f*(b-c),d+=f*(c-d),atan(d*p)/p):(s=32E3,L=2**32,q=.95,p=PI,a=b=c=d=e=f=l=m=x=A=B=0,w=(n,r)=>(x=r,l=1/n/s),v=(i,j,r,z)=>(0<e-k?(w(i,0),m=0):1>x&1<=m?w(-j,1):0<x%3&m<r?(w(L,2),m=r):0>e-k?w(-z,3):m=h(m+l,0)),h=(f,r)=>min(max(f,r),1-r))",
+    "codeLen": 481,
+    "code": "t>0?(z=q+q/(1-f),i=(t/s*10)%32,n=2**(('01100001100001100110001001001001'[i|0]*12+5)/12),n=0.5-(n*t/s*55%1),k=e,e='10100010100010100010100010100010'[i*2%32|0],v(1/s,.05,.5,.2),f=h(m*(cos(t/s/32*5*p+p)/3+.4),.01),a+=f*(n-a+z*(a-b)),b+=f*(a-b),c+=f*(b-c),d+=f*(c-d),atan(d*p)/p):(s=32e3,L=2**32,q=0.95,p=PI,a=b=c=d=e=f=l=m=x=A=B=0,w=(n,r)=>(x=r,l=1/n/s),v=(i,j,r,z)=>(e-k>0?(w(i,0),m=0):x<1&(m>=1)?w(-j,1):x%3>0&m<r?(w(L,2),m=r):e-k<0?w(-z,3):m=h(m+l,0)),h=(f,r)=>(min(max(f,r),1-r)))",
+    "author": "SleepingLugia",
+    "name": "what the Roland TB303 is this???",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13oleln/what_the_roland_tb303_is_this/",
+    "date": "2023-05-22",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

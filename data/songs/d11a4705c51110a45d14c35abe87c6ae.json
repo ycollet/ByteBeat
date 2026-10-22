@@ -1,0 +1,25 @@
+{
+  "file": "songs/d11a4705c51110a45d14c35abe87c6ae.js",
+  "title": "printer",
+  "author": "GDPlayer_1035",
+  "mode": "Signed Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "94f426fc050853576a8ad527b8ca8544953c283f89d5ed82e825b390cf908b9c",
+  "upstream": {
+    "hash": "d11a4705c51110a45d14c35abe87c6ae",
+    "codeMinLen": 60,
+    "codeMin": "((((t&t/900)*t&t)*t/9E7^t)&127)+63*sin(t/9E3*(t/9E3&127))-63",
+    "codeLen": 71,
+    "code": "(((((t&t/900)*t&t)*t/90000000^t)&127)+(sin(t/9000*(t/9000&127))*63)-63)",
+    "author": "GDPlayer_1035",
+    "name": "printer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q94xkt/printer/",
+    "date": "2021-10-16",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

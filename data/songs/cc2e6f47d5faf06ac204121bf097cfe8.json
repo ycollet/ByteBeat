@@ -1,0 +1,29 @@
+{
+  "file": "songs/cc2e6f47d5faf06ac204121bf097cfe8.js",
+  "title": "197. Bytebeat * Polyrhythm",
+  "author": "Zera12873",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d77826955c36b2b63bfd37055fb7c4658f2759ea0f26cf6c7d112a722b7c82fc",
+  "upstream": {
+    "hash": "cc2e6f47d5faf06ac204121bf097cfe8",
+    "codeMinLen": 178,
+    "codeMin": "tanh((_=>{for(i=a=0;i<12;i++)a+=(t/128*2**(([0,3,5,8][i%4]+[0,2,-2,1][t/4E4&3])/12)*2**~~(i/4)%2-1)/2*.01**(t/5E3/(1+2*i)%1)*((t&t/2500)/8%1);return a})()+sin((t%2E4)**.1*100)/2)",
+    "codeLen": 373,
+    "code": "clamp=(l,x,h)=>min(max(x,l),h),sr=48000,pi=PI,a=()=>{v=[0,0];a=()=>{let a=0;for (let i=0; i<12; i++) {  a += ((t/128*2**(([0,3,5,8][i%4]+[0,2,-2,1][~~(t/4e4)%4])/12)*2**~~(i/4))%2-1)/2*0.01**((t/(5e3*(1+2*i)))%1)/1*(((t&t/25e2)/8)%1)};return a};v[0]=a();v[1]=v[0];b=()=>{let a = sin(((t%2e4)**0.1)*100)/2;v[0] = tanh(v[0]+a); v[1] = tanh(v[1]+a);return v};b();return v},a()",
+    "author": "Zera12873",
+    "name": "197. Bytebeat * Polyrhythm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1nzfky3/isgjs_dump",
+    "date": "2025-10-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Deca Quitin - Images and Sounds Generated using JavaScript 2",
+    "coverUrl": "https://youtu.be/ZhXSiNTTTNc?t=524",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-09",
+    "date_edited": "2025-12-15"
+  }
+}

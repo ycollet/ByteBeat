@@ -1,0 +1,32 @@
+{
+  "file": "songs/b3e183c4e9e06b647078bcfb9b9f3c6d.js",
+  "title": "Freedom Planet - Relic Maze 2",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b3e183c4e9e06b647078bcfb9b9f3c6d.js",
+  "sha256": "81381a030106b4dcc57af65b9d62e907247e08a08fbf4227d1fdc664361a3944",
+  "upstream": {
+    "hash": "b3e183c4e9e06b647078bcfb9b9f3c6d",
+    "codeLen": 7796,
+    "fileOrig": 1,
+    "codeText": "tune=1.05,\nspeed=.88,\n\ntt=t*tune,\nts=t*speed,\n\nbt=beat=(len,spd)=>(ts>>spd)%len,\nseq=(arr,spd,T=tt)=>T*2**(arr[bt(arr.length,spd)]/12)||0,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Freedom Planet - Relic Maze 2",
+    "description": "Version v1.7.5",
+    "url": "https://dollchan.net/btb/res/2971.html#4159",
+    "date": "2024-08-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Freedom Planet - Relic Maze 2",
+    "coverUrl": "https://youtu.be/vqNzil8NuY4",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-12",
+    "date_edited": "2025-11-12"
+  }
+}

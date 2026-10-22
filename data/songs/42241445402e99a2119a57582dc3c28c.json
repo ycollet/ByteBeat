@@ -1,0 +1,34 @@
+{
+  "file": "songs/42241445402e99a2119a57582dc3c28c.js",
+  "title": "I had an earworm while I was sitting on the toilet",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/42241445402e99a2119a57582dc3c28c.js",
+  "sha256": "8ad968205e1118efc5d494cabc4d22ea551581069f6ec586601b641648449433",
+  "upstream": {
+    "hash": "42241445402e99a2119a57582dc3c28c",
+    "codeLen": 1146,
+    "fileOrig": 1,
+    "codeText": "a=[2,0,-1,0,2,2];b=[[-5,-1,2,5,9],[0,3,7,10,14],[-7,-4,0,3,7],[-2,0,2,5,9]];c=[0,5,1,3];nH=n=>432*2**(n/12);mod=(n,m)=>(n%m+m)%m;fract=x=>(x%1+1)%1;p=(t,w=.5)=>fract(t)<fract(w)?-1:1;r=(a,i)=>a[mod(floor(i),a.length)];sp=3.6;TAU=PI*2;LFO=(t,a=.9)=>(1+sin(t*PI)*a)/2;\nclass LP{constructor(SR=22050,f=300,Q=1){Object.assign(this,{SR,f,Q,z1:0,z2:0});this.calc();}calc(f,Q){if(f)this.f=f;if(Q)this.Q=Q;let ω=TAU*this.f/this.SR,sω=sin(ω),cω=cos(ω),α=sω/(2*this.Q),a0=1+α;this.b0=((1-cω)/2)/a0;this.b1=(1-cω)/a0;this.b",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "I had an earworm while I was sitting on the toilet",
+    "url": "https://dollchan.net/btb/res/3.html#10749",
+    "date": "2025-11-22",
+    "mode": "Funcbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "0fa299d35dc0cacf9759617e3adb1caf",
+        "author": "Funcbeat Anon",
+        "name": null,
+        "url": "https://dollchan.net/btb/res/3.html#5724"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-02-11"
+  }
+}

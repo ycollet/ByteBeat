@@ -1,0 +1,30 @@
+{
+  "file": "songs/c3371f54a0ac9007af982b22452b6911.js",
+  "title": "Pantophobia from Awoglet's Aggravation",
+  "author": "awogler9124812041",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c3371f54a0ac9007af982b22452b6911.js",
+  "sha256": "1111a2be2b0c1166bff3b06fee058eff4d98d7aba607dbe50400afa89c70c2bd",
+  "upstream": {
+    "hash": "c3371f54a0ac9007af982b22452b6911",
+    "codeLen": 2813,
+    "fileOrig": 1,
+    "codeText": "// PARAMETERS YOU CAN CHANGE //\n// sample rate\nzzfxR=48000;\n// volume\nzzfxV=1;\n// song data (you can use https://keithclark.github.io/ZzFXM/tracker/ to compose your own songs!)\nsong=[[[1,0,220,0,2.5,0,2,1,0,0,0,0,0,0,0,0.02,0.01,1,0,0],[1,0,111,0.002,2,0.08,3,1,0,0,0,0,0,0,0,0.1,0.01,1,0,0],[4,0,84,0,0,0.1,0,0.7,0,0,0,0.5,0,6.7,1,0.05,0,1,0,0],[2,0,219,0,0,0.1,0,1.1,0,-0.1,-50,-0.05,-0.01,1,0,0,0,1,0,0],[1,0,111,0,0,0.2,3,5,0,0,0,0,0,0,0,0,0,1,0,0]],[[[0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,,,,,,,0,24,,,,,",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "Pantophobia from Awoglet's Aggravation",
+    "description": "Another ZzFXM tracker song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1asz82r/pantophobia_from_awoglets_aggravation_zzfxm/",
+    "date": "2024-02-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Awoglet's Aggravation OST - Pantophobia",
+    "coverUrl": "https://youtu.be/xMtHwTL8xEk",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

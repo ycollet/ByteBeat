@@ -1,0 +1,31 @@
+{
+  "file": "songs/e3f0926119d7d995f68ce3458b639184.js",
+  "title": "Inter Time Dubstep",
+  "author": "Federal_Loss2780",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a193855a14a0d5bf44cb5f1543dcea9fd211d220383f587e8dcda103d018e5c7",
+  "upstream": {
+    "hash": "e3f0926119d7d995f68ce3458b639184",
+    "codeLen": 51,
+    "code": "(t>>(t>>13&31)&128)+((t&t>>12)*t>>12)+3e5/(t%16384)",
+    "author": "Federal_Loss2780",
+    "name": "Inter Time Dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1580wez/inter_time_dubstep/",
+    "date": "2023-07-24",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "d871f695a9268fbd58377983af5ae719",
+        "author": "krcko",
+        "name": "Modem melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

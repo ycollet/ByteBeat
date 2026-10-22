@@ -1,0 +1,40 @@
+{
+  "file": "songs/3fc59681709a90f39e8203d86d5e96d9.js",
+  "title": "HydroCORE",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3fc59681709a90f39e8203d86d5e96d9.js",
+  "sha256": "63eed5449aa7b588564319ab6fa9e327689d8324f411013fad7f743feb0eb593",
+  "upstream": {
+    "hash": "3fc59681709a90f39e8203d86d5e96d9",
+    "codeLen": 4771,
+    "fileOrig": 1,
+    "codeText": "/* MarioFan171 - Hydroxide [PrincessPriscillaPT's HydroCORE Remix] */\n/* Cover of #65. CORE [UNDERTALE Soundtrack] - Toby Fox */\n\n/* Variables you can change */\nBPM=131,\t/* Tempo */\nsR=sampleRate=48e3, /* Quality */\nsPB=samplesPerBeat=32768, /* Timing */\ntt=(t/sR*256)*440*2**(-7/12),\t/* Master Tone | -7: Dm */",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "HydroCORE",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mlqcv0/hydrocore",
+    "date": "2025-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5ebb31793ec5e7f8630d78626635af14",
+        "author": "MarioFan171",
+        "name": "Hydroxide",
+        "url": "https://dollchan.net/btb/res/2971.html#8553"
+      }
+    ],
+    "coverName": "065. CORE (UNDERTALE Soundtrack) - Toby Fox",
+    "coverUrl": "https://www.youtube.com/watch?v=SEOYyM9n9mw",
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-09-27",
+    "date_edited": "2025-11-04"
+  }
+}

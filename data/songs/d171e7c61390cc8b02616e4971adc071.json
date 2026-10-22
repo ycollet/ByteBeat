@@ -1,0 +1,24 @@
+{
+  "file": "songs/d171e7c61390cc8b02616e4971adc071.js",
+  "title": "NoisecanMinor",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6937e077b6fedd4cf393c4d361b080d74228839224fdda0c0c96fa3521eebf73",
+  "upstream": {
+    "hash": "d171e7c61390cc8b02616e4971adc071",
+    "codeMinLen": 152,
+    "codeMin": "w=65536,Fn=[1,2,3,4,4.5,4.75,6,8][(abs(t)>>12)%8],(2*w+(abs(64*t*Fn)|-abs(-t|2*-t|3*-t|4*-t)/16)%w*256/w)%256/2+(127.9*sin(3E5/(t%w+1)%256*PI/64)+128)/2",
+    "codeLen": 220,
+    "code": "w = 1<<16,\nFn = (([1,2,3,4,4.5,4.75,6,8][(abs(t)>>12)%8])),\noutput = abs((t*Fn*256/4))|-abs((-t|-t*2|-t*3|-t*4)/16),\nkick = sin((3e5/(t%(65536)+1))%256*3.14159265359/64)*127.9+128,\n((w*2+(output%w/(w/256)))%256)/2+kick/2",
+    "author": "D3nschøt",
+    "name": "NoisecanMinor",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1aqpt0o/i_think_i_broke_it/",
+    "date": "2024-02-14",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

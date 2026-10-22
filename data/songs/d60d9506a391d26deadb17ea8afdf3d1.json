@@ -1,0 +1,26 @@
+{
+  "file": "songs/d60d9506a391d26deadb17ea8afdf3d1.js",
+  "title": "Frère Jacques/Brother John",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "752f1f7677cfa905a598d7ac07205055ce72767dbd9d515c4ab15850d217e138",
+  "upstream": {
+    "hash": "d60d9506a391d26deadb17ea8afdf3d1",
+    "codeMinLen": 272,
+    "codeMin": "r=t/1.45,n=(x,y,z)=>(64&t*2**(parseInt(x,36)/12)/2.88/z)/(r*y%32768+2048)**.6*128,n('CCEEGGCCCCEEGGCCGGHHJJJJGGHHJJJJJLJHGGCCJLJHGGCCCC77CCCCCC77CCCC'[63&r>>13],'2222212142422121'[15&r>>15],1)+n(['CJGJCJGJ','CCC7CC77'][1&r>>18][7&r>>13],[4,'11141122'[7&r>>13]][1&r>>18],2)",
+    "codeLen": 276,
+    "code": "r=t/1.45,n=(x,y,z)=>(64&t*2**(parseInt(x,36)/12)/2.88/z)/((r*y%32768+2048)**.6)*128,\nn('CCEEGGCCCCEEGGCCGGHHJJJJGGHHJJJJJLJHGGCCJLJHGGCCCC77CCCCCC77CCCC'[63&r>>13],\n'2222212142422121'[15&r>>15],1)+n(['CJGJCJGJ','CCC7CC77'][1&r>>18][7&r>>13],[4,'11141122'[7&r>>13]][1&r>>18],2)",
+    "author": "Zackx",
+    "name": "Frère Jacques/Brother John",
+    "url": "https://dollchan.net/btb/res/204.html#1402",
+    "date": "2023-06-25",
+    "sampleRate": 48000,
+    "coverName": "Frère Jacques",
+    "coverUrl": "https://youtu.be/BC6rvbxdywg",
+    "tags": [
+      "1k"
+    ]
+  }
+}

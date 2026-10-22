@@ -1,0 +1,37 @@
+{
+  "file": "songs/7cb7091230b5e2f30d053f03b5cfa0f5.js",
+  "title": "Infernal Cemetery",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7cb7091230b5e2f30d053f03b5cfa0f5.js",
+  "sha256": "e90d5cef0d152252fb8598d4bb987b8e2e1792af3aea8c7a5ab05d18b592fafa",
+  "upstream": {
+    "hash": "7cb7091230b5e2f30d053f03b5cfa0f5",
+    "codeLen": 2855,
+    "fileOrig": 1,
+    "codeText": "t?(T=t/180*Bpm,Cn=0,Cb=(x,a,b,c,d)=>(Cno=Cn++,Bf[Cno+t%a]??=0,x=x*c+d*Bf[Cno+t%a],t%1?0:Bf[Cno+t%a]=x*b,Cn+=a,x),tck=int(T/32768),env=x=>btf(T/x)/2+.5,decay=(t,d,x)=>x**btf(-t/d)*x,Reverb=(x,c,a,d,w)=>(i=Cb(x,int(1500*a),.3,.5,1,1),(w*(Cb(i,int(10032*c),.9,.5,1,1)+Cb(i,int(13280*c),.9,.5,1,1)+Cb(i,int(6016*c),.9,.5,1,1)+Cb(i,int(5540*c),.9,.5,1,1))+x*d)/4),off=x=>x?64:0,offtr=x=>x?cos:sin,s=(x,y,z,p)=>F(lp(x,1/y)+z)%256>p?0:255,U=(x,y,z,p)=>(s(x,y,z,p)+s(x*.985,y,z,p)+s(x*1.01,y,z,p)+s(x*.9975,y,z,p)+s(x*.9",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "Infernal Cemetery",
+    "url": "https://dollchan.net/btb/res/6537.html#9354",
+    "date": "2025-09-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "10230ebbb0759b183c3f7e8d9bb9b96a",
+        "author": "Blast Brothers",
+        "name": "Sepulchre",
+        "url": "https://battleofthebits.com/arena/Entry/Sepulchre/57663/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-30"
+  }
+}

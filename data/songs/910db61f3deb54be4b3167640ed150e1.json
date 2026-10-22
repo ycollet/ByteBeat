@@ -1,0 +1,38 @@
+{
+  "file": "songs/910db61f3deb54be4b3167640ed150e1.js",
+  "title": "Reminisce",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/910db61f3deb54be4b3167640ed150e1.js",
+  "sha256": "54e5d333c3242a80c6b99ae944c6a97c302f01f6d578e1dc5356252861f964c1",
+  "upstream": {
+    "hash": "910db61f3deb54be4b3167640ed150e1",
+    "codeMinLen": 392,
+    "codeMin": "t%=2**23,b=t/8192,B=b/8,T=n=>abs(.08*(1<<(s=n+4)/7)*2**((2*s%14-(s%7>3))/12)*(t+10*sin(t/1024))%64-32)-16,R=17-(B|0)%4,f=n=>T((b/2^(Y=B/3*8+3))%12+7+n),c=(T(R)+T(R+2)+T(R+4)+T(R+6))/3,u=f(14)/2,P=(T(R-7)+T(R-3))/2*(1+b%2|0),C=c+1.5*T(R-14),k=b%64<60,a=T((b^Y)%6+21)/2,[m=f(7),m+B/8%1*k*C,M=m+C,m+k*C,F=M+u+f(0)/2+P,X=F+u/2,k*C,i=u+P,m+k*(i+c),F,X,F+a,X+a*2,m+u/2+a+c,u+a+c,a+k*T(R)][B>>3]+128",
+    "codeLen": 1702,
+    "fileOrig": 1,
+    "codeText": "t%=2**23,b=t/8192,B=b/8,T=n=>abs(.08*(1<<(s=n+4)/7)*2**((2*s%14-(s%7>3))/12)*(t+10*sin(t/1024))%64-32)-16,R=17-(B|0)%4,f=n=>T((b/2^(Y=B/3*8+3))%12+7+n),c=(T(R)+T(R+2)+T(R+4)+T(R+6))/3,u=f(14)/2,P=(T(R-7)+T(R-3))/2*(1+b%2|0),C=c+1.5*T(R-14),k=b%64<60,a=T((b^Y)%6+21)/2,[m=f(7),m+B/8%1*k*C,M=m+C,m+k*C,F=M+u+f(0)/2+P,X=F+u/2,k*C,i=u+P,m+k*(i+c),F,X,F+a,X+a*2,m+u/2+a+c,u+a+c,a+k*T(R)][B>>3]+128",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "Reminisce",
+    "description": "This song is quite inspired by \"Something New\".",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/x39ll8/reminisce/",
+      "https://dollchan.net/btb/res/44.html#367"
+    ],
+    "date": "2022-08-31",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "f34b2f5776ad27dc583538d471c302d1",
+        "author": "maj-6",
+        "name": "\"Something New\" using functions",
+        "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/#post157167"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

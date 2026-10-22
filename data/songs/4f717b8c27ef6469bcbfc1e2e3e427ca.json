@@ -1,0 +1,34 @@
+{
+  "file": "songs/4f717b8c27ef6469bcbfc1e2e3e427ca.js",
+  "title": "2a03 thingy",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4f717b8c27ef6469bcbfc1e2e3e427ca.js",
+  "sha256": "fefb7e9f1d2686decf63ef832c4056bbaab7ba9459d7343e37bfd705b19a7943",
+  "upstream": {
+    "hash": "4f717b8c27ef6469bcbfc1e2e3e427ca",
+    "codeMinLen": 593,
+    "codeLen": 935,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "B=96,T=abs(t/48e3/60*32768*B),t?0:z1=[],X=0,h=(a,c)=>a-(Y=X++,z1[Y]??=0,z1[Y]+=(a-z1[Y])*c),p=-1.19,t||(d=Array(D=round(2**21/B)).fill(0)),a=(t+sin(t*PI/16384))*2**(((x=[0,[4,3][T>>18&1],7,[11,10][T>>18&1]])[T>>14&3]+p)/12)*2**([0,-1][T>>18&1]/12),b=(t+sin(t*PI/32768)*80)*2**((x[t&3]+p)/12)*2**([0,-1][T>>18&1]/12),c=h((asin(sin((a|7)*PI/128))/2.5*(1-T/8192%1)**.1*.1**(10/(T%16384)))/'14'[T>>13&1],.009)+(('1000'[a>>6&3]-.5)/'28'[T>>13&1])*(1-T/8192%1)**.1*.1**(10/(T%16384))/1.5+(([b>>5&3]==1)-.25)/2.5*abs(si",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "2a03 thingy",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1ipzuvb/2a03_thingy/",
+      "https://dollchan.net/btb/res/7164.html#7269"
+    ],
+    "date": "2025-02-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "MLP: FiM - Story Of The Blanks OST - Everfree Forest",
+    "coverUrl": "https://youtu.be/OgbOrVZVSwI",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-11-24"
+  }
+}

@@ -1,0 +1,1 @@
+d=function(){var c = Array(2000);var i = 0;for(var i;i<256;i++){c[i]=Math.random();}return c;},t==2?n=d():0,t==1?n=[]:0,atan2(((t^t-t/128)%256)&(t>>11^t>>9),sin(t/2))-Math.PI/2+n[t%round(cos(t/10240)*250)]/3-0.25

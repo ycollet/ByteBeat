@@ -1,0 +1,35 @@
+{
+  "file": "songs/c1476fd236692175bd3ea7c8619c741c.js",
+  "title": "Jasmine Tea Jazz",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c1476fd236692175bd3ea7c8619c741c.js",
+  "sha256": "f29b9b85c7354d2af160c70691bf6042316b1c20861bf708a1fba8c0462974de",
+  "upstream": {
+    "hash": "c1476fd236692175bd3ea7c8619c741c",
+    "codeLen": 852,
+    "fileOrig": 1,
+    "codeText": "(t/=6)||(C=[[1.5873,4,4,4.7568,3.1748],[1.4983,5.3392,4.4896,3.5632,2.9964],[1.4983,5.3392,4.4896,3.7752,2.9964],[1,3.5632,4.7568,4,2.9964],[1.5873,4,4,4.7568,3.1478],[1.4983,5.3392,4.4896,3.5632,2.9964],[1,5.3392,4.4896,3.5632,2.9964],[1,5.0396,4,2.9964,2.9964]],m='ÿ@@ŀ@@Ĥ@@ÿ@@ê@Øê@ÿê@ØÀÀ@@@Ø@@êÿ@@ċ@ÿÿ@@@@Ĥ@@ċ@@ÿÿ@ċÿÿÿê@Ø@@êê@êÿÿÿê@@ØØ@ê@Ĥ@@ÿ@@ê@@ÿÿ@@@@@@@@õõõ'),y=2*t,z=c=>(M=(m.charCodeAt(w=t/800%96)-64)*t/(2048+c*2),(C[s=int(t/9600%8)].map(e=>(32>w&&1<<w&0xC007307||(32<=w&&64>w)&&1<<w&1929842288||64<w&&1",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Jasmine Tea Jazz",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1s87ua4/jasmine_tea_jazz/",
+    "date": "2026-03-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "793a1a88070d434ecc082259c2557165",
+        "author": "Savestate",
+        "name": "Earl Grey Groove",
+        "url": "http://battleofthebits.com/arena/Entry/Earl+Grey+Groove/20500/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-04-05"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/6ac19e68cd53268a5f3da8d5a08c6599.js",
+  "title": "frequency dancer",
+  "author": "ANON256-64",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5f5994f97168ff14189ad550ceeeed19c6dc542964c5afcd1efb5cfc8ff89c08",
+  "upstream": {
+    "hash": "6ac19e68cd53268a5f3da8d5a08c6599",
+    "codeMinLen": 27,
+    "codeMin": "t%125&t>>8|t>>4|t*t>>8&t>>8",
+    "codeLen": 29,
+    "code": "(t%125&t>>8)|t>>4|t*t>>8&t>>8",
+    "author": "ANON256-64",
+    "name": "frequency dancer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11krrl8/frequency_dancer/",
+    "date": "2023-03-07",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

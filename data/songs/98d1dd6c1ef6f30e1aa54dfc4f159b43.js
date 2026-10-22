@@ -1,0 +1,1 @@
+thr=x=>{throw x},KickThing=t/1024&3?"✋":"👊",SnareThing=t/4096&1?"💥":"💣",t&15?(((t>>9^(t>>9)-1^1)%((t>>14)+1))*t&128)+(50*sqrt(t%4096)&64)*(1-t/2%2048/2048)+(random()*((t>>12&1)*64)*(1-t/2%2048/2048)):thr("\nCurrent Pattern: "+ ((t>>14)+1) + "\n Kick: " + KickThing+"\n Snare: "+SnareThing)

@@ -1,0 +1,24 @@
+{
+  "file": "songs/84b9f073f8c5c5ce5fec12af25a6ccd1.js",
+  "title": "i put a whole bag of jellybeans up my ass",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "02f49ea9bee11a9ad54d5617c586b544a31805dd67560df8cc232863ac03b6ac",
+  "upstream": {
+    "hash": "84b9f073f8c5c5ce5fec12af25a6ccd1",
+    "codeMinLen": 117,
+    "codeMin": "([1,.5,2,.5,3,.5,2,.5,5,.5,4,.5,3.5,.5,4,.5,7,.5,6,.5,7,.5,8,.8,8,.8,8,.8,8,.8,8,.5][(t>>12)%32]*t>>1&191)+(t>>9)&192",
+    "codeLen": 133,
+    "code": "([1,0.5,2,0.5,3,0.5,2,0.5,5,0.5,4,0.5,3.5,0.5,4,0.5,7,0.5,6,0.5,7,0.5,8,0.8,8,0.8,8,0.8,8,0.8,8,0.5][(t>>12)%32]*t>>1&191)+(t>>9)&192",
+    "author": "rubi",
+    "name": "i put a whole bag of jellybeans up my ass",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s66475/i_put_a_whole_bag_of_jellybeans_up_my_ass/",
+    "date": "2022-01-17",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

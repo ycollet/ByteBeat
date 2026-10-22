@@ -1,0 +1,35 @@
+{
+  "file": "songs/ce26877d92460ac443b004efeefbc23a.js",
+  "title": "Something Newer",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ce26877d92460ac443b004efeefbc23a.js",
+  "sha256": "fb7ed7d37a3e1fee1d82264c09bc77e545e730d76501baf2de2b7ef09fd47ed1",
+  "upstream": {
+    "hash": "ce26877d92460ac443b004efeefbc23a",
+    "codeLen": 1229,
+    "fileOrig": 1,
+    "codeText": "C=0,r=(d=12e3)*3,b=t/d%768,B=(b%640+(b/4&64))%192-64,P=s=>(1+(s+1)/8|0)*2**(((8-s%7*3)%11+11)%11)/3**(((5-s%7*2)%7+7)%7)/122*12e3/d,(T=t)||(M=[],A=s=>Array(s).fill(0),L=(s,t,i)=>(f=t+t/(1+i),y=C++,z=C++,M[y]??=0,M[z]??=0,M[y]+=i*(s-M[y]+f*(M[y]-M[z]))||0,M[z]+=i*(M[y]-M[z])||0),R=(s,t,i,n,b)=>(M[c=C++]??=A(r),j=T%r|0,f=s,o=0,t.forEach(s=>(f+=M[c][Q=(r+T*s[2]+s[3])%r|0]*s[1],o+=M[c][Q]*s[0])),M[c][j]=b(f)*i,s*(1-n)+o*n)),t?x+=P(b<256||b>512?(b^b/8+3)%12:(b^b/4+(b/6|1))%16%12)/4:x=0,S=L((abs(2*x%1-.5)-.25)*mi",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Something Newer",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1ojoof8/something_newer",
+    "date": "2025-10-29",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "7b21b3371de20893a2e7292efde6f7d7",
+        "author": "maj-6",
+        "name": "Something New",
+        "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-03"
+  }
+}

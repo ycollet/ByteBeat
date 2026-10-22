@@ -1,0 +1,24 @@
+{
+  "file": "songs/581e0f2a43a69975f0c65a1a974c351f.js",
+  "title": "industrial doom",
+  "author": "mirageofher",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "24f78d93bdac76594e9a9e7e7f0d65337252abf1cb544ff943f84eb5deca84ec",
+  "upstream": {
+    "hash": "581e0f2a43a69975f0c65a1a974c351f",
+    "codeMinLen": 35,
+    "codeMin": "(t>>t/666||3*t/16+16*t)|-sin(t)*t/2",
+    "codeLen": 56,
+    "code": "(t >> (t/666) || (3*t/16 + t*16)) | (((0-sin(t))*(t/2)))",
+    "author": "mirageofher",
+    "name": "industrial doom",
+    "url": "https://battleofthebits.com/arena/Entry/industrial+doom.txt/58156/",
+    "date": "2023-02-05",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

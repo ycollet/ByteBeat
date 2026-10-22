@@ -1,0 +1,35 @@
+{
+  "file": "songs/e75a95a467f9ed9ae398609be678282d.js",
+  "title": "The Twelly Sequencer",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e75a95a467f9ed9ae398609be678282d.js",
+  "sha256": "6b6a4882cea5a53a1b536b7ca6605b81dcbe6bfeefc94a40201ec4a400f8a918",
+  "upstream": {
+    "hash": "e75a95a467f9ed9ae398609be678282d",
+    "codeLen": 10107,
+    "fileOrig": 1,
+    "codeText": "/*\n\nThe Twelly Sequencer\n\nI have created a simple sequencer with a long square function, well, I extended it and now it is so fucking long. Man this is the first code that exceeds 10000 bytes lmao.\n\nWell I hope you like it\n*/",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "The Twelly Sequencer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1lz63iy/the_twelly_sequencer_by_two2fall/",
+    "date": "2025-07-14",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "257b516c2f308b18ae8c7dd4306e48bb",
+        "author": "Two2Fall",
+        "name": "Synth",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1i89qzj/synth/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-12-10",
+    "date_edited": "2025-12-15"
+  }
+}

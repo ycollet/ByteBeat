@@ -1,0 +1,33 @@
+{
+  "file": "songs/249025d02e6ed820d87f5d36f3054753.js",
+  "title": "remix of the throwback",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4e4fc822ee82bc9844fa7084093614a7cb2fb4ae21047425b6201fbf5070a513",
+  "upstream": {
+    "hash": "249025d02e6ed820d87f5d36f3054753",
+    "codeMinLen": 304,
+    "codeMin": "(t/=1.25)||(d=Array(15360).fill(0),x=0),x+=2**([[0,3,7,12,15,12,7,3],[3*(t>>15&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[8,12,15,20,24,20,15,12]][t>>16&3][t>>12&7]/12+2.232),x%=512,o=(x&256?127-x/2:x/2)+d[1.25*t%15360],d[(1.25*t-1)%15360]=o/2,o/4+(B=t*2**([1,1,6,9][3&t>>16]/12)/11.6,B%64+B%63.7)-64",
+    "codeLen": 307,
+    "code": "(t/=1.25)||(d=Array(15360).fill(0),x=0),x+=2**([[0,3,7,12,15,12,7,3],[3*(t>>15&1),7,10,15,19,15,10,7],[5,9,12,17,21,17,12,9],[8,12,15,20,24,20,15,12]][t>>16&3][t>>12&7]/12+1.24*1.8),x%=512,o=(x&256?127-x/2:x/2)+d[t*1.25%15360],d[(t*1.25-1)%15360]=o/2,o/4+(B=t*2**([1,1,6,9][3&t>>16]/12)/11.6,B%64+B%63.7)-64",
+    "author": "Zackx",
+    "name": "remix of the throwback",
+    "url": "https://dollchan.net/btb/res/204.html#815",
+    "date": "2023-04-11",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8ee04059783be40bea00923ddad1bab1",
+        "author": "lhphr",
+        "name": "the throwback",
+        "url": "https://dollchan.net/btb/res/44.html#481"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

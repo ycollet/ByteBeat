@@ -1,0 +1,25 @@
+{
+  "file": "songs/a4ec26b08e2cfd9efad3012854eed545.js",
+  "title": "uni Firaz",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "84de77d3be60b60e59125d24c50eeccc18334f30425e6092959a430715aaba6f",
+  "upstream": {
+    "hash": "a4ec26b08e2cfd9efad3012854eed545",
+    "codeMinLen": 194,
+    "codeMin": "m=t/25*2**(4-!(-t>>15&3)+[0,4,9,0,4,9,12,16][t>>11-(t>>14&1)&7]/12),f=z=>m/(4-(t>>15&3))/z&31,(1E3**(1-t%16384/1E4)&32)+(t>>14&1)*(-t>>9&31)*sin((t/(2+(t>>10&15))|0)**3)**2+(m&16^f(.99)^f(1.01))",
+    "codeLen": 196,
+    "code": "m=t/25*2**(4-!(-t>>15&3)+[0,4,9,0,4,9,12,16][t>>(11-(t>>14&1))&7]/12),f=z=>m/(4-(t>>15&3))/z&31,(1e3**(1-t%16384/1e4)&32)+(t>>14&1)*(-t>>9&31)*sin((t/(2+(t>>10&15))|0)**3)**2+(m&16^f(.99)^f(1.01))",
+    "author": "lhphr",
+    "name": "uni Firaz",
+    "description": "This works well with too many sample rates for some reason.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-05-27",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

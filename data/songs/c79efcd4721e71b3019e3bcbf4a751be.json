@@ -1,0 +1,30 @@
+{
+  "file": "songs/c79efcd4721e71b3019e3bcbf4a751be.js",
+  "title": "ÐiskΩtroÑ",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 9930,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "80742902f4120abd027fbf494049d3c15a0413b89f6d5720297d1f29f9ecb219",
+  "upstream": {
+    "hash": "c79efcd4721e71b3019e3bcbf4a751be",
+    "codeLen": 198,
+    "code": "((t&'0032'[t>>10&3]*t|t>>5|t*6&t>>(t>>10-(t>>14&1)+!(~t>>12&1^t>>13&1)&1?14:10)|(t&20?1:5+(3*t>>9&31)))-(t>>5)&255)/2+64+32*cos(99*(3+(t>>10&4))/(t%4096+1)**.1)**2+(~t>>7-!(t>>12&3)&12)*cos(t**3)**2",
+    "author": "lhphr",
+    "name": "ÐiskΩtroÑ",
+    "url": "https://dollchan.net/btb/res/44.html#367",
+    "date": "2022-09-21",
+    "sampleRate": 9930,
+    "remix": [
+      {
+        "hash": "f4d521fe6dd27521e18c5ddde8015622",
+        "author": "Zackx",
+        "name": "Discobeat",
+        "url": "https://dollchan.net/btb/res/204.html#204"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

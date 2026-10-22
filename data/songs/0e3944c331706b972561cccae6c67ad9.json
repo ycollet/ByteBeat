@@ -1,0 +1,42 @@
+{
+  "file": "songs/0e3944c331706b972561cccae6c67ad9.js",
+  "title": "Neurofunk + t/(t&t>>12) dubstep",
+  "author": "newmemesfromsnapchat",
+  "mode": "Floatbeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0e3944c331706b972561cccae6c67ad9.js",
+  "sha256": "70a97e302528cf0b81f9947c62e0178f2ee21598004b72a201be56d358df40bf",
+  "upstream": {
+    "hash": "0e3944c331706b972561cccae6c67ad9",
+    "codeMinLen": 1024,
+    "codeLen": 1085,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "c=[4,3.5,4,3.5,4.2,4,4.2,4],t||(c_=d_=0),c_+=d_+=(random()-random()-c_-d_)/max(.9993**(t/2/16%8192)*800,1),a=((((t&t>>1&t&t>>2)*t/4096|t>>t%(t>>12)|t/(t&t>>12)|t>>12&t)^t/4*((t/4&4096?t/4%65536<59392?7:t/4&7:16)+(1&t>>16))>>(3&-t/4>>(t/4&2048?2:10)))&255)*[min(t/128/128/16,1),log(1.0005**(t/2%8192))/4][sign(max(atan(t-524288),0))]*1.1/128/2-.5,b=c[t>>14&7]*t/4*((t>>15&1)*(t>>16&1)*(t>>17&1)+1)-.9993**(t/2*((t>>15&1)*(t>>16&1)*(t>>17&1)+1)%8192/((t>>15&1)*(t>>16&1)*(t>>17&1)+1)*3)*7600,(((random()-random())*",
+    "isTruncated": 1,
+    "author": "newmemesfromsnapchat",
+    "name": "Neurofunk + t/(t&t>>12) dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ii3wjj/comment/mc02ok4/",
+    "date": "2025-02-10",
+    "mode": "Floatbeat",
+    "sampleRate": 40000,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      },
+      {
+        "hash": "80cfe95310cdac74bed71f7dc7f7b744",
+        "author": "newmemesfromsnapchat",
+        "name": "GDPlayer_1035’s thing remix v3",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1ii3wjj/comment/mb9go0v/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

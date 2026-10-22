@@ -1,0 +1,28 @@
+{
+  "file": "songs/6b249a2b5ab337bfdfb659f6d0dd54b8.js",
+  "title": "Water Temple",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 72000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6b249a2b5ab337bfdfb659f6d0dd54b8.js",
+  "sha256": "bb2b9f4a4fcc4f8b5a035494479607e140c0c54db522347c2d7a6af721d53112",
+  "upstream": {
+    "hash": "6b249a2b5ab337bfdfb659f6d0dd54b8",
+    "codeLen": 709,
+    "fileOrig": 1,
+    "codeText": "T=t,t||(A=Array(l=24576).fill(0),B=Array(l).fill(0)),t/=2,n='89658967'[t>>18&7],X=_=>(((sin(log(t%262144)*PI*6)*log(t%262144)*log2(t/262144%1)/64+(sin(t/n*_+cos(t*PI/4096)*64)/(t%32768/3072%4+1)**4)+(cos(sin(t/n*_*2+sin(t*PI/4096)*128))/(t%32768/3072%4+1)**4)+tanh(atan(cos(t/12/n*_)*sin(t*PI/16384)*4+sin(t*PI/131072)*3)))/3+sin(t/8)/(t%65536/1536%32+1.5)**4+cos(sin(t/n*_*2**('057'[(t>>12)%3]/12)-sin(t*PI)*32)+1*(t*PI/8192))*(t/2**12%1-1)**8/2+sin(sin(t/n*_/64*2**(t&4095?_==.995?x:y:(x=round(random()*12),y=r",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Water Temple",
+    "description": "Same idea as First Contact: Constructed of very simple framework.",
+    "url": "https://dollchan.net/btb/res/6946.html#10458",
+    "date": "2025-11-06",
+    "mode": "Floatbeat",
+    "sampleRate": 72000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-07"
+  }
+}

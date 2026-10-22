@@ -1,0 +1,22 @@
+{
+  "file": "songs/eb2227e0b81d1521c494a9e23cdcd98c.js",
+  "title": "Hard Way",
+  "author": "bytebeat8khz",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f519fa966fd0e60fd10a995f99fa153cb1abb30674582eb888fdcd2c8710a500",
+  "upstream": {
+    "hash": "eb2227e0b81d1521c494a9e23cdcd98c",
+    "codeLen": 77,
+    "code": "t*2**((t>>15&7^1|t>>14&3^2)/12)*(1+(t>>11&3))|t>>((t>>15&3)==2?6:t>>15&3?4:5)",
+    "author": "bytebeat8khz",
+    "name": "Hard Way",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1563pem/hard_way/",
+    "date": "2023-07-22",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

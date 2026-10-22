@@ -1,0 +1,31 @@
+{
+  "file": "songs/8f12a610c842518ee7e829caa5ec27f6.js",
+  "title": "Meowing cat calling",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "72bc8f9fe2b57d89214b8535621196da7fe77660934dcbf6610e7a5f677d391e",
+  "upstream": {
+    "hash": "8f12a610c842518ee7e829caa5ec27f6",
+    "codeLen": 32,
+    "code": "t*((t>>10|t%16*t>>8)&8*t>>12&18)",
+    "author": "SthephanShi",
+    "name": "Meowing cat calling",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "5b16420f96032f89d3b24c34ea238231",
+        "author": "SthephanShi",
+        "name": "Toy phone",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

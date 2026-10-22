@@ -1,0 +1,30 @@
+{
+  "file": "songs/e376c6f8d375dbf46781dbd416e28869.js",
+  "title": "Aether Algorhythm",
+  "author": "Pestis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "61b3db0cdedda3459b8d38bef11dce9bdc57834b9dfd210d4c09f305e6636f83",
+  "upstream": {
+    "hash": "e376c6f8d375dbf46781dbd416e28869",
+    "codeLen": 251,
+    "code": "(e=>{for(t||(d=[S=sin]),[y,x]=d[t-12e3]||[0,0],k=10;k--;O=d[t]=[x,y]=[.8*y,x+S(S((m=e<8.02&&1-p)**4*S(p*2**((1.7*(\"48646865\"[r&e&7]-\"2203\"[8*e&3])|0)/12+9))*cosh(S(e*i)*i/8))*e)/i**.1/2+(e>4)*t*x%1e-4*m**50*k**4])i=2**(w=k>>1),r=8*e*w,p=r%1})(t/6e5),O",
+    "author": "Pestis",
+    "name": "Aether Algorhythm",
+    "description": "Lovebyte 2024 competition - 1st place.",
+    "url": [
+      "https://demozoo.org/music/337717",
+      "https://github.com/vsariola/aether-algorhythm"
+    ],
+    "date": "2024-02-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-09"
+  }
+}

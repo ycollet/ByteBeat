@@ -1,0 +1,27 @@
+{
+  "file": "songs/35e4d30d41544564ed19705f5fa884ba.js",
+  "title": "running out of ideas",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "357ec8af9db830355bf28e23fd2ff18c87ea0d9334b4f668a384383cde137da1",
+  "upstream": {
+    "hash": "35e4d30d41544564ed19705f5fa884ba",
+    "codeMinLen": 476,
+    "codeMin": "t*=1.5,p=x=>2**([0,3,5,7,10][x%5]/12+(x/5|0)-2+((t>>18&3)==3)),atan(2*cos((t*p(3*(t>>13&t>>16)%19|0)%256/128-.5)**2*PI*(sin(t*PI/(1<<17-abs(-t>>14&t>>13)%17))+1)*(1+sin(t*PI/4)/2)*4))*(t/32768%1)*8+cbrt(atan(sin(cbrt(t%32768/2+64)*PI*2)*(1-t/32768%1)**4*1.6))*(1-t/32768%1)**4*18+24*(t>>15&1?atan(atan(4*atan(sin(8*cbrt(t%32768))*(2*max(0,.5-t/32768%1))**5*3+sin((t/2.5>>1)%681*(t/2.5>>1)%51*(t/2.5>>1))*min(t/32768%1*5,1)*(2*max(0,.5-t/32768%1))**3))/4*(1-t/32768%1)**4*8):0)",
+    "codeLen": 478,
+    "code": "t*=1.5,p=x=>2**([0,3,5,7,10][x%5]/12+(x/5|0)-2+((t>>18&3)==3)),atan(cos((t*p((t>>13&t>>16)*3%19|0)%256/128-.5)**2*PI*(sin(t*PI/(1<<17-abs(-t>>14&t>>13)%17))+1)*(1+sin(t*PI/4)/2)*4)*2)*(t/32768%1)*8+cbrt(atan(sin(cbrt(t%32768/2+64)*PI*2)*(1-t/32768%1)**4*1.6))*(1-t/32768%1)**4*18+(t>>15&1?atan(atan(atan(sin(cbrt(t%32768)*8)*(max(0,.5-t/32768%1)*2)**5*3+sin((t/2.5>>1)*((t/2.5>>1)%681*(t/2.5>>1)%51))*min(t/32768%1*5,1)*(max(0,.5-t/32768%1)*2)**3)*4)/4*(1-t/32768%1)**4*8):0)*24",
+    "author": "PortablePorcelain",
+    "name": "running out of ideas",
+    "description": "Lowering your volume is advised.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h66kuf/running_out_of_ideas/",
+    "date": "2024-12-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-12"
+  }
+}

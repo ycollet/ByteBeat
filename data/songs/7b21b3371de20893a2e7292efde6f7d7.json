@@ -1,0 +1,28 @@
+{
+  "file": "songs/7b21b3371de20893a2e7292efde6f7d7.js",
+  "title": "Something New",
+  "author": "maj-6",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7b21b3371de20893a2e7292efde6f7d7.js",
+  "sha256": "8c1dc7da1eafa02f70e013bd5425e0a28b37ac4054a1c33648b9f55fe3d17dfc",
+  "upstream": {
+    "hash": "7b21b3371de20893a2e7292efde6f7d7",
+    "codeMinLen": 1148,
+    "codeLen": 1864,
+    "codeFormLen": 2518,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "p=163,a=.2,bl=8E3,b=int(t/bl),c1=5-int(b/8)%4,c2=7-int(b/8)%4,c3=9-int(b/8)%4,c4=3-int(b/8)%4,m=(b^int(b/8)+3)%12,k=6+(5<<b^7)%5,vf=5E3+(1<<b^9)%5*1E3,M=1-int((b+64)%128/123),(b|7)%2*a*2.2*abs((int(1+(m+1)/8)*2**(((8-m%7*3)%11+11)%11)*(t+1*k*sin(t/(.14*vf)))/3**(((5-m%7*2)%7+7)%7)%p-1)%p-p/2)+a*M*abs((int(1+(c1+1)/8)*2**(((8-c1%7*3)%11+11)%11)*(t+6*k*sin(t/vf))/3**(((5-c1%7*2)%7+7)%7)%p-1)%p-p/2)+a*M*abs((int(1+(c2+1)/8)*2**(((8-c2%7*3)%11+11)%11)*(t+6*k*sin(t/vf))/3**(((5-c2%7*2)%7+7)%7)%p-1)%p-p/2)+a*M*(i",
+    "isTruncated": 1,
+    "author": "maj-6",
+    "name": "Something New",
+    "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/",
+    "date": "2022-04-13",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ]
+  }
+}

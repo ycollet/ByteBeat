@@ -1,0 +1,29 @@
+{
+  "file": "songs/2b20ab06d03bf29d07af1cff5512ba3b.js",
+  "title": "clear delay example",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2b20ab06d03bf29d07af1cff5512ba3b.js",
+  "sha256": "218aa5e951dddd5741e7a57bc1d7c95c68a5c776c82963a2f5cf1e84f15c06c4",
+  "upstream": {
+    "hash": "2b20ab06d03bf29d07af1cff5512ba3b",
+    "codeMinLen": 167,
+    "codeMin": "(t/=y=1.5)||(d=Array(D=12288*y|0).fill(x=0)),x=min((1-t/8192%1),x+1/128),m=sin(t*PI/64*2**((+'03  75'[t>>13&5]+[0,-2,-3,4][t>>17&3])/12)*y)/2*x+d[t*y%D],d[t*y%D]=m/2,m",
+    "codeLen": 377,
+    "fileOrig": 1,
+    "codeText": "(t/=y=1.5)||(d=Array(D=12288*y|0).fill(x=0)),x=min((1-t/8192%1),x+1/128),m=sin(t*PI/64*2**((+'03  75'[t>>13&5]+[0,-2,-3,4][t>>17&3])/12)*y)/2*x+d[t*y%D],d[t*y%D]=m/2,m",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "clear delay example",
+    "url": "https://dollchan.net/btb/res/171.html#943",
+    "date": "2023-04-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

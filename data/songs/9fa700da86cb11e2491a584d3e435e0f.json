@@ -1,0 +1,37 @@
+{
+  "file": "songs/9fa700da86cb11e2491a584d3e435e0f.js",
+  "title": "Nostalgic Before Hopeless",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9fa700da86cb11e2491a584d3e435e0f.js",
+  "sha256": "5c8ea2d6ba0b1b2107106cddc973705cca760b1fd621dbdb53a8b32a3d1cb8f8",
+  "upstream": {
+    "hash": "9fa700da86cb11e2491a584d3e435e0f",
+    "codeLen": 1672,
+    "fileOrig": 1,
+    "codeText": "// What you're seeing is feeshbread's Dead Data Reverb\nt||(wsin=(phase)=>(-cos(phase/128*PI)+1)*128-.5,fx=[],dMax=1e6,lpf=lowPassFilter=(a,c)=>(lp_fxii=fxi++,fx[lp_fxii]??=0,fx[lp_fxii]+=(a-fx[lp_fxii])*c),hpf=highPassFilter=(a,c)=>a-lpf(a,c),bpf=bandPassFilter=(a,hc,lc)=>hpf(lpf(a,lc),hc),dly=multiTabDelay=(audio,heads,dw,fbfn=x=>x)=>{dly_fxii=fxi++;fx[dly_fxii]??=Array(dMax).fill(0);dly_wi\t=dt%dMax;dly_feed=audio;dly_out=0;for(let head of heads){dly_ri=(dMax+dt-round(head.t))%dMax;dly_feed+=fx[dly_fxii][d",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Nostalgic Before Hopeless",
+    "description": "Remembering your past before all your hope is faded away.",
+    "url": "https://dollchan.net/btb/res/520.html#7143",
+    "date": "2025-06-12",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "6c0370b8d0656b5ea704b29229fd748b",
+        "author": "Decent-Manager-6169",
+        "name": "Imaj7-III7-IVmaj7-iv6 Chord Progression 2",
+        "url": "https://dollchan.net/btb/res/520.html#6742"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-11",
+    "date_edited": "2025-11-11"
+  }
+}

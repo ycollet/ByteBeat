@@ -1,0 +1,27 @@
+{
+  "file": "songs/a630d5acfcd6e2a17eab9a502b3b95b9.js",
+  "title": "castlevania prologue",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a630d5acfcd6e2a17eab9a502b3b95b9.js",
+  "sha256": "87c40e96c2f93b0132cd043452cd8df78a14d387a6357c1b25fad330d231faf1",
+  "upstream": {
+    "hash": "a630d5acfcd6e2a17eab9a502b3b95b9",
+    "codeLen": 3129,
+    "fileOrig": 1,
+    "codeText": "t2=t, //original t for readout\nt/=44100,\nbpm=148,\nloop=false,\ns=4, //speed\nreadout=1, //disable by changing 1 to 0\ntrack=[\n/*",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "castlevania prologue",
+    "url": "https://dollchan.net/btb/res/163.html#2927",
+    "date": "2024-01-24",
+    "sampleRate": 44100,
+    "coverName": "Castlevania OST - Game Start Prologue",
+    "coverUrl": "https://youtu.be/2I72uMauqVM",
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

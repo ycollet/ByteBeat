@@ -1,0 +1,25 @@
+{
+  "file": "songs/0a98b5b2ea343e2d2fac3cb982fc3f97.js",
+  "title": "Nos Altas",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e52beda5dbad86ee073dcbbdaf2882a47c34662a14ae7b4c21c5859cb19c1b57",
+  "upstream": {
+    "hash": "0a98b5b2ea343e2d2fac3cb982fc3f97",
+    "codeMinLen": 150,
+    "codeMin": "t/=1.5,t=t*PI*.03145728014648438,v=t,t%=2**14,t=2*t*(t>>9&3|-t>>10&3^-t>>13&3)/((t>>9&3)+3)/2,sin(t+atan(sin(t/2)*2+tan(sin(t))*.45)*2)/3*(-v&511)/510",
+    "codeLen": 158,
+    "code": "z=3221225487/10**8/8,t/=1.5,t=t*PI/128*z,v=t,t%=2**14,t=2*t*(t>>9&3|-t>>10&3^-t>>13&3)/((t>>9&3)+3)/2,sin(t+atan(sin(t/2)*2+tan(sin(t))*.45)*2)/3*(-v&511)/510",
+    "author": "hcdphobe",
+    "name": "Nos Altas",
+    "url": "https://dollchan.net/btb/res/163.html#811",
+    "date": "2023-04-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

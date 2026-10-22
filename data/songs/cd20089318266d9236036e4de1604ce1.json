@@ -1,0 +1,38 @@
+{
+  "file": "songs/cd20089318266d9236036e4de1604ce1.js",
+  "title": "Kernkraft 400 XOR + Drums Detail",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9c28e97c80c965ca8481da7199e236df7c7083a081a15101ac9c9e470a0214f2",
+  "upstream": {
+    "hash": "cd20089318266d9236036e4de1604ce1",
+    "codeMinLen": 289,
+    "codeMin": "a=t/4*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>13)%32]*1.52,(a^a/2)%256/3+(300**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&256)*(-t&8191)/24E3*'00100101'[7&t>>13]",
+    "codeLen": 291,
+    "code": "a=t/4*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>13)%32]*1.52,(a^a/2)%256/3+(300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&256)*(-t&8191)/24E3*'00100101'[7&t>>13]",
+    "author": "ChrisRM380",
+    "name": "Kernkraft 400 XOR + Drums Detail",
+    "url": "https://dollchan.net/btb/res/368.html#3127",
+    "date": "2024-03-18",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

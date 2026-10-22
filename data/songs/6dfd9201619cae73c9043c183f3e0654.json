@@ -1,0 +1,28 @@
+{
+  "file": "songs/6dfd9201619cae73c9043c183f3e0654.js",
+  "title": "tracker test",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6dfd9201619cae73c9043c183f3e0654.js",
+  "sha256": "30fd24eeb192d624100f3e2f7a731eaca11f3cd77012baddc32a0a2978533ac9",
+  "upstream": {
+    "hash": "6dfd9201619cae73c9043c183f3e0654",
+    "codeLen": 2578,
+    "codeFormLen": 2609,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "/*\n\tPortablePorcelain's Tracker v1\n\tCover: Zombie Nation - Kernkraft 400\n\n\tP   : Percussion - This is what you want for percussion. It is the first column, and it can do triplets, and be turned off with 0.\n\n\tDUTY: Duty cycle - This is the duty cycle. Self-explanatory if you have knowledge of computers and circutry\n",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "tracker test",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14e5bl0/tracker_test/",
+    "date": "2023-06-20",
+    "sampleRate": 8000,
+    "coverName": "Zombie Nation - Kernkraft 400",
+    "coverUrl": "https://youtu.be/z5LW07FTJbI",
+    "tags": [
+      "big"
+    ]
+  }
+}

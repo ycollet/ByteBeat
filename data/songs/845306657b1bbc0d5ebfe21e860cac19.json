@@ -1,0 +1,33 @@
+{
+  "file": "songs/845306657b1bbc0d5ebfe21e860cac19.js",
+  "title": "funky remix of \"the time is running out!\"",
+  "author": "rubi",
+  "mode": "Signed Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2fda54f9894ea4eea603816b1bc2e6002182b19f4a23141e7428b53df4fc2d06",
+  "upstream": {
+    "hash": "845306657b1bbc0d5ebfe21e860cac19",
+    "codeMinLen": 129,
+    "codeMin": "(t>>4|t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(59392>t%65536?t&4096?2:16:2))&96)+64*random()*(1&t>>11)+(44444/(t%4096)&128)",
+    "codeLen": 148,
+    "code": "(t>>4|t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t%65536<59392?(t&4096?2:16):2))&96)+(64*random(t)*(1&t>>11))+(44444/(t%pow(4,(3+(2+(1)))))&128)",
+    "author": "rubi",
+    "name": "funky remix of \"the time is running out!\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ry4ikf/comment/hrmh2m3/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-01-07",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "cfed107712776695d40734b15370e22a",
+        "author": "SthephanShi",
+        "name": "The time is running out!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

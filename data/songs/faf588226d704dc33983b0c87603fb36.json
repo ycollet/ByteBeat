@@ -1,0 +1,26 @@
+{
+  "file": "songs/faf588226d704dc33983b0c87603fb36.js",
+  "title": "Night Vision",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 36000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/faf588226d704dc33983b0c87603fb36.js",
+  "sha256": "6525860ef2beece5d1df2db8cda5f4a5fb12778aae0984df1c9d953d07ae3a93",
+  "upstream": {
+    "hash": "faf588226d704dc33983b0c87603fb36",
+    "codeMinLen": 530,
+    "codeLen": 578,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "st=262144,r=t=>((2**([-5,-8,-6,-3][3&t>>16]/12)*t*2**([0,5,8,12][3&t>>11]/12)&127)*(-t>>7>>(3&t>>13)&31)**.6/16+63)/1.25,ti=(a,b,c)=>a*(b<t)*(c>t),(ti(r(t)+r(t-12288)/3+r(t-24576)/6,0,16*st)+ti(random()*(-t>>9&31)*'01'[1&t>>14],st,14*st)+ti((t*sin(t>>2)&184)*(-t>>8&31)*'1011'[3&t>>13]/128,3*st,13*st)+ti(max(t>>7&t>>5&63,208*sin(sqrt(8*(t&[16383,[4095,8191][1&t>>15]][1&t>>14])))),4*st,11*st)/6+ti((sin(t/18|t/5^t/10)*(-t>>7&31)+12)*'0110'[3&t>>14]+.45*(63&t>>3*(3&t>>10)*2**([-5,-8,-6,-3][3&t>>15]/12))+r(t/2),",
+    "isTruncated": 1,
+    "author": "absolute197",
+    "name": "Night Vision",
+    "url": "https://battleofthebits.com/arena/Entry/Night+Vision/61150/",
+    "date": "2023-08-03",
+    "sampleRate": 36000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

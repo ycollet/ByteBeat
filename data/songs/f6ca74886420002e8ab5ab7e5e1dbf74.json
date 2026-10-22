@@ -1,0 +1,34 @@
+{
+  "file": "songs/f6ca74886420002e8ab5ab7e5e1dbf74.js",
+  "title": "Remix 3",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "608d54ea3c7acd436d41746224577e5f19c3e745836b73d05b8f852a374cb18d",
+  "upstream": {
+    "hash": "f6ca74886420002e8ab5ab7e5e1dbf74",
+    "codeMinLen": 201,
+    "codeMin": "t/=3,T=t-(t&2048)/3,v=t%8192/8192,s=x=>(sin(PI*t/2*2**(parseInt('16ADID269E9EILQL48BGBGKNSNKNSNK6'[x>>11&31],36)/12-4))+1)*v*32,k=64*(sin(8*cbrt(t%8192+16))+1)*(2-v),[s(T)+s(T-4096)+k,s(T)+s(T-6144)+k]",
+    "codeLen": 290,
+    "code": "t/=3,\nT=t-(t&2048)/3,//SWANG\nv=(t%8192)/8192,\ns=x=>\n(sin(PI*t/2*2**(parseInt('16ADID269E9EILQL48BGBGKNSNKNSNK6'[x>>11&31],36)/12-4))+1) * v * 32,\nk = (sin(cbrt(t%8192+16)*8)+1)*64*(2-v),\n//k = (sin(cbrt(t%8192+19)*9)+1)*640*(2-v) * min(v,.1),\n\n[ s(T) + s(T-4096) + k, s(T) + s(T-6144) + k ]",
+    "author": "Greaserpirate",
+    "name": "Remix 3",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b7gm3v/comment/ktrluo0/",
+    "date": "2024-03-08",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "8f660590e0ec074e7d5a2ff538cec0f9",
+        "author": "Greaserpirate",
+        "name": "Remix",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1b7gm3v/comment/ktjxj3q/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

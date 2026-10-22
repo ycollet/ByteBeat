@@ -1,0 +1,25 @@
+{
+  "file": "songs/a2f146c0acbf13724a33694794f64b5b.js",
+  "title": "I Wanna Byte Your Ass",
+  "author": "rubi",
+  "mode": "Signed Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c53acb7d0d58798b3b8078ade985e76b2fcb459042ec396585b44cdefa6652eb",
+  "upstream": {
+    "hash": "a2f146c0acbf13724a33694794f64b5b",
+    "codeMinLen": 117,
+    "codeMin": "a=t*(t&1024?2:1)*(t&2048?2:.5)*(t&16384?t&32768?.9:.8:1),25*cbrt(sin(a/16))+10*sin(a/8)+(50*random()*(1&t>>12)&-t>>6)",
+    "codeLen": 123,
+    "code": "a=t*((t&1024?2:1)*(t&2048?2:.5))*(t&16384?(t&32768?.9:.8):1),(cbrt(sin(a/16))*25+sin(a/8)*10)+(random()*50*(1&t>>12)&-t>>6)",
+    "author": "rubi",
+    "name": "I Wanna Byte Your Ass",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14ekxt6/i_wanna_byte_your_ass/",
+    "date": "2023-06-20",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

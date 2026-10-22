@@ -1,0 +1,24 @@
+{
+  "file": "songs/8303a8f448fedde8a08bda80a5b7ad55.js",
+  "title": "Major Seventh Chord Progression",
+  "author": "Yamden",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9920578cb7c288f2a18a5dd733d1ddb39cb58d9654bdde51283d51735995bc2e",
+  "upstream": {
+    "hash": "8303a8f448fedde8a08bda80a5b7ad55",
+    "codeMinLen": 153,
+    "codeMin": "(16E3>t%32E3)*(1E3>t%2E3)*((4*t&32)+(5*t&32)+(6*t&32)+(3.75*t&32))+(16E3<t%32E3)*(1E3>t%2E3)*(1.5*(8/9*4*t&32)+(8/9*5*t&32)+(8/9*6*t&32)+(8/9*3.75*t&32))",
+    "codeLen": 209,
+    "code": "(t % 32000 < 16000)*(t % 2000 < 1000)*((4*t&32) + (5*t&32) + (6*t&32) + (4*(15/16)*t&32)) + (t % 32000 > 16000)*(t % 2000 < 1000)*(1.5*(4*(8/9)*t&32) + (5*(8/9)*t&32) + (6*(8/9)*t&32) + (4*(8/9)*(15/16)*t&32))",
+    "author": "Yamden",
+    "name": "Major Seventh Chord Progression",
+    "url": "https://dollchan.net/btb/res/3.html#492",
+    "date": "2023-03-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "songs/09b82793a0f08caaaddf5874b2c6e5d6.js",
+  "title": "Quiet Stroll Through Ponyville",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/09b82793a0f08caaaddf5874b2c6e5d6.js",
+  "sha256": "d1184eb92891fdfc52e3edee727f662d3c915a200ec78c96de57133bef3db972",
+  "upstream": {
+    "hash": "09b82793a0f08caaaddf5874b2c6e5d6",
+    "codeLen": 7696,
+    "fileOrig": 1,
+    "codeText": "/*!\n *       •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · Quiet Stroll Through Ponyville\n *       •───────────────•°•❀•°•───────────────•\n */\n\n(() => {\n\tpi = Math.PI; tau = 2 * Math.PI;",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Quiet Stroll Through Ponyville",
+    "url": [
+      "https://www.bytebeat.cloud/post/c707bdae-a74e-4b01-91a8-b2e7a48c5aff",
+      "https://dollchan.net/btb/res/7164.html#17448"
+    ],
+    "date": "2026-09-20",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-09-22"
+  }
+}

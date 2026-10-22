@@ -1,0 +1,25 @@
+{
+  "file": "songs/e5141f4590fd06018715411ab987d83d.js",
+  "title": "icecream",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e5141f4590fd06018715411ab987d83d.js",
+  "sha256": "fa822cbd9223fa919b5ed630b882096516fde01e366d89905b07c6fb8e074323",
+  "upstream": {
+    "hash": "e5141f4590fd06018715411ab987d83d",
+    "codeLen": 3847,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - icecream\n *\n */\n\nvar sampleRate = 48000;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "icecream",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

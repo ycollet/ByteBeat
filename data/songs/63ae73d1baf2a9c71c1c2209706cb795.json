@@ -1,0 +1,32 @@
+{
+  "file": "songs/63ae73d1baf2a9c71c1c2209706cb795.js",
+  "title": "ｃｏｏｌ ｖａｐｏｒｗａｖｅ",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3c936c52a66ef1f15f28fba3ef229f5f05e4fca295cd20df219f3cf8497b90d0",
+  "upstream": {
+    "hash": "63ae73d1baf2a9c71c1c2209706cb795",
+    "codeMinLen": 274,
+    "codeMin": "r=t/1.3,d=(-r&8191)/8E3,m=((p=.88*t*2**([0,3,5,7,0,3,-4,-2][7&r>>15]/12))&-r>>6)%256/2,b=p%512/4*(-r&16383)/16E3,a=[0,3,5,7,0,3,-4,-2][7&r>>15],a2=[3,7,9,11,3,7,0,2][7&r>>15],a3=[7,10,12,14,7,10,3,5][7&r>>15],s=.88*t*2**([a,a2,a3,a2][3&r>>14]/12)%64*d,m+b/2+[s,2*s][1&r>>13]",
+    "codeLen": 284,
+    "code": "r=t/1.3,d=(-r&8191)/8e3,m=((p=.88*t*2**([0,3,5,7,0,3,-4,-2][7&r>>15]/12))&-r>>6)%256/2,\nb=(p%512)/4*(-r&16383)/16e3,\na=[0,3,5,7,0,3,-4,-2][7&r>>15],\na2=[3,7,9,11,3,7,0,2][7&r>>15],\na3=[7,10,12,14,7,10,3,5][7&r>>15],\ns=t*.88*2**(([a,a2,a3,a2][3&r>>14])/12)%64*d,\nm+b/2+[s,s*2][1&r>>13]",
+    "author": "Zackx",
+    "name": "ｃｏｏｌ ｖａｐｏｒｗａｖｅ",
+    "url": "https://dollchan.net/btb/res/204.html#408",
+    "date": "2023-02-17",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "16bf6af81ac861c057e311a6feda07a7",
+        "author": "Zackx",
+        "name": "the coolest song",
+        "url": "https://dollchan.net/btb/res/204.html#401"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

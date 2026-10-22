@@ -1,0 +1,25 @@
+{
+  "file": "songs/1cbab5b9b8bae85c743fd42e514a235c.js",
+  "title": "WhiskedAwayToPomerania",
+  "author": "wyngwyrm",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8ade35b48d051bd76f5fce91af0eae570f18bd64fd6d3be711d74a7172a8edc6",
+  "upstream": {
+    "hash": "1cbab5b9b8bae85c743fd42e514a235c",
+    "codeMinLen": 83,
+    "codeMin": "t>>9&(2*t&8*t|t/32&36*t&18*t&9*t|t/128&32*t&t/64*t|t/16&t/4|t/32&t/16|t/12&t/8&t/6)",
+    "codeLen": 160,
+    "code": "(t>>9) &\n\n((t*2) & (t*8) |\n((t/32) & (t*36) & (t*18) & (t*9)) |\n((t/128) & (t*32) & (t*(t/64))) |\n((t/16) & (t/4) | (t/32) & (t/16)) |\n((t/12) & (t/8)) & (t/6))",
+    "author": "wyngwyrm",
+    "name": "WhiskedAwayToPomerania",
+    "url": "https://battleofthebits.com/arena/Entry/WhiskedAwayToPomerania.txt/57975/",
+    "date": "2023-02-02",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

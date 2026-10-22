@@ -1,0 +1,25 @@
+{
+  "file": "songs/16513ab03f250766bfb4b58de7a091c5.js",
+  "title": "random 100c music i made",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9225c09796c8d0480aecb5df4f8511911631d7e1b28737d701b53e57fbf160db",
+  "upstream": {
+    "hash": "16513ab03f250766bfb4b58de7a091c5",
+    "codeMinLen": 90,
+    "codeMin": "t/=4,t*(t>>5|t>>6|t>>7|t>>8|t)%256/4+50+50*sin(4E3/(t%4096))+(75*random()&-t>>5)*(t>>12&1)",
+    "codeLen": 105,
+    "code": "t/=4,(t*(t/64|t>>5|t>>6|t>>7|t>>8|t))%256/4+50+sin(4e3/(t%4096))*50+(random ()*75&-t>>5)*[0,1][(t>>12)%2]",
+    "author": "Glebguything",
+    "name": "random 100c music i made",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11mq8e4/comment/jbk5fv8/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-03-09",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

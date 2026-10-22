@@ -1,0 +1,25 @@
+{
+  "file": "songs/34d4defa2d3a0b5aebb8b8e388466e06.js",
+  "title": "bossa de jeenio",
+  "author": "Gasman",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2b1f8f2473c1c16a5ad3f0b0f5f1c053684df43359dd7898f2527c81f1525ed0",
+  "upstream": {
+    "hash": "34d4defa2d3a0b5aebb8b8e388466e06",
+    "codeLen": 242,
+    "code": "r=t/7938,(t*pow(2,([a=619,a,601,584,b=1180,b,55,38][(r/8&7)+((r&15)==7)]>>(r*18%12&12)&15)/12)&128)*max(((2981555643>>(r*2&30)&3)-r%1)/4,0)*.9+(t*pow(2,((546914935>>(r/2&28)&15)-5*(14576>>(r&15)&1))/12)&511)*((3204176859>>(r*2&30)&3)-r%1)*.07",
+    "author": "Gasman",
+    "name": "bossa de jeenio",
+    "description": "Lovebyte 2021 competition - 1st place.",
+    "url": "https://demozoo.org/music/291149/",
+    "date": "2021-03-13",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-08",
+    "date_edited": "2025-11-09"
+  }
+}

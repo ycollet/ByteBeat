@@ -1,0 +1,1 @@
+sq=[50,25],eq=function(s){return 100+sq[int(s/50)%2]*10},lp=function(n){if(n===0){return eq(t);};let avg = 0;for(let i=0;i<n;i++){avg+=eq(t+i);}return(avg/n)},lp(lp(int(abs(sin(t*0.0001)*50))))*2

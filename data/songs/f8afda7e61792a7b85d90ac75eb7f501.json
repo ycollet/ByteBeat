@@ -1,0 +1,32 @@
+{
+  "file": "songs/f8afda7e61792a7b85d90ac75eb7f501.js",
+  "title": "Aliens are here",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8d5724fb074892f5a3e672c4dd7980eb40d21975305d6ab16ba38007e921d8fe",
+  "upstream": {
+    "hash": "f8afda7e61792a7b85d90ac75eb7f501",
+    "codeLen": 43,
+    "code": "t*(t&16384?6:5)*(4-(1&t>>8))>>(3&t>>9)|t>>6",
+    "author": "SthephanShi",
+    "name": "Aliens are here",
+    "description": "t>>6 gives SUPER POWERFUL ECHOES.",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "fe3e79c5e2bca895f4f31685d71ef074",
+        "author": "SthephanShi",
+        "name": "Aliens are close",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

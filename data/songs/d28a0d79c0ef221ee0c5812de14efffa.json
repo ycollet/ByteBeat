@@ -1,0 +1,41 @@
+{
+  "file": "songs/d28a0d79c0ef221ee0c5812de14efffa.js",
+  "title": "Sunset road with min max function",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d28a0d79c0ef221ee0c5812de14efffa.js",
+  "sha256": "65b61ab48f4d24cbfb0a4919fa499d15da92ec9b4bcc9e46ebdd507352376e96",
+  "upstream": {
+    "hash": "d28a0d79c0ef221ee0c5812de14efffa",
+    "codeMinLen": 598,
+    "codeLen": 625,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "r=t*1.35,l=16384,u=8192,c=4096,mn=(k,x,y)=>min(max(k,x),y),x=f=>mn((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.33%64-32,mn((w=r=>r>0&&(e=a=>s('1 4 B RN I G F8BF G 8 B6 8 4 643'[31&r>>13],a)||(n=a=>s('14BD6B86'[7&(11&r>>13)+(r>>15)],a)/2,n(1)+n(f)),e(.5)+e(f))*(1-r/u%1*[.5,1][1&r>>20]),w(r)+w(r-(d=24576))/2+w(r-2*d)/3+w(r-3*d)/4),-32,31)+mn(-(b=a=>s('1146'[3&r>>18],a)*8,b(8)+b(4/f))*(r/l%2)*(1-r%u/1E4)**2+1E4*sin(6*cbrt(r%l))*(1-r/l%1/2)**14*!(r&l)/'14'[1&r>>15]+((t*sin(t>>2)&64)-32)*(1-r/l/2%1)**6*14*!(~r&2*l),-6",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Sunset road with min max function",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#4321",
+      "https://www.reddit.com/r/bytebeat/comments/1f54q37/sunset_road_with_min_max_function_from_hardcore/"
+    ],
+    "date": "2024-08-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e92916dc012e9e4bfd1d8d88bf28ab14",
+        "author": "Zackx",
+        "name": "project in midnight",
+        "url": "https://dollchan.net/btb/res/204.html#4314"
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

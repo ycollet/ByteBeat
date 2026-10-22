@@ -1,0 +1,36 @@
+{
+  "file": "songs/14a667e7d167c8f90673b15a22510b75.js",
+  "title": "Atari's noise emulation",
+  "author": "psubscirbe",
+  "mode": "Funcbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/14a667e7d167c8f90673b15a22510b75.js",
+  "sha256": "ae6719913ec09bf6ae323dd864d40553e40703f75c936cb2a566df8500f34788",
+  "upstream": {
+    "hash": "14a667e7d167c8f90673b15a22510b75",
+    "codeMinLen": 128,
+    "codeMin": "return t=>{t*=1E3;l=31;o=[];for(_=0;_<32;_++){l=l>>1|((l&1)^(l>>2&1))<<4,o.push(l&1)}return o[int(t*(2+((t>>7&7)%3)))%o.length]}",
+    "codeLen": 335,
+    "fileOrig": 1,
+    "codeText": "return t=>{t*=1E3;l=31;o=[];for(_=0;_<32;_++){l=l>>1|((l&1)^(l>>2&1))<<4,o.push(l&1)}return o[int(t*(2+((t>>7&7)%3)))%o.length]}",
+    "isTruncated": 1,
+    "author": "psubscirbe",
+    "name": "Atari's noise emulation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gi77i9/ataris_noise_emulation/",
+    "date": "2024-11-02",
+    "mode": "Funcbeat",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-06-30"
+  }
+}

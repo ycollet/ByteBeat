@@ -1,0 +1,24 @@
+{
+  "file": "songs/d84d1c48e116b6987a0617128e3dc892.js",
+  "title": "non-js bytebeat thing that resembles music if you squint your ears",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9d209abae5ba93a8f8672feb63a53bcb75bd3eb84b6fe082d617ed28b46c2dc0",
+  "upstream": {
+    "hash": "d84d1c48e116b6987a0617128e3dc892",
+    "codeMinLen": 258,
+    "codeMin": "(128E3>t%256E3?(t<<(46517>>t/512%16<<15>>15)%15)%(.6+t>>9^.4-t<<3):(t<<(43690>>t/1024%16<<15>>15)%15)-(.6+t>>9^.4-t<<3))|(64E3>t%8E3*16?(2<<((t%4096*2<<3)/(t%4096*2>>8)^t%8192<<1|4>>(t%8192>>4)))-(t%1024<<3)/(t%1024>>8):(t%4096*2<<3)/(t%4096*2>>8)^t%8192<<1)",
+    "codeLen": 343,
+    "code": "((t%(8000*32))<(8000*16)?(t<<((((46517>>((t/512)%16))<<15)>>15)%15))%(((.6+t)>>9)^((.4-t)<<3)):(t<<((((43690>>((t/1024)%16))<<15)>>15)%15))-(((.6+t)>>9)^((.4-t)<<3))) | ((t%8000*16)<(8000*8)?(2<<((((t%4096*2)<<3)/((t%4096*2)>>8))^(((t%8192)<<1))|4>>((t%8192)>>4)))-(((t%1024)<<3)/((t%1024)>>8)):(((t%4096*2)<<3)/((t%4096*2)>>8))^((t%8192)<<1))",
+    "author": "Bp103",
+    "name": "non-js bytebeat thing that resembles music if you squint your ears",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qem3ip/nonjs_bytebeat_thing_that_resembles_music_if_you/",
+    "date": "2021-10-24",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/5ebb31793ec5e7f8630d78626635af14.js",
+  "title": "Hydroxide",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5ebb31793ec5e7f8630d78626635af14.js",
+  "sha256": "8ed8b2932dfa5f77dfe19c4b68fdaec6c54c77fede8ca2960630c2f8a45070fb",
+  "upstream": {
+    "hash": "5ebb31793ec5e7f8630d78626635af14",
+    "codeLen": 2584,
+    "fileOrig": 1,
+    "codeText": "// Important Vairables\n\nT=t,\n\ntune=1.55,\nspeed=1.5,\n\ntt=t*tune,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Hydroxide",
+    "url": "https://dollchan.net/btb/res/2971.html#8553",
+    "date": "2025-07-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-25"
+  }
+}

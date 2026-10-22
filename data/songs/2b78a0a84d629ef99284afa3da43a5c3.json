@@ -1,0 +1,34 @@
+{
+  "file": "songs/2b78a0a84d629ef99284afa3da43a5c3.js",
+  "title": "haven’t landed yet",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 49152,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2b78a0a84d629ef99284afa3da43a5c3.js",
+  "sha256": "17d944c8f8d2bb17365f657f56586f98e67b3115a1284c70a64133a3c061c179",
+  "upstream": {
+    "hash": "2b78a0a84d629ef99284afa3da43a5c3",
+    "codeLen": 1212,
+    "fileOrig": 1,
+    "codeText": "t>0?(C=t/samp/6.665*20,v2=-9e9,T=t*2,p=1.34*T,chp=k=>(p/32*2**(k[3&t>>18]/12))%256/128-1,ch4d=[262144,262144,262144,131072][3&t>>21],_c=((atan(tan(chp([2,4,7,7])*2*PI)))+(atan(tan(chp([14,16,19,19])*2*PI)))+(atan(tan(chp([16,19,23,22])*4*PI))))/6*(1-t%262144/262144)+(atan(tan((chp([18,23,26,[26,28][1&t>>17]])*4*PI))))/6*(1-t%ch4d/ch4d),k=_u,_u='10000000000000'[(C/2&4)],_u-k>0?_m=0:_m+=1/samp,f=.25*adsr(.15,.5*w(8,.05,1/16),.9,2),z=q+q/(1-f),a+=f*(_c-a+z*(_c-b)),b+=f*(a-b),ch=b,m1=atan(tan((p/2/((-t>>14&1)+1",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "haven’t landed yet",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hhql3h/havent_landed_yet/",
+    "date": "2024-12-19",
+    "mode": "Floatbeat",
+    "sampleRate": 49152,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "344df1919f9bf18a726d530d3783bcbd",
+        "author": "troubleshootcorps",
+        "name": "still landing",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gqdqpp/still_landing/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

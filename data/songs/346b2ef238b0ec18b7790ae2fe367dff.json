@@ -1,0 +1,25 @@
+{
+  "file": "songs/346b2ef238b0ec18b7790ae2fe367dff.js",
+  "title": "ommm",
+  "author": "SquareWave",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0a403eee1345c0f66f8fe2150fca9fa2a4ee4f2b3d143117292f8ee8e5a58b22",
+  "upstream": {
+    "hash": "346b2ef238b0ec18b7790ae2fe367dff",
+    "codeMinLen": 13,
+    "codeMin": "t^t/2^t*t/1E7",
+    "codeLen": 36,
+    "code": "t ^ (t/2) * (t/t) ^ t * (t/10000000)",
+    "author": "SquareWave",
+    "name": "ommm",
+    "url": "https://battleofthebits.com/arena/Entry/ommm/59801/",
+    "date": "2023-04-09",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

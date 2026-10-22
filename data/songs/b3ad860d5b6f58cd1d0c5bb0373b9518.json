@@ -1,0 +1,24 @@
+{
+  "file": "songs/b3ad860d5b6f58cd1d0c5bb0373b9518.js",
+  "title": "pootis",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6d5ce56093aecf147057d138e5cdf2713bad7e8e1170621fb762855e4d100f45",
+  "upstream": {
+    "hash": "b3ad860d5b6f58cd1d0c5bb0373b9518",
+    "codeMinLen": 125,
+    "codeMin": "(([2,0,3,0,2,0,2.5,0,3,0,2,0,1.8,0,3,3][(t>>12)%16]*t>>2&127)+(t>>8)&128)+([0,1][(t>>13)%2]*t>>2&127)+128*sin(4095/(t%16384))",
+    "codeLen": 140,
+    "code": "(([2,0,3,0,2,0,2.5,0,3,0,2,0,1.8,0,3,3][(t>>12)%16]*t>>2&127)+(t>>8)&128)+([0,1][(t>>13)%2]*t>>2&127)+(128*sin(4095/(t%pow(4,(3+(3+(1)))))))",
+    "author": "rubi",
+    "name": "pootis",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s1gjav/pootis_44100hz/",
+    "date": "2022-01-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

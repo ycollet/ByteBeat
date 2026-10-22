@@ -1,0 +1,25 @@
+{
+  "file": "songs/3f1e6f52dceb4771377984fbe66cf724.js",
+  "title": "buzzy grindy beat",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "644dcad663399b5f942da75b9362cfff05c8f4e00b03215ff69b54f0bc76782b",
+  "upstream": {
+    "hash": "3f1e6f52dceb4771377984fbe66cf724",
+    "codeMinLen": 58,
+    "codeMin": "t/((t>>3-(t>>14)%2)%(26>>(t>>16)%3))%1024/12<<9/(t>>5&127)",
+    "codeLen": 60,
+    "code": "t/((t>>3-(t>>14)%2)%(26>>(t>>16)%3))%1024/12<<9/((t>>5)%128)",
+    "author": "SArpnt",
+    "name": "buzzy grindy beat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/imprs9/buzzy_grindy_beat/",
+    "date": "2020-09-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

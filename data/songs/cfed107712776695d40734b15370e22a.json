@@ -1,0 +1,24 @@
+{
+  "file": "songs/cfed107712776695d40734b15370e22a.js",
+  "title": "The time is running out!",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03e3f51aac17bb647592cef1753fbbdb7ee26f677fd80438abc23cce2c395392",
+  "upstream": {
+    "hash": "cfed107712776695d40734b15370e22a",
+    "codeLen": 65,
+    "code": "t*(t&16384?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t&4096?2:16))|t>>3",
+    "author": "SthephanShi",
+    "name": "The time is running out!",
+    "description": "Hurry up!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/",
+    "date": "2021-10-17",
+    "sampleRate": 11025,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

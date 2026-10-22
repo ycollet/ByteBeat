@@ -1,0 +1,33 @@
+{
+  "file": "songs/9c1f890679d3ebd856e319fb6e4d7036.js",
+  "title": "C-compatible(?) Intolerable Claps",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "86396aa4c5352e92198b9b3ab9da86c18645d48fd5475a380113d468819ad31d",
+  "upstream": {
+    "hash": "9c1f890679d3ebd856e319fb6e4d7036",
+    "codeMinLen": 144,
+    "codeMin": "((2*t>>11&t>>13)%11%9%7*t>>1&127)+(((t>>11)+2&3?0:1)*(-t>>4&127)*((t>>2^-(t&t>>2))*t&255)>>8)+(5000/(t%2048?t%2048:1)*(-t>>12&7?-t>>11&1:1)&128)",
+    "codeLen": 156,
+    "code": "((t*((2*t>>11&t>>13)%11%9%7)>>1)&127)+((((t>>11)+2&3)?0:1)*(-t>>4&127)*(((t>>2^-(t&t>>2))*t)&255)>>8)+((-t>>12&7?(-t>>11&1):1)*(5000/(t%2048?t%2048:1))&128)",
+    "author": "PortablePorcelain",
+    "name": "C-compatible(?) Intolerable Claps",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15psf4l/ccompatible_intolerable_claps/",
+    "date": "2023-08-13",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "3c98ec06aa0eb7edab04266a1a12425e",
+        "author": "SleepingLugia",
+        "name": "floatbeat tolerable claps",
+        "url": "https://www.reddit.com/r/bytebeat/comments/138lvxw/floatbeat_tolerable_claps/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

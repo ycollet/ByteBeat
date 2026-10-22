@@ -1,0 +1,37 @@
+{
+  "file": "songs/43656b7dce6588225e92a891a72e2dbd.js",
+  "title": "Bytebeat*Polyrhythm Remix v2",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/43656b7dce6588225e92a891a72e2dbd.js",
+  "sha256": "ceaef17271bf962f193501f077039ffe34579c65b9add83bd027204d220606b1",
+  "upstream": {
+    "hash": "43656b7dce6588225e92a891a72e2dbd",
+    "codeLen": 2630,
+    "fileOrig": 1,
+    "codeText": "// Update on Oct 12, 2025 - Drums Revamp, Stereo Detuning, More Filters, Bitcrushed Noise\n\nBPM=128,\nsR=48e3,\nsPB=32768,\ntt=(t/sR*256)*440*2**(3/12),\nts=t*abs(BPM/(60*sR)*sPB),\n",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Bytebeat*Polyrhythm Remix v2",
+    "url": "https://dollchan.net/btb/res/7164.html#9780",
+    "date": "2025-10-12",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "cc2e6f47d5faf06ac204121bf097cfe8",
+        "author": "Zera12873",
+        "name": "197. Bytebeat * Polyrhythm",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1nzfky3/isgjs_dump"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-11",
+    "date_edited": "2026-07-10"
+  }
+}

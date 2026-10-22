@@ -1,0 +1,25 @@
+{
+  "file": "songs/46c723c7da658b268472ea8b2b9e4349.js",
+  "title": "first made it",
+  "author": "k0370_",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "320e9bec72ea7bae52b25b7b63c8a4b13351fe97e66f6f5ccb456af4852b3a42",
+  "upstream": {
+    "hash": "46c723c7da658b268472ea8b2b9e4349",
+    "codeMinLen": 31,
+    "codeMin": "t+(t&1)+(t>>5)*(t>>1)|t>>4|t>>8",
+    "codeLen": 33,
+    "code": "t+(t&1)+(t>>5)*(t>>1)/1|t>>4|t>>8",
+    "author": "k0370_",
+    "name": "first made it",
+    "url": "https://dollchan.net/btb/res/3.html#258",
+    "date": "2022-11-22",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

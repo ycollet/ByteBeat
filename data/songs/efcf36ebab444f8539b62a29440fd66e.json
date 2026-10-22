@@ -1,0 +1,25 @@
+{
+  "file": "songs/efcf36ebab444f8539b62a29440fd66e.js",
+  "title": "weirdo boy",
+  "author": "Romash",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6a4c2a12becdd57d6168671f331311ef13ef9a5318bf2d6b099abe74d76687e6",
+  "upstream": {
+    "hash": "efcf36ebab444f8539b62a29440fd66e",
+    "codeMinLen": 268,
+    "codeMin": "freqs=[220,261,348,207],t2=t/11015*24,freq2=1+(t>>15&1)+((41&t>>12)%4^(1+(t>>11&2)-1)*(1024<t>>10)),(t2*(1-freq2)*.999*freqs[t>>17&3]%128+(t2+500)*freq2*1.01*freqs[t>>17&3]%128-128)/4+(t2/2*.999*freqs[t>>17&3]%128+1.01*(t2/2+500)*freqs[t>>17&3]%128-128)*(1024<t>>10)/4",
+    "codeLen": 298,
+    "code": "freqs=[220,261,174*2,207],t2=t/11015*24,freq2=1+(t>>15&1)+(((41&(t>>12))%4)^(1+((t>>11)&2)-1)*((t>>10)>1024)),(((t2*(1-freq2)*0.999*freqs[t>>17&3])%128)+(((t2+500)*freq2*1.01*freqs[t>>17&3])%128)-128)/4+(((t2/2*0.999*freqs[t>>17&3])%128)+(((t2/2+500)*1.01*freqs[t>>17&3])%128)-128)*((t>>10)>1024)/4",
+    "author": "Romash",
+    "name": "weirdo boy",
+    "url": "https://battleofthebits.com/arena/Entry/weirdo+boy/31403/",
+    "date": "2019-04-12",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

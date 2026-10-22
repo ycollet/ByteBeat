@@ -1,0 +1,28 @@
+{
+  "file": "songs/97a4d69c6ca21508d2fa310d62798a03.js",
+  "title": "Megalovania - Undertale",
+  "author": "PurpuroNovo",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/97a4d69c6ca21508d2fa310d62798a03.js",
+  "sha256": "fc5e1fa1bba33794032ec4fa99bd8f256bd919bd2e770399b07761ad5439280c",
+  "upstream": {
+    "hash": "97a4d69c6ca21508d2fa310d62798a03",
+    "codeLen": 5015,
+    "fileOrig": 1,
+    "codeText": "// OMG UNDERTALE!\n// Code made by PurpuroNovo, original song is Megalovania - Undertale\n// My first bytebeat :)\n\ne=1e3,m={g:\"OOOOOOOOOOOOOOOO@GDQSPDE46+%02+?:0=D?@;BO=VaTTei`rZZZZOIIOOf=IIC8?@;<29;S_XcJPPVPPSIPD9F>GEFLFA<@>?I[KZk^bjZYg]jZSSVg`]RL=A35=89F57>EFF;NNHf^XQtf`fTZ`ZOIOOlTCZOIIC=I77==fO``IOTOITTTT7OI=IIIOI7DEE@SXLibaejW][`eXWTYaZWMB@8689:CI==OCOCCZCOfZTZwWbU[T_YRLXchIUI=AE=DG6>BKZV]XIRXEFLGGB7P>3GMMMG7I=C=ZTTf`Z``T``hcYSUUc_UF>94979=CI1COCO=IOC`fTTlpb[ZYSXXEFR^ELRI7CC=O=7C7ZOTOICTOCOOIT1CO==IOII7?F",
+    "isTruncated": 1,
+    "author": "PurpuroNovo",
+    "name": "Megalovania - Undertale",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1914wki/megalovania_undertale/",
+    "date": "2024-01-08",
+    "sampleRate": 8000,
+    "coverName": "Undertale - Megalovania",
+    "coverUrl": "https://youtu.be/wDgQdr8ZkTw",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-14"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "file": "songs/42f34bd11329fa941646892da86b401e.js",
+  "title": "OXYMORON JUNGLE",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/42f34bd11329fa941646892da86b401e.js",
+  "sha256": "edbc17dcdf7ed0418d7e93c7ada78ae26947ecd2651d103894c6a672ee65e7e4",
+  "upstream": {
+    "hash": "42f34bd11329fa941646892da86b401e",
+    "codeLen": 1710,
+    "fileOrig": 1,
+    "codeText": "b=t>>13,\nB=b>>3,\n\ns=(x,y=13)=>x[(t>>y)%x.length],\n\nbt=x=>(x)%256/128-1,\n\nT=(n,x=1,p=600,a=5)=>.08*(1<<(n+=4)/7)*1.0594**(2*n%14-(3<n%7))*(t/x+a*sin(t/p))%128,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "OXYMORON JUNGLE",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1ohcez2/oxymoron_jungle/",
+      "https://dollchan.net/btb/res/2971.html#10311"
+    ],
+    "date": "2025-10-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f34b2f5776ad27dc583538d471c302d1",
+        "author": "maj-6",
+        "name": "\"Something New\" using functions",
+        "url": "https://battleofthebits.com/arena/Entry/Something+New/52726/#post157167"
+      },
+      {
+        "hash": "6026ac7254817b8d8853ac58fce79889",
+        "author": "IncreaseRegular",
+        "name": "1-bit Chords (PrincessPriscillaPT's Amen Break Version)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1lz4bec/combinations_i_think_3_whatever_edition"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-17",
+    "date_edited": "2025-11-19"
+  }
+}

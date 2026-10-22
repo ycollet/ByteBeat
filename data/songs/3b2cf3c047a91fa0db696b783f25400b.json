@@ -1,0 +1,25 @@
+{
+  "file": "songs/3b2cf3c047a91fa0db696b783f25400b.js",
+  "title": "a quite complex one using conditionals",
+  "author": "Paralax",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f547b937614f6c4f0351021f188736e2dd5290b577ebc114c41e0b6636a36b34",
+  "upstream": {
+    "hash": "3b2cf3c047a91fa0db696b783f25400b",
+    "codeMinLen": 65,
+    "codeMin": "10*(t&5*t|t>>6|(t&32768?-6*t/7:(t&65536?-9*t&100:-9*(t&100))/11))",
+    "codeLen": 100,
+    "code": "(t&t*5|t>>6 | ((t&0xFFFF)>0x8000? (-6*t)/7 : ((t&0x1FFFF)>0x10000 ? -9*t&100 : (-9*(t&100)))/11))*10",
+    "author": "Paralax",
+    "name": "a quite complex one using conditionals",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=6#c388670",
+    "date": "2011-10-02",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

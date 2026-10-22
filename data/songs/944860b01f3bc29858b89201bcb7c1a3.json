@@ -1,0 +1,34 @@
+{
+  "file": "songs/944860b01f3bc29858b89201bcb7c1a3.js",
+  "title": "LET'S PARTY EVERYONE!!!!!!!!!!",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/944860b01f3bc29858b89201bcb7c1a3.js",
+  "sha256": "f2fe2b0dbda719676a611adbebba41f2008cd49832dd5d4a4badb2b7f3e68ddc",
+  "upstream": {
+    "hash": "944860b01f3bc29858b89201bcb7c1a3",
+    "codeMinLen": 731,
+    "codeLen": 740,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "r=1.15*t,c=x=>t*2**((x+13)/12),h=m=>(r>m),a=(c([8,0,-7,5,0,-7,8,0,-7,5,0,-7,8,0,5,-7,10,0,-7,5,0,-11,10,1,-7,7,3,-2,10,3,-2,7,12,0,-7,8,0,-7,12,0,-7,8,0,-7,12,0,8,-7,12,0,-7,8,0,-7,12,0,10,1,3,7,-2,3,5,7,8,-4,-11,5,-4,-11,8,-4,-7,5,-4,-11,10,-4,5,-7,7,-2,-9,3,-2,-9,7,-2,-9,3,-9,-2,8,7,5,10,12,0,-7,8,0,-7,12,0,-7,8,0,-7,12,0,8,-7,12,0,-7,8,0,-7,12,0,10,1,3,7,-2,3,5,7][r>>12&127])&-r>>4&255)/4,b=a=>c([5,5,5,1,8,8,8,3,1,1,3,3,-2,-2,-2,1][15&r>>15])/16%a,(a+(b(128)+b(127))/3*(524288<r?1572864>r:0)+(b(128)&64)*h",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "LET'S PARTY EVERYONE!!!!!!!!!!",
+    "url": "https://dollchan.net/btb/res/204.html#839",
+    "date": "2023-04-16",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

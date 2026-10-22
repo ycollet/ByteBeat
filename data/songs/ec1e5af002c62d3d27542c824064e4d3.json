@@ -1,0 +1,32 @@
+{
+  "file": "songs/ec1e5af002c62d3d27542c824064e4d3.js",
+  "title": "what i making in midnight (squarewave)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 55600,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7f286b0deb026fd6227af906ec58b0e16f256df0ece8981fbd0491c8dc413b75",
+  "upstream": {
+    "hash": "ec1e5af002c62d3d27542c824064e4d3",
+    "codeMinLen": 249,
+    "codeMin": "T=.75,a=t=>(p=[0,7,12,0,7,12,0,7,12,0,7,15,14,15,10,5,-4,3,8,-4,3,8,-4,3,8,-4,3,8,-5,2,7,10][(t*T>>13)%32],z=t*2**(p/12)*1.8/2.53,(z&-t*T>>6&64)/1.5)*(1-t*T%8192/12E3),a(t)+a(t-12288/T)/2+a(t-20480/T)/4+a(t-28672/T)/8+a(t-36864/T)/16+a(t-45056/T)/32",
+    "codeLen": 270,
+    "code": "T=.75,a=t=>(p=[0,7,12,0,7,12,0,7,12,0,7,15,14,15,10,5,-4,3,8,-4,3,8,-4,3,8,-4,3,8,-5,2,7,10][(t*T>>13)%32],z=t*2**(p/12)*1.8/2.53,(z&-t*T>>6&64)/1.5)*(1-t*T%8192/12E3),a(t)+a(t-(1<<12)*3/T)/2+a(t-(1<<12)*5/T)/4+a(t-(1<<12)*7/T)/8+a(t-(1<<12)*9/T)/16+a(t-(1<<12)*11/T)/32",
+    "author": "Zackx",
+    "name": "what i making in midnight (squarewave)",
+    "url": "https://dollchan.net/btb/res/204.html#772",
+    "date": "2023-04-06",
+    "sampleRate": 55600,
+    "remix": [
+      {
+        "hash": "3f46baf3d6ea1dc6e90c238fc49dadbd",
+        "author": "Zackx",
+        "name": "what i making in midnight (harmony)",
+        "url": "https://dollchan.net/btb/res/204.html#772"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

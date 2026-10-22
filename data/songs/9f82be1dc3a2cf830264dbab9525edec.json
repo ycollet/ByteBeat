@@ -1,0 +1,33 @@
+{
+  "file": "songs/9f82be1dc3a2cf830264dbab9525edec.js",
+  "title": "Something made out of boredom",
+  "author": "Glebguything",
+  "mode": "Signed Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d04a000553203754bc6e923caa5315cc4fc5129eee937872f7acd8a8bdb31cda",
+  "upstream": {
+    "hash": "9f82be1dc3a2cf830264dbab9525edec",
+    "codeLen": 144,
+    "code": "a=t*2*'12345432'[7&t*4>>12],b=t*'1242'[3&t>>10],b*[1,1.2,1.8,2.7][3&t>>14]+(a*[1,1.2,1.8,2.7][3&t*4>>16]|127)+(b*[1,1.2,1.8,2.7][3&t*4>>16]|127)",
+    "author": "Glebguything",
+    "name": "Something made out of boredom",
+    "url": "https://dollchan.net/btb/res/727.html#730",
+    "date": "2023-03-31",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "647b24654b683ed1badee995a05d2a00",
+        "author": "Zackx",
+        "name": "Namber wan",
+        "url": "https://dollchan.net/btb/res/204.html#232"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-13",
+    "date_edited": "2025-11-14"
+  }
+}

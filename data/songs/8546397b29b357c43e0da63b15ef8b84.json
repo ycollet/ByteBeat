@@ -1,0 +1,27 @@
+{
+  "file": "songs/8546397b29b357c43e0da63b15ef8b84.js",
+  "title": "Steady On Tim, It's Only A Budget Game",
+  "author": "Gasman",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "75722ebe36a077d918fccbd0bab6139031093e80999c4e0fd6ec001eea0dbcdf",
+  "upstream": {
+    "hash": "8546397b29b357c43e0da63b15ef8b84",
+    "codeLen": 255,
+    "code": "M=T=>(b=abs((T&31)-16),(t*2**([-1,4,7][T*4%3|0]/12+(K=1+((1-(T>>5&3))%2-1)/6))&128)*(T>>8&&12-T%12)/12)+(t*2**(K+(b/5|0)-(5514>>b%(T>>9?4:5)*4&15)/12)&128),M(T=t/5e3)/3+M(T-3)/5+(T>>7&&(t*2**((T&4&&(T&7)-1)/6-4)&63*(197>>T%8&1))+random()*32*(1-(T+4)%8/8))",
+    "author": "Gasman",
+    "name": "Steady On Tim, It's Only A Budget Game",
+    "description": "Lovebyte 2022 competition - 1st place.",
+    "url": [
+      "https://demozoo.org/music/305284/",
+      "http://www.sizecoding.org/wiki/Steady_On_Tim"
+    ],
+    "date": "2022-02-12",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/3a85e5dd14dca11583b82595254d4074.js",
+  "title": "hi",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cf05745c6b5a606b481789fbd9b7ac78dad9e943f013a6cf3600ce34b1643b66",
+  "upstream": {
+    "hash": "3a85e5dd14dca11583b82595254d4074",
+    "codeMinLen": 143,
+    "codeMin": "t*=4,[(t/4&255)*[1,.25,.25,1][t>>12&3]+[0,96,96,0][t>>12&3],[128,(t/4&255)*[.5,.25][t>>2&1]+[0,192][t>>2&1]][t>>13&1],128,128][t>>14&3]/1.25+32",
+    "codeLen": 147,
+    "code": "t*=4,[(t/4&255)*[1,0.25,0.25,1][t>>12&3]+[0,96,96,0][t>>12&3],[128,(t/4&255)*[0.5,0.25][t>>2&1]+[0,192][t>>2&1]][t>>13&1],128,128][t>>14&3]/1.25+32",
+    "author": "Maxi",
+    "name": "hi",
+    "description": "\"Hi\" in \"Points\" mode, zoom to 1/32.",
+    "url": [
+      "https://dollchan.net/btb/res/500.html#5035",
+      "https://www.reddit.com/r/bytebeat/comments/1gycbi7/hi/"
+    ],
+    "date": "2024-11-24",
+    "sampleRate": 32000,
+    "drawing": {
+      "mode": "Points",
+      "scale": 5
+    },
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/7af429ba103f8817757277d56753b5d3.js",
+  "title": "Nothing is real",
+  "author": "Two2Fall",
+  "mode": "Funcbeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7af429ba103f8817757277d56753b5d3.js",
+  "sha256": "d5f33868ac806f578a150f66b8e3786d020fd1c4065d063c0759357b4dc60eb2",
+  "upstream": {
+    "hash": "7af429ba103f8817757277d56753b5d3",
+    "codeLen": 5458,
+    "fileOrig": 1,
+    "codeText": "/*\nI learned javascript for this lol\n16-11-2024 Nothing is real\n\n9 DAYS TO MAKE THIS LOL\n*/\n\nlet sample_rate =33000; // sample rate",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Nothing is real",
+    "description": "\"You are in a spaceship that travels through all corners of space, and you see how it passes all the asteroids, planets, stars, and much more....\" Bytebattle Season 2 Competition - 2nd place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gzwwdr/i_finished_my_song_for_the_bytebattle_season_2/",
+      "https://bytebeat.oops.wtf/season2/entries.html"
+    ],
+    "date": "2024-11-26",
+    "mode": "Funcbeat",
+    "sampleRate": 33000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/50843d244be33950444f24368ccc8983.js",
+  "title": "Hard Way but C-Compatible",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3fc91147826d66eb696df32979222d3c99a4ed8e561c02b1f6ef59d4b0405656",
+  "upstream": {
+    "hash": "50843d244be33950444f24368ccc8983",
+    "codeMinLen": 123,
+    "codeMin": "t*(t>>15&1?t>>14&1?t>>16&1?1:16/9/2:t>>16&1?15/8/2:5/3/2:1)*(t>>17&1?3/2:6/5)*(1+(t>>11&3))|t>>((t>>15&3)==2?6:t>>15&3?4:5)",
+    "codeLen": 129,
+    "code": "t*(t>>15&1?(t>>14&1?(t>>16&1?1:16/9/2):(t>>16&1?15/8/2:5/3/2)):1)*(t>>17&1?3/2:6/5)*(1+(t>>11&3))|t>>((t>>15&3)==2?6:t>>15&3?4:5)",
+    "author": "PrincessPriscillaPT",
+    "name": "Hard Way but C-Compatible",
+    "url": "https://dollchan.net/btb/res/7164.html#9225",
+    "date": "2025-09-18",
+    "sampleRate": 22050,
+    "remix": [
+      {
+        "hash": "eb2227e0b81d1521c494a9e23cdcd98c",
+        "author": "bytebeat8khz",
+        "name": "Hard Way",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1563pem/hard_way/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-09-26"
+  }
+}

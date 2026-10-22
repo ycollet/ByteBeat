@@ -1,0 +1,25 @@
+{
+  "file": "songs/a38a004f914ec52a61961bd35e761938.js",
+  "title": "Life Cycle",
+  "author": "absolute197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6dba2ef7c4baaff73e8813da4e0cf4f601ecf22be0071be62a23b7e2a3b254d8",
+  "upstream": {
+    "hash": "a38a004f914ec52a61961bd35e761938",
+    "codeMinLen": 147,
+    "codeMin": "n=tan(sin((1+(3&t/1.19>>14))*t*'35463546363645363544445354536344'[31&t/1.19>>12]/147))/4,t?0:a=Array(R=13768).fill(0),r=n+a[t%R],a[t%R]=r/2,r/1.755",
+    "codeLen": 150,
+    "code": "n=tan(sin(((1+(3&t/1.19>>14))*t*'35463546363645363544445354536344'[31&t/1.19>>12]/147)))/4,\nt?0:a=Array(R=13768).fill(0),r=n+a[t%R],a[t%R]=r/2,r/1.755",
+    "author": "absolute197",
+    "name": "Life Cycle",
+    "url": "https://www.reddit.com/r/bytebeat/comments/153j4u9/comment/jsjkzjf/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-07-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

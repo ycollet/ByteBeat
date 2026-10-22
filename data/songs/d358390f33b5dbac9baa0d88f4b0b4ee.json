@@ -1,0 +1,23 @@
+{
+  "file": "songs/d358390f33b5dbac9baa0d88f4b0b4ee.js",
+  "title": "I have made a thing#2",
+  "author": "Anonymous",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7ce6e53e27407768f825cfae708be58d8916e55f690139d3b8c3b2baee6568e2",
+  "upstream": {
+    "hash": "d358390f33b5dbac9baa0d88f4b0b4ee",
+    "codeLen": 33,
+    "code": "(t>>10|t*5)&(t>>8|t*4)&(t>>4|t*6)",
+    "author": "Anonymous",
+    "name": "I have made a thing#2",
+    "url": "https://dollchan.net/btb/res/3.html#78",
+    "date": "2022-06-19",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/f1e5dead019e4d070a770310ef59dc4c.js",
+  "title": "vony remix of awesome level",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d2e546c713ea76ceacfcf1a1068de09a6e14a316cb0183fe0a81b27c8bd6d648",
+  "upstream": {
+    "hash": "f1e5dead019e4d070a770310ef59dc4c",
+    "codeMinLen": 306,
+    "codeMin": "t/=4,(1.8*(5E5/(4*t&65535>>(4*t>>15&3|4*-t>>13&3^4*t>>12&3|t>>16&3))&64)/1.5+((t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>2)&255)/6+((2*t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>2)&255)/6+random()*((-t>>(t&2048?4:5))%64+64)+((t*(t&16384?6:5)*(3+(3&t>>14))>>(3&t>>8)|t>>4)&255)/5)/1.5",
+    "codeLen": 309,
+    "code": "t/=4,((500000/(t*4&65535>>(t*4>>15&3|-t*4>>13&3^t*4>>12&3|t>>16&3))&64)*1.8/1.5+((t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>2)&255)/6+((t*2*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>2)&255)/6+random()*((-t>>(t&2048?4:5))%64+64)+((t*(t&16384?6:5)*(3+(3&t>>14))>>(3&t>>8)|t>>4)&255)/5)/1.5",
+    "author": "hcdphobe",
+    "name": "vony remix of awesome level",
+    "url": "https://dollchan.net/btb/res/163.html#479",
+    "date": "2023-02-26",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "25ab41b7d4733588cba4ce214830394b",
+        "author": "SthephanShi",
+        "name": "Awesome level",
+        "url": "https://dollchan.net/de/res/706.html#707"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

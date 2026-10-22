@@ -1,0 +1,29 @@
+{
+  "file": "songs/02500c58bcd8578d7a454485fad890ba.js",
+  "title": "Antarctica",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/formatted/02500c58bcd8578d7a454485fad890ba.js",
+  "sha256": "aa01054ff59fe987b81a94742e0ca34f5b0c70f3eaf9ac06264ab21a74100ad2",
+  "upstream": {
+    "hash": "02500c58bcd8578d7a454485fad890ba",
+    "codeMinLen": 443,
+    "codeMin": "t/=44100,b=105*t/60%256,C=262,D=294,EE=330,Gb=370,G=392,A=440,B=494,W=a=>1E-4*a*sin(44*t),S=e=>(i=b-e,25*((b&16?4:2)*(t+(b&32&&W(6)))*[C,D,G,D,Gb,A,EE,G,B,D,Gb,A,2*C,D,G,2*D,Gb,B,2*EE,G,B,2*D,Gb,A][(i>>1)%8*3+int((b&64?22:2)*i)%3]%2|0)),P=(p,e)=>20*(.7*(p*(t+W(4))*[C,D,EE,D,C,D,B/2,C][(b-e>>1)%8]%2)|0),(b&16|b&32&&(1E4*sin((128*t*(290656535>>8*b&1))**2)&255)/10)+(b&32&&55*(b*(256>>32*b)%2|0))+S(0)+.8*S(.4)+.6*S(.8)+P(1,0)+P(1.5,1)+P(2,1)/2",
+    "codeFormLen": 1001,
+    "fileForm": 1,
+    "codeText": "t/=44100,b=105*t/60%256,C=262,D=294,EE=330,Gb=370,G=392,A=440,B=494,W=a=>1E-4*a*sin(44*t),S=e=>(i=b-e,25*((b&16?4:2)*(t+(b&32&&W(6)))*[C,D,G,D,Gb,A,EE,G,B,D,Gb,A,2*C,D,G,2*D,Gb,B,2*EE,G,B,2*D,Gb,A][(i>>1)%8*3+int((b&64?22:2)*i)%3]%2|0)),P=(p,e)=>20*(.7*(p*(t+W(4))*[C,D,EE,D,C,D,B/2,C][(b-e>>1)%8]%2)|0),(b&16|b&32&&(1E4*sin((128*t*(290656535>>8*b&1))**2)&255)/10)+(b&32&&55*(b*(256>>32*b)%2|0))+S(0)+.8*S(.4)+.6*S(.8)+P(1,0)+P(1.5,1)+P(2,1)/2",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Antarctica",
+    "description": "\"An endless world of snowy expanses, icebergs, and blue waters...\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ufxliq/antarctica/",
+    "date": "2022-05-01",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "1k"
+    ],
+    "date_edited": "2026-04-30"
+  }
+}

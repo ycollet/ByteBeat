@@ -1,0 +1,28 @@
+{
+  "file": "songs/1a10106162edb043cf45fc03070e4a78.js",
+  "title": "Red Green Blue 4",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1a10106162edb043cf45fc03070e4a78.js",
+  "sha256": "f0c72493b27ecf3104e052051d30847acb015aa9ae7e40356d91c7a3a80eba46",
+  "upstream": {
+    "hash": "1a10106162edb043cf45fc03070e4a78",
+    "codeLen": 3451,
+    "codeFormLen": 5153,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t=t/4,a=t*[4.2,5,6.2,8.4,4.2,5,6.2,8.4,4.2,5,6.6,8.4,4.2,5,6.6,8.4,5,6.3,7.5,10,5,6.3,7.5,10,4.7,5.6,7.5,9.4,4.2,5,8,6.2][t/1.1>>10&31]/16&15,b=t*[4.2,4.2,4.2,4.2,0,0,4.2,0,6.6,6.6,6.6,6.6,0,0,6.6,0,4.7,4.7,4.7,4.7,0,0,4.7,0,5.6,5.6,5.6,5.6,0,0,4.7,0][t/1.1>>10&31]/16&15,c=t*[0,0,0,0,8.4,12.4,8.4,12.4,8.4,0,0,0,0,0,0,0,8.4,12.4,8.4,12.4,8.4,0,0,0,8.4,12.4,8.4,12.4,8.4,0,0,0,0,0,0,0,8.4,13.2,8.4,13.2,8.4,0,0,0,0,0,0,0,8.4,13.2,8.4,13.2,8.4,0,0,0,8.4,13.2,8.4,13.2,8.4,0,0,0,0,0,0,0,4.6,7.5,4.6,7.5,4.6,0,0,0,0",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Red Green Blue 4",
+    "url": "https://www.reddit.com/r/bytebeat/comments/r8iuh0/red_green_blue_4/",
+    "date": "2021-12-04",
+    "sampleRate": 32000,
+    "coverName": "Keyg - Red green blue 4",
+    "coverUrl": "https://youtu.be/WUzGNyDd6sk",
+    "tags": [
+      "big"
+    ]
+  }
+}

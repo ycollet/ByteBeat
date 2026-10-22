@@ -1,0 +1,27 @@
+{
+  "file": "songs/21400497c935691d3aa495fe59c1c181.js",
+  "title": "Untitled (21400497)",
+  "author": "visy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "adee01ab763fb0b8591b2ff148e43485d53a82c179934fa80b50f843dc2ca2df",
+  "upstream": {
+    "hash": "21400497c935691d3aa495fe59c1c181",
+    "codeMinLen": 44,
+    "codeMin": "t*(t>>8*(t>>15|t>>8)&(20|5*(t>>19)>>t|t>>3))",
+    "codeLen": 50,
+    "code": "t*(t>>8*((t>>15)|(t>>8))&(20|(t>>19)*5>>t|(t>>3)))",
+    "author": "visy",
+    "url": [
+      "https://youtu.be/GtQdIYUtAHg?t=160",
+      "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+    ],
+    "date": "2011-09-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

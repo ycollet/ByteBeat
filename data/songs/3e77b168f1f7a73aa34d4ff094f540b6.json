@@ -1,0 +1,34 @@
+{
+  "file": "songs/3e77b168f1f7a73aa34d4ff094f540b6.js",
+  "title": "Ataritin",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3e77b168f1f7a73aa34d4ff094f540b6.js",
+  "sha256": "7cf0bcd84373da9b5e762cc53aabb28a2444fc00e642e24a88f877be41273146",
+  "upstream": {
+    "hash": "3e77b168f1f7a73aa34d4ff094f540b6",
+    "codeMinLen": 701,
+    "codeLen": 729,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "v=-9E9,n=1.052,a=t>>12&7,A=[-1,6,11,-1,6,11,-1,6][t>>12&7],B=[2,9,14,2,9,14,2,9][a],C=[-5,2,7,-5,2,7,-5,2][a],D=[-6,1,6,-6,1,6,-6,1][a],E=[-2,6,10,-2,6,10,-2,6][a],AA=(t>>8^t>>10|t>>14|t*n/2*2**([-1,-1,-1,2,-5,-5,-6,-2][t>>15&7]/12))&63,a=3*'099900900090909999099090099000000'[t*n*2**([A,A,A,B,C,C,D,E][t>>15&7]/12)>>4&31],b=t*n/1.0005*2**([-1,-1,v,1,1,v,2,2,2,2,6,v,2,v,1,v,-1,-1,v,-3,-3,v,-1,-1,-1,-1,-6,-3,-1,-1,-3,-3,-5,-5,v,1,1,v,2,2,2,2,6,v,2,v,1,-1,-2,-2,v,-6,-6,v,-2,-2,-2,-2,4,4,2,2,1,1,-1,-1,v,1,1,v,2,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Ataritin",
+    "url": "https://dollchan.net/btb/res/520.html#992",
+    "date": "2023-05-03",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

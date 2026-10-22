@@ -1,0 +1,36 @@
+{
+  "file": "songs/9e28e402b914f6e3bdb7dc0f073202e7.js",
+  "title": "is this a clap",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9e28e402b914f6e3bdb7dc0f073202e7.js",
+  "sha256": "1146aeef5618b3cec1a2287bb89de47bd915eec54c97803e3f6b9af897e85242",
+  "upstream": {
+    "hash": "9e28e402b914f6e3bdb7dc0f073202e7",
+    "codeLen": 10956,
+    "fileOrig": 1,
+    "codeText": "// The Twelly Tools\n// Just a set of tools created by me, with some MaxiToys and GreaserPirate inspirations.\n// Configuration stuff\n\n/* Configurations */\nSR   = SampleRate     = 48000, \nTN   = Tuning         = 440,\nSpB  = SamplesPerBeat = 16384,",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "is this a clap",
+    "url": "https://dollchan.net/btb/res/9505.html#9751",
+    "date": "2025-10-11",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "10230ebbb0759b183c3f7e8d9bb9b96a",
+        "author": "Blast Brothers",
+        "name": "Sepulchre",
+        "url": "https://battleofthebits.com/arena/Entry/Sepulchre/57663/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-12-21"
+  }
+}

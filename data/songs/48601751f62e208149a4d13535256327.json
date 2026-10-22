@@ -1,0 +1,23 @@
+{
+  "file": "songs/48601751f62e208149a4d13535256327.js",
+  "title": "tropical",
+  "author": "rubi",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "32e0f98883e020220d86c7c6377ddac4dc8629be519393dcd43242007a8d5682",
+  "upstream": {
+    "hash": "48601751f62e208149a4d13535256327",
+    "codeLen": 107,
+    "code": "sin(t/(t&16384?1.5:1)/[1,2,3,4,1,2,3,4,6,4,5,4,8,8,8,8][15&t>>10])/((t&[1023,1023,1023,2047][3&t>>12])*.01)",
+    "author": "rubi",
+    "name": "tropical",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14fykxl/tropical_by_psubscirbe_and_me/",
+    "date": "2023-06-22",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/baf04c7965e2e23e7c67a4b321af9d90.js",
+  "title": "SQUARIX Initiative",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 49152,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/baf04c7965e2e23e7c67a4b321af9d90.js",
+  "sha256": "681ab6e6b4b3e421b6aa31e8defd3c5ef67b9afb231598af6e57a70a75488aca",
+  "upstream": {
+    "hash": "baf04c7965e2e23e7c67a4b321af9d90",
+    "codeLen": 1041,
+    "fileOrig": 1,
+    "codeText": "t?0:A=Array(n=12288).fill(0),\n\nmel1=[1,0,1,0,1,0,10,0,1,0,1,0,1,0,10,0,1,0,1,0,1,0,10,0,1,0,10,0,1,0,0,0],\nmel2=\"2356\",\n\nchm1=[0,0,3,3,0,0,5,7],\nchm2=[-5,-5,-2,-2,-4,-4,-2,3],\nchm3=[-9,-9,-5,-5,-7,-7,2,-2],",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "SQUARIX Initiative",
+    "url": "https://dollchan.net/btb/res/2971.html#4133",
+    "date": "2024-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 49152,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-12"
+  }
+}

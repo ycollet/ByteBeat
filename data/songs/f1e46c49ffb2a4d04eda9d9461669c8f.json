@@ -1,0 +1,26 @@
+{
+  "file": "songs/f1e46c49ffb2a4d04eda9d9461669c8f.js",
+  "title": "Woo, I'm flying!",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4558a5f57e423929028cacd8bec24c93112a096e1800d4dfa7564fc4b57441f7",
+  "upstream": {
+    "hash": "f1e46c49ffb2a4d04eda9d9461669c8f",
+    "codeLen": 476,
+    "code": "t?(C=t*s,T=t*n,O=W(d(P[0],U),_)+W2(d(P[1],U)+W(d(P[1],U)/4,_))+(random()*Q&Z)*v(P[2],U/4),O=min(max(O,-128),127),O-=(a+=(O-a)*.005),tanh(O/256)*192):(_=16,Z=_*4,Q=Z*4,R=48E3,k=Q/2,U=k*8,I=U*_,z=parseInt,b=111,n=440*2**(-9/12)*k/R,s=2*b/abs(60*R/U),P=[[\"77JJJJ7788KKKKMM\",\"JJ7777JJHH8888A8\"],[\"077CCGGJ188DDHHK\"],\"1000100020001000\"],W=(i,p)=>i%Q/2+p&k,v=(a,d,c=C)=>a[int(c/d)%a.length],d=(x,d)=>N(v(v(x,I),d)),N=x=>T*2**(z(x,36)/12),W2=i=>.5*(asin(sin(i*PI/k))/1.6*k&-_)-Z,a=0)",
+    "author": "Two2Fall",
+    "name": "Woo, I'm flying!",
+    "url": "https://dollchan.net/btb/res/9505.html#10796",
+    "date": "2025-11-23",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "Super Mario Bros 3 OST - Whistle Sound & Warp Map",
+    "coverUrl": "https://youtu.be/-t-969wZ7hA",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-12-21"
+  }
+}

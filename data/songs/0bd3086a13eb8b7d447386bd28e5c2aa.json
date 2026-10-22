@@ -1,0 +1,33 @@
+{
+  "file": "songs/0bd3086a13eb8b7d447386bd28e5c2aa.js",
+  "title": "Slowed \"Sine Melody\" down and added a chord progression",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b57353653091a2e9dae054dc84da87202cb9eac3964f6cc285454ead977c9783",
+  "upstream": {
+    "hash": "0bd3086a13eb8b7d447386bd28e5c2aa",
+    "codeMinLen": 437,
+    "codeMin": "Z=t=>(a=(v=t/16*[2,4,2,4,2,4,2,4,2,5,2,4,3,3,2,1][t>>13&15]*((t>>13&3)+1),w=t/16*[1,2,1,2,3,2,1,4,5,4,6,3,2,4,1,3,3][t>>13&15]*((t>>13&3)+1),m=(64*sin(v>>1)+64*cos(w>>1))/8+(64*sin(v)+64*cos(w))/8),n=[[64,77,96,64][t>>18&3],[32,38.5,84,32][t>>18&3]],b=2*sin(t/[n[0],16,17,16,14,16,17,16,n[1],16,17,16,21,24,26,32][t>>14&15]*2)*((-t>>10&15)+1),a+b),E=(e,i)=>16<i?0:0>e?0:Z(e)/2-.5*E(e-24576+(i==0?12288:0),i+2),[3*E(t,0)+128,3*E(t,1)+128]",
+    "codeLen": 442,
+    "code": "Z=t=>(a=(v=t/16*[2,4,2,4,2,4,2,4,2,5,2,4,3,3,2,1][t>>13&15]*((t>>13&3)+1),w=t/16*[1,2,1,2,3,2,1,4,5,4,6,3,2,4,1,3,3][t>>13&15]*((t>>13&3)+1),m=(64*sin(v>>1)+(64*cos(w>>1)))/8+(64*sin(v)+(64*cos(w)))/8),n=[[64,77,96,64][t>>18&3],[32,38.5,84,32][t>>18&3]],b=2*sin(t/[n[0],16,17,16,14,16,17,16,n[1],16,17,16,21,24,26,32][t>>14&15]*2)*((-t>>10&15)+1),a+b),E=(e,i)=>i>16?0:e<0?0:Z(e)/2-E(e-24576+(i==0?12288:0),i+2)*0.5,[3*E(t,0)+128,3*E(t,1)+128]",
+    "author": "May_I_Change_My_Name",
+    "name": "Slowed \"Sine Melody\" down and added a chord progression",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rwd856/comment/itquhlj/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-10-25",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "aabdf23dc573534530490b92da71f2f8",
+        "author": "Decent-Manager-6169",
+        "name": "Sine Melody",
+        "url": "https://www.reddit.com/r/bytebeat/comments/rwd856/sine_melody/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

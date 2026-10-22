@@ -1,0 +1,35 @@
+{
+  "file": "songs/41bba9384511ce1dbf80184911425d1a.js",
+  "title": "DJ harmony",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 10000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ca971624dca67ef3119a2c053d05a0d99eafbe334b25f3324e0852794e085618",
+  "upstream": {
+    "hash": "41bba9384511ce1dbf80184911425d1a",
+    "codeMinLen": 102,
+    "codeMin": "(8*t&t>>8|1.3333*t&t>>6|6*t&t>>9)%256/3+32*sin(16*cbrt(t%4096))+32+t/1.5%64*1.5*(t%4096/4E3)*(1&-t>>9)",
+    "codeLen": 105,
+    "code": "(8*t&t>>8|1.3333*t&t>>6|6*t&t>>9)%256/3+sin(16*cbrt(t%4096))*32+32+\n(t/1.5%64)*1.5*(t%4096/4e3)*(1&-t>>9)",
+    "author": "Zackx",
+    "name": "DJ harmony",
+    "url": "https://dollchan.net/btb/res/204.html#498",
+    "date": "2023-03-02",
+    "sampleRate": 10000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

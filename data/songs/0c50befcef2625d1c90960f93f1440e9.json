@@ -1,0 +1,40 @@
+{
+  "file": "songs/0c50befcef2625d1c90960f93f1440e9.js",
+  "title": "Badder Apple",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 61440,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0c50befcef2625d1c90960f93f1440e9.js",
+  "sha256": "305ac62a1bea29a556171e901607d8d147b855ef398098655d34c8202d5b0ea5",
+  "upstream": {
+    "hash": "0c50befcef2625d1c90960f93f1440e9",
+    "codeLen": 623812,
+    "fileOrig": 1,
+    "codeText": "this.n??=0,n++||(P=eval(unescape(escape`∰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰づて晦〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰㄰〰〰〰〰〰〶〷晥〱晦〰晦㠰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰㄰〰〰〰づ〰ㄷ〰て㠰〷昰〱昰〰昰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰てㅦ㡦摦敦晦晦晦晦晦晦晦昰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰て挴て晥て晦て晦捦晦敦晦晦晦晦晦晦晦晦晦晦晦昰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〳挰〷搰て昸て昸て晣て晥て晦て晦敦晦敦晦晦晦晦晦晦晦昰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〱㠰〵㠰〳㠰て愰て昰て昰て昸て昸て晥捦晦捦晦敦晦晦晦昰㘰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Badder Apple",
+    "description": "Full animation and song! Set \"Points\" mode and zoom to 1/4 on monitors, or 1/8 on phones. The song crashes at 221.87sec",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13d1ctq/badder_apple/",
+    "date": "2023-05-09",
+    "sampleRate": 61440,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5a2800623d2aa38c577bc0d361838675",
+        "author": "May_I_Change_My_Name",
+        "name": "0xBADA441E",
+        "url": "https://www.reddit.com/r/bytebeat/comments/112ry0r/somebody_had_to_do_it/"
+      }
+    ],
+    "drawing": {
+      "mode": "Points",
+      "scale": "2"
+    },
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2026-03-21"
+  }
+}

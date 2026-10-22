@@ -1,0 +1,34 @@
+{
+  "file": "songs/344df1919f9bf18a726d530d3783bcbd.js",
+  "title": "still landing",
+  "author": "troubleshootcorps",
+  "mode": "Bytebeat",
+  "rate": 49152,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/344df1919f9bf18a726d530d3783bcbd.js",
+  "sha256": "baf0910656e4680322b7b804372cfc85b558476f4cd5248416aa0c8450113ae4",
+  "upstream": {
+    "hash": "344df1919f9bf18a726d530d3783bcbd",
+    "codeMinLen": 753,
+    "codeLen": 783,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "v=-9E9,T=t*2,PT=1.34*T,fd=-t>>10&255,fd2=-t>>[10,10,10,9][t>>21&3]&255,ch=(a=k=>PT/32*2**(k[t>>18&3]/12),((80*abs(sin(a([2,4,7,7])*4/41)+sin(a([14,16,19,19])*4/41))+80*abs(sin(a([16,19,23,22])*4/41)))*fd>>8)+(80*abs(sin(PT/16*2**([18,23,26,[26,28][t>>17&1]][t>>18&3]/12)*2/41))*fd2>>8))/2,m1=80*abs(sin(PT/2/((-t>>14&1)+1)*2**([[14,9,6,4],[16,11,7,4],[19,14,11,7],v][t>>18&3][t>>12&3]/12)/41)),m2=80*abs(sin(PT/2*2**([7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5][t>>",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "still landing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gqdqpp/still_landing/",
+    "date": "2024-11-13",
+    "sampleRate": 49152,
+    "remix": [
+      {
+        "hash": "18acb92f5379e5593fc33445f28c7533",
+        "author": "Decent-Manager-6169",
+        "name": "We're Finally Landing Preview",
+        "url": "https://dollchan.net/btb/res/520.html#1684"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

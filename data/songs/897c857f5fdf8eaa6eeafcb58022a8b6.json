@@ -1,0 +1,27 @@
+{
+  "file": "songs/897c857f5fdf8eaa6eeafcb58022a8b6.js",
+  "title": "bytebeat cover of \"4mat - empty\"",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/897c857f5fdf8eaa6eeafcb58022a8b6.js",
+  "sha256": "ab92074f6af4831c7bac44f1ad06149a21209d2405329a946a759f0fbc14a3fa",
+  "upstream": {
+    "hash": "897c857f5fdf8eaa6eeafcb58022a8b6",
+    "codeLen": 15166,
+    "fileOrig": 1,
+    "codeText": "t2=t, //original t for readout\nreadout=0, //turn on by changing 0 to 1\ntrack=[\n/*\n HH BB C1 C2 C3 LL DRUMS*/\n'07 07 07 0a 0e      h k',\n'1a    07 0a 0e      h  ',\n'1f 13 07 0a 0e      h  ',",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "bytebeat cover of \"4mat - empty\"",
+    "url": "https://dollchan.net/btb/res/163.html#2796",
+    "date": "2023-12-17",
+    "sampleRate": 48000,
+    "coverName": "Matt Simmonds - Empty (512 bytes)",
+    "coverUrl": "https://deepsid.chordian.net/?file=/MUSICIANS/0-9/4-Mat/Empty_512_bytes.sid",
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

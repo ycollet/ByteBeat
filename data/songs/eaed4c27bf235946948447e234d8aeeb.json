@@ -1,0 +1,27 @@
+{
+  "file": "songs/eaed4c27bf235946948447e234d8aeeb.js",
+  "title": "the random background music you hear in heaven",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/eaed4c27bf235946948447e234d8aeeb.js",
+  "sha256": "0b9587dea6f07cd091bebca9008dcf8d6a58bbeb782e12fcd3b88f833abee2f4",
+  "upstream": {
+    "hash": "eaed4c27bf235946948447e234d8aeeb",
+    "codeLen": 1994,
+    "fileOrig": 1,
+    "codeText": "/*\n * the random background music you\n * hear in heaven\n * by troubleshoot\n * (credits to feeshbread for the \n * reverb and filters)\n * (i like cheese)\n */",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "the random background music you hear in heaven",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1lefluv/the_random_background_music_you_hear_in_heaven/",
+    "date": "2025-06-18",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

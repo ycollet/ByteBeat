@@ -1,0 +1,26 @@
+{
+  "file": "songs/279fb1b47302396a7e62f2ac35898e73.js",
+  "title": "TTT (The Tonal Tone)",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03bcaebab8d13f6e455db2a5cd3bb90190b0b0d47ad66426b048dc7a83f2dced",
+  "upstream": {
+    "hash": "279fb1b47302396a7e62f2ac35898e73",
+    "codeMinLen": 432,
+    "codeMin": "p=t=>2**(t/12),s=t=>16*sin(f/t*q),a=(t,w,v)=>f/t*p([0,3,5,w,v][(5*f>>14)%5])&15,m=t=>f/7*p([0,0,,,3,5,0,0,-2,-2,,,-4,-4][(f>>14)-t&15])*q&31,f=3.52*t%2**24,q=p([0,-4,0,3][f>>19&3]),n=((f/28*q&15)+(f/42*q&15)+(f/56*q&15))/(2**(2**15/(f%2**19))),(3!=f>>22?127!=(f>>15)%256?m(0)-(f>2**21)*(s(88)+s(176))+(f>2**22)*n+(f>2**23)*a(28/q,7,12):a(56,12,15)+a(28,12,15)+a(14,12,15):m(0)+m(4/3)/2+m(8/3)/4+m(4)/8+n+s(54)/3+s(88)/2)+128-(f>>19)",
+    "codeLen": 434,
+    "code": "p=t=>2**(t/12),s=t=>16*sin(f/t*q),a=(t,w,v)=>f/t*p([0,3,5,w,v][(5*f>>14)%5])&15,m=t=>f/7*p([0,0,,,3,5,0,0,-2,-2,,,-4,-4][((f>>14)-t)&15])*q&31,f=t*3.52%2**24,q=p([0,-4,0,3][f>>19&3]),n=((f/28*q&15)+(f/42*q&15)+(f/56*q&15))/(2**(2**15/(f%2**19))),(f>>22!=3?(f>>15)%256!=127?m(0)-(f>2**21)*(s(88)+s(176))+(f>2**22)*n+(f>2**23)*a(28/q,7,12):a(56,12,15)+a(28,12,15)+a(14,12,15):m(0)+m(4/3)/2+m(8/3)/4+m(4)/8+n+s(54)/3+s(88)/2)+128-(f>>19)",
+    "author": "lhphr",
+    "name": "TTT (The Tonal Tone)",
+    "description": "There's a chance that you might hear the melody differently.",
+    "url": "https://dollchan.net/btb/res/44.html#54",
+    "date": "2022-04-27",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

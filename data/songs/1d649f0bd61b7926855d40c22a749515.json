@@ -1,0 +1,28 @@
+{
+  "file": "songs/1d649f0bd61b7926855d40c22a749515.js",
+  "title": "C. Allen Type Beat",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1d649f0bd61b7926855d40c22a749515.js",
+  "sha256": "98c5d58652fd9b5b36f9ff5befa2919bba53dbeebd9eede20f7d68fba965743b",
+  "upstream": {
+    "hash": "1d649f0bd61b7926855d40c22a749515",
+    "codeMinLen": 922,
+    "codeLen": 1081,
+    "codeFormLen": 1365,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "d=t*1.125**'14231425'[t>>18&7],((d|1.005*d)&255)/16+((d/2|d/2*1.01)&255)/16+((1.5*d|1.501*d)&255)/16+((d/2*1.5|d/2*1.5005)&255)/16+(x=>[0,x,x,x,x,x,x,x][t>>20&7])((t*1.125**(((t>>13&3)+1)*((t>>15&1)+1))/32&24|t*1.125**(((t>>13&3)+1)*((t>>15&1)+1))/32*1.005&24)+(t*1.125**(((t>>13&3)+1)*((t>>15&1)+1))/16&24|t*1.125**(((t>>13&3)+1)*((t>>15&1)+1))/16*1.001&24))+(x=>[0,x,x,x][t>>21&3])(abs(1024*log(t&16383)%256-128)/2)+(random()*((-t>>9&15)+1)+random()*((-t>>11&15)+1)+(t*1.0625**'1423'[t>>17&3]*((t/1.375>>10&1)+",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "C. Allen Type Beat",
+    "url": "https://www.youtube.com/watch?v=c77J7MrQfvI",
+    "date": "2021-11-10",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/34028081ff8ed31927bec0b0bccb9253.js",
+  "title": "attempt at making a c-compatible song",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "abd46097e2dfc79057b3ca55310ad18366dbf0bbe3a0f48c9a812739efae8874",
+  "upstream": {
+    "hash": "34028081ff8ed31927bec0b0bccb9253",
+    "codeMinLen": 67,
+    "codeMin": "t*(t>>12&1?4-(1&t>>1)>>(3&t>>2):1)*((t>>13&2)+1)*((t>>14&4)+1)|t>>3",
+    "codeLen": 69,
+    "code": "t*(t>>12&1?(4-(1&t>>1))>>(3&t>>2):1)*((t>>13&2)+1)*((t>>14&4)+1)|t>>3",
+    "author": "awogler9124812041",
+    "name": "attempt at making a c-compatible song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/145wwjd/attempt_at_making_a_ccompatible_song/",
+    "date": "2023-06-10",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

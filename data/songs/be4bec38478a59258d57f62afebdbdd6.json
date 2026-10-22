@@ -1,0 +1,25 @@
+{
+  "file": "songs/be4bec38478a59258d57f62afebdbdd6.js",
+  "title": "some FM beat",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "348e594a58b42a70ce5fc587b129e5487faf54535631697ef3733db40d5dcb9c",
+  "upstream": {
+    "hash": "be4bec38478a59258d57f62afebdbdd6",
+    "codeMinLen": 258,
+    "codeMin": "s=sin,r=t/1.1,d=1-r%8192/11E3,e=x=>2**((x-2.3)/12),h=r>>18&7,g=t/'21'[1&r>>13]*e([0,0,0,0,0,0,3,-2,0,0,0,0,0,0,3,5][15&r>>14]),b=sin(400**((r*'11111114'[7&r>>14]%16384+64)**.01))*'10101011'[7&r>>13]/3+s(g*PI/128+s(g*PI/256)*h*d+s(g*PI/16)*d+s(g*PI/32)*h*d)/4",
+    "codeLen": 262,
+    "code": "s=sin,r=t/1.1,d=(1-r%8192/11e3),e=x=>2**((x-2.3)/12),h=(r>>18&7),g=t/'21'[1&r>>13]*e([0,0,0,0,0,0,3,-2,0,0,0,0,0,0,3,5][15&r>>14]),b=(sin(4e2**(r*'11111114'[7&r>>14]%16384+64)**.01))*'10101011'[7&r>>13]/3+s(g*PI/128+s(g*PI/256)*h*d+s(g*PI/16)*d+s(g*PI/32)*h*d)/4",
+    "author": "Zackx",
+    "name": "some FM beat",
+    "url": "https://dollchan.net/btb/res/204.html#905",
+    "date": "2023-04-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

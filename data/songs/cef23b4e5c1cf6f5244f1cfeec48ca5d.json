@@ -1,0 +1,25 @@
+{
+  "file": "songs/cef23b4e5c1cf6f5244f1cfeec48ca5d.js",
+  "title": "Groovy Polka",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "23f302103c89c8a3f8e982ff3ba1d7ed222340e53308b3d44cd5d1e19ea5ce47",
+  "upstream": {
+    "hash": "cef23b4e5c1cf6f5244f1cfeec48ca5d",
+    "codeMinLen": 63,
+    "codeMin": "t*(5+((t>>10^2)&7))&t>>4|.999**(t&4095)*(t*(4-(t>>12&1))/2&255)",
+    "codeLen": 64,
+    "code": "t*(5+((t>>10^2)&7))&t>>4|0.999**(t&4095)*(t*(4-(t>>12&1))/2&255)",
+    "author": "May_I_Change_My_Name",
+    "name": "Groovy Polka",
+    "description": "Could be C-compatible if there were no exponentiation and floating point numbers.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14iunvh/groovy_polka/",
+    "date": "2023-06-25",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

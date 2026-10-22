@@ -1,0 +1,24 @@
+{
+  "file": "songs/c2edf031844f8edc0fa0be29b30d26f5.js",
+  "title": "10) FUTURE ROCK",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b3221df1f9bcf781c2707bab056f9bc2e408907ada152d7f9cd8967de46abba6",
+  "upstream": {
+    "hash": "c2edf031844f8edc0fa0be29b30d26f5",
+    "codeMinLen": 98,
+    "codeMin": "50>t%1E3?t<<t/5:1<t/16E3%2?(t/22.5>>14*t)*(5<t%200)%64:2.1*t*(5<t%200)%64+(4<t/500%6?4.87*t:0)%176",
+    "codeLen": 108,
+    "code": "t%1000<50?t<<t/5:0+(t/16000)%2>1?(t/22.5>>t*14)*(t%200>5)%64:(t*2.1)*(t%200>5)%64+((t/500)%6>4?t*4.87:0)%176",
+    "author": "Anonymous from russian imageboards",
+    "name": "10) FUTURE ROCK",
+    "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

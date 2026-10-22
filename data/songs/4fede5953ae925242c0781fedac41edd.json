@@ -1,0 +1,37 @@
+{
+  "file": "songs/4fede5953ae925242c0781fedac41edd.js",
+  "title": "idk",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4fede5953ae925242c0781fedac41edd.js",
+  "sha256": "7ff14b9c6d4f857015ceadc352becf512213c1c923e48dcdbe443cc27ffea191",
+  "upstream": {
+    "hash": "4fede5953ae925242c0781fedac41edd",
+    "codeMinLen": 1899,
+    "codeLen": 18365,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=t,T-=T/4&898,atan(sin(((o=[0,1,(a=n=>2**(n/26))(12),a(15),a(21),a(6),a(19),a(-3),a(9),a(3),a(4)]['0x'+'11111111000000002222222233333330111111110000000044444444000000001111111102222220333333331111111044444444011111102222222233333330111111110000000022222222333333301111111100000000444444440000000011111111022222203333333311111110555555550111111055555555222222201111111100000000222222223333333011111111000000004444444400000000111111110222222033333333111111104444444401111110222222223333333011111111000000002222222",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "idk",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ht3jvr/idk/",
+    "date": "2025-01-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "2d2015bb8fc0a0cb97f198f089e95842",
+        "author": "cabbage drop",
+        "name": "twenty six",
+        "url": "https://battleofthebits.com/arena/Entry/twenty+six/57195/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-17",
+    "date_edited": "2025-12-22"
+  }
+}

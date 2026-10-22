@@ -1,0 +1,34 @@
+{
+  "file": "songs/65ba51072697a6dd2b490f59bf35a844.js",
+  "title": "Stimmer but i added drums",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a8e45c33cbfcc6a8da8964e5f4cf580970c17c27ac649e8a2a4ebae57f5f4f25",
+  "upstream": {
+    "hash": "65ba51072697a6dd2b490f59bf35a844",
+    "codeMinLen": 176,
+    "codeMin": "t=t*8E3/44100,a=(t/4*(4|t>>13&3)>>(~t>>11&1)&32)+(t/4*(t>>11&t>>13)*(~t>>9&3)&31),b=cos(12*cbrt(t%4096))*32+32,c=(t*random()|t>>5)&31,d=(t*random()|t>>5)&31,[a+b+c+40,a+b+d+40]",
+    "codeLen": 184,
+    "code": "t=t*8000/44100,\na=((t/4*(4|t>>13&3)>>(~t>>11&1)&32)+(t/4*(t>>11&t>>13)*(~t>>9&3)&31)),\nb=cos(12*cbrt(t%4096))*32+32,\nc=(t*random()|t>>5)&31,\nd=(t*random()|t>>5)&31,\n[a+b+c+40,a+b+d+40]",
+    "author": "Maxi",
+    "name": "Stimmer but i added drums",
+    "url": "https://dollchan.net/btb/res/500.html#500",
+    "date": "2023-03-03",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

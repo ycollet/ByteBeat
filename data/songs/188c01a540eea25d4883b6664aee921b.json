@@ -1,0 +1,28 @@
+{
+  "file": "songs/188c01a540eea25d4883b6664aee921b.js",
+  "title": "Less than 10 second of a Frozy - Kompa",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 26760.5333333333,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/188c01a540eea25d4883b6664aee921b.js",
+  "sha256": "d467a6659e3b1135f462496db4cafa23a933a288ce3527602fc4589ea2c0be33",
+  "upstream": {
+    "hash": "188c01a540eea25d4883b6664aee921b",
+    "codeMinLen": 524,
+    "codeLen": 530,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "n=1.255,A='4444444444444432'[t>>9&15],a=b=>t*n/1.996*2**(b[t>>15&3]/12)&63,n=1.255,v=-9E9,((t*n/2*2**([[9,11,11,11][t>>11&3],11,11,6,6,6,4,4,[7,9,9,9][t>>11&3],9,7,7,6,6,4,4,v,v,11,6,6,6,4,4,[7,9,9,9][t>>11&3],9,7,7,6,6,4,4,[-3,-1,-1,-1][t>>11&3],-1,-1,6,6,6,4,4,[7,9,9,9][t>>11&3],9,7,7,6,6,4,4,v,v,-1,6,6,6,4,4,[7,9,9,9][t>>11&3],9,7,7,6,6,4,4][t>>12&63]/12)&63)+(a([14,13,16,11])+a([11,9,11,7])+a([6,4,7,2]))*[0,0,0,4,4,A,4,4,0,0,4,A,4,A,4,A][t>>12&15]/9+((t/1.004*n*2**([-1,9,4,7][t>>15&3]/12)&128)*(-t>>7&25",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Less than 10 second of a Frozy - Kompa",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c62i7i/less_than_10_second_of_a_frozy_kompa_badly/",
+    "date": "2024-04-17",
+    "sampleRate": 26760.5333333333,
+    "coverName": "Frozy - Kompa",
+    "coverUrl": "https://youtu.be/-w5K08th9OA",
+    "tags": [
+      "1k"
+    ]
+  }
+}

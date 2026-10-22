@@ -1,0 +1,23 @@
+{
+  "file": "songs/5581884f95c950a3f20dd2147d2de8fd.js",
+  "title": "whar",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d2f3396c3fd9b91d82a15743327190fedeed3193d109b4dc34e95e8e1b8045ee",
+  "upstream": {
+    "hash": "5581884f95c950a3f20dd2147d2de8fd",
+    "codeLen": 37,
+    "code": "(-t>>2)*(t<<5&t>>2&t>>7&t*3&t>>5)/256",
+    "author": "TrashImpossible3699",
+    "name": "whar",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1e2494a/whar/",
+    "date": "2024-07-13",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

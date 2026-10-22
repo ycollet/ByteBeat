@@ -1,0 +1,28 @@
+{
+  "file": "songs/b799622d4bbacb91595897827995db35.js",
+  "title": "Surely this is what bytebeat was made for...",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b799622d4bbacb91595897827995db35.js",
+  "sha256": "90ebf2b6857b751d27552ff61b726cb32e623649dade07aa05001e9a09fb0282",
+  "upstream": {
+    "hash": "b799622d4bbacb91595897827995db35",
+    "codeLen": 97217,
+    "fileOrig": 1,
+    "codeText": "// Experimental flat-shaded 3D renderer in bytebeat using the throw() function. Made by Sychamis in May 2025.\n// Will probably not work on your system, I've had issues running this tech on Windows and macOS.\n\n\nprocess = () => {\n\n    class DisplayEngine{\n        constructor(){",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Surely this is what bytebeat was made for...",
+    "description": "3D object in the error console.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1kdep0x/surely_this_is_what_bytebeat_was_made_for/",
+    "date": "2025-05-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-15"
+  }
+}

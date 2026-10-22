@@ -1,0 +1,29 @@
+{
+  "file": "songs/8cf1df460c3fef8ab24af292419266a2.js",
+  "title": "Axel F cover",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8cf1df460c3fef8ab24af292419266a2.js",
+  "sha256": "f02eaef80a7cff2f4c6bc245324ece2b6de56c2aad91c232cd1a79450f4e6e7c",
+  "upstream": {
+    "hash": "8cf1df460c3fef8ab24af292419266a2",
+    "codeMinLen": 5948,
+    "codeLen": 20757,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(S=48e3,ca=128,X='length',ra='replaceAll',Z=(n=0)=>Array(16).fill(n),ci=Z(),cc=Z(),k=Z(),cf=Z(),ce=Z(),cv=Z(1),cr=Z(),ct=Z(),a=(a,d,s,r,t,R)=>(v=(w=(t-R)/S/a)<1?w:(x=1-(t-R-S*a)/S/d*(1-s))>s?x:s,!R?v:max(v-(R/S/r)*v,0)),D=(N,T)=>(N%S/S>(.5-T/4e5))*.4+(N%S/S)*.6-.5,cd=(N,T)=>(N%S/S>(.5-T/35e3))-.5,R=N=>N%S/S-.5,Sn=(N,T)=>(D(N,T)+D(N*1.0025,T)*.5+D(N*.9981,T)*.5+D(N*1.0017,T)+D(N*.9987,T))/4,cg=(N,T)=>(R(N)+R(N*1.0025)*.5+R(N*.9981)*.5+R(N*1.0017)+R(N*.9987))/4,y=N=>(N|0)**9%255/255-.5,Bs=(N,T)=>sin(N*PI+m",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Axel F cover",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1i9tbdi/axel_f_cover/",
+    "date": "2025-01-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Harold Faltermeyer - Axel F",
+    "coverUrl": "https://youtu.be/Qx2gvHjNhQ0",
+    "tags": [
+      "big"
+    ]
+  }
+}

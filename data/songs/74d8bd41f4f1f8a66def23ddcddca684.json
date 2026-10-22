@@ -1,0 +1,29 @@
+{
+  "file": "songs/74d8bd41f4f1f8a66def23ddcddca684.js",
+  "title": "the mandelbrot set",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/74d8bd41f4f1f8a66def23ddcddca684.js",
+  "sha256": "72be363de8a3a4529f5a0cdbd57e998fa3c3087753f6280d0fb5f10e4b19ec01",
+  "upstream": {
+    "hash": "74d8bd41f4f1f8a66def23ddcddca684",
+    "codeLen": 1093,
+    "fileOrig": 1,
+    "codeText": "t||(\nheight=256,\nwidth=height*4,\nbuffer=[],\nclearBuffer=()=>{buffer.length=0;for(i=0;i<height;i++)buffer.push(Array(width).fill(0));},\nsetPixel=(x,y,v)=>{buffer[y][x] = parseInt(v)},\ndrawLine=(t,a,e,s,n)=>{if(!n)return;r=abs(e-t),i=abs(s-a),o=t<e?1:-1,b=a<s?1:-1;let c=r-i;for(;setPixel(t,a,n),t!==e||a!==s;){const e=2*c;e>-i&&(c-=i,t+=o),e<r&&(c+=r,a+=b)}},\ndrawRect=((a,d,e,r,w)=>{drawLine(a,d,e,d,w),drawLine(e,d,e,r,w),drawLine(a,d,a,r,w),drawLine(a,r,e,r,w)}),",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "the mandelbrot set",
+    "description": "Set \"Diagram\" mode and zoom to 2(-8) or 2(-9).",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16wb5gv/graphics_in_bytebeat_the_mandelbrot_set/",
+    "date": "2023-09-30",
+    "sampleRate": 48000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 8
+    },
+    "tags": [
+      "big"
+    ]
+  }
+}

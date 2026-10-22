@@ -1,0 +1,24 @@
+{
+  "file": "songs/e7b2a635309d17a7814b1b91f5182e02.js",
+  "title": "moj pas je se popiškija u cijelu moju kuču",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 6000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e84fb9f540dbb24b59337b55c16508243771793d29ac37c5b4273a99880b163a",
+  "upstream": {
+    "hash": "e7b2a635309d17a7814b1b91f5182e02",
+    "codeMinLen": 118,
+    "codeMin": "tan(600/(t&4095))|t*sin(t)*(1&t>>12)&-t>>4|t>>t*[1,1.2,1.5,1.6,t&16384?1.8:2,1.6,1.5,1.2][7&t>>10]*(t&32768?.9:1)&t>>4",
+    "codeLen": 121,
+    "code": "tan(6e2/(t&2**12-1))|t*sin(t)*(1&t>>12)&-t>>4|t>>t*[1,1.2,1.5,1.6,t&2**14?1.8:2,1.6,1.5,1.2][7&t>>10]*(t&2**15?.9:1)&t>>4",
+    "author": "rubi",
+    "name": "moj pas je se popiškija u cijelu moju kuču",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14kbt4x/moj_pas_je_se_popi%C5%A1kija_u_cijelu_moju_ku%C4%8Du/",
+    "date": "2023-06-27",
+    "sampleRate": 6000,
+    "tags": [
+      "256"
+    ]
+  }
+}

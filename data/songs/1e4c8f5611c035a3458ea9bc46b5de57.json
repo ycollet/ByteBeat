@@ -1,0 +1,28 @@
+{
+  "file": "songs/1e4c8f5611c035a3458ea9bc46b5de57.js",
+  "title": "Slouch",
+  "author": "Blast Brothers",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1e4c8f5611c035a3458ea9bc46b5de57.js",
+  "sha256": "91b23bdc1b08987c0258097c9dba15f6d723158b935050c14454ba8536929d49",
+  "upstream": {
+    "hash": "1e4c8f5611c035a3458ea9bc46b5de57",
+    "codeMinLen": 965,
+    "codeLen": 8859,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "G=sin,K=tan,I=512,i=16,j=12,n=[15.47,16.39,17.36,18.39,19.49,20.65,21.87,23.17,24.55,26.02,27.56,29.2],L=n[e='length'],S=6E3,C=t/S,q=(F=int)(C/I),N=q*q&15,J=(S-C)*4&3,k=C/2%1,R=[i,i,13,18,11,,13,18,i,i,13,18,11,,9,6,],r=R[e],B=R[(C>>1)%r],H=B==null,B=(H?R[((C>>1)-1)%r]-N:B-N),A=[40,,37,35,33,28,25,23,21,i,13,11,9,4],l=A[e],c=C+192,D=A[c&ceil(c/48)+c/32&31]-N,w=c-3.1,d=A[w&ceil(w/48)+w/32&31]-N,s=A[(C+3)/7&37-C/9+I&l],s=s==A[(C/5-1&37-(w-7/4-1)+I)&l]?-1:s-N,Q=A[F(l-(C%64)/2)%l]-N,T=19-i*(C/3%1),X=t/n[B%L]/(2",
+    "isTruncated": 1,
+    "author": "Blast Brothers",
+    "name": "Slouch",
+    "description": "Funky FM bass and a lot of various effects. This is probably the most thoroughly commented bytebeat.",
+    "url": "https://battleofthebits.com/arena/Entry/Slouch/61961/",
+    "date": "2023-09-22",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/05e3cf594eebfe623ebb59f6214ff8c5.js",
+  "title": "G R A N D D A D ? !",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 39824.254,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cc8f95fe388e9b40c5c5c338c5d39a723f2203f8cea4764d1dedd21690da6836",
+  "upstream": {
+    "hash": "05e3cf594eebfe623ebb59f6214ff8c5",
+    "codeMinLen": 221,
+    "codeMin": "t||(a=0),q=-9e9,r=(1-t/8192%1)**.5,a+=2**([7,7*r,0,0,q,12,12,9,7,7*r,0,0,q,7,7,5,(t>>11&1?q:4),4,5,7,0,0,2,2,4,4,4,4,q,q,q,q,7,7*r,0,0,q,12,12,9,7,7*r,0,0,q,7,7,5,(t>>11&1?q:4),4,5,7,0,0,2,2,0,0,0,0,q,q,q,q][t>>13&63]/12)",
+    "codeLen": 262,
+    "code": "t||(a=0),q=-9e9,a+=2**([7,7*(1-t/8192%1)**.5,0,0,q,12,12,9,7,7*(1-t/8192%1)**.5,0,0,q,7,7,5,(t>>11&1?q:4),4,5,7,0,0,2,2,4,4,4,4,q,q,q,q,7,7*(1-t/8192%1)**.5,0,0,q,12,12,9,7,7*(1-t/8192%1)**.5,0,0,q,7,7,5,(t>>11&1?q:4),4,5,7,0,0,2,2,0,0,0,0,q,q,q,q][t>>13&63]/12)",
+    "author": "PrincessPriscillaPT",
+    "name": "G R A N D D A D ? !",
+    "url": "https://dollchan.net/btb/res/7164.html#8345",
+    "date": "2025-07-20",
+    "sampleRate": 39824.254,
+    "coverName": "The Flintstones: The Rescue of Dino and Hoppy (NES) - Title Theme",
+    "coverUrl": "https://youtu.be/U3-0w9eVENw",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-27",
+    "date_edited": "2025-11-05"
+  }
+}

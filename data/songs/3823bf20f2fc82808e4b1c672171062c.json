@@ -1,0 +1,30 @@
+{
+  "file": "songs/3823bf20f2fc82808e4b1c672171062c.js",
+  "title": "N3 - TRINITRANE",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3823bf20f2fc82808e4b1c672171062c.js",
+  "sha256": "2d326aac8fcf3e72f7912543d416b342eed1ee8da02bd11f0dd4b2bacf994ce5",
+  "upstream": {
+    "hash": "3823bf20f2fc82808e4b1c672171062c",
+    "codeLen": 11325,
+    "fileOrig": 1,
+    "codeText": "/*\n=============================================================================================\nN3 -\n_____________________.___ _______  .________________________    _____    _______  ___________\n\\__    ___/\\______   \\   |\\      \\ |   \\__    ___/\\______   \\  /  _  \\   \\      \\ \\_   _____/\n  |    |    |       _/   |/   |   \\|   | |    |    |       _/ /  /_\\  \\  /   |   \\ |    __)_ \n  |    |    |    |   \\   /    |    \\   | |    |    |    |   \\/    |    \\/    |    \\|        \\\n  |____|    |____|_  /___\\____|__ ",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "N3 - TRINITRANE",
+    "description": "Bytebattle Season 6 Competition.",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1o68f58/n3_trinitrane/",
+    "date": "2025-10-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-16",
+    "date_edited": "2025-11-19"
+  }
+}

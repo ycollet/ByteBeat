@@ -1,0 +1,34 @@
+{
+  "file": "songs/7934350cd5b50f6f87ecce2f6a70653c.js",
+  "title": "polytropon (astral mix)",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7934350cd5b50f6f87ecce2f6a70653c.js",
+  "sha256": "bec49a9a510ad351eb6130bde7799cf318f45f7f99ef2e3196aa46121254c34d",
+  "upstream": {
+    "hash": "7934350cd5b50f6f87ecce2f6a70653c",
+    "codeLen": 3826,
+    "fileOrig": 1,
+    "codeText": "/*!\n *\n * stagas - polytropon (astral mix)\n *\n */\n\nvar transpose = 0;\n",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "polytropon (astral mix)",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "d9aebede375c952e50e5d7681ccb5fd8",
+        "author": "stagas",
+        "name": "polytropon",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-29"
+  }
+}

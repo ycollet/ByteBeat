@@ -1,0 +1,31 @@
+{
+  "file": "songs/911e534c52ed09c10d968f19280c3b10.js",
+  "title": "$tereophonic $ine",
+  "author": "Firstnameiskowitz",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5890b150de24c02fc11b98cdf06853e6cc978ea0f44acbc5e268b9818d1cfa50",
+  "upstream": {
+    "hash": "911e534c52ed09c10d968f19280c3b10",
+    "codeLen": 172,
+    "code": "D=(b=t&t>>12,f=(a,c)=>32*sin(b--%2**c*t/2**a),f(5,4)+f(9,6)+f(12,8)+f(14,9)+128),S=(t/=B=t&t>>12,F=(a,c)=>32*sin(B--%2**c*t/2**a)|0,F(5,4)+F(9,6)+F(12,8)+F(14,9)+128),[D,S]",
+    "author": "Firstnameiskowitz",
+    "name": "$tereophonic $ine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11p36h7/more_lazily_made_remixes/",
+    "date": "2023-03-12",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "d840c76db360deb7907e3e9d63f17580",
+        "author": "lhphr",
+        "name": "$ine Ðecrement",
+        "url": "https://dollchan.net/btb/res/44.html#66"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

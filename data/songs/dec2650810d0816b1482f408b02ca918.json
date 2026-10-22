@@ -1,0 +1,24 @@
+{
+  "file": "songs/dec2650810d0816b1482f408b02ca918.js",
+  "title": "bytesnare",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6b93f5d06431a829709d92396dc6901746be9ebc9c76a4087dbb4ef85a242b54",
+  "upstream": {
+    "hash": "dec2650810d0816b1482f408b02ca918",
+    "codeMinLen": 169,
+    "codeMin": "snarerate=[1,.5,.25,0][3&t>>17],temp=[1,1,1,.5,1,1,1,.75][7&t>>12],z=[1,1,1.34,1.5][3&t>>14]*[1,2,2.5,3][3&t>>10]+[0,sin(t)][1&snarerate*t>>11],z*t*2|t>>4*temp|t>>4*temp",
+    "codeLen": 180,
+    "code": "snarerate=[1,0.5,0.25,0][3&t>>17]\n,temp=[1,1,1,0.5,1,1,1,0.75][7&t>>12],\nz=[1,1,1.34,1.5][3&t>>14]*[1,2,2.5,3][3&t>>10]+[0,sin(t)][1&snarerate*t>>11],\n(z*t*2)|(t>>4*temp|t>>4*temp)",
+    "author": "Zackx",
+    "name": "bytesnare",
+    "url": "https://dollchan.net/btb/res/204.html#254",
+    "date": "2022-11-19",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

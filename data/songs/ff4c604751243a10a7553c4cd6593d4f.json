@@ -1,0 +1,30 @@
+{
+  "file": "songs/ff4c604751243a10a7553c4cd6593d4f.js",
+  "title": "str_arp",
+  "author": "pck404",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ff4c604751243a10a7553c4cd6593d4f.js",
+  "sha256": "606b998c77433b5bade572c57cbfe10515e5ff5ae72bd68fb01a1a0fc3a16408",
+  "upstream": {
+    "hash": "ff4c604751243a10a7553c4cd6593d4f",
+    "codeMinLen": 392,
+    "codeMin": "R=48e3,t||(f=[],d=[],D=[]),T=(n,L,t)=>(p=t%L,t||(f[n]=[]),S=f[n],S?(S[p]=S[p]??(random()-.5),S[p]=(S[p]+(S[(p+1)%L]||0)+(S[(p+L-1)%L]||0))/3*.9998,S[p]*4):0),sd=.2,dl=R/2,dr=R/3,L=s=>(l=s+(D[(t-dl)%R]||0)*sd,d[t%R]=l,r=s+(d[(t-dr)%R]||0)*sd,D[t%R]=r,[l+r*.25,r+l*.25]),L(T(0,180-20*(int(t/R/4)%2),(t%R))+T(1,100,((t+R*2/3)%R))+T(2,150,((t+R/3)%R))+T(3,(180+43*(int(t/R/4)%3))*2,(t%(R*4)))*.3)",
+    "codeLen": 481,
+    "fileOrig": 1,
+    "codeText": "R=48e3,t||(f=[],d=[],D=[]),T=(n,L,t)=>(p=t%L,t||(f[n]=[]),S=f[n],S?(S[p]=S[p]??(random()-.5),S[p]=(S[p]+(S[(p+1)%L]||0)+(S[(p+L-1)%L]||0))/3*.9998,S[p]*4):0),sd=.2,dl=R/2,dr=R/3,L=s=>(l=s+(D[(t-dl)%R]||0)*sd,d[t%R]=l,r=s+(d[(t-dr)%R]||0)*sd,D[t%R]=r,[l+r*.25,r+l*.25]),L(T(0,180-20*(int(t/R/4)%2),(t%R))+T(1,100,((t+R*2/3)%R))+T(2,150,((t+R/3)%R))+T(3,(180+43*(int(t/R/4)%3))*2,(t%(R*4)))*.3)",
+    "isTruncated": 1,
+    "author": "pck404",
+    "name": "str_arp",
+    "url": "https://www.bytebeat.cloud/post/ee197028-c0c8-4ee5-ae33-3529b3585b50",
+    "date": "2025-12-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-06-21",
+    "date_edited": "2026-07-10"
+  }
+}

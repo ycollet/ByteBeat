@@ -1,0 +1,23 @@
+{
+  "file": "songs/68afe11768aaf0ea6a707fea7c6e7603.js",
+  "title": "test3",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d8c4e67c35a015b4251b143f0bec7544461803c337cff80456307012fb6d48de",
+  "upstream": {
+    "hash": "68afe11768aaf0ea6a707fea7c6e7603",
+    "codeLen": 50,
+    "code": "((t*t-t/400*t/800^t/900)&192&-t/30)+t/40&t/80^t/80",
+    "author": "GDPlayer_1035",
+    "name": "test3",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q6ar3c/test3/",
+    "date": "2021-10-12",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

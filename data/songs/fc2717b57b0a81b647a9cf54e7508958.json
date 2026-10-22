@@ -1,0 +1,30 @@
+{
+  "file": "songs/fc2717b57b0a81b647a9cf54e7508958.js",
+  "title": "as esport",
+  "author": "blower5",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fc2717b57b0a81b647a9cf54e7508958.js",
+  "sha256": "99011d09a6ee6f017ccb761b995bd83e84946447eb2069a0c49631a7e0490722",
+  "upstream": {
+    "hash": "fc2717b57b0a81b647a9cf54e7508958",
+    "codeMinLen": 1000,
+    "codeLen": 1205,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "a=(x,y)=>[x[0]+y[0],x[1]+y[1]],p=(x)=>x.map((z)=>(t/4*1.0595**(z+((t+P)/9/2**19|0)*3)+128)%256/40),r=(x)=>a(p(q(x)),a(p([x-.1,x-.3]),p([x+.1,x+.2]))),u=(x)=>(a(r(x),S>P&S<P*4|S>P*5?r(x+11.8):Z)),s=(x)=>u(x[T=(S>>45)%32]??-9e9),w=(x)=>p(q(x)).map(x=>(x*4&16)*1.8),q=(x)=>[x,x],Z=q(0),P=8<<16,S=t%(P*9),this.v??=0,R=(w,i,s)=>(v++||(x=Array(8<<10).fill(0)),y=w[1]%256+x.shift(),x.push(y*s),[y*i+w[0]*.7,y*i+w[1]*.5]),A=[38,,,38,,,38,41,,,41,,,41,,,36,,,36,,,36,38,,,38,,,38],B=[31,,,31,,,31,34,,,34,,,34,,,29,,,29,,",
+    "isTruncated": 1,
+    "author": "blower5",
+    "name": "as esport",
+    "description": "Playful and cheerful song, modulates up with time. The overall winner of \"Very Rare Formats II\" competition.",
+    "url": "https://battleofthebits.com/arena/Entry/as+esport/61968/",
+    "date": "2023-09-22",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-17"
+  }
+}

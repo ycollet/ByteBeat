@@ -1,0 +1,23 @@
+{
+  "file": "songs/0caeb98b2157ceae01d9bcf102365dd0.js",
+  "title": "WICKED HEXATRNION",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c55c2c78dbc704c72d3c30d35bd0e60cb1f0af25e976d2add00b4743ae80056f",
+  "upstream": {
+    "hash": "0caeb98b2157ceae01d9bcf102365dd0",
+    "codeLen": 418,
+    "code": "t%=2**22,m=2**([2*!(-t>>17&3),3+2*!!(t>>17&3),7+2*(t>>18&1),12][t>>12&3]/12),q=sin(t**3),k=6,i=250,f=Z=>(t+2**19)/m%(i++/4)+(k---1?f():(k=6,i=250)),2*f()/6-16+!!(t>>20)*(32*sin(3e2**(t%4096)**.01)*'10010110'[t>>12&7]+(1+.7*!(t>>11&1))*6*q*(1-t/2048%1)+!(-t>>17&7)*16*q*(t/2**17%1)**4)+!!(t>>21)*(24*sin((t/(4+(16+(t>>10)&31))|0)**3)*(1-(t+16384)/32768%1)+(f()/6^-f())/5+84)+!(-t>>20&3)*((1.01*t/m/(1+(t>>10&1))&48)-24)",
+    "author": "lhphr",
+    "name": "WICKED HEXATRNION",
+    "description": "A simple melody with a bunch of other effects alongside it.",
+    "url": "https://dollchan.net/btb/res/44.html#127",
+    "date": "2022-07-23",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

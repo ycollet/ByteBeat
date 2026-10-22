@@ -1,0 +1,24 @@
+{
+  "file": "songs/f98a4fe4acde7bcec8583acf69bfb837.js",
+  "title": "PARTY!",
+  "author": "Scary-Sand2937",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "af8a831b34b8764cf6a2545c1ec49a6487024f56d38ee153fc427f252b162f61",
+  "upstream": {
+    "hash": "f98a4fe4acde7bcec8583acf69bfb837",
+    "codeMinLen": 119,
+    "codeMin": "((t+t%[1,3,5,2][t/3>>10&3])*2**([0,1,3,5,7,8][(t>>10)%6]/12)<<(1.25*(t>>[10,11][t/3>>10&1])&3)>>1&63)-(t>>10&31|1)|t>>2",
+    "codeLen": 121,
+    "code": "((t+t%[1,3,5,2][(t/3>>10)&3])*2**([0,1,3,5,7,8][(t>>10)%6]/12)<<((t>>[10,11][t/3>>10&1])*1.25&3)>>1&63)-(t>>10&31|1)|t>>2",
+    "author": "Scary-Sand2937",
+    "name": "PARTY!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12onki0/party/",
+    "date": "2023-04-16",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

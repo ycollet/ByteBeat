@@ -1,0 +1,24 @@
+{
+  "file": "songs/9c487b6deb65c1a3c9425d01f6debefc.js",
+  "title": "Awaiting Connection",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fd31bc9050546f30ffc6157fac23b163fc212b0abed647c6d7ba4a86da921568",
+  "upstream": {
+    "hash": "9c487b6deb65c1a3c9425d01f6debefc",
+    "codeLen": 362,
+    "code": "f=(p,r=~0)=>5*t/p&r&15,z=t>>14,q=2**!(~z>>2&15),m=65536,min(t/m/2,1)*(f(98)+f(78)+f(65))+(z>>4&&(1-t/m%1)**2*(t/3.9*q&24))+(z>>5&15&&f(98/2**(z>>3&1),~t>>11)+f(78/q,~t/3>>10)+f(65/q,~t>>9))/1.5+(z>>5&7&&(~t>>11&z&1&&5e9/(1+t%999)%19)+(z>>6&7&&(t%m/3|0)**3*2.94%47*max(1-(2+t/8192)%4,0)))+(z>>6&3&&(3e2/(t/4096%1)**.4&32)*(4486609+(z>>7&1)*7665156620>>(t>>12)&1))",
+    "author": "lhphr",
+    "name": "Awaiting Connection",
+    "description": "Using no arrays is something.",
+    "url": "https://dollchan.net/btb/res/44.html#367",
+    "date": "2023-01-19",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/1a99891936677b561625362d3d435cdc.js",
+  "title": "Cover of Alone by Marshmello",
+  "author": "eSlashMachine",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1a99891936677b561625362d3d435cdc.js",
+  "sha256": "00e25c6d64d2a586e9fde4fc1210fd6dca1d724e89c1687c539540a11c42d7cc",
+  "upstream": {
+    "hash": "1a99891936677b561625362d3d435cdc",
+    "codeLen": 3155,
+    "fileOrig": 1,
+    "codeText": "SAMP_RATE = 48000,\nBPM = 142,\nbeat = BPM * (t / SAMP_RATE) / 60,\ntick = fround(beat * 40) % 640,\n\nC = 261.63,\nDb = 277.18,\nD = 293.66,",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Cover of Alone by Marshmello",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h7qrn3/cover_of_alone_by_marshmello_in_bytebeat/",
+    "date": "2024-12-06",
+    "sampleRate": 48000,
+    "coverName": "Marshmello - Alone",
+    "coverUrl": "https://youtu.be/ALZHF5UqnU4",
+    "tags": [
+      "big"
+    ]
+  }
+}

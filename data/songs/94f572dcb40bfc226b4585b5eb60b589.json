@@ -1,0 +1,31 @@
+{
+  "file": "songs/94f572dcb40bfc226b4585b5eb60b589.js",
+  "title": "Alex Winston - Scroll Block",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/94f572dcb40bfc226b4585b5eb60b589.js",
+  "sha256": "9e93f8606766af3db651dc62d77545cea3541aa4426f18350c5aa15a47132b97",
+  "upstream": {
+    "hash": "94f572dcb40bfc226b4585b5eb60b589",
+    "codeLen": 16353,
+    "fileOrig": 1,
+    "codeText": "/*\nAlex Winston - Scroll Block, covered on bytebeat by Sychamis, May 2025.\nOriginal: https://www.youtube.com/watch?v=Yas0wbcVxKw\n\nLoops at 2:00.\n\nAn attempt to faithfully cover a simple-ish AY tune in bytebeat.\nAlso my sequencer is now able to change tempos and has stable jump commands!",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Alex Winston - Scroll Block",
+    "description": "An attempt to faithfully cover a simple-ish AY tune in bytebeat.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1kbta2g/alex_winston_scroll_block/",
+      "https://youtu.be/OosUs8wZCKQ"
+    ],
+    "date": "2025-05-01",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Alex Winston - Scroll Block",
+    "coverUrl": "https://youtu.be/Yas0wbcVxKw",
+    "tags": [
+      "big"
+    ]
+  }
+}

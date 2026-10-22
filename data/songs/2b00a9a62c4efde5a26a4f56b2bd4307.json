@@ -1,0 +1,33 @@
+{
+  "file": "songs/2b00a9a62c4efde5a26a4f56b2bd4307.js",
+  "title": "Remix of Square Melody Thingy",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2b00a9a62c4efde5a26a4f56b2bd4307.js",
+  "sha256": "f9c2cf3bcff3849b695c396fc35ed59cfe9e71807d0a3b0dd4ad2add13a70e11",
+  "upstream": {
+    "hash": "2b00a9a62c4efde5a26a4f56b2bd4307",
+    "codeLen": 1673,
+    "fileOrig": 1,
+    "codeText": "t?0:(v=2**17,X=Array(256).fill(0),Y=Array(18432).fill(0),song=rev=0),u=2,p=1,l=(t/=6)*u%(v*4),k=1,d=0,\nsynth = (speed, value, radix, bandWidth = 1) => {\n\traw = parseInt((value2 = value.toString(radix))[speed % value2.length | 0], radix);\n\tX[++d] = (X[d] * bandWidth + raw) / (bandWidth + 1);\n\td++;\n\treturn X[--d]\n},\npitch = (speed = t, transpose = 0) => {",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Remix of Square Melody Thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14sj7y0/remix_of_square_melody_thingy/",
+    "date": "2023-07-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "d86650080805cb9767f07274f23c7290",
+        "author": "Decent-Manager-6169",
+        "name": "Square Melody thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11x8lox/square_melody_thingy/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

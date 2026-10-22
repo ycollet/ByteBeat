@@ -1,0 +1,23 @@
+{
+  "file": "songs/a273ee81937524a7774011e53cd74c89.js",
+  "title": "my last brain cell",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2e3f193ec2dd281c5f7295f819f0ffb740a04345da1d4f29ff0962008305d188",
+  "upstream": {
+    "hash": "a273ee81937524a7774011e53cd74c89",
+    "codeLen": 30,
+    "code": "(t*t/(t%8192)|t>>2)*(t>>12)>>4",
+    "author": "Zackx",
+    "name": "my last brain cell",
+    "url": "https://dollchan.net/btb/res/204.html#2444",
+    "date": "2023-10-12",
+    "sampleRate": 11025,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/e0fe442cd2e3ba91c719b2351e66e5d1.js",
+  "title": "(INHALE) A gasoline or electric-powered vehicle used for land transportation also known as an automobile in a timeline far forward than ours",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e0fe442cd2e3ba91c719b2351e66e5d1.js",
+  "sha256": "e6a3ba014134a340fe59aa07b88466b922f6b458f78eba4cf1e4a91b2bbfd9a4",
+  "upstream": {
+    "hash": "e0fe442cd2e3ba91c719b2351e66e5d1",
+    "codeLen": 2383,
+    "fileOrig": 1,
+    "codeText": "/*\n * (INHALE) A gasoline or electric-powered vehicle \n * used for land transportation also known as an \n * automobile in a timeline far forward than ours\n * by troubleshoot\n * (remix of \"Future Car\" by Zackx)\n */\n",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "(INHALE) A gasoline or electric-powered vehicle used for land transportation also known as an automobile in a timeline far forward than ours",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1lgwh33/inhale_a_gasoline_or_electricpowered_vehicle_used/",
+    "date": "2025-06-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "de6bfc7f9e676d560ec374f3fb3ba5e4",
+        "author": "Zackx",
+        "name": "Future car",
+        "url": "https://dollchan.net/btb/res/204.html#964"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

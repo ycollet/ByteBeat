@@ -1,0 +1,23 @@
+{
+  "file": "songs/2c69b98eaa83c8d1d9bfbc71067737c8.js",
+  "title": "Trivial Interpolated Pitch",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "52fa1e88cd4b8e5fe15c011014b8b3df99df395a27ed42627d79ceea3b34f957",
+  "upstream": {
+    "hash": "2c69b98eaa83c8d1d9bfbc71067737c8",
+    "codeLen": 148,
+    "code": "t||(p=0),T=q=>2**(q/12),m='0/4/7/4/0 477 4 ',i=t/8192%m.length,I=i|0,dp=[0,T(m[I+1]-(m[I+1]-m[I-1])*(1-i%1)),T(m[i|0])].at(' /'.indexOf(m[I])),p+=dp",
+    "author": "May_I_Change_My_Name",
+    "name": "Trivial Interpolated Pitch",
+    "description": "The / character in the string fills its time slot with a slide from the previous pitch to the next.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15jjbff/trivial_interpolated_pitch/",
+    "date": "2023-08-06",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

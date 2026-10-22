@@ -1,0 +1,25 @@
+{
+  "file": "songs/44f1c7528c1ad18072b7ac065cb25625.js",
+  "title": "a robotic voice",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "93cd58e5faf936fb43675e202e0f7d2b3c96a9c59b594e2974267889b3bde4fd",
+  "upstream": {
+    "hash": "44f1c7528c1ad18072b7ac065cb25625",
+    "codeMinLen": 46,
+    "codeMin": "sin(t/((t>>13)%4+5)%20)*128+128^t>>5|t>>4^t/90",
+    "codeLen": 53,
+    "code": "sin(t/[5,6,7,8][(t>>13)%4]%20)*128+128^t>>5|t>>4^t/90",
+    "author": "Glebguything",
+    "name": "a robotic voice",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10xv1w7/a_robotic_voice/",
+    "date": "2023-02-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

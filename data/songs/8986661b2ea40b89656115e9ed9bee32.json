@@ -1,0 +1,25 @@
+{
+  "file": "songs/8986661b2ea40b89656115e9ed9bee32.js",
+  "title": "got some 303",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8986661b2ea40b89656115e9ed9bee32.js",
+  "sha256": "17a6000cd43a4915dae775c94ac2806c3be29ad023bd2f46f71f33e2392da83a",
+  "upstream": {
+    "hash": "8986661b2ea40b89656115e9ed9bee32",
+    "codeLen": 4921,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - got some 303\n *\n */\n\nvar sampleRate = 48000;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "got some 303",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

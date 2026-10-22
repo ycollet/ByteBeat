@@ -1,0 +1,24 @@
+{
+  "file": "songs/43f5f96df7f83076d31b9f2c4340db59.js",
+  "title": "Untitled (43f5f96d)",
+  "author": "isislovecruft",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fe4704d30af23f45ce99b696e930415d9f95c02840b99185aba98c30025f6366",
+  "upstream": {
+    "hash": "43f5f96df7f83076d31b9f2c4340db59",
+    "codeMinLen": 27,
+    "codeMin": "(t*(t>>13|t>>8)|t>>16^t)-64",
+    "codeLen": 31,
+    "code": "((t*(t>>13|t>>8))|(t>>16)^t)-64",
+    "author": "isislovecruft",
+    "url": "https://www.noisebridge.net/wiki/Bytebeat",
+    "date": "2012-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

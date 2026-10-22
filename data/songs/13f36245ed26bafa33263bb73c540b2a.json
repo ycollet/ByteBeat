@@ -1,0 +1,36 @@
+{
+  "file": "songs/13f36245ed26bafa33263bb73c540b2a.js",
+  "title": "Real-time Spectral FFT test",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/13f36245ed26bafa33263bb73c540b2a.js",
+  "sha256": "cc9da8cfd38805a94d97d6cecd35ea855a21e170579b6d5a65c97fa88c09a50a",
+  "upstream": {
+    "hash": "13f36245ed26bafa33263bb73c540b2a",
+    "codeLen": 4997,
+    "fileOrig": 1,
+    "codeText": "    mod=(n,m)=>(n%m+m)%m,fract=x=>(x%1+1)%1,\n    TAU=Math.PI*2,sine=x=>Math.sin(TAU*x),\n    mix=(a,b,t)=>a+(b-a)*t,\n    pulse=x=>fract(x)<.5?1:-1,\n    sinRnd=x=>fract(Math.sin(x*15345.733*Math.sin(x*2342.51))),\n    dot=(a,b)=>a.map((x,i)=>a[i]*b[i]).reduce((m,n)=>m+n),\n    clamp=(x,mn,mx)=>Math.min(Math.max(x,mn),mx),\n    saturate=x=>Math.min(Math.max(x,0),1),",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "Real-time Spectral FFT test",
+    "description": "Feel like it's still unfinished.",
+    "url": "https://dollchan.net/btb/res/3.html#5878",
+    "date": "2025-04-18",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "501d4f3abfcd2c38f741988bdeef9200",
+        "author": "Funcbeat Anon",
+        "name": "Drum sound palette test",
+        "url": "https://dollchan.net/btb/res/3.html#5859"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-01"
+  }
+}

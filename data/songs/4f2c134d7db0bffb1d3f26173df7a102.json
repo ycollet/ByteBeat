@@ -1,0 +1,33 @@
+{
+  "file": "songs/4f2c134d7db0bffb1d3f26173df7a102.js",
+  "title": "update",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4f2c134d7db0bffb1d3f26173df7a102.js",
+  "sha256": "90ddd2f6c60b02cc763e2dc77bc65576750f5f860dd1bd3be88160f821a27c92",
+  "upstream": {
+    "hash": "4f2c134d7db0bffb1d3f26173df7a102",
+    "codeLen": 1989,
+    "fileOrig": 1,
+    "codeText": "Bpm = 125,\r\nHz = 48000,\r\ntf = ((((t/(Hz/128)/60)*256)*Bpm))/2,\r\n\r\nPulse = (x,y)=>((t*y&255) >= (x&255))*255,\r\nx = (tf>>12)&15,\r\n\r\nzz = abs((tf>>8)%512-256), \r",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "update",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c9nkpa/update/",
+    "date": "2024-04-21",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "1e0ab38cc47e14a48ef4e7d6718b2395",
+        "author": "D3nschøt",
+        "name": "an update from a post that sounds like dubstep but really isn't supposed to",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1c8da1r/idk_an_update_from_a_post_that_sounds_like/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/c62472f5d0e26423a8dd24044e974069.js",
+  "title": "PWM MUISC remix",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "318d1bef21d75f94fecd5fd65fdb094d7ba668395c33072a40d2fc073823448b",
+  "upstream": {
+    "hash": "c62472f5d0e26423a8dd24044e974069",
+    "codeMinLen": 272,
+    "codeMin": "e=4,p=1.24,p2=1.001,z=[2,2,1,0,1,0,1,0,.888,.888,1,1,1.5,1.5,.5,.5][(t>>11)%16]*p,6*[1,2,5,5,6,12,7,8,10,6,4,9,4,3,2,9,2,2,4,5][(z*t>>e)%20]+6*[1,2,5,5,6,12,7,8,10,6,4,9,4,3,2,9,2,2,4,5][(p2*z*t>>e)%20]+63+(beat=function(a){return 60*sin(30*cbrt(a/80))},beat(t%16384))/1.5",
+    "codeLen": 258,
+    "code": "e=4,p=1.24,p2=1.001,z=[2,2,1,0,1,0,1,0,.888,.888,1,1,1.5,1.5,.5,.5][(t>>11)%16]*p,\n[1,2,5,5,6,12,7,8,10,6,4,9,4,3,2,9,2,2,4,5][(z*t>>e)%20]*6+[1,2,5,5,6,12,7,8,10,6,4,9,4,3,2,9,2,2,4,5][(p2*z*t>>e)%20]*6+63+((beat=t=>sin(cbrt(t/80)*30)*60),beat(t%16384))/1.5",
+    "author": "Zackx",
+    "name": "PWM MUISC remix",
+    "url": "https://dollchan.net/btb/res/204.html#264",
+    "date": "2022-11-29",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "1d76589655cdd76c7887a731356f8f3e",
+        "author": "rubi",
+        "name": "-PWM MUSIC-",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s27xzz/pwm_muisc/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

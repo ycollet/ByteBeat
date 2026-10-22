@@ -1,0 +1,29 @@
+{
+  "file": "songs/afe8c32b630cf8138a2c5820958e2a4d.js",
+  "title": "XO-TRACKER: 1-BIT BAD APPLE",
+  "author": "Kouzerumatsu",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/afe8c32b630cf8138a2c5820958e2a4d.js",
+  "sha256": "c4250a4c89db9a1fc79c6d936085258c9db8951d98c97c38bd1045fbaa4c4bb7",
+  "upstream": {
+    "hash": "afe8c32b630cf8138a2c5820958e2a4d",
+    "codeLen": 39200,
+    "fileOrig": 1,
+    "codeText": "t>0?((t<tickran?0:performTick()),k+=(getSamp()-l/1)/1,l+=(k-l)/4,m+=(l-n)/4,n+=(m-n)/2,(l-n)/1.5):(\nk=0,l=0,m=0,n=0,tickran=0,\n// XO-Tracker port, the song as this https://www.youtube.com/watch?v=xuL8QjwTy94\nsmpData = [ // SAMPLE BUFFER DATA  [ 128 bytes ]\n    0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,  // 0x00 |        Silence\n    0xF0,0x00,0x00,0x00,0xF0,0x00,0x00,0x00,0xF0,0x00,0x00,0x00,0xF0,0x00,0x00,0x00,  // 0x10 |  12.5% Pulse Duty\n    0xFF,0x00,0x00,0x00,0xFF,0",
+    "isTruncated": 1,
+    "author": "Kouzerumatsu",
+    "name": "XO-TRACKER: 1-BIT BAD APPLE",
+    "url": "https://dollchan.net/btb/res/415.html#423",
+    "date": "2023-02-19",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

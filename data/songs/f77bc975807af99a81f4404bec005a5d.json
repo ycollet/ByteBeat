@@ -1,0 +1,27 @@
+{
+  "file": "songs/f77bc975807af99a81f4404bec005a5d.js",
+  "title": "true phonk i made in bytebeat lol",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b4fc90191e7b6e3d50f19625f188f4ddb4854ed90051479ea00ffb91966bc6f7",
+  "upstream": {
+    "hash": "f77bc975807af99a81f4404bec005a5d",
+    "codeMinLen": 127,
+    "codeMin": "this.a??=0,r=t/1.25,p=t*2**('25259474'[7&r>>13]/12)/2.1,a=(a*24+(p%88+p%59*6/4-64)/(r/'4142'[3&r>>13]%4096+128)**.7*64)/32,a/12",
+    "codeLen": 144,
+    "code": "this.a??=0,r=t/1.25,p=t*2**(parseInt('25259474'[7&r>>13],36)/12)/2.1,a=(a*24+((p%88+p%59*6/4)-64)/((r/'4142'[3&r>>13]%4096+128)**.7)*64)/32,a/12",
+    "author": "Zackx",
+    "name": "true phonk i made in bytebeat lol",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14t39du/the_true_phonk_i_made_in_bytebeat_lol",
+    "date": "2023-07-07",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-12-25"
+  }
+}

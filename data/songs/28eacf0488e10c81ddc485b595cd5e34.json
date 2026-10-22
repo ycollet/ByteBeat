@@ -1,0 +1,30 @@
+{
+  "file": "songs/28eacf0488e10c81ddc485b595cd5e34.js",
+  "title": "Love Me Do",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/28eacf0488e10c81ddc485b595cd5e34.js",
+  "sha256": "fb99123253d412bf8e50a0cf3ba837ae279d3790eaab161ad7fcbc4c0154a8c5",
+  "upstream": {
+    "hash": "28eacf0488e10c81ddc485b595cd5e34",
+    "codeLen": 3875,
+    "fileOrig": 1,
+    "codeText": "/*\nTWO2FALL\nLove Me Do - BYTEBEAT COVER\n[]=====================================================[]\n\nThis cover was so easy to make. I will start using the TTT note system to create covers because it is so versatile.\n\nI like this song so much so I have created this cover to make you hear it. I hope you like it!",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Love Me Do",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1m7nm0n/love_me_do_bytebeat_cover/",
+    "date": "2025-07-24",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "The Beatles - Love me Do",
+    "coverUrl": "https://youtu.be/Jbt8oH5Lxto",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-12-10",
+    "date_edited": "2025-12-10"
+  }
+}

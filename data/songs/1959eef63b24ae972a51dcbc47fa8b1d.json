@@ -1,0 +1,32 @@
+{
+  "file": "songs/1959eef63b24ae972a51dcbc47fa8b1d.js",
+  "title": "fimmer (stimmer with resonance filter applied)",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "50929ea8412602269161a3fe4966fc2c5007891a5cb02f46db07be3665a71e9b",
+  "upstream": {
+    "hash": "1959eef63b24ae972a51dcbc47fa8b1d",
+    "codeMinLen": 269,
+    "codeMin": "t/=4,h=1+(i=0),lp=(d,k)=>(this[h]??=0,this[i]??=0,g=(k,h,i)=>min(max(this[i]+=(this[h]+=d/4+64-this[i])-(this[h]/=1+k/48E3),0),255),h+=2,i+=2,g(k,h-2,i-2)),lp(t*(4|t>>13&3)>>(~t>>11&1)&128,max(1E6/(t%2048),1E3))+lp(t*(t>>11&t>>13)*(~t>>9&3)&127,2*max(1E6/(t%2048),1E3))",
+    "codeLen": 274,
+    "code": "t/=4,h=1+(i=0),lp=(d,k)=>(this[h]??=0,this[i]??=0,g=(k,h,i)=>min(max(this[i]+=(this[h]+=d/4+64-this[i])-(this[h]/=(1+k/48000)),0),255),h+=2,i+=2,g(k,h-2,i-2)),lp(t*(4|t>>13&3)>>(~t>>11&1)&128,max(1e6/(t%2048),1000))+lp(t*(t>>11&t>>13)*(~t>>9&3)&127,max(1e6/(t%2048),1000)*2)",
+    "author": "PortablePorcelain",
+    "name": "fimmer (stimmer with resonance filter applied)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16gs1yk/fimmer_stimmer_with_resonance_filter_applied/",
+    "date": "2023-09-12",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

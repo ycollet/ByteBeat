@@ -1,0 +1,31 @@
+{
+  "file": "songs/a5ede3ac7d09de035734f4016b4de171.js",
+  "title": "Funky Stars ported",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a5ede3ac7d09de035734f4016b4de171.js",
+  "sha256": "e79f3fec99e81224e1d58f8c597e5ccf9e5feb704abf6f83426c3457db99e8f3",
+  "upstream": {
+    "hash": "a5ede3ac7d09de035734f4016b4de171",
+    "codeLen": 16252,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{let F=globalThis._F;if(!F||F.k!==451285449){let Mx=max,Mn=min,Fl=floor,Ci=ceil,Rd=round,Ab=abs,Sn=sin,Cs=cos,Th=tanh,A=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~\",P=\"CV$LgG#8|WKx6m_9tX.{wi[HM900=BQr3f7wbkn.4U=:uv;Vr[7%)1MFjIpZSiH:,5^$xXeiQndroPpIj&j_6$Os[ifhqpMQO-ERWl-dsC>H_19g,eTC>m^tjfG^Vzp>.=kvMHQi)/ah2<h9|9,~~kjWY8MOa}@qcrpUGJ@8%w7:7,qMiO)MWG>2gX$q|lc7LEntXBC8V1Fe12($>,P1R1(qM@g2qsk|$mS<MsaB7DHDRXc3oL[/b%7},xDyvzyls3?Jp3nz_GkU<GKv)DCYTJYU!",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "Funky Stars ported",
+    "url": "https://www.bytebeat.cloud/post/c89367b8-3b49-44f3-a286-629f311bcaa3",
+    "date": "2026-10-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Quazar of Sanxion - Funky Stars",
+    "coverUrl": "https://youtu.be/8LiTxEUxSHU",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2026-10-17",
+    "date_edited": "2026-10-18"
+  }
+}

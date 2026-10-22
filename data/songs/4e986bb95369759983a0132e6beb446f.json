@@ -1,0 +1,38 @@
+{
+  "file": "songs/4e986bb95369759983a0132e6beb446f.js",
+  "title": "The FM but as a Song",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 37589,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4e986bb95369759983a0132e6beb446f.js",
+  "sha256": "bc4a68a416cda504ccc1f18aae7f7ef48a1cdecc2258ea46e9cb196e52c3448a",
+  "upstream": {
+    "hash": "4e986bb95369759983a0132e6beb446f",
+    "codeMinLen": 931,
+    "codeLen": 973,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "[min(max((Multiplier=2**(0/12),BeatsPerMinute=117.19*Multiplier,SampleRate=32000*Multiplier,ArraySpeed=abs(t/SampleRate/180*3*32768*BeatsPerMinute),z=t*2**(([0,12,19,24,26,27,31,36][(ArraySpeed>>14)%8]-22.95)/12),z2=t*2**(([0,2,3,5][(ArraySpeed>>18)%4]-23)/12),v=x=>sin(x*PI/255+sin(x*PI/128)),l=0,t?0:a=Array(n=24576).fill(0),f=(z,z2,v)=>sin(l++<z?f(z,z2,v)-v:(l=0,v)),x=a.shift(),y=64*v(4*z)+0,y2=64*v(4*z2)+64,a.push(y/3+y2-2-a[n/2]/4+a[n/4]/3),x+64),0),255)-128,min(max((Multiplier=2**(1/12),BeatsPerMinute=1",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "The FM but as a Song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fstshp/the_fm_but_as_a_song_stereo/",
+    "date": "2024-09-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 37589,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "8de1f0ebcf4fd52c6466213ab8a7aba9",
+        "author": "D3nschøt",
+        "name": "the pulse but as the song",
+        "url": "https://youtu.be/hp0RUcEe3qA?si=0CyKCEnXCkFit12N"
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-12-07"
+  }
+}

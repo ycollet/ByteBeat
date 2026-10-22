@@ -1,0 +1,24 @@
+{
+  "file": "songs/c372eb96bb63a4eff806c7ca61b3d53b.js",
+  "title": "2-bit song",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9b730f35768ca3ecb56157c47a4aa826f2df0a165ea127ffb3556c747184f46b",
+  "upstream": {
+    "hash": "c372eb96bb63a4eff806c7ca61b3d53b",
+    "codeMinLen": 77,
+    "codeMin": "(2.75**(-t/2048%8+8)&128)+(t*(t&t>>11)&64)|t/[2,2,2,2,3,3,4,4][(t>>14)%8]&128",
+    "codeLen": 79,
+    "code": "(pow(2.75,-t/2048%8+8)&128)+(t*(t&t>>11)&64)|t/[2,2,2,2,3,3,4,4][(t>>14)%8]&128",
+    "author": "RealZynx92",
+    "name": "2-bit song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q36kta/2bit_song/",
+    "date": "2021-10-07",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

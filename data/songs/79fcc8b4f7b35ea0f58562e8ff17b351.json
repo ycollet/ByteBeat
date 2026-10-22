@@ -1,0 +1,24 @@
+{
+  "file": "songs/79fcc8b4f7b35ea0f58562e8ff17b351.js",
+  "title": "hard life",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "548dff2a2b196b1d841637b03de284165c169139033fd055e692f793f716a3fd",
+  "upstream": {
+    "hash": "79fcc8b4f7b35ea0f58562e8ff17b351",
+    "codeMinLen": 150,
+    "codeMin": "bass=[1,1.12,.75,.66,.592,.66,.75,.89][7&t>>15]*1.32,z=[1,1.12,1.5,1.78,1,1.12,.75,.669][7&t>>15]*1.32,(z*t%256+z*-t%257+bass*t%512+bass*-t%514)/9+128",
+    "codeLen": 150,
+    "code": "bass=[1,1.12,.75,.66,.592,.66,.75,.9][7&t>>15]*1.32,\nz=[1,1.12,1.5,1.78,1,1.12,.75,.669][7&t>>15]*1.32,(z*t%256+z*-t%257+bass*t%512+bass*-t%514)/9+128",
+    "author": "Zackx",
+    "name": "hard life",
+    "url": "https://dollchan.net/btb/res/204.html#260",
+    "date": "2022-11-27",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "songs/022181f288da4db822c8b44c889c0b49.js",
+  "title": "Electrohouse",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "08529e8488e83cca2b10f3083874a936dcc7ca63dbe771d7ef1d3e11aa057330",
+  "upstream": {
+    "hash": "022181f288da4db822c8b44c889c0b49",
+    "codeMinLen": 43,
+    "codeMin": "t>>t%(t%2?t&32768?41:t&16384?51:61:34)&t>>4",
+    "codeLen": 66,
+    "code": "t>>(((t%2?t%((t>>13)%8>=2?((t>>13)%8>=4?41:51):61):t%34)))|(~t>>4)",
+    "author": "Anonymous from russian imageboards",
+    "name": "Electrohouse",
+    "description": "Part of the \"Extraordinary thread of FRACTAL MUSIC\"",
+    "url": [
+      "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+      "http://arhivach.xyz/thread/28592/#71681785",
+      "http://arhivach.ng/thread/28592/#71681785"
+    ],
+    "date": "2014-07-12",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-10-28"
+  }
+}

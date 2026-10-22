@@ -1,0 +1,30 @@
+{
+  "file": "songs/1e010d2039db942bfca8f1477f6fc8c4.js",
+  "title": "cover of \"Sparta Atari Base\"",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1e010d2039db942bfca8f1477f6fc8c4.js",
+  "sha256": "fc472e333cf79717ab45835757ce7a26c2599b096bc6758d006d5c62709afd90",
+  "upstream": {
+    "hash": "1e010d2039db942bfca8f1477f6fc8c4",
+    "codeMinLen": 1076,
+    "codeLen": 1096,
+    "codeFormLen": 1628,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "T=1.15*t,k=T>>11,c=([a=4E4*random()/(T&4095),a,0,0,a,a,0,0,a,0,b=4E4*random()/(T&2047),0,b,b,4E4*random()/(T&1023),4E4*random()/(T&511)][k&15]&255)%256/2,d=(4E4*random()/(T&[4095,4095,4095,2047][T>>12&3])&255)%256/2,e=t*(0xAFEDC320>>t/2.65*2**([-3,4,-3,4,-2,5,-2,5,-5,2,-5,2,-2,5,-2,5][k&15]/12)&1)&&64,f=t*(0xAFEDC320>>t/2.65*2**([-15,-14,-17,-14][T>>13&3]/12)&1)&&64,g=4*t*[2.5,-2.5,2.6,-2.6,2.2,-2.2,2.6,-2.6][T>>12&7]&64,h=t*[1.25,,1.25,,1.3,,1.3,,1.1,,1.1,,1.3,,1.3][k&15]&64,i=(t*2**([16,,23,,29,,24,,14,,2",
+    "isTruncated": 1,
+    "author": "ANoUserXD",
+    "name": "cover of \"Sparta Atari Base\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/155a8c0/cover_of_sparta_atari_base_completed/",
+    "date": "2023-07-21",
+    "sampleRate": 8000,
+    "coverName": "Teh36thSpartan - Sparta Atari Base",
+    "coverUrl": "https://youtu.be/lOp5sN16DZs",
+    "tags": [
+      "big"
+    ]
+  }
+}

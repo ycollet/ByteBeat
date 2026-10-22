@@ -1,0 +1,29 @@
+{
+  "file": "songs/9e4be7d82ba8992cf7a240cec87c41da.js",
+  "title": "kotofejka",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9e4be7d82ba8992cf7a240cec87c41da.js",
+  "sha256": "d4c82259870ef365fca131814509157e90602f6abada38e433a04ae4b391ce58",
+  "upstream": {
+    "hash": "9e4be7d82ba8992cf7a240cec87c41da",
+    "codeMinLen": 196,
+    "codeMin": "m=parseInt('kotojotohotojotokqtaketqkqtaketa'[(t>>13|(t>>10^t>>14)*(t>>14&1))%32],36)/((t>>16^t>>14)&1?1:1.5),n=((t/3*m&64)+(t/4*m&64))*~t>>10,o=6E3*sin(t)&63&~t>>((t>>12|t>>15)&1?6:9),(n&255)/2+o",
+    "codeLen": 215,
+    "fileOrig": 1,
+    "codeText": "m=parseInt('kotojotohotojotokqtaketqkqtaketa'[(t>>13|(t>>10^t>>14)*(t>>14&1))%32],36)/((t>>16^t>>14)&1?1:1.5),n=((t/3*m&64)+(t/4*m&64))*~t>>10,o=6E3*sin(t)&63&~t>>((t>>12|t>>15)&1?6:9),(n&255)/2+o",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "kotofejka",
+    "url": [
+      "https://dollchan.net/btb/res/27.html#2295",
+      "https://www.reddit.com/r/bytebeat/comments/16v857w/kotofejka/"
+    ],
+    "date": "2023-09-16",
+    "sampleRate": 16000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/88c3d373d98c64b0c05c10b25ed79155.js",
+  "title": "modemfunk",
+  "author": "mineralcoinboi224",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "115fbdf79d4e3ef022fb6447323986749b7dcde275973404cfd472e6b257dfeb",
+  "upstream": {
+    "hash": "88c3d373d98c64b0c05c10b25ed79155",
+    "codeMinLen": 61,
+    "codeMin": "abs(t*(t&t>>12&t>>12&t>>13)/2%256-127.5)*2&t>>6|4E5/(t&16383)",
+    "codeLen": 67,
+    "code": "abs((t*((t&t>>12&t>>12)&(t>>13))/2)%256-127.5)*2&t>>6|4e5/(t&16383)",
+    "author": "mineralcoinboi224",
+    "name": "modemfunk",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fgjwfb/modemfunk/",
+    "date": "2024-09-14",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "d871f695a9268fbd58377983af5ae719",
+        "author": "krcko",
+        "name": "Modem melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

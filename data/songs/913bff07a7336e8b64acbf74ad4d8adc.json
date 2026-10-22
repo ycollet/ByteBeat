@@ -1,0 +1,33 @@
+{
+  "file": "songs/913bff07a7336e8b64acbf74ad4d8adc.js",
+  "title": "slightly improved version of rrola's",
+  "author": "aturned777",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "227db53507190c71a810f98ce67235c1ecd2a5df39caa0c81b5dd5187d023757",
+  "upstream": {
+    "hash": "913bff07a7336e8b64acbf74ad4d8adc",
+    "codeMinLen": 40,
+    "codeMin": "t*(0xCA98CA98CA98>>(t>>9&t>>10)&15)&t>>8",
+    "codeLen": 42,
+    "code": "t*(0xCA98CA98CA98>>(t>>9&(t>>10))&15)&t>>8",
+    "author": "aturned777",
+    "name": "slightly improved version of rrola's",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11t7y2b/slightly_improved_version_of_rrolas/",
+    "date": "2023-03-17",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

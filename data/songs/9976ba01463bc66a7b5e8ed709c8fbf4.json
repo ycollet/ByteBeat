@@ -1,0 +1,25 @@
+{
+  "file": "songs/9976ba01463bc66a7b5e8ed709c8fbf4.js",
+  "title": "sparta c thingy",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 7680,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "98c56b2ca29270b883108297b67200de3e523921983b6c566b1fcfef2ac25e30",
+  "upstream": {
+    "hash": "9976ba01463bc66a7b5e8ed709c8fbf4",
+    "codeLen": 135,
+    "code": "(t%131072>98304?(1+(t>>11&3))*2:t%262144>32768&&t>>11&1?-t&32768?4:3:2)*t/4%(t&8192?48:t&16384?57:51)*(t%262144<32768?-t>>11&1:1)*4&128",
+    "author": "hcdphobe",
+    "name": "sparta c thingy",
+    "url": "https://dollchan.net/btb/res/163.html#2892",
+    "date": "2024-01-06",
+    "sampleRate": 7680,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

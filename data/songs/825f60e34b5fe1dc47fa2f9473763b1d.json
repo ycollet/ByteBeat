@@ -1,0 +1,28 @@
+{
+  "file": "songs/825f60e34b5fe1dc47fa2f9473763b1d.js",
+  "title": "Final Run",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/825f60e34b5fe1dc47fa2f9473763b1d.js",
+  "sha256": "d8e156462d999c007418f1d2397ed1ce4ee53457d98d49f7834ec0bef39ba9eb",
+  "upstream": {
+    "hash": "825f60e34b5fe1dc47fa2f9473763b1d",
+    "codeMinLen": 511,
+    "codeMin": "this.rvA??=[],rvI=0,$A=t==0,rv=(X,L)=>((t&&!(rvA[rvI]==undefined))||(rvA.push(Array(L).fill(0))),rvA[rvI][t%L]=rvA[rvI++][t%L]/2+(X&255)/2),C=(arr,$,_=2)=>arr.map(a=>isNaN(a)?0:((t/_*(2**((a+1)/12)))&$)).reduce((a,b)=>a+b),Q=$=>$==' '?NaN:parseInt($,36)-12,A=C([[2,5,9],[0,5,9],[3,9,10],[-3,5,9],[2,5,9],[0,5,9],[5,9,10],[0,9,12]][t>>16&7],32,4)*1.00002**(-t%65536),B=C([Q(['EHLHE','CHL O','AHL O','9HL J','EHLHE','CHL Q','AHL J','CHL J H '][t>>16&7][t>>13&7])],64,.5)*1.0003**(-t%8192),(t>>19?rv(B,8192)*2:0)+A",
+    "codeLen": 628,
+    "fileOrig": 1,
+    "codeText": "this.rvA??=[],rvI=0,$A=t==0,rv=(X,L)=>((t&&!(rvA[rvI]==undefined))||(rvA.push(Array(L).fill(0))),rvA[rvI][t%L]=rvA[rvI++][t%L]/2+(X&255)/2),C=(arr,$,_=2)=>arr.map(a=>isNaN(a)?0:((t/_*(2**((a+1)/12)))&$)).reduce((a,b)=>a+b),Q=$=>$==' '?NaN:parseInt($,36)-12,A=C([[2,5,9],[0,5,9],[3,9,10],[-3,5,9],[2,5,9],[0,5,9],[5,9,10],[0,9,12]][t>>16&7],32,4)*1.00002**(-t%65536),B=C([Q(['EHLHE','CHL O','AHL O','9HL J','EHLHE','CHL Q','AHL J','CHL J H '][t>>16&7][t>>13&7])],64,.5)*1.0003**(-t%8192),(t>>19?rv(B,8192)*2:0)+A",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Final Run",
+    "description": "Beautiful chords with echo.",
+    "url": "https://dollchan.net/btb/res/756.html#2510",
+    "date": "2023-10-21",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-06"
+  }
+}

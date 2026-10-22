@@ -1,0 +1,38 @@
+{
+  "file": "songs/2414457e84673cd1695092222f95a330.js",
+  "title": "End of Ice Age",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/2414457e84673cd1695092222f95a330.js",
+  "sha256": "c802e9c655c62361dcb401c873b7d71bad0865feb5f25a2cf8aaa9621ba5426f",
+  "upstream": {
+    "hash": "2414457e84673cd1695092222f95a330",
+    "codeMinLen": 1214,
+    "codeFormLen": 2457,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=44100,b=(105*t/60)%256,C=262,D=294,EE=330,Gb=370,G=392,A=440,B=494,W=a=>a*1E-4*sin(44*t),R=(f,...a)=>f(...a,0)+.8*f(...a,.4)+.6*f(...a,.8)+.4*f(...a,1.2),P=(p,e)=>18*(.7*(p*(t+W(5))*[C,D,EE,D,C,D,B/2,C][((b-e)>>1)%8]%2)|0),T=(p,e)=>.3*(abs(((255*p*(t+W(4))*[D,Gb,G,B,EE,Gb,G,Gb,D,EE,G,A,EE,Gb,G,Gb][((b-e)>>1)%16])&255)-128)),N=(a,s,l,p)=>a[(s*b|0)%l]*(1E5*sin((t*p|0)**2)&255),k=b>32,l=b<128,m=b>160,n=b<192,((b>80&&l||m&&n)&&53*(b*(256>>32*b)%2|0))+((b>64&&l||b>144&&n)&&N('100000001000000011111100100010001",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "End of Ice Age",
+    "description": "\"For thousands of years there was a world of glaciers, snowy expanses and ice caves. But the earth is changing. Giant ice walls are crumbling, falling in huge chunks. Here and there the first flowers bloom and the grass turns green. The first spring is coming to these lands...\" Spring Tracks XI battle - 2nd place (bytebeat).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/End+of+Ice+Age/53085/",
+      "https://www.reddit.com/r/bytebeat/comments/v6522p/end_of_ice_age/"
+    ],
+    "date": "2022-05-02",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "02500c58bcd8578d7a454485fad890ba",
+        "author": "SthephanShi",
+        "name": "Antarctica",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ufxliq/antarctica/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

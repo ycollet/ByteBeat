@@ -1,0 +1,32 @@
+{
+  "file": "songs/7e0b3d512c3a05654414f2aa7c13abc0.js",
+  "title": "Stimmer but with Hihat and Crash",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a320a5063f54a24644a358518522ae5ab7720fa702fd955b5767661cb4004c37",
+  "upstream": {
+    "hash": "7e0b3d512c3a05654414f2aa7c13abc0",
+    "codeMinLen": 135,
+    "codeMin": "a=((t*(4|7&t>>13)>>(~t>>11&1)&128)+(t*(t>>11&t>>13)*(~t>>9&3)&127))/2,b=(t*random()|t>>6)&63*'01'[t>>12&1],c=(t*random()|t>>4)&32,a+b+c",
+    "codeLen": 147,
+    "code": "a=((t*(4|7&t>>13)>>(~t>>11&1)&128)+(t*(t>>11&t>>13)*(~t>>9&3)&127))/2,\nb=(t*Math.random()|t>>6)&63*\"01\"[t>>12&1],\nc=(t*Math.random()|t>>4)&32,a+b+c",
+    "author": "Decent-Manager-6169",
+    "name": "Stimmer but with Hihat and Crash",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rrt7xo/stimmer_but_with_hihat_and_crash/",
+    "date": "2021-12-30",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

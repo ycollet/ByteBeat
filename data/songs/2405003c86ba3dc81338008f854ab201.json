@@ -1,0 +1,25 @@
+{
+  "file": "songs/2405003c86ba3dc81338008f854ab201.js",
+  "title": "i make a beautiful thing!",
+  "author": "akurwtools",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c54e4e3846a7cca77b984dbc00ca4cce4c55be4d74c1457ca6c64c570bb6a4e5",
+  "upstream": {
+    "hash": "2405003c86ba3dc81338008f854ab201",
+    "codeMinLen": 120,
+    "codeMin": "((d=t*1.25*[1,1.25,1.35,1.5][t>>14&3])/4%64+d/16%64.249&t>>8)+(d/4%64+d/8%64&32)+(d/4%64+d/4%64&32)+(d/4%64+d/4%64.5&32)",
+    "codeLen": 132,
+    "code": "d=t*1.25*[1,1.25,1.35,1.5][(t>>14)%4],(((d/4%64+d/16%64.249)&t>>8)+((d/4%64+d/8%64)&32)+((d/4%64+d/4%64)&32)+((d/4%64+d/4%64.5)&32))",
+    "author": "akurwtools",
+    "name": "i make a beautiful thing!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1frkbxr/i_make_a_beautiful_thing/",
+    "date": "2024-09-28",
+    "sampleRate": 32768,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-25"
+  }
+}

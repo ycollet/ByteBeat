@@ -1,0 +1,34 @@
+{
+  "file": "songs/f74ee1e4c071034b03d56e5081393b28.js",
+  "title": "sounds like there is delay",
+  "author": "feeshbread",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "11276b65b0ec656148f8a8b2b5fd31b3b51195f51f5727fccca18f7d8d759bce",
+  "upstream": {
+    "hash": "f74ee1e4c071034b03d56e5081393b28",
+    "codeMinLen": 23,
+    "codeMin": "(t>>2)*(t>>6)|t>>3^t>>4",
+    "codeLen": 25,
+    "code": "(t>>2)*(t>>6)|(t>>3)^t>>4",
+    "author": "feeshbread",
+    "name": "sounds like there is delay",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g78kj1/comment/lstloac/",
+    "date": "2024-10-20",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "0f35201729ee67d8574c5bc49e0907e9",
+        "author": "Trollge-Guy",
+        "name": "swing rhythm",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g78kj1/comment/lstloac/"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-08"
+  }
+}

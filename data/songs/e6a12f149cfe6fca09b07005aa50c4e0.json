@@ -1,0 +1,30 @@
+{
+  "file": "songs/e6a12f149cfe6fca09b07005aa50c4e0.js",
+  "title": "Chord Progression Player/Parser",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e6a12f149cfe6fca09b07005aa50c4e0.js",
+  "sha256": "f17838fb8e3e5e31a05bfb503c8c2ecf18683724049b03ca631fe7b78761481a",
+  "upstream": {
+    "hash": "e6a12f149cfe6fca09b07005aa50c4e0",
+    "codeLen": 5321,
+    "fileOrig": 1,
+    "codeText": "let chordDic={ //integer notation excluding 0 (root)\n  \"\":[4,7], //Major\n  maj7:[4,7,11],maj9:[4,7,11,14],\n  m:[3,7], //minor\n  m7:[3,7,10],m9:[3,7,10,14],m11:[3,7,10,14,17],\n  m7b5:[3,6,10],\n  6:[4,7,9],\n  7:[4,7,10], //dominant seventh",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "Chord Progression Player/Parser",
+    "description": "A small chord progression player with generative synthesis playing Giant Steps with randomly modulated wavetable voices.",
+    "url": "https://dollchan.net/btb/res/3.html#5817",
+    "date": "2025-04-12",
+    "mode": "Funcbeat",
+    "sampleRate": 16000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-09"
+  }
+}

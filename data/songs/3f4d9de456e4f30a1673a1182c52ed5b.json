@@ -1,0 +1,33 @@
+{
+  "file": "songs/3f4d9de456e4f30a1673a1182c52ed5b.js",
+  "title": "grabbed the snare from generic dubstep",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3f4d9de456e4f30a1673a1182c52ed5b.js",
+  "sha256": "1a3c2a8cdf6d4924ac7364bb08c5ce9b1168e062e50d4cdd7e0b51ca231ca1df",
+  "upstream": {
+    "hash": "3f4d9de456e4f30a1673a1182c52ed5b",
+    "codeLen": 856,
+    "fileOrig": 1,
+    "codeText": "t>0?(C=t/48e3/7.5*20,D=1-(2*C&1),n=U,U='0010'[C%4|0]*D,U-n>0?A=a=0:A+=1/48e3,c=180*(1+3/u(800,l)),a=(a+c/48e3*PI)%PI,c=3500/(.1+900*B),b=(b+c/48e3)%1,c=2*random()-1,n=1-.4/m(20),x+=(1-n)*(c-x),f+=n*(x-f),g+=n*(f-g),c=(c-g)*(v(72*A/m(10)-3.2,2)/2+2*v(95*A,2)),h=c+cos(2*a+sin(2*PI+4*a)*v(30*A,4)/3)*v(40*A/m(3)-1,4)*(A>l),s=h,T=t/1.099,k=tanh(sin(30*sqrt(T%65536)**.4)),h=(2*random()-1)/2.5*(1-T%8192/8192)**16,d=h+o(k)+o(s),ch1=(t/1.05*2**([0,3,7,9][3&T>>18]/12)),ch2=(t/1.05*2**([3,5,5,7][3&T>>18]/12)),ch=((tan",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "grabbed the snare from generic dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hfjtta/grabbed_the_snare_from_generic_dubstep/",
+    "date": "2024-12-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "9594a76b774141a1f60daa18206f4ad8",
+        "author": "SleepingLugia",
+        "name": "generic dubstep",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14g1wag/generic_dubstep/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/06df4d1ca3ccaa737cd2a1c8da277f09.js",
+  "title": "Yung Kai - Blue",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35498.668,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/06df4d1ca3ccaa737cd2a1c8da277f09.js",
+  "sha256": "f90422a5ed8640ff40adf2abf0a6c42679631bf1529a1911aefe5d287f92e595",
+  "upstream": {
+    "hash": "06df4d1ca3ccaa737cd2a1c8da277f09",
+    "codeLen": 5237,
+    "fileOrig": 1,
+    "codeText": "t+=393216*(t>131072),\n//this is a shifter, you may ask 'why?', well the original song 'blue' has an off-beat at the start, plus i'll have lots of copy of channels without that\n\nvi=sin(t/3e3)*8,\nHz=130/60*16384,\nn=440/Hz*128*2**(3/12),Dy=1*16384,\nN1=(32768/3),\n",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Yung Kai - Blue",
+    "url": "https://dollchan.net/btb/res/520.html#5395",
+    "date": "2025-01-28",
+    "sampleRate": 35498.668,
+    "coverName": "Yung Kai - Blue",
+    "coverUrl": "https://youtu.be/IpFX2vq8HKw",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-06"
+  }
+}

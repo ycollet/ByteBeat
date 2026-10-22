@@ -1,0 +1,29 @@
+{
+  "file": "songs/240df6e714c26c38538cc583e64dfeed.js",
+  "title": "Impromptu (Diatom)",
+  "author": "Radnyx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/240df6e714c26c38538cc583e64dfeed.js",
+  "sha256": "7f56c0b262de1cdb93f007e8c02e548baa52bf5d9a3cdfe34b5452bc3746472d",
+  "upstream": {
+    "hash": "240df6e714c26c38538cc583e64dfeed",
+    "codeLen": 75633,
+    "codeFormLen": 92604,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "sample_rate = 32000,\namplitude = 0.35,\n\nxx = () => 0.0,\nsn = (t,freq, offset=0) =>\n  sin(t * 6.28 / sample_rate * freq + offset),\nsq = (t, freq, offset=0, [wf=0,wd=0,ww=sn]=[0,0,sn]) =>\n  ((t / sample_rate * freq + offset) % 1 >",
+    "isTruncated": 1,
+    "author": "Radnyx",
+    "name": "Impromptu (Diatom)",
+    "url": "https://battleofthebits.com/arena/Entry/Impromptu+%28Diatom%29/34240/",
+    "date": "2020-04-25",
+    "sampleRate": 32000,
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

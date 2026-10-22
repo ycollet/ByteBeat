@@ -1,0 +1,37 @@
+{
+  "file": "songs/dfcc8274d231514d56690a908db6280e.js",
+  "title": "Super dubstep thingy",
+  "author": "hrllobrothers4",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bd1320a8f868f1ef4f30d722638e8277889a43ab3613ee380dfde022a23bd3de",
+  "upstream": {
+    "hash": "dfcc8274d231514d56690a908db6280e",
+    "codeMinLen": 128,
+    "codeMin": "a=t*(t&t>>12)/(t&16384?10:1E4),sin(a/20.5)*((a>>5)%.7)+sin(50*log(t&16383))/2+random()*(-t&8E3)/8E3+.3*sin(3E4/(t/16*2&4095))-.5",
+    "codeLen": 131,
+    "code": "a=t*(t&t>>12)/(t&16384?10:1e4),sin(a/20.5)*((a>>5)%.7)+sin(log(t&16383)*50)/2+random()*(-t&8E3)/8E3+(sin(3E4/(t/16*2&4095))*.3)-0.5",
+    "author": "hrllobrothers4",
+    "name": "Super dubstep thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11pohr2/super_dubstep_thingy/",
+    "date": "2023-03-12",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "a52be2d61d8831b88fefb55def908ca5",
+        "author": "Gabriel Miceli",
+        "name": "Crude Sinewave Dubstep",
+        "url": [
+          "https://www.youtube.com/watch?v=V4GfkFbDojc",
+          "https://youtu.be/V4GfkFbDojc?t=148"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

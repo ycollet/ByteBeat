@@ -1,0 +1,33 @@
+{
+  "file": "songs/d77aa7c526ba8cf157bef28689e5f0a4.js",
+  "title": "Very Hard Level",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7e4c79ff597228d7dcd0ddfdc85e8d36d948c93a0b44386778216af34083e53c",
+  "upstream": {
+    "hash": "d77aa7c526ba8cf157bef28689e5f0a4",
+    "codeMinLen": 224,
+    "codeMin": "t=t*8E3/44100,a=(t/4*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t/4>>(t&16384?t&4096?3:4:3))&63,b=sin(9*cbrt(t*1%4096))*32+32,c=(t*random()|t>>4)&63,d=sin(t*(t&16384?7:5)*'1234'[(t>>9)%4]/20)*32+32,1.3*a+(b+.6*c)+.4*d",
+    "codeLen": 235,
+    "code": "t=t*8000/44100,\na=(t/4*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t/4>>(t&16384?t&4096?3:4:3))&63,\nb=sin(9*cbrt((t*1)%4096))*32+32,\nc=(t*random()|t>>4)&63,\nd=sin(t*(t&16384?7:5)*[1,2,3,4][(t>>9)%4]/20)*32+32,\n1.3*a+(b+.6*c)+.4*d",
+    "author": "Maxi",
+    "name": "Very Hard Level",
+    "url": "https://dollchan.net/btb/res/500.html#516",
+    "date": "2023-03-03",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "file": "songs/6c1bf04f28b819937109454aa6caf461.js",
+  "title": "The Frozen Ocean",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6c1bf04f28b819937109454aa6caf461.js",
+  "sha256": "4b56c2de2110c52605331ba8403eadbcf15c5dcf29bcc2adfff314601d19df11",
+  "upstream": {
+    "hash": "6c1bf04f28b819937109454aa6caf461",
+    "codeLen": 1021,
+    "fileOrig": 1,
+    "codeText": "d=PI,p=pow,v=131072,U=t/v,V=v*4,z=t/V%1,N2=V*2,N='44424441'[t>>14&7]/(t%(F=N2*4)>N2*3?4:2),C=[N3=8192,v/4][t>>16&1],N4=N3*2,u=t/N4%N,t||(Z=[],B=[0,0,0,0],A=(Y=Array)(l=12288)[f='fill'](0),d1=Y(l)[f](0),d2=Y(l)[f](0),d3=Y(l)[f](0),d4=Y(l)[f](0)),Q=A[s='shift'](),X=0,L=(a,c)=>(Z[Y=X++]??=0,Z[Y]+=(a-Z[Y])*c),E=t/v,i=sin,S=i((x=(j=t*d/32e3*392)*p(2,[0,3,5,7,10,12,10,12,n=[15,17][U&1],n,n,n][t>>13&15]/12)||0)+i(x))/2*p(1-t/C%1,4)*min(.01,t/C%1)*72+Q,A[P='push']((S/4+A[l/2]/2+A[l/3]/4+A[l/4]/6)/1.5),O=H=>($2=.995",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "The Frozen Ocean",
+    "description": "\"You finally venture out of the dark cave into a slippery field of what seems to be an endless frozen ocean before you.\"",
+    "url": "https://battleofthebits.com/arena/Entry/The+Frozen+Ocean/81708",
+    "date": "2026-01-16",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "ae96183cc7bdb1b827365a6fa6a9f990",
+        "author": "lhphr",
+        "name": "far echoes",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10xye9m/far_echoes/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2026-01-18",
+    "date_edited": "2026-02-25"
+  }
+}

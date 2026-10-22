@@ -1,0 +1,34 @@
+{
+  "file": "songs/48b0490c829f2d30ebf5f53209354319.js",
+  "title": "Megalovania remix",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 35500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0e88e49b9c55eeea9282f18bed7c65ebfdd69781dbe9e6a5f6173c4a2f83766c",
+  "upstream": {
+    "hash": "48b0490c829f2d30ebf5f53209354319",
+    "codeMinLen": 235,
+    "codeMin": "v=min(32,-t*2**([1,,1,,13,13,13,,8,8,8,,,,7,7,7,,6,6,6,,4,4,4,4,1,1,4,4,6,6][t>>11&31]/12)&96)*2,x=f=>f*t*2**([1,-1,-3,-1][t>>16&3]/12)&255,v2=f=>x(f)&-t>>6,c=v+(v2(1)+v2(.99)+v2(1.5)+v2(1.505)+v2(.75)+x(1)*(-t&16383)/9e3)/8,min(255,c)",
+    "codeLen": 272,
+    "code": "T=t/1,Y=T>>11&31,Y2=T>>16&3,m=NaN,v=min(32,-t*2**([1,m,1,m,13,13,13,m,8,8,8,m,m,m,7,7,7,m,6,6,6,m,4,4,4,4,1,1,4,4,6,6][Y]/12)&96)*2,x=f=>f*t*2**([1,-1,-3,-1][Y2]/12)&255,v2=f=>x(f)&-T>>6&255,c=v+(v2(1)+v2(.99)+v2(1.5)+v2(1.505)+v2(.75)+x(1)*(-T&16383)/9e3)/8,c*c>>16?255:c",
+    "author": "Zackx",
+    "name": "Megalovania remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14ceiyb/comment/joqrwb3/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-06-19",
+    "sampleRate": 35500,
+    "remix": [
+      {
+        "hash": "b1c9b5899b92256c778f839c3d8c97e6",
+        "author": "hcdphobe",
+        "name": "slowlovania",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14ceiyb/slowlovania/"
+      }
+    ],
+    "coverName": "Undertale - Megalovania",
+    "coverUrl": "https://youtu.be/wDgQdr8ZkTw",
+    "tags": [
+      "1k"
+    ]
+  }
+}

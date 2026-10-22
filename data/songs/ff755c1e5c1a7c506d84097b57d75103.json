@@ -1,0 +1,35 @@
+{
+  "file": "songs/ff755c1e5c1a7c506d84097b57d75103.js",
+  "title": "xy logo",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 63200,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ff755c1e5c1a7c506d84097b57d75103.js",
+  "sha256": "7a393accb5fbce92fd16dfbcb5e293ccac364ac3302e435029be1b84cf5d1512",
+  "upstream": {
+    "hash": "ff755c1e5c1a7c506d84097b57d75103",
+    "codeMinLen": 413,
+    "codeMin": "this.Y??=Array(16+1),this.X??=Array(32+1),clear(),p(2,2,100),p(3,3,200),p(4,4,255),p(2,6,255),p(3,5,255),p(6,2,255),p(5,3,255),p(5,5,200),p(6,6,100),p(6,8,110),p(6,9,200),p(6,10,255),p(6,11,255),p(5,12,255),p(3,12,200),p(2,12,200),p(4,11,255),p(4,10,255),p(4,9,255),p(3,8,200),p(2,8,100),X[(t>>8)%32];function clear(){for(k=0;k<32;k++){Y[k]=0;X[k]=0}}function p(y,x,col){var p=col;Y[y]=p;X[x]=(t%16==y)?Y[y]:X[x]}",
+    "codeLen": 773,
+    "fileOrig": 1,
+    "codeText": "this.Y??=Array(16+1),this.X??=Array(32+1),clear(),p(2,2,100),p(3,3,200),p(4,4,255),p(2,6,255),p(3,5,255),p(6,2,255),p(5,3,255),p(5,5,200),p(6,6,100),p(6,8,110),p(6,9,200),p(6,10,255),p(6,11,255),p(5,12,255),p(3,12,200),p(2,12,200),p(4,11,255),p(4,10,255),p(4,9,255),p(3,8,200),p(2,8,100),X[(t>>8)%32];function clear(){for(k=0;k<32;k++){Y[k]=0;X[k]=0}}function p(y,x,col){var p=col;Y[y]=p;X[x]=(t%16==y)?Y[y]:X[x]}",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "xy logo",
+    "description": "Set \"Diagram\" mode and zoom to 1/8 or 1/16.",
+    "url": [
+      "https://dollchan.net/btb/res/27.html#2309",
+      "https://www.reddit.com/r/bytebeat/comments/16kkngq/c_i_r_c_l_e/"
+    ],
+    "date": "2023-09-17",
+    "sampleRate": 63200,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "3"
+    },
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

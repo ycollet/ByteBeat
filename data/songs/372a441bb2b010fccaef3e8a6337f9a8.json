@@ -1,0 +1,24 @@
+{
+  "file": "songs/372a441bb2b010fccaef3e8a6337f9a8.js",
+  "title": "government funding",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b194ce0c89fbe86a8cbf53cfe628ec30727f30b2b6c1ff447fd1f13dc43e0d7b",
+  "upstream": {
+    "hash": "372a441bb2b010fccaef3e8a6337f9a8",
+    "codeLen": 330,
+    "code": "t/=y=48E3,t2=y*t,p=x=>2**(.76+x/12),x=T=>(255&-T/128)*(128&(a=t2*p([0,3,7,10][S=0|T/32768%4]),b=t2*p([0,2,7,10][S]),c=t2*p([0,3,10,8,0,3,8,7,0,3,7,5,0,3,7,12][0|T/32768%16]),[a,b,c][0|T/524288%3]+95*sin(t2/8E3)))/128,((t2*=1.175)?z=(z*32+x(t2-1)/8+(t>.35&&x(t2-(j=21751)))/12+(t>.7&&x(t2-2*j))/16+(t>1.05&&x(t2-3*j))/24)/33:z=0)*3",
+    "author": "BaenHoHoHo",
+    "name": "government funding",
+    "url": "https://dollchan.net/btb/res/117.html#2464",
+    "date": "2023-10-15",
+    "sampleRate": 48000,
+    "coverName": "Backrooms OST - Government Funding",
+    "coverUrl": "https://youtu.be/CYO7hU8txhI",
+    "tags": [
+      "1k"
+    ]
+  }
+}

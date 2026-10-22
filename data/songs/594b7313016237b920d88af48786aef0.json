@@ -1,0 +1,23 @@
+{
+  "file": "songs/594b7313016237b920d88af48786aef0.js",
+  "title": "Phantasie für drei Blockflöten, Op. 256",
+  "author": "Algorias",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "46b69daad762d8211e5d891bb20392f63d850a992222c68f5a665336e1012658",
+  "upstream": {
+    "hash": "594b7313016237b920d88af48786aef0",
+    "codeLen": 256,
+    "code": "i=t/8**5-2,T=x=>abs(x%2-1),R=(A,B)=>[C=A+B,S=i=>\"0x\"+\"66DAD0035655ACD\"[(A+6*(i>58-C))*(i|B)%15],d=+S(i+1),V=T(i*4),r=d=>T(t/50/C*1.06**d)*30*C,(r(d)*V+r(d+.1)*(1-V))*(i/9>6-3*A+B)*min(max(i%1,d==S(i),.7-T(i*8)),8-i%1*8+(d==S(i+2)))][5],R(1,0)+R(2,0)+R(2,1)",
+    "author": "Algorias",
+    "name": "Phantasie für drei Blockflöten, Op. 256",
+    "description": "Lovebyte 2022 competition.",
+    "url": "https://demozoo.org/music/305279/",
+    "date": "2022-02-12",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

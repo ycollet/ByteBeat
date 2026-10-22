@@ -1,0 +1,1 @@
+p=t=>(a=(x,y)=>t*2**(parseInt(x[(t>>y)%x.length],36)/12)/1.44,(a('BPIFKDMKFIHAHIHD',13)&128))*(1-t%8192/12E3),p(t)+p(t-12288)/2+p(t-24576)/4+p(t-36864)/8

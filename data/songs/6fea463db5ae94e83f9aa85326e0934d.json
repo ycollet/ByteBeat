@@ -1,0 +1,29 @@
+{
+  "file": "songs/6fea463db5ae94e83f9aa85326e0934d.js",
+  "title": "sleepless nights",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ef72f3de094b3efcbac1f946c22936ee60a2107963b6f460e93fdd1d37e0873a",
+  "upstream": {
+    "hash": "6fea463db5ae94e83f9aa85326e0934d",
+    "codeMinLen": 184,
+    "codeMin": "r=1.38,a=t=>(p=x=>t*2**(parseInt('6DIK6DIL6DIK4BGI29EG29EG29EG4BGI'[(t/r>>13)%32],36)/12)/1.22*x&255,p(1)+p(.992))/3*(1-t/r%8192/12E3),a(t)+a(t-12288*r)/2+a(t-24576*r)/4+a(t-49152*r)/8",
+    "codeLen": 186,
+    "code": "r=1.38,a=t=>((p=x=>t*2**(parseInt('6DIK6DIL6DIK4BGI29EG29EG29EG4BGI'[(t/r>>13)%32],36)/12)/1.22*x&255),p(1)+p(.992))/3*(1-t/r%8192/12E3),a(t)+a(t-12288*r)/2+a(t-24576*r)/4+a(t-49152*r)/8",
+    "author": "Zackx",
+    "name": "sleepless nights",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1800",
+      "https://www.reddit.com/r/bytebeat/comments/15hwc8y/songs_was_publish_here_i_made_in_private_server/"
+    ],
+    "date": "2023-07-19",
+    "sampleRate": 48000,
+    "coverName": "FM Attack - Sleepless Nights",
+    "coverUrl": "https://youtu.be/afSjekgcalI",
+    "tags": [
+      "256"
+    ]
+  }
+}

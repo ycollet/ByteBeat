@@ -1,0 +1,23 @@
+{
+  "file": "songs/fd00ddf7d113e2530b94dd6081b3378d.js",
+  "title": "T!me Tr!al",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "306726d55d78a8895025fb0dd23d6e3af2bb5eae1be7a16662034fd7c442b30e",
+  "upstream": {
+    "hash": "fd00ddf7d113e2530b94dd6081b3378d",
+    "codeLen": 255,
+    "code": "p=v=>2**(v/12),z=12*(t>>18&1),w=t/32768%1,64*abs(sin(t/50*p([0,3,7,12,,19,,7][t>>11+(t>>13&3^t>>14&1)&7]+z)))**.25+32*sin(70/w**.3)+16*(t>>15&1)*(1-w)*sin((t/3%1024|0)**3)+p([0,3,7,12][t>>11&3]+z)*t/11%16+(t>>13&1&&p(0xA7305730>>(t>>14&28)&15)*t/11&32)+48",
+    "author": "lhphr",
+    "name": "T!me Tr!al",
+    "description": "Quite of a complex melody for a nice loop.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-06-04",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

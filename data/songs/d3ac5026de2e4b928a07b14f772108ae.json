@@ -1,0 +1,26 @@
+{
+  "file": "songs/d3ac5026de2e4b928a07b14f772108ae.js",
+  "title": "hydrogen fucker",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4143e2498bebfd504468a6e8f73223bdabc9e8a1e09bbd31a712a9dfd839f29a",
+  "upstream": {
+    "hash": "d3ac5026de2e4b928a07b14f772108ae",
+    "codeMinLen": 58,
+    "codeMin": "(t/2/(4+(t>>13&3))*128|t>>(t>>12&15))+400000/(t&4095)|t>>4",
+    "codeLen": 60,
+    "code": "((t/2/(4+(t>>13&3))*128)|t>>(t>>12&15))+400000/(t&4095)|t>>4",
+    "author": "psubscirbe",
+    "name": "hydrogen fucker",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14do1q3/hydrogen_fucker/",
+    "date": "2023-06-19",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-27"
+  }
+}

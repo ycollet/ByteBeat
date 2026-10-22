@@ -1,0 +1,35 @@
+{
+  "file": "songs/712078ebbf1d5b9f52b0336e29f7b7fb.js",
+  "title": "My Own Sierpinski harmony with kick and hihat",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2161c19b02400d89391b3a257ed107d92222e75f411c52f871465b7e30236e88",
+  "upstream": {
+    "hash": "712078ebbf1d5b9f52b0336e29f7b7fb",
+    "codeMinLen": 149,
+    "codeMin": "t/=1.5,t>>=2,40+((10*t&t>>4|9*t&t>>7|6*t&t>>9|4*t&t>>10)&255)%256/3+40*sin(24*cbrt(t%4096))+(random()*[t,0,0,t,0,t,0,0,0,0,t,0,t,0,t,t][t>>10&15]&32)",
+    "codeLen": 151,
+    "code": "t/=1.5,t>>=2,40+((10*t&t>>4|9*t&t>>7|6*t&t>>9|4*t&t>>10)&255)%256/3+40*sin(24*cbrt(t%4096))+(random()*([t,0,0,t,0,t,0,0,0,0,t,0,t,0,t,t][t>>10&15])&32)",
+    "author": "ANoUserXD",
+    "name": "My Own Sierpinski harmony with kick and hihat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14y3qtx/my_own_sierpinski_harmony_with_kick_and_hihat/",
+    "date": "2023-07-13",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

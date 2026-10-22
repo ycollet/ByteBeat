@@ -1,0 +1,51 @@
+{
+  "file": "songs/2d2f517f71c4228cffa1715c13dae67f.js",
+  "title": "SKY-4",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2d2f517f71c4228cffa1715c13dae67f.js",
+  "sha256": "5a3a326d9ff887adf3364eff2ea510096e92618e36ce0158a5e0b42bc1bb0bac",
+  "upstream": {
+    "hash": "2d2f517f71c4228cffa1715c13dae67f",
+    "codeLen": 5769,
+    "fileOrig": 1,
+    "codeText": "/* ---- Important Variables  ---- */\n\nBPM=172, /*BPM: Beats Per Minute*/\nsR=sampleRate=48e3, /*Samplerate*/\nsPB=samplesPerBeat=32768, /*Timing*/\nr=t*abs(BPM/((60*sR)/sPB)), \n// Extract Speed\nlm=(a,mn=50,mx=-50)=>min(mn,max(mx,a/100)), // Limiter",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "SKY-4",
+    "description": "Credits to PrincessPriscillaPT (Reverse-engineered her code to improve the technology) and feeshbread (Most other effects from him, including the \"Dead Data\" Reverb).",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1mqrmat/sky4/",
+    "date": "2025-08-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f802b899180daccc8b21219a1e1980f9",
+        "author": "Zackx",
+        "name": "fly into sky",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1904",
+          "https://www.reddit.com/r/bytebeat/comments/15qdvex/automatic_chord_engine/"
+        ]
+      },
+      {
+        "hash": "2ea7c3978bdab9c2ecb1e16fc5351460",
+        "author": "feeshbread",
+        "name": "Dead Data",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/dead_data_my_entry_for_byte_battle_season_1/",
+          "https://bytebeat.oops.wtf/season1/entries.html",
+          "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-08-29",
+    "date_edited": "2026-06-20"
+  }
+}

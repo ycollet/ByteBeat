@@ -1,0 +1,26 @@
+{
+  "file": "songs/0e69271551463d56355994aaa971ed14.js",
+  "title": "1-Up",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 47300,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "67b1dc99217d4c1879967c1ff55d3ada4255f1a1dcab0266343303979215abc9",
+  "upstream": {
+    "hash": "0e69271551463d56355994aaa971ed14",
+    "codeMinLen": 74,
+    "codeMin": "r=1.23*t,(128&t*2**(parseInt('9CLHJO'[r>>13],36)/12)*4.22)*(1-r%8192/13E3)",
+    "codeLen": 76,
+    "code": "r=t*1.23,((128&t*2**(parseInt('9CLHJO'[r>>13],36)/12)*4.22))*(1-r%8192/13E3)",
+    "author": "Zackx",
+    "name": "1-Up",
+    "description": "Sound effect from Super Mario Bros.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1528126/2_sound_effect_super_mario_bros/",
+    "date": "2023-07-17",
+    "sampleRate": 47300,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

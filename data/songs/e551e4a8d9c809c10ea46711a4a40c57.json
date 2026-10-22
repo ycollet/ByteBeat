@@ -1,0 +1,37 @@
+{
+  "file": "songs/e551e4a8d9c809c10ea46711a4a40c57.js",
+  "title": "processing error",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/e551e4a8d9c809c10ea46711a4a40c57.js",
+  "sha256": "2776f99b09bb21250507721aac7b9a21299da8b6911f0b07f0d96c08f3d32673",
+  "upstream": {
+    "hash": "e551e4a8d9c809c10ea46711a4a40c57",
+    "codeMinLen": 980,
+    "codeFormLen": 2230,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "d=['8888888888888844','8888888888884244','8888888888884121','8888888888882241','8888888888334211'],T=d[0]+d[1]+d[0]+d[2]+d[0]+d[3]+d[0]+d[4],p=T[(t>>12)%T.length],L=4,t*=(t<524288?t%524288/1048576:1),t/=(t<1572864*L?(t>1048576*L?(t-1048576*L)/256+4:1):1),t||(r=Array(24576).fill(0),r2=[0]),lr=lr=>((a=(t<1572864*L?(round(sin((t+cos(t/(2048+lr))*40)/(60+lr)*[3,3.5,4,4.5,3,4,3.5,4.5][t>>13&7]*[2,3,2.125,2.5][t>>17&3]))*(t/512%16-24)/80+(t>524288)*(sign(sin((t+cos(t/(2048+lr))*30)/(480+lr)*[6,9,6.375,7.5][t>>17&",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "processing error",
+    "description": "ByteBattle Season 5 Competition - 1st place. A bit less than 5 minutes long, with \"shutdown\" section from around 3 minutes in.",
+    "url": [
+      "https://bytebeat.oops.wtf/season5/entries.html",
+      "https://www.reddit.com/r/bytebeat/comments/1l5t852/processing_error_bytebattle_season_v_entry",
+      "https://www.reddit.com/r/bytebeat_2/comments/1nc1y0n/bytebattle_season_5_results",
+      "https://dollchan.net/btb/res/6946.html#10392"
+    ],
+    "date": "2025-06-07",
+    "mode": "Floatbeat",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-09",
+    "date_edited": "2026-01-12"
+  }
+}

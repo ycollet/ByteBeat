@@ -1,0 +1,29 @@
+{
+  "file": "songs/316706d3122eeb11853620147fd5ce57.js",
+  "title": "SΔPPHIRΞ ΞYΞS",
+  "author": "burlynn n01se",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/316706d3122eeb11853620147fd5ce57.js",
+  "sha256": "9a5f97eac7e093e4db4d0334b955abd8f831ed6403f4ee2c02e883c1ee5133e4",
+  "upstream": {
+    "hash": "316706d3122eeb11853620147fd5ce57",
+    "codeLen": 1024,
+    "fileOrig": 1,
+    "codeText": "q=t/22500,s=q*4,r=random(),n=p=>(t*1.4*pow(2,(p+2*(q>188))/12))%256,R=(x,ar)=>{for(i=9;i>=0;i--){if(ar[i]<=x){return x-ar[i]}}},m=x=>max(0,x),f=\"<.<..:.8.7.8....<.<..?.\",u=(q>>5&3)==1&q%4>2,X=(y,q)=>{b=q>>2;s=q*4;v=s%16;l=b%4>2;a=1+l*2;e=b%32>27;o=n(y+(l?-2:(b&1|u)^e))-n(3+y)+n(8+y-(l&v>6));A=n(y+7+([l,a,8,a])[s+1>>1&3])*m(1-.6*R(v,[0,1,3,5,7,9,12]));B=(q>64)*90*(n(12+([8,7,3,-4,-5,3,7,3])[s&7])<32)*(1-s%1);return q<0?0:.2*(2*(B+A)+o*m(1-.3*R(v,[0,4,7,10,14])))},L=(q)=>{p=([f+\":.:8:...58.8.8:<::858...u878??",
+    "isTruncated": 1,
+    "author": "burlynn n01se",
+    "name": "SΔPPHIRΞ ΞYΞS",
+    "description": "\"Decadent Decade\" battle, 1st place (bytebeat)",
+    "url": "https://battleofthebits.com/arena/Entry/S%CE%94PPHIR%CE%9E+%CE%9EY%CE%9ES/78735/",
+    "date": "2025-07-22",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Xemogasa - sapphire eyes",
+    "coverUrl": "https://battleofthebits.com/arena/Entry/sapphire+eyes/31542/",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-06-16"
+  }
+}

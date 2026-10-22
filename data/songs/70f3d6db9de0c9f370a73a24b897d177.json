@@ -1,0 +1,25 @@
+{
+  "file": "songs/70f3d6db9de0c9f370a73a24b897d177.js",
+  "title": "world cup-y effect",
+  "author": "MasterNama_12803",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "aaa0217115aef08166286b8035dc99a7039f5547e8fa8e4a65c81be3aa232046",
+  "upstream": {
+    "hash": "70f3d6db9de0c9f370a73a24b897d177",
+    "codeMinLen": 54,
+    "codeMin": "t*(t>>7&24&t>>8|t>>10&40)|(t>>4|t)&42|t>>2&t>>7|t>>6&4",
+    "codeLen": 68,
+    "code": "t*(((t>>7)&24)&t>>8|(t>>10)&40)|((t>>4|t)&42|(t>>2)&t>>7)|((t>>6)&4)",
+    "author": "MasterNama_12803",
+    "name": "world cup-y effect",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1apqimy/world_cupy_effect/",
+    "date": "2024-02-13",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/4016c66af41256bc200acf4461e4d74e.js",
+  "title": "Snowmen Army",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/4016c66af41256bc200acf4461e4d74e.js",
+  "sha256": "9111e13beb41e855ccfb7cf5e6053e336067308eef1a374cee786187a9b799e8",
+  "upstream": {
+    "hash": "4016c66af41256bc200acf4461e4d74e",
+    "codeMinLen": 841,
+    "codeFormLen": 2910,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "T=t/7500,b=T/64%14,G=(c,o)=>33E5*T*2**(o+parseInt(c,36)/12),R=x=>((x^-(x>>8&1))&240)*(h=64*T,i=h%32,i<1?h%1:i>31?1-h%1:1),F=(n,f,o)=>(f=parseInt('TSUV-'[f],36),isNaN(f)?0:(u=G(['A AAFD58 8 5 8  A AADF C 5 8 A','5 55A803 3 0 3  5 55AC 8 1 3 5','A AAFD58 5 58DA A AADF C 8 5ADC','5 55A803 0 0385 5 55AC 8 3 15A8'][n][T&31],o-2)>>8,e=f>>3&3,d=f&3,128*(((e==3&&2*T&1?0:u)&255)>32*(!d?7:d==1?6:d==2?4:4*T&1?4:2)))),D=(p,a,s)=>(1E5*sin(p*T|0)&64)*(1-2*T%2/3)*(a>>(2*T>>s)&1),E=9E3,t||(V=Array(E)),S=(V[t%E]|0)+.4*F('22",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Snowmen Army",
+    "description": "\"Be careful! Snow cannons are working! Snowballs, icicles and carrots fly past!\"",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Snowmen+Army/80944/",
+      "https://www.reddit.com/r/bytebeat_2/comments/1pivky2/snowmen_army/"
+    ],
+    "date": "2025-12-09",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "1k"
+    ],
+    "date_added": "2025-12-10",
+    "date_edited": "2026-01-19"
+  }
+}

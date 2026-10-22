@@ -1,0 +1,26 @@
+{
+  "file": "songs/ce6acdbe63b42fc38b4933155253a9de.js",
+  "title": "bossabeat",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ce6acdbe63b42fc38b4933155253a9de.js",
+  "sha256": "0909c58b76b5326fa7402544a77fe02f4ade190d3745dc0c600d85e3f05bac2d",
+  "upstream": {
+    "hash": "ce6acdbe63b42fc38b4933155253a9de",
+    "codeLen": 27391,
+    "codeFormLen": 25718,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 44100,\nBPM = 140,\nbeat = BPM * (t / SAMP_RATE) / 60,\ntick = floor(beat * 48) % 3072,\n\nC = 261.63,\nDb = 277.18,\nD = 293.66,",
+    "isTruncated": 1,
+    "author": "raphaelgoulart",
+    "name": "bossabeat",
+    "url": "https://battleofthebits.com/arena/Entry/bossabeat/21386/",
+    "date": "2016-03-28",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/a39b17a5bb274375aa649cc6455cdb9d.js",
+  "title": "trig",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8dbcd0544a80809c8c148bea5c4367ce4ae5ba5db803b247ee1c61b379a9714e",
+  "upstream": {
+    "hash": "a39b17a5bb274375aa649cc6455cdb9d",
+    "codeLen": 262,
+    "code": "s=sin,c='55545556'[t>>16&7],f=q=>t*PI/q*c,'11011100'[t>>13&7]*tan(PI/2**(2+(t>>11&3))*s(PI*s(f(250))-f(4e4)))/4+([,,h=(1-t%8192/8192)*s(t**3)/8,,,h,,h][t>>12&7]??sinh(PI/2*s(c**4**(1-t%4096/2048))%(PI/4))/4)+(s(f(124)-f(89))+s(f(125)-f(100))+s(f(126)-f(105)))/12",
+    "author": "lhphr",
+    "name": "trig",
+    "description": "It's merely a short loop, but it's still somewhat decent.",
+    "url": "https://dollchan.net/btb/res/44.html#69",
+    "date": "2022-05-21",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

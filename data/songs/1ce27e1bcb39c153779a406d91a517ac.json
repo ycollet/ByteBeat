@@ -1,0 +1,25 @@
+{
+  "file": "songs/1ce27e1bcb39c153779a406d91a517ac.js",
+  "title": "Space Status VS Pong",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2e1fad6c57ac1644165ef12886215294bd73cc8aad09da271e1fb39941f160eb",
+  "upstream": {
+    "hash": "1ce27e1bcb39c153779a406d91a517ac",
+    "codeMinLen": 34,
+    "codeMin": "t%(t>>15^t/90%(t>>9)%(t&t>>100))-2",
+    "codeLen": 36,
+    "code": "t%(t>>15^(t/90)%(t>>9)%(t&t>>100))-2",
+    "author": "Glebguything",
+    "name": "Space Status VS Pong",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11ir8at/space_status_vs_pong/",
+    "date": "2023-03-05",
+    "sampleRate": 48000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

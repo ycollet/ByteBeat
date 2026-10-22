@@ -1,0 +1,24 @@
+{
+  "file": "songs/0d6fe0c6cbd540fc2c21bf0735160b92.js",
+  "title": "2^13Hz",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 8192,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "92feab0680fe61f680d05768643db3997e5757dc3fc5cd6dcbbaa68c4a328a5a",
+  "upstream": {
+    "hash": "0d6fe0c6cbd540fc2c21bf0735160b92",
+    "codeMinLen": 132,
+    "codeMin": "a=t*[1,1.2,1.35,t&8192?1.9:1.5][3&t>>14],(a%63+a%64+(a*[2,3,4,6][3&t>>10]&64)+(4E4/(t&4095)&127)+(random()*(1&t>>12)*100&-t>>6))/1.5",
+    "codeLen": 134,
+    "code": "a=t*[1,1.2,1.35,t&8192?1.9:1.5][3&t>>14],((a%63+a%64)+(a*[2,3,4,6][3&t>>10]&64)+(4e4/(t&4095)&127)+(random()*(1&t>>12)*100&-t>>6))/1.5",
+    "author": "rubi",
+    "name": "2^13Hz",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14fzrpi/213hz/",
+    "date": "2023-06-22",
+    "sampleRate": 8192,
+    "tags": [
+      "256"
+    ]
+  }
+}

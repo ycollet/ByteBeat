@@ -1,0 +1,34 @@
+{
+  "file": "songs/216c1b782d75e8e13d14785f1a9a90eb.js",
+  "title": "Bytebeat Scan",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/216c1b782d75e8e13d14785f1a9a90eb.js",
+  "sha256": "528bca4fb077f4486408813bfd750c35de639d81993603994205960719516e26",
+  "upstream": {
+    "hash": "216c1b782d75e8e13d14785f1a9a90eb",
+    "codeMinLen": 798,
+    "codeLen": 827,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=t,t/=48E3,BPM=160,tS=t*(BPM|0)/60,pitch=6,squ=(x,duty=0)=>floor(sin(x)*.5+duty/512)+.5,fM=[-1,4,-1,7,4,6,2,-3,1,4,1,-1,3,6,3,,],T%1679?(g=b=>b>0?squ(T*2**((fM[(b*2|0)%fM.length]+pitch)/12)*PI/128||0)*(1-b*2%1):0,g(tS))+g(tS-.75)/2+squ(T*PI/512*2**(([[4,4,4,4,4,4,4,4,4,4][tS-8|0],[4,4,4,4,4,4,4,-3,-3,-3,-3,-1,-1,-1,-1,4][(tS*2|0)%16]][tS>16?1:0]+pitch)/12)||0,192)*((tS*2|0)>14)*(1-tS*2%1)+(sin(((tS+1.5)%1)**.01*5E3)/2*(1-(tS+1.5)%1)+random()*(-tS+1.5&1)*(1-(tS+1.5)%1))*((tS*2|0)>30)/2-.5:(()=>{throw\"\\n Pla",
+    "isTruncated": 1,
+    "author": "Maxi",
+    "name": "Bytebeat Scan",
+    "url": [
+      "https://dollchan.net/btb/res/500.html#5108",
+      "https://www.reddit.com/r/bytebeat/comments/1h5srqr/bytebeat_scan/"
+    ],
+    "date": "2024-12-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "t-PORT - Shuric Scan (Keygen music)",
+    "coverUrl": "https://youtu.be/VnQoSjYLPFw",
+    "tags": [
+      "1k",
+      "console"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

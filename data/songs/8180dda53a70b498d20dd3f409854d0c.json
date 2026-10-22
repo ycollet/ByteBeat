@@ -1,0 +1,25 @@
+{
+  "file": "songs/8180dda53a70b498d20dd3f409854d0c.js",
+  "title": "Beyond Synthesis",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 192000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8180dda53a70b498d20dd3f409854d0c.js",
+  "sha256": "f65ccd881a39c06b8f69ae6cd0a64e6391dfd6136079f1d2326ab5f1b8a22980",
+  "upstream": {
+    "hash": "8180dda53a70b498d20dd3f409854d0c",
+    "codeLen": 1585,
+    "fileOrig": 1,
+    "codeText": "volume=100, //the volume\r\nx=volume>100?0:volume<0?0:volume/100, //check exceeds and below 0 and mute it\r\nsamp_rate=192E3,\r\np=256,\r\nbeat=p*t/samp_rate,\r\nq=8.75,//used for kicks and hats\r\n//some shortcuts\r\np=pow,\r",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "Beyond Synthesis",
+    "url": "https://dollchan.net/btb/res/163.html#542",
+    "date": "2023-03-07",
+    "mode": "Floatbeat",
+    "sampleRate": 192000,
+    "tags": [
+      "big"
+    ]
+  }
+}

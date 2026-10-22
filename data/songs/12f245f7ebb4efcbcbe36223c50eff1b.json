@@ -1,0 +1,48 @@
+{
+  "file": "songs/12f245f7ebb4efcbcbe36223c50eff1b.js",
+  "title": "Turned it into 'Dance In Square Machine'",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 67719.08866,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/12f245f7ebb4efcbcbe36223c50eff1b.js",
+  "sha256": "e9afabd01ae1b25a27aec3f6c82201fbf849668f74354ac08c19a65cc5d13f7a",
+  "upstream": {
+    "hash": "12f245f7ebb4efcbcbe36223c50eff1b",
+    "codeMinLen": 1023,
+    "codeLen": 1768,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "p=parseInt,t||(f=[],lp=(a,c)=>(f[li=fi++]??=0,f[li]+=(a-f[li])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),s=(a,U,D)=>(f[S=fi++]??=0,f[S]+=(a-(sr=f[S]))*(sr<a?U:D)),D=1e4,d=(a,h,m,F=x=>x)=>{f[di=fi++]??=Array(D).fill(0);dw=dt%D;C=a;du=0;for(let hd of h){dr=(D+dt-round(hd.t))%D;C+=f[di][dr]*hd.fb;du+=f[di][dr]*hd.m}f[di][dw]=F(C);return a*(1-m)+du*m},M=(a,T,R,A,L,S=a)=>(ci=fi++,f[ci],a/(s(max(abs(S)-T,0),A,L)/T*R+1))),fi=0,dt=t,t/=8,min(max((b=a=>t*2**((p('DD9BD89B'[t>>14&3],36)-.19)/12)%a/2-32,kc=(1-t/",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Turned it into 'Dance In Square Machine'",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gab25x/comment/ltoik3k/",
+    "date": "2024-10-25",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 67719.08866,
+    "remix": [
+      {
+        "hash": "0574a38b5a41a369122ddeea7712ecad",
+        "author": "feeshbread",
+        "name": "1k reremix",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gab25x/comment/ltn5cz5/",
+          "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+        ]
+      },
+      {
+        "hash": "9013f2c9cfa9338169a95944c085afcc",
+        "author": "Zackx",
+        "name": "Dance in square machine",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3755",
+          "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-17"
+  }
+}

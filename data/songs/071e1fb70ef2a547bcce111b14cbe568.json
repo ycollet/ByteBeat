@@ -1,0 +1,40 @@
+{
+  "file": "songs/071e1fb70ef2a547bcce111b14cbe568.js",
+  "title": "ヾ(⌐■_■)ノ400",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "913c72bb011de6475b4996cac2a19232aa5c27a0edbc872da0abca1fcd252487",
+  "upstream": {
+    "hash": "071e1fb70ef2a547bcce111b14cbe568",
+    "codeLen": 164,
+    "code": "a=t=>(t*2**((e=parseInt('0cfhjc0c0cfhjkjfh5 5f3jc0c0c0c0c'[(t>>13)%32],36),isNaN(e)?-9e9:e)/12)/2.4&128)*(1-t%8192/12E3),a(t)+a(t-12288)/2+a(t-24576)/4+a(t-49152)/8",
+    "author": "Chasyxx",
+    "name": "ヾ(⌐■_■)ノ400",
+    "description": "A combination of Zackx's tunes. Kernkraft with echo.",
+    "url": "https://dollchan.net/btb/res/756.html#1814",
+    "date": "2023-08-05",
+    "sampleRate": 40000,
+    "remix": [
+      {
+        "hash": "1758a419c1ca8fc69c61dfed1c2b60b5",
+        "author": "Zackx",
+        "name": "exsynth sequences song",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1683",
+          "https://dollchan.net/btb/res/204.html#1816"
+        ]
+      },
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

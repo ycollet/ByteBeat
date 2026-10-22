@@ -1,0 +1,32 @@
+{
+  "file": "songs/116c29b0df125d8eadf92c5771f0a025.js",
+  "title": "Hard level",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b4dfc7c1fe2abed3bb65ea937ec2d33c8aa86df4a3eaf5b1ed242061f66cf181",
+  "upstream": {
+    "hash": "116c29b0df125d8eadf92c5771f0a025",
+    "codeLen": 77,
+    "code": "t*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t>>(t&16384?t&4096?3:4:3)",
+    "author": "SthephanShi",
+    "name": "Hard level",
+    "description": "\"My favorite formula!\" - SthephanShi",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "b2f254a56abc09819849f9f307919667",
+        "author": "SthephanShi",
+        "name": "Ready to fight?",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

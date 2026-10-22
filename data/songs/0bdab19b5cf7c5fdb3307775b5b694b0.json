@@ -1,0 +1,25 @@
+{
+  "file": "songs/0bdab19b5cf7c5fdb3307775b5b694b0.js",
+  "title": "Pacman Thingy",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "43ccf242717f73dfeec86dbbc1675223d6d6a00b729dbfc6e4cbef17bf9d1799",
+  "upstream": {
+    "hash": "0bdab19b5cf7c5fdb3307775b5b694b0",
+    "codeMinLen": 181,
+    "codeMin": "data=`\\x80ÀàðúðàÀ\\x80@ \\x10\\x06\\x10 @\\x80ÀàðàÀ\\x80@ \\x10 @\\x80ÿ\\x80\\x01`,wave=x=>data.charCodeAt(int(x/4)%data.length),t1=t/4,h=t/4*((t&4096?t:-t)>>9&7)*(t<1E4),wave(h)",
+    "codeLen": 186,
+    "code": "data=`\\x80ÀàðúðàÀ\\x80@ \\x10\\x06\\x10 @\\x80ÀàðàÀ\\x80@ \\x10 @\\x80ÿ\\x80\\x01`,\nwave=x=>data.charCodeAt((int(x/4))%data.length),\nt1=t/4,h=t/4*((t&4096?t:-t)>>9&7)*(t<1e4),\nwave(h)",
+    "author": "Two2Fall",
+    "name": "Pacman Thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1i6syue/pacman_thingy/",
+    "date": "2025-01-21",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-21"
+  }
+}

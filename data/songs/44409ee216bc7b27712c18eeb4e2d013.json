@@ -1,0 +1,24 @@
+{
+  "file": "songs/44409ee216bc7b27712c18eeb4e2d013.js",
+  "title": "cool square drums",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dc4b3251544e81301194b9e67494ff1963a55a8c6d755161591bb8fe912bdeac",
+  "upstream": {
+    "hash": "44409ee216bc7b27712c18eeb4e2d013",
+    "codeMinLen": 61,
+    "codeMin": "(256*cbrt((t>>9)%128>114?t&4095:t&8191)|(t>>13&1?64*t:0))&128",
+    "codeLen": 63,
+    "code": "(cbrt(((t>>9)%128>114?t&4095:t&8191))*256|(t>>13&1?t*64:0))&128",
+    "author": "awogler9124812041",
+    "name": "cool square drums",
+    "url": "https://www.reddit.com/r/bytebeat/comments/127mivm/cool_square_drums/",
+    "date": "2023-03-31",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

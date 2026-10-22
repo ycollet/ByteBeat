@@ -1,0 +1,37 @@
+{
+  "file": "songs/6fc8591428e43f7f4d65edbd1846ed10.js",
+  "title": "the old is now new",
+  "author": "Zera12873",
+  "mode": "Funcbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6fc8591428e43f7f4d65edbd1846ed10.js",
+  "sha256": "34e1d4544d255f7c5b56daf073f9580dea0a229562a0cfd975fe5e96d702ecce",
+  "upstream": {
+    "hash": "6fc8591428e43f7f4d65edbd1846ed10",
+    "codeMinLen": 253,
+    "codeMin": "A='kkkor w uut rrp oop q r   r rr  ';B='                          m mm  ';C='                          i ii  ';D='k kw wrriiiu upp';return s=>{Q=a=>2**((a.charCodeAt(s*10%a.length)-58)/12)*29*s;return Q(A)%1-Q(B)%1+Q(C)%1-Q(D)/8%1+.9*random()*!(s*40&3)}",
+    "codeLen": 783,
+    "codeFormLen": 1324,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "A='kkkor w uut rrp oop q r   r rr  ';B='                          m mm  ';C='                          i ii  ';D='k kw wrriiiu upp';return s=>{Q=a=>2**((a.charCodeAt(s*10%a.length)-58)/12)*29*s;return Q(A)%1-Q(B)%1+Q(C)%1-Q(D)/8%1+.9*random()*!(s*40&3)}",
+    "isTruncated": 1,
+    "author": "Zera12873",
+    "name": "the old is now new",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bgqvv4/the_old_is_now_new/",
+    "date": "2024-03-17",
+    "mode": "Funcbeat",
+    "sampleRate": 22050,
+    "remix": [
+      {
+        "hash": "640d0b6fb1a9c6e9bdab5965e486dab2",
+        "author": "Jimmyoshi",
+        "name": "damnit kf i have to do homework why'd you have to pick now to host a bytebeat ohb",
+        "url": "https://battleofthebits.com/arena/Entry/damnit+kf+i+have+to+do+homework+why%27d+you+have+to+pick+now+to+host+a+bytebeat+ohb+%5BPLAY+IN+22000+Hz+wow%5D.txt/17659/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

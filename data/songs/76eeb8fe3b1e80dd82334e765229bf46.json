@@ -1,0 +1,34 @@
+{
+  "file": "songs/76eeb8fe3b1e80dd82334e765229bf46.js",
+  "title": "OVERTIME?! with the chords",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/76eeb8fe3b1e80dd82334e765229bf46.js",
+  "sha256": "657629c60ca1a65eb39c849ef0ed184f37d0b94dde86227b6b01c13134f0897c",
+  "upstream": {
+    "hash": "76eeb8fe3b1e80dd82334e765229bf46",
+    "codeLen": 2541,
+    "fileOrig": 1,
+    "codeText": "t||(\r\nF=1408/1200,m=q=>r=>r==q,c=(l,I)=>(r=l[0].match(/^([A-G][#b]?)([Mm+o]|mM|maj|min|augM?|dim)?([5679]|1[13])?((?:(?:add|#|b)(?:[569]|1[13])|sus[24])*)(?:\\/([A-G6][#b]?))?$/),R=q=>'A BC D EF G'.indexOf(q[0])+'b #'.indexOf(q[1]??' ')-1,i='min aug dim maj m + o M mM augM'.split(' ').findIndex(m(r[2]))&3,s=[[0,,3,,7],[0,,4,,8],[0,,3,,6],[0,,4,,7]][i],u=s[1],s.push(...Array(8)),((S=r[4].match(/sus([24])/))&&(S=S[1],s[S==2?1:3]=S|S>>2)||r[3]==5)&&delete s[2],P=[9,14,,17,,21],r[3]>6&&(s[6]=(i!=2)+9+/M|maj/.tes",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "OVERTIME?! with the chords",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gxxac7/comment/lypmntn/",
+    "date": "2024-11-24",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8c1dcf553819a72b96067ad390b5fae2",
+        "author": "hrllobrothers4",
+        "name": "OVERTIME?! First melody cover",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gxxac7/overtime_first_melody_cover/"
+      }
+    ],
+    "coverName": "OVERTIME?! - KEY AFTER KEY | PHIGHTING OST",
+    "coverUrl": "https://youtu.be/YOw4YgyNnog",
+    "tags": [
+      "big"
+    ]
+  }
+}

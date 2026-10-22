@@ -1,0 +1,43 @@
+{
+  "file": "songs/2ea7c3978bdab9c2ecb1e16fc5351460.js",
+  "title": "Dead Data",
+  "author": "feeshbread",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2ea7c3978bdab9c2ecb1e16fc5351460.js",
+  "sha256": "e5319b94a8fc7d1d02d20413a8ddd8188a1dd376c4aab7958e2232371a082a17",
+  "upstream": {
+    "hash": "2ea7c3978bdab9c2ecb1e16fc5351460",
+    "codeMinLen": 5403,
+    "codeLen": 6756,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||({u,p,w}=(()=>{const b=a=>pt*2**(a/12),e=(a,s,t)=>parseInt(a[(r>>t)%s],36),t=a=>255&-a,f=a=>256-abs(2*t(a)-256)-.5;return{u:{avg:a=>{let s=0;for(n of a)s+=n;return s/a.length},sq:e},p:{ph:b,sph:(a,s,t)=>b(e(a,s,t))},w:{sin:a=>128*(1-cos(a/128*PI))-.5,saw:t,tri:f,pws:(a,s=.5)=>255*(t(a)>255*s),pwt:(a,s=.5)=>255*(f(a)>255*s)}}})(),fx=[],lpf=lowPassFilter=(a,s)=>(lp_fxii=fxi++,fx[lp_fxii]??=0,fx[lp_fxii]+=(a-fx[lp_fxii])*s),hpf=highPassFilter=(a,s)=>a-lpf(a,s),bpf=bandPassFilter=(a,s,t)=>hpf(lpf(a,t),s),nf=",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "Dead Data",
+    "description": "ByteBattle Season 1 Competition - 1st place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/dead_data_my_entry_for_byte_battle_season_1/",
+      "https://bytebeat.oops.wtf/season1/entries.html",
+      "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+    ],
+    "date": "2024-10-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "36f6c8aad6d7a5543a62872a2643c37f",
+        "author": "feeshbread",
+        "name": "Dead Data early wip",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/comment/lr23q1k/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-02"
+  }
+}

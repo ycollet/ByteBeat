@@ -1,0 +1,25 @@
+{
+  "file": "songs/027825f90f99fec113394c59a15283ff.js",
+  "title": "Pls remix this",
+  "author": "0naCB0_1488",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "93b620007bcbec047f509ad2cee97c437310cad7935b1cc45c29ee648b44b60e",
+  "upstream": {
+    "hash": "027825f90f99fec113394c59a15283ff",
+    "codeMinLen": 63,
+    "codeMin": "'64835582659355636583658265826421'[t>>11&31]*t%100*(1-t/2048%1)",
+    "codeLen": 74,
+    "code": "((\"64835582659355636583658265826421\"[t>>11&31]*t)%100)%256*(1-t%2048/2048)",
+    "author": "0naCB0_1488",
+    "name": "Pls remix this",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1erefv2/pls_remix_this/",
+    "date": "2024-08-13",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-02-04"
+  }
+}

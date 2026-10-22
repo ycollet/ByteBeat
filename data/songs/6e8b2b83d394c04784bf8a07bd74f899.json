@@ -1,0 +1,32 @@
+{
+  "file": "songs/6e8b2b83d394c04784bf8a07bd74f899.js",
+  "title": "8-bit Ctrl+V",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "405deaa06802c6b47d8c5bc986e0d8e9b5fc5a696789ae693f08c04d46b6d6c5",
+  "upstream": {
+    "hash": "6e8b2b83d394c04784bf8a07bd74f899",
+    "codeMinLen": 203,
+    "codeMin": "([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&64)+([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t>>1&64)+[3E6/(t&16383)&64,(t*random()&64)*'10'[(t>>12)%2]][(t>>13)%2]",
+    "codeLen": 209,
+    "code": "(([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t)&64)+([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t>>1&64)+([(3e6/(t&16383)&64),(t*random()&64)*'10'[(t>>12)%2]][(t>>13)%2])",
+    "author": "psubscirbe",
+    "name": "8-bit Ctrl+V",
+    "url": "https://dollchan.net/btb/res/284.html#673",
+    "date": "2023-03-20",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0466e5621443532a47fc11e1154d76ae",
+        "author": "rubi",
+        "name": "Ctrl+V",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0ytc9/ctrlv/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

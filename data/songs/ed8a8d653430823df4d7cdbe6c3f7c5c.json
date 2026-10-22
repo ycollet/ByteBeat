@@ -1,0 +1,32 @@
+{
+  "file": "songs/ed8a8d653430823df4d7cdbe6c3f7c5c.js",
+  "title": "sid function",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ed8a8d653430823df4d7cdbe6c3f7c5c.js",
+  "sha256": "df75063ac8c72b3b83886cfa1861ba2b14d0c295fe8c7643e241a653552bd222",
+  "upstream": {
+    "hash": "ed8a8d653430823df4d7cdbe6c3f7c5c",
+    "codeMinLen": 318,
+    "codeMin": "sid=(p,N,s=16)=>(N=[0,...(N.map(e=>e[(t>>s)%e[l='length']]))],T=q=>2**(q/12),S=(p,t)=>t*p&255,C=t=>N.reduce((a,b)=>a+S(T(b),t)),C(t-(2**p[int((t/((2**s)))*p[l])%p[l]]))>C(t)?64:0),sid([5,4.5,4,3.5,3,2.5,2,1.5],[[0,0,-2,-2,0,0,0,0,0,0,-2,-2,0,0,1,1],[4,3,3,2,4,4,5,5,4,3,3,2,4,4,4,4],[7,7,6,6,7,8,8,7,7,7,6,6,7,8,8,8]])",
+    "codeLen": 397,
+    "fileOrig": 1,
+    "codeText": "sid=(p,N,s=16)=>(N=[0,...(N.map(e=>e[(t>>s)%e[l='length']]))],T=q=>2**(q/12),S=(p,t)=>t*p&255,C=t=>N.reduce((a,b)=>a+S(T(b),t)),C(t-(2**p[int((t/((2**s)))*p[l])%p[l]]))>C(t)?64:0),sid([5,4.5,4,3.5,3,2.5,2,1.5],[[0,0,-2,-2,0,0,0,0,0,0,-2,-2,0,0,1,1],[4,3,3,2,4,4,5,5,4,3,3,2,4,4,4,4],[7,7,6,6,7,8,8,7,7,7,6,6,7,8,8,8]])",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "sid function",
+    "description": "It's interesting to view the pulses movement at the max zoom.",
+    "url": "https://dollchan.net/btb/res/756.html#1659",
+    "date": "2023-07-18",
+    "sampleRate": 44100,
+    "drawing": {
+      "mode": "Combined",
+      "scale": "0"
+    },
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-06"
+  }
+}

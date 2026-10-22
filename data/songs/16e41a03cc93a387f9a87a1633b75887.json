@@ -1,0 +1,24 @@
+{
+  "file": "songs/16e41a03cc93a387f9a87a1633b75887.js",
+  "title": "something cool",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8f8fb673a767e3613749ab657f6f58594f9f942c522b93f27a96cdcecfb23473",
+  "upstream": {
+    "hash": "16e41a03cc93a387f9a87a1633b75887",
+    "codeMinLen": 80,
+    "codeMin": "t/=4.7,(x=[4,2,1,.5][(t>>10)%4]*t,(t*(t&16384?x:t&8192?3:4)&127)+(x&128)|t>>3)/2",
+    "codeLen": 83,
+    "code": "t/=4.7,\n(x=[4,2,1,0.5][(t>>10)%4]*t,\n(t*(t&16384?x:t&8192?3:4)&127)+(x&128)|t>>3)/2",
+    "author": "rubi",
+    "name": "something cool",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s628sb/something_cool/",
+    "date": "2022-01-17",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

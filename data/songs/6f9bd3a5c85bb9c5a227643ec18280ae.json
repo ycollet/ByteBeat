@@ -1,0 +1,22 @@
+{
+  "file": "songs/6f9bd3a5c85bb9c5a227643ec18280ae.js",
+  "title": "Brain burner",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6a2a96b1d6f6b914fb87ecc21cb870dbd68d4e622d0bc64d27a115bd206a9f6e",
+  "upstream": {
+    "hash": "6f9bd3a5c85bb9c5a227643ec18280ae",
+    "codeLen": 12,
+    "code": "129*t%(t>>7)",
+    "author": "SthephanShi",
+    "name": "Brain burner",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/93cd33f5927234f4e2050625b285ca27.js",
+  "title": "Jeroen Tel - Stranglehold",
+  "author": "BaenHoHoHo",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6fe53275dbfee260a843312318d03480a488343b2e8618d459788b75a66186f9",
+  "upstream": {
+    "hash": "93cd33f5927234f4e2050625b285ca27",
+    "codeLen": 400,
+    "code": "t/=48e3,bpm=130,T=t*bpm/60,k=45E3*t,sp=x=>x%4,ps=x=>k*2**(x/12),wv=x=>sin(PI*x/64)*12**sin(T/8%1)/2,wv(ps(-'0345'[_=T/8&3]))*(dc=x=>.23**sp(T/2+x),dc(0))/6.25+wv(ps('2000'[_]))*dc(3.75)/6+wv(ps('3222'[_]))*dc(7.5)/5.75+wv(ps('7657'[_]))*dc(11.25)/5.5+wv(ps([10,9,8,12][_]))*dc(11)/5.25+wv(ps([14,12,12,14][_]))*dc(14.75)/5+wv(ps([15,14,14,17][_]))*dc(18.5)/4.75+wv(ps([19,18,17,19][_]))*dc(26.25)/4.5",
+    "author": "BaenHoHoHo",
+    "name": "Jeroen Tel - Stranglehold",
+    "url": "https://dollchan.net/btb/res/117.html#2794",
+    "date": "2023-12-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Jeroen Tel - Stranglehold",
+    "coverUrl": "https://youtu.be/FpOM4Fs08kU",
+    "tags": [
+      "1k"
+    ]
+  }
+}

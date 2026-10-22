@@ -1,0 +1,27 @@
+{
+  "file": "songs/e1c68edc4cd8df68069ec680df9e9361.js",
+  "title": "Iankku",
+  "author": "TrashImpossible3699",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e1c68edc4cd8df68069ec680df9e9361.js",
+  "sha256": "c8293975ad5ece6e76a49ff86c4259f6e927b8d18123c5295b87b6d9bf236aaf",
+  "upstream": {
+    "hash": "e1c68edc4cd8df68069ec680df9e9361",
+    "codeLen": 1294,
+    "fileOrig": 1,
+    "codeText": "s=3500,t||(d=new Float32Array(512),sd=new Float32Array(512)),cl=x=>atan(x),lpf=(w,x,y)=>(d[w]+=(x-d[w])*y,d[w]),hpf=(w,x,y)=>x-lpf(w,x,y),rf=(v,w,x,y)=>(d[v]+=d[w]+=(x-d[v]-d[w])*y,d[v]),rd=x=>sin(x*1e32)*1e16,hf=(v,w,x,y)=>hpf(w,v,.97)*exp(-t/s/x%1/y),sld=(v,w,x,y)=>(sd[v]+=sd[w]+=(x-sd[w])/y,sd[v]),mm=[7,7,3,0][t/s/16%4|0],ep=[3,5,2,3,0,2,-2,0,-4,-2,-5,-4,-7,-5,-9,-7,-10,-9,-12,-10,-14,-12,-16,-14,-17,-16,-19,-17,-21,-19,-22,-21],hx=hf(cl(tan(t/128*8*pow(2,mm/12)))*1,0,1,.41)*8+hf(cl(tan(t/1.5/128*8*pow(2",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "Iankku",
+    "description": "Lasts 3 minutes and 17 seconds.",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1n9xngk/a/",
+    "date": "2025-09-06",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-10-01"
+  }
+}

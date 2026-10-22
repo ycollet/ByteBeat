@@ -1,0 +1,28 @@
+{
+  "file": "songs/eb1f5b373d5171aefce9822741a77d46.js",
+  "title": "do my beat bro",
+  "author": "BaenHoHoHo",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/eb1f5b373d5171aefce9822741a77d46.js",
+  "sha256": "133c0a5c58c83c2b7e47622a077fdbb55568c29b93f245144a8d6ed202e3e0eb",
+  "upstream": {
+    "hash": "eb1f5b373d5171aefce9822741a77d46",
+    "codeLen": 726,
+    "fileOrig": 1,
+    "codeText": "!t==1?(R=random,N=24576,K='0849362937AC25EDF82BC829207748CEFA',S=sin,C=cos,u=[0,0],k=[f=8192],FM=[(a,b=1,c=1)=>S(PI*a/128+b*S(PI*a/64)*.01**c)*.1**c,(a,b=1,c=1)=>C(PI*a/192-C(PI*a/128)+b*S(PI*a/32)*.01**c**.6)*.3**c**.3]):(o=u[0]+=1+C(PI*t/6**7+64*S(PI*t/8**6)),k[t%f|0]=2*FM[0](u[1]+=2**(('0x'+K[0|(u[0]/2**13^u[0]/2**14+1)%K.length])/20),6,e=u[0]/8192%1)+(k[u[0]*9/8%f|0]||0)/1.5,[5/2,2].map(E=>atan(k[E*t%f|0]/2+4*C(128/((e=u[0]/N%1)+.01)**.1)*1E-3**e*(8462>>(u[0]/N&7)&1)+3*FM[1](E*t*2**(('0x'+K[0|(u[0]/2**1",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "do my beat bro",
+    "url": "https://dollchan.net/btb/res/117.html#16233",
+    "date": "2026-07-18",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-09-18",
+    "date_edited": "2026-09-18"
+  }
+}

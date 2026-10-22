@@ -1,0 +1,28 @@
+{
+  "file": "songs/eab56531f7c0a6fcd71ea3a1267f62ff.js",
+  "title": "song i made while i was sick",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/eab56531f7c0a6fcd71ea3a1267f62ff.js",
+  "sha256": "db74eb14a62976f30dc63334e41cce62c420bc56fcdbee36bf84eaccf8aef019",
+  "upstream": {
+    "hash": "eab56531f7c0a6fcd71ea3a1267f62ff",
+    "codeLen": 16282,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{let F=globalThis._F;if(!F||F.k!==1829850276){let Mx=max,Mn=min,Fl=floor,Ci=ceil,Rd=round,Ab=abs,Sn=sin,Cs=cos,Th=tanh,A=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~\",P=\"C8Xai!D6GE8OETqyRlF0WRWCyNr4wJQFw#lXVKcVDrMRqCqdRjJdMFn8z4mZqmo4Gg0G4owZ0ydf7nJYEyeK9cPVw8vkKgFgnRZk531FBMqsbbY9ac09bOCiMazaIvxi0a7X0fkazzRUBSpZomgSfrEVEtybd8vGyxCKVr4MklmWnIwi4f7piGSy7Ucr5erBXvi6um!K4zhk6rLVyrP2DKsyNA5rZjMJ6fR#I4HoX2BWVm8qJlZBj7kTLXj022Q38esnpBqwYQMr4xYPiNj6WiQc",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "song i made while i was sick",
+    "url": "https://www.bytebeat.cloud/post/067ee7af-230c-41a0-9f5f-46aa172ea302",
+    "date": "2026-10-02",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2026-10-06",
+    "date_edited": "2026-10-18"
+  }
+}

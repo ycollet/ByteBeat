@@ -1,0 +1,30 @@
+{
+  "file": "songs/b51293b62bc5e6d28f1622521fd8160b.js",
+  "title": "Plage Coquillage",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 25941.332,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b51293b62bc5e6d28f1622521fd8160b.js",
+  "sha256": "edb1e7a4ab23272c040b8cc3d7a74ec698fb557a53657807f6ef55aa22eaa364",
+  "upstream": {
+    "hash": "b51293b62bc5e6d28f1622521fd8160b",
+    "codeLen": 6519,
+    "fileOrig": 1,
+    "codeText": "Hz=95/60*16384,\nn=440/Hz*128*2**(3/12),\nvi=63+sin(t/1e3)*8,\nvi2=63+sin(t/700)*0.1,\nDC=t-32768,\n\nl=10+((90-(t>>8&127)*.703)*(t>2359296)*(t<2392064))-((t-32768*5>>13&127)*.073)*(t>3309568),\nl2=15,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Plage Coquillage",
+    "description": "Tried to do the outro, but it was a fail.",
+    "url": "https://dollchan.net/btb/res/520.html#5514",
+    "date": "2025-02-23",
+    "mode": "Floatbeat",
+    "sampleRate": 25941.332,
+    "coverName": "Tao Mon Amour - Plage Coquillage (First Kiss Song)",
+    "coverUrl": "https://youtu.be/T3wSRDYXtPY",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-11-07"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/d956df8a9b9b2add2e60cf4569431e5d.js",
+  "title": "Dark Ritual",
+  "author": "pck404",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d956df8a9b9b2add2e60cf4569431e5d.js",
+  "sha256": "3ad27fc2edc5fbc989d949c7d487d745a5c7bd47e328918e0ebe367e15b27a54",
+  "upstream": {
+    "hash": "d956df8a9b9b2add2e60cf4569431e5d",
+    "codeLen": 1560,
+    "fileOrig": 1,
+    "codeText": "SR=48000,\nTAU=2*PI,\nT=t/SR,\n\nt||(db=[],di=0),\n\ndl=(v,len=20000,fb=.6,mix=.5)=>(\n  d=db[p=(di-len)&65535]||0,",
+    "isTruncated": 1,
+    "author": "pck404",
+    "name": "Dark Ritual",
+    "description": "\"Around the fire, the machines began to spin, and ring their metallic bodies in an unsettling trance.\" - BytebeatCloud's Week 3 Top Pick",
+    "url": "https://www.bytebeat.cloud/post/a31a5e2d-131a-478a-a7a7-0a660905e24d",
+    "date": "2025-12-28",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-06-21",
+    "date_edited": "2026-07-11"
+  }
+}

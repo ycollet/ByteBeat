@@ -1,0 +1,24 @@
+{
+  "file": "songs/8a3028663d01680702ab050876255f13.js",
+  "title": "helicopter",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bed6f5e42daaf797df5a1b285883e7f385c0e80b18665f963a78315875ab22f1",
+  "upstream": {
+    "hash": "8a3028663d01680702ab050876255f13",
+    "codeMinLen": 29,
+    "codeMin": "(t%round(t/900)&2*-t^t/900)/3",
+    "codeLen": 33,
+    "code": "(((t%round(t/900)&-t*2)^t/900)/3)",
+    "author": "GDPlayer_1035",
+    "name": "helicopter",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q9skto/helicopter/",
+    "date": "2021-10-17",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

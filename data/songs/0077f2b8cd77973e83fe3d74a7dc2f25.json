@@ -1,0 +1,24 @@
+{
+  "file": "songs/0077f2b8cd77973e83fe3d74a7dc2f25.js",
+  "title": "Sine Music v2",
+  "author": "Jay-Arnett-97104",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c96bd649a14493c55f7320d0fde67d57ef4a26c0a64aa288267953b4cd04aa8c",
+  "upstream": {
+    "hash": "0077f2b8cd77973e83fe3d74a7dc2f25",
+    "codeMinLen": 77,
+    "codeMin": "t*=4,1280001*(sin(t/22/((t>>12)%4+1))*sin(t/22/((t>>15)%4+1))*(t/1%1E-4)+128)",
+    "codeLen": 82,
+    "code": "t=t*4,(sin(t/22/((t>>12)%4+1))*sin(t/22/((t>>15)%4+1))*((t/1)%0.0001)+128)*1280001",
+    "author": "Jay-Arnett-97104",
+    "name": "Sine Music v2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q8ev9z/sine_music_v2/",
+    "date": "2021-10-15",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

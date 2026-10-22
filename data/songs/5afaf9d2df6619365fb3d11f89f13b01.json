@@ -1,0 +1,27 @@
+{
+  "file": "songs/5afaf9d2df6619365fb3d11f89f13b01.js",
+  "title": "Moonlight Sonata 3",
+  "author": "mqdantee",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5afaf9d2df6619365fb3d11f89f13b01.js",
+  "sha256": "fef8669f6a2c1d48d2345f11b1c1a4343850ff48c4810dbfd4e0840a73a01a68",
+  "upstream": {
+    "hash": "5afaf9d2df6619365fb3d11f89f13b01",
+    "codeLen": 1760,
+    "fileOrig": 1,
+    "codeText": "u=(~t>>7&31),c=2**(1/12),cs=2**(2/12),d=2**(3/12),ds=2**(4/12),e=2**(5/12),f=2**(6/12),fs=2**(7/12),g=2**(8/12),gs=2**(9/12),a=2**(10/12),as=2**(11/12),b=2**(12/12),\n\n(32&t/2*\n[,gs/4,cs/2,e/2,gs/2, cs/2,e/2,gs/2,cs, e/2,gs/2,cs,e,  gs/2,cs,e,gs, cs,e,gs,cs*2, e,gs,cs*2,e*2, gs,cs*2,e*2,gs*2 ,,gs*2\n,,,\n\ngs/4,c/2,ds/2,gs/2, c/2,ds/2,gs/2,c, ds/2,gs/2,c,ds, gs/2,c,ds,gs, c,ds,gs,c*2, ds,gs,c*2,ds*2,  gs,c*2,ds*2,gs*2 ,,gs*2\n,,,",
+    "isTruncated": 1,
+    "author": "mqdantee",
+    "name": "Moonlight Sonata 3",
+    "url": "https://www.bytebeat.cloud/post/a1e9d8f8-e5dc-4aa4-98e4-a9aa1ecd7a52",
+    "date": "2026-03-08",
+    "sampleRate": 44100,
+    "coverName": "Moonlight Sonata Mvt 3",
+    "coverUrl": "https://www.youtube.com/watch?v=BV7RkEL6oRc",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-03-10"
+  }
+}

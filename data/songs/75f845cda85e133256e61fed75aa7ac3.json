@@ -1,0 +1,35 @@
+{
+  "file": "songs/75f845cda85e133256e61fed75aa7ac3.js",
+  "title": "submersion",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/75f845cda85e133256e61fed75aa7ac3.js",
+  "sha256": "aad41f55de96c3152ec782bba0a4bc528ba7e21474bf08a60b802be3fc6ce234",
+  "upstream": {
+    "hash": "75f845cda85e133256e61fed75aa7ac3",
+    "codeLen": 1544,
+    "fileOrig": 1,
+    "codeText": "/*\n * submersion (unfinished)\n * by troubleshoot\n * (remix of OSIRIS)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=165,K=H=S=k=h=s=b1=b2=c1=c2=h1=h2=h3=s1=s2=0,Ki=Hi=Sn=1,r=Array(m=16384).fill(0),R=i=>r[i%m],cr=Array(m).fill(0),CR=i=>cr[i%m],clip=x=>atan(1.25*x)/1.25,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "submersion",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mabhbt/submersion_wip/",
+    "date": "2025-07-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e98ecda467d71d6fefee904f7a1a717c",
+        "author": "MarioFan171",
+        "name": "OSIRIS",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1c66gmx/osiris_floatbeat/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

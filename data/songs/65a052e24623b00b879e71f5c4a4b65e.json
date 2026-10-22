@@ -1,0 +1,30 @@
+{
+  "file": "songs/65a052e24623b00b879e71f5c4a4b65e.js",
+  "title": "Small Gifts",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/65a052e24623b00b879e71f5c4a4b65e.js",
+  "sha256": "0f218cdfb4f1bdf55a233780a3823d96ea6693c2648d38f3b8112104eede4650",
+  "upstream": {
+    "hash": "65a052e24623b00b879e71f5c4a4b65e",
+    "codeMinLen": 2144,
+    "codeLen": 2332,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "m1=[45,48,52,48,57,52,60,57,45,48,52,48,57,60,57,52,43,47,50,47,55,50,59,55,43,47,50,47,55,59,55,50,41,45,48,45,53,48,57,53,41,45,48,45,53,57,53,48,43,47,50,47,55,50,59,55,43,47,50,47,55,59,55,50],b=[45,43,41,43],K=sqrt(sin(t**(-t/256%32)))*20,S=random(),H=-tan(random())*(-t*18>>0&65536)>>8,R=-1,P=[K,K,H,R,S,R,H,R,H,R,K,K,S,R,H,R,K,K,H,R,S,R,H,R,K,R,K,K,S,R,H,R,K,K,H,R,S,R,H,R,H,R,K,K,S,R,H,R,K,K,H,R,S,R,K,R,K,R,K,K,S,R,H,R,],t<=524288?(((sin(cos(t*0.4*1.75**((m1[(t>>13)%m1.length]-85)/10))/20))*280+(sin(co",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Small Gifts",
+    "description": "A song made somewhere in 10TET and 12TET.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ig9d7n/small_gifts_an_actual_song/",
+    "date": "2025-02-03",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-10-23"
+  }
+}

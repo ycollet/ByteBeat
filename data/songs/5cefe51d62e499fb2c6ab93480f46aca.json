@@ -1,0 +1,25 @@
+{
+  "file": "songs/5cefe51d62e499fb2c6ab93480f46aca.js",
+  "title": "Synth",
+  "author": "0naCB0_1488",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8b33f63dfb8df42e06a0cbca7b92c6a0ad93ff7dccac4cf0568b2a8de79d6fc1",
+  "upstream": {
+    "hash": "5cefe51d62e499fb2c6ab93480f46aca",
+    "codeMinLen": 163,
+    "codeMin": "t/=4,r=[1,2,3,1,2,3,2,3,1,2,3,1,2,3,2,3,.8,a=1.2,b=2.4,.8,a,b,a,b,.9,c=1.8,d=2.7,.9,c,d,c,d][t>>11&31]*t,g=[1,1,.8,.9][t>>14&3]*t,(r%32+g%43)%256*2*(1-t%2048/4096)",
+    "codeLen": 185,
+    "code": "z=t,t/=4,r=[1,2,3,1,2,3,2,3,1,2,3,1,2,3,2,3,0.8,1.2,2.4,0.8,1.2,2.4,1.2,2.4,0.9,1.8,2.7,0.9,1.8,2.7,1.8,2.7][(z>>13)%32]*t,g=[1,1,0.8,0.9][(z>>16)%4]*t,(r%32+g%43)%256*2*(1-t%2048/4096)",
+    "author": "0naCB0_1488",
+    "name": "Synth",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1drko5y/array_melodies/",
+    "date": "2024-06-29",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-02-06"
+  }
+}

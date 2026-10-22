@@ -1,0 +1,42 @@
+{
+  "file": "songs/20505c564f90dfe578635251a08b845d.js",
+  "title": "Slow DJ hardcore mix #3",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 38000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/20505c564f90dfe578635251a08b845d.js",
+  "sha256": "2660f65010e27e168f4997c72ef750ee1b899b68d77d2dff01c575e3487e945e",
+  "upstream": {
+    "hash": "20505c564f90dfe578635251a08b845d",
+    "codeMinLen": 635,
+    "codeLen": 693,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "r=t*1.25,l=16384,u=8192,c=4096,mn=(k,x,y)=>min(max(k,x),y),x=j=>mn((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.554%64-32,mn(r>0&&(e=a=>s(['1358','79AE','0247','468B'][3&r>>18][3&r>>11>>(w='55443321'[7&r>>16])],a),e(1)+e(j))*(1-r/(c<<w)%1)*8,-32,31)*(r/l/2%1)**.25+(L=a=>(s((G='1704')[K=3&r>>18],a)+s('5A48'[K],a)+s('8E7B'[K],a))*(r/32768%1)*(1-r/u%1*.75),L(.5)-L(j))+mn(-(b=a=>s(G[3&r>>18],a)*8,b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)**2+1E4*sin(6*cbrt(r%l))*(1-r/l%1/2)**14*!(r&l)/'14'[1&r>>15]+((t*sin(t>>2)&64)-32)*(1-r/l/",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Slow DJ hardcore mix #3",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#4392",
+      "https://www.reddit.com/r/bytebeat/comments/1fb1irh/slow_dj_hardcore_mix_3/"
+    ],
+    "date": "2024-09-07",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 38000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "92a95de2b722a2df17d8b89c9561fb7b",
+        "author": "Zackx",
+        "name": "Hardcore mix #3",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4114",
+          "https://www.reddit.com/r/bytebeat/comments/1elwdy3/heaven_evil_netral_happy_chords_hardcore_mix_3/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

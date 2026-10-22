@@ -1,0 +1,33 @@
+{
+  "file": "songs/1cceb46ef2145f215a5770156852ca63.js",
+  "title": "Aleph-Null",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1cceb46ef2145f215a5770156852ca63.js",
+  "sha256": "5cfedd31d5f1c4c4e2519bcf7a55d274042c24b4bd380206db8e0b112bb03e38",
+  "upstream": {
+    "hash": "1cceb46ef2145f215a5770156852ca63",
+    "codeLen": 3794,
+    "fileOrig": 1,
+    "codeText": "t2=t,\n\nBPM=195, /*BPM: Beats Per Minute*/\nsR=sampleRate=48e3, /*Samplerate*/\nsPB=samplesPerBeat=32768, /*Timing*/\nr=t*abs(BPM/((60*sampleRate)/samplesPerBeat)),\nlm=(a,mn=50,mx=-50)=>min(mn,max(mx,a/100)),\n",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Aleph-Null",
+    "description": "A Camellia-styled song.",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8812",
+      "https://www.reddit.com/r/bytebeat/comments/1mpycfk/alephnull_wip/"
+    ],
+    "date": "2025-08-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-11-03"
+  }
+}

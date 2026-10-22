@@ -1,0 +1,38 @@
+{
+  "file": "songs/fc89085830806ad64888918fff12993f.js",
+  "title": "Combined xpansive's and varjohukka's stuff",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6d5520619479d680b50e9b9a0ab3244af4533ffb1ac80f89f9d998a9578fc2f6",
+  "upstream": {
+    "hash": "fc89085830806ad64888918fff12993f",
+    "codeLen": 33,
+    "code": "(t>>7|t|t>>6)*10+4*(t&t>>13|t>>6)",
+    "author": "viznut",
+    "name": "Combined xpansive's and varjohukka's stuff",
+    "url": [
+      "https://www.pouet.net/topic.php?which=8357&page=4#c388488",
+      "https://youtu.be/qlrs2Vorw2Y?t=150"
+    ],
+    "date": "2011-09-30",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "62daf9835d427a2de335360032583a51",
+        "author": "xpansive",
+        "name": "Lost in Space",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=3#c388375",
+          "https://youtu.be/qlrs2Vorw2Y?t=207"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

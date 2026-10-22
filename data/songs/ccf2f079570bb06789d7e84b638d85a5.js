@@ -1,0 +1,1 @@
+FB=function(u){this.lp6=0,this.lp12=0},b=("undefined"!=typeof glob&&null!=glob||(glob=new FB),glob),t/=4,cl=function(u,t,f){return Math.min(Math.max(f,u),t)},w=function(u){return(255&u)/255},cp=w(1-(t>>5|t>>8)>>(t>>16)),c=cl(0,.99,cp),r=.9,fb=r+r/(1-c),f=(4*t&255)/127-1,b.lp6+=c*(f-b.lp6+fb*(b.lp6-b.lp12)),b.lp12+=c*(b.lp6-b.lp12),b.lp12;

@@ -1,0 +1,26 @@
+{
+  "file": "songs/4cb55eb4d17bbceaaa7227eec4abdf9d.js",
+  "title": "Doomcall",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1fc48fce9cac1bcfc57ad7b656bc1e0dbac7f41ff30a1c96098d47f31ad7510f",
+  "upstream": {
+    "hash": "4cb55eb4d17bbceaaa7227eec4abdf9d",
+    "codeMinLen": 499,
+    "codeMin": "t||(a=Array,d=[a(24576).fill(0),a(12288).fill(0)],l=[0,0,0,0]),x=t>>17&1,j=t/4096,k=j/4%1,h=(v,p)=>{w=0;for(i=1;i-1<v;i++)w+=(i<=v||v%1)*(i*(t+24*sin(j*PI))*2**(([0,3,7,5,,7,,5,,3+4*x,,12*x-2,8*x,3+4*x][t>>13&15]+p)/12)&256);return w/4/v},(_=>{i=4;while(i--)l[i]+=((i?l[i-1]:d[0].shift()+d[1].shift())-l[i])/2})(),y=(h(6-(k%.5*2)**.7*6,12)^h(4,19))+l[3],d[0].push(y/4),d[1].push(y/3),k**.5*y+56*sin((k*2e5)**.4)**4+((t>>5^t/(.8+(j*6|0)/6%1)>>1)%39>16&&54*(1-j/(2-!(j/2+1&31))%1)*(50244>>(j/2&15)&1))",
+    "codeLen": 501,
+    "code": "t||(a=Array,d=[a(24576).fill(0),a(12288).fill(0)],l=[0,0,0,0]),x=t>>17&1,j=t/4096,k=j/4%1,h=(v,p)=>{w=0;for(i=1;i-1<v;i++)w+=(i<=v||v%1)*(i*(t+24*sin(j*PI))*2**(([0,3,7,5,,7,,5,,3+4*x,,12*x-2,8*x,3+4*x][t>>13&15]+p)/12)&256);return w/4/v},(_=>{for(i=0;i<4;i++)l[i]+=((i?l[i-1]:d[0].shift()+d[1].shift())-l[i])/2})(),y=(h(6-(k%.5*2)**.7*6,12)^h(4,19))+l[3],d[0].push(y/4),d[1].push(y/3),k**.5*y+56*sin((k*2e5)**.4)**4+((t>>5^t/(.8+(j*6|0)/6%1)>>1)%39>16&&54*(1-j/(2-!(j/2+1&31))%1)*(50244>>(j/2&15)&1))",
+    "author": "lhphr",
+    "name": "Doomcall",
+    "url": "https://dollchan.net/btb/res/44.html#481",
+    "date": "2023-02-11",
+    "sampleRate": 32000,
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-17"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "file": "songs/b095913d12c834610fe04ac2760e8d28.js",
+  "title": "Graceful Ache v2",
+  "author": "Greaserpirate",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b095913d12c834610fe04ac2760e8d28.js",
+  "sha256": "20c0db1fd605279c43a2568d0c063d77fa6fe95cc6c96e65b17e33c4c9a94571",
+  "upstream": {
+    "hash": "b095913d12c834610fe04ac2760e8d28",
+    "codeLen": 19123,
+    "fileOrig": 1,
+    "codeText": "// A collection of effects you can use on _ANY_ variable that changes\n\n//Original t, increments one per sample. The reverb, harmonifier, hihat, and snare need this.\nT = t,\n\n//Change t here, not below, or it messes with the snare/hihat sounds\nt *= r8 = 8 / 48,\n",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Graceful Ache v2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/145m7h9/vastly_improved_limiter_feat_improved_graceful/",
+    "date": "2023-06-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "39e05a453d44f64e923248b59933badc",
+        "author": "Greaserpirate",
+        "name": "Graceful Ache",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10t4z6w/graceful_ache_probably_the_most_complex_bytebeat/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

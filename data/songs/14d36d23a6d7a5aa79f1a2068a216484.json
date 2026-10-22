@@ -1,0 +1,37 @@
+{
+  "file": "songs/14d36d23a6d7a5aa79f1a2068a216484.js",
+  "title": "Attempt on a Sierpinski Sparta Remix",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 31608,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dff129e13ad1bd6b0113cea66abf65355c71a94bd1b4f6c35405659e62838394",
+  "upstream": {
+    "hash": "14d36d23a6d7a5aa79f1a2068a216484",
+    "codeMinLen": 43,
+    "codeMin": "t/=4,t*2**([27,28,25,28][t>>13&3]/12)|-t>>4",
+    "codeLen": 50,
+    "code": "t/=4,t*2**(([29,30,27,30][t>>13&3]/12)-2/12)|-t>>4",
+    "author": "PrincessPriscillaPT",
+    "name": "Attempt on a Sierpinski Sparta Remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fbo3g0/my_attempt_on_a_sierpinski_sparta_remix/",
+    "date": "2024-09-08",
+    "sampleRate": 31608,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "256"
+    ]
+  }
+}

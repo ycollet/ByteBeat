@@ -1,0 +1,34 @@
+{
+  "file": "songs/89ac2a626c6e7b1b2403e1244eda64f5.js",
+  "title": "CHAOTIC CASTLE",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/89ac2a626c6e7b1b2403e1244eda64f5.js",
+  "sha256": "d1e1dda5c704a9855e065f80d57dea0ed068ce4359396c98add86a52c72aa234",
+  "upstream": {
+    "hash": "89ac2a626c6e7b1b2403e1244eda64f5",
+    "codeLen": 2350,
+    "fileOrig": 1,
+    "codeText": "ev1=(b=t/48000,rise =( (start, len, x = 1) => b < start ? 0 : b < start + len ? (b - start) / len : x),fade = (start, len) => b < start ? 1 : b < start + len ? 1 - (b - start) / len : 0,re=x=>x,b2=t*1.06**[2,0,-2,-3][t>>17&3],(mel=t=>(ev=(x=t*2**([2,4,5,9,2,4,5,9,2,4,5,9,12,9,7,5,0,2,4,7,0,2,4,7,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,5,-2,0,2,5,-2,0,2,-2,-3,-1,1,4,-3,-1,1,4,-3,-1,1,7,-3,-1,1,9][63&t>>13]/12),x2=sin(x*PI/64)%256*127+127,xa=((x%256.3+x%128+x%64+x%32+x%16+x%128.8+x%64.8+x%32.8+x%16.8)/3)*(~t/2&4095)/",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "CHAOTIC CASTLE",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bwstc1/chaotic_castle_visuals/",
+    "date": "2024-04-05",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "ca2647b6f1b759ea23e53a0df811fbfd",
+        "author": "Zackx",
+        "name": "Castle at the night",
+        "url": "https://dollchan.net/btb/res/204.html#414"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/afc5987b659a4659c465849235ce4869.js",
+  "title": "e1m1",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "41a10e546853e5ce83e4151bb5218bbb97734d7dd0fe9cac6fa46be60b2b4b57",
+  "upstream": {
+    "hash": "afc5987b659a4659c465849235ce4869",
+    "codeMinLen": 187,
+    "codeMin": "((t/4*2**([4,,4,,16,,4,,4,,14,,4,,4,,12,,4,,4,,10,,4,,4,,11,,12,,4,,4,,16,,4,,4,,14,,4,,4,,12,,4,,4,,10,10,10,10,10,10,,,,][(t*1.2>>12)%64]/12+(t*1.2>>19&1)/12*5)&127)>(t*1.2>>7&127))*128",
+    "codeLen": 199,
+    "code": "((t/4*2**([\r\n\r\n4,,4,,16,,4,,4,,14,,4,,4,,12,,4,,4,,10,,4,,4,,11,,12,,\r\n4,,4,,16,,4,,4,,14,,4,,4,,12,,4,,4,,10,10,10,10,10,10,,,,\r\n][(t*1.2>>12)%64]/12+(t*1.2>>19&1)/12*5\r\n\r\n)&127)>(t*1.2>>7&127))*128",
+    "author": "kOLbOSa_exe",
+    "name": "e1m1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fkeihi/e1m1_more_like_uh_mm_whatever_dude/",
+    "date": "2024-09-19",
+    "sampleRate": 48000,
+    "coverName": "Doom OST - E1M1 - At Doom's Gate",
+    "coverUrl": "https://youtu.be/BSsfjHCFosw",
+    "tags": [
+      "256"
+    ]
+  }
+}

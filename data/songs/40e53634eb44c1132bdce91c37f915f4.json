@@ -1,0 +1,26 @@
+{
+  "file": "songs/40e53634eb44c1132bdce91c37f915f4.js",
+  "title": "shuric bytebeat scan",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/40e53634eb44c1132bdce91c37f915f4.js",
+  "sha256": "8747227f0a40108f313d02e364da38f83538fa5b306e9187cb245d14fde1e63f",
+  "upstream": {
+    "hash": "40e53634eb44c1132bdce91c37f915f4",
+    "codeLen": 2750,
+    "fileOrig": 1,
+    "codeText": "//song by hcdphobe, date 2023-06-15\nt%=3165881, //REMOVE THIS IF YOU DON'T WANT SONG TO LOOP\n//set-up some shortcuts \nq=t/1.00640625,\nk=t/2.78,\nn=q>>15&3,\nl=q%2**15,\nm=NaN,",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "shuric bytebeat scan",
+    "url": "https://dollchan.net/btb/res/163.html#1309",
+    "date": "2023-06-15",
+    "sampleRate": 44100,
+    "coverName": "t-PORT - Shuric Scan",
+    "coverUrl": "https://youtu.be/VnQoSjYLPFw",
+    "tags": [
+      "big"
+    ]
+  }
+}

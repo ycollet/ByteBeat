@@ -1,0 +1,31 @@
+{
+  "file": "songs/57788c8cc0c442381020d0e565564b5a.js",
+  "title": "Sunrise on Mars",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/57788c8cc0c442381020d0e565564b5a.js",
+  "sha256": "787c4ae91439731afcc308c6e64b0271bd5cd38127f3abdc05d8c8277d547afc",
+  "upstream": {
+    "hash": "57788c8cc0c442381020d0e565564b5a",
+    "codeMinLen": 956,
+    "codeFormLen": 1721,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=44100,b=(100*t/60)%224,D=294,EE=330,G=392,A=440,B=494,S=(a,i)=>a[(i|0)%a.length],V=a=>t+a*1E-4*sin(33*t),N=(p,s,a)=>S(a,b*s)*(1E5*sin((t*p|0)**2)&255),Q=(d,p,s,v,a)=>25*(p*V(v)*S(a,(b-d)/s)%2|0),T=(d,p,s,v,a)=>abs(p*V(v)*S(a,(b-d)/s)*64%64-32|0),R=(f,ch,d,...x)=>[0,1,2,3,4].reduce((s,i)=>s+(!i||!ch||ch==(i%2||2)||.3)*(1-i/6)*f(d*i,...x),0),RS=(s,l,x=1)=>b<s?0:b<s+l?(b-s)/l:x,FD=(s,l)=>b<s?1:b<s+l?1-(b-s)/l:0,DR=a=>b<160&&RS(80,32)*N(2E4,8,a)/20,BS=v=>b>96&&FD(192,24)*Q(0,.25,16,v,[EE,G]),AR=[EE/2,B/2,D,E",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Sunrise on Mars",
+    "description": "\"You are standing in the rocky Martian desert and looking at a small pale Sun that rises from the horizon...\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/w0inwh/sunrise_on_mars_stereo/",
+    "date": "2022-07-16",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

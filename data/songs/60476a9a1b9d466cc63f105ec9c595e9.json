@@ -1,0 +1,36 @@
+{
+  "file": "songs/60476a9a1b9d466cc63f105ec9c595e9.js",
+  "title": "3D sphere animation 1/16",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ac828cc8cf0d46fe4b13ea2f0b7cd3f6d1e790220e2bf28dff5cedb025801440",
+  "upstream": {
+    "hash": "60476a9a1b9d466cc63f105ec9c595e9",
+    "codeLen": 104,
+    "code": "T=(t-2048)%8192,k=PI*t/262144,y=1-T%16/8,x=(T>>5)/64-1,x*sin(3*k)+y*cos(k)+1.8*sqrt(1-x**2-y**2)-.8||-.8",
+    "author": "SthephanShi",
+    "name": "3D sphere animation 1/16",
+    "description": "Shine a flashlight on the sphere from all sides.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18yl6an/3d_sphere_animation/",
+    "date": "2024-01-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "433005a36f94b8f8fb61b9fefa2f04e1",
+        "author": "orion_aboy",
+        "name": "sphere",
+        "url": "https://www.reddit.com/r/bytebeat/comments/17ilipb/sphere/"
+      }
+    ],
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "4"
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

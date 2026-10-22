@@ -1,0 +1,29 @@
+{
+  "file": "songs/834ce7184d1df8d1f01ce21741efa91a.js",
+  "title": "Cover of 'Please Exist' from Knytt Underground",
+  "author": "Wiebe-Marten Wijnja",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/834ce7184d1df8d1f01ce21741efa91a.js",
+  "sha256": "151d7a4957b139d0e53406fcdea88e5dab1faa4c39fe520a8ffeaa46f2214edc",
+  "upstream": {
+    "hash": "834ce7184d1df8d1f01ce21741efa91a",
+    "codeLen": 6847,
+    "codeFormLen": 7600,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "/*\n  _____  _      ______           _____ ______   ________   _______  _____ _______ \n |  __ \\| |    |  ____|   /\\    / ____|  ____| |  ____\\ \\ / /_   _|/ ____|__   __|\n | |__) | |    | |__     /  \\  | (___ | |__    | |__   \\ V /  | | | (___    | |   \n |  ___/| |    |  __|   / /\\ \\  \\___ \\|  __|   |  __|   > <   | |  \\___ \\   | |   \n | |    | |____| |____ / ____ \\ ____) | |____  | |____ / . \\ _| |_ ____) |  | |   \n |_|    |______|______/_/    \\_\\_____/|______| |______/_/ \\_\\_____|_____/   |_|   \n           ",
+    "isTruncated": 1,
+    "author": "Wiebe-Marten Wijnja",
+    "name": "Cover of 'Please Exist' from Knytt Underground",
+    "url": "http://wmmusic.nl/code/",
+    "date": "2014-04-06",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "coverName": "Knytt Underground - Nifflas - Please Exist, I'd Appreciate It",
+    "coverUrl": "https://youtu.be/MlzsEJNnXGk",
+    "tags": [
+      "big"
+    ]
+  }
+}

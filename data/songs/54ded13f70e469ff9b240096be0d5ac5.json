@@ -1,0 +1,32 @@
+{
+  "file": "songs/54ded13f70e469ff9b240096be0d5ac5.js",
+  "title": "Snowstorm",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/54ded13f70e469ff9b240096be0d5ac5.js",
+  "sha256": "59efd79ab548b85523e8fa6832b3e4267e1250cf43f4b0ed18d1ab7434e82864",
+  "upstream": {
+    "hash": "54ded13f70e469ff9b240096be0d5ac5",
+    "codeMinLen": 958,
+    "codeFormLen": 3966,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "T=t/7500,b=T/64%18,v=b>4,w=b>9.9,x=b<12,y=b>17,z=2*T,n=v?9E3:21504,t||(A=Array(n)),G=(c,o)=>33E5*T*2**(o+(parseInt(c,36)+1)/12),B=x=>((x^-(x>>8&1))&240)*(v?(i=32*T%32,j=32*T%1,i<1|i>=16&i<17?j:i>31|i>15&i<16?1-j:1):1),S=(n,o)=>(f=parseInt([(b>16?'5D':x?'V-':'1TT5TTDD').repeat(16),'VSSTSSS-'.repeat(3)+'VSSTSS-S'][b>2&x|y][T&31],36),isNaN(f)?0:(r=G(n=['947942CCB47942GGC4794BCCB4797442','C9BC97GGE9BC97LLG9BC9EGGE9BCB997'][n][T&31],o-(4*T&3||f/4&1?2:25/12))>>8,e=f>>3&3,d=f&3,128*(((e==1?r+64*sin(PI*z):e==2&!(z&",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Snowstorm",
+    "description": "\"The snow is falling, the wind is starting to blow in your face. A storm is coming, and you are going to battle.\" Continuation of previous works simulating the 2A03 (NES) sound. Winter Chip XX battle - 2nd place (bytebeat1k).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Snowstorm/75622/",
+      "https://www.reddit.com/r/bytebeat/comments/1iw7xtd/snowstorm/"
+    ],
+    "date": "2025-02-20",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "1k"
+    ],
+    "date_edited": "2025-11-10"
+  }
+}

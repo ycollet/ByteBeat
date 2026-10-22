@@ -1,0 +1,33 @@
+{
+  "file": "songs/a7b7836a9bfa41d2bad16547c3d0402d.js",
+  "title": "Modem melody rhythm",
+  "author": "aturned777",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4a2c291ec5b66de56e48d59a12455b24f3a3f64334238a361772186318f908c5",
+  "upstream": {
+    "hash": "a7b7836a9bfa41d2bad16547c3d0402d",
+    "codeMinLen": 28,
+    "codeMin": "(-t&t>>4&t>>4&t>>11)-1&-t>>4",
+    "codeLen": 30,
+    "code": "(-t&(t>>4&t>>4)&t>>11)-1&-t>>4",
+    "author": "aturned777",
+    "name": "Modem melody rhythm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11t8clc/modem_melody_rhythm/",
+    "date": "2023-03-17",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "d871f695a9268fbd58377983af5ae719",
+        "author": "krcko",
+        "name": "Modem melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/ba6780baa38eac580c45f063aedc13be.js",
+  "title": "Beyond Saturn's Rings",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ba6780baa38eac580c45f063aedc13be.js",
+  "sha256": "2bc4d5aad066c04f82e1453c600f7381cccc98cfe4d22c9c061de7396f0ec81a",
+  "upstream": {
+    "hash": "ba6780baa38eac580c45f063aedc13be",
+    "codeLen": 1365,
+    "fileOrig": 1,
+    "codeText": "j=t,t||(A=[],B=[],C=[],D=(o,p,q,r,s,u,v,w,x,y,z)=>(U=j+1,V=j+2,W=(v,w,x,y)=>w[z]??=f(++v).fill().map(($,n)=>f(x-y*n).fill(0)),A[z]??W(q,A,r,s)+W(u,B,v,w)+W(u,C,v,w),A[z][T](X=>X[U%X[S]]=o-p*X[V%X[S]]),Y=C[z],B[z][T]((y,n)=>(y[U%y[S]]=n?Y[--n][j%Y[n++][S]]:A[z].reduce((y,z)=>y+z[U%z[S]],0),Y[n][U%Y[n][S]]=y[V%y[S]]+p*(Y[n][V%Y[n][S]]-y[U%y[S]]))),y*o+Y[u][U%Y[u][S]]/++q*x),F=[],G=(w,x,y,z)=>(F[z]??=f(y),w+=(Z=F[z])[j%Z[S]]??0,Z[j%Z[S]]=w*x,w),H=[],I=[],J=(w,v,x,y,z)=>(H[z]??(I[z]=(H[z]=f(x).fill(0)).map($=>$",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "Beyond Saturn's Rings",
+    "description": "\"After gliding through the vast space, you have reached the proximity of Saturn. Looking up, you see an eclipse unlike any other...\"",
+    "url": "https://dollchan.net/btb/res/44.html#837",
+    "date": "2023-04-12",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

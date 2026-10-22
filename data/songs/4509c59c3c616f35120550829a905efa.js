@@ -1,0 +1,1 @@
+min(t/5e5,1)*cos(sin(sin(sin(sin(.1*t*PI/2e4)+.1*t*PI/16)+t*PI/500)+t*PI/1e5)+t*PI/8e5)

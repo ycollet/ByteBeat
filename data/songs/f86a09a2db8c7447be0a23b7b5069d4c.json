@@ -1,0 +1,33 @@
+{
+  "file": "songs/f86a09a2db8c7447be0a23b7b5069d4c.js",
+  "title": "dead entry #3",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "30ff21ba564a65d4e29373208483d7eb8fe0767c0204e30cc8f7ce80887b12e1",
+  "upstream": {
+    "hash": "f86a09a2db8c7447be0a23b7b5069d4c",
+    "codeLen": 436,
+    "code": "mn=f=>min(max(f,-1),1),freq='11211212112112121121141511311413'[t>>13&31],d=mn(sin(12*cbrt(t%32768)**.9)*(t/32768%1-1)*((t/4096&7)<1?(t/4096%1):1)*(t/32768%1-1)+(t/32768&1?(random()-random())*((t/1024&31)<1?(t/1024%1):1)*(t/32768%1-1)**2:0))/2,s=(sin(t*freq*PI/512+sin(t*freq*PI/512)*(t/8192%1-1))*(t/8192%1-2)+sin(t*freq*PI/256+sin(t*freq*PI/256)*(t/8192%1-1)*(t/262144%4)*(t/262144%4-4))*(t/8192%1-2))/8*((t/8192&3)<1?(t/8192%1):1),s+d",
+    "author": "eSlashMachine",
+    "name": "dead entry #3",
+    "url": "https://dollchan.net/btb/res/6946.html#9153",
+    "date": "2025-09-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "ec24b617b6f97604e1b38cd65ee4c672",
+        "author": "raphaelgoulart",
+        "name": "ripthisentry.txt, tune#3",
+        "url": "https://battleofthebits.com/arena/Entry/ripthisentry.txt/32559/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-29"
+  }
+}

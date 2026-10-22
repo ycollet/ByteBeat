@@ -1,0 +1,26 @@
+{
+  "file": "songs/1ecd9b1432740fd86fe063e9f64678cc.js",
+  "title": "Trash Remix of Cant Help Falling in Love",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1ecd9b1432740fd86fe063e9f64678cc.js",
+  "sha256": "ac46adf14cd3b3428cc0037a138d7ee5fe3dbe074ebac86cc55d4c1ba35d1e39",
+  "upstream": {
+    "hash": "1ecd9b1432740fd86fe063e9f64678cc",
+    "codeLen": 956,
+    "fileOrig": 1,
+    "codeText": "c=1.047,cs=1.107,d=1.173,ds=1.243,e=1.318,f=1.389,fs=1.475,g=1.568,gs=1.655,a=1.754,as=1.856,b=1.977,AA=t*1.003*[c,0,0,0,g,0,0,0,c,0,0,0,0,0,d,e,f,0,0,0,e,0,0,0,d,0,0,0,0,0,0,g/2,a/2,0,0,0,b/2,0,0,0,c,0,0,0,d,e,0,f,e,0,0,0,d,0,0,0,c,0,0,0,0,0,0,0][t*1.2>>13&63]%256/3,AB=(3e3/(y=t*1.2&16383)&1)*35+(x=t*12*[c,b/2,a/2,a/2,f/2,e/2,d/2,d/2,a/2,g/2,e/2,c/2,e/2,g/2,c,c][t*1.2>>15&15]/24&127)*y/4e4+((t*1.2>>8^t*1.2>>10|t*1.2>>14|x)&63)/1.1,A=t*1.005*[c/2,c,e,g,c*2,g,e,c][t*1.2>>12&7]%256/6,B=t*1.005*[e/2,e,g,b,e*2,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Trash Remix of Cant Help Falling in Love",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10aqx8d/trash_remix_of_cant_help_falling_in_love_i_hate/",
+    "date": "2023-01-13",
+    "sampleRate": 32000,
+    "coverName": "Elvis Presley - Can't Help Falling In Love",
+    "coverUrl": "https://youtu.be/vGJTaP6anOU",
+    "tags": [
+      "1k"
+    ]
+  }
+}

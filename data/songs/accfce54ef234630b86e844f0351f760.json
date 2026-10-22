@@ -1,0 +1,25 @@
+{
+  "file": "songs/accfce54ef234630b86e844f0351f760.js",
+  "title": "happy floatbeat melody",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f90b21410851f3b0f92a5f35f1588826de1205cdc35b9b94d09690945e4c5451",
+  "upstream": {
+    "hash": "accfce54ef234630b86e844f0351f760",
+    "codeMinLen": 165,
+    "codeMin": "a=t*[1,1,1,1,1.5,1.5,1.33,1.33][t>>15&7],b=t*[1,1.33][t>>14&1],sin(t*'6868686834343434'[t>>13&15]/41)/8+4*b%256/256/4+atan(tan(a/41)+cos(a/100))/[4,8,16,32][t>>13&3]",
+    "codeLen": 167,
+    "code": "a=t*[1,1,1,1,1.5,1.5,1.33,1.33][t>>15&7],b=t*[1,1.33][t>>14&1],sin(t*\"6868686834343434\"[t>>13&15]/41)/8+(b*4%256/256)/4+atan(tan(a/41)+cos(a/100))/[4,8,16,32][t>>13&3]",
+    "author": "RealZynx92",
+    "name": "happy floatbeat melody",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rtkgtn/happy_floatbeat_melody/",
+    "date": "2022-01-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

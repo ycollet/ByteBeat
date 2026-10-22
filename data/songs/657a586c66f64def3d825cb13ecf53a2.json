@@ -1,0 +1,34 @@
+{
+  "file": "songs/657a586c66f64def3d825cb13ecf53a2.js",
+  "title": "mind swift (seutje mix)",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/657a586c66f64def3d825cb13ecf53a2.js",
+  "sha256": "c85618d945eab8cc212146dca4654bb67ddd398fb5c953574f1c5d51fcdd2d3a",
+  "upstream": {
+    "hash": "657a586c66f64def3d825cb13ecf53a2",
+    "codeLen": 5769,
+    "fileOrig": 1,
+    "codeText": "/*!\n *\n * stagas - mind swift (seutje mix)\n *\n */\n\nvar sampleRate = 48000;\nvar bpm = 130;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "mind swift (seutje mix)",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "0bc4aff4d2159e08404a2dd2b3ac3612",
+        "author": "stagas",
+        "name": "mind swift",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-29"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/a8422f05c86d7f1c7f13dc4d816cc86d.js",
+  "title": "a jaunty tune",
+  "author": "ryg",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "88abaed35cdb86823b02046907b26c7a6f0bb788a08dbdb0b83aaaa161c424b2",
+  "upstream": {
+    "hash": "a8422f05c86d7f1c7f13dc4d816cc86d",
+    "codeMinLen": 57,
+    "codeMin": "t*(t>>12)*64+(t>>1)*(t>>10)*(t>>11)*48>>((t>>16|t>>17)&1)",
+    "codeLen": 63,
+    "code": "(t*(t>>12)*64+(t>>1)*(t>>10)*(t>>11)*48)>>(((t>>16)|(t>>17))&1)",
+    "author": "ryg",
+    "name": "a jaunty tune",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=17#c389829",
+    "date": "2011-10-10",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

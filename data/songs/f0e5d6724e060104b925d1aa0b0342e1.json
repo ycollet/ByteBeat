@@ -1,0 +1,32 @@
+{
+  "file": "songs/f0e5d6724e060104b925d1aa0b0342e1.js",
+  "title": "Workout Ctrl+V",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0668fb35495978e6e482883107bea497d8d1da0562610da8199ae9e08ad7c953",
+  "upstream": {
+    "hash": "f0e5d6724e060104b925d1aa0b0342e1",
+    "codeMinLen": 244,
+    "codeMin": "([2,2,3,0,2.9,0,3,0,3.55,3.55,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&192)/4+(10*random()*(-t>>4&255)>>6)+(t*sin(t>>1)&-t>>7&255)*(t&16384)/32E3+32*sin(10*cbrt(t&16383))+32+32*sin(t*'020202030'[(t>>13)%8]*PI/512)+32",
+    "codeLen": 260,
+    "code": "b=t*[0,2,0,2,0,2,0,3,0][(t>>13)%8],\n([2,2,3,0,2.9,0,3,0,3.55,3.55,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&192)/4+\n(10*random()*(-t>>4&255)>>6)+(t*\nsin(t>>1)&-t>>7&255)*(t&16384)/32e3+\nsin(10*cbrt(t&16383))*32+32+sin(b*PI/512)*32+32",
+    "author": "Zackx",
+    "name": "Workout Ctrl+V",
+    "url": "https://dollchan.net/btb/res/204.html#458",
+    "date": "2023-02-23",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0466e5621443532a47fc11e1154d76ae",
+        "author": "rubi",
+        "name": "Ctrl+V",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0ytc9/ctrlv/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/18d13f658438b60b09f49101492759c1.js",
+  "title": "No 5",
+  "author": "yehar",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e484131f0a3d4320789cc8d286527f908e5ee89ed0f94eec21927b47fac25559",
+  "upstream": {
+    "hash": "18d13f658438b60b09f49101492759c1",
+    "codeLen": 53,
+    "code": "(u=3*t>>t/4096%4&-t%(t>>16|16)*t>>14&8191)/(u>>6|1)*4",
+    "author": "yehar",
+    "name": "No 5",
+    "url": "https://www.pouet.net/topic.php?which=8357&page=21#c401952",
+    "date": "2012-02-28",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

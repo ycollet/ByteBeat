@@ -1,0 +1,31 @@
+{
+  "file": "songs/99a47c3075efc74e7d4348019b3d4af3.js",
+  "title": "Hide (KORG M1 Version)",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/99a47c3075efc74e7d4348019b3d4af3.js",
+  "sha256": "72fa2328e266b90b8925a54eddf48508f4d7a8b995a02a27ec7da7c363c2daeb",
+  "upstream": {
+    "hash": "99a47c3075efc74e7d4348019b3d4af3",
+    "codeLen": 2390,
+    "fileOrig": 1,
+    "codeText": "// \"Hide (KORG M1 Version)\" by PrincessPriscillaPT | Nov 8, 2025 | Floatbeat - 48000 Hz\n// Cover of \"Dorian Concept - Hide (CS01 Version)\"\n\nBPM=100,sampleRate=48e3,r=abs(t/sampleRate/180*3*32768*BPM)/2,\nm=midiNote=(note,transpose)=>(t/sampleRate*256)*432*2**((note-69+transpose)/12)*(note>-1?note<128?1:0:0)||0,\n\n// What you're seeing here is Feeshbread's Dead Data Reverb code.\nt||(",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Hide (KORG M1 Version)",
+    "url": "https://dollchan.net/btb/res/7164.html#10492",
+    "date": "2025-11-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Dorian Concept - Hide (CS01 Version)",
+    "coverUrl": "https://www.youtube.com/watch?v=tlFolRo1WiE",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-08",
+    "date_edited": "2025-11-08"
+  }
+}

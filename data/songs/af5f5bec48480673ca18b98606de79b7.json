@@ -1,0 +1,32 @@
+{
+  "file": "songs/af5f5bec48480673ca18b98606de79b7.js",
+  "title": "The Unescaper",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/af5f5bec48480673ca18b98606de79b7.js",
+  "sha256": "0d099cf0b512b7a1a39fb6b615c5cdc47abbbc8c2c536ec4d1b3db4ce5c639c8",
+  "upstream": {
+    "hash": "af5f5bec48480673ca18b98606de79b7",
+    "codeLen": 1548,
+    "fileOrig": 1,
+    "codeText": "eval(unescape(escape`瑼簨稽娽〬搽孝ⱌ㴱㈸⤬攽吽㹛焽琯㈪⨱㤥ㄬㄭ煝孔崪⨲Ᵽ㵡㴾敶慬⡡孴㸾ㄹ崩ⱂ㵾琾㸱㐦ㄬ圽攨〩ⱷ㵥⠱⤬爽⠧㜷㤸❛琾㸱㔦㍝ⴠⴱ⤯㠬伽爪琪✱㄰㈲ㄲ㈧孴㸾ㄱ☷崬稽稯㉞伥㘴ⱚ㵺幚⼱⸵幺㸾ㅞ娬朽學㴡⠭琾㸱㌦㜩⨨㈭⡴㸾ㄶ☱⤩ⱸⰬⱸⱸⰬⰲⰲ⸳㜵ⰳⰴ嵛琾㸹☱㕝⩲⩴⼴簰Ⱬ㴳㈪獩渨㔱㈯⡴┱㘳㠴⬱⤪⨮ㄩ⨪㈬匽伯⠲⬨琾㸱㔦㈩⤦㌲ⱬ㵺♚ⱹ㴨氯㉼匯㈩⬨氦ㄮ㔪琩ⱎ㴨洽琥㈪⨱㘩⨪㈮㔪偉┱ⱒ㴶㐪ℨ繴㸾ㄶ☳⤪严⡭㸾ㄱ⥼〬渽琦㠱㤲☦㘴⩎♾琾㸷ⱇ㵧┱㘫术㈥ㄶⱋ㴱⸵⩫ⱦ㵴㴾⡴㽹㩬⤫匫䬫⸸⩮⭄ⱔ㵓㴾℡⡾琾㸱㌦㌱⥼籾琪㌾㹓☱ⱳ㴳㈪獩渨琯㈰⸵⩲⤫㌲Ⱶ㵬⩂ⱨ㴨㘫⡾琾㸶⬨琾㸱㈦ㄩ☱㔩⤪丬䄽℡⡾琾㸱㔦ㄵ⤬䌽匫栫猬䠽ㄵ㌶⨲⨪挨✲㈱㈳㌱ㄳㄲ✩ⱡ㵟㴾筦潲⠻搮汥湧瑨㹈㭤⹳桩晴⠩⤻景爨㭤⹬敮杴格䠻搮灵獨⠰⤩㭽ⱡ⠩ⱄ㵣⠧氰䝵田䜰畇甧⤫搮獨楦琨⤬椽㌮㈭圪ㄮ㘬䤽圪㌬搮灵獨⡄⩣⠧椰䤲㈰㈰㈲㈧⤯㐩ⱆ㵦⠱⤬樽浡砨ㄯ㠬圩ⱊ㵷⼨眫⸰〱⤬⡳㵭楮⡛䰫㵣⠧圱ㅪㄱ䨱ㄱ眧⤪⡣⠧䐰い〰䘰〰䐧⤭䰩ⱌ⭒ⱬ⭫ⱹ⭋⭒ⱦ⠰⤬吨ㄱ⤪⡆⭒⤬䰫猬䰫䄪⡳⬨ㄫ圯㈩⩫⤬夽䐫猯㈫䬫港㈫栫匬吨ㄲ⤪⡙⭒⤬䴽汞卼欬䴫港㈫䜫刬䰬䰬伯㈥㌲⭃ⱔ⠱〩⩏⼲┳㈫䄪⡃⭋⤬夬夫ㄮ㔪刬䘫栬䘫栫刬儽䰫ㄱ㘪圬兝孴㸾",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "The Unescaper",
+    "url": "https://dollchan.net/btb/res/44.html#127",
+    "date": "2022-08-01",
+    "sampleRate": 16000,
+    "remix": [
+      {
+        "hash": "aa10f19816092fe368256ac17194425d",
+        "author": "lhphr",
+        "name": "The Evaluator",
+        "url": "https://dollchan.net/btb/res/44.html#54"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

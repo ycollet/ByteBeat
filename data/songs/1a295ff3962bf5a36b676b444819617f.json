@@ -1,0 +1,29 @@
+{
+  "file": "songs/1a295ff3962bf5a36b676b444819617f.js",
+  "title": "vgm engine",
+  "author": "funute",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1a295ff3962bf5a36b676b444819617f.js",
+  "sha256": "b95b521f5c082c72bd4aa78bdc1c798abed17c40dacc8dbb6846867ba33cc64e",
+  "upstream": {
+    "hash": "1a295ff3962bf5a36b676b444819617f",
+    "codeLen": 19666,
+    "codeFormLen": 50737,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMPLE_RATE = 44100,\ndecode64 = (c, n) => (v = c.charCodeAt(n), v - (v > 92 ? 36 : 35)),\ngetbits = (num, start, end) => (num & (((1 << start) - 1) - ((1 << end) - 1))) >> end,\nvol = val => val < 15 ? (63 / pow(1.25, val)) | 0 : 0,\nsq = (reg, t) => (\n  real_t = t / SAMPLE_RATE,\n  lim = 2 * reg * 16,\n  cnt = real_t * 3579545,",
+    "isTruncated": 1,
+    "author": "funute",
+    "name": "vgm engine",
+    "description": "A bytebeat engine that played VGM files. This is a SN76489 emulator on top of a converted VGM dump.",
+    "url": "https://battleofthebits.com/arena/Entry/vgm+engine/39556/",
+    "date": "2020-11-01",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

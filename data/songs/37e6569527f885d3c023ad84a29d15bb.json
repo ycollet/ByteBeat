@@ -1,0 +1,26 @@
+{
+  "file": "songs/37e6569527f885d3c023ad84a29d15bb.js",
+  "title": "Slow progression with 8-bit Atari inspired sounds",
+  "author": "visy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7d6bcb04c9d7699d04bb022d3e223cd7ef32dc354b9c8abf1e8af9d1ead9f59c",
+  "upstream": {
+    "hash": "37e6569527f885d3c023ad84a29d15bb",
+    "codeMinLen": 68,
+    "codeMin": "t%25-(t>>2|15*t|t%227)-t>>3|(t>>5&53216*t|(t>>3)%1544)/(t%17|t%2048)",
+    "codeLen": 77,
+    "code": "(t%25-(t>>2|t*15|t%227)-t>>3)|((t>>5)&(t<<5)*1663|(t>>3)%1544)/(t%17|t%2048 )",
+    "author": "visy",
+    "name": "Slow progression with 8-bit Atari inspired sounds",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=13#c389250",
+    "date": "2011-10-06",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

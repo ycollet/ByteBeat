@@ -1,0 +1,26 @@
+{
+  "file": "songs/0bbd41cd6cc03ffc2908982b0ca4c15b.js",
+  "title": "Speech synthesis",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0bbd41cd6cc03ffc2908982b0ca4c15b.js",
+  "sha256": "71aaa00127fb6c68f7004dd6b3dfd1f41afca3f090cc69d144675b6fd3ba1d08",
+  "upstream": {
+    "hash": "0bbd41cd6cc03ffc2908982b0ca4c15b",
+    "codeLen": 1555,
+    "fileOrig": 1,
+    "codeText": "F=2*PI/48000,\nG=t%(1<<16),\nOS=1+sin(F*t*5)/t/F/700*(1-.5**(G/2E4)), // Fundamental frequency scale (vibrato for naturality)\nFF=77*256/48000*OS,\t// Fundamental frequency\nFS=t*FF%256,  // Saw wave at fundamental frequency\nS=f=>sin(f*FS/FF*F), // Sine wave at a given frequency, hard-synced with fundamental\nPH=[ // (DC + Formant1 + Formant2 + ...)\n\t(2+S(780)*2+S(1600)*3+S(2170)*3+S(3600)/4+S(9600)/6)*.8, // [A]pp   (æ)",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Speech synthesis",
+    "description": "Synthesis of vowel sounds.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fe5fb7/formants_n_fourier/",
+    "date": "2024-09-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

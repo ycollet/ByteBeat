@@ -1,0 +1,35 @@
+{
+  "file": "songs/3a9da386b22512d1142724ce1d62209b.js",
+  "title": "Bad ending but complete",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 33000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3a9da386b22512d1142724ce1d62209b.js",
+  "sha256": "63caf4dd16235eea06df6c8a15ed9d8088826faf97e68de29dba604f5f990211",
+  "upstream": {
+    "hash": "3a9da386b22512d1142724ce1d62209b",
+    "codeLen": 1307,
+    "fileOrig": 1,
+    "codeText": "/*Bad Ending Theme (COMPLETE) by Two2Fall*/\n\n// main functions\nt*=1.015,\n// t = (-t + 2323860), // Uncomment to make this song backwards\nseqnote = x => t * 2 ** ((x) / 12),\nparse = (x, s) => parseInt(x[(t >> s) % x.length], 36) - 20,\naddharmony3 = (ch1, ch2, ch3) => (ch1 % 85) + (ch2 % 85) + (ch3 % 85),",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Bad ending but complete",
+    "description": "\"Bad ending theme\" as a full song.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1htxpi9/bad_ending_but_complete/",
+    "date": "2025-01-05",
+    "sampleRate": 33000,
+    "remix": [
+      {
+        "hash": "52bdb3f53879a0bcaf066216c5533d0f",
+        "author": "Two2Fall",
+        "name": "Bad ending theme",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fu0lrw/arpeggios/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-12-04"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/9a8d3bdcea4b28c0942f99f52f6ccbe3.js",
+  "title": "Fidelity Tweak",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "45b35645bb55bfae99f684cad7df495d99a0d8bc84352fe0f24c3d758d1db6be",
+  "upstream": {
+    "hash": "9a8d3bdcea4b28c0942f99f52f6ccbe3",
+    "codeLen": 204,
+    "code": "f=F=>2**(F/12),s=V=>32*(cos(t*f(c+V)/50)**2)**.125,w=V=>s(V+(o=1/8))+s(V)+s(V-o)+8,t?0:d=v=0,c='25302574'[t>>17&7]-2,v+=[0,.8,.95,.9][t>>13&3],v<1?d=f([0,4,7,12][t>>9&3]+c)*t%64+w(0)+w(4)+w(7)+w(14):v--,d",
+    "author": "lhphr",
+    "name": "Fidelity Tweak",
+    "description": "A lo-fi effect.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-06-04",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

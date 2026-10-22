@@ -1,0 +1,25 @@
+{
+  "file": "songs/f52b68b0b810a6cb4419bc53377759da.js",
+  "title": "atari thingy",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4d30d09396cf36d7f6c0289f2fa9ec1d4183f3156ff709a2faeee440ba8b26bb",
+  "upstream": {
+    "hash": "f52b68b0b810a6cb4419bc53377759da",
+    "codeMinLen": 151,
+    "codeMin": "a=t*1.02,b=(a>>12&7)%3,' 999  9   9 9 9999 99 9  99'[((c=a>>15&7)>6?t*[2,3.185,4][b]:t*(2+b))*[d=1.977,d,d,2.348,e=1.568,e,1.476,1.857][c]>>6&31]*64||0",
+    "codeLen": 280,
+    "code": "T=t*1.02,c=1.047,cs=1.107,d=1.174,ds=1.243,e=1.318,f=1.389,fs=1.476,g=1.568,gs=1.655,a=1.754,as=1.857,b=1.977,A=t*'23423423'[T>>12&7],B=t*[2,3.185,4,2,3.185,4,2,3.185][T>>12&7],'099900900090909999099090099000000'[[A,A,A,A,A,A,A,B][T>>15&7]*[b,b,b,d*2,g,g,fs,as][T>>15&7]>>6&31]*64",
+    "author": "Decent-Manager-6169",
+    "name": "atari thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/",
+    "date": "2023-03-25",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/5ed81d976c5e40598532b3978d768b81.js",
+  "title": "high rhythm thing",
+  "author": "k0370_",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "af43d959c82d06a223714610da7fd438fd18dd9cdfe0de431e8c2705fdc1ce93",
+  "upstream": {
+    "hash": "5ed81d976c5e40598532b3978d768b81",
+    "codeMinLen": 21,
+    "codeMin": "t>>(t>>13)*t/127|t>>4",
+    "codeLen": 23,
+    "code": "(t>>(t>>13)*t/127)|t>>4",
+    "author": "k0370_",
+    "name": "high rhythm thing",
+    "url": "https://dollchan.net/btb/res/3.html#258",
+    "date": "2022-11-22",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

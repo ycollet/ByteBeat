@@ -1,0 +1,29 @@
+{
+  "file": "songs/5552308f4eecadb941469f0c35d78ff7.js",
+  "title": "simple step sequencer",
+  "author": "neverforgettoleave",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5552308f4eecadb941469f0c35d78ff7.js",
+  "sha256": "d09b1905e98345c7df89439298b7300772ecee40bae83cc76aa7bfdb44f7a8b9",
+  "upstream": {
+    "hash": "5552308f4eecadb941469f0c35d78ff7",
+    "codeMinLen": 337,
+    "codeMin": "t*2**([0,,12,17,14,10,15,7,3,-12,-4,-16,-17,-19]['0x'+'0101210101310101410101510101210101016278010142780101278091016278a1a121a1a161a1a141a1a151a1a121a1a1a121a1a161a1a141a1a151a1a121a1b1b121b1b121b1c141b1b151b1b121b1b1a16278b1b14278a1a1278b91b16278d1d121d1d161d1d141d1d151d1d121d1d1d121d1d161d1d141d1d151d1d121d1'[t>>11&255]|0]/12)-1|t>>5",
+    "codeLen": 673,
+    "fileOrig": 1,
+    "codeText": "t*2**([0,,12,17,14,10,15,7,3,-12,-4,-16,-17,-19]['0x'+'0101210101310101410101510101210101016278010142780101278091016278a1a121a1a161a1a141a1a151a1a121a1a1a121a1a161a1a141a1a151a1a121a1b1b121b1b121b1c141b1b151b1b121b1b1a16278b1b14278a1a1278b91b16278d1d121d1d161d1d141d1d151d1d121d1d1d121d1d161d1d141d1d151d1d121d1'[t>>11&255]|0]/12)-1|t>>5",
+    "isTruncated": 1,
+    "author": "neverforgettoleave",
+    "name": "simple step sequencer",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/jmbsoh/simple_step_sequencer/",
+      "https://www.reddit.com/r/bytebeat/comments/1fdycar/comment/lmkhcog/"
+    ],
+    "date": "2020-11-02",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

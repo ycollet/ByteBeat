@@ -1,0 +1,31 @@
+{
+  "file": "songs/55f8c29c281e2354d3539c527fbe5316.js",
+  "title": "sparta remix is stuck in my head now",
+  "author": "BaenHoHoHo",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/55f8c29c281e2354d3539c527fbe5316.js",
+  "sha256": "415a3a0b76f98398d0b335a6b5c91b4ac0a11db1f96903969fbfae486ea21fab",
+  "upstream": {
+    "hash": "55f8c29c281e2354d3539c527fbe5316",
+    "codeMinLen": 1030,
+    "codeLen": 1043,
+    "codeFormLen": 1526,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=1.175,x=2.16*t*[1,1.06,.9,1.06][t>>15&3]*[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,3,4,1,2,3,4,1,2,3,4,5,4,2,2,4,3,2,1,4,3,2,1,4,3,2,1,4,3,2,1,1,1.5,1,1.5,1,2,1,2,1,1.5,1,1.5,1,2,1,2,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1.5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1][t>>13&127]*[1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "sparta remix is stuck in my head now",
+    "url": "https://www.reddit.com/r/bytebeat/comments/w3g7iz/sparta_remix_is_stuck_in_my_head_now/",
+    "date": "2022-07-20",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "big"
+    ]
+  }
+}

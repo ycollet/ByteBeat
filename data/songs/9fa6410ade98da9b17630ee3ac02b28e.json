@@ -1,0 +1,22 @@
+{
+  "file": "songs/9fa6410ade98da9b17630ee3ac02b28e.js",
+  "title": "bŽk",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b618448531a0b36af13c40b61a76e42d02d7a048448108877bfb0ac74ac357c2",
+  "upstream": {
+    "hash": "9fa6410ade98da9b17630ee3ac02b28e",
+    "codeLen": 271,
+    "code": "t?0:n=0,r=22050,q=t/r,m=(q*3/4^q+8)%9,m!=n?T=r:(q/4|0)!=((q-1/r)/4|0)?T=r:0,n=m,c='44564453'[q/4&7],M=(p,v,e=2)=>sin(t*2**((2*m%14-(m%7>3)+p)/12-4))*max(T/r,0)**e*v,T--,Q=p=>atan(tan(t/p/256*c)),M(-12,24,3)+M(0,16,3)+M(12,16)+M(24,8)+M(31,8,1)+M(36,4,1)+8*(Q(4)^Q(1))+128",
+    "author": "lhphr",
+    "name": "bŽk",
+    "url": "https://dollchan.net/btb/res/44.html#203",
+    "date": "2022-09-05",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

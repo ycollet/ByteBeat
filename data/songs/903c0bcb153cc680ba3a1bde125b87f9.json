@@ -1,0 +1,28 @@
+{
+  "file": "songs/903c0bcb153cc680ba3a1bde125b87f9.js",
+  "title": "Sin() isn't kosher, people!",
+  "author": "viznut",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "17fe21f650dd94f46d2fae4013539408a4f582f88a10fccf2f717804994d2b50",
+  "upstream": {
+    "hash": "903c0bcb153cc680ba3a1bde125b87f9",
+    "codeMinLen": 32,
+    "codeMin": "10*(t>>6|t|t>>(t>>16))+(7&t>>11)",
+    "codeLen": 34,
+    "code": "(t>>6|t|t>>(t>>16))*10+((t>>11)&7)",
+    "author": "viznut",
+    "name": "Sin() isn't kosher, people!",
+    "url": [
+      "https://www.pouet.net/topic.php?which=8357&page=4#c388477",
+      "https://youtu.be/qlrs2Vorw2Y?t=15"
+    ],
+    "date": "2011-09-30",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

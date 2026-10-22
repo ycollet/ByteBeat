@@ -1,0 +1,26 @@
+{
+  "file": "songs/60bd74cc94784633abaf309f99e42229.js",
+  "title": "\"you'll know i'll go get remix\": pwm cover",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 15360,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cf9f52d8d8d801d30e24f5170b82d954193627fd3cb9359c16f572f84f80d449",
+  "upstream": {
+    "hash": "60bd74cc94784633abaf309f99e42229",
+    "codeMinLen": 163,
+    "codeMin": "l=1.15*t,v=4.26*t,v*=2**([0,3,3,3,3,3,1,0,-2,3,3,3,3,3,3,5,5,0,0,0,0,0,0,3,5,1,1,1,5,1,1,3][l>>12&31]/12),v=(v&127)+((-l>>(28<(l>>12&31)?4:5)&127)/1.5+24)&128,v+64",
+    "codeLen": 167,
+    "code": "l=t*1.15,v=4*t*1.065,v=v*2**([0,3,3,3,3,3,1,0,-2,3,3,3,3,3,3,5,5,0,0,0,0,0,0,3,5,1,1,1,5,1,1,3][l>>12&31]/12),v=(v&127)+((-l>>((l>>12&31)>28?4:5)&127)/1.5+24)&128,v+64",
+    "author": "hcdphobe",
+    "name": "\"you'll know i'll go get remix\": pwm cover",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1585hrp/youll_know_ill_go_get_remix_pwm_cover_by_hcdphobe/",
+    "date": "2023-07-24",
+    "sampleRate": 15360,
+    "coverName": "DJ Haning & Rizky Ayuba - You Know I'll Go Get Tik Tok Remix",
+    "coverUrl": "https://youtu.be/opGCwdMneTk",
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/381a603575f7b97de789bb30b9950e1f.js",
+  "title": "The Mice World",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/381a603575f7b97de789bb30b9950e1f.js",
+  "sha256": "0ef2b60ffca37baba6ddd41a1457f0f7b970ab05e14855a9aa2b77b3e1427df2",
+  "upstream": {
+    "hash": "381a603575f7b97de789bb30b9950e1f",
+    "codeMinLen": 690,
+    "codeLen": 702,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t*=441/480,h=1&t,s=sin(t>>5),t/=4/3,T=t/1.2,v=T/2**16,i=7&T>>15,j=3&T>>12,a=[0,3,5,7,0,3,-4,-2],a1=[3,7,9,11,3,7,0,2],a2=[7,10,12,14,7,10,3,5],a3=[0,3,-7,-5,0,3,-4,-2],B=a=>(.9*t*2**(a[i]/12)&-T>>6)%256/5,S=(s,p)=>.7*(.9*p*t*2**([a,a1,a2,a1][3&T>>s][i]/12)&64),u=.225*t*2**(a3[i]/12),u=u%127+u%128,x=z=>'ÑS-jY-@:8X/,WI>🎸@q\\¥€_\\_..]„Δ^æéć'.charCodeAt(.9*t*2**(z/12)/16%32)%256,c=2E5/(T&2**12/[1,,h,,s,,1,1,1,,h,,s,,2][15&T>>12]-1)&255,b=x(a3[i])*(-T&4095)/6666*((T>>14&7)>6?j==2:j!=0),t>0?(s=B(a)+B(a1)+B(a2)+[S(1",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "The Mice World",
+    "url": "https://www.reddit.com/r/bytebeat/comments/152vavx/the_mice_world/",
+    "date": "2023-07-18",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "5c85e2d50f201ab50ee31ab0f193ffd6",
+        "author": "SthephanShi",
+        "name": "Small Mouse",
+        "url": "https://dollchan.net/btb/res/204.html#424"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

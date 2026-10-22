@@ -1,0 +1,23 @@
+{
+  "file": "songs/aee10713803aec369e5681701e8caa28.js",
+  "title": "o$c1ll4tör",
+  "author": "Diicorp95",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9f4f400dd1738e1415406148ed8633a45a39572381df6365e4d67c5eed2af428",
+  "upstream": {
+    "hash": "aee10713803aec369e5681701e8caa28",
+    "codeLen": 31,
+    "code": "127*sin(t/20.5)&63*cos(t/27.25)",
+    "author": "Diicorp95",
+    "name": "o$c1ll4tör",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rwto8m/comment/hregwfu/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2022-01-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/85282cc92e66035e63c8eaabbb0a4597.js",
+  "title": "spanish national anthem",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/85282cc92e66035e63c8eaabbb0a4597.js",
+  "sha256": "40ee2fb1a0c7b9dbeba4bc9811152b6ac33143f790905da52184720647f26a86",
+  "upstream": {
+    "hash": "85282cc92e66035e63c8eaabbb0a4597",
+    "codeMinLen": 1107,
+    "codeLen": 1255,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "n=x=>(30*sin(t/2048)+t/48E3*x*256%256&128)/4,f=261.3,n(f*2**([12,12,12,12,7,7,7,7,16,16,16,16,12,12,19,19,17,17,16,16,14,14,12,12,12,12,11,11,9,9,7,7,12,12,12,12,14,14,14,14,16,16,16,16,,,19,19,17,17,16,16,14,14,12,12,19,19,19,19,19,19,19,19,12,12,12,12,7,7,7,7,16,16,16,16,12,12,19,19,17,17,16,16,14,14,12,12,12,12,11,11,9,9,7,7,12,12,12,12,14,14,14,14,16,16,16,16,,,19,19,17,17,16,16,14,14,12,12,19,19,19,19,19,19,19,19,19,19,19,19,16,16,16,19,17,17,17,17,14,14,14,17,16,16,16,16,12,12,12,16,14,14,7,7,9,9,11,1",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "spanish national anthem",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h8uvxz/a_spanish_national_anthem_sheet_that_i_found_in/",
+    "date": "2024-12-07",
+    "sampleRate": 48000,
+    "coverName": "Spanish National Anthem",
+    "coverUrl": "https://youtu.be/Ue4p3CoNjv0",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-22"
+  }
+}

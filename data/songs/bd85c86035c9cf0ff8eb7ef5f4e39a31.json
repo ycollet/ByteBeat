@@ -1,0 +1,24 @@
+{
+  "file": "songs/bd85c86035c9cf0ff8eb7ef5f4e39a31.js",
+  "title": "C64 thing",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0a23b58d43f781a51689384385cadb5ff9b8dd408f336c6ca9961098ce66cbed",
+  "upstream": {
+    "hash": "bd85c86035c9cf0ff8eb7ef5f4e39a31",
+    "codeMinLen": 72,
+    "codeMin": "(t*2**('047'[(t>>10)%3]/12)*1.04*2**('0572'[3&t>>17]/12)%128+t/1024&128)",
+    "codeLen": 73,
+    "code": "(t*2**('047'[(t>>10)%3]/12)*1.04*2**('0572'[3&t>>17]/12)&127)+(t>>10)&128",
+    "author": "Zackx",
+    "name": "C64 thing",
+    "url": "https://dollchan.net/btb/res/204.html#1091",
+    "date": "2023-05-26",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

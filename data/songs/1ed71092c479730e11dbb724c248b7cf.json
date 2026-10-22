@@ -1,0 +1,28 @@
+{
+  "file": "songs/1ed71092c479730e11dbb724c248b7cf.js",
+  "title": "Bytebeat cover of \"Noisy Pillars tune 1\" by Jeroen Tel",
+  "author": "Sychamis",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1ed71092c479730e11dbb724c248b7cf.js",
+  "sha256": "498ae277712961cb0bcace8d863e5c7c8975dd908a1d29c5002a41a902b35c75",
+  "upstream": {
+    "hash": "1ed71092c479730e11dbb724c248b7cf",
+    "codeMinLen": 1332,
+    "codeLen": 1897,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=3686400,b=48E3,c=v=>50*v/b|0,r=t/b/.12|0,d=n=>2**((parseInt(n,36)+.4)/12),N=c(t)%6==0,P=r>383,p=r>>6,y=(n,s=\"0\")=>s.repeat(n),s=(T,f,p)=>T*f/b%1<p,R=f=>abs(1244*t*f/b%2-1),n=(T,f)=>(T*f/b|0)**9%255/255,o=y(7),O=64,U=128,F=(y(4,\"IHFIHFIKMIFMIFMPNIFNIFNRPKHPKHPK\")+y(48)+`r0r0p0mk0i0kmkif${y(48)}r0r0p0mp0r0u1011`)[r%U+P*U],N&F!=0?(x=0,e=d(F)):x++,H=(y(2,\"F00F00D0F00F0FHIB00B00B0D00D00E0\")+\"k0k0wk0ik0k0wuruk0kkwk0ikw0rruprf0f0rf0df0f0rpmpf0ffrf0dfr0mmpkm\")[r%O+P*O],N&H!=0?(v=0,f=32*d(H)):v++,I=`0912390992103",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Bytebeat cover of \"Noisy Pillars tune 1\" by Jeroen Tel",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ffekqb/bytebeat_cover_of_noisy_pillars_tune_1_by_jeroen/",
+    "date": "2024-09-13",
+    "sampleRate": 48000,
+    "coverName": "Jeroen Tel - Noisy Pillars tune 1",
+    "coverUrl": "https://youtu.be/Zg0HJ-55dXs",
+    "tags": [
+      "big"
+    ]
+  }
+}

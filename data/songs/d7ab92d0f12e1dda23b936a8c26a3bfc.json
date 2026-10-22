@@ -1,0 +1,38 @@
+{
+  "file": "songs/d7ab92d0f12e1dda23b936a8c26a3bfc.js",
+  "title": "fm party!!!!",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d7ab92d0f12e1dda23b936a8c26a3bfc.js",
+  "sha256": "acb40a47ea8eb50d9242b170006fd9b1099eea84307de537f60cd0b4392d95e0",
+  "upstream": {
+    "hash": "d7ab92d0f12e1dda23b936a8c26a3bfc",
+    "codeMinLen": 557,
+    "codeLen": 559,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "(t*=s=.785)?(i=0,f=(pm,tm,pc,tc,o1,t1,o2,t2)=>(c[i]+=s*pm*pc+(sin(pm*o1*t*PI/256)*t1-sin(pm*o2*t*PI/256)*t2)*tm,o=sin(c[i]*PI/256)*tc*tm,i++,o),f(2**([0,1,3,5,7,8][(t>>12)%6]/12)*2**(1.25*(t>>[12,13][t/3>>12&1])&3),t/4096%1-2,1,1,4,4,2,2)/4*(t/16384%1+.5)+f(2**([1,3,5,5,1,3,-2,-2][7&t>>16]/12),cbrt(t/((t>>17&1)+1)%65536*((t>>17&1)+1)/65536)-2,2,1,3,5,5,9)/7+sin(d+=(min(cbrt(t%4096/3072),1)-1)*+'1101011010101101'[t>>12&15]/24)/E+sin((t>>1)*sin(t>>1^t>>2*(t>>1)))*(t/4096%1-1)**2*((t>>12&3)-.5)/24+sin(t*sin(t^",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "fm party!!!!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1778us9/fm_party/",
+    "date": "2023-10-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "65405660697ff93b13e745064c6acbcf",
+        "author": "Zackx",
+        "name": "a remix of \"PARTY!\"",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/12onki0/comment/jgnq7mz/?utm_source=reddit&utm_medium=web2x&context=3",
+          "https://dollchan.net/btb/res/204.html#853"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/65e5708f8db279269d9272284e426bb5.js",
+  "title": "IBM PC Speaker",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/65e5708f8db279269d9272284e426bb5.js",
+  "sha256": "744311afdcaf654a26f73935bb92a945fe8998efcff2e6d991b305eaeab840de",
+  "upstream": {
+    "hash": "65e5708f8db279269d9272284e426bb5",
+    "codeLen": 28765,
+    "fileOrig": 1,
+    "codeText": "t?0:(d=\"00002f15b01ab01aa023a023a023a023a023bd007b3f7b3f7b3f7b3f7b3f7b3f7b016a00ab06ef07ef07ab06000000000000ab06ab064b05ab06ab064b05000000005503f7031c017b3f7b3f7b3f7b3f7b01ab06ab06ef07ab06ab06000000000000ab06ff04ff04ab06ff04ff0400000000bd00b01a7b3f7b3f7b3f7b3f7b3f970a4b05ab06ef07ab06ab06000000000000fd007e004b05ab06ab064b0500007b01bd00b01ab01a7b3f7b3f7b3f7b3f970aab06ab06ef07ab06ab060000000000004b05ff04ff04ab06ff04ff0400007b01bd00b01a7b3f7b3f7b3f7b3f7b3f7b012f152f155e2a5e2a5e2a5e2a5e2a5e2a2f15b01ab01a7b3f7b3f",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "IBM PC Speaker",
+    "description": "Port of a PC Speaker used for IBM computers.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ebk47n/ibm_pc_speaker/",
+    "date": "2024-07-25",
+    "sampleRate": 48000,
+    "coverName": "Mahbod Karamoozian - Beeper Torture",
+    "coverUrl": "https://youtu.be/8LMPMplNOeg",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

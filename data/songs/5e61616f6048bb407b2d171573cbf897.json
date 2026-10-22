@@ -1,0 +1,24 @@
+{
+  "file": "songs/5e61616f6048bb407b2d171573cbf897.js",
+  "title": "the danger zone",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ae9c5531d8fb0bcb3d549c06881ea644b9a862cda0e1227449b428646f4e48f4",
+  "upstream": {
+    "hash": "5e61616f6048bb407b2d171573cbf897",
+    "codeMinLen": 61,
+    "codeMin": "[1,.5,1,1.2,1,.5,1,.9,1,.5,1,1.2,4,3.5,4,3][(t>>13)%16]*t&128",
+    "codeLen": 65,
+    "code": "[1,0.5,1,1.2,1,0.5,1,0.9,1,0.5,1,1.2,4,3.5,4,3][(t>>13)%16]*t&128",
+    "author": "rubi",
+    "name": "the danger zone",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s0xhgq/the_danger_zone/",
+    "date": "2022-01-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

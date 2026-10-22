@@ -1,0 +1,29 @@
+{
+  "file": "songs/c2723732d0e55e223692b5ddc83445f1.js",
+  "title": "Kilobyte Khorale",
+  "author": "damifortune",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c2723732d0e55e223692b5ddc83445f1.js",
+  "sha256": "ccaa68d372f1191c176ba3d38bef91a5a1999f8b9a0572780f1007069d24c306",
+  "upstream": {
+    "hash": "c2723732d0e55e223692b5ddc83445f1",
+    "codeMinLen": 981,
+    "codeLen": 1015,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "v=(S,T)=>32*(A>=S&&A<T),I=352800,A=int(t/I*150/60*48)%96,J=415,K=392,L=311,M=349,N=277,O=196,P=207,Q=261,R=233,Y=103,Z=116,x=130,a=J*v(0,3)+K*v(4,6)+J*v(6,9)+L*v(10,12)+M*v(12,14)+L*v(14,16)+N*v(17,18)+L*v(18,21)+O*v(22,23)+P*v(23,24)+M*v(24,26)+L*v(26,28)+N*v(29,30)+Q*v(30,32)+R*v(32,34)+Q*v(34,36)+N*v(36,38)+246*v(38,40)+220*v(41,42)+P*v(42,45)+O*v(45,46)+P*v(46,47)+R*v(47,48)+J*v(48,51)+K*v(52,54)+J*v(54,57)+L*v(58,60)+M*v(60,62)+K*v(62,64)+J*v(65,66)+L*v(66,69)+Q*v(70,71)+N*v(71,72)+J*v(72,74)+369*v(74,",
+    "isTruncated": 1,
+    "author": "damifortune",
+    "name": "Kilobyte Khorale",
+    "description": "Written in collaboration with kleeder. Using 0cc-json-to-bytebeat converter.",
+    "url": "https://battleofthebits.com/arena/Entry/Kilobyte+Khorale/58912/",
+    "date": "2023-02-22",
+    "sampleRate": 11025,
+    "tags": [
+      "1k",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file": "songs/6e13b6bb8cf66fcb52a0c1dd9c1606d7.js",
+  "title": "Long Release Reverb",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6e13b6bb8cf66fcb52a0c1dd9c1606d7.js",
+  "sha256": "62ee53025c72b35885e44af73bc138c374177e7f19f9fb359f1424bb26099f3f",
+  "upstream": {
+    "hash": "6e13b6bb8cf66fcb52a0c1dd9c1606d7",
+    "codeLen": 1698,
+    "fileOrig": 1,
+    "codeText": "BPM=120,\nsR=48e3,\nr=abs(t/sR/180*3*32768*BPM),\np=(1/sR*256)*480,q=(30*sR)/(BPM*2/3),\n\n// What you're seeing here is Feeshbread's Dead Data Reverb Code\nt||(wsin=(phase)=>(-cos(phase/256*PI)+1)*128-.5,fx=[],dMax=1e6,lpf=lowPassFilter=(a,c)=>(lp_fxii=fxi++,fx[lp_fxii]??=0,fx[lp_fxii]+=(a-fx[lp_fxii])*c),hpf=highPassFilter=(a,c)=>a-lpf(a,c),bpf=bandPassFilter=(a,hc,lc)=>hpf(lpf(a,lc),hc),nf=notchFilter=(a,hc,lc)=>(hpf(a,hc)+lpf(a,lc))/1.75,dly=multiTabDelay=(audio,heads,dw,fbfn=x=>x)=>{dly_fxii=fxi++;fx[dly_fxi",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Long Release Reverb",
+    "description": "Messing around with feeshbread's Dead Data reverb.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1nmibss/reverb_with_unsurprisingly_long_tail",
+    "date": "2025-09-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "2ea7c3978bdab9c2ecb1e16fc5351460",
+        "author": "feeshbread",
+        "name": "Dead Data",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/dead_data_my_entry_for_byte_battle_season_1/",
+          "https://bytebeat.oops.wtf/season1/entries.html",
+          "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-28",
+    "date_edited": "2025-09-28"
+  }
+}

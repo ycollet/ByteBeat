@@ -1,0 +1,23 @@
+{
+  "file": "songs/2fa3deb5b67f49e9ae761254e9da4ab2.js",
+  "title": "Fractal trying to make music",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a0f48eb7f5867cd81b2eb50b4c8e886bdd655144fac77982d8a6895af2d0e708",
+  "upstream": {
+    "hash": "2fa3deb5b67f49e9ae761254e9da4ab2",
+    "codeLen": 44,
+    "code": "(1+(t>>12))*(t^t+(t>>8&3|t>>9&11|-t>>10&14))",
+    "author": "ANoUserXD",
+    "name": "Fractal trying to make music",
+    "url": "https://dollchan.net/btb/res/2628.html#2665",
+    "date": "2023-11-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

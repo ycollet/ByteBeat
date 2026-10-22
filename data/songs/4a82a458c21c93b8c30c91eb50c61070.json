@@ -1,0 +1,25 @@
+{
+  "file": "songs/4a82a458c21c93b8c30c91eb50c61070.js",
+  "title": "probably accurate 808 kick",
+  "author": "Iwaku",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "11e6279ba1ee63de933c1e007f5c40cfd0a3d943cda30874ac4ee30be23b723e",
+  "upstream": {
+    "hash": "4a82a458c21c93b8c30c91eb50c61070",
+    "codeMinLen": 28,
+    "codeMin": "u=t%24e3,.9997**u*sin(u**.5)",
+    "codeLen": 30,
+    "code": "u=t%24e3,(.9997**u)*sin(u**.5)",
+    "author": "Iwaku",
+    "name": "probably accurate 808 kick",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14i4tqr/probably_accurate_808_kick_in_30c/",
+    "date": "2023-06-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

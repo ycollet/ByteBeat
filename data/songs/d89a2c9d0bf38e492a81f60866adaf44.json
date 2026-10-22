@@ -1,0 +1,39 @@
+{
+  "file": "songs/d89a2c9d0bf38e492a81f60866adaf44.js",
+  "title": "please some remix this out of strings",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "82db41e9435d03d7c0cf97dcf7f200c5a07925f172939432dbb7d0a1f30c1b26",
+  "upstream": {
+    "hash": "d89a2c9d0bf38e492a81f60866adaf44",
+    "codeMinLen": 280,
+    "codeMin": "rel={a:-7,b:-11,c:-2,d:-4,e:-9,f:10,g:12},s=t=>(t=max(0,t),(2.09*t*2**((rel[x='80a50a80a50a805af0a50bf1a73cf3c7g0a80ag0a80ag08ag0a80ag0f137c3578db5db8da5dbfd5a7ce3ce7ce3ec875fg0a80ag0a80ag08ag0a80ag0f137c357'[t>>12&127]]??x)/12)&128)*(1-t%4096/4096)),s(t)+s(t-8192)/2+s(t-16384)/4",
+    "codeLen": 286,
+    "code": "rel={a:-7,b:-11,c:-2,d:-4,e:-9,f:10,g:12},\ns=t=>(t=max(0,t),(t*2.09*2**((rel[x=\"80a50a80a50a805af0a50bf1a73cf3c7g0a80ag0a80ag08ag0a80ag0f137c3578db5db8da5dbfd5a7ce3ce7ce3ec875fg0a80ag0a80ag08ag0a80ag0f137c357\"[t>>12&127]]??x)/12)&128)\n*(1-((t%4096)/4096))),s(t)+s(t-8192)/2+s(t-16384)/4",
+    "author": "Chasyxx",
+    "name": "please some remix this out of strings",
+    "description": "An interesting way to reduce an array.",
+    "url": "https://dollchan.net/btb/res/756.html#2430",
+    "date": "2023-10-10",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      },
+      {
+        "hash": "0097fe0bdfe67916ae20fb52efba8c24",
+        "author": "SthephanShi",
+        "name": "Trip to Otherworld",
+        "url": "https://www.reddit.com/r/bytebeat/comments/127ij8e/trip_to_otherworld/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

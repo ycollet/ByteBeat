@@ -1,0 +1,26 @@
+{
+  "file": "songs/bbc78d3d821c833c596378ef40542c0d.js",
+  "title": "chilly cyberstorm",
+  "author": "algoziptunes",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bbc78d3d821c833c596378ef40542c0d.js",
+  "sha256": "44cb5c2f8eea2fe38de9c9282369670e385f9c3909672f734f72f97990b68fc3",
+  "upstream": {
+    "hash": "bbc78d3d821c833c596378ef40542c0d",
+    "codeMinLen": 493,
+    "codeMin": "volume=.25,sr=11E3,b=sr/8E3*6*t/sr,a=[174.61*b,207.65*b,233.08*b,261.63*b,196*b,293.66*b,174.61*b,207.65*b,261.63*b,196*b,196*b,293.66*b],s1=16*a[int(b/16%12)]*PI/128,s2=8*a[int(b/8%12)],s3=a[int(b%12)]*PI/128,o1=1.1*(sin(s1)-cos(s1)),o2=(2*t&117)%s2%31,o3=random()*(sr/2)%127,o4=b+4*a[t/2&12]*PI/128,o5=b>>s2&72,T=((.5*o3&136>>b%8)+(o1<<7&21706>>b/2%8)+((t/sr>45?1:0)*o4&554>>b/2%12)+o2+((t/sr>15?1:0)*o5&168>>b/2%8))%(t/sr%1200>750?0xDEADBEEF>>b/2:512)*volume,t/sr%60>40?T&(-T>>3&2989)%255:T",
+    "codeLen": 677,
+    "fileOrig": 1,
+    "codeText": "volume=.25,sr=11E3,b=sr/8E3*6*t/sr,a=[174.61*b,207.65*b,233.08*b,261.63*b,196*b,293.66*b,174.61*b,207.65*b,261.63*b,196*b,196*b,293.66*b],s1=16*a[int(b/16%12)]*PI/128,s2=8*a[int(b/8%12)],s3=a[int(b%12)]*PI/128,o1=1.1*(sin(s1)-cos(s1)),o2=(2*t&117)%s2%31,o3=random()*(sr/2)%127,o4=b+4*a[t/2&12]*PI/128,o5=b>>s2&72,T=((.5*o3&136>>b%8)+(o1<<7&21706>>b/2%8)+((t/sr>45?1:0)*o4&554>>b/2%12)+o2+((t/sr>15?1:0)*o5&168>>b/2%8))%(t/sr%1200>750?0xDEADBEEF>>b/2:512)*volume,t/sr%60>40?T&(-T>>3&2989)%255:T",
+    "isTruncated": 1,
+    "author": "algoziptunes",
+    "name": "chilly cyberstorm",
+    "url": "https://battleofthebits.com/arena/Entry/chilly+cyberstorm/58749/",
+    "date": "2023-02-17",
+    "sampleRate": 11025,
+    "tags": [
+      "1k"
+    ]
+  }
+}

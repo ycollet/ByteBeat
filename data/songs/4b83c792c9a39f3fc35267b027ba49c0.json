@@ -1,0 +1,32 @@
+{
+  "file": "songs/4b83c792c9a39f3fc35267b027ba49c0.js",
+  "title": "42-qz",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e98a762084a5b2140986b6184494b12bd4e0094ed08391df8596881dacfd41c5",
+  "upstream": {
+    "hash": "4b83c792c9a39f3fc35267b027ba49c0",
+    "codeLen": 128,
+    "code": "t/=5.5,T=t%16384,t*(42&(t>>10)+2)/512%.5+sin(4*(t%4096)**.5)/4+sin(t>>4^t>>1^t/2.001)/6*(1-T/3072%1)-sin(8e3*(T%6144)**.01)**2/4",
+    "author": "lhphr",
+    "name": "42-qz",
+    "description": "The \"42 melody\" with interesting effects.",
+    "url": "https://dollchan.net/btb/res/44.html#367",
+    "date": "2022-10-09",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

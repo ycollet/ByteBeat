@@ -1,0 +1,22 @@
+{
+  "file": "songs/09f0043a21b3e6fa073847e1609733d9.js",
+  "title": "\"Harmony\". Based off of mu6k's \"Long Line Theory\"",
+  "author": "r/bytebeat",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0a70a5a75fb0e6de189d3901b638c6fd83fa2cd44ba2a3aa33d098884db27ba7",
+  "upstream": {
+    "hash": "09f0043a21b3e6fa073847e1609733d9",
+    "codeLen": 29,
+    "code": "t%50.01+t%40.1+t%30.1+t%60.01",
+    "author": "r/bytebeat",
+    "name": "\"Harmony\". Based off of mu6k's \"Long Line Theory\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/",
+    "date": "2014-03-16",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

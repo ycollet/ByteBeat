@@ -1,0 +1,24 @@
+{
+  "file": "songs/b601ec363b6e4d3c172b37eb1c325394.js",
+  "title": "Sineslide",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2c910bdcbd77838f5dd55ba78051ff1c85bafb12668f706e110c304a7069da6a",
+  "upstream": {
+    "hash": "b601ec363b6e4d3c172b37eb1c325394",
+    "codeLen": 60,
+    "code": "t+=2**(25+(t>>21&1)),sin(t*PI/256*((t&t>>13)+(x=t&t>>12))/x)",
+    "author": "lhphr",
+    "name": "Sineslide",
+    "description": "Sine waves going wild.",
+    "url": "https://dollchan.net/btb/res/44.html#367",
+    "date": "2022-11-29",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

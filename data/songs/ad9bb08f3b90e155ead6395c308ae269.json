@@ -1,0 +1,37 @@
+{
+  "file": "songs/ad9bb08f3b90e155ead6395c308ae269.js",
+  "title": "Salty_Formal5291's remix",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ad9bb08f3b90e155ead6395c308ae269.js",
+  "sha256": "14e7188b4a91fdc670e3431d4372fdaecc0c557048203f388b2a01d9650fd7a0",
+  "upstream": {
+    "hash": "ad9bb08f3b90e155ead6395c308ae269",
+    "codeMinLen": 1658,
+    "codeLen": 3693,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "4E5/(t&4095)+((t%=720896)*2**([3,a=10,b=14,c=15,a,a,a,a,3,a,b,c,a,a,a,a,6,d=11,c,e=18,f=17,g=13,a,8,a,a,3,g,a,6,3,6,8,8,8,8,g,g,c,8,a,a,8,8,3,3,8,g,a,a,a,a,h=12,h,h,h,g,g,g,g,h,h,h,h,i=22,i,i,i,j=24,j,j,j,k=25,k,k,k,l=27,l,l,l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,c,i,m=26,l,i,i,i,i,c,i,m,l,i,i,i,i,e,23,l,30,29,k,i,n=20,i,i,c,k,i,e,c,e,n,n,n,n,k,k,l,n,i,i,n,n,c,c,n,k,i,i,i,i,j,j,j,j,k,k,k,k,j,j,j,j,c,i,m,l,i,i,i,i,c,i,m,l,i,i,i,i,e,23,l,30,29,k,i,n,i,i,c,k,i,e,c,e,n,n,n,n,k,k,l,n,i",
+    "isTruncated": 1,
+    "author": "psubscirbe",
+    "name": "Salty_Formal5291's remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hfsfln/salty_formal5291s_remix_the_remixes_act_03_the/",
+    "date": "2024-12-16",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "f2092272cee929a573eda600d3be40ed",
+        "author": "Salty_Formal5291",
+        "name": "a beat thingy with drums",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1heywyr/somebody_remix_this/"
+      }
+    ],
+    "coverName": "Smurfs NES Music: Act 3, The Swamps",
+    "coverUrl": "https://www.youtube.com/watch?v=R8GGKwi83BM",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-07-08"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/58d8d8d1be07cdee995f82873b727731.js",
+  "title": "Jeroen Tel's song Thingy",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/58d8d8d1be07cdee995f82873b727731.js",
+  "sha256": "7797decabf59991cc8adf4d560f1c3c9388b34c9f5a64088a345ec6f344a94de",
+  "upstream": {
+    "hash": "58d8d8d1be07cdee995f82873b727731",
+    "codeLen": 7898,
+    "fileOrig": 1,
+    "codeText": "/*\nThe Twelly Tool v1.03 - Absolutely Rework\n\tMy bytebeats are getting better, so I have\n\tto rework my tools to make it more optimized.\n\tSo I decided to rework my tool\n*/\n\n/* Constants */",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Jeroen Tel's song Thingy",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1olwfn3/jeroen_tels_song_thingy/",
+    "date": "2025-11-01",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "Jeroen Tel - RoboCop 3 NES Title Screen Theme",
+    "coverUrl": "https://youtu.be/z754_a_aAHA",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-07",
+    "date_edited": "2025-12-10"
+  }
+}

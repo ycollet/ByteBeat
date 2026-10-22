@@ -1,0 +1,38 @@
+{
+  "file": "songs/04e4486b69c0a775083724512c01e152.js",
+  "title": "i made my own version of the bytewave thingy",
+  "author": "emelchenko",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5ac458f3556c6d534e6e67a12a363532fe78e5bd3c15b02c5b2b2a26f9e8bd76",
+  "upstream": {
+    "hash": "04e4486b69c0a775083724512c01e152",
+    "codeMinLen": 211,
+    "codeMin": "x=y=>(t||(A=Array(n=12222).fill(0)),a=(t*((t>>13&3)+1)*((t>>17&1)/8+1)*y/5&255)/512*(1-t/8192%1)%256+A[t%n],A[t%n]=a/2,sin(4*cbrt(t&32767))/2+random()/4*(t&32768?t&16384?0:1-t/16384%1:0)+a-.5),[x(1.005),x(.995)]",
+    "codeLen": 215,
+    "code": "x=y=>(t||(A=Array(n=12222).fill(0)),a=((t*((t>>13&3)+1)*((t>>17&1)/8+1)*y/5&255)/512*(1-t/8192%1))%256+A[t%n],A[t%n]=a/2,sin(cbrt(t&32767)*4)/2+(random()/4*(t&32768?t&16384?0:1-t/16384%1:0))+a-.5),[x(1.005),x(.995)]",
+    "author": "emelchenko",
+    "name": "i made my own version of the bytewave thingy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h5ocqx/i_made_my_own_version_of_the_bytewave_thingy/",
+    "date": "2024-12-03",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "1a421a16985c974a2034ca2bd29c7770",
+        "author": "Zackx",
+        "name": "Bytewave/Synthbyte engine example",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3982",
+          "https://www.reddit.com/r/bytebeat/comments/1e9edwr/here_is_an_examples_how_does_work_my_engine_for/"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

@@ -1,0 +1,1 @@
+t||(d=1.174,e=1.318,f=1.389,a=Array(n=256).fill(0)),a[t%n]=(t&t>>8)%256,a[floor(t*[e,e,e,e,f,f,f,f,d,d,d,d,f,f,f,f,e,e*2,e,e*2,f,f*2,f,f*2,d,d*2,d,d*2,f,f*2,f,f*2,][t>>12&31]%n)]

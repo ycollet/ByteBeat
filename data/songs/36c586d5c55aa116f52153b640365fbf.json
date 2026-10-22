@@ -1,0 +1,33 @@
+{
+  "file": "songs/36c586d5c55aa116f52153b640365fbf.js",
+  "title": "grogrogilla",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2a38691bc75a55b7a1188dd5f248e8a8395432828a4ed205ce27c7d4e439f130",
+  "upstream": {
+    "hash": "36c586d5c55aa116f52153b640365fbf",
+    "codeMinLen": 129,
+    "codeMin": "t/=.4,([sin(t>>4),2,sin(t>>2),2,sin(t>>4),2,sin(t>>2),2,sin(t>>4),2,sin(t>>2),2,sin(t>>4),2.5,sin(t>>2),3][(t>>12)%16]*t&t>>4)-20",
+    "codeLen": 131,
+    "code": "t/=0.4,([sin(t>>4),2,sin(t>>2),2,sin(t>>4),2,sin(t>>2),2,sin(t>>4),2,sin(t>>2),2,sin(t>>4),2.5,sin(t>>2),3,][(t>>12)%16]*t&t>>4)-20",
+    "author": "rubi",
+    "name": "grogrogilla",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s73i8u/grogrogilla/",
+    "date": "2022-01-18",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "b13da96ba4ca8d4648679380f7a2caef",
+        "author": "rubi",
+        "name": "( ͡° ͜ʖ ͡°)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s6xqf1/%CA%96/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

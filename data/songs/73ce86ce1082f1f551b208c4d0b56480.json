@@ -1,0 +1,28 @@
+{
+  "file": "songs/73ce86ce1082f1f551b208c4d0b56480.js",
+  "title": "Cool arpeggio I made",
+  "author": "Senzou4770",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/73ce86ce1082f1f551b208c4d0b56480.js",
+  "sha256": "c9fde0889ddd325ee94495dccc6356134b5eadb9deb91d493b9657174e699b06",
+  "upstream": {
+    "hash": "73ce86ce1082f1f551b208c4d0b56480",
+    "codeMinLen": 275,
+    "codeMin": "sr=44100,v=.2,st=t*v*250*1.025/sr,220*st%(255*v)+st*[261.6,261.6,293.665,329.628][(t*250/sr>>6)%4]%(255*v)+st*[329.6,329.6,391.995,441][(t*250/sr>>6)%4]%(255*v)+st*[391.995,440,493.883,523.2][(t*250/sr>>6)%4]%(255*v)+st*[55,146.83,43.6535,48.999375][(t*250/sr>>10)%4]%(255*v)",
+    "codeLen": 501,
+    "codeFormLen": 635,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "sr=44100,v=.2,st=t*v*250*1.025/sr,220*st%(255*v)+st*[261.6,261.6,293.665,329.628][(t*250/sr>>6)%4]%(255*v)+st*[329.6,329.6,391.995,441][(t*250/sr>>6)%4]%(255*v)+st*[391.995,440,493.883,523.2][(t*250/sr>>6)%4]%(255*v)+st*[55,146.83,43.6535,48.999375][(t*250/sr>>10)%4]%(255*v)",
+    "isTruncated": 1,
+    "author": "Senzou4770",
+    "name": "Cool arpeggio I made",
+    "url": "https://www.reddit.com/r/bytebeat/comments/srw5kn/cool_arpeggio_i_made/",
+    "date": "2022-02-14",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

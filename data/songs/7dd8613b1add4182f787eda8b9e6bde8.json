@@ -1,0 +1,23 @@
+{
+  "file": "songs/7dd8613b1add4182f787eda8b9e6bde8.js",
+  "title": "angry hornet nest",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "466009a97bb34c91493f725f6016d8c563cf1664a89cc1373463e33aa1de8298",
+  "upstream": {
+    "hash": "7dd8613b1add4182f787eda8b9e6bde8",
+    "codeLen": 96,
+    "code": "H=()=>{for(j=0,i=2;i<32;i++)j+=(2*(1-1/i**2)*t*440/65536-sin(t*i*PI/65536))%2-1;return j/16},H()",
+    "author": "PortablePorcelain",
+    "name": "angry hornet nest",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14go9lb/angry_hornet_nest/",
+    "date": "2023-06-23",
+    "mode": "Floatbeat",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

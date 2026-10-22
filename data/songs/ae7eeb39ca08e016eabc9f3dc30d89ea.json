@@ -1,0 +1,45 @@
+{
+  "file": "songs/ae7eeb39ca08e016eabc9f3dc30d89ea.js",
+  "title": "useless1 but in Slide Meodica Bliss",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 67719.086,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ae7eeb39ca08e016eabc9f3dc30d89ea.js",
+  "sha256": "2fe3a848d525277140bd09601046c8c3ae1eaee4a41d3ec5c734696a179cc53e",
+  "upstream": {
+    "hash": "ae7eeb39ca08e016eabc9f3dc30d89ea",
+    "codeMinLen": 843,
+    "codeLen": 895,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=2,A='1111100000011111111111111111111111111111111111111111111000001111111001111111110001000000000000001111110000000000000000000111111111111001111110000000000000000000000000000000000',n=2**(-8.1/12),t||(a=b=d=e=0),(c=a+=b+=(n*2**(13/12)*2**([0,0,6,7,11,11,7,7,6,6,7,7,0,0,7,7,2,2,6,7,11,11,7,7,6,6,7,7,2,2,3,3,4,4,6,7,11,11,7,7,6,6,7,7,4,4,7,7,-1,-1,6,7,11,11,7,7,6,6,7,7,-3,-3,-1,-1,0,0,6,7,11,11,7,7,6,6,7,7,0,0,7,7,2,2,6,7,11,11,7,7,6,6,7,7,2,2,3,3,4,4,6,7,11,11,7,7,6,6,7,7,4,4,7,7,7,7,6,7,14,14,7,7,6,6,7,7",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "useless1 but in Slide Meodica Bliss",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1hfg5kz/useless1_but_in_slide_meodica_bliss/",
+      "https://dollchan.net/btb/res/7164.html#7239"
+    ],
+    "date": "2024-12-16",
+    "mode": "Floatbeat",
+    "sampleRate": 67719.086,
+    "remix": [
+      {
+        "hash": "d183eb4c4e528ef8c34570f64fa82f54",
+        "author": "Decent-Manager-6169",
+        "name": "Useless1 Sequel",
+        "url": "https://dollchan.net/btb/res/520.html#2931"
+      },
+      {
+        "hash": "3f3a5e9c796b1ea8930f03015c2b93da",
+        "author": "Decent-Manager-6169",
+        "name": "Slide Melódica Bliss Recreate",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1fsl127/slide_mel%C3%B3dica_bliss_recreate/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

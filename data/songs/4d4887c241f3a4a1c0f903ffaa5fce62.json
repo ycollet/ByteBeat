@@ -1,0 +1,32 @@
+{
+  "file": "songs/4d4887c241f3a4a1c0f903ffaa5fce62.js",
+  "title": "Kevvviiinnnn Stage 39",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 48400,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4d4887c241f3a4a1c0f903ffaa5fce62.js",
+  "sha256": "ea88ed3abb34ba497321824562fccc4d0b9c8c7824eb0fbb77b425c5cc81ef48",
+  "upstream": {
+    "hash": "4d4887c241f3a4a1c0f903ffaa5fce62",
+    "codeLen": 13665,
+    "codeFormLen": 12676,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "/*\n*\n* Kevvviiinnn Stage 39\n* By Symfonikev (Kevin Phetsomphou)\n*\n* Ported by MarioFan171 (Me)\n*\n* Made this for fun, I am not affiliated with Symfonikev, ",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Kevvviiinnnn Stage 39",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1aqeumu/kevvviiinnnn_stage_39/",
+      "https://dollchan.net/btb/res/2971.html#2984"
+    ],
+    "date": "2024-02-14",
+    "sampleRate": 48400,
+    "stereo": 1,
+    "coverName": "symfonikev - Stage 39 (Mega Man Rock Force OST)",
+    "coverUrl": "https://youtu.be/xrad5JjnA7w",
+    "tags": [
+      "big"
+    ]
+  }
+}

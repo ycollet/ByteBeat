@@ -1,0 +1,29 @@
+{
+  "file": "songs/848e1995c2c331f2bbd37d1b0b7ce281.js",
+  "title": "Bad Apple Gift Cards",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 128000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/848e1995c2c331f2bbd37d1b0b7ce281.js",
+  "sha256": "d8f7fbf6792945e8c8569af176d19e84df485f9239bd2c911e37b35bc4052113",
+  "upstream": {
+    "hash": "848e1995c2c331f2bbd37d1b0b7ce281",
+    "codeLen": 6729754,
+    "fileOrig": 1,
+    "codeText": "parseInt('0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Bad Apple Gift Cards",
+    "description": "Bad Apple animation. Set \"Points\" mode and zoom to 1/4 on monitors, or 1/8 on phones.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13dcab9/bad_apple_gift_cards/",
+    "date": "2023-05-10",
+    "sampleRate": 128000,
+    "drawing": {
+      "mode": "Points",
+      "scale": 2
+    },
+    "tags": [
+      "big"
+    ]
+  }
+}

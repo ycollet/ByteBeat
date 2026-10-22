@@ -1,0 +1,24 @@
+{
+  "file": "songs/8de1f0ebcf4fd52c6466213ab8a7aba9.js",
+  "title": "the pulse but as the song",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cda99fc71a2611fca5b875b5be7b7c1b509dfdef9d4f05485e4757c35b7c5cad",
+  "upstream": {
+    "hash": "8de1f0ebcf4fd52c6466213ab8a7aba9",
+    "codeMinLen": 277,
+    "codeMin": "Bpm=160,Hz=44100,tf=abs(t/Hz/180*3*32768*Bpm),pitch=[1,2,3,4,4.5,4.75,6,8][(abs(tf)>>14)%8],pitch2=[4,4.5,4.75,5+1/3][(abs(tf)>>18)%4]/8,speed=2,x=abs(255*floor(t*pitch%256/(speed/4*tf%65536|(speed/4*tf/32^speed/4*tf/64)%65536)*65536/256%2)),abs(128*-x%256)+abs(t*pitch2%256)/2",
+    "codeLen": 339,
+    "code": "Bpm = 160,\nHz = 44100,\ntf = abs((((t/Hz/180*3)*256*128)*Bpm)),\npitch = ([1,2,3,4,4.5,4.75,6,8][(abs(tf)>>14)%8]),\npitch2 = ([4,4.5,4.75,(5+(1/3))][(abs(tf)>>18)%4]/8),\nspeed = 2,\nx = abs(floor(((t*pitch%256)/((tf*(speed/4)%(256**2))|(tf*(speed/4)/32^tf*(speed/4)/64)%(256**2)))*(256**2)/256%2)*255),\n(abs(-x*128%256)+(abs(t*pitch2%256))/2)",
+    "author": "D3nschøt",
+    "name": "the pulse but as the song",
+    "url": "https://youtu.be/hp0RUcEe3qA?si=0CyKCEnXCkFit12N",
+    "date": "2024-02-19",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

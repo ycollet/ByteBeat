@@ -1,0 +1,27 @@
+{
+  "file": "songs/cc4c5929b67859983016606f942c3b48.js",
+  "title": "Trash Remix of \"Don't Run! - 2022 Remastered\"",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cc4c5929b67859983016606f942c3b48.js",
+  "sha256": "724a35ecadd88c708b1ebfe3e81d149cdeeb8437b2cd783fe5dd207198642da0",
+  "upstream": {
+    "hash": "cc4c5929b67859983016606f942c3b48",
+    "codeLen": 1212,
+    "fileOrig": 1,
+    "codeText": "Bass = (cbrt(sin((t*2**(([2,-16777216,14,-16777216,2,14,-16777216,2,14,-16777216,2,14,-16777216,2,14,14,-2,-16777216,10,-16777216,-2,10,-16777216,0,12,-16777216,0,12,-16777216,0,12,12,2,-16777216,14,-16777216,2,14,-16777216,2,14,-16777216,2,14,-16777216,2,12,14,-2,-16777216,10,-16777216,-2,10,-16777216,0,12,-16777216,0,12,-16777216,0,12,12,][(t>>12)%64]-12.5)/12))*PI/128))*32),\r\n\r\nMelody = (asin(sin((t*2**(([2,2,2,2,2,2,2,2,14,14,2,2,2,2,2,2,2,2,2,2,2,2,2,2,14,14,2,2,2,2,2,2,-2,-2,-2,-2,-2,-2,-2,-2,10,10,-2",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Trash Remix of \"Don't Run! - 2022 Remastered\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fmifll/trash_remix_of_dont_run_2022_remastered_by/",
+    "date": "2024-09-22",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32768,
+    "coverName": "GroovyDominoes52 - Don't Run! - 2022 Remastered",
+    "coverUrl": "https://youtu.be/e6UC5e1s28k",
+    "tags": [
+      "big"
+    ]
+  }
+}

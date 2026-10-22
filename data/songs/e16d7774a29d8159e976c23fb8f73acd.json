@@ -1,0 +1,33 @@
+{
+  "file": "songs/e16d7774a29d8159e976c23fb8f73acd.js",
+  "title": "Crystalized Caves",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e16d7774a29d8159e976c23fb8f73acd.js",
+  "sha256": "c33e136062db9aff9b2c94c0ebe3078c24d26ef8a8efe39d67447440e7860e05",
+  "upstream": {
+    "hash": "e16d7774a29d8159e976c23fb8f73acd",
+    "codeLen": 4997,
+    "fileOrig": 1,
+    "codeText": "// CRYSTALIZED CAVES\n// By Sentle.\n// You saw a planet full of caves with their unknown minerals while flying around the space. You're filling with curiosity and deciding to discover it with more detail. It was warm and the sun shined through the exoplanet. It seems it has to be summer there...\n// Length: 4min 41sec.\n// Performance: Slow, ~0.44 s/s.\n// Supposed to be a song without any number written in this code, but yes. For one day left doing this would be very complicated.\n\nt||(Bf=[],Ba=[],",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "Crystalized Caves",
+    "description": "\"You saw a planet full of caves with their unknown minerals while flying around the space. You're filling with curiosity and deciding to discover it with more detail. It was warm and the sun shined through the exoplanet. It seems it has to be summer there....\" Summer Chip XV battle.",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Crystalized+Caves/79729/",
+      "https://dollchan.net/btb/res/6537.html#10114"
+    ],
+    "date": "2025-09-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-23",
+    "date_edited": "2025-12-06"
+  }
+}

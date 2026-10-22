@@ -1,0 +1,41 @@
+{
+  "file": "songs/78e7705f6506525e6d409e06aefe8c91.js",
+  "title": "Ryg Atari remix",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8b973449a97e4b34d35b66debeaeb01d5db8bdc3649b760794501f1b40087468",
+  "upstream": {
+    "hash": "78e7705f6506525e6d409e06aefe8c91",
+    "codeMinLen": 93,
+    "codeMin": "(t*((l=0xAFEDC320)>>(t>>12^(t>>12)-2)%11*t/64&1)&&64)+(t*(l>>t*'36364689'[t>>13&7]/96&1)&&64)",
+    "codeLen": 97,
+    "code": "(t*((l=0xAFEDC320)>>((t>>12^(t>>12)-2)%11*t/64)&1)&&64)+(t*(l>>(t*'36364689'[t>>13&7]/96)&1)&&64)",
+    "author": "ANoUserXD",
+    "name": "Ryg Atari remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/153bo5l/comment/jsim6cw/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-07-19",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      },
+      {
+        "hash": "9c613cdc5ecbcb277b1c1cfb7f99de9d",
+        "author": "ANoUserXD",
+        "name": "Atari sound discovered?",
+        "url": "https://www.reddit.com/r/bytebeat/comments/15383dn/atari_sound_discovered/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

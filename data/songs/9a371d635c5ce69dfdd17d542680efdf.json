@@ -1,0 +1,27 @@
+{
+  "file": "songs/9a371d635c5ce69dfdd17d542680efdf.js",
+  "title": "Don't know what to name",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9a371d635c5ce69dfdd17d542680efdf.js",
+  "sha256": "799af286d6fa58a3d8cbe56ed1ca9fe029d80df5b3369bf3ff23968e54a650d9",
+  "upstream": {
+    "hash": "9a371d635c5ce69dfdd17d542680efdf",
+    "codeMinLen": 746,
+    "codeLen": 758,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=1048576,v=-9e9,n=.84,K1=sin(1.5**(-t/128%32+8))*52+52,HH1=t*(-t>>11&1)*random()&-t>>5&63,HH2=t*(-t>>11&1)*random()&-t>>6&31,HH3=(t*(-t>>11&1)*random()&-t>>3)%256/3,OHT=sin(t>>2)*t&-t>>6&127,A=(t*n/2*2**([[F1=[4,6,8,11,13,16][(t>>13)%6],F1,F1,F1],[F2=[20,21,9,11,13,16][(t>>13)%6],F2,F2,F2],[F3=[13,16,18,20,8,11][(t>>13)%6],F3,F3,F3],[F4=[9,13,16,20,21,25][(t>>13)%6],F4,[16,20,21,23,9,12][(t>>13)%6],[6,11,15,18,23,27][(t>>13)%6]]][t>>18&3][t>>16&3]/12)&64),dr=[K1,HH2,HH1,HH3,OHT/1.5,OHT,HH1,K1,HH2,HH2,K1,H",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Don't know what to name",
+    "url": "https://dollchan.net/btb/res/520.html#2272",
+    "date": "2023-09-13",
+    "sampleRate": 40000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

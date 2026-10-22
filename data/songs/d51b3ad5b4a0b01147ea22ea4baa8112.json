@@ -1,0 +1,39 @@
+{
+  "file": "songs/d51b3ad5b4a0b01147ea22ea4baa8112.js",
+  "title": "OSIRIS OverkillAF EDM Remix",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 49152,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d51b3ad5b4a0b01147ea22ea4baa8112.js",
+  "sha256": "4d019fe1aa46cad5da7711f7bcbd89639f50a1b75103c32f3e51817a9f3bc4f2",
+  "upstream": {
+    "hash": "d51b3ad5b4a0b01147ea22ea4baa8112",
+    "codeLen": 11377,
+    "fileOrig": 1,
+    "codeText": "/* \n  /¯¯¯¯/\\¯¯¯¯\\'    /¯¯¯¯/`·.¯¯/|  |¯¯¯¯| |¯¯¯¯|\\¯¯¯¯\\'  |¯¯¯¯|  /¯¯¯¯/`·.¯¯/| \n '|       |::|       |   '|       |::::'\\/::|  |       | |       | |       |  |       | '|       |::::'\\/::| \n '|____|/\\|____|   |\\____\\`·.:|::/‘  |____| |____|/____/|‘ |____| |\\____\\`·.:|::/‘ \n '|¯¯¯¯|  |¯¯¯¯|   |'|::::'|\\¯¯¯¯\\    |¯¯¯¯| |¯¯¯¯|\\¯¯¯¯\\|‘ |¯¯¯¯| |'|::::'|\\¯¯¯¯\\   \n '|       |  |       |   \\|/\\:::|:|       |'‚  |       | |       |:|       |  |       | \\|/\\:::|:|       |'‚ \n |\\____\\'/____/| ' /__`·./____/|   |___",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "OSIRIS OverkillAF EDM Remix",
+    "description": "Also known as OSIRIS Leap",
+    "url": "https://dollchan.net/btb/res/2971.html#4131",
+    "date": "2024-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 49152,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e98ecda467d71d6fefee904f7a1a717c",
+        "author": "MarioFan171",
+        "name": "OSIRIS",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1c66gmx/osiris_floatbeat/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow",
+      "console"
+    ],
+    "date_added": "2025-11-12",
+    "date_edited": "2025-11-13"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/6832a4352c71b3affeb1bf91ba33bde2.js",
+  "title": "Last Fountain",
+  "author": "pigdevil2010",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6832a4352c71b3affeb1bf91ba33bde2.js",
+  "sha256": "5e98e3972ea46d67013de351f14fd3d91fe0e3d444b65cdfe47804431c14f0b1",
+  "upstream": {
+    "hash": "6832a4352c71b3affeb1bf91ba33bde2",
+    "codeMinLen": 965,
+    "codeLen": 973,
+    "codeFormLen": 1331,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "s=(a,b,c)=>c/a.charCodeAt(b),d=a=>a&1?-1:1,e=(a,b)=>t>>22&1?b:a,b=a=>(s(a,r(t)+p*16,t<<2)*(254>>(t>>20&7)&1))&20,p=178>>(t>>19&7)&1,q=a=>120>>(a>>20&7)&1?1:(-a>>16&1),r=a=>112>>(a>>20&7)&1?t>>14&15:(t>>17&1)*8,l=\"  QQffQQLLLfLLDDQQQfff  rrff``UU  QQDDQQLLLfLLDD<<f333  r\\x98rf`r`U  <<<9<LUUU\\x80U\\x80UL[[rLLL  rrff`frr  <<<93U999`9U3+--9&&&  rrff``UU\",b(\"rrLr99rrUUrU99rULLyL<<yy``\\x80`@@\\x80`\")*2+b(\"qqKq88qqTTqT88qTKKxK;;xx__\\x7f_??\\x7f_\")+(s(\"rf[<r`L@\\x98\\x88yQ\\x80fUL\",(t&3)+(t>>17&1)*4+p*8,t<<2)&7)*(t*d(t>>",
+    "isTruncated": 1,
+    "author": "pigdevil2010",
+    "name": "Last Fountain",
+    "url": "https://battleofthebits.com/arena/Entry/Last+Fountain/27281/",
+    "date": "2018-01-20",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

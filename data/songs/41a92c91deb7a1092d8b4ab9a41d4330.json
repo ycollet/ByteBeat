@@ -1,0 +1,30 @@
+{
+  "file": "songs/41a92c91deb7a1092d8b4ab9a41d4330.js",
+  "title": "DJ \"Fanfare?\"",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "95fe6da5cdd33e33c57e337f5bc32d67b5e2f80bde2e80766db4bb0e9afc6f10",
+  "upstream": {
+    "hash": "41a92c91deb7a1092d8b4ab9a41d4330",
+    "codeLen": 228,
+    "code": "128-((t&8192?t&4096?t&1024?2*t:4*t:t&512?4*t:4.2*t:(t&4096?t&1024?2*t:10*t:t&512?2*t:8*t)>>2)*(t&16384?3:2)|t*(t&16384?.125:1/(.01*t)))%256/2+sin(13*cbrt(t*'12842114'[7&t>>12]%4096))*32+32+64*random()*(1-t&4095)/4e3*(t&4096)/4e3",
+    "author": "Zackx",
+    "name": "DJ \"Fanfare?\"",
+    "url": "https://dollchan.net/btb/res/204.html#464",
+    "date": "2023-02-24",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "a184c2c272dd587f2d2331c766e11b79",
+        "author": "varjohukka",
+        "name": "Fanfare?",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=4#c388503"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

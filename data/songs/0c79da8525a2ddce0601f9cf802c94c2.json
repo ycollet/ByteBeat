@@ -1,0 +1,27 @@
+{
+  "file": "songs/0c79da8525a2ddce0601f9cf802c94c2.js",
+  "title": "Waiver",
+  "author": "a2aaron",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e742db9d8500908966cce180499c5b13efdbae5488bb7086a2507aa3515a7250",
+  "upstream": {
+    "hash": "0c79da8525a2ddce0601f9cf802c94c2",
+    "codeMinLen": 17,
+    "codeMin": "(t/91&t^t/90&t)-1",
+    "codeLen": 25,
+    "code": "(((t/91)&t)^((t/90)&t))-1",
+    "author": "a2aaron",
+    "name": "Waiver",
+    "description": "Lowering your volume is advised.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/",
+    "date": "2014-03-16",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-10-21"
+  }
+}

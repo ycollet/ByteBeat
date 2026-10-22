@@ -1,0 +1,25 @@
+{
+  "file": "songs/7b119b936d85329d6a69a1f76a8fdc37.js",
+  "title": "cool js thing",
+  "author": "0naCB0_1488",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f733931cbd8020fab7ca9450b280e9f93962f0c7fcd7c000df0172da29b9ff88",
+  "upstream": {
+    "hash": "7b119b936d85329d6a69a1f76a8fdc37",
+    "codeMinLen": 156,
+    "codeMin": "t/=E/1.3,t*\"25262524\"[t>>12&7]*!(t>>11&1)*(n=65536&t?.9:1)&64|256*random()*\"1100101010100100\"[t>>11&15]&96|t*\"0012010201021021\"[t>>12&15]*n&128|4E4/(t&8191)",
+    "codeLen": 173,
+    "code": "t/=E/1.3,t*\"2050206020502040\"[(t>>11)%16]*(65536&t?0.9:1)&64|256*random()*\"1100101010100100\"[(t>>11)%16]&96|t*\"0012010201021021\"[(t>>12)%16]*(65536&t?0.9:1)&128|4e4/(t&8191)",
+    "author": "0naCB0_1488",
+    "name": "cool js thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ec4z52/cool_js_thing/",
+    "date": "2024-07-25",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-02-04"
+  }
+}

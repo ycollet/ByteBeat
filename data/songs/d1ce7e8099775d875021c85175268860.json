@@ -1,0 +1,38 @@
+{
+  "file": "songs/d1ce7e8099775d875021c85175268860.js",
+  "title": "The 42 Melody",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bc43bc5ff7d3bd34141185377325695aac30af8b80f2f44cbb08950b2df3c55e",
+  "upstream": {
+    "hash": "d1ce7e8099775d875021c85175268860",
+    "codeMinLen": 265,
+    "codeMin": "P=[0,0,32,32,254,33,33,0,42,28,8,28,42,0,126,129,32,32,254,33,33,0,34,20,8,34,20,8,0,33,65,255,1,1,0,126,129,129,129,126,0,54,73,85,34,5,0,48,80,144,255,16,0,67,133,137,145,97,0,129,126,0,0,0],m=t>>10&42,R=(t*(m||1)&255)>>5,P[(t>>9)%P.length]>>R&1?32*(R+random()):0",
+    "codeLen": 270,
+    "code": "P=[0,0,32,32,254,33,33,0,42,28,8,28,42,0,126,129,32,32,254,33,33,0,34,20,8,34,20,8,0,33,65,255,1,1,0,126,129,129,129,126,0,54,73,85,34,5,0,48,80,144,255,16,0,67,133,137,145,97,0,129,126,0,0,0],\nm=t>>10&42,\nR=(t*(m?m:1)&255)>>5,\nP[(t>>9)%P.length]>>R&1?32*R+32*random():0",
+    "author": "May_I_Change_My_Name",
+    "name": "The 42 Melody",
+    "description": "The code text visualization with melody played. Set \"Points\" mode and zoom to 1/32.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13740tr/the_42_melody/",
+    "date": "2023-05-04",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "drawing": {
+      "mode": "Points",
+      "scale": "5"
+    },
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

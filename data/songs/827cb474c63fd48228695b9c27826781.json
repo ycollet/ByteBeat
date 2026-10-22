@@ -1,0 +1,27 @@
+{
+  "file": "songs/827cb474c63fd48228695b9c27826781.js",
+  "title": "Some Arcade Game Music",
+  "author": "Pentalogue Tridecalogue",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/827cb474c63fd48228695b9c27826781.js",
+  "sha256": "079e069b985ab4551975fab587bad40461e9f29d61067f824bcc0356e34336c8",
+  "upstream": {
+    "hash": "827cb474c63fd48228695b9c27826781",
+    "codeLen": 4411,
+    "fileOrig": 1,
+    "codeText": "// Title - Some Arcade Game Music (High cut filter version)\n// \n// Author - Pentalogue Tridecalogue\n//\n// Song creation date — 9-th December 2025\n//\n// Song publication date — 26-rd December 2025\n//",
+    "isTruncated": 1,
+    "author": "Pentalogue Tridecalogue",
+    "name": "Some Arcade Game Music",
+    "url": "https://dollchan.net/btb/res/3.html#11866",
+    "date": "2026-01-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-02-11",
+    "date_edited": "2026-06-28"
+  }
+}

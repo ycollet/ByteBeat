@@ -1,0 +1,34 @@
+{
+  "file": "songs/4858a37246af15d7700dc279201ce959.js",
+  "title": "Oh No. The Scary Is Coming. Run.",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4858a37246af15d7700dc279201ce959.js",
+  "sha256": "0ff8925bbf494e25bff6752468df458f3b2d4b60aff523047469652857154481",
+  "upstream": {
+    "hash": "4858a37246af15d7700dc279201ce959",
+    "codeMinLen": 762,
+    "codeLen": 764,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "a=10*t*2**('B*918/916-918/91B*918/916-918/91>*;2:1;26/;2:1;2>*;2:1;26/;2:1;2A*;291;28/;291;2A*;291;28/;291;2B*=-;,=-91=-;,=-B*=-;,=-91=-;,=-E*>6=4>692>6=4>6E*>6=4>692>6=4>6D*<3:1<380<3:1<3D*<3:1<380<3:1<3D(=4<3=481=4<3=4D(=4<3=481=4<3=4B(:18/:16.:18/:1B(:18/:16.:18/:1B&;2:1;26/;2:1;2B&;2:1;26/;2:1;2@&;,9*;,8/;,9*;,@&;,9*;,8/;,9*;,@%=-;,=-91=-;,=-@%=-;,=-91=-;,=->*=-;,=-92=-;,=->*=-;,=-92=-;,=->,8/6-8/428/6-8/>,8/6-8/428/6-8/=-412/4192412141=-412/4192412141;-6341613/634163;-6341613/634163;,8/6-8/528/6-8/;,8/",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "Oh No. The Scary Is Coming. Run.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14ax0j5/oh_no_the_scary_is_coming_run/",
+    "date": "2023-06-16",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "25ecf185844804a8ca54353f5002b4eb",
+        "author": "Decent-Manager-6169",
+        "name": "Still Don't Know The Name",
+        "url": "https://www.reddit.com/r/bytebeat/comments/scvxia/still_dont_know_the_name/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

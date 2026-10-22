@@ -1,0 +1,1 @@
+t?q++:a=Array(n=84).fill(q=0),v=(random()*1e3|0?0:255),m=(v%256/256)-a[q%n|0],a[q%n]=max(min(a[q%n]/160+m,1),-1),m

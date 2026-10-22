@@ -1,0 +1,27 @@
+{
+  "file": "songs/8206a436cabbeace03395700e3d871f9.js",
+  "title": "THE MOTHERLODE",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8206a436cabbeace03395700e3d871f9.js",
+  "sha256": "eb2e82c71595670e61168c7cdc09ea885f145ecd9a6034a83cf19c8f7f88b91a",
+  "upstream": {
+    "hash": "8206a436cabbeace03395700e3d871f9",
+    "codeLen": 5519,
+    "fileOrig": 1,
+    "codeText": "// A collection of effects you can use on _ANY_ variable that changes\n// Showcased in a remix of \"Ganke\" by Electronicos Fantasticos\n\n// Repeat x beats of y\n// SUPER useful if you're writing complex beats/melodies\n// Include this or the FXs won't work (or you could replace r(x, y) with Array(x).fill(y))\n// r(1,[arrays]) also serves as a replacement for [arrays].flat()\nr = repeat = (x, y) => Array(x).fill(y).flat(9),",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "THE MOTHERLODE",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10bv1d5/the_motherlode_a_bundle_of_effects_lowpass_filter/",
+    "date": "2023-01-14",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "l l l三l l l三 - NISHIMONAI BON ODORI「GANKE」NEO",
+    "coverUrl": "https://youtu.be/dJ8yYk-aQNY",
+    "tags": [
+      "big"
+    ]
+  }
+}

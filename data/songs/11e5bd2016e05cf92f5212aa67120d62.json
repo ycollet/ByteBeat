@@ -1,0 +1,29 @@
+{
+  "file": "songs/11e5bd2016e05cf92f5212aa67120d62.js",
+  "title": "Freehand waveform + Freeverb",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/11e5bd2016e05cf92f5212aa67120d62.js",
+  "sha256": "b70374c77284a02d86e6c6c8ee084b6b1bfe2cf9df3c94dc64dd58dfd22c2ee7",
+  "upstream": {
+    "hash": "11e5bd2016e05cf92f5212aa67120d62",
+    "codeLen": 9241,
+    "fileOrig": 1,
+    "codeText": "const TAU=Math.PI*2;\nlet sampleRate=8e3,\n    mod=(n,m)=>(n%m+m)%m,fract=x=>(x%1+1)%1,\n    mix=(a,b,x)=>a+(b-a)*x,\n    clamp=(x,mn,mx)=>Math.min(Math.max(x,mn),mx),\n    read=(a,i)=>a[mod(Math.floor(i),a.length)],\n    readLinear=(a,i)=>mix(a[mod(Math.floor(i),a.length)],a[mod(Math.floor(i)+1,a.length)],fract(i)),\n    sinc=x=>x===0?1:Math.sin(x)/x,",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "Freehand waveform + Freeverb",
+    "description": "Originally set to 16kHz, raised to 48kHz to improve audio quality.",
+    "url": "https://dollchan.net/btb/res/3.html#5779",
+    "date": "2025-04-08",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-12-22",
+    "date_edited": "2025-12-23"
+  }
+}

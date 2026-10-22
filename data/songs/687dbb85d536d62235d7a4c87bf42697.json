@@ -1,0 +1,27 @@
+{
+  "file": "songs/687dbb85d536d62235d7a4c87bf42697.js",
+  "title": "The Flower Festival",
+  "author": "Jimmyoshi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/formatted/687dbb85d536d62235d7a4c87bf42697.js",
+  "sha256": "66e076b3080af5f339f2e7aaaed96c67c7e4161e53e2977cfbafacf52426cb19",
+  "upstream": {
+    "hash": "687dbb85d536d62235d7a4c87bf42697",
+    "codeFormLen": 61874,
+    "fileForm": 1,
+    "codeText": "// Optimized by SArpnt\n\nSAMPLE_RATE = 44100,\nBPM = 118,\n\n// Initial variables\nt || (ci = {}, nd = {\n\tfreq0: [",
+    "isTruncated": 1,
+    "author": "Jimmyoshi",
+    "name": "The Flower Festival",
+    "description": "Optimized by SArpnt.",
+    "url": "https://battleofthebits.com/arena/Entry/The+Flower+Festival/17736/",
+    "date": "2015-05-09",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

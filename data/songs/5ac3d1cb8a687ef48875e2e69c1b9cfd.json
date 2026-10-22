@@ -1,0 +1,26 @@
+{
+  "file": "songs/5ac3d1cb8a687ef48875e2e69c1b9cfd.js",
+  "title": "brachiosaurus pong (i twisted this paddle)",
+  "author": "kOLbOSa_exe",
+  "mode": "Signed Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "41bd1bd3d9f941105aed56dc146e261dde5efa44f6474e0344f51fe0658bcb29",
+  "upstream": {
+    "hash": "5ac3d1cb8a687ef48875e2e69c1b9cfd",
+    "codeMinLen": 48,
+    "codeMin": "8*(4*t>>((t>>11|t>>12|t>>(t>>15^t>>10)+5)&7))&64",
+    "codeLen": 54,
+    "code": "((t*4>>((t>>11|t>>12|(t>>((t>>15^t>>10)+5)))&7))*8)&64",
+    "author": "kOLbOSa_exe",
+    "name": "brachiosaurus pong (i twisted this paddle)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18m62vw/veryangrysymphony/",
+    "date": "2024-01-31",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 22050,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

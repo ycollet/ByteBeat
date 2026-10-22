@@ -1,0 +1,32 @@
+{
+  "file": "songs/f932019ea456db68cf7945070c798ac2.js",
+  "title": "\"I think she'd rather sleep\"",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f932019ea456db68cf7945070c798ac2.js",
+  "sha256": "dfb61bf463faa365ba993abc01def8644a7abbde5566ba4aac4b1bd363e66982",
+  "upstream": {
+    "hash": "f932019ea456db68cf7945070c798ac2",
+    "codeMinLen": 889,
+    "codeLen": 940,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Hz=140/60*16384,t/=48e3/Hz,n=446/Hz*128*2**(3/12),vi=63+sin(t/840)*2,Dl=31e3,B1=min(1,abs(asin(sin(t%16384*PI/15360)))*8)*((t>>10&15)==15?0:1),B2=min(1,abs(asin(sin(t%8192*PI/7168)))*8)*((t>>10&7)==7?0:1),St=St=>(Bs=tanh(2*sin((a=t*PI/511*n*2**([-2,2,5,5,5,2,-2,,-9,-5,-2,-5,-7,-3,0,-3][t>>14&15]/12))+sin(a)/2))/3*[B1,B2]['0011000001000000'[t>>14&15]]||0,Chr=Chr=>((exp(tanh(sin(sin((t+63*6)*St*PI/128*n*2**(Chr[(t>>16)%4]/12)))))/3-.4)||0)*min(1,abs(asin(sin(t*PI/(A=2**(17-(t>>17&1))))))*32)/2**((t%A)/20e3)/1",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "\"I think she'd rather sleep\"",
+    "url": "https://dollchan.net/btb/res/520.html#7682",
+    "date": "2025-06-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Kero Kero Bonito - I'd Rather Sleep",
+    "coverUrl": "https://youtu.be/c4j9Z9bwBBU",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-21"
+  }
+}

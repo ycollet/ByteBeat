@@ -1,0 +1,33 @@
+{
+  "file": "songs/dccfbc86eda3752ab2a1380065a34f97.js",
+  "title": "I have made a thing#1",
+  "author": "Anonymous",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c957c4caf0aa0c2d9d632db00baef2f5e9f26a3a707c31b2f5eff1a7c496453e",
+  "upstream": {
+    "hash": "dccfbc86eda3752ab2a1380065a34f97",
+    "codeMinLen": 162,
+    "codeMin": "x=6.28318530718*4*t/44100,a=1200-(1200>>(t>>16)%2),b=400+(400>>(t>>14)%4),c=200+(400>>(t>>10)%4),d=200+(200>>(t>>12)%4),30*(sin(x*a)+sin(x*b)+sin(x*c)+sin(x*d)+4)",
+    "codeLen": 175,
+    "code": "x=6.28318530718*4*t/44100,\na=1200-(1200>>((t>>16)%2)),\nb=400+(400>>((t>>14)%4)),\nc=200+(400>>((t>>10)%4)),\nd=200+(200>>((t>>12)%4)),\n(sin(x*a)+sin(x*b)+sin(x*c)+sin(x*d)+4)*30",
+    "author": "Anonymous",
+    "name": "I have made a thing#1",
+    "url": "https://dollchan.net/btb/res/3.html#78",
+    "date": "2022-06-19",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "0077f2b8cd77973e83fe3d74a7dc2f25",
+        "author": "Jay-Arnett-97104",
+        "name": "Sine Music v2",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q8ev9z/sine_music_v2/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

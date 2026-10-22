@@ -1,0 +1,32 @@
+{
+  "file": "songs/75609ad203dfe13edda4796ec89b6763.js",
+  "title": "Adding beat",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "53ed491428eab375a75bdf27eddd3aeef0a9a45da352b8d82f75025323a43682",
+  "upstream": {
+    "hash": "75609ad203dfe13edda4796ec89b6763",
+    "codeMinLen": 198,
+    "codeMin": "bass=1.32*[1,1.12,.75,.67,.594,.67,.75,.89][7&t/32E3],z=1.32*[1,1.12,1.5,1.78,1,1.12,.75,.669][7&t/32E3],(z*t%256+z*-t%257+bass*t%512+bass*-t%514)/12+(beat=a=>63*sin(30*cbrt(a/80))+128,beat(t%16E3))",
+    "codeLen": 204,
+    "code": "bass=[1,1.12,.75,.67,.594,.67,.75,.89][7&t/32000]*1.32,\nz=[1,1.12,1.5,1.78,1,1.12,.75,.669][7&t/32000]*1.32,(z*t%256+z*-t%257+bass*t%512+bass*-t%514)/12+((beat=t=>sin(cbrt(t/80)*30)*63+128),beat(t%16000))",
+    "author": "Zackx",
+    "name": "Adding beat",
+    "url": "https://dollchan.net/btb/res/204.html#262",
+    "date": "2022-11-27",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "79fcc8b4f7b35ea0f58562e8ff17b351",
+        "author": "Zackx",
+        "name": "hard life",
+        "url": "https://dollchan.net/btb/res/204.html#260"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

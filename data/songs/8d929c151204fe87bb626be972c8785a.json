@@ -1,0 +1,22 @@
+{
+  "file": "songs/8d929c151204fe87bb626be972c8785a.js",
+  "title": "Bass beat + lead",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5b0a7e3a3d37c76f13e122ca5c2862a3e86cbbe434f10eb811382498e322d6a8",
+  "upstream": {
+    "hash": "8d929c151204fe87bb626be972c8785a",
+    "codeLen": 36,
+    "code": "15-t%(t&16384?26:29)&t>>4|t<<1&-t>>4",
+    "author": "SthephanShi",
+    "name": "Bass beat + lead",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

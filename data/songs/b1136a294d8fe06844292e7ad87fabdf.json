@@ -1,0 +1,27 @@
+{
+  "file": "songs/b1136a294d8fe06844292e7ad87fabdf.js",
+  "title": "Warm EDM Chords",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b1136a294d8fe06844292e7ad87fabdf.js",
+  "sha256": "68e69c2c16dd10d6b575c9c0eebdc6fb80e42fb7cd7dc235606626c46a136d98",
+  "upstream": {
+    "hash": "b1136a294d8fe06844292e7ad87fabdf",
+    "codeMinLen": 154,
+    "codeMin": "s=t*.85,t*.78*2**([[0,3,7,10,14],[3,7,10,12,15],[5,8,10,15,19],[7,10,12,15,22]][s>>16&3][t%5]/12-1)%128*(s%16384)/1.6e4+64*sin(PI/64*150*cbrt(s%16384))+64",
+    "codeLen": 458,
+    "fileOrig": 1,
+    "codeText": "s=t*.85,t*.78*2**([[0,3,7,10,14],[3,7,10,12,15],[5,8,10,15,19],[7,10,12,15,22]][s>>16&3][t%5]/12-1)%128*(s%16384)/1.6e4+64*sin(PI/64*150*cbrt(s%16384))+64",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Warm EDM Chords",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dnbyjm/warm_edm_chords/",
+    "date": "2024-06-24",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-19"
+  }
+}

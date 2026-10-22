@@ -1,0 +1,35 @@
+{
+  "file": "songs/14f73591dafa1a16678962fc73248728.js",
+  "title": "bitcrushed amen break (44100hz version)",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/14f73591dafa1a16678962fc73248728.js",
+  "sha256": "624c823d0242e52b57b20b7ace58c7cf461425f092a44be18c27b20d3638f32e",
+  "upstream": {
+    "hash": "14f73591dafa1a16678962fc73248728",
+    "codeLen": 120994,
+    "fileOrig": 1,
+    "codeText": "a=`-...//.,+/584/+*0::+\u001f!%#'23.5DB76703?9& )14. \u001d(49;3\"\u0014\u0010\u0012\u0015\u001a$4BA1(.73'%2@?5+(+6AD</+13*%,8>BDA7.%\u001e\u001e &28-\u001e\u001d'151*,7?;2-0<D@=BC8*\"&/2165,,7:4,'(**181$(242/&$0;71/-.0,%\"\u001e\u001e&( $7<1*,01/*(%&0970( #//&(*#$0/#&0.')*')153,)/0$\u001e'--35,(/.!\u001b\"&&,41$\u001d\"(%$08209:27:+#-.\u001f\u0018\u0018\u0015\u001b% \u0019\u001d#%/89:92071&,61'#\u001f\u001e'.4?F=31,(/78?IH;/(&\"\u001d\u001d%))-212799;<:756:81+*)'$\u001f\u001b\u0019\u0017\u0019\u001d\u001f\u001d\u001e \u001f\u001d\u001c\u0019\u0015\u0015\u0015\u0012\u0013\u0019\u001d\u001d\"*122/+++'*8DIMMMMMMMD=5-'!\u001b\u0017\u0015\u0014\u0015\u0019\u001e$+4<ACA@=965323788982+)))/9:68:4044/03/+.0+)*+)'&')(%$&)+&\u001c\u0018\u001c\u001d\u0018\u0013\u0010\u000f\u0012\u0017\u0018\u0015\u0013\u0013\u0011\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u000e\u0012\u0016\u001a\u001b\u0018\u0017\u001a\u0018\u0015\u0017\u0018\u0014\u0013\u0017\u001a\u001b $#$)+(')*((+-/12225;><",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "bitcrushed amen break (44100hz version)",
+    "description": "Higher quality version",
+    "url": "https://www.reddit.com/r/bytebeat/comments/yc9rut/bitcrushed_amen_break/",
+    "date": "2022-10-24",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "667995ed2197547b70211cbd282d6c6a",
+        "author": "awogler9124812041",
+        "name": "bitcrushed amen break",
+        "url": "https://www.reddit.com/r/bytebeat/comments/yc9rut/bitcrushed_amen_break/"
+      }
+    ],
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/b3a1126bf6ea9ccf0ceb6c0874454eb8.js",
+  "title": "submersion w/ drums & bass",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b3a1126bf6ea9ccf0ceb6c0874454eb8.js",
+  "sha256": "81591dd7f459a590f174a026bb21ae8d783b8b3c21efb9c0f56faf490e0f4dd1",
+  "upstream": {
+    "hash": "b3a1126bf6ea9ccf0ceb6c0874454eb8",
+    "codeLen": 2618,
+    "fileOrig": 1,
+    "codeText": "/*\n * submersion (unfinished)\n * by troubleshoot\n * (remix of OSIRIS)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=165,K=H=S=k=h=s=b1=b2=c1=c2=h1=h2=h3=s1=s2=0,Ki=Hi=Sn=1,r=Array(m=16384).fill(0),R=i=>r[i%m],cr=Array(m).fill(0),CR=i=>cr[i%m],clip=x=>atan(1.25*x)/1.25,e=(a,b,c)=>(1-(a*b<1?a*b:1))**c),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "submersion w/ drums & bass",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mabhbt/submersion_wip/",
+    "date": "2025-07-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "75f845cda85e133256e61fed75aa7ac3",
+        "author": "troubleshootcorps",
+        "name": "submersion",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1mabhbt/submersion_wip/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-22"
+  }
+}

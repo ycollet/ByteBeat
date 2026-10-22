@@ -1,0 +1,25 @@
+{
+  "file": "songs/ca2647b6f1b759ea23e53a0df811fbfd.js",
+  "title": "Castle at the night",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d39c6114cf14278b31c44d0772dcf6d725b287cdf5bf4bcb4c992d4641b640ef",
+  "upstream": {
+    "hash": "ca2647b6f1b759ea23e53a0df811fbfd",
+    "codeMinLen": 252,
+    "codeMin": "p=[2,4,5,9,2,4,5,9,2,4,5,9,12,9,7,5,0,2,4,7,0,2,4,7,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,5,-2,0,2,5,-2,0,2,-2,-3,-1,1,4,-3,-1,1,4,-3,-1,1,7,-3,-1,1,9][63&t>>13],z=t*2**(p/12),L=(1.005*z|z/2.01)%256/2.5,R=(1.005*z|z/2.02)%256/2.5,v=(z|t>>5)%256/2.5,[L+v,R+v]",
+    "codeLen": 257,
+    "code": "p=[2,4,5,9,2,4,5,9,2,4,5,9,12,9,7,5,0,2,4,7,0,2,4,7,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,5,-2,0,2,5,-2,0,2,-2,-3,-1,1,4,-3,-1,1,4,-3,-1,1,7,-3,-1,1,9][63&t>>13],\nz=t*2**(p/12),\nL=(z*1.005|z/2.01)%256/2.5,\nR=(z*1.005|z/2.02)%256/2.5,\nv=(z|t>>5)%256/2.5,\n[L+v,R+v]",
+    "author": "Zackx",
+    "name": "Castle at the night",
+    "url": "https://dollchan.net/btb/res/204.html#414",
+    "date": "2023-02-18",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ]
+  }
+}

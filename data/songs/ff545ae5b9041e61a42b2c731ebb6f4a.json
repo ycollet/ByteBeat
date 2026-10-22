@@ -1,0 +1,28 @@
+{
+  "file": "songs/ff545ae5b9041e61a42b2c731ebb6f4a.js",
+  "title": "bytebeat? how about bitbeat?",
+  "author": "funute",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ff545ae5b9041e61a42b2c731ebb6f4a.js",
+  "sha256": "9d4b14fa203ec181d10f05e97173b404d65d6d6133dc59206759e9b059031d84",
+  "upstream": {
+    "hash": "ff545ae5b9041e61a42b2c731ebb6f4a",
+    "codeMinLen": 903,
+    "codeLen": 1101,
+    "codeFormLen": 1312,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "S=1.059463094,P=pow,X=[a=>1E3>a&&(1E8*sin(a*a)%2|0?1:3),(a,c,b)=>(l=4410/44/P(S,c),b%l>l/2-b*l*a?1:3),(a,c,b,e,d)=>(m=d%5292/882|0,k=m%3,z=(c&3840>>4*k)>>8-4*k,(!b||m%2)&&a(e+z,d))],Y=[a=>(1E3>a&&(k=299/(a+1),.5<k-(k|0)?1:3)),0,X[0],X[2].bind(this,X[1].bind(this,7E-5)),a=>(2400>a&&(p=P(a+1,.8),200>a||900<a?X[0](p):(p/27|0)%2?1:3))],Z=[()=>0,(a,c,b)=>(l=4410/44/P(S,c),k=b%(8*l)/l|0,(!a||b/882%3|0)&&(1==k^!!(k&2)?1:3)),Y[3].bind(this,89),Y[3].bind(this,71)],A=t%6800,B=t/6800|0,C=B%320,M=parseInt(\"68a68f00dba0",
+    "isTruncated": 1,
+    "author": "funute",
+    "name": "bytebeat? how about bitbeat?",
+    "url": "https://battleofthebits.com/arena/Entry/bytebeat_+how+about+bitbeat_/21510/",
+    "date": "2016-04-07",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

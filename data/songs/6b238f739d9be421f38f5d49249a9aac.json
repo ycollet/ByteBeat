@@ -1,0 +1,32 @@
+{
+  "file": "songs/6b238f739d9be421f38f5d49249a9aac.js",
+  "title": "tin tin tin",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6b238f739d9be421f38f5d49249a9aac.js",
+  "sha256": "6a075fcf1bac5ea4bf42e70325d922600f64854a6015cd18285db778595d90e8",
+  "upstream": {
+    "hash": "6b238f739d9be421f38f5d49249a9aac",
+    "codeLen": 1830,
+    "fileOrig": 1,
+    "codeText": "/*tin tin tin*/winit=(T=t*1.2,c=1.047,cs=1.107,d=1.174,ds=1.243,e=1.318,f=1.389,fs=1.476,g=1.568,gs=1.655,a=1.754,as=1.857,b=1.977,A=t*'23423423'[T>>12&7],B=t*[2,3.185,4,2,3.185,4,2,3.185][T>>12&7],array='1010101001010101',array[([A,A,A,A,A,A,A,B][T>>15&7]*[b,b,b,d*2,g,g,fs,as][T>>15&7]/1.5>>7)%(array.length)]*64),aA=0/0,tintintin=abs(((t*1.1/2*2**(([27,aA,aA,aA,22,aA,aA,15,aA,aA,aA,aA,aA,aA,aA,aA,13,aA,12,aA,13,aA,13,13,aA,aA,aA,aA,aA,aA,aA,aA,18,aA,18,aA,18,aA,18,18,30,aA,30,aA,30,aA,30,30,22,aA,22,aA,22,",
+    "isTruncated": 1,
+    "author": "ChrisRM380",
+    "name": "tin tin tin",
+    "url": "https://dollchan.net/btb/res/368.html#3499",
+    "date": "2024-05-15",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

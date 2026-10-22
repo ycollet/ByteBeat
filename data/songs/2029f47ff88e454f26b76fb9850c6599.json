@@ -1,0 +1,26 @@
+{
+  "file": "songs/2029f47ff88e454f26b76fb9850c6599.js",
+  "title": "a new adventure",
+  "author": "Demari Smith",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c0b0e890a1cf0f6974e3bb6f961a948b59e95b87cc8961d2fd59afcc2ac95ff9",
+  "upstream": {
+    "hash": "2029f47ff88e454f26b76fb9850c6599",
+    "codeMinLen": 206,
+    "codeMin": "((m=t/2*\"6363896363638919\"[t>>13&15])*.9%90+m%80)/3+((s=t/2*\"3333555433331111\"[t>>13&15])*.8%80+s%80)/5.5+(3e3/(t&16383)&1)*100+(t*random()&63|t>>6&63*((t&16383)>8192))/2+abs(sin(t/600*\"41\"[t>>15&1])*100)/2",
+    "codeLen": 350,
+    "code": "// A new adventure\n// by: Demari Smith\nmelody=t/2*\"6363896363638919\"[(t>>13)%16],\nkick=(3e3/(t&16383)&1)*100,\nsnare=t*random()&63|t>>6&63*((t&16383)>8192),\nbassBase=t/2*\"444411111\"[(t>>13)%8],bass=abs(sin(bassBase/300)*100),\nsynth=t/2*\"3333555433331111\"[(t>>13)%16],\n((melody*0.9%90+melody%80)/3)+((synth*0.8%80+synth%80)/5.5)+kick+(snare/2)+(bass/2)",
+    "author": "Demari Smith",
+    "name": "a new adventure",
+    "url": "https://dollchan.net/btb/res/3.html#5895",
+    "date": "2025-04-19",
+    "sampleRate": 22050,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-30"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/a8ad21f240d13535aa1ed9c70e5cb8c9.js",
+  "title": "Visitors from the Dark Side",
+  "author": "Dresdenboy",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "75a6227b9106f17ffc95cde72014391e9f840f2be16e31f26592f0d2c8c3003f",
+  "upstream": {
+    "hash": "a8ad21f240d13535aa1ed9c70e5cb8c9",
+    "codeMinLen": 238,
+    "codeMin": "max(0,min(128,(b=-t*1.0595**('0010010030705503'[t>>13&15]-12+3*(t>>18&1))&255,c=b**3>>5,sin(b*(.2+sin(t/6E6))*.2)*c+c)*(-t&8191)>>18))-((sqrt(t&8183)<<6&64)*(t>>15&1^t>>13)-(t&15))*(1048576<t)+(t&16383)*(-t>>3&511)/7E4*random()*(524288<t)",
+    "codeLen": 253,
+    "code": "max(0,min(128,((b=(-t*1.0595**((\"0010010030705503\"[t>>13&15])-12+3*(t>>18&1))&255),c=(b**3)>>5,(sin(b*(.2+sin(t/6e6))*.2))*c+c)*(-t&8191)>>18)))-((sqrt(t&8183)<<6&64)*(((t>>15)&1)^(t>>13))-(t&15))*(t>2<<19)+((t&16383)*(-t>>3&511)/7e4)*random()*(t>1<<19)",
+    "author": "Dresdenboy",
+    "name": "Visitors from the Dark Side",
+    "description": "Lovebyte Turbo competition.",
+    "url": [
+      "https://demozoo.org/music/311730/",
+      "https://dollchan.net/btb/res/220.html#220"
+    ],
+    "date": "2022-08-09",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

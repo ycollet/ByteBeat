@@ -1,0 +1,31 @@
+{
+  "file": "songs/a08bf07efb3d313256a5925259dac168.js",
+  "title": "Packagestep",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a08bf07efb3d313256a5925259dac168.js",
+  "sha256": "113077416e698d4b41fac8bfb21ac14c64f9180e49b69645eddba03afb3d260b",
+  "upstream": {
+    "hash": "a08bf07efb3d313256a5925259dac168",
+    "codeMinLen": 261,
+    "codeMin": "x=lr=>(((((t>>(t&32768?t&65536?1:2:4)&t)+(t>>(t&262144?3:4)+(t|t>>(t&262144?2:4))|(t&262144?t>>1:t))|-t)&255)*(t>>6&255)>>9)+tan(sin(40*sqrt(t%16384)**.4))*(40-lr)+((t&16384?200*random()*(-t>>7&255)>>8:0)+(200*random()*(-t>>4&230)>>10.5))>>1)*1.4-60,[x(0),x(1)]",
+    "codeLen": 515,
+    "fileOrig": 1,
+    "codeText": "x=lr=>(((((t>>(t&32768?t&65536?1:2:4)&t)+(t>>(t&262144?3:4)+(t|t>>(t&262144?2:4))|(t&262144?t>>1:t))|-t)&255)*(t>>6&255)>>9)+tan(sin(40*sqrt(t%16384)**.4))*(40-lr)+((t&16384?200*random()*(-t>>7&255)>>8:0)+(200*random()*(-t>>4&230)>>10.5))>>1)*1.4-60,[x(0),x(1)]",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Packagestep",
+    "description": "Minified by feeshbread - Used the stereo without variables to call the random() function and create a different sound.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1jfczl0/packagestep",
+    "date": "2025-03-20",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-11-17"
+  }
+}

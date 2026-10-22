@@ -1,0 +1,25 @@
+{
+  "file": "songs/57a824cd57228326fcff43d5f40b1434.js",
+  "title": "Plucks",
+  "author": "orion_aboy",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/57a824cd57228326fcff43d5f40b1434.js",
+  "sha256": "350944adf82037fdcaa63d07bc68bb6857ca86d4fc58b8c661038727e42ac4cd",
+  "upstream": {
+    "hash": "57a824cd57228326fcff43d5f40b1434",
+    "codeLen": 2238,
+    "fileOrig": 1,
+    "codeText": "// https://www.osar.fr/notes/waveguides/\n\nsampleRate=44100,this.generatorFunction=t?this.generatorFunction:(function(){\n\nvar delayArray; //it's a circular buffer, it goes from the start to the end, and loops back. it takes the delayed sample, multiplies it by the feedback, adds the exciter, and then puts it back into the array (and outputs it too). it increments the delay pointer too.\nvar delayPointer = 0;\nvar exciterLowpass = [0,0]; //rotates at the exciter cutoff frequency, it goes right before the sample",
+    "isTruncated": 1,
+    "author": "orion_aboy",
+    "name": "Plucks",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15ojx0g/plucks/",
+    "date": "2023-08-11",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

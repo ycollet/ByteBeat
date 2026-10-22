@@ -1,0 +1,31 @@
+{
+  "file": "songs/9019ce7e802bb50e95fde08a1eada3f0.js",
+  "title": "innocent",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "888f360e9ff86434a0f8ef2cdb39c995020f5a29eab7c46c3646dae85863b23c",
+  "upstream": {
+    "hash": "9019ce7e802bb50e95fde08a1eada3f0",
+    "codeMinLen": 168,
+    "codeMin": "a=t=>(t*2**(parseInt(\"DIKPDIKPCIKPCIKPBIKPBIKPAIKPAIKP\"[(t>>13)%32],36)/12)&128)*(1-t%8192/1E4),a(t)/2+a(t-6144)/4+a(t-12288)/6+(t&32768?~t>>9&63:64*!(t>>9&7))*random()",
+    "codeLen": 188,
+    "code": "a=t=>(t*2**(parseInt(\"DIKPDIKPCIKPCIKPBIKPBIKPAIKPAIKP\"[(t>>13)%32],36)/12)&128)*(1-t%8192/1e4),a(t)/2+a(t-6144)/4+a(t-12288)/6+((t&32768)?(~t>>9&63)*random():64*random()*([1][t>>9&7]??0))",
+    "author": "psubscirbe",
+    "name": "innocent",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1ne827a/innocent/",
+      "https://dollchan.net/btb/res/284.html#9085"
+    ],
+    "date": "2025-09-11",
+    "sampleRate": 32000,
+    "coverName": "Gimmick! Music (FC / NES) - Innocent [Stage 6, Part 1]",
+    "coverUrl": "https://www.youtube.com/watch?v=uEz2CT3Qn00",
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-10-01",
+    "date_edited": "2025-11-02"
+  }
+}

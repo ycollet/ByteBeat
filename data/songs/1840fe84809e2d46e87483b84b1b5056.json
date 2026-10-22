@@ -1,0 +1,31 @@
+{
+  "file": "songs/1840fe84809e2d46e87483b84b1b5056.js",
+  "title": "Longline Theory",
+  "author": "mu6k",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1840fe84809e2d46e87483b84b1b5056.js",
+  "sha256": "f5668c0fe71ffa5d60113f0dae2f1b6c3919a710876b8078113d67f6508065e6",
+  "upstream": {
+    "hash": "1840fe84809e2d46e87483b84b1b5056",
+    "codeMinLen": 520,
+    "codeLen": 607,
+    "codeFormLen": 933,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "((sb=t>65535)&0)+max(min(((y=2**([15,15,23,8][t>>14&3]/12))&0)+1.2*((y*t*.241&63)+(y*t*.25&63))+(((a=1-(t&2047)/2047)&0)+((5*t&2047)*a&128)*(1394811683>>(t>>11&31)&1)*a+((d=(14*t*t^t)&2047)*a&127)*(2755970116>>(t>>11&31)&1)*a*1.5+.1337*(a*a*d*(t>>9&1)&127))*sb+((g=(t&2047)/2047)&0)+((g=1-g*g)&0)+((h=2**([[15,18,17,17,17,17,999,999,22,22,999,18,999,15,20,22],[20,18,17,17,10,10,999,999,20,22,20,18,17,18,17,10]][2<(t>>14&3)&1][t>>10&15]/12))&0)+((h*t&31)+(h*t*1.992&31)+(h*t*.497&31)+(h*t*.977&31)-64)*g*2*sb,12",
+    "isTruncated": 1,
+    "author": "mu6k",
+    "name": "Longline Theory",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=13#c389287",
+    "date": "2011-10-06",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "coverName": "Chaos Theory by Conspiracy",
+    "coverUrl": "https://youtu.be/MAnhcUNHRW0",
+    "tags": [
+      "1k"
+    ]
+  }
+}

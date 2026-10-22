@@ -1,0 +1,23 @@
+{
+  "file": "songs/6ee29b0086280992b870a5faba167a0b.js",
+  "title": "simply XOR C code",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6a59127637d442c0cbf79879c59f4c6494bf8e07bf591a506149e99301b8cbc9",
+  "upstream": {
+    "hash": "6ee29b0086280992b870a5faba167a0b",
+    "codeLen": 15,
+    "code": "t^t>>(t>>14&15)",
+    "author": "Zackx",
+    "name": "simply XOR C code",
+    "url": "https://dollchan.net/btb/res/204.html#850",
+    "date": "2023-04-17",
+    "sampleRate": 48000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

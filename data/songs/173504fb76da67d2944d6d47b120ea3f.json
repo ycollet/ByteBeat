@@ -1,0 +1,23 @@
+{
+  "file": "songs/173504fb76da67d2944d6d47b120ea3f.js",
+  "title": "just focus",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d2fbd2739cf6fe89d184cad79890b708a106155aeb8093f9a3a043031431bc4c",
+  "upstream": {
+    "hash": "173504fb76da67d2944d6d47b120ea3f",
+    "codeLen": 56,
+    "code": "(t*(2&t>>10|(t>>10&9)-4*(3&t>>15)+3)&128)*(-t>>2&255)>>7",
+    "author": "Zackx",
+    "name": "just focus",
+    "url": "https://dollchan.net/btb/res/204.html#923",
+    "date": "2023-04-23",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

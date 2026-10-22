@@ -1,0 +1,38 @@
+{
+  "file": "songs/fdcb383db1beb8b1180b08e35a2a0bfd.js",
+  "title": "dead data but the snare is stronger",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fdcb383db1beb8b1180b08e35a2a0bfd.js",
+  "sha256": "1ab9408501ecdd0fb385dd342727f5565b3a33a54837aef9ae7585a40c6f7f9a",
+  "upstream": {
+    "hash": "fdcb383db1beb8b1180b08e35a2a0bfd",
+    "codeLen": 2170,
+    "fileOrig": 1,
+    "codeText": "t?(T=t*s,E=t*s/15*BPM,I=E%1,D=1-(2*E&1),E|=0,n=G,G=ltq[E/2&63]*(1-E%2),G-n>0?g[0]=F=0:F+=s,n=U,U='1000'[E&3]*D,U-n>0?A=a=0:A+=s,n=W,W='0121'[E&3]*D,W-n>0?C=d=0:C+=s,n=V,V='00001000'[E&7]*D,V-n>0?B=b=0:B+=s,n=3e3/(1+A*1200)+45,a=(a+n*s)%1,n=2e3*e(B,50,6)+200*e(B,25,2)+100,b=(b+n*s)%1,c=2*random()-1,f=.2,q=.5,z=q+q/(1-f),x+=f*(c-x+z*(x-y)),y+=f*(x-y),n=(Q(800)+Q(540)+Q(523)+Q(370)+Q(304)+Q(205)+c/5),i(0,o(P(lsq[E/2&63])*(1+sin(T*9)/80))/2),j=E&2?2:1,k=o(P(bsq[E&63]))/16,i(1,k),i(2,k*.98*j),i(3,k*1.02*j),f=688",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "dead data but the snare is stronger",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h8h12q/dead_data_but_the_snare_is_stronger/",
+    "date": "2024-12-07",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "2ea7c3978bdab9c2ecb1e16fc5351460",
+        "author": "feeshbread",
+        "name": "Dead Data",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1fzb7eh/dead_data_my_entry_for_byte_battle_season_1/",
+          "https://bytebeat.oops.wtf/season1/entries.html",
+          "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

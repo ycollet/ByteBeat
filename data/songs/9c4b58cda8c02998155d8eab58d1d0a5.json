@@ -1,0 +1,31 @@
+{
+  "file": "songs/9c4b58cda8c02998155d8eab58d1d0a5.js",
+  "title": "SnugglyBun, I feel your pain",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9c4b58cda8c02998155d8eab58d1d0a5.js",
+  "sha256": "cd5c812e8e21639fee8034d6fc3ef8b19b1846a4fe90c487683bb0f2999a3d2a",
+  "upstream": {
+    "hash": "9c4b58cda8c02998155d8eab58d1d0a5",
+    "codeLen": 975,
+    "fileOrig": 1,
+    "codeText": "N=262144,T=t*1.03,U=T>N*8,M=.5,R=random,p=pow,a=t/6220*p(2,U?-3/12:0),l=L=>(S=(DT,A)=>a*DT*L*p(2,A/12)%1-.5,s=A=>S(.999,A)+S(1,A)+S(1.001,A),I=A=>((a+sin(a*4)/300)*L*p(2,A/12+3)%8+2&8)/24,(I(`PPPPMK\u0001MMMMM\u0001\u0001PTTTTTRP\u0001RRRRR\u0001\u0001\u0001\u0001PPPPTRMTTTTT\u0001\u0001YWWTTTRRP${T>>19&1?'TTTTT':'RRRRR'}`[C='charCodeAt'](c=T>>13&63))-I('MMMMKH\u0001HHHHH\u0001\u0001MPPPPPPM\u0001KKKKK\u0001\u0001\u0001\u0001MMMMPOPPPPPP\u0001\u0001MPPPPPPPMKKKKK'[C](c)))*(T>N*4)*!U+a*L*p(2,(U?'HMPHMPHMPHMPHMPHIMPIMPIMPIMPIMPI':'AHPAHPAHPAHPAHPR=DM=DM=D?FO?FO?F')[C](c&31)/12)%1/(T/4096%2+2)+((a*L*p(2,(U?T",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "SnugglyBun, I feel your pain",
+    "description": "\"Decadent Decade\" battle, 3rd place (bytebeat1k)",
+    "url": "https://battleofthebits.com/arena/Entry/SnugglyBun_+I+feel+your+pain/84026/",
+    "date": "2026-04-12",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "SnugglyBun - this program is pain it somehow managed to give me an headache",
+    "coverUrl": "https://battleofthebits.com/arena/Entry/this+program+is+pain+it+somehow+managed+to+give+me+an+headache/62439/",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-05-10",
+    "date_edited": "2026-06-16"
+  }
+}

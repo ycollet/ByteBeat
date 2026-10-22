@@ -1,0 +1,28 @@
+{
+  "file": "songs/d3c7b7eb38e9ccc3283e392d952f5e3c.js",
+  "title": "-._F0RX3V3R_.-",
+  "author": "absolute197",
+  "mode": "Floatbeat",
+  "rate": 18400,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8c4ee8d0f73fbcefc5875fc7687c26440ed9f7d9c1d3ec561164d3d72c738b9b",
+  "upstream": {
+    "hash": "d3c7b7eb38e9ccc3283e392d952f5e3c",
+    "codeMinLen": 346,
+    "codeMin": "v=x=>sin(sin(t/128*PI*x*(p=min(t,f=32768)/f))+t/64*PI*x*p)/x/2,f=x=>v(x/(1+(-t>>12&1)))*.7+v(x*3)+v(x*6)+v(x*4*(1+(t>>12&3))/(x*(1.5+(t>>11&1))))+v(x*12*(1+(t>>13&3))),(f(T=[1.333,1,1.059,1.18][t>>15&3])*2+cbrt(sin(r=.95**sqrt(t&8191)*64)+sin(r*2))*(l=t>32768)+sin(sin(g=t*8*T/128*PI*2**([0,7][t>>13&1]/12))+g*2)*(-t>>8&31)/32*(-t>>14&1)*.4*l)*.9",
+    "codeLen": 352,
+    "code": "v=x=>sin(sin(t/128*PI*x*(p=min(t,f=2**15)/f))+t/64*PI*x*p)/x/2,\nf=x=>v(x/(1+(-t>>12&1)))*.7+v(x*3)+v(x*6)+v(x*4*(1+(t>>12&3))/(x*(1.5+(t>>11&1))))+v(x*12*(1+(t>>13&3))),(f((T=[1.333,1,1.059,1.18][t>>15&3]))*2+cbrt(sin(r=.95**sqrt(t&8191)*64)+sin(r*2))*(l=t>32768)+sin(sin(g=t*8*T/128*PI*2**(([0,7][t>>13&1])/12))+g*2)*(-t>>8&31)/32*(-t>>14&1)*0.4*l)*.9",
+    "author": "absolute197",
+    "name": "-._F0RX3V3R_.-",
+    "description": "Credits to Decent-Manager-6169 for the fm idea.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1d4i7xw/f0rx3v3r/",
+    "date": "2024-05-31",
+    "mode": "Floatbeat",
+    "sampleRate": 18400,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-12-09",
+    "date_edited": "2025-12-09"
+  }
+}

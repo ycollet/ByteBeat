@@ -1,0 +1,25 @@
+{
+  "file": "songs/b039db35ffb4864e958c3bcc8cbb4997.js",
+  "title": "I don't know what this is",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 9000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6caa4fd0ec2b458c9c22f2c6f23c517631c28a967488c6d34399609b918fba26",
+  "upstream": {
+    "hash": "b039db35ffb4864e958c3bcc8cbb4997",
+    "codeMinLen": 42,
+    "codeMin": "t<<(t>>1)%(1<<(7*(t>>6&t>>10&63)>>3))^t>>5",
+    "codeLen": 44,
+    "code": "t<<(t>>1)%(1<<(((t>>6&t>>10)&63)*7>>3))^t>>5",
+    "author": "PortablePorcelain",
+    "name": "I don't know what this is",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16fipf6/i_dont_know_what_this_is/",
+    "date": "2023-09-11",
+    "sampleRate": 9000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

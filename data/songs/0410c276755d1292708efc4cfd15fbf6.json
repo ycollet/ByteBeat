@@ -1,0 +1,27 @@
+{
+  "file": "songs/0410c276755d1292708efc4cfd15fbf6.js",
+  "title": ":arp",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c5645f994ba130aaae64e5687b7b3713fd977352fc95c2703c546472f3db993f",
+  "upstream": {
+    "hash": "0410c276755d1292708efc4cfd15fbf6",
+    "codeMinLen": 34,
+    "codeMin": "(t>>1+(t>>18&1))*(t%(4+(t>>15&7)))",
+    "codeLen": 44,
+    "code": "((t>>(1+(t>>18)%2))%256*(t%(4+((t>>15)%8))))",
+    "author": "lhphr",
+    "name": ":arp",
+    "description": "Loops in 12 seconds and is rather basic.",
+    "url": "https://dollchan.net/btb/res/44.html#44",
+    "date": "2022-03-13",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-12-18"
+  }
+}

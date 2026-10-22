@@ -1,0 +1,31 @@
+{
+  "file": "songs/f47dba365e0fedfe9e4d5f51c8ca791f.js",
+  "title": "Moog City",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f47dba365e0fedfe9e4d5f51c8ca791f.js",
+  "sha256": "d412ecb581cb958877bb9789a97a0aa73b12345745f17ed4995771f402dd84be",
+  "upstream": {
+    "hash": "f47dba365e0fedfe9e4d5f51c8ca791f",
+    "codeMinLen": 499,
+    "codeMin": "d=1714.5,D=0,T=t,t?(t/=6,EqT=p=>32/d*round(d/32*2**(p/12-.02)),M=EqT([5,10,12,17,20,24,27,32][c=int((t+random()*D)/d)%8]),C=8*EqT([12,12,12,15,10,10,10,3,5,5,5,5,8,8,8,5,10,10,10,10,8,8,8,3,5,5,5,5,8,8,8,10][int((t+d*32+random()*D)/d/2)%32]),MV=t<54864?t/128E3:.42,CV=(t>274320)*.5,MV2=(t>164592)*(t<219456?(t-164592)/128E3:.42),M2=EqT([-7,-4,0,3,5,10,12,15][c]),ev=(abs(t*M/8%4-2)-1)*MV+(abs(t*M2/8%4-2)-1)*MV2/2+t*C%256*CV/192-.5+a[T%n],a[T%n]+=ev,a[T%n]/=3,ev/2):a=Array(n=round(d*6*1.5)).fill(0)",
+    "codeLen": 817,
+    "fileOrig": 1,
+    "codeText": "d=1714.5,D=0,T=t,t?(t/=6,EqT=p=>32/d*round(d/32*2**(p/12-.02)),M=EqT([5,10,12,17,20,24,27,32][c=int((t+random()*D)/d)%8]),C=8*EqT([12,12,12,15,10,10,10,3,5,5,5,5,8,8,8,5,10,10,10,10,8,8,8,3,5,5,5,5,8,8,8,10][int((t+d*32+random()*D)/d/2)%32]),MV=t<54864?t/128E3:.42,CV=(t>274320)*.5,MV2=(t>164592)*(t<219456?(t-164592)/128E3:.42),M2=EqT([-7,-4,0,3,5,10,12,15][c]),ev=(abs(t*M/8%4-2)-1)*MV+(abs(t*M2/8%4-2)-1)*MV2/2+t*C%256*CV/192-.5+a[T%n],a[T%n]+=ev,a[T%n]/=3,ev/2):a=Array(n=round(d*6*1.5)).fill(0)",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Moog City",
+    "description": "Based on Evening-Survey-9492's work",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1f0zesg/comment/lk2vf3i/",
+    "date": "2024-08-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "C418 - Moog City",
+    "coverUrl": "https://youtu.be/trRGS_Va7_M",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

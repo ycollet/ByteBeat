@@ -1,0 +1,33 @@
+{
+  "file": "songs/30bf618668c6cd8d98c4cd1cc0b5be28.js",
+  "title": "the audio effect on those meme content-aware scaling videos",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b79a5e4151517f53aebcf6efbae467b0afe69d6d0dc4c8ca03fccfa6f510d243",
+  "upstream": {
+    "hash": "30bf618668c6cd8d98c4cd1cc0b5be28",
+    "codeMinLen": 97,
+    "codeMin": "t+=sin(t/100)*t/8E3,t*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t>>(t&16384?t&4096?3:4:3)",
+    "codeLen": 98,
+    "code": "t+=sin(t/100)*t/8000,t*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t>>(t&16384?t&4096?3:4:3)",
+    "author": "awogler9124812041",
+    "name": "the audio effect on those meme content-aware scaling videos",
+    "description": "put this before ANY formula: t+=sin(t/100)*t/8000,",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ybfq1h/the_audio_effect_on_those_meme_contentaware/",
+    "date": "2022-10-23",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

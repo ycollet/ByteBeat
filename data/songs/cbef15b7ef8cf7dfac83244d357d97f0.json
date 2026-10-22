@@ -1,0 +1,27 @@
+{
+  "file": "songs/cbef15b7ef8cf7dfac83244d357d97f0.js",
+  "title": "I got bored too",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cbef15b7ef8cf7dfac83244d357d97f0.js",
+  "sha256": "e3266e799f005fa409274b95721ed4a16041a8dce0a13ec128e44a914e246229",
+  "upstream": {
+    "hash": "cbef15b7ef8cf7dfac83244d357d97f0",
+    "codeMinLen": 442,
+    "codeMin": "C=261.63/255,CH=277.18/255,D=293.66/255,DH=311.13/255,E=329.63/255,F=349.23/255,FH=369.99/255,G=392/255,GH=415.30/255,A=440/255,AH=466.16/255,B=493.88/255,Cm7=[C,C*2,G*2,AH*2,DH*4],Gm7=[G/2,G,F*2,AH*2,D*4],Fm7=[F/2,F,DH*2,GH*2,C*4],SEQ=[Cm7,Cm7,,Cm7,,,,,Gm7,Gm7,,Gm7,,,,,Fm7,Fm7,,Fm7,,,,,Fm7,Fm7,,,Gm7,Gm7,,,],syn=f=>t*f&(128+127*sin(t*2*PI/8192)**2)&255,(N=SEQ[(t>>12)%SEQ.length])instanceof Array?N.reduce((a,v)=>a+syn(v)/N.length,0):syn(N)",
+    "codeLen": 696,
+    "fileOrig": 1,
+    "codeText": "C=261.63/255,CH=277.18/255,D=293.66/255,DH=311.13/255,E=329.63/255,F=349.23/255,FH=369.99/255,G=392/255,GH=415.30/255,A=440/255,AH=466.16/255,B=493.88/255,Cm7=[C,C*2,G*2,AH*2,DH*4],Gm7=[G/2,G,F*2,AH*2,D*4],Fm7=[F/2,F,DH*2,GH*2,C*4],SEQ=[Cm7,Cm7,,Cm7,,,,,Gm7,Gm7,,Gm7,,,,,Fm7,Fm7,,Fm7,,,,,Fm7,Fm7,,,Gm7,Gm7,,,],syn=f=>t*f&(128+127*sin(t*2*PI/8192)**2)&255,(N=SEQ[(t>>12)%SEQ.length])instanceof Array?N.reduce((a,v)=>a+syn(v)/N.length,0):syn(N)",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "I got bored too",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gwjbh3/comment/lyv8xn3/",
+    "date": "2024-11-25",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

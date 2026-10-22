@@ -1,0 +1,29 @@
+{
+  "file": "songs/a8b37519b95ae85eff2d64a3a7b6caab.js",
+  "title": "We are arriving soon",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a8b37519b95ae85eff2d64a3a7b6caab.js",
+  "sha256": "5c3f4fb101256153f9fefd51eeaa9e1a0b3254f368cd15d9a9083c05c66887b3",
+  "upstream": {
+    "hash": "a8b37519b95ae85eff2d64a3a7b6caab",
+    "codeLen": 1626,
+    "fileOrig": 1,
+    "codeText": "t/=4.35,\nt||(fx=Array(50).fill(0)), // initialize memory for the effects\nfxi=0, // iterates over the fx array\n\nlp=(inp,w,res=0)=>{fx[fxi]+=fx[fxi+1]+=(inp-fx[fxi])*w-fx[fxi+1]*(1-res);fxi+=2;return fx[fxi-2]}, // lowpass\nhp=(inp,w,res=0)=>{return inp-lp(inp,w,res)}, // highpass\ne=(a,b,c)=>(1-(a*b<1?a*b:1))**c, // envelope\n",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "We are arriving soon",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hrqs9x/we_are_arriving_soon_song/",
+    "date": "2025-01-02",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-11-17"
+  }
+}

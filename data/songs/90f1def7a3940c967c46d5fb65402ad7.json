@@ -1,0 +1,41 @@
+{
+  "file": "songs/90f1def7a3940c967c46d5fb65402ad7.js",
+  "title": "stereo width test",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/90f1def7a3940c967c46d5fb65402ad7.js",
+  "sha256": "7a41862119d6a8eb6a68b0186f594fa67f8e30f6f976fb354b4f60fdf2dab798",
+  "upstream": {
+    "hash": "90f1def7a3940c967c46d5fb65402ad7",
+    "codeMinLen": 415,
+    "codeMin": "O=lr=>(S=48E3,r=t/S/60*16384*130,N=t/S*lr*440*2**(-4/12),X=m=>(T=r-m*8192,T<0?0:sinh((s=sin)((N+s(t/1024)/8)*PI*2**((p=parseInt)(`CEFJMQRV${a='        '}9CEILOQU${a}8CEHKOQT${a}7CEJOQTV${a}`[T>>13&63],36)/12)))/2*(T/8192%1-4)*(T==r?min(.01,T/8192%1)/.01:1)||0)/8/(4/3)**m,(_=>{x=0;i=9;while(i--)x+=X(i);return x})()+(((N+s(t/1024)/4)*2**(p('CEA7CEHJ'[r>>17&7],36)/12+3)&127)+r/1024&128)/512-.125),[O(.995),O(1.005)]",
+    "codeLen": 524,
+    "fileOrig": 1,
+    "codeText": "O=lr=>(S=48E3,r=t/S/60*16384*130,N=t/S*lr*440*2**(-4/12),X=m=>(T=r-m*8192,T<0?0:sinh((s=sin)((N+s(t/1024)/8)*PI*2**((p=parseInt)(`CEFJMQRV${a='        '}9CEILOQU${a}8CEHKOQT${a}7CEJOQTV${a}`[T>>13&63],36)/12)))/2*(T/8192%1-4)*(T==r?min(.01,T/8192%1)/.01:1)||0)/8/(4/3)**m,(_=>{x=0;i=9;while(i--)x+=X(i);return x})()+(((N+s(t/1024)/4)*2**(p('CEA7CEHJ'[r>>17&7],36)/12+3)&127)+r/1024&128)/512-.125),[O(.995),O(1.005)]",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "stereo width test",
+    "url": "https://dollchan.net/btb/res/6946.html#11122",
+    "date": "2025-12-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "88acf7a15893f604c2af1d982ec76d0c",
+        "author": "SleepingLugia",
+        "name": "strangle and hold",
+        "url": "https://www.reddit.com/r/bytebeat/comments/15ioa1o/strangle_and_hold/"
+      }
+    ],
+    "coverName": "Jeroen Tel - Stranglehold",
+    "coverUrl": "https://youtu.be/FpOM4Fs08kU",
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2025-12-07",
+    "date_edited": "2025-12-14"
+  }
+}

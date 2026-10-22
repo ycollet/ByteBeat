@@ -1,0 +1,30 @@
+{
+  "file": "songs/909e3379b10286e01a01088728132f1a.js",
+  "title": "dystopia",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c869731ebf993d228adec5f21c9eede9f240dae8ebe919be3e387618e44a6d96",
+  "upstream": {
+    "hash": "909e3379b10286e01a01088728132f1a",
+    "codeMinLen": 427,
+    "codeMin": "T=t,t/=1.25,Tn=t,t-=t/4&2048,lr=lr=>(t?0:a=Array(l=12288).fill(0),n='1001010110010011'[t>>13&15],d=((sin(T*lr*PI/512)*2+sin(cbrt(t%2**13)*PI*2*lr)*4*(1-t/2**13%1)**8)*n/2+(random()-random())*(1-t/2**13%1)**5*min(.05,t/2**13%1)/.05*(t/2**13&1))/4,p=((((T/2*lr+sin(T/8192)/2)*2**(['037','039'][t>>18&1][T%3]/12)&127)+Tn/2048&128)/128-.5)*abs(sin(t*PI/2**18))+a[T%l],a[T%l]=p/1.5,d*2+p/2*(n==1?t/8192%1:1)**2),[lr(.995),lr(1.005)]",
+    "codeLen": 433,
+    "code": "T=t,\nt/=1.25,\nTn=t,\nt-=t/4&2048,lr=lr=>(t||(a=Array(l=12288).fill(0)),\nn='1001010110010011'[t>>13&15],d=((sin(T*lr*PI/512)*2+sin(cbrt(t%2**13)*PI*2*lr)*4*(1-t/2**13%1)**8)*n/2+(random()-random())*(1-t/2**13%1)**5*min(.05,t/2**13%1)/.05*(t/2**13&1))/4,\np=((((T/2*lr+sin(T/8192)/2)*2**(['037','039'][t>>18&1][T%3]/12)&127)+Tn/2048&128)/128-.5)*abs(sin(t*PI/2**18))+a[T%l],a[T%l]=p/1.5,d*2+p/2*(n==1?t/8192%1:1)**2),[lr(.995),lr(1.005)]",
+    "author": "eSlashMachine",
+    "name": "dystopia",
+    "url": [
+      "https://dollchan.net/btb/res/6946.html#12004",
+      "https://www.reddit.com/r/bytebeat_2/comments/1qag5hm/dystopia/"
+    ],
+    "date": "2026-01-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-01-12"
+  }
+}

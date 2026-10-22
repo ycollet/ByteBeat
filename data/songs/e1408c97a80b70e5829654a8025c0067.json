@@ -1,0 +1,28 @@
+{
+  "file": "songs/e1408c97a80b70e5829654a8025c0067.js",
+  "title": "ripthisentry.txt",
+  "author": "raphaelgoulart",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e1408c97a80b70e5829654a8025c0067.js",
+  "sha256": "70d499c85e59e4a937c0e397d07e54892f65c5485c1bb4aaa0178df245402f38",
+  "upstream": {
+    "hash": "e1408c97a80b70e5829654a8025c0067",
+    "codeMinLen": 774,
+    "codeLen": 806,
+    "codeFormLen": 1098,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=8,b=t/1250,f=int(b%64),g=int(b/4%16),d=1.12,n=[1,1,1,d,d,d,d,d,.94,.94,.94,1.26,1.26,1.26,1.26,1.26,.84,.84,.84,.94,.94,.94,.94,1.26,1.26,1.26,1.26,1.26,d,d,d,d,.84,.84,.84,d,d,d,d,d,.94,.94,.94,1.26,1.26,1.26,1.26,1.26,1,1,1,d,d,d,d,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5],n1=[1,1.26,1.89,1.68,1.68,1.5,1.5,1.4,.94,d,1.68,1.5,1.5,1.4,1.26,d,1.26,1.4,1.26,1.19,1.19,1.26,1.4,1.5,1.5,1.5,1.5,1.5,0,1.4,1.26,d,1,1.26,1.89,1.68,1.68,2.24,2.24,2.52,2.38,1.89,1.4,1.5,1.5,1.4,1.26,d,1.26,1.4,1.26,d,d,1.26,1.4,1.5,1.5",
+    "isTruncated": 1,
+    "author": "raphaelgoulart",
+    "name": "ripthisentry.txt",
+    "url": "https://battleofthebits.com/arena/Entry/ripthisentry.txt/32559/",
+    "date": "2019-08-27",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

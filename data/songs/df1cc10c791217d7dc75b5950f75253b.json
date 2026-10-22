@@ -1,0 +1,38 @@
+{
+  "file": "songs/df1cc10c791217d7dc75b5950f75253b.js",
+  "title": "another take on simplifying mu6k's thing",
+  "author": "ryg",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2284db8ca451e6355c164b647e766b4a9b24b74130743ea26115960e469f4f90",
+  "upstream": {
+    "hash": "df1cc10c791217d7dc75b5950f75253b",
+    "codeMinLen": 89,
+    "codeMin": "sin(2e3/(y=t&4095))*25+(x=t*(15&0x9866>>(t>>12&12))/6&127)*y/1e4+((t>>6^t>>8|t>>12|x)&63)",
+    "codeLen": 95,
+    "code": "sin(2000/(y=t&4095))*25+((x=t*(15&0x9866>>(t>>12&12))/6)&127)*(y/1e+4)+((t>>6^t>>8|t>>12|x)&63)",
+    "author": "ryg",
+    "name": "another take on simplifying mu6k's thing",
+    "url": [
+      "https://www.pouet.net/topic.php?which=8357&page=10#c388986",
+      "https://youtu.be/tCRPUv8V22ot=394"
+    ],
+    "date": "2011-10-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "626f58cda572b647c7095ec2fb989eeb",
+        "author": "mu6k",
+        "name": "No Limit",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388931"
+      }
+    ],
+    "coverName": "2 Unlimited - No Limit",
+    "coverUrl": "https://youtu.be/qM5W7Xn7FiA",
+    "tags": [
+      "256"
+    ]
+  }
+}

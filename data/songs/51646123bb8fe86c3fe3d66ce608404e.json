@@ -1,0 +1,25 @@
+{
+  "file": "songs/51646123bb8fe86c3fe3d66ce608404e.js",
+  "title": "rhythm maker beta v1.0",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "785d7327d01dc7dda80c4f4582a6d4441bc1133103d32e5a5eabe50208db2f00",
+  "upstream": {
+    "hash": "51646123bb8fe86c3fe3d66ce608404e",
+    "codeMinLen": 304,
+    "codeMin": "f=x=>x/256%1,q=x=>(f(x)-.5)*2,y=t*.845/1.5,h=m=>q((((y&1)-1&&48)+64*random()+.5)*(32-t*m/256%32)/14/2+t*m/32%256/4+64)*2,k=m=>sin(cbrt(t%8192)*8),s=m=>(sin(t*1.2>>3)*t&255)*(8192-t*m%8192)/8192**1.54-1+f(t*m/32),[k(1),h(1),s(1),h(1),k(1),s(1),k(1),s(1),k(1),h(1),s(1),0,k(1),h(1),s(1),0][int(t/2**13)%16]",
+    "codeLen": 312,
+    "code": "f=x=>x/256%1,q=x=>(f(x)-.5)*2,y=t*.845/1.5,h=m=>q((((y&1)-1&&48)+64*random()+.5)*(32-(t*m/256%32))/14/2+(t*m/32)%256/4+64)*2,k=m=>sin(cbrt(t%8192)*8),s=m=>((sin(t*1.2>>3)*t&255)*(8192-(t*m%8192))/8192**1.54-1)+f(t*m/32),[k(1),h(1),s(1),h(1),k(1),s(1),k(1),s(1),k(1),h(1),s(1),0,k(1),h(1),s(1),0][int(t/2**13)%16]",
+    "author": "hcdphobe",
+    "name": "rhythm maker beta v1.0",
+    "url": "https://dollchan.net/btb/res/163.html#1191",
+    "date": "2023-06-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

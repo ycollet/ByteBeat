@@ -1,0 +1,28 @@
+{
+  "file": "songs/71ab95b26efa47660cb0f3d301f55733.js",
+  "title": "crapbeat",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/71ab95b26efa47660cb0f3d301f55733.js",
+  "sha256": "fb4e9eabb9633712fb1038565b5139ef4767164e9ec9c2840e88360f90b1e910",
+  "upstream": {
+    "hash": "71ab95b26efa47660cb0f3d301f55733",
+    "codeLen": 2030,
+    "fileOrig": 1,
+    "codeText": "function stringToSequence(str){\n\t//seq notes should be ordered by `at`\n\tlet seq={notes:[],duration:str.length};\n\tfor(let i=0;i<str.length;i++){\n\t\tif(str[i]!==\".\")\n\t\t\tseq.notes.push({type:str[i],at:i});\n\t}\n\treturn seq;",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "crapbeat",
+    "description": "Originally set to 11kHz, raised to 32kHz to improve audio quality.",
+    "url": "https://dollchan.net/btb/res/3.html#8421",
+    "date": "2025-07-03",
+    "mode": "Funcbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-02"
+  }
+}

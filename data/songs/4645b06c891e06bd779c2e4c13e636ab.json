@@ -1,0 +1,37 @@
+{
+  "file": "songs/4645b06c891e06bd779c2e4c13e636ab.js",
+  "title": "Molecular Music Box",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4645b06c891e06bd779c2e4c13e636ab.js",
+  "sha256": "2728b7329698381a3c7068365a56819960fa549da1a23d6ca12ca5b5324706c2",
+  "upstream": {
+    "hash": "4645b06c891e06bd779c2e4c13e636ab",
+    "codeLen": 6526,
+    "fileOrig": 1,
+    "codeText": "const FORMULA = \"8/3D11/2\";\n\nlet mod=(n,d)=>n%d>=0?n%d:n%d+d;\nlet clamp=(mn,mx)=>q=>max(min(q,mx),mn);\n\nclass Clock {\n\tconstructor(freq) {\n\t\tthis.f = freq;",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Molecular Music Box",
+    "description": "Bytebattle Season 3 Competition - 2nd place.",
+    "url": "https://bytebeat.oops.wtf/season3/entries.html",
+    "date": "2025-02-13",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "2369b4ac028098a8f62faa077b7541ba",
+        "author": "May_I_Change_My_Name",
+        "name": "Karplus-Strong Piano",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g32b1q/wip_karplusstrong_piano/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-08"
+  }
+}

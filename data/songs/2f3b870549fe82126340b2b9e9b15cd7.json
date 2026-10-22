@@ -1,0 +1,30 @@
+{
+  "file": "songs/2f3b870549fe82126340b2b9e9b15cd7.js",
+  "title": "Floatbeat test",
+  "author": "lehandsomeguy",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2f3b870549fe82126340b2b9e9b15cd7.js",
+  "sha256": "e44643246a33fd322c9f8250fe09976f4b32c12b6fc0c2f82447b4ac33bba933",
+  "upstream": {
+    "hash": "2f3b870549fe82126340b2b9e9b15cd7",
+    "codeMinLen": 317,
+    "codeMin": "t/=32E3,f=x=>x%1,T=x=>2*asin(sin(x))/PI,n=x=>sin((y=x+10)*sin(y**(f(x)+10))),m=(function(){m=0;for(i=0;i<5;i++){m+=T(t*((a,b,c)=>a*(1-c)+b*c)(200+i*900,600+i*900,'5789357857893572'.charAt(t*2%16)/9))*(1-f(t*4))}return m})(t)*f(t*2)**2*2,(n(t)*(1-f(t*4))**4+sin((1-f(t*2))**5*100)+n(int(t*9E3)/9E3)*(1-f(t+.5))**6+m)/4",
+    "codeLen": 862,
+    "codeFormLen": 744,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t/=32E3,f=x=>x%1,T=x=>2*asin(sin(x))/PI,n=x=>sin((y=x+10)*sin(y**(f(x)+10))),m=(function(){m=0;for(i=0;i<5;i++){m+=T(t*((a,b,c)=>a*(1-c)+b*c)(200+i*900,600+i*900,'5789357857893572'.charAt(t*2%16)/9))*(1-f(t*4))}return m})(t)*f(t*2)**2*2,(n(t)*(1-f(t*4))**4+sin((1-f(t*2))**5*100)+n(int(t*9E3)/9E3)*(1-f(t+.5))**6+m)/4",
+    "isTruncated": 1,
+    "author": "lehandsomeguy",
+    "name": "Floatbeat test",
+    "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/",
+    "date": "2016-03-03",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-19"
+  }
+}

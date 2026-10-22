@@ -1,0 +1,25 @@
+{
+  "file": "songs/17fa5d57e320443165321fbf72d8fe2e.js",
+  "title": "glitch",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "213017b4800264a7e8f3e61bdaade44a85a5e7c6a3efdba12ec1b43e4e0260d2",
+  "upstream": {
+    "hash": "17fa5d57e320443165321fbf72d8fe2e",
+    "codeMinLen": 60,
+    "codeMin": "2*t%255/(t>>10&(t/(t/16&8192?2:4)&16?31:120))^9E3/(t/4&4095)",
+    "codeLen": 69,
+    "code": "((t*2%255)/((t>>10)&((t/(t/16&8192?2:4)&16)?31:120)))^9000/(t/4&4095)",
+    "author": "kOLbOSa_exe",
+    "name": "glitch",
+    "url": "https://www.reddit.com/r/bytebeat/comments/twpbte/glitch/",
+    "date": "2022-04-05",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

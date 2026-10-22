@@ -1,0 +1,27 @@
+{
+  "file": "songs/feb5ac3cbd55b8a92529178a62ba0b7a.js",
+  "title": "Adventure's Began - Kouzerumatsukite (v0.2)",
+  "author": "Kouzerumatsu",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/feb5ac3cbd55b8a92529178a62ba0b7a.js",
+  "sha256": "a52b71f3f8e4950eb0b0969c9ba05836684edd89d55668ec58f7dec58b5b8c55",
+  "upstream": {
+    "hash": "feb5ac3cbd55b8a92529178a62ba0b7a",
+    "codeLen": 1755,
+    "codeFormLen": 2121,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "//Adventure's began - Kouzerumatsukite\nT=t*6/32000,sqd=[ // 7 Aug 2023 - v0.1\n\"1118  8886 5668 865111111111330 \",\n\"1118  8886 5668 8DC8888886A88865\",\n\"1018 188 655688 86511 1 13356653\",\n\"1008  8886 5668 8DC88 88 6A88 88\",\n\"DC8D CDD CDCFFDCC888DDCDCDCCFHCC\",\n\"DC8D  DDDCDCFDC88888DDCD DCDFHIH\",",
+    "isTruncated": 1,
+    "author": "Kouzerumatsu",
+    "name": "Adventure's Began - Kouzerumatsukite (v0.2)",
+    "description": "A song about the adventures of a Kouzerumatsu's yellow fox.",
+    "url": "https://dollchan.net/btb/res/415.html#1849",
+    "date": "2023-08-08",
+    "sampleRate": 32000,
+    "tags": [
+      "big"
+    ]
+  }
+}

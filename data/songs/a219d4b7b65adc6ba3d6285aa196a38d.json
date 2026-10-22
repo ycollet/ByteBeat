@@ -1,0 +1,24 @@
+{
+  "file": "songs/a219d4b7b65adc6ba3d6285aa196a38d.js",
+  "title": "e",
+  "author": "absolute197",
+  "mode": "Bytebeat",
+  "rate": 46000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3742caa576efb1eefe056fe678c6928ccac740033802c0496b558516415bbb55",
+  "upstream": {
+    "hash": "a219d4b7b65adc6ba3d6285aa196a38d",
+    "codeMinLen": 188,
+    "codeMin": "x=t=>(1.22*t*1.0596**parseInt(['H0CA','H1DC'][1&t>>17][3&t>>13],36)&128)*(-t>>8&31)/16,(x(t)/4+x(t-(t>>9&255))/4+x(t-12288)/8+x(t-24888)/8+random()*(-t>>7&63)+32*sin(3*sqrt(t%16384)))/3+64",
+    "codeLen": 193,
+    "code": "x=t=>((t*1.22*1.0596**parseInt(['H0CA','H1DC'][1&t>>17][3&t>>13],36)&128)*(-t>>8&31)/16),\n((x(t)/4+x(t-(t>>9&255))/4)+x(t-12288)/8+x(t-24888)/8+random()*(-t>>7&63)+sin(sqrt(t%16384)*3)*32)/3+64",
+    "author": "absolute197",
+    "name": "e",
+    "url": "https://www.reddit.com/r/bytebeat/comments/154bxq2/e/",
+    "date": "2023-07-20",
+    "sampleRate": 46000,
+    "tags": [
+      "256"
+    ]
+  }
+}

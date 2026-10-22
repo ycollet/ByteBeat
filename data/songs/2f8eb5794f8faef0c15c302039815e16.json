@@ -1,0 +1,27 @@
+{
+  "file": "songs/2f8eb5794f8faef0c15c302039815e16.js",
+  "title": "Beyond the Universe (WIP)",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2f8eb5794f8faef0c15c302039815e16.js",
+  "sha256": "4dbdf4f9aab0e0a8e07d295ec0d0323f6cca8e0bfb0cc2531e66e3e11d19e27d",
+  "upstream": {
+    "hash": "2f8eb5794f8faef0c15c302039815e16",
+    "codeLen": 1447,
+    "fileOrig": 1,
+    "codeText": "// Configuration Stuff\nt || (\n\tSampleRate = 48000,\n\tTuning = 440,\n\tBPM = 73,\n\tSamplesPerBeat = 16384,\n\tSpeed = BPM / (60 * SampleRate / SamplesPerBeat)\n),",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Beyond the Universe (WIP)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1lflgb4/beyond_the_universe_wip/",
+    "date": "2025-06-19",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-26"
+  }
+}

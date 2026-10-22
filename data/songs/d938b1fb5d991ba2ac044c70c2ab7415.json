@@ -1,0 +1,32 @@
+{
+  "file": "songs/d938b1fb5d991ba2ac044c70c2ab7415.js",
+  "title": "DJ running man#3",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "145170a40a551bda2878becc7ab71ec8e90891b6fccf8643df96239edaca5ef3",
+  "upstream": {
+    "hash": "d938b1fb5d991ba2ac044c70c2ab7415",
+    "codeMinLen": 159,
+    "codeMin": "t/=4,((t*(3+(1^t>>10&5))*(5+(3&t>>14))>>(t>>10&3))%256/2*(-t>>2&255)>>8)+48*sin(13*cbrt(t*'11182413'[7&t>>12]%4096))+32*random()*(-t&4095)/4E3*(t&4096)/2400+48",
+    "codeLen": 167,
+    "code": "t/=4,b=t*'11182413'[7&t>>12],\n((t*(3+(1^t>>10&5))*(5+(3&t>>14))>>(t>>10&3))%256/2*(-t>>2&255)>>8)+\nsin(cbrt(b%4096)*13)*48+48+(32*random()*(-t&4095)/4e3)*(t&4096)/2400",
+    "author": "Zackx",
+    "name": "DJ running man#3",
+    "url": "https://dollchan.net/btb/res/204.html#442",
+    "date": "2023-02-21",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "cc360652dce315e2a159654825179edc",
+        "author": "viznut",
+        "name": "Another attempt at melody construction",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388930"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

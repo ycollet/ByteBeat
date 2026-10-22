@@ -1,0 +1,29 @@
+{
+  "file": "songs/a7816ea25871ee41863aef7791f52e21.js",
+  "title": "slow pacman",
+  "author": "BaenHoHoHo",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a7816ea25871ee41863aef7791f52e21.js",
+  "sha256": "7089381a9cbc27f0d6b38e3c0f36cb1c6548564e8064373634f7b4005c871c6c",
+  "upstream": {
+    "hash": "a7816ea25871ee41863aef7791f52e21",
+    "codeMinLen": 548,
+    "codeLen": 628,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=182/60;arrays={e:'0 C 7 4 C7  44  1 D 8 5 D8  55  0 C 7 4 C7  44  345 567 789 C',S:'00000077000000771111118811111188000000770000007777779999BBBBCCCC'};pwm=c=>(c%128+69&128)/256-.25;shift=c=>2**(parseInt(c,36)/12);fm=(c,d=PI/64)=>{x=0;for(i=-1;3>i;i++)x+=sinh(sin(c*i*d+cos(c*i*d/4+sin(c*d/4)/8)*i*12));return x};return c=>{a=pwm(c*(B=34500)*2*shift(arrays.e[n=0|c*T*4]));b=fm(c*B/2*shift(arrays.S[n]))*.52**(O='/'==(C='/// /// /// /// /// /// RRRRRRRR'[c*T*2&31])?c*T%2:C=='R'?c*T%1:c*T%.5)+pwm(c/2*B*shift(arr",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "slow pacman",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bg6h39/slow_pacman/",
+    "date": "2024-03-16",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Pac-Man intro music",
+    "coverUrl": "https://youtu.be/rnf0q1zOTXs",
+    "tags": [
+      "1k"
+    ]
+  }
+}

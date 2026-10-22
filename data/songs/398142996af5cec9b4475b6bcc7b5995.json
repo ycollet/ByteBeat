@@ -1,0 +1,32 @@
+{
+  "file": "songs/398142996af5cec9b4475b6bcc7b5995.js",
+  "title": "Remix of \"credits song for my death\"",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f357ac26c526a2c22438b9d069b068258bda0c9bcc34f71545c4166340c3eee0",
+  "upstream": {
+    "hash": "398142996af5cec9b4475b6bcc7b5995",
+    "codeLen": 421,
+    "code": "r=t/1.2,p=t*1.31,sw=a=>p*2**(parseInt(a[7&r>>15],36)/12)/4%64,(p*2**([1,5,12,1,5,12,10,8,0,4,10,0,4,10,13,12,5,8,15,5,8,15,13,12,3,7,13,3,13,12,10,12][(r>>13)%32]/12)&128)/3+(s=p*2**(parseInt('D1  C0  H5  F333'[(r>>14)%16],36)/12)/16,s%128+s%127+s%129||128)/4+(p*2**(parseInt(['58C','47A','38C','8CF'][3&r>>16][(r*4/3>>10)%3],36)/12)%128+32&128)/6*'10101011'[7&r>>15]+(sw('D C 5 88')+sw('8 7 C AA')+sw('5 4 7 FF')||128)/2",
+    "author": "Zackx",
+    "name": "Remix of \"credits song for my death\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c8uy7t/remix_of_credits_song_for_my_death/",
+    "date": "2024-04-20",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "55b7134860f8c667aa9b8a812e0831f8",
+        "author": "ChrisRM380",
+        "name": "\"credits song for my death\" remake",
+        "url": "https://dollchan.net/btb/res/368.html#3241"
+      }
+    ],
+    "coverName": "vivivivivi - song for my death",
+    "coverUrl": "https://youtu.be/urxeNbBc1nk",
+    "tags": [
+      "1k"
+    ]
+  }
+}

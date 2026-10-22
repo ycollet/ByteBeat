@@ -1,0 +1,31 @@
+{
+  "file": "songs/c9008e3c2ae207029543efc6fdf6802f.js",
+  "title": "plss give pcm saple",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c9008e3c2ae207029543efc6fdf6802f.js",
+  "sha256": "47b48663108bac38c4e4d596a5deb37e135837bb1e1a74b0b578e5a5173aa534",
+  "upstream": {
+    "hash": "c9008e3c2ae207029543efc6fdf6802f",
+    "codeLen": 2358,
+    "fileOrig": 1,
+    "codeText": "/*\n * plss give pcm saple (unfinished)\n * by troubleshoot\n * (recreation of Dance 'Til You're \n * Dead)\n * (i actually need the pcm sample)\n * (also if someone can help me with\n * the chord envelopes it would help",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "plss give pcm saple",
+    "description": "One of many chain remixes/remakes.",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1mufxrl/pls_give_pcm_sample_wip/",
+    "date": "2025-08-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "JVH-C - Heads Will Roll",
+    "coverUrl": "https://youtu.be/UcRtFYAz2Yo",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-09-30"
+  }
+}

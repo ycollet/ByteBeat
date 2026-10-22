@@ -1,0 +1,24 @@
+{
+  "file": "songs/f11529fed90072511b9ad3df238a1359.js",
+  "title": "- (44100 Hz)",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1630dbb330bf2428cc763ce0345fdc10587eaac25a7fc76bec4c59521387135e",
+  "upstream": {
+    "hash": "f11529fed90072511b9ad3df238a1359",
+    "codeMinLen": 30,
+    "codeMin": "(t-t%(t/62.4/20)^t)+t/4E3-t>>1",
+    "codeLen": 33,
+    "code": "((t-t%(t/62.4/2E1)^t)+t/4E3)-t>>1",
+    "author": "rubi",
+    "name": "- (44100 Hz)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/re5h0j/44100_hz/",
+    "date": "2021-12-11",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

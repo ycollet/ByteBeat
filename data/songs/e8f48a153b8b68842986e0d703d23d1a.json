@@ -1,0 +1,29 @@
+{
+  "file": "songs/e8f48a153b8b68842986e0d703d23d1a.js",
+  "title": "Constructing a Melody in One Line",
+  "author": "Yamden",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e8f48a153b8b68842986e0d703d23d1a.js",
+  "sha256": "f6610a5887e8794bf367e755c3e34a1becbfbcacadd1248257eae7cb7522b46c",
+  "upstream": {
+    "hash": "e8f48a153b8b68842986e0d703d23d1a",
+    "codeMinLen": 1011,
+    "codeLen": 4604,
+    "codeFormLen": 1548,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t%=128E3,a=[[0,1,a=.5],[i=2,3,a],[4,5,a],[6,7,a],[8,9,a],[10,11,a],[12,13,a],[14,15,a],[16,17,a],[18,19,a],[20,21,a],[22,23,a],[24,25,a],[26,27,a],[28,29,a],[30,31,a],[32,33,b=1/3],[34,35,b],[36,37,b],[38,39,b],[40,41,b],[42,43,b],[44,45,b],[46,47,b],[48,49,a],[50,51,a],[52,53,a],[54,55,a],[56,57,a],[58,59,a],[60,61,a],[62,63,a],[64,65,b],[66,67,b],[68,69,b],[70,71,b],[72,73,b],[74,75,b],[76,77,b],[78,79,b],[80,81,a],[82,83,a],[84,85,a],[86,87,a],[88,89,a],[90,91,a],[92,93,a],[94,95,a],[96,97,c=.375],[98,99",
+    "isTruncated": 1,
+    "author": "Yamden",
+    "name": "Constructing a Melody in One Line",
+    "url": "https://dollchan.net/btb/res/3.html#489",
+    "date": "2023-02-28",
+    "sampleRate": 8000,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-25"
+  }
+}

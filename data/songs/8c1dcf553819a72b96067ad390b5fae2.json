@@ -1,0 +1,26 @@
+{
+  "file": "songs/8c1dcf553819a72b96067ad390b5fae2.js",
+  "title": "OVERTIME?! First melody cover",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8c1dcf553819a72b96067ad390b5fae2.js",
+  "sha256": "cd8b6f7ea07dba2ae0da863983da43fce1963fe1ce4cdf76e9342faa91d1fa8c",
+  "upstream": {
+    "hash": "8c1dcf553819a72b96067ad390b5fae2",
+    "codeLen": 1074,
+    "fileOrig": 1,
+    "codeText": "SAMP_RATE = 48000,\r\nts = t/SAMP_RATE,\r\nd = 261.63,\r\nrb = 277.18,\r\nr = 293.66,\r\nmb = 311.13,\r\nm = 329.63,\r\nf = 349.23,\r",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "OVERTIME?! First melody cover",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gxxac7/overtime_first_melody_cover/",
+    "date": "2024-11-23",
+    "sampleRate": 48000,
+    "coverName": "OVERTIME?! - KEY AFTER KEY | PHIGHTING OST",
+    "coverUrl": "https://youtu.be/YOw4YgyNnog",
+    "tags": [
+      "big"
+    ]
+  }
+}

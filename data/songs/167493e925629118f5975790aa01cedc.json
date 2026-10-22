@@ -1,0 +1,24 @@
+{
+  "file": "songs/167493e925629118f5975790aa01cedc.js",
+  "title": "Weird Thingy Music",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e42c971a9e40236f0aed11a93261efa95df3c6112743d8c5870758a1db6bf4c7",
+  "upstream": {
+    "hash": "167493e925629118f5975790aa01cedc",
+    "codeMinLen": 35,
+    "codeMin": "(t&t>>6)+(t|t>>8)+(t|t>>7)+(t|t>>9)",
+    "codeLen": 43,
+    "code": "a=t&t>>6,b=t|t>>8,c=t|t>>7,d=t|t>>9,a+b+c+d",
+    "author": "Decent-Manager-6169",
+    "name": "Weird Thingy Music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rbmtv1/weird_thingy_music/",
+    "date": "2021-12-08",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

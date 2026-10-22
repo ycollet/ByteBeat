@@ -1,0 +1,31 @@
+{
+  "file": "songs/7ae65aeb9f032008723915612b18ed3a.js",
+  "title": "color plane",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7ae65aeb9f032008723915612b18ed3a.js",
+  "sha256": "e587f2aefc6cfccbc7adf67209044feb51ff5de440a9730904b836556d97006b",
+  "upstream": {
+    "hash": "7ae65aeb9f032008723915612b18ed3a",
+    "codeLen": 7912,
+    "codeFormLen": 8626,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t || (\n\tSR = 48e3,\n\n\tlerp = (a, b, x) => a*(1 - x) + b*x,\n\tsum = (a, b) => a + b,\n\n\tavg = arr => arr.reduce(sum)/arr.length,\n\taadd = (arr1, arr2) => arr1.map((_, i) => arr1[i] + arr2[i]),",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "color plane",
+    "description": "\"Smackdown of the Signals,\" gold (bytebeat).",
+    "url": "https://battleofthebits.com/arena/Entry/color+plane/83262/",
+    "date": "2026-03-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-05-10"
+  }
+}

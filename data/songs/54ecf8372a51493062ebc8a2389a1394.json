@@ -1,0 +1,24 @@
+{
+  "file": "songs/54ecf8372a51493062ebc8a2389a1394.js",
+  "title": "cool sine wopping music",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "366652bd71de78f101029d13115699c9ce12f1b55d9ba32f8dea0908f3050183",
+  "upstream": {
+    "hash": "54ecf8372a51493062ebc8a2389a1394",
+    "codeMinLen": 38,
+    "codeMin": "128*sin(t*(1+(t>>5)%15*.01)&t>>11)+128",
+    "codeLen": 104,
+    "code": "sin(t*[1,1.01,1.02,1.03,1.04,1.05,1.06,1.07,1.08,1.09,1.1,1.11,1.12,1.13,1.14][(t>>5)%15]&t>>11)*128+128",
+    "author": "Glebguything",
+    "name": "cool sine wopping music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/105nc8t/cool_sine_wopping_music/",
+    "date": "2023-01-07",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

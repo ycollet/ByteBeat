@@ -1,0 +1,24 @@
+{
+  "file": "songs/29cacf357407187a7bf6835fcba525dc.js",
+  "title": "folded 100%",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "89a8b0ce9d1e62d4f6f464a69aab4ef633cb4256b97fdd0b319e2c0e642362b0",
+  "upstream": {
+    "hash": "29cacf357407187a7bf6835fcba525dc",
+    "codeMinLen": 156,
+    "codeMin": "(t*random()&31&~t>>7)*(1&t>>13)+(32*sqrt(t&16383)&64)+(t*[,s=sin(t>>4)][t>>14&1]&63&~t>>6)+(t/2*.825/'1234'[t>>17&3]*2**([0,2,4,6,7,9,7,10][t>>13&7]/12)&64)",
+    "codeLen": 158,
+    "code": "((t*random()&31&~t>>7)*(1&t>>13))+(sqrt(t&16383)*32&64)+(t*[,s=sin(t>>4)][t>>14&1]&63&~t>>6)+(t/2*.825/\"1234\"[t>>17&3]*2**([0,2,4,6,7,9,7,10][t>>13&7]/12)&64)",
+    "author": "psubscirbe",
+    "name": "folded 100%",
+    "url": "https://www.reddit.com/r/bytebeat/comments/150mxag/folded_100/",
+    "date": "2023-07-21",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

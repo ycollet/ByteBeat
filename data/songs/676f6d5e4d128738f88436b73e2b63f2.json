@@ -1,0 +1,40 @@
+{
+  "file": "songs/676f6d5e4d128738f88436b73e2b63f2.js",
+  "title": "unknown entity remix",
+  "author": "BaenHoHoHo",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/676f6d5e4d128738f88436b73e2b63f2.js",
+  "sha256": "731e0c62ca74682f0034cce6ce8d32905a511d5d0b6ec6d25e1b2855c4df2d33",
+  "upstream": {
+    "hash": "676f6d5e4d128738f88436b73e2b63f2",
+    "codeMinLen": 727,
+    "codeLen": 733,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "(t/=sr=48E3)?(B=1.4,t1=k/sr*140/60,p=t=>2**(parseInt(t,36)/12),y=x=w=S=((O-=sin((r+=s+=p('I8I8I8I8D3D3D3D3H1H1H1H1I3I3H1H1'[2*t1&31])/(PH=216E3)-s/600)/2%.5*76*.72**(8*t1%4)*.6**(sin(k/128E3+9)+1))/2+.5+O/17)/4+(P+=sin(k*p('88331131'[N=t1/2%8|0])/PH/2*(2*t1&1?300:150)%.5*72*.78**(t1*(t1/2&1?16:8)%4)*.5**(cos(k/32E3+5)+1)*2)-P/21)/11+sin((_1=2400*k*PI*p('BBAA88A8'[N])/PH)+sin(12*_1)*.01**(t1*(t1/2&1?t&3?4:2:2)%4)*3)/2+2.4)/B,y+=A[_=++k%d],x+=D[$=k%z],w+=R[e=k%q],S+=K[o=k%Q],y+=A[_]=y/B,x+=D[$]=x/B,w+=R[e]=w/",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "unknown entity remix",
+    "url": "https://dollchan.net/btb/res/117.html#3197",
+    "date": "2024-03-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "580d8186e742c5cf63718f5d4a975b20",
+        "author": "Zackx",
+        "name": "unknown entity",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1570",
+          "https://www.reddit.com/r/bytebeat/comments/14v37vt/unknown_entity/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-17"
+  }
+}

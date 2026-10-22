@@ -1,0 +1,40 @@
+{
+  "file": "songs/6f0474c27b76afa80b8f1232c8b13e36.js",
+  "title": "Rings in the Sky",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6f0474c27b76afa80b8f1232c8b13e36.js",
+  "sha256": "1ee4abc7f889604ebac163f35377abed4d7bf47af9af4bd66050e12fe1d3a300",
+  "upstream": {
+    "hash": "6f0474c27b76afa80b8f1232c8b13e36",
+    "codeLen": 2820,
+    "fileOrig": 1,
+    "codeText": "// Time measurements\nsampleRate = 48000,\nbpm = 100.5,\nbps = bpm / 60,\nT = 4 * t * bps / sampleRate,\nb = T / 64 % 30 /* Song length */,\nm = b > 14,\np = PI * b,",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Rings in the Sky",
+    "description": "\"You are flying over an ocean surface, a huge gas giant planet with rings slowly rises above the horizon.\" Summer Chip XV battle - 2nd place (bytebeat).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Rings+in+the+sky/79593/",
+      "https://www.reddit.com/r/bytebeat/comments/1n840y3/rings_in_the_sky/"
+    ],
+    "date": "2025-09-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "ae96183cc7bdb1b827365a6fa6a9f990",
+        "author": "lhphr",
+        "name": "far echoes",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10xye9m/far_echoes/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

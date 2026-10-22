@@ -1,0 +1,30 @@
+{
+  "file": "songs/55d7aa3596c54d49fdd7f819d435d3e5.js",
+  "title": "100. The Synthesis",
+  "author": "Zera12873",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/55d7aa3596c54d49fdd7f819d435d3e5.js",
+  "sha256": "1fa512fbeaeae8ae9b548c292cabeb137d80bda3dda0d633795f7919adac9213",
+  "upstream": {
+    "hash": "55d7aa3596c54d49fdd7f819d435d3e5",
+    "codeLen": 1393,
+    "fileOrig": 1,
+    "codeText": "clamp=(l,x,h)=>min(max(x,l),h),sr=48000,pi=PI,a=()=>{v=[0,0];a=()=>{t3 = t%32e4;return (t3<16e4?sin(sin((t3*(1+t3/1e5-t3**2/2e10))/200)*t3/100*pi/64)*2048:0)*[1,0,0,1,0,1,0,1,0,1,0,0,1,0,1,1,1,0,0,1,1,1,0,1,0,1,0,0,1,0,1,1][~~((t3/5e3)%32)]};v[0]=a();v[1]=v[0];b=()=>{t2 = (t+16e4)%32e4;a = t2<16e4?[0,0,sin(t/440*4*pi)*128,0,0,t%128,0,t%128,t%128,0,0,0,sin(tan(t/240)*64)*128,0,0,sin(tan(t/180)*64)*128,0,sin(tan(t/128)*64)*128,0,0,0,0,((t%(25e2)&(t%25e2)/256*8)%256)*15,0,0,0,0,0,sin(sin((t%5e3)*pi/16)*2000/(t",
+    "isTruncated": 1,
+    "author": "Zera12873",
+    "name": "100. The Synthesis",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1nzfky3/isgjs_dump",
+    "date": "2025-10-06",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Deca Quitin - Images and Sounds Generated using JavaScript",
+    "coverUrl": "https://youtu.be/5enR8uzlGsQ?t=410",
+    "tags": [
+      "big",
+      "1k"
+    ],
+    "date_added": "2025-10-09",
+    "date_edited": "2025-11-03"
+  }
+}

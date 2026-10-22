@@ -1,0 +1,26 @@
+{
+  "file": "songs/fd5b667d3847b2c55c5f0fc9e54c9bb5.js",
+  "title": "The Second Dualphase",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fd5b667d3847b2c55c5f0fc9e54c9bb5.js",
+  "sha256": "8720bdf50afcc82e8354707598fcd204e066a9f1805c2015aa477a6f8b34eb72",
+  "upstream": {
+    "hash": "fd5b667d3847b2c55c5f0fc9e54c9bb5",
+    "codeLen": 2272,
+    "fileOrig": 1,
+    "codeText": "speed=.75,\ntune=.66667,\n\nT=t*tune,\nþ=t*speed,\n\nbt=beat=(len,spd)=>(þ>>spd)%len,\nseq=(arr,spd)=>T*2**(arr[bt(arr.length,spd)]/12),",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "The Second Dualphase",
+    "url": "https://dollchan.net/btb/res/2971.html#4134",
+    "date": "2024-08-09",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-12"
+  }
+}

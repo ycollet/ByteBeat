@@ -1,0 +1,24 @@
+{
+  "file": "songs/78365e3001ae4281ca41dfd70e5603e5.js",
+  "title": "mkh",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a46f719e3c50fab65f6c4f681de4fdcc76dfa2b9f58fef4ffee3a48a1f452f24",
+  "upstream": {
+    "hash": "78365e3001ae4281ca41dfd70e5603e5",
+    "codeMinLen": 84,
+    "codeMin": "h=t*random()&63|t>>6&63,k=30*(3E3/(t&16383)&1),m=32*sin(t*(t>>7|t>>9)/100)+128,m+k+h",
+    "codeLen": 89,
+    "code": "h=t*random()&63|t>>6&63,\nk=(3e3/(t&16383)&1)*30,\nm=32*sin((t*(t>>7|t>>9))/100)+128,\nm+k+h",
+    "author": "psubscirbe",
+    "name": "mkh",
+    "url": "https://dollchan.net/btb/res/284.html#319",
+    "date": "2023-01-09",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

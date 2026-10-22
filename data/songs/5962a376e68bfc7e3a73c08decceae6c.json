@@ -1,0 +1,32 @@
+{
+  "file": "songs/5962a376e68bfc7e3a73c08decceae6c.js",
+  "title": "Neurofunk stereo remix",
+  "author": "Glebguything",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6dd7384ecb53378a881d9b5257eeb041b903e3f278703da265ea6e977d80cb58",
+  "upstream": {
+    "hash": "5962a376e68bfc7e3a73c08decceae6c",
+    "codeLen": 200,
+    "code": "t/=5.5,[t*((t&4096?t%65536<59392?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))|t>>(t&16384?t&4096?3:4:1),t*((t&4096?t%65536<59392?7:t>>6:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10))&-t>>(t&16384?t&4096?2:3:2)]",
+    "author": "Glebguything",
+    "name": "Neurofunk stereo remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b8qvz5/messed_with_one_of_the_owners_song_and_this_is/",
+    "date": "2024-03-07",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

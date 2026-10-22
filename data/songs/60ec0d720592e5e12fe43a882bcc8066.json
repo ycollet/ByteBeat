@@ -1,0 +1,37 @@
+{
+  "file": "songs/60ec0d720592e5e12fe43a882bcc8066.js",
+  "title": "Lotus 1 theme port to my sequencer",
+  "author": "Sychamis",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/60ec0d720592e5e12fe43a882bcc8066.js",
+  "sha256": "fc4a93274abe666395ad3b8b07ff3cace823b975378a7af194e12420db490de0",
+  "upstream": {
+    "hash": "60ec0d720592e5e12fe43a882bcc8066",
+    "codeLen": 37995,
+    "fileOrig": 1,
+    "codeText": "// Port of Lotus Esprit Turbo Challenge theme to my tracker, original by Shaun Southern\n// May 2024 - Sychamis\n\n// Samples\nconst noise = \"gggglR7al1t6wqOBwQQRlDPNJPQQZQQRQQPQPQQQPQClQCPQQPSPQPQhdO6lP7YPjxj677776OLaOQClD636xXdPLPnr7gnq6O66QPLEOQTTPQQQPOPPNPPQMPQOQQPQQQbYRPOPPPOdPY776v7Qf37SsP671777vOQPQQQQQtxpNxlQLWaDPQQQRWPQzyWPSQPaNl6KDPsO4vRPJjcPQOQQQQQQQPPPPQQQQPPRC767rhNDuPDg677770YQ0e0LamQjPPz7epxi7gQPQQQTOPPLVPQQQc65Q16667cPO5Ql614ijzPPCWE6rYdPbOLPOYg6SO63oP2olPyPrPKVQqQQQPPQQPPFPQPQcmOQNn4wrr6zVPPOQn",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Lotus 1 theme port to my sequencer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1chrnap/lotus_1_theme_port_to_my_sequencer/",
+    "date": "2024-05-01",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "93f64dd68f347785951bdca7f7d4c84d",
+        "author": "Sychamis",
+        "name": "Sample/Wavetable sequencer",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1cdms1z/samplewavetable_sequencer/"
+      }
+    ],
+    "coverName": "Shaun Southern - Lotus Esprit Turbo Challenge main theme",
+    "coverUrl": "https://youtu.be/7xmGXGSnDOI",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-12-09"
+  }
+}

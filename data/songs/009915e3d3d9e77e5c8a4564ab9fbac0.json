@@ -1,0 +1,30 @@
+{
+  "file": "songs/009915e3d3d9e77e5c8a4564ab9fbac0.js",
+  "title": "Unsaved Progress Is Lost",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/009915e3d3d9e77e5c8a4564ab9fbac0.js",
+  "sha256": "2fdcd75b9f14fe5f147599a63f0ec0321899e5e2e5f0a4ebdae3ac0c4c3e629b",
+  "upstream": {
+    "hash": "009915e3d3d9e77e5c8a4564ab9fbac0",
+    "codeLen": 10457,
+    "fileOrig": 1,
+    "codeText": "t||(A={l:0,w:t=>(t&15)*(0-t&15)*(((t&16)>>3)-1)*128/65+128},B={l:0,w:t=>(t/2%256+t/2%127)&128},C={l:0,w:t=>(t^t/2+t+64*(sin((t*PI/64)+(t*PI/32768))+64))%128*2},D={p:-1,t:0}),va={_:0,A:77.78,B:73.41,C:65.4,D:58.27,E:48.99,F:55,G:87.3,H:97.99,I:155.56,J:146.83,K:130.81,L:174.61,M:311.12,N:293.66,O:261.62,P:349.22,Q:92.49,R:116.54},d0=`A00000B00000C00000A00000B00000C00000A00000C00000B00000C00000D00000B00000C00000D00000B00000D00000C00000D00000E00000C00000D00000E00000F00000D00000G00000A00000B00000C00000B00000A00",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "Unsaved Progress Is Lost",
+    "description": "Bytebattle Season 1 Competition - 3rd place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1g1vir5/bytebattle_season_1_results/",
+      "http://bytebeat.oops.wtf/season1/entries.html"
+    ],
+    "date": "2024-10-12",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

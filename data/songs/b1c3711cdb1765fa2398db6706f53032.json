@@ -1,0 +1,38 @@
+{
+  "file": "songs/b1c3711cdb1765fa2398db6706f53032.js",
+  "title": "Untitled (b1c3711c)",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b1c3711cdb1765fa2398db6706f53032.js",
+  "sha256": "d483ce25de225eb079c19d3228ba54e702712091ae4523b3b3ff3cd4fa022b2f",
+  "upstream": {
+    "hash": "b1c3711cdb1765fa2398db6706f53032",
+    "codeMinLen": 1330,
+    "codeLen": 1406,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(w=p=>(-cos(p/128*PI)+1)*128-.5,fx=[],lp=(a,c)=>(F=fxi++,fx[F]??=0,fx[F]+=(a-fx[F])*c),hp=(a,c)=>a-lp(a,c),bp=(a,hc,lc)=>hp(lp(a,lc),hc),d=(a,hs,dw,N=x=>x)=>{d_F=fxi++;fx[d_F]??=Array(dM=1e6).fill(0);d_wi=dt%dM;d_f=a;d_o=0;for(h of hs){d_ri=(dM+dt-round(h.t))%dM;d_f+=fx[d_F][d_ri]*h.fb;d_o+=fx[d_F][d_ri]*h.m}fx[d_F][d_wi]=N(d_f);return a*(1-dw)+d_o*dw}),fxi=0,dt=t,t*=1.5,lr=lr=>tanh(atan(((s=lr?.995:1.005,x=n=>(Y=t/2**18%1,abs(cos(sin(X=t*PI/256*s*2**(n/12+1))+X)/2*(sin(t*s*PI/512*2**(n/12+1))**((t/1024&",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "url": "https://dollchan.net/btb/res/6946.html#10635",
+    "date": "2025-11-17",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "b1808832521d6eb0ebb9add08d1327ed",
+        "author": "lhphr",
+        "name": "Strato",
+        "url": "https://dollchan.net/btb/res/44.html#367"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-21",
+    "date_edited": "2025-11-22"
+  }
+}

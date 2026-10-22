@@ -1,0 +1,42 @@
+{
+  "file": "songs/86111e49d303c11cd988c5c941314918.js",
+  "title": "ver2",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/86111e49d303c11cd988c5c941314918.js",
+  "sha256": "89d07e36bf1c464d5e13c3016e562e2e6e04482aadd6fd33db531417dce7f6e8",
+  "upstream": {
+    "hash": "86111e49d303c11cd988c5c941314918",
+    "codeMinLen": 629,
+    "codeLen": 636,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "r=t*1.125,l=16384,u=8192,c=4096,M=(k,x,y)=>min(max(k,x),y),x=j=>M((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.31%64-32,M((w=r=>r>0&&(e=a=>s('G8F6D4B381B4D8FB'[15&(21&r>>12)+(r>>16)],a),e(1)+e(j))*(1-r/u%1*[.75,1][1&r>>19]),w(r)+w(r-(d=24576))/2+w(r-2*d)/3+w(r-3*d)/4),-32,31)+(L=a=>s('1364'[K=3&r>>17],a)+s('8488'[K],a)+s('DBDF'[K],a),L(.5)-L(j))*(r/32768%1)*(1-r/u%1*.5)**3/2+M(-(b=a=>s('DD9B'[K],a)*8,b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)**2+1E4*sin(6*cbrt(r%l))*(1-r/l%1/2)**14*!(r&l)/'14'[1&r>>15]+((t*sin(t>>2)&64)-32)",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "ver2",
+    "description": "Original source is not public.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fc7z7l/comment/nqusalh/?context=3",
+    "date": "2024-09-02",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "94b9becc72800aa370d62bc43c162bb1",
+        "author": "Zackx",
+        "name": "Midnight",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3720",
+          "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2026-01-12",
+    "date_edited": "2026-01-12"
+  }
+}

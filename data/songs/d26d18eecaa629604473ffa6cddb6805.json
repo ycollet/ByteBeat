@@ -1,0 +1,26 @@
+{
+  "file": "songs/d26d18eecaa629604473ffa6cddb6805.js",
+  "title": "morale incident",
+  "author": "pck404",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d26d18eecaa629604473ffa6cddb6805.js",
+  "sha256": "d14b6ccb15b6823b57128f0a5b28d45f2f95c85cde7ad3b9bef71ccf5bc0ddec",
+  "upstream": {
+    "hash": "d26d18eecaa629604473ffa6cddb6805",
+    "codeLen": 1279,
+    "fileOrig": 1,
+    "codeText": "SR=44100,\nTAU=PI*2,\nt/=SR,\nmtof=(n)=>440*2**((n-69)/12),\n\ngate16=(t,seq)=>(\n  (seq>>(t&15)&1)\n),",
+    "isTruncated": 1,
+    "author": "pck404",
+    "name": "morale incident",
+    "url": "https://www.bytebeat.cloud/post/8aac616f-5981-44bc-b7bd-d8e6ddcd3ac7",
+    "date": "2025-12-14",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-06-20"
+  }
+}

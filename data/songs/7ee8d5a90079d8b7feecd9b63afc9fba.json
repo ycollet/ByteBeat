@@ -1,0 +1,24 @@
+{
+  "file": "songs/7ee8d5a90079d8b7feecd9b63afc9fba.js",
+  "title": "Ito ang REBOLUSYON!",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c0a0aa8c9730bb26d5cee99eb9120bc64619d88567a9de54e0a7bc9c68107e3e",
+  "upstream": {
+    "hash": "7ee8d5a90079d8b7feecd9b63afc9fba",
+    "codeMinLen": 275,
+    "codeMin": "v=t/1.2,p=\"1010001110111101011101010010010010011\",g=\"11111111111111111110000000000000000000\",p[round(t/4/(4-v>>13&7^v>>18&3|v>>14&7)+3)%p.length]*24+g[round(t*2.04/(4-v>>13&7^v>>18&3|v>>14&7)+3)%g.length]*24+(3E3/(v&16383)&1)*24+(((sin(t>>4)*t&128)*-v>>13)/2*(v>>14&1)&255)/3",
+    "codeLen": 279,
+    "code": "v=t/1.2,p='1010001110111101011101010010010010011',g='11111111111111111110000000000000000000',p[round(t/4/(4-v>>13&7^v>>18&3|v>>14&7)+3)%p.length]*24+g[round(t*2.04/(4-v>>13&7^v>>18&3|v>>14&7)+3)%g.length]*24+(3e3/(v&16383)&1)*24+((((sin(t>>4)*(t)&128)*-v>>13)/2*(v>>14&1))&255)/3",
+    "author": "hcdphobe",
+    "name": "Ito ang REBOLUSYON!",
+    "url": "https://dollchan.net/btb/res/163.html#701",
+    "date": "2023-03-27",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

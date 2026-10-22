@@ -1,0 +1,32 @@
+{
+  "file": "songs/bd06a76ca7a8e074cb80c5fed25f0f2d.js",
+  "title": "DJ techno",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 13000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "da08bfced00dd4c3aba29bce134d788abbcb3468736661949b3c28b7d659c685",
+  "upstream": {
+    "hash": "bd06a76ca7a8e074cb80c5fed25f0f2d",
+    "codeMinLen": 157,
+    "codeMin": "r=t/1.25,p=2.35,((((t/10|0)^(t/10|0)-1280)%11*t/p&127)+(((t/640|0)^(t/640|0)-2)%13*t/p&127))/2+32*sin(3E3/(r%4096)**.01)+32+(t*sin(t)&-r>>6&127)*(r&4096)/4E3",
+    "codeLen": 158,
+    "code": "r=t/1.25,p=2.35,((((t/10|0)^(t/10|0)-1280)%11*t/p&127)+(((t/640|0)^(t/640|0)-2)%13*t/p&127))/2+sin(3e3/(r%4096)**.01)*32+32+\n(t*sin(t)&-r>>6&127)*(r&4096)/4e3",
+    "author": "Zackx",
+    "name": "DJ techno",
+    "url": "https://dollchan.net/btb/res/204.html#729",
+    "date": "2023-03-31",
+    "sampleRate": 13000,
+    "remix": [
+      {
+        "hash": "55c37e7f21435808f608250018606e47",
+        "author": "Gabriel Miceli",
+        "name": "Techno",
+        "url": "https://youtu.be/V4GfkFbDojc?t=314"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/3fa2a382657d478a2ef6ba509266c48c.js",
+  "title": "Street Surfer",
+  "author": "skurk, raer",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "74b62c07fa7b86886da2082a67e0d19573010ce4459537b3cc169c6e0605724d",
+  "upstream": {
+    "hash": "3fa2a382657d478a2ef6ba509266c48c",
+    "codeMinLen": 44,
+    "codeMin": "t&4096?t/2*(t^t%255)|t>>5:t/8|(t&8192?4*t:t)",
+    "codeLen": 59,
+    "code": "(t&4096)?((t*(t^t%255)|(t>>4))>>1):(t>>3)|((t&8192)?t<<2:t)",
+    "author": "skurk, raer",
+    "name": "Street Surfer",
+    "url": [
+      "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+      "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+      "https://youtu.be/qlrs2Vorw2Y?t=190"
+    ],
+    "date": "2011-09-30",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

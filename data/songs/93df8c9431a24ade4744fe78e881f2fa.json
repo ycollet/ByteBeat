@@ -1,0 +1,44 @@
+{
+  "file": "songs/93df8c9431a24ade4744fe78e881f2fa.js",
+  "title": "Shimmer Surfer",
+  "author": "IncreaseRegular",
+  "mode": "Signed Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ff5880a936fe0fb85198552bf522e3a4ab59bb6a95a4d820e9a76d79bd9ca4b3",
+  "upstream": {
+    "hash": "93df8c9431a24ade4744fe78e881f2fa",
+    "codeMinLen": 136,
+    "codeMin": "((t/2*(4|t>>13&3)>>(~t>>11&1)|~t>>5)&127)+(t*(t>>11&t>>13)*(~t>>9&3)&127)/2+((t&4096?(t*(t^t%255)|t>>5)>>1:t>>4|(t&8192?t<<1:t))&127)+64",
+    "codeLen": 158,
+    "code": "a=(0.5*t*(4|t>>13&3)>>(~t>>11&1)|~t>>5)&127,b=0.5*(t*(t>>11&t>>13)*(~t>>9&3)&127)&127+128,c=((t&4096?(t*(t^t%255)|t>>5)>>1:t>>4|(t&8192?t<<1:t))&127)+64,a+b+c",
+    "author": "IncreaseRegular",
+    "name": "Shimmer Surfer",
+    "url": "https://www.reddit.com/r/bytebeat/comments/153h95z/shimmer_surfer/",
+    "date": "2023-07-19",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      },
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

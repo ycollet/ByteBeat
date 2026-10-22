@@ -1,0 +1,27 @@
+{
+  "file": "songs/789ff1172541f7cf4fb513e70777cba8.js",
+  "title": "Electric anthem",
+  "author": "WoolWL",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/789ff1172541f7cf4fb513e70777cba8.js",
+  "sha256": "fbb0d969c7923c7a119c0b473435ab52662ab3f39d9906842971240d14593bbd",
+  "upstream": {
+    "hash": "789ff1172541f7cf4fb513e70777cba8",
+    "codeMinLen": 1008,
+    "codeLen": 1361,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "$=t/44100%72,M=(x,o,s,p=1/2)=>(c=x[$*s%x.length|0],T=($%(1/s))*8E3|0,c==\"_\"?1E3/T:c==\"^\"?cbrt(3**((T+128)/3)):c==\"-\"?sin(T**3)*max(0,2-(T>>9)):($*2**((parseInt(c,36)+o)/12)*448)%2<p*2)&1,((M(\"_ ^- ^^_ -^ _ --_ ^- ^^_ -^ _---\",0,8)^M(($>4&$<8)|($>20&$<24)?\"C OC HJC OJC CMO8 K7 HJC        \":$<24?\"C OC HJC OJC CMO8 K7 HJC JOC CMO\":$<56?\"C OC MO9 GL9GL9G8 K7 HJC JOC CMO\":\"8 K8 JK8 8JK8JK8A MA JMB INBINBIC OC MOC JOCJOCJC OC MOC JOCJOCJ8 K8 JK8 8JK8JK8A MA JMB INBINBIC OC MOC JOCJOCJB NB INA HM9HL9H\",-24,8,1/3))",
+    "isTruncated": 1,
+    "author": "WoolWL",
+    "name": "Electric anthem",
+    "description": "This was originally intended to be a 1-bit song, but decided to have multiple instruments.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1aoaafx/a_bunch_of_songs_i_made/",
+    "date": "2024-02-11",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

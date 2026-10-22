@@ -1,0 +1,36 @@
+{
+  "file": "songs/eaa417af604c9eed4fd1b696eb204921.js",
+  "title": "The Entity Nightmare",
+  "author": "ANoUserXD",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "324e186b8e6c41f787d4233696a09c74078bf4c82f083bd573ce431e760665cd",
+  "upstream": {
+    "hash": "eaa417af604c9eed4fd1b696eb204921",
+    "codeMinLen": 425,
+    "codeMin": "n=x=>t*2**(parseInt(x,36)/12)/1.42,r=t/1.2,c=1-r/16384%1,max(min(((n(['I8','D3','H1',['I3','H1'][1&r>>15]][3&r>>16][1&r>>13])*(r&524288?1+(r>>9&3):1)%128+(t>>6)&128)-64)/3*(1-r%8192/12E3)+n(a='66115565'[r>>15&7])/8%64-32+n(a)/7.9%64-32+32*sign(sin(1/(r/16384%1)))+(b=t?(15*b+((t*sin(t>>4)&128)-64)*c*(r>>14&1))/16:0)+64*asin(sin(n(a)*(d=PI/32)))/PI*(e=1-c)+64*asin(sin(n(a)*d/1.5))/PI*e+64*asin(sin(n(a)*d/2))/PI*e,127),-128)",
+    "codeLen": 427,
+    "code": "n=x=>t*2**(parseInt(x,36)/12)/1.42,r=t/1.2,max(min(((n(['I8','D3','H1',['I3','H1'][1&r>>15]][3&r>>16][1&r>>13])*(r&524288?1+(r>>9&3):1)%128+(t>>6)&128)-64)/3*(1-r%8192/12e3)+n(a='66115565'[r>>15&7])/8%64-32+n(a)/7.9%64-32+sign(sin(1/(r/16384%1)))*32+(b=t?(b*15+(((t*sin(t>>4)&128)-64)*(c=1-r/16384%1)*(r>>14&1)))/16:0)+64*asin(sin(n(a)*(d=PI/32)))/PI*(e=1-c)+64*asin(sin(n(a)*d/1.5))/PI*e+64*asin(sin(n(a)*d/2))/PI*e,127),-128)",
+    "author": "ANoUserXD",
+    "name": "The Entity Nightmare",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1aopab8/the_entity_nightmare_remix_of_unknown_entity/",
+    "date": "2024-02-12",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "580d8186e742c5cf63718f5d4a975b20",
+        "author": "Zackx",
+        "name": "unknown entity",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1570",
+          "https://www.reddit.com/r/bytebeat/comments/14v37vt/unknown_entity/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

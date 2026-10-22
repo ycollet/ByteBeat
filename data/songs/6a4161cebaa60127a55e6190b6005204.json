@@ -1,0 +1,30 @@
+{
+  "file": "songs/6a4161cebaa60127a55e6190b6005204.js",
+  "title": "how to do echo using array().fill()",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a6b067fb1f6c34c14e4f60cb9d8f03087183e06eab571a2b2a185fc5dbb63d99",
+  "upstream": {
+    "hash": "6a4161cebaa60127a55e6190b6005204",
+    "codeLen": 102,
+    "code": "x=q=>(m=234&q>>10,q*m%256/4),o=0,Array(13).fill().map((e,i)=>o+=(1!=i)*x(t-1024*i)/(i+1)*(2048*i<t)),o",
+    "author": "Greaserpirate",
+    "name": "how to do echo using array().fill()",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14dhu1n/comment/joq2ud1/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-06-19",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

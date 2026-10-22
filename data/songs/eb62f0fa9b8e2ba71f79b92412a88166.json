@@ -1,0 +1,24 @@
+{
+  "file": "songs/eb62f0fa9b8e2ba71f79b92412a88166.js",
+  "title": "Cool waveform i guess (first one)",
+  "author": "1583736",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a56231c3659b0d785e4204c888d77d0c4341a38cd89f830a7a08b4e26b23734e",
+  "upstream": {
+    "hash": "eb62f0fa9b8e2ba71f79b92412a88166",
+    "codeMinLen": 203,
+    "codeMin": "t=6*(t-(t>>10&4|t>>13&3|t>>17&6|t>>14&4)*t/((t>>16&7)+4)),80*(abs(1-abs(.5+cos(t/64.25))**.3)+abs(.35-abs(5.5+cos(t/64.5))**.5))**(1-abs(1-abs(.5-sin(t/63.75))**.5+1-abs(2.1-abs(2.3-sin(t/96))**.75)))+15",
+    "codeLen": 261,
+    "code": "t=(6*(t-((t>>10&4|t>>13&3)|(t>>17&6|t>>14&4))*t/((t>>16&7)+4))),Math.pow(Math.abs(1-Math.abs(0.5+cos(t/64.25))**0.3)+Math.abs(0.35-Math.abs(5.5+cos(t/64.5))**0.5),1-Math.abs(1-Math.abs(0.5-sin(t/63.75))**0.5+1-Math.abs(2.1-Math.abs(2.3-sin(t/96))**0.75)))*80+15",
+    "author": "1583736",
+    "name": "Cool waveform i guess (first one)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ntpnza/cool_waveform_i_guess/",
+    "date": "2021-06-06",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

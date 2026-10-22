@@ -1,0 +1,28 @@
+{
+  "file": "songs/8766f5023cfa1e3e6e8bed956af649c5.js",
+  "title": "i cooked but not even a single person was hungry",
+  "author": "UltraDasher965",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8766f5023cfa1e3e6e8bed956af649c5.js",
+  "sha256": "dc2f2db8ce370552316e8eb0b413957a7a343599072e241460dececd35db6837",
+  "upstream": {
+    "hash": "8766f5023cfa1e3e6e8bed956af649c5",
+    "codeMinLen": 755,
+    "codeLen": 1016,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "A=4096,D=2**19,F=255,G=256,H=512,J=A*2,B=t%A,a=tanh(atan(sin(6*cbrt(B))*5*(1-B/A))/2+(random()*(300/B))-(random()*(300/B)))*(0x84450441>>(31&t>>12)&1),C=[0,0,-4,5],S=(a,s)=>t*2**(a[t>>s&3]/12),I=t*[1,1,.8,1.5][3&t>>16],atan(tanh(a/(1-t%D/D)/250*(t<D)+a*(t>D)+(t*sin(t>>1)&F)*(1/(t%(J/'11222212'[7&t>>13])))-(t*sin(t/1.0001>>1)&F)*(1/(t%(J/'11222212'[7&t>>13])))+(1&t>>18)*(random()-.5+((t*2.25&F)/G)-((t*2&F)/G))/(1-t%D/D)/196+((((t*sin(t/1.75>>2)&F)-((t*sin(t/1.751>>2)&F))*(1-t%J/J))/H)*(1&-t>>13)*(1&t>>14))*(",
+    "isTruncated": 1,
+    "author": "UltraDasher965",
+    "name": "i cooked but not even a single person was hungry",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1plsg7a/i_cooked_but_not_even_a_single_person_was_hungry/",
+    "date": "2025-12-13",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-12-18",
+    "date_edited": "2025-12-25"
+  }
+}

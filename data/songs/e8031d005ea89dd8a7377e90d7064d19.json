@@ -1,0 +1,32 @@
+{
+  "file": "songs/e8031d005ea89dd8a7377e90d7064d19.js",
+  "title": "CRZStepD",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 31000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "25ef60038ce0be564e0f24392b638a7548ab9c8212b66606d9165aeeb46274bf",
+  "upstream": {
+    "hash": "e8031d005ea89dd8a7377e90d7064d19",
+    "codeMinLen": 129,
+    "codeMin": "f=x=>t&165&t%255&&t/256*(t&t>>x),a=37649&1<<(t>>12&15)&&128*sin(2048/(t%4096/4)**.0125)+128,(a|f(12)-f(14)+128)^(t&32&t>>8||t>>6)",
+    "codeLen": 149,
+    "code": "f=x=>t&165&t%255&&t/256*(t&t>>x),a=37649&1<<(t>>12&15)&&128*sin(2048/((t%4096)/4)**.0125)+128,(a|f(12)-f(14)+128)^(t>>6)^(((t&32&t>>8)||t>>6)^(t>>6))",
+    "author": "Chasyxx",
+    "name": "CRZStepD",
+    "url": "https://dollchan.net/btb/res/756.html#2345",
+    "date": "2023-09-26",
+    "sampleRate": 31000,
+    "remix": [
+      {
+        "hash": "29cc9219aef5fc3d424eef3d3462ed82",
+        "author": "lhphr",
+        "name": "CRZstepᑦ",
+        "url": "https://dollchan.net/btb/res/44.html#61"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

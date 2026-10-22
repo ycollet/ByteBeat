@@ -1,0 +1,24 @@
+{
+  "file": "songs/084e7094e73b5b13306cbe2a7c912c2c.js",
+  "title": "a music made in school",
+  "author": "Glebguything",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3a13024fe9065395e7719af0e6916e760fe471271cf79095fb8ec43fa1a258a8",
+  "upstream": {
+    "hash": "084e7094e73b5b13306cbe2a7c912c2c",
+    "codeMinLen": 110,
+    "codeMin": "t/=4,(melody=t*[1,2,3,4,3,2,5,5][(t>>11)%8]/[1,2,3,2.5][(t>>14)%4],melody%75+melody%75.99+50*sin(melody/3))+50",
+    "codeLen": 113,
+    "code": "t=t/4,((melody=t*[1,2,3,4,3,2,5,5][(t>>11)%8]/[1,2,3,2.5][(t>>14)%4],melody%75+melody%75.99+sin(melody/3)*50)+50)",
+    "author": "Glebguything",
+    "name": "a music made in school",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10sdupn/a_music_made_in_school/",
+    "date": "2023-02-03",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

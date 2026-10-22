@@ -1,0 +1,35 @@
+{
+  "file": "songs/8cef684664cea43df94cbf7fcce285ac.js",
+  "title": "Ryg remised",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d34bd3d72a08d9cfa78743287eea811ae9f52eed2c561a0ac0197d836d0f1358",
+  "upstream": {
+    "hash": "8cef684664cea43df94cbf7fcce285ac",
+    "codeMinLen": 193,
+    "codeMin": "a=(t>>12^(t>>12)-2)%11*t/2,(32*sin(a*PI/256+sin(a*PI/64))*(-t>>5&255)>>8)+32+(25*random()*(-t>>5&255)>>8)+32*sin(4E3/(t/1.5&16383))+32+(3E6/(t+16384&32767)&64)/3+(t*'36364689'[t>>13&7]/12/4&32)",
+    "codeLen": 195,
+    "code": "a=((t>>12^(t>>12)-2)%11*t/2),(sin(a*PI/256+sin(a*PI/64))*32*(-t>>5&255)>>8)+32+(random()*25*(-t>>5&255)>>8)+sin(4e3/(t/1.5&16383))*32+32+(3e6/(t+16384&32767)&64)/3+(t*'36364689'[t>>13&7]/12/4&32)",
+    "author": "BaenHoHoHo",
+    "name": "Ryg remised",
+    "url": "https://www.reddit.com/r/bytebeat/comments/153bo5l/ryg_remised/",
+    "date": "2023-07-19",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

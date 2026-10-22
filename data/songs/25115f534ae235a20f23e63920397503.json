@@ -1,0 +1,37 @@
+{
+  "file": "songs/25115f534ae235a20f23e63920397503.js",
+  "title": "Ryg the Bamboo Cutter",
+  "author": "MarioFan171",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "14866c5a3f16654ab90e2dde5c84404e62ce2dc571bfe6072e4e8c8c5cc1d196",
+  "upstream": {
+    "hash": "25115f534ae235a20f23e63920397503",
+    "codeLen": 158,
+    "code": "p=x=>t*2**(parseInt(x,36)/12),((t>>12^(t>>12)-2)%11*(p('CFHHHHEEEEAAACCCCFHHHJMJHJOOVVQ'[t>>13&31])/4|t>>12)&127)+(p('8A7C8ACF'[t>>15&7])*(1+(t>>13&1))/8&128)",
+    "author": "MarioFan171",
+    "name": "Ryg the Bamboo Cutter",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1oc5qe7/ryg_the_bamboo_cutter/",
+    "date": "2025-10-21",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      }
+    ],
+    "coverName": "IN Kaguya's Theme: Flight of the Bamboo Cutter ~ Lunatic Princess",
+    "coverUrl": "https://youtu.be/4w5s7dwrH7Q",
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-11-19"
+  }
+}

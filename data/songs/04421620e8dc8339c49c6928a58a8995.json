@@ -1,0 +1,33 @@
+{
+  "file": "songs/04421620e8dc8339c49c6928a58a8995.js",
+  "title": "Penultimate Dawn of Time Stability",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/04421620e8dc8339c49c6928a58a8995.js",
+  "sha256": "4c644ac3871f343fd25e3034e854349e7339c72320729612ccb410e4b589a8f3",
+  "upstream": {
+    "hash": "04421620e8dc8339c49c6928a58a8995",
+    "codeLen": 645,
+    "fileOrig": 1,
+    "codeText": "(t/=4)?t%=2621440:(d=Array(12288).fill(0),v=n=0),n>v?0:(n=(1^t>>9&3^t>>11&2)<<11,v=0),q=t&16384?7:5,c=!!(-t>>14&15),f=t/262144%1,r=1-f,M=(V,r)=>((r*t>>12&1)*t*q*'34451223'[t>>8&7]>>(3&-t>>V)&255)/(2+t/512%4),B=1.5*(!((t>>11&13^t>>13&11)&1)*50**(2-t/2048%1)&32),A=t*2**([0,3,7,12,15,19,24,19][t>>11&7]/12+(t>>16&3))%128/6-12+d.shift(),d.push(A*[0,c*.5,.5,c*.5,R=.75,c*R,R,R,R,r*R][t>>18]),s=p=>(t*q*p*1.01&128)/6,s=(s(1)-s(R)+s(2)-s(.5))/(2.2-t/2048%2),K=sin(1E3/++v**.1)*16&~48,C=M(2,1),a=K-B-A-C+s,max(min(([m=M",
+    "isTruncated": 1,
+    "author": "lhphr",
+    "name": "Penultimate Dawn of Time Stability",
+    "description": "TIRO remix??? No way!",
+    "url": "https://dollchan.net/btb/res/44.html#127",
+    "date": "2022-07-18",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "f617ff9697e8213ab20ed7c7ddf140a9",
+        "author": "RealZynx92",
+        "name": "better remix of \"The time is running out!\"",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qlst5m/better_remix_of_the_time_is_running_out_by/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/fa49f5828caa730bd5e86c79a0c3e0f6.js",
+  "title": "the bit shuffle",
+  "author": "Yung Gotenks",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fa49f5828caa730bd5e86c79a0c3e0f6.js",
+  "sha256": "3998665391d1b59bc1acdb62f6c12fd7a49bd078da62d4dff9a53e0ada6d87c0",
+  "upstream": {
+    "hash": "fa49f5828caa730bd5e86c79a0c3e0f6",
+    "codeLen": 59937,
+    "codeFormLen": 60032,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 11025,\nBPM = 120,\nbeat = BPM * (t / SAMP_RATE) / 60,\ntick = int(beat * 48) % 8064,\n\nchan1_freq = (tick >= 0 && tick < 24) * 69.295 + \n(tick >= 24 && tick < 36) * 69.295 + \n(tick >= 36 && tick < 60) * 123.47 + ",
+    "isTruncated": 1,
+    "author": "Yung Gotenks",
+    "name": "the bit shuffle",
+    "url": "https://battleofthebits.com/arena/Entry/the+bit+shuffle/60367/",
+    "date": "2023-05-28",
+    "sampleRate": 11025,
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

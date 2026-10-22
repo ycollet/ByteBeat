@@ -1,0 +1,33 @@
+{
+  "file": "songs/9145d53e7ce589638d475218e30d9131.js",
+  "title": "Galaxies Yet to be Forged",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9145d53e7ce589638d475218e30d9131.js",
+  "sha256": "d0fc26c2faa27516845e8dd5c6fee34c2e0f5d1a54957a0554447c0a352f40c4",
+  "upstream": {
+    "hash": "9145d53e7ce589638d475218e30d9131",
+    "codeLen": 891,
+    "fileOrig": 1,
+    "codeText": "$B=($$b=($b=t>>12)>>4)>>3,c=(arr,$,P=2)=>arr.map(a=>isNaN(a)?0:((t/P*(2**((a+($B>3?2:-1))/12)))&$)).reduce((a,b)=>a+b),Q=$=>parseInt($,36)-12,m=T=>c([Q(\"KC5HC5KC5HC5KCH5MC5HC1MD5JFAMFAJOC5KC5OC5KC5OCK5OC5KC5OCMDFJAFHJK81H81K85H81M8H5JA3FA3JA3F3AKJHMOC5KC5OC5KC5OCK5OC5KC5OCMDFJAFHJ\"[T>>12&127])],32,2)*(1-((T>>4&255)/256)*((T>>19&3)==($B<4?3:1)?1-((T%(1<<19))/(1<<19)):1))*16/7,C=c([[0,5,8],[0,5,10],[5,8,12],[5,8,10],[0,5,8],[0,3,7],[5,8,12],[3,8,10]][$$b&7],32,2)*(.4*(1+sin(((t>>8)-64)/40.74))+.2),M=m(t)+m(t-",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Galaxies Yet to be Forged",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1e3n896/galaxies_yet_to_be_forged/",
+    "date": "2024-07-15",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "0097fe0bdfe67916ae20fb52efba8c24",
+        "author": "SthephanShi",
+        "name": "Trip to Otherworld",
+        "url": "https://www.reddit.com/r/bytebeat/comments/127ij8e/trip_to_otherworld/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-24"
+  }
+}

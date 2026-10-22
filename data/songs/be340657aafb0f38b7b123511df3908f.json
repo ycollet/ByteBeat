@@ -1,0 +1,24 @@
+{
+  "file": "songs/be340657aafb0f38b7b123511df3908f.js",
+  "title": "z",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0c38c6d2f11b1f2f445e64ab3540fa7641d259b62e5b51ea0c371b12cde90a9c",
+  "upstream": {
+    "hash": "be340657aafb0f38b7b123511df3908f",
+    "codeMinLen": 136,
+    "codeMin": "((4E4/(t&16383)&127)+random()*(t>>12&1)*(-t>>5&127)+((t&4096?t*(-t>>7&t>>11):t&8192?t*(t>>10&t&127):t*t/[1,2,3,4][t>>10&3])>>1&127))/1.5",
+    "codeLen": 138,
+    "code": "((4e4/(t&16383)&127)+(random()*(t>>12&1)*(-t>>5&127))+((t&4096?t*(-t>>7&t>>11):t&8192?t*(t>>10&t&127):t*t/[1,2,3,4][t>>10&3])>>1&127))/1.5",
+    "author": "rubi",
+    "name": "z",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10digax/z/",
+    "date": "2022-01-16",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

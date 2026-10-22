@@ -1,0 +1,24 @@
+{
+  "file": "songs/aae79441868d2adf7ad92eba320b17ad.js",
+  "title": "Demporal Tisturbance",
+  "author": "Arch0474",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2a21cac518b4a7ccaabf6ad83788b0c4e7f5e88abc7f792173f4389a8d99f4e8",
+  "upstream": {
+    "hash": "aae79441868d2adf7ad92eba320b17ad",
+    "codeMinLen": 116,
+    "codeMin": "(.5*t&t>>8|t&t>>12&t&t>>8|t*[.3,.335,.5,.5][(t>>16)%4])%128+.5*t%[32,64,128,255][(t>>16)%4]*[.4,.3,.2,.1][(t>>16)%4]",
+    "codeLen": 126,
+    "code": "((0.5*t&t>>8|t&t>>12&t&t>>8)|t*[.3,.335,0.5,0.5][(t>>16)%4])%128+t*0.5%[32,64,128,255][(t>>16)%4]*[0.4,0.3,0.2,0.1][(t>>16)%4]",
+    "author": "Arch0474",
+    "name": "Demporal Tisturbance",
+    "url": "https://dollchan.net/btb/res/3.html#32",
+    "date": "2022-02-13",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

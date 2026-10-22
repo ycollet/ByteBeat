@@ -1,0 +1,29 @@
+{
+  "file": "songs/323be517a0120a7a06400850381455f4.js",
+  "title": "graphics in bytebeat: text",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/323be517a0120a7a06400850381455f4.js",
+  "sha256": "bb3f4a89c9622d3b1d8346357637467f2be9b3701b3634cc6f6dac11e4b92ce0",
+  "upstream": {
+    "hash": "323be517a0120a7a06400850381455f4",
+    "codeLen": 2568,
+    "fileOrig": 1,
+    "codeText": "t||(\nheight=16,\nwidth=height*4,\nbuffer=[],\nclearBuffer=()=>{buffer.length=0;for(i=0;i<height;i++)buffer.push(Array(width).fill(0));},\nsetPixel=(x,y,v)=>{buffer[y][x] = parseInt(v)},\ndrawLine=(t,a,e,s,n)=>{if(!n)return;r=abs(e-t),i=abs(s-a),o=t<e?1:-1,b=a<s?1:-1;let c=r-i;for(;setPixel(t,a,n),t!==e||a!==s;){const e=2*c;e>-i&&(c-=i,t+=o),e<r&&(c+=r,a+=b)}},\ndrawRect=((a,d,e,r,w)=>{drawLine(a,d,e,d,w),drawLine(e,d,e,r,w),drawLine(a,d,a,r,w),drawLine(a,r,e,r,w)}),",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "graphics in bytebeat: text",
+    "description": "Text in the scope! Set \"Diagram\" mode and zoom to 1/16 or 1/32.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dvvgec/graphics_in_bytebeat_text/",
+    "date": "2024-07-05",
+    "sampleRate": 48000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "4"
+    },
+    "tags": [
+      "big"
+    ]
+  }
+}

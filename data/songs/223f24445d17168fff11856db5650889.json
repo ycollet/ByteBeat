@@ -1,0 +1,24 @@
+{
+  "file": "songs/223f24445d17168fff11856db5650889.js",
+  "title": "crave",
+  "author": "emelchenko",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "64d9b3eb5aeb0f2c5fab3c434eac9d51c6e385f7b9500b5208bdee900f4f68c5",
+  "upstream": {
+    "hash": "223f24445d17168fff11856db5650889",
+    "codeMinLen": 64,
+    "codeMin": "100*(sin(t/'202030302020303044005500440055'[(t>>10)%32])+(t>>8))",
+    "codeLen": 66,
+    "code": "1e2*(sin(t/'20203030202030304400550044005500'[(t>>10)%32])+(t>>8))",
+    "author": "emelchenko",
+    "name": "crave",
+    "url": "https://www.reddit.com/r/bytebeat/comments/120dt3g/crave/",
+    "date": "2023-03-24",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

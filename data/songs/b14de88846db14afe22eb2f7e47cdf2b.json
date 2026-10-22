@@ -1,0 +1,25 @@
+{
+  "file": "songs/b14de88846db14afe22eb2f7e47cdf2b.js",
+  "title": "something music",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6697e4f073af2c2ceadfe49de5658b5947853116ee1b1b8127d3a463d482b963",
+  "upstream": {
+    "hash": "b14de88846db14afe22eb2f7e47cdf2b",
+    "codeMinLen": 138,
+    "codeMin": "A=t*[1.7,2.3,,,2.9,3.4][t>>13&5]*[1,.884,1.317,1][t>>17&3]/4&63,E=t*[1,.881,1.317,1][t>>17&3]/4,(E%75/2+E%75.1/2+E%56+E%44.5+E%37.5)/1.5+A",
+    "codeLen": 218,
+    "code": "ASDFDSA=t*[1.7,2.3,1.7,2.3,2.9,3.4,2.9,3.4][t>>13&7]*[1,0.884,1.317,1][t>>17&3]/4&63,EDCFCDE=t*[1,0.881,1.317,1][t>>17&3]/4,EDCFCDE=(EDCFCDE%75/2+EDCFCDE%75.1/2+EDCFCDE%56+EDCFCDE%44.5+EDCFCDE%37.5)/1.5,ASDFDSA+EDCFCDE",
+    "author": "Decent-Manager-6169",
+    "name": "something music",
+    "url": "https://www.reddit.com/r/bytebeat/comments/sc4v7u/something_music/",
+    "date": "2022-01-25",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-10-06"
+  }
+}

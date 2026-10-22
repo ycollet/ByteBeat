@@ -1,0 +1,27 @@
+{
+  "file": "songs/30daa2d8022d19a6c96c33d96d55cb82.js",
+  "title": "Lullaby",
+  "author": "pck404",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/30daa2d8022d19a6c96c33d96d55cb82.js",
+  "sha256": "ab0ff34e87912d478cb9e3c931415f6b598e7cd1b06addbb56776767ddf2ea6b",
+  "upstream": {
+    "hash": "30daa2d8022d19a6c96c33d96d55cb82",
+    "codeLen": 1393,
+    "fileOrig": 1,
+    "codeText": "SR=48000,\nT=t/SR,\nTAU=2*PI,\nmtof=n=>440*2**((n-69)/12),\n\nt||(db=[],di=0),\n\ndl=(v,len=SR/2,fb=.75,mix=.8)=>(",
+    "isTruncated": 1,
+    "author": "pck404",
+    "name": "Lullaby",
+    "description": "Originally set to 8kHz, raised to 48kHz to improve audio quality.",
+    "url": "https://www.bytebeat.cloud/post/e457b3ce-b16d-4909-9a47-a7ce5797ca0d",
+    "date": "2026-01-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-07-31"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/719b65b08191391441c7091b9e56fe33.js",
+  "title": "sleeparrow's squiiki cleane",
+  "author": "arceus413",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/719b65b08191391441c7091b9e56fe33.js",
+  "sha256": "c242dd990e4d190c882cfa48201f563807141228d8a7610ec7252d8892f11d59",
+  "upstream": {
+    "hash": "719b65b08191391441c7091b9e56fe33",
+    "codeLen": 459907,
+    "fileOrig": 1,
+    "codeText": "{init:function(D){D.rate=48000;D.wst=[256,256,128,128,64,32,16,8];D.ft=[262,277,294,311,330,349,370,392,415,440,466,494];D.pt=[0,43,86,129,172,215,256,297,340,383,426,469,512];D.s={l:[],cs:function(d){let s={d:null,pi:0,sp:0,sc:0,ad:0,p:false,l:false,pb:false,v:0,vl:0,vr:0,pl:0,pr:0,tvl:0,tvr:0,vt:0,r:[0,0,0,0],rp:0,};s.d=new Array(d.length);d.forEach(function(v,i){s.d[i]=v-128;});this.sf(s,22050);this.sv(s,0);this.sp(s,0);this.l.push(s);return s;},ds:function(s){const i=this.l.indexOf(s);if(i!==-1)this.l.s",
+    "isTruncated": 1,
+    "author": "arceus413",
+    "name": "sleeparrow's squiiki cleane",
+    "description": "\"wait, monkey clean? this is definitely not an org What's an org who is org\" - arceus413 | Org (tracker format) converted to Bytebeat. Made in collaboration with Strultz. \"Decadent Decade\" battle.",
+    "url": "https://battleofthebits.com/arena/Entry/sleeparrow%27s+squiiki+cleane/80345/",
+    "date": "2025-11-10",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "sleeparrow - squiiki cleane.mid",
+    "coverUrl": "https://battleofthebits.com/arena/Entry/squiiki+cleane.mid/24481/",
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_added": "2025-11-16",
+    "date_edited": "2026-10-18"
+  }
+}

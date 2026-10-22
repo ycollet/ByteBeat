@@ -1,0 +1,35 @@
+{
+  "file": "songs/0097fe0bdfe67916ae20fb52efba8c24.js",
+  "title": "Trip to Otherworld",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/0097fe0bdfe67916ae20fb52efba8c24.js",
+  "sha256": "837db25ec445f3655af6b42f6a7b51f5a537a5a3ad5187478da2a653059b788a",
+  "upstream": {
+    "hash": "0097fe0bdfe67916ae20fb52efba8c24",
+    "codeMinLen": 926,
+    "codeFormLen": 1895,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "b=t>>19,d=b%4!=1,F=(x,y)=>x>>(t>>y)&1,S=(a,t,s,p=1,v=0)=>2.1*(t+v)/p*2**(a[t>>s&(a.length-1)]/12)&128,M=t=>t>0&&(b>5?.45:.6)*S([8,0,-7,5,0,-7,8,0,-7,5,0,-7,8,0,5,-7,10,0,-7,5,0,-11,10,1,-7,7,3,-2,10,3,-2,7,12,0,-7,8,0,-7,12,0,-7,8,0,-7,12,0,8,-7,12,0,-7,8,0,-7,12,0,10,1,3,7,-2,3,5,7,8,-4,-11,5,-4,-11,8,-4,-7,5,-4,-11,10,-4,5,-7,7,-2,-9,3,-2,-9,7,-2,-9,3,-9,-2,8,7,5,10,12,0,-7,8,0,-7,12,0,-7,8,0,-7,12,0,8,-7,12,0,-7,8,0,-7,12,0,10,1,3,7,-2,3,5,7],t,12)*(1-t%4096/4224/(d?1:1+(t>>16)%8/4)),L=(t,p)=>.18*S([8,10",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Trip to Otherworld",
+    "description": "\"You were engaged in spiritual practices and finally reached nirvana. So, your soul left your body and began to travel in another dimension.\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/127ij8e/trip_to_otherworld/",
+    "date": "2023-03-31",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

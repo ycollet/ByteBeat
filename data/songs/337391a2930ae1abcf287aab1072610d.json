@@ -1,0 +1,28 @@
+{
+  "file": "songs/337391a2930ae1abcf287aab1072610d.js",
+  "title": "binary",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9a3d00d6f8f5bd54ee70491830a95285e7fe96210af88580805a6fac0ae59ce3",
+  "upstream": {
+    "hash": "337391a2930ae1abcf287aab1072610d",
+    "codeLen": 23,
+    "code": "(t>>12>>(t>>7&7)&1)*255",
+    "author": "D3nschøt",
+    "name": "binary",
+    "description": "Binary counter on the scope. Set \"Diagram\" mode and max zoom.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dewy70/binary/",
+    "date": "2024-06-13",
+    "sampleRate": 44100,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 0
+    },
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

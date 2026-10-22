@@ -1,0 +1,37 @@
+{
+  "file": "songs/4f177605767e1fff61bac0bdf0f8c11b.js",
+  "title": "remix of no 4 by yehar",
+  "author": "emelchenko",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "30811b033bc0e361c574b90abaf93d215dccaf41468a0f456eae786005d4e0cb",
+  "upstream": {
+    "hash": "4f177605767e1fff61bac0bdf0f8c11b",
+    "codeLen": 189,
+    "code": "(v=t/2^(t&64?63:0),v>>=v,v/(1+(v>>7))&t/32|(t>>11)%8%3*t*t&15)*1.5+(t*=4,a='+ -  +- ++-+ +- ',b=a[(t>>13)%a.length],(b=='+'?cbrt(t&8191)*2&1:b=='-'?(t&3?c:c=round(random())):0)*(~t>>6&127))",
+    "author": "emelchenko",
+    "name": "remix of no 4 by yehar",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hbwc07/remix_of_no_5_no_no_4_by_yehar/",
+    "date": "2024-12-11",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e041e48d4892b697c1071147e3bddf10",
+        "author": "yehar",
+        "name": "No 4",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401817"
+      },
+      {
+        "hash": "bb58e4dc9f3a61784f5efd1bb2695a9b",
+        "author": "emelchenko",
+        "name": "customizable beat",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1h69y07/customizable_beat/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

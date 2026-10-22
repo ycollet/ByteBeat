@@ -1,0 +1,22 @@
+{
+  "file": "songs/aeb1c80b97213c71c1d2b5982d0431cb.js",
+  "title": "Wheezing modem",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "797000e0271b7234c2ad6e78ef290ba9d90e898156868a990b6c8ed14d1166fb",
+  "upstream": {
+    "hash": "aeb1c80b97213c71c1d2b5982d0431cb",
+    "codeLen": 36,
+    "code": "100*((t<<2|t>>5|t^63)&(t<<10|t>>11))",
+    "author": "SthephanShi",
+    "name": "Wheezing modem",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

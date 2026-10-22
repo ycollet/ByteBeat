@@ -1,0 +1,27 @@
+{
+  "file": "songs/2e265b9ed18b6617564276590bdd70c4.js",
+  "title": "Crazy Groovy Beats 2",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2e6e083e35c6a7277d3d4803f7566967096baf78c54763d07ebc6555d8c7a308",
+  "upstream": {
+    "hash": "2e265b9ed18b6617564276590bdd70c4",
+    "codeMinLen": 101,
+    "codeMin": "d=t>>12&1,h=(t>>9)+4,t*t*(t&255)*d/156+(t*(t^15)+t)*((h|t/2048+1&127)-h)/64&127-d*(2*(t>>5&127)/3+32)",
+    "codeLen": 103,
+    "code": "d=t>>12&1,h=(t>>9)+4,(t*t*(t&255)*d/156+(t*(t^15)+t)*((h|t/2048+1&127)-h)/64&127-d*((t>>5&127)*2/3+32))",
+    "author": "Gabriel Miceli",
+    "name": "Crazy Groovy Beats 2",
+    "url": [
+      "https://www.youtube.com/watch?v=V4GfkFbDojc",
+      "https://youtu.be/V4GfkFbDojc?t=275"
+    ],
+    "date": "2016-07-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

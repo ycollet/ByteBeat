@@ -1,0 +1,42 @@
+{
+  "file": "songs/57ad5b971c3125d4f8694634726297bf.js",
+  "title": "Moj pas se popiškio po cijelom mom S.I.T.E",
+  "author": "PrincessPriscillaPT",
+  "mode": "Bytebeat",
+  "rate": 47412,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "eddb7c7d9929aed997c2594e05cd2bd2ddfcb5743fdefbc6cf14d7bd4b0d8840",
+  "upstream": {
+    "hash": "57ad5b971c3125d4f8694634726297bf",
+    "codeMinLen": 197,
+    "codeMin": "a=t*2**(z=round(log2([1,1.2,1.5,1.6,t&131072?1.8:2,1.6,1.5,1.2][7&t>>13]*(t&2**18?.9:1))*12)/12-1),\nt||(d=Array(D=24576).fill(0)),m=(a%64+a%63.8+a%64.15+a%64.35+a%63.5)/3-52+d[t%D],d[t%D]=m/2,m+128",
+    "codeLen": 248,
+    "code": "s=min(1,t/1024%8),t?(a=t*2**(z=(round(log2(([1,1.2,1.5,1.6,t&2**17?1.8:2,1.6,1.5,1.2][7&t>>13]*(t&2**18?.9:1)))*12)/12-1)),isNaN(z)?a=6e4:0):(a=6e4,this.d=Array(24576).fill(0)),m=(a%64+a%63.8+a%64.15+a%64.35+a%63.5)/3-52+d.shift(),d.push(m/2),m+128",
+    "author": "PrincessPriscillaPT",
+    "name": "Moj pas se popiškio po cijelom mom S.I.T.E",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1h355ie/moj_pas_se_popi%C5%A1kio_po_cijelom_mom_site/",
+      "https://dollchan.net/btb/res/7164.html#7230"
+    ],
+    "date": "2024-11-30",
+    "sampleRate": 47412,
+    "remix": [
+      {
+        "hash": "e7b2a635309d17a7814b1b91f5182e02",
+        "author": "rubi",
+        "name": "moj pas je se popiškija u cijelu moju kuču",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14kbt4x/moj_pas_je_se_popi%C5%A1kija_u_cijelu_moju_ku%C4%8Du/"
+      },
+      {
+        "hash": "56db8de253d69646277181012cc546ec",
+        "author": "lhphr",
+        "name": "s.i.t.e. (synth in the emptiness)",
+        "url": "https://dollchan.net/btb/res/44.html#69"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

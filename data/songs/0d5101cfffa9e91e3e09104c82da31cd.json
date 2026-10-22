@@ -1,0 +1,24 @@
+{
+  "file": "songs/0d5101cfffa9e91e3e09104c82da31cd.js",
+  "title": "processings",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3001753da9b55f143ff429d3882cdc6e9072204246dc4913cb6ecd6d68a2e814",
+  "upstream": {
+    "hash": "0d5101cfffa9e91e3e09104c82da31cd",
+    "codeMinLen": 61,
+    "codeMin": "t**(1+(t>>8)/(t/2%(2-4*(x=t>>17&1)))%(2+14*x))**(t/127%(2-x))",
+    "codeLen": 65,
+    "code": "(t**(1+(t>>8)/(t/2%(2-4*(x=(t>>17&1))))%(2+14*x))**(t/127%(2-x)))",
+    "author": "lhphr",
+    "name": "processings",
+    "url": "https://dollchan.net/btb/res/44.html#44",
+    "date": "2022-04-05",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/1504bcd6f19d019f011bfbc1e1a53057.js",
+  "title": "303 on a budget",
+  "author": "polyzium",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1504bcd6f19d019f011bfbc1e1a53057.js",
+  "sha256": "98eb7462fea2e4b7f63070ba22f5a17a06475c5a06714f22d248114e57228200",
+  "upstream": {
+    "hash": "1504bcd6f19d019f011bfbc1e1a53057",
+    "codeLen": 5160,
+    "codeFormLen": 5468,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "bt=12,\n\nSAMP_RATE = 44100,\nBPM = 140,\nts = t / SAMP_RATE,\nbeat = BPM * ts / 60,\ntick = floor(beat * 48) % 192+1,\n",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "303 on a budget",
+    "url": "https://dollchan.net/btb/res/3.html#131",
+    "date": "2022-08-05",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

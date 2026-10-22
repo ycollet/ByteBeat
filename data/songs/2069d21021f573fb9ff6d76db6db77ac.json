@@ -1,0 +1,38 @@
+{
+  "file": "songs/2069d21021f573fb9ff6d76db6db77ac.js",
+  "title": "Remix of \"Moj pas se popiškio po cijelom mom S.I.T.E\"",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2069d21021f573fb9ff6d76db6db77ac.js",
+  "sha256": "b6c47931f46243afb945d289073407fd2a494094e0f96fd346dd40c385e4a4ab",
+  "upstream": {
+    "hash": "2069d21021f573fb9ff6d76db6db77ac",
+    "codeMinLen": 798,
+    "codeLen": 800,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "s=min(1,t/1024%8),x=t&2**18?1/2**(1/6):1,b=abs(atan(64*sin(tan(1.2*atan(sin(t*x*PI/512-t*PI/131072)**4+cos(t*x*PI/512+t*PI/131072)**5))*PI/2)*sin(t*x*PI/256))*(1-t*x/1024%1)**.6),k=atan(sin(1.2*cbrt(t%32768*60))*(1-t/32768%1)**2*1.5)*(1-t/32768%1)**1.5,t?(a=t*2**(z=round(12*log2([1,1.2,1.5,1.6,t&131072?1.8:2,1.6,1.5,1.2][7&t>>13]*x))/12-1),isNaN(z)?a=6E4:0):(a=6E4,d=Array(y=24576).fill(q=0)),m=((a%64+a%63.8+a%64.15+a%64.35+a%63.5)/8-16)**2/3-d[++q%y],d[q%y]=m/2,(m/64-1+(b/1.56-.15)*min(t/2**20,1)**1.5*1.3)*",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Remix of \"Moj pas se popiškio po cijelom mom S.I.T.E\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h3qtnp/remix_of_moj_pas_se_popi%C5%A1kio_po_cijelom_mom_site/",
+    "date": "2024-12-01",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "57ad5b971c3125d4f8694634726297bf",
+        "author": "PrincessPriscillaPT",
+        "name": "Moj pas se popiškio po cijelom mom S.I.T.E",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1h355ie/moj_pas_se_popi%C5%A1kio_po_cijelom_mom_site/",
+          "https://dollchan.net/btb/res/7164.html#7230"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

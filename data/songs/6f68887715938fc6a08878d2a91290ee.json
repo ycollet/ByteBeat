@@ -1,0 +1,26 @@
+{
+  "file": "songs/6f68887715938fc6a08878d2a91290ee.js",
+  "title": "polyphonic nokia bytetone",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6c15142551ec715ed4cbddd2fe6b07dd427e2f517396ce97d18283cc5b122dd5",
+  "upstream": {
+    "hash": "6f68887715938fc6a08878d2a91290ee",
+    "codeMinLen": 225,
+    "codeMin": "T=t*.96,q=v=>t*2**(v/12),a=q([17,15,7,7,9,9,14,12,3,3,5,5,12,10,2,2,5,5,10,10,10,10,10,10][(T>>12)%26])&63,b=q([0,24,24,-7,21,21,-2,17,17,22,22,22][k=(T>>13)%13])>>2&63,c=q([12,27,27,5,24,24,10,22,22,26,26,26][k])>>2&63,a+b+c",
+    "codeLen": 232,
+    "code": "T=t*.96,q=v=>t*2**(v/12),a=q([17,15,7,7,9,9,14,12,3,3,5,5,12,10,2,2,5,5,10,10,10,10,10,10][(T>>12)%26])&63,b=q([0,24,24,-7,21,21,-2,17,17,22,22,22][(T>>13)%13])>>2&63,c=q([12,27,27,5,24,24,10,22,22,26,26,26][(T>>13)%13])>>2&63,a+b+c",
+    "author": "hcdphobe",
+    "name": "polyphonic nokia bytetone",
+    "url": "https://dollchan.net/btb/res/163.html#1392",
+    "date": "2023-06-23",
+    "sampleRate": 32000,
+    "coverName": "Nokia Polyphonic Ringtone",
+    "coverUrl": "https://youtu.be/GejGiINJwDw",
+    "tags": [
+      "256"
+    ]
+  }
+}

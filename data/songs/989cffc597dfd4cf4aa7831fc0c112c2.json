@@ -1,0 +1,25 @@
+{
+  "file": "songs/989cffc597dfd4cf4aa7831fc0c112c2.js",
+  "title": "15) FRACTAL",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6a2aa4c50259b6b382f2a5d73054bb7fca053f8a9d5a2383125f17342f969cc4",
+  "upstream": {
+    "hash": "989cffc597dfd4cf4aa7831fc0c112c2",
+    "codeMinLen": 33,
+    "codeMin": "19*(2*t>>43|15*t>>4)&(7*t>>172)/2",
+    "codeLen": 36,
+    "code": "((t*2>>43|t*3*5>>4)*19)&(t*7>>172)/2",
+    "author": "Anonymous from russian imageboards",
+    "name": "15) FRACTAL",
+    "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

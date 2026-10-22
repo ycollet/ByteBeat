@@ -1,0 +1,30 @@
+{
+  "file": "songs/8480806fb1dfbf5d57a3ebaab1508d44.js",
+  "title": "glitchy side-kicking",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 17333,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8480806fb1dfbf5d57a3ebaab1508d44.js",
+  "sha256": "ef8dca02ffa9add6bc551757129bd00e1d2c098c736e5b36dde29b04044815b0",
+  "upstream": {
+    "hash": "8480806fb1dfbf5d57a3ebaab1508d44",
+    "codeMinLen": 926,
+    "codeLen": 936,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "y=t/1.036*2,v=1.0595,v2=v**12,v3=v2*2,m=[v2*v,v2*v**4,v2*v,v**8,v2*v,v2*v**4,v2*v,v**8,v3/v,v3/v,v3/v**4,v3/v**4,v3/v**6,v3/v**6,v3/v**4,v3/v**4,v**9,v**4,v**9,v2*v,v2*v**4,v2*v,v2/v,v2*v,v2/v**4,v**3,v2/v**4,v**3,v2,v2/v**4,v2*v,v2*v**3,v3/v**4,v2*v**4,v2*v,v2/v**4,v3/v**4,v2*v**4,v2*v**3,v2*v**6,v2*v**4,v2*v**3,v2/v,v2/v**4,v2/v,v2*v**3,v2*v,v2*v**3,v3/v**3,v2*v**4,v2*v,v2*v**4,v3/v**3,v3*v,v3/v,v3/v**3,v3/v**4,v3,v3/v**4,v3*v**3,v3*v,v3,v3/v**4,v3*v**3],b=[v,v2/v**4,v/v**4,v/v**5,v2/v**4,v*v**3,v2/v**3,v",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "glitchy side-kicking",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c5cto3/glitchy_sidekicking/",
+    "date": "2024-04-16",
+    "sampleRate": 17333,
+    "stereo": 1,
+    "coverName": "Vs Dave & Bambi Fanmade Song - Glitchy Side-kicking (Craziness 2)",
+    "coverUrl": "https://youtu.be/HE0AN7G7FlU",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-19"
+  }
+}

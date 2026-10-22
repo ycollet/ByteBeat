@@ -1,0 +1,29 @@
+{
+  "file": "songs/60af10a6f39d92333ce47db7c5ddf880.js",
+  "title": "I can't sleep yet...",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/60af10a6f39d92333ce47db7c5ddf880.js",
+  "sha256": "2afda1864dc9c21b890544672dd9b5341f286d2a4150c4517820adf3b454c12a",
+  "upstream": {
+    "hash": "60af10a6f39d92333ce47db7c5ddf880",
+    "codeLen": 6940,
+    "fileOrig": 1,
+    "codeText": "let nHz=n=>288*2**((n-12)/12),\n    TAU=Math.PI*2,\n    sine=x=>Math.sin(TAU*x),\n    mod=(n,m)=>(n%m+m)%m,\n    skew=(x,p)=>x<.5?((2*x)**p)*.5:1-(((2*(1-x))**p)*.5);\nif(typeof sampleRate===\"undefined\")\n    sampleRate=48000;\nclass Flanger{",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "I can't sleep yet...",
+    "description": "Originally set to 19kHz, raised to 48kHz to improve audio quality.",
+    "url": "https://dollchan.net/btb/res/3.html#5731",
+    "date": "2025-03-29",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-31"
+  }
+}

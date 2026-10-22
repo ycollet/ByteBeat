@@ -1,0 +1,34 @@
+{
+  "file": "songs/3b431efe48823695f514e4561be1fe26.js",
+  "title": "Cave",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a8e5da1473565a36c2039ee051ed04f30f2b59a604878c06465943098e05ea82",
+  "upstream": {
+    "hash": "3b431efe48823695f514e4561be1fe26",
+    "codeMinLen": 266,
+    "codeMin": "t/=6,mel=t=>32*sin(t/'202030302020303044005500440055'[t>>10&31])+32|0,min(255,mel(t)+mel(t-800)/2+mel(t-3200)/4+mel(t-6400)/8+mel(t-12800)/16+((90*sqrt(t&4095)|t>>4)&64)+(t*400*sin(t>>1)&255)*(1-t*2/2048%1)/4+(t*90*sin(t>>1)&255)*(1-t/2048%1)*[1,0][t>>12&1]/2)/128-1",
+    "codeLen": 287,
+    "code": "t/=6,mel=t=>(32*sin(t/\"202030302020303044005500440055\"[t>>10&31])+32|0),min(255,mel(t)+(mel(t-800)/2)+(mel(t-(800*4))/4)+mel(t-(800*8))/8+mel(t-(800*16))/16+((90*sqrt(t&4095)|t>>4)&64)+(t*400*sin(t>>1)&255)*(1-t*2%2048/2048)/4+(t*90*sin(t>>1)&255)*(1-t%2048/2048)*[1,0][t>>12&1]/2)/128-1",
+    "author": "Maxi",
+    "name": "Cave",
+    "url": "https://dollchan.net/btb/res/500.html#1429",
+    "date": "2023-06-29",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "223f24445d17168fff11856db5650889",
+        "author": "emelchenko",
+        "name": "crave",
+        "url": "https://www.reddit.com/r/bytebeat/comments/120dt3g/crave/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

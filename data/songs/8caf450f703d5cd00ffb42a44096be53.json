@@ -1,0 +1,27 @@
+{
+  "file": "songs/8caf450f703d5cd00ffb42a44096be53.js",
+  "title": "weird polyrhythm thing",
+  "author": "RealZynx92",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8caf450f703d5cd00ffb42a44096be53.js",
+  "sha256": "8363ee3f44313b3c905a3a200fd570629e840fbe498728d1dcfab77749f0fb23",
+  "upstream": {
+    "hash": "8caf450f703d5cd00ffb42a44096be53",
+    "codeLen": 1138,
+    "fileOrig": 1,
+    "codeText": "BPM = 120,\nA = 440,\nT = t/180*BPM,\nscale = [0,3,5,7,10], // minor pentatonic\nt || (\n    fx = Array(3e6).fill(0) // this array stores memory for the effects\n),\n",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "weird polyrhythm thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h76ijm/weird_polyrhythm_thing/",
+    "date": "2024-12-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-17"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/151216f62cd50cf14a68682e37eab48a.js",
+  "title": "C-trixtraria",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2e982899adbc2ad21797e6283a6fb1b5f9ae6be084381ecd0dc28ece8916d9b6",
+  "upstream": {
+    "hash": "151216f62cd50cf14a68682e37eab48a",
+    "codeLen": 436,
+    "code": "t>>17>14?0:(t>>17==5||t>>17==12||t>>17>12?((t*(t>>16&1?t>>15&1?36:38:t>>15&1?32:27)/((2-(2523490710>>(t>>10&31)&1))*(t>>17>7?3:6)))&(t>>17==14?96:192))-(t>>17>12?0:(t>>11&t&15)):(37649&1<<(t>>10&15)?(int)(((t+314)*128/((t>>5&31)+1)&255)/85)*85:0)|(t>>17?(((t*(t>>16&1?t>>15&1?36:38:t>>15&1?32:27)/(t>>17>5?((2-(2523490710>>(t>>10&31)&1))*(t>>17>7?3:6)):12))&192)+(t>>18?t&15:0))*(t>>18?128+(t>>6&127):128)/128-(t>>17>2?(t>>11&15):0):0))",
+    "author": "Chasyxx",
+    "name": "C-trixtraria",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1aqwcag/ctrixtraria/",
+      "https://dollchan.net/btb/res/756.html#2989"
+    ],
+    "date": "2024-02-14",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "8d47960167dc29feea3daed87d6134b3",
+        "author": "lhphr",
+        "name": "Retrixtaria",
+        "url": "https://dollchan.net/btb/res/44.html#61"
+      }
+    ],
+    "tags": [
+      "1k",
+      "c"
+    ]
+  }
+}

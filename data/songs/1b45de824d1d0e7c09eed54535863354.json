@@ -1,0 +1,25 @@
+{
+  "file": "songs/1b45de824d1d0e7c09eed54535863354.js",
+  "title": "unexpected token",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1b45de824d1d0e7c09eed54535863354.js",
+  "sha256": "98514a4c21e49e39c8eb9f4f214bb899e834a4ac8f173db191e45d0ac07025c1",
+  "upstream": {
+    "hash": "1b45de824d1d0e7c09eed54535863354",
+    "codeLen": 4718,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - unexpected token\n *\n */\n\nvar sampleRate = 48000;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "unexpected token",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

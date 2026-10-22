@@ -1,0 +1,24 @@
+{
+  "file": "songs/af14ddf9da5c87ab2f5c3b4309675d52.js",
+  "title": "some hats and kicks in caftaphata",
+  "author": "aniruF",
+  "mode": "Floatbeat",
+  "rate": 53000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "90f55b2492cb23c1b632bb7ab200b1203831e0d1d883ac94f391a7004c798979",
+  "upstream": {
+    "hash": "af14ddf9da5c87ab2f5c3b4309675d52",
+    "codeLen": 123,
+    "code": "(random()-.5)*((parseInt(\"8ea88e88ca8e88e0\"[t>>13&15],16)>>(3&-t>>11))&1)+asin(sin(sqrt(t&32767)))/PI/(1024+(t&32767))*4096",
+    "author": "aniruF",
+    "name": "some hats and kicks in caftaphata",
+    "url": "https://dollchan.net/btb/res/5289.html#10133",
+    "date": "2025-10-24",
+    "mode": "Floatbeat",
+    "sampleRate": 53000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-12-21"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "file": "songs/d7f7fa55d6fa85adbd83b30165294a7f.js",
+  "title": "UP3 Remix",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d7f7fa55d6fa85adbd83b30165294a7f.js",
+  "sha256": "87fe2df1adde1aadbc2d35e6bedae5c73d76f0c84499815abc9f05f9f349324d",
+  "upstream": {
+    "hash": "d7f7fa55d6fa85adbd83b30165294a7f",
+    "codeLen": 5229,
+    "fileOrig": 1,
+    "codeText": "t || (fx = [], dlayfx = []), fxi = 0, dlayfxi = 0,\nwsin = phase => (- cos(phase / 256 * PI) + 1) * 128 - .5,\ndt = t, dlayMax = rvrbMax = 1e6,\n\n// What you're seeing here is feeshbread's Dead Data Reverb code.\nlpf = lowPassFilter = (a, c) => (\n\tlp_fxii = fxi ++,\n\tfx[lp_fxii] ??= 0,",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "UP3 Remix",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1pgjivw/remix_of_the_bfditpot_intro/",
+      "https://dollchan.net/btb/res/7164.html#11164"
+    ],
+    "date": "2025-12-07",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "de6ffaf12818006831fa0ee082bc7a88",
+        "author": "Decent-Manager-6169",
+        "name": "Unnecessary Post 3",
+        "url": "https://dollchan.net/btb/res/520.html#5666"
+      }
+    ],
+    "coverName": "Coal Bones - BFDI: TPOT Intro (Gibberish!!)",
+    "coverUrl": "https://www.youtube.com/watch?v=J3tzL5eCSAg",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-12-09"
+  }
+}

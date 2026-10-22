@@ -1,0 +1,33 @@
+{
+  "file": "songs/2ecb401062f9fd67242bf8a7f2861093.js",
+  "title": "Stimmer but the melodies are on opposite ears",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "68171e9ba9e565aece93fadc13c740dba751d77dfbf56f4c6bb71d6c72290105",
+  "upstream": {
+    "hash": "2ecb401062f9fd67242bf8a7f2861093",
+    "codeMinLen": 65,
+    "codeMin": "[t/2*(4|7&t>>13)>>(~t>>11&1)&128,2*t*(t>>11&t>>13)*(~t>>9&3)&127]",
+    "codeLen": 69,
+    "code": "[(t/2*(4|7&t>>13)>>(~t>>11&1)&128),(t*2*(t>>11&t>>13)*(~t>>9&3)&127)]",
+    "author": "PortablePorcelain",
+    "name": "Stimmer but the melodies are on opposite ears",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ukucgm/stimmer_but_the_melodies_are_on_opposite_ears/",
+    "date": "2022-05-08",
+    "sampleRate": 8000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

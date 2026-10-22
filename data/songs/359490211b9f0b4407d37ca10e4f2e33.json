@@ -1,0 +1,28 @@
+{
+  "file": "songs/359490211b9f0b4407d37ca10e4f2e33.js",
+  "title": "blurry checkered pattern on diagram",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "61fd2bdda7d54aaf0195a64097faea985d07c274ec409641fbc8c8ccb71a6968",
+  "upstream": {
+    "hash": "359490211b9f0b4407d37ca10e4f2e33",
+    "codeLen": 27,
+    "code": "sin(t*PI/32)*sin(t*PI/8192)",
+    "author": "Zackx",
+    "name": "blurry checkered pattern on diagram",
+    "description": "Set \"Diagram\" mode and zoom to 2(-7) or 2(-8).",
+    "url": "https://dollchan.net/btb/res/204.html#1738",
+    "date": "2023-07-27",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 7
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

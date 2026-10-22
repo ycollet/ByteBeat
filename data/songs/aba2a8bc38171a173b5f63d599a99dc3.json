@@ -1,0 +1,31 @@
+{
+  "file": "songs/aba2a8bc38171a173b5f63d599a99dc3.js",
+  "title": "Mysterious inverted sound",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2dce163464ccebfdfbc9265222e046d00dcecceb8ab2d949f97ad62101279740",
+  "upstream": {
+    "hash": "aba2a8bc38171a173b5f63d599a99dc3",
+    "codeLen": 44,
+    "code": "t*(t&16384?6:5)*(4-(1&t>>8))>>(3&-t>>9)|t>>6",
+    "author": "SthephanShi",
+    "name": "Mysterious inverted sound",
+    "date": "2017-11-26",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "f8afda7e61792a7b85d90ac75eb7f501",
+        "author": "SthephanShi",
+        "name": "Aliens are here",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

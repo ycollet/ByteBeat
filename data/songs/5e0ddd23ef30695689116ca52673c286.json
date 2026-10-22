@@ -1,0 +1,41 @@
+{
+  "file": "songs/5e0ddd23ef30695689116ca52673c286.js",
+  "title": "Combination stimmer + Street Surfer fix up",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "289561cbf3f291512e3b6ecd1933e892122c59da9bfd52a52a7bc0dac7af1772",
+  "upstream": {
+    "hash": "5e0ddd23ef30695689116ca52673c286",
+    "codeLen": 129,
+    "code": "((t*(4|t>>13&3)>>(~t>>11&1)&128|t*(t>>11&t>>13)*(~t>>9&3)&127)&255)/2+((t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))&255)/2",
+    "author": "Zackx",
+    "name": "Combination stimmer + Street Surfer fix up",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12vt718/list_of_my_creatorremixes_2/",
+    "date": "2023-04-23",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "eba8646b063e5deaed042630ad6cf106",
+        "author": "stimmer",
+        "name": null,
+        "url": "https://forum.arduino.cc/t/one-line-algorithmic-music/73409"
+      },
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+t/=6,a=t/"76547698"[t>>13&7]*(t>>10&3)*85/8,sin(a*PI/125+sin(a*PI/128)+cbrt(sin(a*PI/127))+sign(sin(a*PI/63)))/2+sin(random()*2-1)/SQRT2*!(2-(t>>11&3))/exp(t/256%4)

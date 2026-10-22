@@ -1,0 +1,31 @@
+{
+  "file": "songs/68ca30167527ddeb6de73c530dea7b83.js",
+  "title": "remix of \"alright fine by SArpnt\"",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e3d4c1d4d92bbd4b8048f50353b071d5b0bf7bb0ec8ca685e0abfd64e59d9dec",
+  "upstream": {
+    "hash": "68ca30167527ddeb6de73c530dea7b83",
+    "codeLen": 164,
+    "code": "t/=6,a=t/\"76547698\"[t>>13&7]*(t>>10&3)*85/8,sin(a*PI/125+sin(a*PI/128)+cbrt(sin(a*PI/127))+sign(sin(a*PI/63)))/2+sin(random()*2-1)/SQRT2*!(2-(t>>11&3))/exp(t/256%4)",
+    "author": "ANoUserXD",
+    "name": "remix of \"alright fine by SArpnt\"",
+    "url": "https://dollchan.net/btb/res/2628.html#2834",
+    "date": "2023-12-24",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "61db1a6482a29087ea9c41a0b08cd493",
+        "author": "SArpnt",
+        "name": "alright fine",
+        "url": "https://www.reddit.com/r/bytebeat/comments/rwryz6/alright_fine/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

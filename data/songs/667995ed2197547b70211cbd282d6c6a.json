@@ -1,0 +1,32 @@
+{
+  "file": "songs/667995ed2197547b70211cbd282d6c6a.js",
+  "title": "bitcrushed amen break",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/667995ed2197547b70211cbd282d6c6a.js",
+  "sha256": "b4449090ef43194241efe8665bdb2449967f34c39fc7e79cdca01ca05a2adf71",
+  "upstream": {
+    "hash": "667995ed2197547b70211cbd282d6c6a",
+    "codeMinLen": 6619,
+    "codeLen": 10083,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "`6sbryb\\\\\\`g9´Í£-o´ÿb!?q©â±óµÑë}F\u001c-\faÇö×f\u001c<e¬ÌáÀ´¢m.8Q|¸ÝæàÄc] \u0016Lrn6\\\\n*[f¢Ëÿäÿ×ËmT3$2*36-9Ae®ð÷ìÈ²¢nqn|lf[;Ks©§gcO5?TuPu^yQºÀÍÚÄ|X\\\\yQyqtd}¾¬uYBLdt}nÂ²rOQG~¦[r Á±y}M|ngp}M^ab·lKm~[lTIYxZ}¯®­®´µfZMiOBUm¨¬ÎÂ¥bVj}|x@%L{·¶~[p¦||mww\fuWU§q¸yz¦zXa>_]ov¥½­¡¥ylkcZwg}u|Sqtozf[wmx{v{wxyx¡¯~ssduulk{yutj}~ kwsiw{~wXxzu{a[ayumbªzn~|x}nxqxyhuyctznt~|{zuxsobogun¦",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "bitcrushed amen break",
+    "description": "Converted 8 bit unsigned PCM data into bytebeat, with samples repeating after each 5th one.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/yc9rut/bitcrushed_amen_break/",
+    "date": "2022-10-24",
+    "sampleRate": 8000,
+    "coverName": "'Amen Break' from 'Winstons - Amen, Brother'",
+    "coverUrl": "https://youtu.be/NkU4hsaFglU?si=5L07GE3_q5slKI5E",
+    "tags": [
+      "big",
+      "sample",
+      "slow"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

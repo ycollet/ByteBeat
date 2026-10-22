@@ -1,0 +1,30 @@
+{
+  "file": "songs/df699f508ea959543e479ba68404124e.js",
+  "title": "TRCK v91623 - farmer type beat",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/df699f508ea959543e479ba68404124e.js",
+  "sha256": "ebaf099e3637f03996e10e2a5b4c855a0b0b45428fa70060d1f850a3a4ba3a74",
+  "upstream": {
+    "hash": "df699f508ea959543e479ba68404124e",
+    "codeLen": 5627,
+    "fileOrig": 1,
+    "codeText": "/*\n    \\==#==/  #===#  /===#  |  /\n   \t |     |   /  #      | /\n       |\t\t #==#   #      #=\\\n       |\t\t |   \\  \\===#  |  \\ \n\n   we dont use notes, notes use you\n",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "TRCK v91623 - farmer type beat",
+    "description": "4-channel POKEY-like tracker.",
+    "url": [
+      "https://dollchan.net/btb/res/27.html#2301",
+      "https://www.reddit.com/r/bytebeat/comments/16kail3/trck_v91623_farmer_type_beat/"
+    ],
+    "date": "2023-09-16",
+    "sampleRate": 16000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-12-03"
+  }
+}

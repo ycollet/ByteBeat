@@ -1,0 +1,31 @@
+{
+  "file": "songs/94b1440a08757cd0df6ad422c16ffa76.js",
+  "title": "cool reverb with filter V2",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bd026fce0566b3b8e2d9c22c2ae1b633e424535e09d3d387808ee2062b9f9fec",
+  "upstream": {
+    "hash": "94b1440a08757cd0df6ad422c16ffa76",
+    "codeLen": 189,
+    "code": "i=1/1.5,t||(A=Array(n=16384/i|0).fill(a=b=c=d=e=0)),a+=i*2**((\"0x\"+\"035787A7\"[i*++b>>14&7])/12),v=a%256/5+A[++c%n],A[c%n]=v/1.25,l=d++?(l*(x=127*abs(sin(e+=i*PI/524288)))+v)/(1+x):0,l/128-1",
+    "author": "ANoUserXD",
+    "name": "cool reverb with filter V2",
+    "url": "https://dollchan.net/btb/res/2628.html#2823",
+    "date": "2023-12-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "dcfe5dfa763db33ec159e82264aa0b48",
+        "author": "ANoUserXD",
+        "name": "cool reverb with filter",
+        "url": "https://www.reddit.com/r/bytebeat/comments/154h111/cool_reverb_with_filter/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

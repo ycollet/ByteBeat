@@ -1,0 +1,26 @@
+{
+  "file": "songs/63677bafa490857bf9f9fe8daf27002e.js",
+  "title": "Cover of \"OMORI OST - Acrophobia\"",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/63677bafa490857bf9f9fe8daf27002e.js",
+  "sha256": "c497de8f6d6138435a9e6117565cc56e950121a189309a01a8b595062bc3701a",
+  "upstream": {
+    "hash": "63677bafa490857bf9f9fe8daf27002e",
+    "codeLen": 1437,
+    "fileOrig": 1,
+    "codeText": "lerp=(a,amt,b)=>((a*(1-amt))+(b*amt)),\n$=_=>{throw _},\n\nrev=(input,a,len,name='reverb_channel',len2)=>{\n\tif(this[name] == undefined)\n\t\tthis[name]={array: Array(len2??len).fill(0), position:0};\n\tif(typeof input == 'function') {\n\t\tinput = input(t,len,len2);",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Cover of \"OMORI OST - Acrophobia\"",
+    "url": "https://dollchan.net/btb/res/756.html#1781",
+    "date": "2023-08-02",
+    "sampleRate": 32000,
+    "coverName": "OMORI OST - Acrophobia (Sped Up) Extended",
+    "coverUrl": "https://youtu.be/JM1rfAOjHbc",
+    "tags": [
+      "big"
+    ]
+  }
+}

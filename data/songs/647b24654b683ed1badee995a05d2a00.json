@@ -1,0 +1,25 @@
+{
+  "file": "songs/647b24654b683ed1badee995a05d2a00.js",
+  "title": "Namber wan",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03686e23f7f6846f16acd7171793f789cba3c1429652b9c046952892247f8344",
+  "upstream": {
+    "hash": "647b24654b683ed1badee995a05d2a00",
+    "codeMinLen": 42,
+    "codeMin": "t*'1242'[3&t>>10]*[1,1.2,1.8,2.7][3&t>>14]",
+    "codeLen": 48,
+    "code": "z=t*'1242'[3&t>>10],z*([1,1.2,1.8,2.7][3&t>>14])",
+    "author": "Zackx",
+    "name": "Namber wan",
+    "url": "https://dollchan.net/btb/res/204.html#232",
+    "date": "2022-11-03",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-27"
+  }
+}

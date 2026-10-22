@@ -1,0 +1,23 @@
+{
+  "file": "songs/4b75d23fca4a828ef706916acc5bffe0.js",
+  "title": "Four beats drum machine",
+  "author": "Zackx",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e42178d0657c6651403954fa51462f918fbf724af0ecf1761f1f650a13a0e521",
+  "upstream": {
+    "hash": "4b75d23fca4a828ef706916acc5bffe0",
+    "codeLen": 168,
+    "code": "r=t*.8,h=['1111111144144242','2211224423336333','2222422424224222','1112222132212244'][3&r>>18][15&r>>12],sin(6*cbrt(r*h%16384/h+64))*(1-r*h%8192/8192)*(r*h&8192?0:1)*2",
+    "author": "Zackx",
+    "name": "Four beats drum machine",
+    "url": "https://dollchan.net/btb/res/204.html#1387",
+    "date": "2023-06-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

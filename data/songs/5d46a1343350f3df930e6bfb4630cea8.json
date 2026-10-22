@@ -1,0 +1,34 @@
+{
+  "file": "songs/5d46a1343350f3df930e6bfb4630cea8.js",
+  "title": "Untitled (5d46a134)",
+  "author": "ryg",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "860a0adbb61170ecee05eeff0b564f22c1d868eec262346b42e00bd7ab5d3ce5",
+  "upstream": {
+    "hash": "5d46a1343350f3df930e6bfb4630cea8",
+    "codeMinLen": 69,
+    "codeMin": "(t*'36364689'[t>>13&7]/12&128)+(((t>>12^(t>>12)-2)%11*t/4|t>>13)&127)",
+    "codeLen": 73,
+    "code": "((t*\"36364689\"[t>>13&7]/12)&128)+((((t>>12)^(t>>12)-2)%11*t/4|t>>13)&127)",
+    "author": "ryg",
+    "url": [
+      "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+      "https://youtu.be/tCRPUv8V22o?t=176"
+    ],
+    "date": "2011-10-06",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "87366ade567d1aa63f11f65f725693ab",
+        "author": "Blueberry",
+        "name": "Good old fractal melody",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389114"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

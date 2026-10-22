@@ -1,0 +1,51 @@
+{
+  "file": "songs/ec3d5bbe6e35fa8dabe895a742a9d94e.js",
+  "title": "cover of FM Attack - sleepless nights",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "98a97cc97fb2df4f8430c2d6f9221a1bce23c500d324c82958f052145c59e403",
+  "upstream": {
+    "hash": "ec3d5bbe6e35fa8dabe895a742a9d94e",
+    "codeLen": 460,
+    "code": "r=t*1.45,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.206%64-32,w=r=>r>0&&(e=a=>s('6DIK6DIL6DIK4BGI29EG29EG29EG4BGI'[(r>>14)%32],a)/1.5,e(1)+e(j))*(1-r/l%1*[.75,1][1&r>>19]),w(r)+w(r-(d=24576))/2+w(r-2*d)/3+w(r-3*d)/4-(b=a=>s('IILLBBEG'[7&r>>16],a),b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)+(48*random()-24)*(1-r/u%1)**4+100*sin(6*cbrt(r%l))*(1-r/l%1)*!(r&l)+((t*sin(t>>2)&32)-16)*(1-r/l/2%1)**2*!(~r&2*l))/1.75,-128),127),[x(1.005),x(.995)]",
+    "author": "Zackx",
+    "name": "cover of FM Attack - sleepless nights",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#4026",
+      "https://www.reddit.com/r/bytebeat/comments/1eftxag/cover_of_fm_attack_sleepless_nights/"
+    ],
+    "date": "2024-07-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "6fea463db5ae94e83f9aa85326e0934d",
+        "author": "Zackx",
+        "name": "sleepless nights",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1800",
+          "https://www.reddit.com/r/bytebeat/comments/15hwc8y/songs_was_publish_here_i_made_in_private_server/"
+        ]
+      },
+      {
+        "hash": "5e30ef3600a274f2a872a39e4b49b05f",
+        "author": "Zackx",
+        "name": "somethinh",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4024",
+          "https://www.reddit.com/r/bytebeat/comments/1edi5ya/pwmsynth_master/"
+        ]
+      }
+    ],
+    "coverName": "FM Attack - Sleepless Nights",
+    "coverUrl": "https://youtu.be/afSjekgcalI",
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

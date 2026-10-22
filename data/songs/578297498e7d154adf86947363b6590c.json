@@ -1,0 +1,40 @@
+{
+  "file": "songs/578297498e7d154adf86947363b6590c.js",
+  "title": "The Twelly Tracker v1.04",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/578297498e7d154adf86947363b6590c.js",
+  "sha256": "bebd367a97ed384e471dc5f9a23962e48ad8c115463a424f1fab9fb633c3b66a",
+  "upstream": {
+    "hash": "578297498e7d154adf86947363b6590c",
+    "codeLen": 6886,
+    "fileOrig": 1,
+    "codeText": "/*\n|_   _| |__   ___                  \n  | | | '_ \\ / _ \\                 \n  | | | | | |  __/                 \n _|_|_|_| |_|\\___|  _ _            \n|_   _|_      _____| | |_   _      \n  | | \\ \\ /\\ / / _ \\ | | | | |     \n  | |  \\ V  V /  __/ | | |_| |     ",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "The Twelly Tracker v1.04",
+    "description": "Square Dreams.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mfac3x/the_twelly_tracker_v104/",
+    "date": "2025-08-02",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "3160a62617e3e3c1d269a5bc6ac5cca5",
+        "author": "Two2Fall",
+        "name": "Amazing Dreams",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1lasoz1/amazing_dreams/",
+          "https://bytebeat.oops.wtf/season5/entries.html"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-12-10",
+    "date_edited": "2025-12-15"
+  }
+}

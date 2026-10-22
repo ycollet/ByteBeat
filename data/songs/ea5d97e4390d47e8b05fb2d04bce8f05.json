@@ -1,0 +1,25 @@
+{
+  "file": "songs/ea5d97e4390d47e8b05fb2d04bce8f05.js",
+  "title": "CRITICAL_STRUCTURE_CORRUPTION MUSIC",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a5d4aceeab5e6860e06f99a98da52a6cd7b642f2c8bc07e2354516fa74801113",
+  "upstream": {
+    "hash": "ea5d97e4390d47e8b05fb2d04bce8f05",
+    "codeMinLen": 281,
+    "codeMin": "S=sin,X=(4.125*t/2*(t/2>>12&3^t/2>>14&3|-t/2>>14&3&t/2>>14&15)-t/2*(t/2>>12&3&t/2>>12&3)*((t>>12&4)+4)/((t>>12&6)+4))*[1,2,4,8][t>>18&3]/128,R=t/3*.5*PI/128,S(X)*expm1(.3+S(X/1.001))*exp(S(X/2)/2)*tan(S(1.0001*X)/2)/5+S(1E3/(t%16384+256)**.4)/7+S(R)*tan(S(3*R))*exp(S(8.0001*R))/24",
+    "codeLen": 309,
+    "code": "S=sin,C=cos,T=tan,A=abs,W=exp,C=expm1,c=4.125*t/2*(t/2>>12&3^t/2>>14&3|-t/2>>14&3&t/2>>14&15)-(t/2*(t/2>>12&3&t/2>>12&3))*((t>>12&4)+4)/((t>>12&6)+4),X=c*([1,2,4,8][t>>18&3])/128,R=t/3*0.5*PI/128,S(X)*C(.3+S(X/1.001))*W(S(X/2)/2)*T(S(X*1.0001)/2)/5+S(1000/(t%16384+256)**.4)/7+S(R)*T(S(R*3))*W(S(R*8.0001))/24",
+    "author": "hcdphobe",
+    "name": "CRITICAL_STRUCTURE_CORRUPTION MUSIC",
+    "url": "https://dollchan.net/btb/res/163.html#376",
+    "date": "2023-02-03",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

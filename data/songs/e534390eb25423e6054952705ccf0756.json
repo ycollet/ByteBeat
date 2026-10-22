@@ -1,0 +1,26 @@
+{
+  "file": "songs/e534390eb25423e6054952705ccf0756.js",
+  "title": "why am i still making this?",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 70997,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ba39b79065bcdaa6e697b64034d3962c2eecf767856516ecce9fa64d1c6938c4",
+  "upstream": {
+    "hash": "e534390eb25423e6054952705ccf0756",
+    "codeMinLen": 319,
+    "codeMin": "T=.236,a=k=>32*abs(cbrt(sin(t*PI/128*T*2**(k[t>>17&3]/12)))),([t,t,-t,t,-t,t,t,t,t,t,-t,t,-t,t,-t,t,-t,t,-t,t,-t,t,-t,t,t,t,-t,t,t,t,-t,t][t>>14&31]*T*2**([11,14,14,14,14,14,12,11,9,14,14,14,14,14,14,16,16,11,11,11,11,11,11,14,16,12,12,12,16,12,12,14][t>>14&31]/12)&63)+a([7,6,7,12.1])+a([11,9,4,0])+a([18.95,18,16,16])",
+    "codeLen": 403,
+    "code": "T=.236,([t,t,-t,t,-t,t,t,t,t,t,-t,t,-t,t,-t,t,-t,t,-t,t,-t,t,-t,t,t,t,-t,t,t,t,-t,t][t>>14&31]*T*2**([11,14,14,14,14,14,12,11,9,14,14,14,14,14,14,16,16,11,11,11,11,11,11,14,16,12,12,12,16,12,12,14][t>>14&31]/12)&63)+(abs(cbrt(sin(t*PI/128*T*2**([7,6,7,12.1][t>>17&3]/12))))*32)+(abs(cbrt(sin(t*PI/128*T*2**([11,9,4,0][t>>17&3]/12))))*32)+(abs(cbrt(sin(t*PI/128*T*2**([18.95,18,16,16][t>>17&3]/12))))*32)",
+    "author": "Decent-Manager-6169",
+    "name": "why am i still making this?",
+    "url": "https://dollchan.net/btb/res/520.html#1325",
+    "date": "2023-06-18",
+    "sampleRate": 70997,
+    "coverName": "DJ Haning & Rizky Ayuba - You Know I'll Go Get Tik Tok Remix",
+    "coverUrl": "https://youtu.be/opGCwdMneTk",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/d5a18c50d4cc6fcdad9dcf6051993370.js",
+  "title": "random fm thing",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d5a18c50d4cc6fcdad9dcf6051993370.js",
+  "sha256": "cbfb6b39497baf7b4cd8c500b76b4500da88a7498752dca627eb1515f6f071d4",
+  "upstream": {
+    "hash": "d5a18c50d4cc6fcdad9dcf6051993370",
+    "codeLen": 1195,
+    "fileOrig": 1,
+    "codeText": "//by hcdphobe\nconst tuning=435\nconst r=2.0934333333334\nconst keytone=3\nconst volume=80\nconst bpm=111\nvar _E=_G=0 //it's preventing us from redeclaring E so we declare _E for chord (and also we declare _G for bass)\nnote=(hz,a=0,b=0)=>{",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "random fm thing",
+    "url": "https://dollchan.net/btb/res/163.html#3857",
+    "date": "2024-06-26",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

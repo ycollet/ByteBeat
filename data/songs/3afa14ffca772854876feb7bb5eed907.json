@@ -1,0 +1,28 @@
+{
+  "file": "songs/3afa14ffca772854876feb7bb5eed907.js",
+  "title": "Super Mario 2 Theme",
+  "author": "Evening-Survey-9492",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3afa14ffca772854876feb7bb5eed907.js",
+  "sha256": "5ed0b18d73fe5e3cf190eac306569b2033d8a9859ae3007ee6dd02ba8feca84d",
+  "upstream": {
+    "hash": "3afa14ffca772854876feb7bb5eed907",
+    "codeLen": 1875,
+    "fileOrig": 1,
+    "codeText": "HZ=32000,\nBPM=200,\npulse=(BPM/60),\ntick=(pulse*HZ)/32,\n\nntone=-999,\na=0.875,\naa=0.95,",
+    "isTruncated": 1,
+    "author": "Evening-Survey-9492",
+    "name": "Super Mario 2 Theme",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g1hw1s/nes_tracker_i_tried/",
+    "date": "2024-10-11",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "coverName": "Super Mario Bros. 2 Overworld Theme",
+    "coverUrl": "https://youtu.be/yBISfv-6hfo",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

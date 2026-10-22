@@ -1,0 +1,1 @@
+wv=function(a,b){return sin(t/a)*b+128},wv((t&4095)+1000,32)

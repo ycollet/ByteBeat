@@ -1,0 +1,39 @@
+{
+  "file": "songs/84faddf1ba04a75d2ace5af994c58f2b.js",
+  "title": "crystals",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/84faddf1ba04a75d2ace5af994c58f2b.js",
+  "sha256": "505839ce50fb1c312a66e1781f5b2fb414be47da8f2300a89daab3312be2dc1d",
+  "upstream": {
+    "hash": "84faddf1ba04a75d2ace5af994c58f2b",
+    "codeMinLen": 1007,
+    "codeLen": 1025,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=1.125,A=Array,X=sin,Y=tan,r=(i,g,C,V,S,P,W,M,e,I)=>(L=0,H=(s,b,x,y,z)=>L++<b?s(b,x,y,z):L=0,R=(d,t,l,s)=>(t[pu='push'](A(l-s*L).fill(0)),H(R,d,t,l,s)),t?0:(O=A(),p=A(),s=A())+R(C,O,V,S)+R(P,p,W,M)+R(P,s,W,M),F=d=>(O[L][sh='shift']()+H(F,d)),F(C),o=d=>(O[L][pu](i-g*O[L][0])+H(o,d)),o(C),c=d=>(O[L][O[L][le='length']-1]+H(c,d)),f=d=>((p[L][sh](),p[L][pu](L?s[L-1][s[L-1][le]-1]:c(C)),s[L][sh](),s[L][pu](-g*p[L][p[L][le]-1]+p[L][0]+g*s[L][0]))+H(f,d)),f(P),I*i+s[P][s[P][le]-1]/C*e),lr=lr=>((r(Y(X(t/'8976'[t>>",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "crystals",
+    "url": "https://dollchan.net/btb/res/6946.html#8816",
+    "date": "2025-08-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "3b34a633de9e9d8ffca105affea3b37a",
+        "author": "lhphr",
+        "name": "something something reverb",
+        "url": "https://www.reddit.com/r/bytebeat/comments/v0y4mf/something_something_reverb/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-08-29",
+    "date_edited": "2025-11-13"
+  }
+}

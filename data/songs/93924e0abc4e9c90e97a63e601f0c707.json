@@ -1,0 +1,32 @@
+{
+  "file": "songs/93924e0abc4e9c90e97a63e601f0c707.js",
+  "title": "remix of short simple music",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32400,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c8361777e6964c17fe37067567897acf9a4f54a17af8a19872a61fa291bc805c",
+  "upstream": {
+    "hash": "93924e0abc4e9c90e97a63e601f0c707",
+    "codeMinLen": 353,
+    "codeMin": "e=x=>(t*x*[2,0,2.35,3,2,2,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22,1.6,1.6,0,0,1.6,1.6,2,2,1.6,1.6,0,0,1.6,1.6,2,2,1.74,1.74,2.22,2.35,1.74,2.22,2.35,2.22,1.74,1.74,2.22,2.35,1.74,2.35,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22][t>>12&63]|t>>'5655'[t>>16&3])%256,([2,1.6,1.74,2][t>>16&3]*t/4&t>>6&128)/2+(1E5/(t%16384)&64)+(e(1)+e(.5)+e(2))/4",
+    "codeLen": 363,
+    "code": "e=x=>(t*x*[2,0,2.35,3,2,2,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22,1.6,1.6,0,0,1.6,1.6,2,2,1.6,1.6,0,0,1.6,1.6,2,2,1.74,1.74,2.22,2.35,1.74,2.22,2.35,2.22,1.74,1.74,2.22,2.35,1.74,2.35,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22,2,0,2.35,3,2,2,2.35,2.22][t>>12&63]|t>>[5,6,5,5][t>>16&3])%256,(([2,1.6,1.74,2][t>>16&3]*t/4&t>>6)&128)/2+(100000/(t%16384)&64)+e(1)/4+e(.5)/4+e(2)/4",
+    "author": "hcdphobe",
+    "name": "remix of short simple music",
+    "url": "https://dollchan.net/btb/res/163.html#510",
+    "date": "2023-03-03",
+    "sampleRate": 32400,
+    "remix": [
+      {
+        "hash": "4e5f0dc1ed079839fb9f36e118bdb70a",
+        "author": "Decent-Manager-6169",
+        "name": "short simple music",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s7cb1v/short_simple_music_based_on_simple_step_sequencer/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

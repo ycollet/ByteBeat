@@ -1,0 +1,38 @@
+{
+  "file": "songs/441c01c4d866f205c15b50a4b241c37f.js",
+  "title": "moonrise",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/441c01c4d866f205c15b50a4b241c37f.js",
+  "sha256": "4368ddea9c08159eef1a91cffda26d7905c2841f5663edeaae1e5d117f3a5018",
+  "upstream": {
+    "hash": "441c01c4d866f205c15b50a4b241c37f",
+    "codeLen": 5017,
+    "fileOrig": 1,
+    "codeText": "/* \n\n\tI declare that this work is free to use. You may use any of the instruments or techniques I have shown here\n\tfreely, without limitation. Therefore, credit is NOT required, but it is appreciated. I'd also love to see\n\twhat you make! Feel free to send any of them to me via the comment section for this song on Battle of the\n\tBits, or you may send it to me on Reddit: u/eSlashMachine\n\n\tText font: https://patorjk.com/software/taag",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "moonrise",
+    "description": "\"Say hello to night as the moon peeks over the horizon.\" | Entry for \"Smackdown of the Signals.\"",
+    "url": "https://battleofthebits.com/arena/Entry/moonrise/83263/",
+    "date": "2026-03-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f220c06d600ae90eb20e78327284d893",
+        "author": "eSlashMachine",
+        "name": "sunset",
+        "url": "https://battleofthebits.com/arena/Entry/sunset/79051/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-05-10",
+    "date_edited": "2026-05-10"
+  }
+}

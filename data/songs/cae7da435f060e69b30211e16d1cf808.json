@@ -1,0 +1,28 @@
+{
+  "file": "songs/cae7da435f060e69b30211e16d1cf808.js",
+  "title": "Childhood Dream",
+  "author": "Pentalogue Tridecalogue",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cae7da435f060e69b30211e16d1cf808.js",
+  "sha256": "9093d08c4b6456395caa3be0e0ddd499fd609fcaae2d2bc61463612c8c1e711e",
+  "upstream": {
+    "hash": "cae7da435f060e69b30211e16d1cf808",
+    "codeLen": 3508,
+    "fileOrig": 1,
+    "codeText": "// Title - Childhood dream (Reverb presentation)\n// \n// Author - Pentalogue Tridecalogue\n//\n// Song publication date — 22.01.2026\n\nsr=48E3,x=t/sr,ta=2*PI,detune=-40,dry=(max(0,x)<=32?1-(max((0,x)/32-1)**2):1)*(sin(ta*x*110*2**(([0,7,5,0][floor(t/4/sr)%4])/12+detune/1200))+sin(ta*x*220*2**(([0,2,0,-5][floor(t/4/sr)%4])/12+detune/1200))+sin(ta*x*220*2**(([4,4,5,5,5,5,0,0,4,4,5,5,5,5,2,0][floor(t/2/sr)%16])/12+detune/1200))+sin(ta*x*440*2**(([-5,-5,-5,-5,-5,-5,-8,-8,-5,-5,-3,-1,-5,-3,-8,-8][floor(t/2/sr)%16])/",
+    "isTruncated": 1,
+    "author": "Pentalogue Tridecalogue",
+    "name": "Childhood Dream",
+    "url": "https://dollchan.net/btb/res/12275.html#12275",
+    "date": "2026-01-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-02-11",
+    "date_edited": "2026-06-28"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "file": "songs/661f1934543d9d9884b53f06f236ac6e.js",
+  "title": "Kind of an Atari Thingy remix",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/661f1934543d9d9884b53f06f236ac6e.js",
+  "sha256": "2b7c15010e4eef0d7f3ec2a7a78aca0d5a688b451914a894b48d2ad0ac16259a",
+  "upstream": {
+    "hash": "661f1934543d9d9884b53f06f236ac6e",
+    "codeMinLen": 430,
+    "codeMin": "i=x=>(t>>x)%8,f=[12,19,24,12,19,24,12,19][i(12)],g=[12,20,24,12,20,24,12,20][i(12)],h=t*2**(([f,f,f,f,f,f,f,g][i(15)]-.625)/12)*2**(([0,0,0,3,-4,-4,-5,-1][i(15)]+2.5)/12),min(127,max(-128,+(sin(8*cbrt(t%16384))*127*(1-t/16384%1))+random()*[0,96,0,96][3&t>>14]*(1-t/16384%1)-(1-t/16384%1)/2*[0,96,0,96][3&t>>14]+random()*64*(1-t/4096%1)-32*(1-t/4096%1)+(2*(h/16%64)+(h/8%64+h/8%64&32)+(h/4%64+h/4%64&32)+(h/4%64+h/4%64.5&32))-110))",
+    "codeLen": 579,
+    "fileOrig": 1,
+    "codeText": "i=x=>(t>>x)%8,f=[12,19,24,12,19,24,12,19][i(12)],g=[12,20,24,12,20,24,12,20][i(12)],h=t*2**(([f,f,f,f,f,f,f,g][i(15)]-.625)/12)*2**(([0,0,0,3,-4,-4,-5,-1][i(15)]+2.5)/12),min(127,max(-128,+(sin(8*cbrt(t%16384))*127*(1-t/16384%1))+random()*[0,96,0,96][3&t>>14]*(1-t/16384%1)-(1-t/16384%1)/2*[0,96,0,96][3&t>>14]+random()*64*(1-t/4096%1)-32*(1-t/4096%1)+(2*(h/16%64)+(h/8%64+h/8%64&32)+(h/4%64+h/4%64&32)+(h/4%64+h/4%64.5&32))-110))",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Kind of an Atari Thingy remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fvzqyc/kind_of_an_atari_thingy_remix/",
+    "date": "2024-10-04",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32768,
+    "remix": [
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

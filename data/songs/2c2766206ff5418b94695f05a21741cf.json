@@ -1,0 +1,25 @@
+{
+  "file": "songs/2c2766206ff5418b94695f05a21741cf.js",
+  "title": "generic 3/4 buildup",
+  "author": "yumeji",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f22be2d36b1661563cb50dfe2a1bfbfe70e929e8fcc552f1e759c239561af43a",
+  "upstream": {
+    "hash": "2c2766206ff5418b94695f05a21741cf",
+    "codeMinLen": 16,
+    "codeMin": "t&598?t>>4:t>>10",
+    "codeLen": 18,
+    "code": "t&0x256?t>>4:t>>10",
+    "author": "yumeji",
+    "name": "generic 3/4 buildup",
+    "url": "https://www.pouet.net/topic.php?which=8357&page=6#c388717",
+    "date": "2011-10-03",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

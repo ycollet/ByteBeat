@@ -1,0 +1,25 @@
+{
+  "file": "songs/f04647b72805c05a5fed3da23fed11e2.js",
+  "title": "Bagpipes or something",
+  "author": "_elevate__",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "36edbdef4260c3fdadbb3c00b36e711f85d892d0889591b9e281f16ecbd4dfbf",
+  "upstream": {
+    "hash": "f04647b72805c05a5fed3da23fed11e2",
+    "codeMinLen": 27,
+    "codeMin": "(1+(t>>3)%8+(t>>3)%3)*t>>12",
+    "codeLen": 41,
+    "code": "(((((t/1)/t+(t>>3)%8+(t>>3)%3)*1*t>>12)))",
+    "author": "_elevate__",
+    "name": "Bagpipes or something",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rul9d3/bagpipes_or_something/",
+    "date": "2022-01-03",
+    "sampleRate": 22050,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

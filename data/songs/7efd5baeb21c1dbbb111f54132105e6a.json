@@ -1,0 +1,25 @@
+{
+  "file": "songs/7efd5baeb21c1dbbb111f54132105e6a.js",
+  "title": "fik",
+  "author": "psubscirbe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "78180f0c386e001c5b476189671e8a2b07d935b253c2a3817a49387914a75d4e",
+  "upstream": {
+    "hash": "7efd5baeb21c1dbbb111f54132105e6a",
+    "codeMinLen": 75,
+    "codeMin": "(sin(sqrt(t&16383))+sin(t)/(1+t%4096/8))/2+sin(t*PI/64)/6+sin(t*PI/64.02)/6",
+    "codeLen": 81,
+    "code": "((sin(sqrt(t&16383)))+sin(t)/(1+t%4096/8))/2+(sin(t*PI/64)/6)+(sin(t*PI/64.02)/6)",
+    "author": "psubscirbe",
+    "name": "fik",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bjjdwq/fik/",
+    "date": "2024-03-20",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

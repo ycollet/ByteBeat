@@ -1,0 +1,37 @@
+{
+  "file": "songs/1f45e1ff7bd09e20fd94eb71268f6c2b.js",
+  "title": "1.29KB \"String modulation example\" Remix",
+  "author": "SentleXR",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1f45e1ff7bd09e20fd94eb71268f6c2b.js",
+  "sha256": "b0041464098c6af4a170765c5e074fd5f243f902a5200dd0f772f6772db9a5a6",
+  "upstream": {
+    "hash": "1f45e1ff7bd09e20fd94eb71268f6c2b",
+    "codeLen": 1293,
+    "fileOrig": 1,
+    "codeText": "t?(Z=0,T=t/g,[W(t,T,-1),W(t,T,1)].map(X=>J(X))):(I=round,D=sin,J=tanh,r=random,P=128,i=[],j=[],B=[],z=PI,O=(x,y)=>(c=Z++,i[c]??=0,i[c]+=(x-i[c])*y),Y=(x,y,r)=>(c=Z++,i[c]??=j[c]??=0,i[c]+=j[c]+=(x-i[c]-j[c]*r)*y),N=(x,i,r)=>x-Y(x,i,r),G=(x,i)=>O(O(O(O(x,i),i),i),i),F=(t,x,l,f,m,d,k,e)=>(c=Z++,B[c+(t+P*k-I(e))%l]??=0,y=x*m+B[c+(t+P*k-I(e))%l]*d,t%1?0:B[c+t%l]=y*f,Z+=l,y),A=(t,x,l,F)=>(c=Z++,B[c+t%l]??=0,y=B[c+t%l]-F*x,t%1?0:B[c+t%l]=x+y*F,Z+=l,y),R=(t,i,m,g,f,h,j,k,q,r,s,u,v,a,b,X,Y,Z,N=V=>V)=>{for(n=$=0;n<h",
+    "isTruncated": 1,
+    "author": "SentleXR",
+    "name": "1.29KB \"String modulation example\" Remix",
+    "url": "https://dollchan.net/btb/res/6537.html#11892",
+    "date": "2026-01-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "7b85200fe3ab7ef28ef678b92142b95d",
+        "author": "eSlashMachine",
+        "name": "string modulation example",
+        "url": "https://dollchan.net/btb/res/6946.html#10437"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-01-10",
+    "date_edited": "2026-01-10"
+  }
+}

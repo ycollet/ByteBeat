@@ -1,0 +1,40 @@
+{
+  "file": "songs/fd991a00b596a5b84f5985be974390a5.js",
+  "title": "NUCLEAR:BASS",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fd991a00b596a5b84f5985be974390a5.js",
+  "sha256": "1f1795a934b3d3a13041472fdbc92958afc867d9bf0426d9989825b6d318a457",
+  "upstream": {
+    "hash": "fd991a00b596a5b84f5985be974390a5",
+    "codeLen": 6052,
+    "fileOrig": 1,
+    "codeText": "t2=t, // Needed so the other \"t\" doesn't default to the melody\n\nBPM=155,\nsR=sampleRate=44.1e3,\nsPB=samplesPerBeat=32768,\nu=t*abs(BPM/((120*sR)/sPB)),\n\ntt=(t/sR*256)*440*2**(-19/12),",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "NUCLEAR:BASS",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1nmu9d6/nuclearbass/",
+    "date": "2025-09-21",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "c01223a1d5512b34a72766e15bb6edd2",
+        "author": "MarioFan171",
+        "name": "Solar Cityscapes V2",
+        "url": [
+          "https://dollchan.net/btb/res/2971.html#8437",
+          "https://www.reddit.com/r/bytebeat/comments/1m744io/solar_cityscapes_v2/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-02",
+    "date_edited": "2025-11-17"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "file": "songs/736bdde12088767e7f549db72d09c9b3.js",
+  "title": "fm",
+  "author": "Glebguything",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "98dc150cfb9a1dcb65b0022276e77759ee545af2e89d74bf570f673a6ccf5b7b",
+  "upstream": {
+    "hash": "736bdde12088767e7f549db72d09c9b3",
+    "codeMinLen": 221,
+    "codeMin": "x=4*(t-(t>>10&4|t>>13&3|t>>17&6|t>>14&4)*t/((t>>16&7)+4)),sin(x*PI/128+(sin(x*PI*1.48/127)+cos(x*PI/128)+sin(x*PI/130)%256*(-t/4&2047)/2E3+cos(x*PI/125)%256*(-t/4&2047)/2E3+cos(x/27)%256*(-t/4&2047)/2E3))-2*(t/4&2047)/2E3",
+    "codeLen": 227,
+    "code": "x=4*(t-(t>>10&4|t>>13&3|t>>17&6|t>>14&4)*t/((t>>16&7)+4)),sin(x*PI/128+(sin(x*PI*1.48/127)+cos(x*PI/128)+sin(x*PI/130)%256*(-t/4&2047)/2E3+cos(x*PI/125)%256*(-t/4&2047)/2E3+(cos(x/27)%256*(-t/4&2047)/2E3)))-2%256*(t/4&2047)/2E3",
+    "author": "Glebguything",
+    "name": "fm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fuboro/fm/",
+    "date": "2024-10-02",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "728a216d7650c94741d7658a1d2d214c",
+        "author": "1583736",
+        "name": "Cool waveform i guess (second one)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ntpnza/cool_waveform_i_guess/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

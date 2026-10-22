@@ -1,0 +1,22 @@
+{
+  "file": "songs/0c2a8a828be859519abc79d00517bce1.js",
+  "title": "mini drums",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 16800,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e82f7b26b9324071fcd85f4af971c0afb5fe0ed13bc8f0555d6ae618ba5ace50",
+  "upstream": {
+    "hash": "0c2a8a828be859519abc79d00517bce1",
+    "codeLen": 146,
+    "code": "6*((1152%(t&2047)&99)*(1090584833>>(t>>11)&1)/3+(t%25^t%214&28)*(1440044373>>(t>>11)&1)/8+((t%81^t%104)&64)*(2416971792>>(t>>11)&1))/(1+(t>>7&15))",
+    "author": "BaenHoHoHo",
+    "name": "mini drums",
+    "url": "https://dollchan.net/btb/res/117.html#2918",
+    "date": "2024-01-20",
+    "sampleRate": 16800,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/025bec20c8c2fee2a84c39e1e7cf33c5.js",
+  "title": "True LFSR",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "45e14385d78335fa84f7385b779af8e167fed902339cbe072fdd1f51f233f288",
+  "upstream": {
+    "hash": "025bec20c8c2fee2a84c39e1e7cf33c5",
+    "codeMinLen": 52,
+    "codeMin": "t?T++:(R=Array(N=16),T=0),R[T%N]=256*random()&1,R[0]",
+    "codeLen": 66,
+    "code": "t ? T++ :(R = Array(N = 16), T = 0), R[T%N] = random()*256&1, R[0]",
+    "author": "PortablePorcelain",
+    "name": "True LFSR",
+    "description": "There is no feedback, so it can't be a linear feedback shift register. Since the array index that gets sent to the audio output never changes (it is always R[0]) and there are no calls to Array.shift, it's not a functional shift register. It is simply a roundabout way of calling random every 16th sample: <button class='code-text' data-songdata='{\"sampleRate\":48000,\"mode\":\"Floatbeat\"}'>t&15?n:n=2*random()&1</button>",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14i1ny6/true_lfsr/",
+    "date": "2023-06-24",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

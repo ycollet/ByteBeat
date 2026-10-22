@@ -1,0 +1,40 @@
+{
+  "file": "songs/df20bba5b3589f42691a5306478b15d4.js",
+  "title": "heavyAF breakbeat + atari thingy + other Greaserpirate stuff",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 30000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/df20bba5b3589f42691a5306478b15d4.js",
+  "sha256": "e4423f59842bc7cb37d377e15822b1b122d6e33a17d4a6d5e5bbf7abc696879e",
+  "upstream": {
+    "hash": "df20bba5b3589f42691a5306478b15d4",
+    "codeMinLen": 954,
+    "codeLen": 977,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t%=2**21,(t/=2)?0:y=Array(16).fill(0),A=0,O=(x,s=.1,q=256)=>(x%=q,x|=0,mi=y[A]=min(y[A]+s,x,q),mx=y[A+1]=max(y[A+1]-s,x,mi+9),A+=2,255*(x-mi)/(mx-mi)),n=k=>isNaN(k)?0:k,p=(k,l,j=2,q=(r=k=>k),z=t>>11,y=Infinity)=>(l=k*(n(l=l.charCodeAt(z%l.length))<=32?0:2**((l-64)/12)),q(l)%y)*j,S=(x,y=1,z=255)=>min(max(x,y),z),k=(q,r=1,s=1)=>q+(sin(t*s*PI/1536)*r*32),S(O(O(sin(4*sin(k(p(t,'@GL@GL@G'.repeat(3)+'CJOCJOCJ<CH<CH<C<CH<CH<C;BG;BG;B?GK?GK?G',1),1/8,3)*PI/64)%3)*(2+(t>131072)*((w=t*p(1,'@@@C<<;?',1,k=>k,t>>14))>>7",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "heavyAF breakbeat + atari thingy + other Greaserpirate stuff",
+    "url": "https://dollchan.net/btb/res/55.html#786",
+    "date": "2023-04-08",
+    "sampleRate": 30000,
+    "remix": [
+      {
+        "hash": "7c10407ec29a3d9ae5b4ef94c632a59d",
+        "author": "Greaserpirate",
+        "name": "Neurofunk, heavyAF breakbeat edition",
+        "url": "https://www.reddit.com/r/bytebeat/comments/zr9def/neurofunk_heavyaf_breakbeat_edition_stereo/"
+      },
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

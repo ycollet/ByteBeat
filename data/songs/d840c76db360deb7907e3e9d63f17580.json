@@ -1,0 +1,32 @@
+{
+  "file": "songs/d840c76db360deb7907e3e9d63f17580.js",
+  "title": "$ine Ðecrement",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "710f88c8c02d2db18f561d7025f4a3c906cc3e2dc1e0ea4746210a22e15992e8",
+  "upstream": {
+    "hash": "d840c76db360deb7907e3e9d63f17580",
+    "codeLen": 76,
+    "code": "b=t&t>>12,f=(a,c)=>32*sin(b--%2**c*t/2**a),f(5,4)+f(9,6)+f(12,8)+f(14,9)+128",
+    "author": "lhphr",
+    "name": "$ine Ðecrement",
+    "description": "Another odd usage of the sine wave.",
+    "url": "https://dollchan.net/btb/res/44.html#66",
+    "date": "2022-05-12",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "6a5ad7fafd24f5363118393924b5008f",
+        "author": "lhphr",
+        "name": "$ine $tabilizer",
+        "url": "https://dollchan.net/btb/res/44.html#66"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

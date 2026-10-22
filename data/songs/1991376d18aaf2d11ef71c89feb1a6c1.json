@@ -1,0 +1,42 @@
+{
+  "file": "songs/1991376d18aaf2d11ef71c89feb1a6c1.js",
+  "title": "hyper atari thingy remix with a filter sweep intro",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1991376d18aaf2d11ef71c89feb1a6c1.js",
+  "sha256": "34fdcfd673591cee3f69da8a2610aedf7fcacfb7eae261dcb1b4388527dcb06c",
+  "upstream": {
+    "hash": "1991376d18aaf2d11ef71c89feb1a6c1",
+    "codeLen": 1698,
+    "fileOrig": 1,
+    "codeText": "BB=t=>(\nr=t/1.35,p=parseInt,min(max((pcm=(a,b,c)=>p((s=a)[int(.692*t/c*2**(p(b,36)/12))%s.length],36)*4-72,pcm('0ZZ00Z00Z00ZZ0ZZ0ZZZZ000Z00Z00Z0Z00Z','5CH5CH5C5CH5CH5C5CH5CH5C8FK8FK8F18D18D1818D18D1807C07C074CG4CG4CG'[63&r>>12],[10,9.95][1&t*2**(p(b='CCCF887B'[7&r>>15],36)/12)>>8])*(1-r/4096%1/1.5)/3+(k=y=>pcm('02468ACEGJLNPRTVXZ',b,59.5*y),k(1)+k(.995))*(r/16384%1)*(1-r/4096%1)+sin(cbrt(r%8192)*8)*64*(1-r/8192%1)*!(r&8192)+(random()*48-24)*(1-r/2048%1)*!(r&2048)+((t*sin(t>>2)&32)-16)*(1-r/16384%1)*!(~r&163",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "hyper atari thingy remix with a filter sweep intro",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1feketi/comment/lmok3y0/",
+    "date": "2024-09-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "59bfa0ff3fe2d586ddaa30f0d43b80c5",
+        "author": "Zackx",
+        "name": "Hyper atari thingy (banger mix)",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3901",
+          "https://www.reddit.com/r/bytebeat/comments/1dkp4ez/hyper_atari_thingy_banger_mix/"
+        ]
+      },
+      {
+        "hash": "97ec759bde21638bc45086488efee5e2",
+        "author": "May_I_Change_My_Name",
+        "name": "Frequency-Domain Filtering",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1feketi/frequencydomain_filtering/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

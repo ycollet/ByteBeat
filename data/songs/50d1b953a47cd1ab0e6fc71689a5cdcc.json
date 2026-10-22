@@ -1,0 +1,25 @@
+{
+  "file": "songs/50d1b953a47cd1ab0e6fc71689a5cdcc.js",
+  "title": "Fort Boyard",
+  "author": "Suborg",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a2969198c00853c92e9822f1b73ae4ceb4716a7dce85585f006384e41c331ccf",
+  "upstream": {
+    "hash": "50d1b953a47cd1ab0e6fc71689a5cdcc",
+    "codeLen": 117,
+    "code": "t*.17*(\"33AAAAA\\013AAKKKGGG;;A\\013AK[KSSSSSSSS\\013\\013[\\013[SSSKKGGG;;;GGA\\013AK[KAAAAAAAA\".charCodeAt(t/1800%64)-11)",
+    "author": "Suborg",
+    "name": "Fort Boyard",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=23#c459199",
+    "date": "2013-10-19",
+    "sampleRate": 8000,
+    "coverName": "Fort Boyard Theme Song",
+    "coverUrl": "https://youtu.be/nKnhj1pXBaE",
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

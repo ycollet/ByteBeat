@@ -1,0 +1,1 @@
+t/=48e3,(sin(620*t*PI*2)+cos(480*t*PI*2))*min(.3,max(0,tan(sin(t*2*PI)))*40)

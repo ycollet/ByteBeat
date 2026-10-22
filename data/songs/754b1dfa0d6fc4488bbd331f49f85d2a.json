@@ -1,0 +1,27 @@
+{
+  "file": "songs/754b1dfa0d6fc4488bbd331f49f85d2a.js",
+  "title": "LPF 24dB/oct",
+  "author": "polyzium",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/754b1dfa0d6fc4488bbd331f49f85d2a.js",
+  "sha256": "d0b9dd5e7a7d598e43bd2b2bb16f2a09f0e3991febb1480e59893a641513b542",
+  "upstream": {
+    "hash": "754b1dfa0d6fc4488bbd331f49f85d2a",
+    "codeLen": 4786,
+    "codeFormLen": 5017,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "bt=12,\n\nSAMP_RATE = 44100,\nBPM = 140,\nts = t / SAMP_RATE,\nbeat = BPM * ts / 60,\ntick = floor(beat * 48) % 192+1,\n",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "LPF 24dB/oct",
+    "url": "https://dollchan.net/btb/res/3.html#118",
+    "date": "2022-07-26",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

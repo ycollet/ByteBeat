@@ -1,0 +1,24 @@
+{
+  "file": "songs/38d14e2201eb0de20d019bbafee09c59.js",
+  "title": "fm blippy",
+  "author": "argarak",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "264d9bf8e069e4c914358f746aec95702e4b0d043dc2f8c263b9dd36b05d31b6",
+  "upstream": {
+    "hash": "38d14e2201eb0de20d019bbafee09c59",
+    "codeMinLen": 114,
+    "codeMin": "s=[.5,.4,.3,.5,.6],128+sin(t*s[int(t/4E3)%5]/15+(128+10*sin(.1*t)*sin(1E-4*t)*s[int(t/4E3)%5]))*(20-int(t/200)%20)",
+    "codeLen": 119,
+    "code": "s=[.5,.4,.3,.5,.6],128+sin(t*s[int(t/4000)%5]/15+(128+sin(t*.1)*(sin(t*.0001)*10*s[int(t/4000)%5])))*(20-int(t/200)%20)",
+    "author": "argarak",
+    "name": "fm blippy",
+    "url": "https://battleofthebits.com/arena/Entry/very+nice+bytebeat+things+cool.txt/32557/",
+    "date": "2019-08-27",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

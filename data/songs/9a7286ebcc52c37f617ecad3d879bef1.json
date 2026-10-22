@@ -1,0 +1,36 @@
+{
+  "file": "songs/9a7286ebcc52c37f617ecad3d879bef1.js",
+  "title": "triangle kick drum and snare",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9a7286ebcc52c37f617ecad3d879bef1.js",
+  "sha256": "02a08c739d6f4b8e532654ae689ab67f0d46411c1fecbd787a27baa023f70d95",
+  "upstream": {
+    "hash": "9a7286ebcc52c37f617ecad3d879bef1",
+    "codeMinLen": 955,
+    "codeLen": 1368,
+    "codeFormLen": 1821,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "q=t/32E3,r=1.05946309,a=880,as=a*r,b=as*r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,z=63<int(2*q)%128?r*r*r:1,tr=63<int(4*q)%128,n=[a,c,e,c,a,d,f,d,a,c,f,a,c,e,g,e,g,b,d,b,f,a,c,a,a,c,g,c,g,b,d,b],os=[1,0,1,2,1,2,1,0,1,0,1,2,1,2,1,0,1,0,1,0,1,2,1,2,1,0,1,0,1,2,1,2],na=q*n[int(1*q)%8*4+int(64*q)%3]*(int(4*q%2)/2)*z,nb=q*(n[int(4*q%32)]<<tr*os[int(4*q%32)])/2*z,nc=q*[a,b,c,e,c,b,a,0][int(4*q)%8]*z,nd=q*[a,a<<1,a,0,a,0,a,0,g>>1,g,g>>1,0,e>>1,0,c>>1,c][int(4*q)%16]/4*z,kick=32*tan(sin(32/(64*",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "triangle kick drum and snare",
+    "url": "https://twitter.com/Bp103/status/1346329796041695233",
+    "date": "2021-01-05",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "fdbaba821a08cdd51610ba99cd53edcd",
+        "author": "Bp103",
+        "name": "now its FM synth",
+        "url": "https://twitter.com/Bp103/status/1345905059964530688"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

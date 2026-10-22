@@ -1,0 +1,32 @@
+{
+  "file": "songs/c5db63f85573706bf33128406195dccf.js",
+  "title": "Frozen Planet",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c5db63f85573706bf33128406195dccf.js",
+  "sha256": "908e720c0210f163fa936a8931579bdec0f5705e4b3a669ddc85370bf890ef49",
+  "upstream": {
+    "hash": "c5db63f85573706bf33128406195dccf",
+    "codeMinLen": 611,
+    "codeLen": 965,
+    "codeFormLen": 1291,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t/=44100,b=1.75*t%224,Db=277,D=294,EE=330,Gb=370,A=440,B=494,u=b&16?2:1,S=(p,e=0,k=22)=>(i=b-e,p*u*t*[A/2,Db,Gb,Gb,A,2*Db,Gb,B,2*D,Gb,B,2*Gb,A/2,Db,Gb,Gb,A,2*Db,Gb,B,2*D,A,2*EE,2*A][(i>>1)%8*3+(k*i|0)%3]%2<<4),P=(p,e=0)=>20*(.7*(p*u*(t+3E-4*sin(44*t))*[Gb/2,Db,D,Gb,Gb/2,Db,D,A][(b-e>>1)%8]%2)|0),m=64>b,n=160>b,48+((16<b&&m||80<b&&n)&&(1E4*sin((128*t*'10001010'[(8*b|0)%8])**2)&255)/13)+((32<b&&m||128<b&&n)&&56*(b*(256>>32*b)%2|0))+(n&&38*((t*[Db,D,Db,B/2,Db,D,EE,Gb,Db,D,Db,B/2,Db,Gb,A,415][(2*b|0)%16]>>1)%2|",
+    "isTruncated": 1,
+    "author": "SthephanShi",
+    "name": "Frozen Planet",
+    "description": "\"Flying deep in dark space, you caught a distress signal and landed on an icy planet. In this frozen world, you have found an abandoned base of colonists. There is not a single survivor...\" Winter Chip XVII battle - 1st place (bytebeat1k).",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/Frozen+Planet/50767/",
+      "https://www.reddit.com/r/bytebeat/comments/u2ejqr/frozen_planet/"
+    ],
+    "date": "2022-01-11",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

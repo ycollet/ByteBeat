@@ -1,0 +1,37 @@
+{
+  "file": "songs/4d1df9b5d768450e3df328dd0e5860f4.js",
+  "title": "I don't know what I'm doing",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 41895,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4d1df9b5d768450e3df328dd0e5860f4.js",
+  "sha256": "735b724f9c5edd253938bdcab9f82cb3e9be2ce46c90dcb6781d9320613350da",
+  "upstream": {
+    "hash": "4d1df9b5d768450e3df328dd0e5860f4",
+    "codeLen": 1369,
+    "fileOrig": 1,
+    "codeText": "b=(t>>15&7?(t/65536%1)**.5*(t&262144?sin((-t>>15&3?t>>18&1?.5:t/16384:t>>18&1?t/128*21/24:t/8192)%1*PI):1):t>>18&1?(1-t/4096%16%3/3)*(1-t/256%1):.3)*(1-t/32768%1)**.2,d=t*[24,24,24,24,24,24,19.2,22][t>>16&7]/24%1024,t?0:z=[],cc=0,lpf=(a,c)=>(ca=cc++,z[ca]??=0,z[ca]+=(a-z[ca])*c),hpf=(a,c)=>a-lpf(a,c),lbf=(a,c,v)=>a+lpf(a,c)*v,hbf=(a,c,v)=>a+hpf(a,c)*v,k='11000110101001101010011011110110'[t>>13&31],a=b=>tanh(atan(lbf(lbf(lpf(sin(90*cbrt(t%8192)**.35)*(t/512%16-16)/20*(k==1),.02)/1.5,.9,1)+hpf(t&4096?0:(rando",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "I don't know what I'm doing",
+    "description": "Lowering your volume is advised.",
+    "url": "https://dollchan.net/btb/res/6946.html#7464",
+    "date": "2025-06-19",
+    "mode": "Floatbeat",
+    "sampleRate": 41895,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5b4f25233249099ed90d7e2da1100bf5",
+        "author": "PortablePorcelain",
+        "name": "What am I even doing",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gzqyxp/what_am_i_even_doing/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-02"
+  }
+}

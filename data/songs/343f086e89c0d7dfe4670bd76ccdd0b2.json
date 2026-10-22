@@ -1,0 +1,23 @@
+{
+  "file": "songs/343f086e89c0d7dfe4670bd76ccdd0b2.js",
+  "title": "ultra hard beat",
+  "author": "emelchenko",
+  "mode": "Floatbeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ef59c64611250bca6a8275861644544b76065a1a2ac50ee9389b7ff7aa8779ad",
+  "upstream": {
+    "hash": "343f086e89c0d7dfe4670bd76ccdd0b2",
+    "codeLen": 64,
+    "code": "sin(cbrt(t&16383)*8)*64*max(0,.5-t/16384%1)+tan(t/((t&t>>12)+1))",
+    "author": "emelchenko",
+    "name": "ultra hard beat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hgavuq/ultra_hard_beat/",
+    "date": "2024-12-17",
+    "mode": "Floatbeat",
+    "sampleRate": 32768,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "songs/6ea71718e42c2a2de62a72cbfa5813b1.js",
+  "title": "Drum Machine With Lead",
+  "author": "Admirable-Dot-5854",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "900d24e4001af15afa1f5b863ce1c5c235aaceecd533a2cb30e25c12e129bb33",
+  "upstream": {
+    "hash": "6ea71718e42c2a2de62a72cbfa5813b1",
+    "codeMinLen": 128,
+    "codeMin": "t/2048&3?((6*t&t>>6)-((5+2*(1&-t>>15))*t&t>>5)&255)/2+random()*80*!(t/256&7):(4E6/(t%8192)**1.1&128)+random()*500*!(t/1024+8&15)",
+    "codeLen": 140,
+    "code": "(((t/2048)&3)?(((6*t&t>>6)-((5+2*(1&-t>>15))*t&t>>5))&255)/2+(random()*80*!(t/256&7)):(4e6/(t%8192)**1.1&128)+(random()*500*!(t/1024+8&15)))",
+    "author": "Admirable-Dot-5854",
+    "name": "Drum Machine With Lead",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fklmk4/drum_machine_with_lead/",
+    "date": "2024-09-19",
+    "sampleRate": 16000,
+    "tags": [
+      "256"
+    ]
+  }
+}

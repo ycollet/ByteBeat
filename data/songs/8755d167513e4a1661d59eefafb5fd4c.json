@@ -1,0 +1,30 @@
+{
+  "file": "songs/8755d167513e4a1661d59eefafb5fd4c.js",
+  "title": "a Zackx-like Song",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8755d167513e4a1661d59eefafb5fd4c.js",
+  "sha256": "b3a9c1c36b9878a0d80635de9a3411d6fb7bfd47eeb73df95ad36eb549367952",
+  "upstream": {
+    "hash": "8755d167513e4a1661d59eefafb5fd4c",
+    "codeMinLen": 584,
+    "codeLen": 832,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "L='length',song=t=>(s=(x,u)=>(2**(parseInt(x[(t>>u)%x[L]],36)/12)),h=(a,S,c)=>(c<=0||(c!=trunc(c))?0:(div=int(255/a[L]),q=q=>t/c*(s(q[(t>>S)%q[L]]))%div,a[L]==2?q(a[0])+q(a[1]):a[L]==3?q(a[0])+q(a[1])+q(a[2]):a[L]==4?q(a[0])+q(a[1])+q(a[2])+q(a[3]):0)),t*=1.05,r=16383,u=8192,a=t=>(((t*s('JIGC9520259CGIJ2',13))*(s('0235',17))&128)%256/3*(1-t/u%1)*1.2),c=128*tanh(sin(2*(t&16383)**.5))*(1-t/16383%1)*(1&-t>>14)+(t*sin(t>>2)&255)*(-t&32767)/5e4*(1&t>>15),min(max((((h(['79AC','0235'],17,4)/2)*(t/r%2)*(1-t%(u=r/2)",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "a Zackx-like Song",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hxoy38/i_made_a_zackxlike_song/",
+    "date": "2025-01-10",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-21",
+    "date_edited": "2025-12-07"
+  }
+}

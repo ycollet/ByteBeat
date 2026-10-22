@@ -1,0 +1,25 @@
+{
+  "file": "songs/730fd9bf2081c0844cd797edf581c8a2.js",
+  "title": "somth",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "58ef226a45614dc0bb3ed5c458e1550da6274f912b26b914449bc607591a503a",
+  "upstream": {
+    "hash": "730fd9bf2081c0844cd797edf581c8a2",
+    "codeMinLen": 264,
+    "codeMin": "t?(d=tanh(sin(3.5*sqrt(t%16384)**.8)),b=(atan(tan(t/2/2.9*[1,0,1,0,1,1,0,1,1,0,1,0,1,1,1,1][(t>>12)%16]/41))*(1-t%4096/4096)+atan(tan(t/2.9*[1,0,1,0,1,1,0,1,1,0,1,0,1,1,1,1][(t>>12)%16]/41))*(1-t%4096/4096))/2,l+=r+=(b-l-r*3)/(cos(t*PI/2E5)*250+256),(l+d)/3):l=r=0",
+    "codeLen": 274,
+    "code": "t?(d=tanh(sin(3.5*sqrt(t%(16384))**.8)),b=((atan(tan((t/2/2.9*[1,0,1,0,1,1,0,1,1,0,1,0,1,1,1,1][(t>>12)%16])/41))*(1-t%4096/4096))+(atan(tan((t/2.9*[1,0,1,0,1,1,0,1,1,0,1,0,1,1,1,1][(t>>12)%16])/41))*(1-t%4096/4096)))/2,l+=r+=(b-l-r*3)/(cos(t*PI/2e5)*250+256),(l+d)/3):l=r=0",
+    "author": "troubleshootcorps",
+    "name": "somth",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gqwlvk/somth/",
+    "date": "2024-11-14",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/dc531781b1ee1e316209c91099d6e5b9.js",
+  "title": "my ears are on fire",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "957352593850eefe8fa95445d22da4e1fa868a4a87d298b9fe8d1e852491da37",
+  "upstream": {
+    "hash": "dc531781b1ee1e316209c91099d6e5b9",
+    "codeMinLen": 140,
+    "codeMin": "rev=x=>(t?0:a=Array(r=2E4).fill(0),b=x+a[t%r],a[t%r]=b/2,b),rev(sin(sin(t*PI/128*'1123'[(t>>17)%4])*9)+sin(80*cbrt(t&524255.5))*8+sin(t))/16",
+    "codeLen": 144,
+    "code": "rev=x=>(t?0:a=Array(r=2e4).fill(0),b=x+a[t%r],a[t%r]=b/2,b),rev(sin(sin(t*PI/128*[1,1,2,3][(t>>17)%4])*9)+sin(80*cbrt(t&1048511/2))*8+sin(t))/16",
+    "author": "Maxi",
+    "name": "my ears are on fire",
+    "url": "https://dollchan.net/btb/res/500.html#2054",
+    "date": "2023-08-25",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

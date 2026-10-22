@@ -1,0 +1,25 @@
+{
+  "file": "songs/2c4e11a42b0d3cbc92fc6120199cdf40.js",
+  "title": "space critters",
+  "author": "rubi",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "03bac2c98073d21459150c088c90a7b2034abb8ecd39bf1cabdfbdf840ed51c1",
+  "upstream": {
+    "hash": "2c4e11a42b0d3cbc92fc6120199cdf40",
+    "codeMinLen": 156,
+    "codeMin": "(4E3/(t&[16383,5265,16383,9383,14383,13683,16383,4095][7&t>>14])&63)+10*sin(t/[10,6,10,8,12,8,10,6][7&t>>12])+50*sin(t/[20,16,12,10,20,15,12,13.5][7&t>>16])",
+    "codeLen": 160,
+    "code": "(4E3/(t&[16383,5265,16383,9383,14383,13683,16383,4095][7&t>>14])&63)+(sin(t/[10,6,10,8,12,8,10,6][7&t>>12])*10)+(sin(t/[20,16,12,10,20,15,12,13.5][7&t>>16])*50)",
+    "author": "rubi",
+    "name": "space critters",
+    "url": "https://dollchan.net/btb/res/227.html#246",
+    "date": "2022-11-14",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

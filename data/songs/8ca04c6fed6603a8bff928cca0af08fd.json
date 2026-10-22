@@ -1,0 +1,34 @@
+{
+  "file": "songs/8ca04c6fed6603a8bff928cca0af08fd.js",
+  "title": "minimal sparta harmony",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f2358f14d2ebb72a451b3fc5783cb6757ddd9828eb3e54b47a660dd132caac7e",
+  "upstream": {
+    "hash": "8ca04c6fed6603a8bff928cca0af08fd",
+    "codeMinLen": 177,
+    "codeMin": "t||(d=1.174,e=1.318,f=1.389,a=Array(n=256).fill(0)),a[t%n]=(t&t>>8)%256,a[floor(t*[e,e,e,e,f,f,f,f,d,d,d,d,f,f,f,f,e,2*e,e,2*e,f,2*f,f,2*f,d,2*d,d,2*d,f,2*f,f,2*f][t>>12&31]%n)]",
+    "codeLen": 178,
+    "code": "t||(d=1.174,e=1.318,f=1.389,a=Array(n=256).fill(0)),a[t%n]=(t&t>>8)%256,a[floor(t*[e,e,e,e,f,f,f,f,d,d,d,d,f,f,f,f,e,e*2,e,e*2,f,f*2,f,f*2,d,d*2,d,d*2,f,f*2,f,f*2,][t>>12&31]%n)]",
+    "author": "awogler9124812041",
+    "name": "minimal sparta harmony",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16yvbwx/minimal_sparta_harmony/",
+    "date": "2023-10-03",
+    "sampleRate": 16000,
+    "remix": [
+      {
+        "hash": "e0e4ffccdec7460e6c52bbfb93a2aa73",
+        "author": "viznut",
+        "name": "minimal sierpinski harmony",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "256"
+    ]
+  }
+}

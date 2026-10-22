@@ -1,0 +1,25 @@
+{
+  "file": "songs/7b13171219be7d0f2419c62b7e4dc777.js",
+  "title": "on the verge",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7b13171219be7d0f2419c62b7e4dc777.js",
+  "sha256": "9b74b3d84d99da29c5ffd48008d6aba2facf604d8452ad6912f0118313e67584",
+  "upstream": {
+    "hash": "7b13171219be7d0f2419c62b7e4dc777",
+    "codeLen": 3530,
+    "fileOrig": 1,
+    "codeText": "\n/*!\n *\n * stagas - on the verge\n *\n */\n\nvar bpm = 125;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "on the verge",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/76569b5147e9383a8a4abd65e243b593.js",
+  "title": "Blue Da Ba Dee",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 38000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6c80964b5195f629807fe3d1c6c57e95e4597d14b84aaa221c1d12d9c84014ce",
+  "upstream": {
+    "hash": "76569b5147e9383a8a4abd65e243b593",
+    "codeMinLen": 180,
+    "codeMin": "a=t=>(t*2**(parseInt(['JBGJLEIJCGJNOGNL','JBGJI9EG07EG0EGI'][!(~t>>17&3)|0][(t>>13)%16],36)/12)/1.92%128+(t>>6&127)&128)*(1-t%8192/12E3),a(t)+a(t-(d=12288))/2+a(t-d*2)/4+a(t-d*3)/8",
+    "codeLen": 182,
+    "code": "a=t=>((t*2**(parseInt(['JBGJLEIJCGJNOGNL','JBGJI9EG07EG0EGI'][!(~t>>17&3)|0][(t>>13)%16],36)/12)/1.92&127)+(t>>6&127)&128)*(1-t%8192/12E3),a(t)+a(t-12288)/2+a(t-24576)/4+a(t-36864)/8",
+    "author": "Zackx",
+    "name": "Blue Da Ba Dee",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1816",
+      "https://www.reddit.com/r/bytebeat/comments/15j98wk/song_i_made_while_vc/"
+    ],
+    "date": "2023-08-06",
+    "sampleRate": 38000,
+    "coverName": "Eiffel 65 - Blue (Da Ba Dee)",
+    "coverUrl": "https://youtu.be/zA52uNzx7Y4",
+    "tags": [
+      "256"
+    ]
+  }
+}

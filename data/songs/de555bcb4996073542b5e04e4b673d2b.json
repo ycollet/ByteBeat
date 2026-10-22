@@ -1,0 +1,28 @@
+{
+  "file": "songs/de555bcb4996073542b5e04e4b673d2b.js",
+  "title": "FM Synth Test",
+  "author": "Funcbeat Anon",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/de555bcb4996073542b5e04e4b673d2b.js",
+  "sha256": "5b72a86206bc325e398b3ca006ac3b6bb12ff6efb6f3e0157daeb7bbcac2fdde",
+  "upstream": {
+    "hash": "de555bcb4996073542b5e04e4b673d2b",
+    "codeLen": 6316,
+    "fileOrig": 1,
+    "codeText": "let realSampleRate=48000;\nlet sampleRate=realSampleRate/2;\nclass Envelope{\n  constructor(attack=.1,decay=.1,sustain=.5,releaseTime=.1){\n    Object.assign(this,{attack,decay,sustain,releaseTime});\n    this.reset();\n  }\n  reset(){this.stage=\"attack\";this.value=0;this.time=0;this.active=false;}",
+    "isTruncated": 1,
+    "author": "Funcbeat Anon",
+    "name": "FM Synth Test",
+    "description": "Originally set to 16kHz, raised to 48kHz to improve audio quality.",
+    "url": "https://dollchan.net/btb/res/3.html#5831",
+    "date": "2025-04-13",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-30"
+  }
+}

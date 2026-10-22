@@ -1,0 +1,37 @@
+{
+  "file": "songs/a2b925419a6afb24d1094f6f9a33d599.js",
+  "title": "uh",
+  "author": "Two2Fall",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a2b925419a6afb24d1094f6f9a33d599.js",
+  "sha256": "ffc88c80dfcac87926031ce3e2c3c5f10c95a4bf3963b4deb34bc0cc5239715b",
+  "upstream": {
+    "hash": "a2b925419a6afb24d1094f6f9a33d599",
+    "codeLen": 1852,
+    "fileOrig": 1,
+    "codeText": "// Uh\n// Author: Two2Fall\n// Remix of: Zackx's synthwave engine example\n// I hope you like this!\n\n// Configuration Stuff\n\nt || (",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "uh",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1le1351/uh/",
+    "date": "2025-06-18",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "c4c5af335d9befcf3eba6579a9a1d4fb",
+        "author": "Two2Fall",
+        "name": "Remix of Zackx Synthwave Tutorial",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1kjdqqb/fm_stuff/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-26",
+    "date_edited": "2025-11-26"
+  }
+}

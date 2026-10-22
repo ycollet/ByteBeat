@@ -1,0 +1,33 @@
+{
+  "file": "songs/26e826270f8ccc908c830694df262df6.js",
+  "title": "right triangle",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 32400,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8f725f3fdd4afb690afc48a664cb923f63087f709374138517b5d05fc830ad7e",
+  "upstream": {
+    "hash": "26e826270f8ccc908c830694df262df6",
+    "codeMinLen": 121,
+    "codeMin": "(([2,2,1,,1,,1,,.9,.9,1,1,1.5,1.5,.5,.5][(t>>11)%16]*t&127)+(t>>12+(t>>9&7))&128)+[4E5,random()*4E5][(t>>14)%2]/(t%16384)",
+    "codeLen": 126,
+    "code": "(([2,2,1,0,1,0,1,0,.9,.9,1,1,1.5,1.5,.5,.5][(t>>11)%16]*t&127)+(t>>(12+(t>>9&7)))&128)+[4e5,random()*4e5][(t>>14)%2]/(t%16384)",
+    "author": "Maxi",
+    "name": "right triangle",
+    "url": "https://dollchan.net/btb/res/500.html#2645",
+    "date": "2023-11-14",
+    "sampleRate": 32400,
+    "remix": [
+      {
+        "hash": "1d76589655cdd76c7887a731356f8f3e",
+        "author": "rubi",
+        "name": "-PWM MUSIC-",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s27xzz/pwm_muisc/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

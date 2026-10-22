@@ -1,0 +1,34 @@
+{
+  "file": "songs/b89ae5a62f9ca43451dc80a91908dac2.js",
+  "title": "Derived Greaserpirate's tech to make something really glitchy",
+  "author": "KaliTheCatgirl",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b89ae5a62f9ca43451dc80a91908dac2.js",
+  "sha256": "907a0976a9aa309542a6f442a64a645e612324d5faaeb5945881907252c62d0e",
+  "upstream": {
+    "hash": "b89ae5a62f9ca43451dc80a91908dac2",
+    "codeMinLen": 244,
+    "codeMin": "t/=6,morph=[7,6,9,10,6,4,12,16],freqs=[0,0,3,3,0,0,3,5,0,0,3,3,5,5,3,-2,0,0,3,3,0,0,3,5,7,7,5,3,5,5,3,-2],freq=t*2**(freqs[t>>11&31]/12),6E4/(freq&512/morph[(t>>10)%8]-(t>>13)%8+8)&255^9E4/(t*[2,1,sin(t>>1),2,1,2,sin(t>>1),1][t>>11&7]&2047)&255",
+    "codeLen": 329,
+    "fileOrig": 1,
+    "codeText": "t/=6,morph=[7,6,9,10,6,4,12,16],freqs=[0,0,3,3,0,0,3,5,0,0,3,3,5,5,3,-2,0,0,3,3,0,0,3,5,7,7,5,3,5,5,3,-2],freq=t*2**(freqs[t>>11&31]/12),6E4/(freq&512/morph[(t>>10)%8]-(t>>13)%8+8)&255^9E4/(t*[2,1,sin(t>>1),2,1,2,sin(t>>1),1][t>>11&7]&2047)&255",
+    "isTruncated": 1,
+    "author": "KaliTheCatgirl",
+    "name": "Derived Greaserpirate's tech to make something really glitchy",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gwyunm/derived_greaserpirates_tech_to_make_something/",
+    "date": "2024-11-22",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "b1298492a2312c084b01a51b936ca842",
+        "author": "Greaserpirate",
+        "name": "Showing off the recombination better",
+        "url": "https://www.reddit.com/r/bytebeat/comments/107zk7j/showing_off_the_recombination_better/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

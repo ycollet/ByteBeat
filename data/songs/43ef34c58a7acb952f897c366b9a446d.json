@@ -1,0 +1,32 @@
+{
+  "file": "songs/43ef34c58a7acb952f897c366b9a446d.js",
+  "title": "Cover of 'Focus' from SuperHexagon",
+  "author": "Wiebe-Marten Wijnja",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/43ef34c58a7acb952f897c366b9a446d.js",
+  "sha256": "b319f89e40d1eba9d1a27d1fe305afa7ba423f125a995e79817ea16029f4910f",
+  "upstream": {
+    "hash": "43ef34c58a7acb952f897c366b9a446d",
+    "codeLen": 8445,
+    "codeFormLen": 9287,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "//\t\t\t\t\t\t\t  ^\n/*If you have a fast computer, set this to 44kHz__________|  */  hq=true, \n/*And set this to true____________________________________________^\n\n\n====================================================================\n====================================================================\n\t\t   /       _____       \\",
+    "isTruncated": 1,
+    "author": "Wiebe-Marten Wijnja",
+    "name": "Cover of 'Focus' from SuperHexagon",
+    "url": [
+      "https://github.com/Qqwy/ExtremeBytebeats",
+      "http://wmmusic.nl/code/"
+    ],
+    "date": "2013-10-07",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "coverName": "Chipzel - Focus",
+    "coverUrl": "https://youtu.be/wD3j1O1XHQY",
+    "tags": [
+      "big"
+    ]
+  }
+}

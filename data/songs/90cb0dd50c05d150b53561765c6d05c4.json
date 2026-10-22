@@ -1,0 +1,29 @@
+{
+  "file": "songs/90cb0dd50c05d150b53561765c6d05c4.js",
+  "title": "Changsha Acid Inferno by FΛDE",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/90cb0dd50c05d150b53561765c6d05c4.js",
+  "sha256": "27dbbd7fe82e75cef52e0ff33d9c019957f54041d0523959bbb1276d520f944c",
+  "upstream": {
+    "hash": "90cb0dd50c05d150b53561765c6d05c4",
+    "codeLen": 4434,
+    "fileOrig": 1,
+    "codeText": "// Changsha Acid Inferno by FΛDE (cv. Abstract 64)\n\nr=(i,int,dt)=>((t||(av=Array(l=(dt|0)).fill(1)),c=i%256+av[t%l|0],av[t%l|0]=c*int,c)*(1-int)),\nHz=44100, tt=t/Hz*342.75*128, bpm=600, a = t/(Hz*60/8192/bpm),\nseq0='000000001111111111111111111111111111111422222222222222223333333333333335111111111111111111111111111111142222222222222222333333333333333511111111'[(a>>17)%144],\nseq1='0000000011111111111111132222222222222227111111111111111122222222222222221111111111111111444444444444444611111111111111114444555511",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "Changsha Acid Inferno by FΛDE",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1dgw5j7/finished_it/",
+      "https://youtu.be/gRehr4myqCQ"
+    ],
+    "date": "2024-06-16",
+    "sampleRate": 44100,
+    "coverName": "FΛDE - Changsha Acid Inferno",
+    "coverUrl": "https://youtu.be/OVG_mOf-_c8",
+    "tags": [
+      "big"
+    ]
+  }
+}

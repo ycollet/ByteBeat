@@ -1,0 +1,31 @@
+{
+  "file": "songs/d25391d23a4bc524fce89f03d184eeea.js",
+  "title": "tension",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d25391d23a4bc524fce89f03d184eeea.js",
+  "sha256": "da7d767be157fed91ec3dd6ca5ee979374fb78f2118e98cc8c4a771aa42c32e6",
+  "upstream": {
+    "hash": "d25391d23a4bc524fce89f03d184eeea",
+    "codeLen": 1593,
+    "fileOrig": 1,
+    "codeText": "t?(T=t*s,E=t*s/15*BPM,n=E%2,E-=n<5/4?n/5:0,n=D,D=1-(2*E&1),D-n>0?g[6]=F=0:F+=s,E|=0,n=U,U='10000000'[E&7]*D,U-n>0?A=a=0:A+=s,n=W,W='0121'[E&3]*D,W-n>0?(C=d=0,l=(n=l>>1)+(((l^n)&1)<<14)):C+=s,n=V,V=['0000100000010000','0000100000010010']['0001'[E>>4&3]][E&15]*D,V-n>0?B=b=0:B+=s,n=3e3/(1+A*1200)+45,a=(a+n*s)%1,n=2e3*e(B,50,6)+200*e(B,25,2)+230,b=(b+n*s)%1,c=2*random()-1,f=.2,q=.5,z=q+q/(1-f),x+=f*(c-x+z*(x-y)),y+=f*(x-y),n=(Q(800)+Q(540)+Q(523)+Q(370)+Q(304)+Q(205)),k=ch['00000001111111122222222222222222'[E>>",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "tension",
+    "description": "Bytebattle Season 2 Competition - 1st place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1h351um/tension/",
+      "https://bytebeat.oops.wtf/season2/entries.html"
+    ],
+    "date": "2024-11-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/236d6658a34dacf5de7cdff0b301796f.js",
+  "title": "Non-JS thing",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e8f4f8882992329d44b2b307844034fc4327a67f49615446cbae4badf5186f26",
+  "upstream": {
+    "hash": "236d6658a34dacf5de7cdff0b301796f",
+    "codeMinLen": 53,
+    "codeMin": "(30000/(t&4095)|t*5*((t>>12)%8&-t>>10)>>(t>>8)%4)&128",
+    "codeLen": 57,
+    "code": "(30000/(t&4095)|t*5*((t>>12)%8&-t>>10)>>1*((t>>8)%4))&128",
+    "author": "rubi",
+    "name": "Non-JS thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g7bmqt/nonjs_thing/",
+    "date": "2024-10-19",
+    "sampleRate": 11025,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-10-04"
+  }
+}

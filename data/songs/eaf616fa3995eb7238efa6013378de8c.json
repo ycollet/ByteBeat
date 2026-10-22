@@ -1,0 +1,35 @@
+{
+  "file": "songs/eaf616fa3995eb7238efa6013378de8c.js",
+  "title": "ryg remix",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "99a8a54dbbaf9abdb4338251009735127fa461a75d54700d9bc3709a15434d70",
+  "upstream": {
+    "hash": "eaf616fa3995eb7238efa6013378de8c",
+    "codeMinLen": 272,
+    "codeMin": "a=t=>t%129+t%126&128,b=x=>x*x|t>>5,w=(v,m,a)=>((v-m)%(a-m)+(a-m))%(a-m)+m,a(t*'36364689'[t>>13&7]/12/2)/2+w(b((t>>12^(t>>12)-2)%11*t/4|t>>13),0,256)%256/4+((4E4/(t>>3&2047)+(128*random()|255*(t&1))/((t/128+192)%128+1)+(128*random()|255*(t&1))/((t/128+160)%128+1))%256|0)/2",
+    "codeLen": 287,
+    "code": "a=t=>(t%129+t%126)&128,\nb=x=>x*x|t>>5,\nw=(v,m,a)=>(((v-m)%(a-m))+(a-m))%(a-m)+m,\na(t*'36364689'[t>>13&7]/12/2)/2\n+w(b(((t>>12^(t>>12)-2)%11*t/4|t>>13)),0,256)%256/4\n+((4e4/(t>>3&2047)+(random()*128|(t&1)*255)/(((t/128+192)%128)+1)+(random()*128|(t&1)*255)/(((t/128+160)%128)+1))%256|0)/2",
+    "author": "awogler9124812041",
+    "name": "ryg remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/184bgns/ryg_remix/",
+    "date": "2023-10-04",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

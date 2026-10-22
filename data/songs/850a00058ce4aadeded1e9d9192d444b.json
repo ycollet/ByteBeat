@@ -1,0 +1,32 @@
+{
+  "file": "songs/850a00058ce4aadeded1e9d9192d444b.js",
+  "title": "$ine $tabilizer Ꜧardcore",
+  "author": "Cattoadishere",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bb53a23f05640556b3c3be0a63add4544543a70be8e996c489a4c3bd36041848",
+  "upstream": {
+    "hash": "850a00058ce4aadeded1e9d9192d444b",
+    "codeMinLen": 295,
+    "codeMin": "D=t/(b=t&t>>12),f=(a,c)=>32*sin(b--%2**c*D/2**a)|0,max(min(255.9,(f(5,4)+f(9,6)+f(12,8)+f(14,9))/1.5+128+32*sin(sqrt(t%2**([14,14,14,14,14,14,14,13,14,14,14,14,14,14,13,12][(t>>14)%16])*8))+(t/4*(2+(t>>17&1))%256/3+t/3*(2+(t>>17&1))%256/3+t/8*(2+(t>>17&1))%256/3)%256*(256-(t>>8)%256)/256/2),.1)",
+    "codeLen": 302,
+    "code": "D=t/(b=t&t>>12),f=(a,c)=>32*sin(b--%2**c*D/2**a)|0,\nmax(min(255.9,((f(5,4)+f(9,6)+f(12,8)+f(14,9))/1.5+128+\nsin(sqrt((t%2**[14,14,14,14,14,14,14,13,14,14,14,14,14,14,13,12][(t>>14)%16])*8))*32)+((t/4*(2+(t>>17&1))%256/3+t/3*(2+(t>>17&1))%256/3+t/8*(2+(t>>17&1))%256/3)%256*(256-(t>>8)%256)/256)/2),0.1)",
+    "author": "Cattoadishere",
+    "name": "$ine $tabilizer Ꜧardcore",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1561h2y/ine_tabilizer_%EA%9C%A7ardcore_i_guess/",
+    "date": "2023-07-22",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "6a5ad7fafd24f5363118393924b5008f",
+        "author": "lhphr",
+        "name": "$ine $tabilizer",
+        "url": "https://dollchan.net/btb/res/44.html#66"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

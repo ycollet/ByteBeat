@@ -1,0 +1,32 @@
+{
+  "file": "songs/3724db9797ccc2e0aa26b06c8de007ea.js",
+  "title": "First remix of l(ast)",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "12d04ac63c2a068684cf89af983af6fe751bcfb4d4641a162b63b60371cee03f",
+  "upstream": {
+    "hash": "3724db9797ccc2e0aa26b06c8de007ea",
+    "codeMinLen": 212,
+    "codeMin": "z=t&1048576?2:1,x=x=>x*t*[1,1.5,1.35,1.18,1,1.18,1.35,1.8][z*t>>14&7]/(a=[1.25,1.5,1.75,2][z*t>>18&3])/2&48,(x(1)+x(.75)+x(1.5)+x(1.01)+(4E5/(t%(32768/z))&64)+(t*random()|z*t>>7)*(z*t>>15&1)%256/4+t/a%256/2)/1.75",
+    "codeLen": 214,
+    "code": "z=t&1048576?2:1,x=x=>(x*t*[1,1.5,1.35,1.18,1,1.18,1.35,1.8][z*t>>14&7]/(a=[1.25,1.5,1.75,2][z*t>>18&3])/2&48),(x(1)+x(.75)+x(1.5)+x(1.01)+(4e5/(t%(32768/z))&64)+(t*random()|z*t>>7)*(z*t>>15&1)%256/4+t/a%256/2)/1.75",
+    "author": "ANoUserXD",
+    "name": "First remix of l(ast)",
+    "url": "https://dollchan.net/btb/res/2628.html#2654",
+    "date": "2023-11-15",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "927995dc36334345159be8fa2a76f409",
+        "author": "rubi",
+        "name": "l(ast)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10g2lh0/last/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

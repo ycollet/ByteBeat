@@ -1,0 +1,27 @@
+{
+  "file": "songs/0148f03fb38a06e36c1f7b22905a0ad3.js",
+  "title": "Baldi's Basics - Runner Star Home",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 34133.332,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5e97a7b8198c0be2bbc5acb5d314bf0a6d0cb9137c176e1ac00466bf33896158",
+  "upstream": {
+    "hash": "0148f03fb38a06e36c1f7b22905a0ad3",
+    "codeMinLen": 396,
+    "codeMin": "Hz=125/60*16384,n=440/Hz*128*2**.25,r=min(1,abs(asin(sin(t*3*PI/16384)))*8),B=t%(16384/3)/2*n*2**([0,,,7][(t*3>>14)%6]/12),M=t%(16384/3)*n*2**([,,,,,,,,,,,,,,,,,,,,,,,,4,5,7,9,7,5,4,,,,,,7,9,11,12,11,9,7,,,,,,16,,,14,,12,11,,,10,,,,,14,12,11,9,7,,,5,,,4,,,,,,3,,,,,,,,,4,,,5,,7,9,,11,12,,,,,,11,,,,,,13][(t*3>>14)%120]/12),(((~M&255)*sin(M*PI/128)+76)/3*r||0)+(((~B&255)*sin(B*PI/128)+76)/3*r||0)",
+    "codeLen": 410,
+    "code": "Hz=125/60*16384,\nn=440/Hz*128*2**(3/12),\n\nr=min(1,abs(asin(sin(t*3*PI/16384)))*8),\n\nB=(t%(16384/3))/2*n*2**([0,,,7][(t*3>>14)%6]/12),\n\nM=(t%(16384/3))*n*2**([,,,,,,,,,,,,,,,,,,,,,,,,4,5,7,9,7,5,4,,,,,,7,9,11,12,11,9,7,,,,,,16,,,14,,12,11,,,10,,,,,14,12,11,9,7,,,5,,,4,,,,,,3,,,,,,,,,4,,,5,,7,9,,11,12,,,,,,11,,,,,,13][(t*3>>14)%120]/12),(((~M&255)*sin(M*PI/128)+76)/3*r||0)+(((~B&255)*sin(B*PI/128)+76)/3*r||0)",
+    "author": "Decent-Manager-6169",
+    "name": "Baldi's Basics - Runner Star Home",
+    "url": "https://dollchan.net/btb/res/520.html#6651",
+    "date": "2025-05-23",
+    "sampleRate": 34133.332,
+    "coverName": "Baldi's Basics - Runner Star Home",
+    "coverUrl": "https://youtu.be/id8emKk_hT0",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-11"
+  }
+}

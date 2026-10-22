@@ -1,0 +1,33 @@
+{
+  "file": "songs/ae6e2f090ed556d045166a3cab71ca35.js",
+  "title": "Unnecessary-ARPEG.hc",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "21f795ff21a16c093d0a6672b006b4b70922748c7148f9b2fd10158a749e06e8",
+  "upstream": {
+    "hash": "ae6e2f090ed556d045166a3cab71ca35",
+    "codeMinLen": 154,
+    "codeMin": "((15+1*'1370'[t>>17&3])/8*'12346543'[t>>12&7]*(t/4)%192+160)%256/2+(sqrt(5E3*(t%65536&(2**[9,12,12,14,,,,,13,12,11,14][(t>>11&15|t^t/32%8*t)&11])-1))&128)",
+    "codeLen": 158,
+    "code": "((15+1*'1370'[t>>17&3])/8*'12346543'[t>>12&7]*(t/4)%192+160)%256/2+((sqrt(5E3*(t%65536&(2**[9,12,12,14,,,,,13,12,11,14][(t>>11&15|t^(t/32%8)*t)&11])-1))&128))",
+    "author": "lhphr",
+    "name": "Unnecessary-ARPEG.hc",
+    "description": "Unnecessary hardcore remix of \"Unnecessary-ARPEG\".",
+    "url": "https://dollchan.net/btb/res/44.html#50",
+    "date": "2022-04-19",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "de012799cd02460a47fb1a8f4212cf0e",
+        "author": "lhphr",
+        "name": "Unnecessary-ARPEG",
+        "url": "https://dollchan.net/btb/res/44.html#44"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

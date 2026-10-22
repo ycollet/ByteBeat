@@ -1,0 +1,29 @@
+{
+  "file": "songs/5b4f25233249099ed90d7e2da1100bf5.js",
+  "title": "What am I even doing",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5b4f25233249099ed90d7e2da1100bf5.js",
+  "sha256": "54c61a9b7a359f96df8fe7333840941eea7f99161e8ad0e6c2c41e01f8b696d5",
+  "upstream": {
+    "hash": "5b4f25233249099ed90d7e2da1100bf5",
+    "codeMinLen": 571,
+    "codeLen": 575,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=.8,b=(t>>15&7?(t/32768%1)**.5*(t&131072?sin((-t>>15&3?t>>18&1?.5:t/16384:t>>18&1?t/128*21/24:t/8192)%1*PI):1):t>>18&1?(1-t/4096%16%3/3)*(1-t/256%1):.3)*(1-t/32768%1)**.2,d=t*[24,24,24,24,24,24,19.2,21][t>>16&7]/24%1024,cbrt(sin(sin(atan(sin(d*PI/512%PI*abs(sin(d*PI/256))*b*2)*sin(d*PI/256+cos(d*PI/4)*b)*b*2)*10*sin(d*PI/512+sin(d*PI/512)*PI*2))*PI/2))*sqrt(b)*1.5+cbrt(sin(cbrt(t%32768*4)*3))*max(0,1-t/16384%2)*2+sin(sin((t>>4)*(t>>2)*815)*max(0,t/32768%2-1)**3*300)*max(0,1-t/16384%2)*3*(t>>15&1)+(t>>15&7",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "What am I even doing",
+    "description": "Lowering your volume is advised.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gzqyxp/what_am_i_even_doing/",
+    "date": "2024-11-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-12"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/aae6fd6215e51face3fe778458fb53a2.js",
+  "title": "need more 303",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/aae6fd6215e51face3fe778458fb53a2.js",
+  "sha256": "32fcaf09c5ea19c2d80902df8ff15f6725bbf48a3a97daa81ee4f70950b3b20e",
+  "upstream": {
+    "hash": "aae6fd6215e51face3fe778458fb53a2",
+    "codeLen": 5255,
+    "fileOrig": 1,
+    "codeText": "/*!\n *\n * stagas - need more 303\n *\n */\n\nvar sampleRate = 48000;\nvar bpm = 125;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "need more 303",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8986661b2ea40b89656115e9ed9bee32",
+        "author": "stagas",
+        "name": "got some 303",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-29"
+  }
+}

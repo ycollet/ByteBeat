@@ -1,0 +1,1 @@
+delay=32,wv1=[1,2,3,4,5,6,7,8],((sin(t*(wv1[floor(t/delay/32/4)%wv1.length]/20)&t/delay/256)*64)+64)&-t/delay

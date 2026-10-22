@@ -1,0 +1,1 @@
+ampf = amplitudeFold = (input, limit = 1, offset = 0) => ((input + offset + limit) % (2 * limit) + (2 * limit)) % (2 * limit) - limit, ampf((sin(t * PI / 512) + 1) * (t / 23500), 1, -1)

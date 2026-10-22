@@ -1,0 +1,36 @@
+{
+  "file": "songs/a08b20728e717c1e43591d25bc93e7a6.js",
+  "title": "Basics",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5ace5423359c5ef02b43a367b8d9c375bf1dc8c7ded94483089bbc85debb42e7",
+  "upstream": {
+    "hash": "a08b20728e717c1e43591d25bc93e7a6",
+    "codeMinLen": 131,
+    "codeMin": "((10*(t>>6|t|t>>(t>>16&3))+(7&t>>11))%256*(t&3072?(2048+t%4096)%3072/12:0)>>8)+(t&3072?0:(t%256*(1024-t%1024)/3>>6&128)>>(t>>8&15))",
+    "codeLen": 137,
+    "code": "((t&3072?(2048+t%4096)%3072/12:0)*((10*(t>>6|t|t>>(t>>16&3))+(7&t>>11))%256)>>8)+(t&3072?0:(((t%256)*(1024-t%1024)/3>>6&128)>>(t>>8&15)))",
+    "author": "PortablePorcelain",
+    "name": "Basics",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1go6lue/basics/",
+    "date": "2024-11-10",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "903c0bcb153cc680ba3a1bde125b87f9",
+        "author": "viznut",
+        "name": "Sin() isn't kosher, people!",
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=4#c388477",
+          "https://youtu.be/qlrs2Vorw2Y?t=15"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

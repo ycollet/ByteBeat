@@ -1,0 +1,34 @@
+{
+  "file": "songs/f696dd524c9f9c0e8f6b4c0d1de14be5.js",
+  "title": "squ + delay effect",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 70997,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f696dd524c9f9c0e8f6b4c0d1de14be5.js",
+  "sha256": "b073ef792b2003cccc68b21cef2c8f948fcff6b4714ad4bcfc8cf461dfddf64b",
+  "upstream": {
+    "hash": "f696dd524c9f9c0e8f6b4c0d1de14be5",
+    "codeMinLen": 563,
+    "codeLen": 650,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "T=.2361*t,a=t=>(T*2**([4,4,7,7,9,9,11,11,12,12,11,11,9,9,7,7,9,9,14,14,2,2,14,14,9,9,14,14,2,2,14,14,16,16,11,11,7,7,16,16,11,11,7,7,16,16,11,11,4,4,11,11,12,12,4,4,11,11,12,14,14,14,12,12,7,7,11,11,7,7,11,11,7,7,11,11,14,14,11,11,14,14,9,9,6,6,9,9,14,14,9,9,6,6,14,14,16,16,11,11,19,19,16,16,11,11,16,16,19,19,11,11,12,12,7,7,12,12,16,16,19,19,16,19,19,19,24,24][(t>>13)%128]/12)*2&64)*(1-t%16384/32E3),b=k=>32*abs(cbrt(sin(T*PI/128*2**(k[t>>17&3]/12)))),a(t)+a(t-24336)/2+a(t-48672)/4+a(t-73008)/8+a(t-97344)/1",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "squ + delay effect",
+    "url": "https://dollchan.net/btb/res/520.html#708",
+    "date": "2023-03-28",
+    "sampleRate": 70997,
+    "remix": [
+      {
+        "hash": "6cf6f1cbc66d59fa79bf6f6dbead7174",
+        "author": "Decent-Manager-6169",
+        "name": "what the hell did i made",
+        "url": "https://dollchan.net/btb/res/520.html#702"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

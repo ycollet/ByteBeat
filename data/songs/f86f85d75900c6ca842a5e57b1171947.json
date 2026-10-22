@@ -1,0 +1,30 @@
+{
+  "file": "songs/f86f85d75900c6ca842a5e57b1171947.js",
+  "title": "Sparta Remix",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f86f85d75900c6ca842a5e57b1171947.js",
+  "sha256": "658d29bf3461012f261be31946423616a0fe56419b8c26d9e76b41f287756b83",
+  "upstream": {
+    "hash": "f86f85d75900c6ca842a5e57b1171947",
+    "codeMinLen": 804,
+    "codeLen": 1190,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=E/2,MelodyPattern=t*2**((\"33441144\"[t>>14&7]-2)/12),Melody=((MelodyPattern^t>>6)%256+(MelodyPattern*2^t>>7)%256)/2,Melody=Melody/4*(t>>20&1?t&4096?1:2:1)*(t&8192?1:2)*2-128,Bass=((MelodyPattern/2*(t>>20&1?t&4096?1:2:1)*(t&8192?1:2)%256/2-64)*(1-t/8192%1)+(MelodyPattern/2*(t>>20&1?t&4096?1:2:1)*2**(-5/12)*(t&8192?1:2)%256/2-64)*(1-t/1.5/8192%1))*2,DrumPattern=[\"0   0   \",\"0 1 1 1 \",\"0 1 1 1 \",\"0 1 2 1 \",\"0 1 2 1 \",[\"0 1 2 1 \",\"011 2 11\"][t>>13&1]][int(t>>18)>=5?5:t>>18][t>>12&7],Drums=DrumPattern==\"0\"?sin",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Sparta Remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mlpwm6/sparta_remix/",
+    "date": "2025-08-09",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-12-10"
+  }
+}

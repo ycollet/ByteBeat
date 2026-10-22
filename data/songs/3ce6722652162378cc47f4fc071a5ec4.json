@@ -1,0 +1,25 @@
+{
+  "file": "songs/3ce6722652162378cc47f4fc071a5ec4.js",
+  "title": "veryangrysymphony",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c6f654c07c8fc5d8da2d772946179380987489619ba11bcc1250bbc51e2f06e0",
+  "upstream": {
+    "hash": "3ce6722652162378cc47f4fc071a5ec4",
+    "codeMinLen": 59,
+    "codeMin": "t/(t>>13&t>>14&7)^t-t/256|2*(t>>13&t>>14&3)*t&t>>8|4*t&t>>6",
+    "codeLen": 67,
+    "code": "(t/((t>>13&t>>14)&7)^t-t/256)|(2*((t>>13&t>>14)&3)*t&t>>8|4*t&t>>6)",
+    "author": "kOLbOSa_exe",
+    "name": "veryangrysymphony",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18m62vw/veryangrysymphony/",
+    "date": "2023-12-19",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

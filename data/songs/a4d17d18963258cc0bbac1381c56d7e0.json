@@ -1,0 +1,28 @@
+{
+  "file": "songs/a4d17d18963258cc0bbac1381c56d7e0.js",
+  "title": "Example",
+  "author": "SArpnt",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a4d17d18963258cc0bbac1381c56d7e0.js",
+  "sha256": "1c52574b2608b8cedce36ad787169a4c7092e21807b4d997ed108cf89f405539",
+  "upstream": {
+    "hash": "a4d17d18963258cc0bbac1381c56d7e0",
+    "codeMinLen": 167,
+    "codeMin": "l=r=0;return t=>(p=2**((\"$$$000,,,,,,,,''\".charCodeAt(4.3*t&15)+22)/12),P=((t*p%1>t/2%1*.6+.2)-.5)/2,l+=r+=(P-l-3*r)/(170*cos(t/5)+200),l+sin(180*(4.3*t%2+.01)**.3)/4)",
+    "codeLen": 1094,
+    "fileOrig": 1,
+    "codeText": "l=r=0;return t=>(p=2**((\"$$$000,,,,,,,,''\".charCodeAt(4.3*t&15)+22)/12),P=((t*p%1>t/2%1*.6+.2)-.5)/2,l+=r+=(P-l-3*r)/(170*cos(t/5)+200),l+sin(180*(4.3*t%2+.01)**.3)/4)",
+    "isTruncated": 1,
+    "author": "SArpnt",
+    "name": "Example",
+    "description": "Basic explanations about Funcbeat in comments.",
+    "url": "https://bytebeat.ficial.net/",
+    "date": "2022-04-24",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

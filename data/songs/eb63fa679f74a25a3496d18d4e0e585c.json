@@ -1,0 +1,24 @@
+{
+  "file": "songs/eb63fa679f74a25a3496d18d4e0e585c.js",
+  "title": "electric guitar",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7b90ca1a583f4f61c09ae2a820d4150fd3f6224a9212c837f66df49e26a5822a",
+  "upstream": {
+    "hash": "eb63fa679f74a25a3496d18d4e0e585c",
+    "codeMinLen": 89,
+    "codeMin": "(40*min(t^t+(t>>11))|t/8&t>>6)/4&127+(t>>4)%2^5E5/(t&4095)+2*t%32+random()*t&4E4/(t&4095)",
+    "codeLen": 109,
+    "code": "((((((min(t^t+(t>>11))*40)|t/8&t>>6)/4)&127+((t>>4)%2))))^((5e5)/(t&4095))+(t*2%32)+(random()*t)&4e4/(t&4095)",
+    "author": "kOLbOSa_exe",
+    "name": "electric guitar",
+    "url": "https://www.reddit.com/r/bytebeat/comments/q8x43h/please_post_this_on_dollchamnet_pleaseeeeeeeee/",
+    "date": "2021-10-15",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

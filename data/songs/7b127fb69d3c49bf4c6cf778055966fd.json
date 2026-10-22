@@ -1,0 +1,32 @@
+{
+  "file": "songs/7b127fb69d3c49bf4c6cf778055966fd.js",
+  "title": "( ͡° ͜ʖ ͡°) alternate engine",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "34358a4e4f90369b2f8f0964ec0732daf19b02de2c363ae7972f7fdecf8b784b",
+  "upstream": {
+    "hash": "7b127fb69d3c49bf4c6cf778055966fd",
+    "codeMinLen": 77,
+    "codeMin": "((t>>=2)*[l=sin(t>>3),2,h=sin(t),2,l,2,h,2,l,2,h,2,l,2,h,3][t>>12&15]&t>>4)-8",
+    "codeLen": 148,
+    "code": "t=int(t/4),\nl=sin(t>>3),\nh=sin(t),\nproc=(input,s=11)=>(x=input[(t>>s)%input.length],(x=='h'?h:x=='l'?l:x)*t&t>>(s-8)),\nproc(\"l2h2l2h2l2h2l2h3\",12)-8",
+    "author": "Chasyxx",
+    "name": "( ͡° ͜ʖ ͡°) alternate engine",
+    "url": "https://dollchan.net/btb/res/756.html#994",
+    "date": "2023-05-03",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "b13da96ba4ca8d4648679380f7a2caef",
+        "author": "rubi",
+        "name": "( ͡° ͜ʖ ͡°)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s6xqf1/%CA%96/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

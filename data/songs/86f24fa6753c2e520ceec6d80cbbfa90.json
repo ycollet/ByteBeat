@@ -1,0 +1,24 @@
+{
+  "file": "songs/86f24fa6753c2e520ceec6d80cbbfa90.js",
+  "title": "Q",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ab6faf0a96beac4718816e8bbae33472d28537f0d476e1c236f05eaf35b31767",
+  "upstream": {
+    "hash": "86f24fa6753c2e520ceec6d80cbbfa90",
+    "codeMinLen": 488,
+    "codeMin": "K=D=>(r=12,p=2,pow(p,D/r)),P=c=>c+(t>>8)&c-(t>>8),x=[[3,0,-5],[7,3,0],[6,2,1],[2,5,9]],J=(c,O)=>int(c)%O.length,s=((P(t*K(x[J(t/4/65536,x)][0])/4)/2&63)+(P(t*K(x[J(t/4/65536,x)][1])/4)/2&63)+(P(t*K(x[J(t/4/65536,x)][2])/4)/2&63))/1.2,C=P(t/2*K(x[J(t/4/65536,x)][(t>>12)%3]))&63,d=1617,L=96*random()/exp(t%8192/4096)*(d>>(t>>12&15)&1),f=[0,0,1,0,0,1,0,0][O=(t>>13)%8],c=[1,1,0,1,1,0,0,1][O],l=50*random()*(t%4)/exp(t%8192/2048)*f,o=(4E5/(t%8192)&63)/exp(t%8192/2048)*c,k=l+o,(s+L+C+k)/1.24",
+    "codeLen": 502,
+    "code": "K=D=>(r=12,p=2,pow(p,D/r)),P=c=>c+(t>>8)&c-(t>>8),x=[[3,0,-5],[7,3,0],[6,2,1],[2,5,9],],J=(c,O)=>int(c)%O.length,s=((P(t*K(x[J(t/4/65536,x)][0])/4)/2&63)+(P(t*K(x[J(t/4/65536,x)][1])/4)/2&63)+(P(t*K(x[J(t/4/65536,x)][2])/4)/2&63))/1.2,C=P(t/2*K(x[J(t/4/65536,x)][(t>>12)%3]))&63,d=0b11001010001,L=(96*random()/exp(t%8192/4096))*(d>>(t>>12&15)&1),f=[0,0,1,0,0,1,0,0][O=(t>>13)%8],c=[1,1,0,1,1,0,0,1][O],l=(50*random()*(t%4)/exp(t%8192/2048))*f,o=(4e5/(t%8192)&63)/exp(t%8192/2048)*c,k=l+o,(s+L+C+k)/1.24",
+    "author": "TrashImpossible3699",
+    "name": "Q",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hhp8wa/q/",
+    "date": "2024-12-19",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

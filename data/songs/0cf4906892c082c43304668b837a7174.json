@@ -1,0 +1,34 @@
+{
+  "file": "songs/0cf4906892c082c43304668b837a7174.js",
+  "title": "Major 7th (even more explorative!)",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4977cf969620c6071593f0ffa3729db68c47d7b675ea95e4491baf2ba1b57120",
+  "upstream": {
+    "hash": "0cf4906892c082c43304668b837a7174",
+    "codeLen": 267,
+    "code": "T=t/5E3,b=T>>7,k=b+2&4?8:4,S=(s,p,d=0)=>(t*2**(p+[0,4,7,11][(T-d)/s%4|0]/12+((1-(T>>5&3))%2+1)/4)&128)/3,N=p=>1E5*sin(T*p|0)&64,S(2,0)+S(2,0,3)/2+(b&&S(0,-2))+(b>1&&S(.25,1)*(1-T%16/20))+(b>2&&.4*N(1E6)*(1-(T+k/2)%k/k))+(b>3&&(64/(T%k)&64)+(T&k&&.6*N(330)*(1-T%k/k)))",
+    "author": "Chasyxx",
+    "name": "Major 7th (even more explorative!)",
+    "description": "\"Dark Forest\" with 0,4,7,11 pattern. The most beautiful chords.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10k73al/comment/j6ksxue/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-01-31",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0c8f1f876ccea2f144287a89038b964f",
+        "author": "SthephanShi",
+        "name": "Dark Forest",
+        "url": [
+          "https://battleofthebits.com/arena/Entry/Dark+forest/57555/",
+          "https://www.reddit.com/r/bytebeat/comments/10k73al/dark_forest/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

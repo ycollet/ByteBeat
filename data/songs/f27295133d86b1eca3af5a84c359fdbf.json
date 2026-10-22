@@ -1,0 +1,37 @@
+{
+  "file": "songs/f27295133d86b1eca3af5a84c359fdbf.js",
+  "title": "Sinusoid Pusher",
+  "author": "lhphr",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "82d5e938d555ea51991212e30152b09dde2442478d63cfba40ce2720ae6c8c7c",
+  "upstream": {
+    "hash": "f27295133d86b1eca3af5a84c359fdbf",
+    "codeMinLen": 322,
+    "codeMin": "q=(f,v,y)=>(2*y-1)*f(t*(t&t>>12-log2(1+(z=t>>21&3)))/v/(1+z)+y*PI)**(1-(g=z!=t>>21)/2),k=y=>(2*y-1)*sin(2E3/(t%16384)**.1+y*PI)**.25,c=h=>isNaN(h)?0:h,((c(q(cos,1E5,0))+g*c(q(cos,1E5,1)))*(c(q(sin,7E4,0))+g*c(q(sin,7E4,1)))+sin(t%256/(6-4*g)**(t/512%64))+g*(c(k(0))+c(k(1)))/2+sin(2*PI*random())/(2-g/2)**((4+t/4096)%8))/2",
+    "codeLen": 326,
+    "code": "q=(f,v,y)=>(2*y-1)*(f(t*(t&t>>12-log2(1+(z=t>>21&3)))/v/(1+z)+y*PI)**(1-(g=z!=t>>21)/2)),k=y=>(2*y-1)*(sin(2e3/(t%16384)**.1+y*PI)**.25),c=h=>isNaN(h)?0:h,((c(q(cos,1e5,0))+g*c(q(cos,1e5,1)))*(c(q(sin,7e4,0))+g*c(q(sin,7e4,1)))+sin(t%256/(6-4*g)**(t/512%64))+g*(c(k(0))+c(k(1)))/2+sin(2*PI*random())/(2-g/2)**((4+t/4096)%8))/2",
+    "author": "lhphr",
+    "name": "Sinusoid Pusher",
+    "description": "Like we don't have enough variants of \"Crude Sinewave Dubstep\"? Also changes intensity about 3 minutes in.",
+    "url": "https://dollchan.net/btb/res/44.html#88",
+    "date": "2022-05-28",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "a52be2d61d8831b88fefb55def908ca5",
+        "author": "Gabriel Miceli",
+        "name": "Crude Sinewave Dubstep",
+        "url": [
+          "https://www.youtube.com/watch?v=V4GfkFbDojc",
+          "https://youtu.be/V4GfkFbDojc?t=148"
+        ]
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

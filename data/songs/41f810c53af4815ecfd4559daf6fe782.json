@@ -1,0 +1,28 @@
+{
+  "file": "songs/41f810c53af4815ecfd4559daf6fe782.js",
+  "title": "bad apple + mrbeast sample (PCM)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/41f810c53af4815ecfd4559daf6fe782.js",
+  "sha256": "333db60c44f422d45820d8cfb2c7c5af3d2b632e71f68b2af0333eb4d96aa27e",
+  "upstream": {
+    "hash": "41f810c53af4815ecfd4559daf6fe782",
+    "codeLen": 18789,
+    "fileOrig": 1,
+    "codeText": "s=\"IJILPQQRUUUUSPMNMLKKKNQSRRRPMJJIJMPQOPRSPPONLLJKOQRSUVVTTRNMLIFHLNOPQQPMLJHIJMNPQSTTQNOMKLNOPOQRQQRROPPNKKKKOPPPRQOMLMKLLNMPQONMNMNPTUVTTPPRSTSVTPNNMMPPQQVXVURQNNLMLLMKKKOPNLKKLOONPOLKJLPRSNJGIKKIILMOMMPSSQRSUVY\\\\ZVTVUUTVTTSRSQSRPHGEEAACDCBCAEDHIJLNNOOOSQPNNJHHFJMRQTUVUSWVYVWUVTRRPRQQMNLQRRVUVVYRRRVVTTPPNOPVVYXWUQSQTQPMKIGHDHEECB@@DBC@FGJMRXX[UUOLIKKKNMKGKHLFGHIKKNMPOUSSSUSRPJNNPRVTRQORRSSQRPQSUUUTVZZ[[WUSSRSVVVSQOOPNKHGGIKLKNPSTRQRRRPNLLMNNJHHIHD?<9;ADHLPTTOMILNNOPOMUX\\\\]`cb_ZVSPRTSQQOKLFDCB>;;;AHPSUXXW",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "bad apple + mrbeast sample (PCM)",
+    "description": "Bad Apple using funny PCM sample. Laughed of loud!",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14pyx7j/time_to_cheating/",
+    "date": "2023-07-04",
+    "sampleRate": 16000,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "tags": [
+      "big",
+      "sample"
+    ]
+  }
+}

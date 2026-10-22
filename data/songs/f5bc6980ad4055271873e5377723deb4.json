@@ -1,0 +1,29 @@
+{
+  "file": "songs/f5bc6980ad4055271873e5377723deb4.js",
+  "title": "Techno Syndrome - MORTAL KOMBAT!",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "1fdbf8f8b2e295daa430ea237861ebdbcc849071837567c88e4bcc03af6b1856",
+  "upstream": {
+    "hash": "f5bc6980ad4055271873e5377723deb4",
+    "codeMinLen": 170,
+    "codeMin": "r=t/1.205,a=r=>(t*2**(parseInt('99C9E9GECCGCJCGC77B7C7EC5595C5CB'[(r>>13)%32],36)/12)/2.67%128+(r>>6&127)&128)*(1-r%8192/8192),a(r)+a(r-(d=12288))/2+a(r-d*2)/4+a(r-d*3)/8",
+    "codeLen": 178,
+    "code": "r=1.205,d=12288*r,a=t=>((127&t*2**(parseInt('99C9E9GECCGCJCGC77B7C7EC5595C5CB'[(t/r>>13)%32],36)/12)/2.67)+(t/r>>6&127)&128)*(1-t/r%8192/8192),a(t)+a(t-d)/2+a(t-d*2)/4+a(t-d*3)/8",
+    "author": "Zackx",
+    "name": "Techno Syndrome - MORTAL KOMBAT!",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1874",
+      "https://www.reddit.com/r/bytebeat/comments/15n7apk/techno_syndrome/"
+    ],
+    "date": "2023-08-10",
+    "sampleRate": 44100,
+    "coverName": "Techno Syndrome - (Mortal Kombat) Song by The Immortals",
+    "coverUrl": "https://youtu.be/EAwWPadFsOA",
+    "tags": [
+      "256"
+    ]
+  }
+}

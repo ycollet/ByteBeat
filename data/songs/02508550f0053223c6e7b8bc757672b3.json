@@ -1,0 +1,35 @@
+{
+  "file": "songs/02508550f0053223c6e7b8bc757672b3.js",
+  "title": "Sierpinski harmony but there's no numbers",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ffc61c69ee0ed0bb75bd4f5f91a45b93af0bfddfcd168dcb691f1dec224aa591",
+  "upstream": {
+    "hash": "02508550f0053223c6e7b8bc757672b3",
+    "codeMinLen": 59,
+    "codeMin": "x=t/t,z=x+x,(y=t/z)*(z*z*z+z)&y>>z*z+z|y*(z*z+z)&y/z>>z*z+z",
+    "codeLen": 63,
+    "code": "x=t/t,z=x+x,(y=t/z)*(z*z*z+z)&y>>(z*z+z)|y*(z*z+z)&y/z>>(z*z+z)",
+    "author": "ANoUserXD",
+    "name": "Sierpinski harmony but there's no numbers",
+    "url": "https://dollchan.net/btb/res/2628.html#2649",
+    "date": "2023-11-15",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

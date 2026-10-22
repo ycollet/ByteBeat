@@ -1,0 +1,22 @@
+{
+  "file": "songs/52c4613a84a34fd96d1be35d7c7e2444.js",
+  "title": "SID thing",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6605d92677e46059c0f0f39ab4c5a029b80d5c7772359a89ca4bcbaafa5c17a3",
+  "upstream": {
+    "hash": "52c4613a84a34fd96d1be35d7c7e2444",
+    "codeLen": 91,
+    "code": "(t*2**(parseInt(['69D9','69D4','48B8','1384'][3&t>>16][3&t>>11],36)/12)&127)+(t>>9&127)&128",
+    "author": "Zackx",
+    "name": "SID thing",
+    "url": "https://dollchan.net/btb/res/204.html#1724",
+    "date": "2023-07-25",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

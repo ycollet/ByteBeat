@@ -1,0 +1,1 @@
+t=(6*(t-((t>>10&4|t>>13&3)|(t>>17&6|t>>14&4))*t/((t>>16&7)+4))),Math.pow(Math.abs(1-Math.abs(0.5+cos(t/64.25))**0.3)+Math.abs(0.35-Math.abs(5.5+cos(t/64.5))**0.5),1-Math.abs(1-Math.abs(0.5-sin(t/63.75))**0.5+1-Math.abs(2.1-Math.abs(2.3-sin(t/96))**0.75)))*80+15

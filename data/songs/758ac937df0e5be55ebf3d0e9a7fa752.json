@@ -1,0 +1,22 @@
+{
+  "file": "songs/758ac937df0e5be55ebf3d0e9a7fa752.js",
+  "title": "Protoss engine",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4c50df1d9d4e6cdb91012b98358cc0309dda86bec54503af3246416fe28e6592",
+  "upstream": {
+    "hash": "758ac937df0e5be55ebf3d0e9a7fa752",
+    "codeLen": 16,
+    "code": "2*(-t%128|t%130)",
+    "author": "SthephanShi",
+    "name": "Protoss engine",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

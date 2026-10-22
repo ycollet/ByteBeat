@@ -1,0 +1,36 @@
+{
+  "file": "songs/05666a86cf123d78e9c0d67cbacf1855.js",
+  "title": "Arpeggiator Fun 2",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/05666a86cf123d78e9c0d67cbacf1855.js",
+  "sha256": "ca7b53981dca3b0753b90c2ec3915bd32c6b90cbbbeee9543965734bd308ab36",
+  "upstream": {
+    "hash": "05666a86cf123d78e9c0d67cbacf1855",
+    "codeLen": 3622,
+    "codeFormLen": 3588,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "//    ___                                    _         _                 ______                 _____                  \n//   / _ \\                                  (_)       | |                |  ___|               / __  \\                 \n//  / /_\\ \\ _ __  _ __    ___   __ _   __ _  _   __ _ | |_   ___   _ __  | |_    _   _  _ __   `' / /'                 \n//  |  _  || '__|| '_ \\  / _ \\ / _` | / _` || | / _` || __| / _ \\ | '__| |  _|  | | | || '_ \\    / /                   \n//  | | | || |   | |_) ||  __/| ",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Arpeggiator Fun 2",
+    "url": "https://dollchan.net/btb/res/55.html#1056",
+    "date": "2023-04-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e029c3a4428aaaf39df0ca94994a62a7",
+        "author": "johanvandegriff",
+        "name": "511",
+        "url": "https://www.reddit.com/r/bytebeat/comments/o7e957/511/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

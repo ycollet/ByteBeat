@@ -1,0 +1,23 @@
+{
+  "file": "songs/4fe5b69e4f80d7854d2044af84cd29f8.js",
+  "title": "ONE MILLION alarm clocks",
+  "author": "yehar",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bc4b0809049768f5cd1018078582d346ff84ebd2b1bfc429f48dc85a1df1fc4f",
+  "upstream": {
+    "hash": "4fe5b69e4f80d7854d2044af84cd29f8",
+    "codeLen": 19,
+    "code": "t*t/(t>>12&t>>8)<<7",
+    "author": "yehar",
+    "name": "ONE MILLION alarm clocks",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401895",
+    "date": "2012-02-27",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

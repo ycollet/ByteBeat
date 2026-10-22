@@ -1,0 +1,36 @@
+{
+  "file": "songs/707a8868effa18d7926e1b899632b564.js",
+  "title": "Synthbreakcore",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/707a8868effa18d7926e1b899632b564.js",
+  "sha256": "3dbeb21ea8a2648076955e3c35d1ce22a40b8459556182ced123cbf165b17f78",
+  "upstream": {
+    "hash": "707a8868effa18d7926e1b899632b564",
+    "codeLen": 1835,
+    "fileOrig": 1,
+    "codeText": "tune=.6,\nspeed=1,\n\ntt=t*tune,\nts=t*speed,\n\nbt=beat=(len,spd)=>(ts>>spd)%len,\nseq=(arr,spd,T=tt)=>T*2**(arr[bt(arr.length,spd)]/12)||0,",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Synthbreakcore",
+    "url": "https://dollchan.net/btb/res/2971.html#4129",
+    "date": "2024-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "e0a0496ea1a782e035f562626ed49dfb",
+        "author": "ANoUserXD",
+        "name": "cool saw and bass with drums ",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1bmxfsj/cool_saw_and_bass_with_drums/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-12",
+    "date_edited": "2025-11-12"
+  }
+}

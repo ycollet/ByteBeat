@@ -1,0 +1,25 @@
+{
+  "file": "songs/f54702e79eb61a77226d0f9930153b23.js",
+  "title": "An tr808 cowbell thingy",
+  "author": "ANoUserXD",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0ad568978c14c72704f4602eecb800d7ac3d6cf76b14b756c68e8c172c119289",
+  "upstream": {
+    "hash": "f54702e79eb61a77226d0f9930153b23",
+    "codeMinLen": 179,
+    "codeMin": "t?d((v(x+=800*T*p(a[r=4*t/s&7]))+v(y+=540*T*p(a[r])))/2,l[2*t/s&3]*t/s%4):(s=48E3,T=2*PI/s,x=y=0,v=a=>2*asin(sin(a))/PI,d=(a,b)=>a/exp(b),p=a=>2**(a/12),a='00000031',l=[8,8,8,16])",
+    "codeLen": 181,
+    "code": "t?(d((v(x+=T*800*p(a[r=4*t/s&7]))+v(y+=T*540*p(a[r])))/2,l[2*t/s&3]*t/s%4)):(s=48e3,T=2*PI/s,x=y=0,v=a=>2*asin(sin(a))/PI,d=(a,b)=>a/exp(b),p=a=>2**(a/12),a='00000031',l=[8,8,8,16])",
+    "author": "ANoUserXD",
+    "name": "An tr808 cowbell thingy",
+    "url": "https://dollchan.net/btb/res/2628.html#2824",
+    "date": "2023-12-23",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

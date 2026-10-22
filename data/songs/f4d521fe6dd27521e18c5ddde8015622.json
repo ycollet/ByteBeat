@@ -1,0 +1,22 @@
+{
+  "file": "songs/f4d521fe6dd27521e18c5ddde8015622.js",
+  "title": "Discobeat",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 9930,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2bf8671f54c10cee4ad841a541fb2d1b2b01266cb0af476da81c23c6a24084c0",
+  "upstream": {
+    "hash": "f4d521fe6dd27521e18c5ddde8015622",
+    "codeLen": 63,
+    "code": "t&8%\"21 35 3\"[t>>9&6]*t|t>>5|t*6&t>>7%t*(t&1024?2:6)|(t&20?1:5)",
+    "author": "Zackx",
+    "name": "Discobeat",
+    "url": "https://dollchan.net/btb/res/204.html#204",
+    "date": "2022-09-19",
+    "sampleRate": 9930,
+    "tags": [
+      "256"
+    ]
+  }
+}

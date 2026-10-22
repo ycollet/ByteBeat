@@ -1,0 +1,28 @@
+{
+  "file": "songs/999d21d900abe9824c77bc73f086d4b5.js",
+  "title": "Commando High Score",
+  "author": "Sychamis",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/999d21d900abe9824c77bc73f086d4b5.js",
+  "sha256": "83a546a1e160f0955cb6efc48115d431916c954da11d668ea0770e29984c634e",
+  "upstream": {
+    "hash": "999d21d900abe9824c77bc73f086d4b5",
+    "codeMinLen": 694,
+    "codeLen": 696,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "r=48e3,n=c=>2**((parseInt(c,36)+.376)/12),X=(C,p)=>C%r/r>p,Y=C=>(C|0)**9%255/255,Z=C=>C%r/r,u=!(t%15360),T=n=>n/960|0,D='P     N QP N P  L     L LK I ',E='L        EGELKG',F=E+`N${E}E`,J='Q QQQ QQS SSS SS',G='L LLL LLJ JJJ JJ'+J,I=T(t/16),H=I%192,U=`${D} KL${D}G  G     ILL K   LNP N   PQQ P N L ${D}G  ${F+F}`[H],W=(G+G+`U UUU UUP PPP PP${J+G}L`+' LLL LLQ QQS SSL'.repeat(4))[H],u&U!=\" \"?(a=b=0,c=n(U)*128):a++,u?d=e=0:d++,u&W!=\" \"?(g=0,i=n(W)*16):g++,X(b+=c+sin(a/1500)*6,.5+Z(t/1.6)/20)*(a<r/5?abs((a*2+4e4)%r",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Commando High Score",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1grahi1/commando_high_score_730_bytes/",
+    "date": "2024-11-14",
+    "sampleRate": 48000,
+    "coverName": "Rob Hubbard - Commando High Score",
+    "coverUrl": "https://youtu.be/hLp8ErRj8s0",
+    "tags": [
+      "1k"
+    ]
+  }
+}

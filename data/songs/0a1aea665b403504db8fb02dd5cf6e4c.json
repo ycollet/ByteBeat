@@ -1,0 +1,27 @@
+{
+  "file": "songs/0a1aea665b403504db8fb02dd5cf6e4c.js",
+  "title": "the 3 ducks song",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0a1aea665b403504db8fb02dd5cf6e4c.js",
+  "sha256": "c7b893ba32722c5725dfa2f7b2908622d54b08d1efcf926be021feece7da37cb",
+  "upstream": {
+    "hash": "0a1aea665b403504db8fb02dd5cf6e4c",
+    "codeLen": 1859,
+    "fileOrig": 1,
+    "codeText": "//hcdphobe - the 3 ducks song\n//date: 2023-05-03\n//sample rates\nsamp=48000,\nz=256*t/samp,\nw=PI/128,\n//shortcuts\nl='length',",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "the 3 ducks song",
+    "url": "https://dollchan.net/btb/res/163.html#993",
+    "date": "2023-05-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Five Little Ducks",
+    "coverUrl": "https://youtu.be/pZw9veQ76fo",
+    "tags": [
+      "big"
+    ]
+  }
+}

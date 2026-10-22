@@ -1,0 +1,35 @@
+{
+  "file": "songs/2140e55b9b0f7c1aa9673138a02eacf9.js",
+  "title": "version 3",
+  "author": "ANoUserXD",
+  "mode": "Signed Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c68179868481bbcef0f216722807c436cc527618dbb1d20aef336f05046aebee",
+  "upstream": {
+    "hash": "2140e55b9b0f7c1aa9673138a02eacf9",
+    "codeMinLen": 193,
+    "codeMin": "t?0:A=Array(z=540).fill(a=0),a+=[1,.75,.8,.6][t>>13+(t>>14&4^t>>12&3)&3^t>>14&3&t>>16]/2.26,b=(sin(a/2)+sin(a/6+sin(a/2))/3+cbrt(sin(a/8))/2)*60+A[(t+40*abs(sin(t/3E3)))%z|0],A[t%z|0]=b/1.5,b/3",
+    "codeLen": 194,
+    "code": "!t?A=Array(z=540).fill(a=0):0,a+=[1,.75,.8,.6][t>>13+(t>>14&4^t>>12&3)&3^t>>14&3&t>>16]/2.26,b=(sin(a/2)+sin(a/6+sin(a/2))/3+cbrt(sin(a/8))/2)*60+A[(t+40*abs(sin(t/3e3)))%z|0],A[t%z|0]=b/1.5,b/3",
+    "author": "ANoUserXD",
+    "name": "version 3",
+    "description": "Unable to find a link to remix source...",
+    "date": "2025-04-12",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "86d32d78fc3af0b25eff3e2792cbd38a",
+        "author": "ANoUserXD",
+        "name": "version 2",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-12-03",
+    "date_edited": "2026-01-10"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/49990b3985b826d2513f988676d0e64c.js",
+  "title": "I made a thing",
+  "author": "botbeat",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/49990b3985b826d2513f988676d0e64c.js",
+  "sha256": "88bb2aea740602a214b519ff8a02e7dff7e40f5d97a7fddab774310d97dd455f",
+  "upstream": {
+    "hash": "49990b3985b826d2513f988676d0e64c",
+    "codeLen": 1438,
+    "fileOrig": 1,
+    "codeText": "BPM = 140, m = \"map\",\n\nSR = 48e3,\n\nT = t * BPM / 60 * SR / 131072,\n\nt ? 0 : b = mem = Array(3e6).fill(0),\n",
+    "isTruncated": 1,
+    "author": "botbeat",
+    "name": "I made a thing",
+    "description": "Uses tech by RealZynx92.",
+    "url": "https://dollchan.net/btb/res/3.html#12412",
+    "date": "2026-01-31",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-10-18"
+  }
+}

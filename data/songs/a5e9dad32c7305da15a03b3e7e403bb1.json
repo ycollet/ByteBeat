@@ -1,0 +1,44 @@
+{
+  "file": "songs/a5e9dad32c7305da15a03b3e7e403bb1.js",
+  "title": "Tweaked version to sound better",
+  "author": "polyzium",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a5e9dad32c7305da15a03b3e7e403bb1.js",
+  "sha256": "9b0042b214a179535008451d458f4ea005e9fed048581032c35c9c9ccef4796a",
+  "upstream": {
+    "hash": "a5e9dad32c7305da15a03b3e7e403bb1",
+    "codeLen": 222956,
+    "fileOrig": 1,
+    "codeText": "// Slightly tweaked, smoother sounding version of the DFPWM decoder (the encoder had to be tweaked as well)\n// Audio source: https://www.youtube.com/watch?v=8yOskhDn468\n\nt==0?(\n    // Initialize\n\n    // RESP_INC = 7,\n    // RESP_DEC = 20,",
+    "isTruncated": 1,
+    "author": "polyzium",
+    "name": "Tweaked version to sound better",
+    "description": "Slightly tweaked, smoother sounding version of the DFPWM decoder",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1euxbis/1_bit_per_sample_dfpwm_audio/",
+    "date": "2024-08-18",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "b8a2abfa1df6d555034128664e7c59a9",
+        "author": "Sychamis",
+        "name": "ADPCM in bytebeat",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1e7ey8x/103_bit_per_sample_improved_dpcm_audio/"
+      },
+      {
+        "hash": "7ceecc450f04a38764d5fad28ab99711",
+        "author": "polyzium",
+        "name": "1 bit per sample DFPWM audio",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1euxbis/1_bit_per_sample_dfpwm_audio/"
+      }
+    ],
+    "coverName": "Otis McDonald - Scarlet Fire",
+    "coverUrl": "https://youtu.be/8yOskhDn468",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-06"
+  }
+}

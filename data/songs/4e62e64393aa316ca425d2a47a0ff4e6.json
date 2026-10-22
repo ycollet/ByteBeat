@@ -1,0 +1,32 @@
+{
+  "file": "songs/4e62e64393aa316ca425d2a47a0ff4e6.js",
+  "title": "TIRO remixed again",
+  "author": "NewFall2020",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c78fcadaa26285d65cc80ad1bf3afa78919b5288d4442fc9053938bbc3e55411",
+  "upstream": {
+    "hash": "4e62e64393aa316ca425d2a47a0ff4e6",
+    "codeMinLen": 343,
+    "codeMin": "t/=4,b=(t*(t&16384?7:5)*(3-(3&-t>>9)+(3&t>>8))>>(2&t>>(t%65536?t&4096?2:16:2))|t>>4)/2&127,c=3E4/(t%(t&8192?5120:4096))&64,d=t*(t&16384?7:5)*2*(1&t>>11)/32%64,e=random()*((-t>>[6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,3][(t>>11)%64])%64+64),b/2%128+c%164+d+e",
+    "codeLen": 371,
+    "code": "t/=4,\na=\nb=((t*(t&16384?7:5)*(3-(3&-t>>9)+(3&t>>8))>>(2&t>>(t%65536?(t&4096?2:16):2))|t>>4)/2&127),\nc=3e4/(t%(t&8192?5120:4096))&128-64,\nd=(t*(t&16384?7:5)*(2*(1&t>>11)))/32%64,\ne=(random()*(((-t>>[6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,3][(t>>11)%64])%64)+64)),\n(b/2%128)+(c%164)+d+e",
+    "author": "NewFall2020",
+    "name": "TIRO remixed again",
+    "url": "https://www.reddit.com/r/bytebeat/comments/r557yi/4_links/",
+    "date": "2021-11-29",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "14594f06604769b0fcf67415ac57188e",
+        "author": "RealZynx92",
+        "name": "remix of \"The time is running out!\"",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qf9meb/remix_of_the_time_is_running_out_by_stephanshi/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

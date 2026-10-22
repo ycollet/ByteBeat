@@ -1,0 +1,24 @@
+{
+  "file": "songs/9e2a37357650825dfafeca377a80fd35.js",
+  "title": "LFSR Means LFSR",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ca83670101ce7661d55f12d78cab320bd178e5531af3d892183fc22c7acb3b93",
+  "upstream": {
+    "hash": "9e2a37357650825dfafeca377a80fd35",
+    "codeLen": 116,
+    "code": "t?T++:(R=Array(N=12),T=0,R[0]=1,R[1]=1),R[T%N]=R[T%N]^R[(T-1)%N]^R[(T-4)%N]^R[(T-6)%N]^R.reduce((s,n)=>s^n,0),R[T%N]",
+    "author": "May_I_Change_My_Name",
+    "name": "LFSR Means LFSR",
+    "description": "LFSR is a <a href='https://en.m.wikipedia.org/wiki/Linear-feedback_shift_register' target='_blank'>linear-feedback shift register</a>.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b0el7i/lfsr_means_lfsr/",
+    "date": "2024-02-26",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "file": "songs/4c3f5dd50504fa814de8c135a8518498.js",
+  "title": "Synthwave",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dde8f8ec59602850992da1fa8d5531779998f515a0b20b31362b107850188e29",
+  "upstream": {
+    "hash": "4c3f5dd50504fa814de8c135a8518498",
+    "codeLen": 276,
+    "code": "a=t*1.01*2**([0,-2,0,3,5,7,10,12,-5,-2,0,3,5,7,10,12,-7,-2,-4,0,3,5,10,5,0,-2,-4,0,3,5,10,5,-9,-7,-5,-2,-4,0,3,8,-5,-7,-5,-2,-4,0,3,8,-5,-2,7,5,-5,-2,7,3,-5,-2,5,2,0,3,2,-2][t/1.66>>12&63]/12),a=(a%256+a%254)/4,b=t*.503*2**([0,-2,-4,-5][t/1.66>>16&3]/12),b=(b%256+b%255)/5,a+b",
+    "author": "Decent-Manager-6169",
+    "name": "Synthwave",
+    "url": "https://dollchan.net/btb/res/520.html#577",
+    "date": "2023-03-10",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

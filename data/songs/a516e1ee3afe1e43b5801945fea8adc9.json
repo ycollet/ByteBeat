@@ -1,0 +1,33 @@
+{
+  "file": "songs/a516e1ee3afe1e43b5801945fea8adc9.js",
+  "title": "Times star",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a3f934103fe1234c472d080450af6aa070f3e8c2142def67c30d19af454f8be0",
+  "upstream": {
+    "hash": "a516e1ee3afe1e43b5801945fea8adc9",
+    "codeMinLen": 219,
+    "codeMin": "u=t*1.5/2,(t*2**([-5,2,3,5,7,0,-2,9,7,0,12,12,7,7,10,3][15&u>>12]/12)*2.08&128)*(-u>>7&31)/96+(2.08*t/2**(u>>13&3)/8&16)+(3E5/(u*\"1010101110102211\"[u>>12&15]%4096)**.69&128)/2.88+t*t*(t>>7|t)%235*(-u&8191)/3E4*(u>>13&1)",
+    "codeLen": 223,
+    "code": "u=t*1.5/2,(t*2**([-5,2,3,5,7,0,-2,9,7,0,12,12,7,7,10,3][15&u>>12]/12)*2.08&128)*(-u>>7&31)/96+(2.08*t/2**(u>>13&3)/8&16)+(3e5/(u*'1010101110102211'[u>>12&15]%4096)**.69&128)/2.88+((t*t*(t>>7|t))%235)*(-u&8191)/3e4*(u>>13&1)",
+    "author": "hcdphobe",
+    "name": "Times star",
+    "url": "https://dollchan.net/btb/res/163.html#1791",
+    "date": "2023-08-23",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "926ecff367d174bb9bc72c248b0a9817",
+        "author": "absolute197",
+        "name": "someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14ypf7q/someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

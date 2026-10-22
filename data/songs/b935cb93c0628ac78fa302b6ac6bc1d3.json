@@ -1,0 +1,31 @@
+{
+  "file": "songs/b935cb93c0628ac78fa302b6ac6bc1d3.js",
+  "title": "Pleasure to Paso",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b935cb93c0628ac78fa302b6ac6bc1d3.js",
+  "sha256": "0d83d3e9861e8446c6f8892b7fb835dba7531d23bce50fe68cdb57b813fe306c",
+  "upstream": {
+    "hash": "b935cb93c0628ac78fa302b6ac6bc1d3",
+    "codeMinLen": 559,
+    "codeLen": 649,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t/=1.48,s=t*.9,a=t/2*2**([-15,-15,-3,-15,-15,-3,-15,-15,-3,-15,-15,-3,-15,-15,-17,-15,-15,-15,-3,-15,-15,-3,-15,-15,-3,-15,-15,-3,-15,-15,-17,-15,-12,-12,0,-12,-12,0,-12,-12,0,-12,-12,0,-12,-12,0,-12,-10,-10,2,-10,-10,2,-10,-10,2,-10,-10,2,-8,4,-10,0][s>>12&63]/12)%128+48+sin(t/8192*PI)*7&128,r=t*sin(t>>3)*(s>>14&1)&~s>>7&127^1E5/(s&16383),b=c=>c>0&&3*t/4*2**([9,9,9,9,,,7,,9,12,,9,9,,7,,9,9,9,9,,,7,,9,12,9,,7,9,9,,12,12,12,12,,,12,12,17,,16,16,16,,,,14,14,14,,7,7,7,,14,14,14,17,,16,17][c>>12&63]/12-sin(s/20",
+    "isTruncated": 1,
+    "author": "ANoUserXD",
+    "name": "Pleasure to Paso",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1nesdlx/pleasure_to_bytebeat_v2_cover_of_pleasure_to/",
+    "date": "2025-09-11",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Paso of Dyntec - Pleasure to Paso",
+    "coverUrl": "https://www.youtube.com/watch?v=w_LW75WE_oo",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-01",
+    "date_edited": "2026-01-06"
+  }
+}

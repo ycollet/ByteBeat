@@ -1,0 +1,29 @@
+{
+  "file": "songs/d685d850973ec07e7cea50ba1006a20e.js",
+  "title": "9) SADLY",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6f191337560d00e44e56e29548d7439651fe4684ea9a1f79987e16e21e552016",
+  "upstream": {
+    "hash": "d685d850973ec07e7cea50ba1006a20e",
+    "codeMinLen": 14,
+    "codeMin": "43*(t>>9|t>>2)",
+    "codeLen": 21,
+    "code": "((t*4>>43|t*4>>4)*43)",
+    "author": "Anonymous from russian imageboards",
+    "name": "9) SADLY",
+    "url": [
+      "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+      "http://arhivach.xyz/thread/28592/#71681889"
+    ],
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-06-07"
+  }
+}

@@ -1,0 +1,1 @@
+r=x=>(t?0:a=Array(12288).fill(0),b=x+a.shift(),a.push(b/2),b),r((cos(t/10)+cos(t/11)+cos(t/12)+cos(t/13)+cos(t/14)+cos(t/15)+cos(t/16)+cos(t/17)+cos(t/18)+cos(t/19)+cos(t/20))/9)/1.5

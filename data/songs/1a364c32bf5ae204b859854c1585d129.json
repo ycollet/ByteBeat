@@ -1,0 +1,23 @@
+{
+  "file": "songs/1a364c32bf5ae204b859854c1585d129.js",
+  "title": "a bare-bones version",
+  "author": "yehar",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9fb6d1158d52ffad9ba90e17f844e804c5d4c03fe597e0ca47149fcdb0a7580c",
+  "upstream": {
+    "hash": "1a364c32bf5ae204b859854c1585d129",
+    "codeLen": 55,
+    "code": "t>>4|t*t*(t>>6&8^8)*(t>>11^t/3>>12)/(7+(t>>10&t>>14&3))",
+    "author": "yehar",
+    "name": "a bare-bones version",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401690",
+    "date": "2012-02-25",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

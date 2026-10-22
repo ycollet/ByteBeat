@@ -1,0 +1,30 @@
+{
+  "file": "songs/19fa23451cd22d0f73cdf8bb26e39cd4.js",
+  "title": "I Was At The Club",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32221.867,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/19fa23451cd22d0f73cdf8bb26e39cd4.js",
+  "sha256": "04db231c6341364125365b7f063569b2087d71c63985c67a4814f6c611ae4a94",
+  "upstream": {
+    "hash": "19fa23451cd22d0f73cdf8bb26e39cd4",
+    "codeMinLen": 435,
+    "codeMin": "t+=262144,Hz=118/60*16384,n=440/Hz*128*2**(3/12),A=-t%4096>>5,B=-(t+4096)>>5,C=-t>>5,((((t*n*8*2**([-4,-4,-4,3,3,,-2,-2,5,5,,,,,,,-5,-5,-5,3,3,,-4,-4,3,3,7,7,5,5,3,3][t>>12&31]/12)&4095)**(1/sqrt((4+.01*((sin(t/8192))*32)))))&16)*([A,B,B,C,C,C,C,C][t>>13&7]&255)>>5)+((t*sin((t%256)>>6)&128)*'1001'[t>>13&7]*(C&255)>>8)+((t*sin((t%140)>>3)&128)*([,,C][t>>13&3]&255)>>8)+((t*sin((t%200)>>2)&128)*'0000000000000101'[t>>13&15]*(C&255)>>9)",
+    "codeLen": 444,
+    "fileOrig": 1,
+    "codeText": "t+=262144,Hz=118/60*16384,n=440/Hz*128*2**(3/12),A=-t%4096>>5,B=-(t+4096)>>5,C=-t>>5,((((t*n*8*2**([-4,-4,-4,3,3,,-2,-2,5,5,,,,,,,-5,-5,-5,3,3,,-4,-4,3,3,7,7,5,5,3,3][t>>12&31]/12)&4095)**(1/sqrt((4+.01*((sin(t/8192))*32)))))&16)*([A,B,B,C,C,C,C,C][t>>13&7]&255)>>5)+((t*sin((t%256)>>6)&128)*'1001'[t>>13&7]*(C&255)>>8)+((t*sin((t%140)>>3)&128)*([,,C][t>>13&3]&255)>>8)+((t*sin((t%200)>>2)&128)*'0000000000000101'[t>>13&15]*(C&255)>>9)",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "I Was At The Club",
+    "url": "https://dollchan.net/btb/res/520.html#5339",
+    "date": "2025-01-21",
+    "sampleRate": 32221.867,
+    "coverName": "The BoyBoy West Coast - U Was At The Club (Bottoms Up)",
+    "coverUrl": "https://youtu.be/j2im_XnThMk",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-06",
+    "date_edited": "2025-11-21"
+  }
+}

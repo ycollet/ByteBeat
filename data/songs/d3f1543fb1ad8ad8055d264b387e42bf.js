@@ -1,0 +1,1 @@
+r=.77,d=12288/r,a=t=>(128&t*2**(parseInt(['VTSQOJGECEGJOQST','VTRQMJHFAFHJOQRT'][1&t*r>>17][(t*r>>12)%16],36)/12)*1.51),a(t)+a(t-d)/2+a(t-d*2)/4

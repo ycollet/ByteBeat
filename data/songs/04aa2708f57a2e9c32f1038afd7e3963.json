@@ -1,0 +1,29 @@
+{
+  "file": "songs/04aa2708f57a2e9c32f1038afd7e3963.js",
+  "title": "The PEAK Of Human Evolution!",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/04aa2708f57a2e9c32f1038afd7e3963.js",
+  "sha256": "222f1e14a60ecd80f573d7e7655ce11d593da72efa869ae15c4010459f963ff3",
+  "upstream": {
+    "hash": "04aa2708f57a2e9c32f1038afd7e3963",
+    "codeLen": 2587,
+    "fileOrig": 1,
+    "codeText": "t=t/6,GR=1.61803399,tau=Math.PI*2.008531,S=Math.sin,C=Math.cos,T=Math.tan,P=Math.pow,A=Math.abs,U=Math.sqrt,SPC=\"5564556455346675\",MainSynthPattern=t*P(1.25,\"2534\"[t>>14&3])/(tau-GR),SynthPattern1=t*P(1.125,SPC[t>>12&15])*1.3,SynthPattern2=t*P(1.125,SPC[t>>14&15])*1.15,SynthPattern3=t*P(1.125,SPC[t>>15&15])*2.35,Synth1=(SynthPattern1%100|SynthPattern1%98.5)/4&31,Synth2=(SynthPattern2%100|SynthPattern2%98.5)/4&31,Synth3=(SynthPattern3%100|SynthPattern3%98.5)/2&31,Noise1=Math.random()*((-t>>6&31)+1)*\"10101000",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "The PEAK Of Human Evolution!",
+    "url": [
+      "https://dollchan.net/btb/res/77.html#2681",
+      "https://youtu.be/qpaD2g_7gxk"
+    ],
+    "date": "2023-11-12",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

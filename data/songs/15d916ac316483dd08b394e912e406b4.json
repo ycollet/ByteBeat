@@ -1,0 +1,26 @@
+{
+  "file": "songs/15d916ac316483dd08b394e912e406b4.js",
+  "title": "cave story balcony remake",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 50000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/15d916ac316483dd08b394e912e406b4.js",
+  "sha256": "382abb83c739ab7c99128480818210f48330b5f7c4ce5cb4a4287a5c35088143",
+  "upstream": {
+    "hash": "15d916ac316483dd08b394e912e406b4",
+    "codeLen": 1554,
+    "fileOrig": 1,
+    "codeText": "(((((abs((t/1.5*2**([0,11,7,11,0,11,7,11,0,11,7,11,0,11,7,11,2,9,6,9,2,9,6,9,2,9,6,9,2,9,6,9][(t>>15)%32]/12)&255)-127.5)&255)/1)&255)*1)+((((abs((t/1.5/2*2**([0,11,7,11,0,11,7,11,0,11,7,11,0,11,7,11,2,9,6,9,2,9,6,9,2,9,6,9,2,9,6,9][(t>>15)%32]/12)&255)-127.5)&255)/1)&255)*1))/[2,4][(t>>14)%2]+[0,(((((abs((t*2**([16,16,16,16,9,16,9,9,19,9,19,19,16,19,16,16,16,16,16,16,9,16,9,9,19,9,19,19,16,19,16,16,16,16,16,16,9,16,9,9,19,9,19,19,16,19,16,16,16,16,16,16,9,16,9,9,19,9,19,19,16,19,16,16,/**/14,16,14,14,7,14,",
+    "isTruncated": 1,
+    "author": "ChrisRM380",
+    "name": "cave story balcony remake",
+    "url": "https://dollchan.net/btb/res/368.html#3190",
+    "date": "2024-03-29",
+    "sampleRate": 50000,
+    "coverName": "Cave Story OST - T28: Balcony",
+    "coverUrl": "https://youtu.be/GoigiNs59s8",
+    "tags": [
+      "big"
+    ]
+  }
+}

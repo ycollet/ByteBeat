@@ -1,0 +1,25 @@
+{
+  "file": "songs/48c3a037d95019b0d38472db14d70856.js",
+  "title": "experimenting with the kick drum",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3bae16439ecabddb0c30e9e9013e68278b516e6c07252007262e835e78233d42",
+  "upstream": {
+    "hash": "48c3a037d95019b0d38472db14d70856",
+    "codeMinLen": 73,
+    "codeMin": "(100*tanh(cos(2*cbrt(t%16384)**.3))&130*tanh(cos(30*sqrt(t%4096)**.4)))/2",
+    "codeLen": 77,
+    "code": "((tanh(cos(2*cbrt(t%16384)**.3))*100)&(tanh(cos(30*sqrt(t%4096)**.4))*130))/2",
+    "author": "eSlashMachine",
+    "name": "experimenting with the kick drum",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h3nfj7/experimenting_with_the_kick_drum_again/",
+    "date": "2024-11-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ]
+  }
+}

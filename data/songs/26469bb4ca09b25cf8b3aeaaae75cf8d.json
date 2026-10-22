@@ -1,0 +1,29 @@
+{
+  "file": "songs/26469bb4ca09b25cf8b3aeaaae75cf8d.js",
+  "title": "TheFatRat - Unity",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/26469bb4ca09b25cf8b3aeaaae75cf8d.js",
+  "sha256": "4c539ef4689b4fb917262f556902077f1d462b0cd8566da1d282710a006e7249",
+  "upstream": {
+    "hash": "26469bb4ca09b25cf8b3aeaaae75cf8d",
+    "codeLen": 32340,
+    "fileOrig": 1,
+    "codeText": "/*\nTheFatRat - Unity, covered on bytebeat without samples by Sychamis, February 2025.\nOriginal: https://www.youtube.com/watch?v=n8X9_MgEdCg\n\nFilter code based on polyzium's code.\nThis video helped me find the chords: https://www.youtube.com/watch?v=5fVEh-WmQP0\n\nThis is meant to be played on https://dollchan.net/bytebeat in Floatbeat mode at 48000Hz.",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "TheFatRat - Unity",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1iu68im/thefatrat_unity/",
+    "date": "2025-02-20",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "TheFatRat - Unity",
+    "coverUrl": "https://youtu.be/n8X9_MgEdCg",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

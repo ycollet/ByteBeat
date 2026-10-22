@@ -1,0 +1,41 @@
+{
+  "file": "songs/594e89ba05228f300a92554d1bd4f8fd.js",
+  "title": "Complex IIOR",
+  "author": "Chasyxx",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/594e89ba05228f300a92554d1bd4f8fd.js",
+  "sha256": "8771abedf61f51316e5cc8f8d6920ab35bf9366c9a671b9eda5b2c839c634a51",
+  "upstream": {
+    "hash": "594e89ba05228f300a92554d1bd4f8fd",
+    "codeLen": 4664,
+    "fileOrig": 1,
+    "codeText": "// Complex IIOR\n\n// Uses THE MOTHERLODE,a collection of effects you can use on _ANY_ variable that changes. This tool was made by Graserpirate.\n\n// This song is a remix of \"Inside Castle\",by Rio Zack.\n\ncap={length:106,active:1,loop:1},// Song length settings\n",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Complex IIOR",
+    "description": "\"After all the searching you found your objective. The old run-down castle floods with technology... Can you reach The Great Beyond through the mechanical inhabitants of this place?\"",
+    "url": "https://dollchan.net/btb/res/756.html#788",
+    "date": "2023-04-08",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "c464bab1015d2c23e917b68b7325ea39",
+        "author": "Zackx",
+        "name": "inside castle",
+        "url": "https://dollchan.net/btb/res/204.html#480"
+      },
+      {
+        "hash": "8206a436cabbeace03395700e3d871f9",
+        "author": "Greaserpirate",
+        "name": "THE MOTHERLODE",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10bv1d5/the_motherlode_a_bundle_of_effects_lowpass_filter/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-12-01"
+  }
+}

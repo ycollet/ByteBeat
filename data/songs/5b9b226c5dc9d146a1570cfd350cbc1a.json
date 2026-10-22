@@ -1,0 +1,33 @@
+{
+  "file": "songs/5b9b226c5dc9d146a1570cfd350cbc1a.js",
+  "title": "1fcccf1 (c compatible version)",
+  "author": "orion_aboy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6bf7f0088b5e5c551c8c9751bd630d6c79622daf322d8189efe1d5727589f9e6",
+  "upstream": {
+    "hash": "5b9b226c5dc9d146a1570cfd350cbc1a",
+    "codeMinLen": 96,
+    "codeMin": "(t>>1)*(1<<(t>>16&3))*(0x1fccccf1>>(t>>10)*(t>>11)&7)|t>>3|128-((t&4095)>>8?0:t*(t^t%9)&63|t>>2)",
+    "codeLen": 104,
+    "code": "((((t>>1)*(1<<(t>>16&3)))*((0x1fccccf1>>(t>>10)*(t>>11))&7))|t>>3)|128-((t&4095)>>8?0:t*(t^t%9)&63|t>>2)",
+    "author": "orion_aboy",
+    "name": "1fcccf1 (c compatible version)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/106vxa3/1fcccf1_c_compatible_version/",
+    "date": "2023-01-09",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "6343ecfd57a4c4fcd16f8685554d5cb5",
+        "author": "PortablePorcelain",
+        "name": "1fccccf1",
+        "url": "https://dollchan.net/btb/res/55.html#55"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

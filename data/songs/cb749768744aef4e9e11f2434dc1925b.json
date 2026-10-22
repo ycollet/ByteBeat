@@ -1,0 +1,28 @@
+{
+  "file": "songs/cb749768744aef4e9e11f2434dc1925b.js",
+  "title": "__ws2.model",
+  "author": "beep-eep",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cb749768744aef4e9e11f2434dc1925b.js",
+  "sha256": "c3f2118efd088c20749b7d863b0b25ba156cbe02613be12732362cb9a3404b31",
+  "upstream": {
+    "hash": "cb749768744aef4e9e11f2434dc1925b",
+    "codeMinLen": 923,
+    "codeLen": 1023,
+    "codeFormLen": 1406,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "Cm=[2.97,3.33,3.53,3.96,4.445,4.71,5.285],xx=a=>[[2.97,3.53],[3.53,3.96],[3.96,4.445],[4.445,5.285]][a],sq=v=>[[0,0,1,1],[0,1,1,1],[0,0,1,1]][v][ia(t/4E5)%4],ia=a=>int(abs(a)),f=x=>(wave=.6*abs(sin(x/4E4)*(8E6<t?6:1)+4),vol=x/2E3%10,2*sin(40*log(.5+x/1E3%20))*e(x/2/1E3,1.5,.2)*sq(0)*(7E6<t?0:1)+1*sin(x+1E9*sin(x)*e(x/1500,3,.05))*e(x/3E3,4,.2)*sq(1)*(7E6<t?0:1)+1*sin(x+1E9*sin(x))*e(x/500*ia(sin(x/1E4)+2),3,.2)*sq(2)*(7E6<t?0:1)+(sin(wave**(x/1E3*3*Cm[0]%2))+sin(wave**(x/1E3*3*Cm[4]%2))+sin(wave**(x/1E3*3*C",
+    "isTruncated": 1,
+    "author": "beep-eep",
+    "name": "__ws2.model",
+    "url": "https://battleofthebits.com/arena/Entry/__ws2.model/43638/",
+    "date": "2021-02-13",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

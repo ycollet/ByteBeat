@@ -1,0 +1,32 @@
+{
+  "file": "songs/1d7ffba24b5363920ceece2c9d15b11d.js",
+  "title": "Small Mouse Remixed",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32400,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8ad505c9b47b3469cb6694f7d4affac16c0643a341bd1d9c7578163dd5aa2609",
+  "upstream": {
+    "hash": "1d7ffba24b5363920ceece2c9d15b11d",
+    "codeMinLen": 355,
+    "codeMin": "T=t/1.2,a=[0,3,5,7,0,3,-4,-2],a1=[3,7,9,11,3,7,0,2],a2=[7,10,12,14,7,10,3,5],B=a=>((.88*t*(T&8192?2:1)*2**(a[i=7&T>>15]/12)&128?-T>>6:0)&255)/5,S=(s,p)=>.7*(.88*p*t*2**([a,a1,a2,a1][3&T>>s][i]/12)&64),min(383,B(a)+B(a1)+B(a2)+[S(14,1)+S(15,2),2*(S(9,1)+S(14,2))*(1-T%8192/9E3)][1&T>>13]+(1E5/(T&16383)*5&64)+((T&16384)*sin(t>>4)*(t>>5)&-T>>6&255)/1.5)/1.5",
+    "codeLen": 359,
+    "code": "T=t/1.2,a=[0,3,5,7,0,3,-4,-2],a1=[3,7,9,11,3,7,0,2],a2=[7,10,12,14,7,10,3,5],B=a=>((.88*t*(T&8192?2:1)*2**(a[i=7&T>>15]/12)&128?-T>>6:0)&255)/5,S=(s,p)=>.7*(.88*p*t*2**([a,a1,a2,a1][3&T>>s][i]/12)&64),min(383,B(a)+B(a1)+B(a2)+[S(14,1)+S(15,2),2*(S(9,1)+S(14,2))*(1-T%8192/9E3)][1&T>>13]+(5*(1e5/(T&16383))&64)+(((T&16384)*sin(t>>4)*(t>>5)&-T>>6)&255)/1.5)/1.5",
+    "author": "hcdphobe",
+    "name": "Small Mouse Remixed",
+    "url": "https://dollchan.net/btb/res/163.html#570",
+    "date": "2023-03-10",
+    "sampleRate": 32400,
+    "remix": [
+      {
+        "hash": "5c85e2d50f201ab50ee31ab0f193ffd6",
+        "author": "SthephanShi",
+        "name": "Small Mouse",
+        "url": "https://dollchan.net/btb/res/204.html#424"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

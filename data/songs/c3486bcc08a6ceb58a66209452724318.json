@@ -1,0 +1,25 @@
+{
+  "file": "songs/c3486bcc08a6ceb58a66209452724318.js",
+  "title": "dubstep dawn",
+  "author": "potasmic",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c3486bcc08a6ceb58a66209452724318.js",
+  "sha256": "a0a5635066f1a02ee9c2b8596ff7a37cfabfdac0529f872be7f5566e10b4bf3c",
+  "upstream": {
+    "hash": "c3486bcc08a6ceb58a66209452724318",
+    "codeLen": 8693,
+    "fileOrig": 1,
+    "codeText": "/**\n *  potasmic - dubstep dawn \n *  (because all other wavepot loops' names are part of the day hehehe)\n**/\n\nvar sampleRate = 48000;\nvar bpm = 148;\nvar tuning = 440;",
+    "isTruncated": 1,
+    "author": "potasmic",
+    "name": "dubstep dawn",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

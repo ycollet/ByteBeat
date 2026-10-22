@@ -1,0 +1,29 @@
+{
+  "file": "songs/c290e4d30aa41fabeea429972805b6ea.js",
+  "title": "Pixel Rainfall",
+  "author": "kleeder",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c290e4d30aa41fabeea429972805b6ea.js",
+  "sha256": "c32582144477900381196191fd59d5a41b6f0f8e42e1ef84241a95c03e37417a",
+  "upstream": {
+    "hash": "c290e4d30aa41fabeea429972805b6ea",
+    "codeLen": 475639,
+    "codeFormLen": 484595,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "SAMP_RATE = 44100,\nCLOCK = 1789773,\n\nconvert_duty=function(value){\n    if(value == '3'){\n        return 12.5;\n    }\n    else if(value == '7'){",
+    "isTruncated": 1,
+    "author": "kleeder",
+    "name": "Pixel Rainfall",
+    "description": "Written in collaboration with damifortune. NES format (.nsf) converted to bytebeat. Used a lua script to log the APU into .csv while playing back the .nsf in fceux. Then .csv converted by a python script into a javascript array. The js logic is going through the array data and converts it on the fly for 4 channels.",
+    "url": "https://battleofthebits.com/arena/Entry/Pixel+Rainfall/60246/",
+    "date": "2023-05-18",
+    "sampleRate": 44100,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

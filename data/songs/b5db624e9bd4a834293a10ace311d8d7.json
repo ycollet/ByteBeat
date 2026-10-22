@@ -1,0 +1,41 @@
+{
+  "file": "songs/b5db624e9bd4a834293a10ace311d8d7.js",
+  "title": "Bytebeat FFT",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b5db624e9bd4a834293a10ace311d8d7.js",
+  "sha256": "b0c51ce759b4122c8a0defedf0954cdb79fcddf60110a6d617a0efdb27b9adb3",
+  "upstream": {
+    "hash": "b5db624e9bd4a834293a10ace311d8d7",
+    "codeMinLen": 756,
+    "codeLen": 768,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "BB=t=>((63+64*sin(t*(t&t>>12)/164))*(t>>13<60)+t*random()%((-t>>8)%128+128)*(t>>13<64)+(63+64*sin(t*(t&t>>12)*50/22050/164)+(3E5/(t&32767)&90)+(3E6/(t+16384&32767)&100))*(t>>13>63)),SIZE=10,X=o=>({r:cos(o),i:sin(o)}),M=(a,b)=>({r:a.r*b.r-a.i*b.i,i:a.r*b.i+b.r*a.i}),A=(a,b)=>({r:a.r+b.r,i:a.i+b.i}),FFT=(O,I,oi,ii,N,s)=>{if(N==1)O[oi]={r:I[ii],i:0};else{FFT(O,I,oi,ii,N/2,s*2);FFT(O,I,oi+N/2,ii+s,N/2,s*2);for(j=0;j<N/2;++j){T=M(X(-2*PI/N*j),O[oi+j+N/2]);O[oi+j+N/2]=A(O[oi+j],M(T,{r:-1,i:0}));O[oi+j]=A(O[oi+j],",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Bytebeat FFT",
+    "description": "The Fast Fourier Transform (FFT) in bytebeat via the Cooley–Tukey algorithm. Set \"Waveform\" mode and zoom to 1/2.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fdc4tv/bytebeat_fft/",
+    "date": "2024-09-10",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5121ab9bb82f0c8d71d79e78d72d62d3",
+        "author": "RealZynx92",
+        "name": "cool dubstep song",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q6emvo/cool_dubstep_song/"
+      }
+    ],
+    "drawing": {
+      "mode": "Waveform",
+      "scale": "1"
+    },
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-17"
+  }
+}

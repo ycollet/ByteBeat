@@ -1,0 +1,24 @@
+{
+  "file": "songs/4fbcc9f708da3ce1dbebf4b2122bbb89.js",
+  "title": "london bridge is falling down",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e2ea7abbc9cf4ed8152430c7ac188d7f54ed89219a84c3171b6791c43539e73a",
+  "upstream": {
+    "hash": "4fbcc9f708da3ce1dbebf4b2122bbb89",
+    "codeLen": 113,
+    "code": "t*2**(parseInt('KKKMKKIIHHIIKKKKFFHHIIIIHHIIKKKKKKKMKKIIHHIIKKKKFFFFKKKKHHDDDDDD'[63&t/1.45>>12],36)/12)*1.31&128",
+    "author": "Zackx",
+    "name": "london bridge is falling down",
+    "url": "https://dollchan.net/btb/res/204.html#1402",
+    "date": "2023-06-25",
+    "sampleRate": 48000,
+    "coverName": "London Bridge is Falling Down",
+    "coverUrl": "https://youtu.be/pUu0FWlMpgk",
+    "tags": [
+      "256"
+    ]
+  }
+}

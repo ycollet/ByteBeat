@@ -1,0 +1,33 @@
+{
+  "file": "songs/d662d0b5d32a88c0964dc819b16793dc.js",
+  "title": "Complex number idea",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d662d0b5d32a88c0964dc819b16793dc.js",
+  "sha256": "c76876ac48df13abf11369776ac2ff729e43ceef650007f7c14371093fa41565",
+  "upstream": {
+    "hash": "d662d0b5d32a88c0964dc819b16793dc",
+    "codeLen": 2304,
+    "fileOrig": 1,
+    "codeText": "this.ComplexNumber??= class {\n\tconstructor(real, imag) {\n\t\tthis.real = real;\n\t\tthis.imag = imag??0;\n\t}\n\tget r() {\n\t\treturn this.real\n\t}",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Complex number idea",
+    "url": "https://dollchan.net/btb/res/756.html#1602",
+    "date": "2023-07-12",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "167813a6fc3e7a9fe43a488cba44afa0",
+        "author": "Zackx",
+        "name": "FM bass such as sega genesis",
+        "url": "https://dollchan.net/btb/res/204.html#267"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

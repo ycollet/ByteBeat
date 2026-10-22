@@ -1,0 +1,33 @@
+{
+  "file": "songs/e7595ec82ff424dcae1566e5f8d444e9.js",
+  "title": "𝑳𝒐𝒏𝒈 𝑾𝒂𝒓𝒎𝒕𝒉",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 26214.4,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e7595ec82ff424dcae1566e5f8d444e9.js",
+  "sha256": "5cd2640169497e27a9737e0bcc583ed1110158d74e54e9bfa9baa9a11d8d3d9f",
+  "upstream": {
+    "hash": "e7595ec82ff424dcae1566e5f8d444e9",
+    "codeLen": 8468,
+    "fileOrig": 1,
+    "codeText": "// 𝑳𝒐𝒏𝒈 𝑾𝒂𝒓𝒎𝒕𝒉 - Decent-Manager-6169\n// My 1st entry for Bytebattle Season 4\n\nMi=t>>12&1,\nHz=96/60*16384,\nn=430/Hz*64*2**(3/12),\nvi=63+sin(t/1e3)*8,\nFl=10-(t>>9&127)*.065+((16-(t>>15))*(t<2**19))+(1*(t%2**19>>15))*(t>9961472),",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "𝑳𝒐𝒏𝒈 𝑾𝒂𝒓𝒎𝒕𝒉",
+    "description": "ByteBattle Season 4 Competition.",
+    "url": [
+      "https://dollchan.net/btb/res/520.html#5783",
+      "https://bytebeat.oops.wtf/season4/entries.html"
+    ],
+    "date": "2025-04-08",
+    "mode": "Floatbeat",
+    "sampleRate": 26214.4,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-09-24"
+  }
+}

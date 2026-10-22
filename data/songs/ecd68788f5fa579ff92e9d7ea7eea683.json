@@ -1,0 +1,29 @@
+{
+  "file": "songs/ecd68788f5fa579ff92e9d7ea7eea683.js",
+  "title": "An attempt at covering Cocktail Hour by FΛDE",
+  "author": "Sychamis",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ecd68788f5fa579ff92e9d7ea7eea683.js",
+  "sha256": "05cf773ea89dc12d0773c5da7c08bdd64f46324bedad4d3c0cdbc57908cd5cbb",
+  "upstream": {
+    "hash": "ecd68788f5fa579ff92e9d7ea7eea683",
+    "codeLen": 14516,
+    "fileOrig": 1,
+    "codeText": "/*\nFΛDE - Cocktail Hour, covered on bytebeat by Sychamis, October 2024. Update 1.\nOriginal: (https://www.youtube.com/watch?v=ucL0NTdKdb4)\n\nAs far as I'm aware this is the most accurate cover of this tune on bytebeat. It's not perfect though, some effects are a bit off, it doesn't slow down at the end (I may add this in the future).\n\nI didn't manage to find all the chords on my own, so I used the source file of Esteban Trujillo's C64 cover to get them all. It can be found here: https://csdb.dk/release/?id=23",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "An attempt at covering Cocktail Hour by FΛDE",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1g2ws6y/an_attempt_at_covering_cocktail_hour_by_f%CE%BBde/",
+      "https://youtu.be/9tgO9XtXyAs"
+    ],
+    "date": "2024-10-13",
+    "sampleRate": 48000,
+    "coverName": "FΛDE - Cocktail Hour",
+    "coverUrl": "https://youtu.be/ucL0NTdKdb4",
+    "tags": [
+      "big"
+    ]
+  }
+}

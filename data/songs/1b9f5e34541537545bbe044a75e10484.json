@@ -1,0 +1,24 @@
+{
+  "file": "songs/1b9f5e34541537545bbe044a75e10484.js",
+  "title": "Ice Age",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0ea71df95d325160e5104bc250e84c8a26deb19b606b0c7b7a1886265f2987dc",
+  "upstream": {
+    "hash": "1b9f5e34541537545bbe044a75e10484",
+    "codeMinLen": 35,
+    "codeMin": "(t*'6787'[t/1.6&t>>12&3]/8&t>>10)-5",
+    "codeLen": 40,
+    "code": "m=(t*[6,7,8,7][t/1.6&t>>12&3]/8&t>>10)-5",
+    "author": "rubi",
+    "name": "Ice Age",
+    "url": "https://www.reddit.com/r/bytebeat/comments/reokmi/ice_age_32k_hz/",
+    "date": "2021-12-12",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

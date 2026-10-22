@@ -1,0 +1,37 @@
+{
+  "file": "songs/114b1053d4f24514aa3947d5c9bddfe4.js",
+  "title": "psrt remixed",
+  "author": "Thinguy",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/114b1053d4f24514aa3947d5c9bddfe4.js",
+  "sha256": "7d0330325013e512bb27a4a2154e651436ad2cab5cef31cb6e0f7c9ba72eb6c1",
+  "upstream": {
+    "hash": "114b1053d4f24514aa3947d5c9bddfe4",
+    "codeLen": 2332,
+    "fileOrig": 1,
+    "codeText": "t?0:z1=[],callCount=0,lpf=lowPassFilter=(a,c)=>(call=callCount++,z1[call]??=0,z1[call]+=(a-z1[call])*c),hpf=highPassFilter=(a,c)=>a-lpf(a,c),bpf=bandPassFilter=(a,hc, lc)=>hpf(lpf(a,lc), hc),nf=notchFilter=(a,lc, hc)=>(hpf(a,hc)+lpf(a,lc))/1.75,a1=(1-(t/(512/1.75))%1)**1.5,b1=(1-(t/16384)%1)**8*1.31,pi=Math.PI,c=(t/4096%1)*(t>>14&1)*252,d=(1-t/16384%1)**2*(t>>14&1)*365,kick=tanh(sin(cos(50*(t%8192)**.15)*(1-(t/8192)%1)*(-t>>>13&1)))*1.5,kick2=((sin(((t%16384)**.1)*10)))*((1-(t/16384)%1)**.5),clap=bpf((((ran",
+    "isTruncated": 1,
+    "author": "Thinguy",
+    "name": "psrt remixed",
+    "url": "https://dollchan.net/btb/res/5550.html#8224",
+    "date": "2025-07-15",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-01",
+    "date_edited": "2025-11-05"
+  }
+}

@@ -1,0 +1,1 @@
+F=t=>(r=t+1E5*sin(2*PI*t/1E6),asin(sin(PI*r*(t*1.1&32768?5:6)/256))*80),E=(Z,t,f,i=0)=>i<18?t<0?0:Z(t)+E(Z,t-8192,f,i+1)*f:0,E(F,t,0.7)/3+random()*16*sin(t*PI/3E5)

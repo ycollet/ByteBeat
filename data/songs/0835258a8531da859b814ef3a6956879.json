@@ -1,0 +1,24 @@
+{
+  "file": "songs/0835258a8531da859b814ef3a6956879.js",
+  "title": "START!",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fe7f50baedbf213e4a99af1618ba41e11f66ec9ee2b7f18e4d8f1f2b3178876b",
+  "upstream": {
+    "hash": "0835258a8531da859b814ef3a6956879",
+    "codeMinLen": 363,
+    "codeMin": "r=.9*t,n=x=>t*2**(parseInt(x,36)/12)*.83,saw=x=>n(x)/4%256/4,squ=x=>(n(x)&64)/2,h=['1111111144144242','2211224423336333','2222422424224222','1112222132212244'][3&r>>(3&~r>>16)>>2][15&r>>12],sin(6*cbrt(r*h%16384/h+64))*(1-r*h%8192/8192)*(r*h&8192?0:1)*64+64+saw('1D1D1D681D1D1DGF'[15&r>>13])*(524288<r)+squ('8BDGBISPKGNPWZWNBDKDLGNPWSRLKIGI'[31&r>>12])*(1048576<r)",
+    "codeLen": 371,
+    "code": "r=t*.9,n=x=>t*2**(parseInt(x,36)/12)*.83,saw=x=>n(x)/4%256/4,squ=x=>(n(x)&64)/2,\nh=[\n'1111111144144242',\n'2211224423336333',\n'2222422424224222',\n'1112222132212244'\n][3&r>>(3&~r>>16)>>2][15&r>>12],\nsin(6*cbrt(r*h%16384/h+64))*(1-r*h%8192/8192)*(r*h&8192?0:1)*64+64+saw('1D1D1D681D1D1DGF'[15&r>>13])*(r>524288)+\nsqu('8BDGBISPKGNPWZWNBDKDLGNPWSRLKIGI'[31&r>>12])*(r>1048576)",
+    "author": "Zackx",
+    "name": "START!",
+    "url": "https://dollchan.net/btb/res/204.html#1393",
+    "date": "2023-06-23",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

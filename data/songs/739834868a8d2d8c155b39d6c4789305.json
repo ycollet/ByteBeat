@@ -1,0 +1,23 @@
+{
+  "file": "songs/739834868a8d2d8c155b39d6c4789305.js",
+  "title": "metallic ^sine thing",
+  "author": "No_Half-d01-8875",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "86f024de2e416527bc42f5a4da0313f1ab07e4e4e41c4481e926cdaa38d9eb8d",
+  "upstream": {
+    "hash": "739834868a8d2d8c155b39d6c4789305",
+    "codeLen": 43,
+    "code": "sin((t|t>>12^t>>13)/32.35)/(t%65536/3072%4)",
+    "author": "No_Half-d01-8875",
+    "name": "metallic ^sine thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g5wj2n/metallic_sine_thing/",
+    "date": "2024-10-17",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/cdf538f2fb0be2c8c4c26f1f9db46508.js",
+  "title": "Famicom Disk System registers in Bytebeat",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cdf538f2fb0be2c8c4c26f1f9db46508.js",
+  "sha256": "646ce3b74546d77a09edb158bc707c25b27e63a1eb038964b60f0cf26b5da577",
+  "upstream": {
+    "hash": "cdf538f2fb0be2c8c4c26f1f9db46508",
+    "codeLen": 681384,
+    "fileOrig": 1,
+    "codeText": "// Object.getOwnPropertyNames(Math).map(k => (globalThis[k] = Math[k]))\n// ^ use this for other composers that use the Math. prefix for mathematical functions\n\n// This works best in https://dollchan.net/bytebeat/\n\n//other than stripped frequency modulation data and other stuff unimportant to the song, it's practically what gets fed into a standard famicom disk system chip\n\nt?0:(o=0,d=\"a000210220252a2f33363738383736353331302e2d2c2a29282726252423222221201f1f1e1e1d1c1c1b1a1a191817161615131211100e0d0c0a09080707",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Famicom Disk System registers in Bytebeat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ebjzw9/famicom_disk_system_registers_in_bytebeat/",
+    "date": "2024-07-25",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

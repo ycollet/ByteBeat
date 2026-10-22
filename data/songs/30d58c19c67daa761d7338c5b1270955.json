@@ -1,0 +1,24 @@
+{
+  "file": "songs/30d58c19c67daa761d7338c5b1270955.js",
+  "title": "Doppler Effect",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "077b166479d4fe95d6ccfa5f7e0b5717477b711839edcd992e3eacc4361e2b03",
+  "upstream": {
+    "hash": "30d58c19c67daa761d7338c5b1270955",
+    "codeLen": 122,
+    "code": "t||(p=0),p+=6+(s=tanh(v=70-t/2400)),f=n=>(n&n/3&n>>3&255)*2/(2**(v/5)+2**(-v/5)),[f(p+s*60)*(10+s)/11,f(p-s*60)*(10-s)/11]",
+    "author": "May_I_Change_My_Name",
+    "name": "Doppler Effect",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1i8irvn/doppler_effect/",
+    "date": "2025-02-24",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-24"
+  }
+}

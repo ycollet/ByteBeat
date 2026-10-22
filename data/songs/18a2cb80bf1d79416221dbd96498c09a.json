@@ -1,0 +1,28 @@
+{
+  "file": "songs/18a2cb80bf1d79416221dbd96498c09a.js",
+  "title": "Game Boy's noise channel emulation",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/18a2cb80bf1d79416221dbd96498c09a.js",
+  "sha256": "09f14862a6a2098e7a95df64d8015025e08db79825835d52e47fe315ac2f2ebd",
+  "upstream": {
+    "hash": "18a2cb80bf1d79416221dbd96498c09a",
+    "codeMinLen": 257,
+    "codeMin": "t<1?this.LFSR=65535:0,this.noise??=function(t,o=2,w=0){processLFSR=(width=0)=>{S=width?1000001E8:1E14;trade=(a,b)=>(LFSR[a]=LFSR[b]);temp=LFSR&1^(LFSR&2)>>1;LFSR>>=1;LFSR=temp?LFSR|S:LFSR&~S};t%(1<<o)==0&&(processLFSR(w),v=LFSR&1);return 128*v},noise(t,3,0)",
+    "codeLen": 404,
+    "codeFormLen": 396,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "t<1?this.LFSR=65535:0,this.noise??=function(t,o=2,w=0){processLFSR=(width=0)=>{S=width?1000001E8:1E14;trade=(a,b)=>(LFSR[a]=LFSR[b]);temp=LFSR&1^(LFSR&2)>>1;LFSR>>=1;LFSR=temp?LFSR|S:LFSR&~S};t%(1<<o)==0&&(processLFSR(w),v=LFSR&1);return 128*v},noise(t,3,0)",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "Game Boy's noise channel emulation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11ifny8/i_made_something_based_off_of_the_game_boys_noise/",
+    "date": "2023-03-10",
+    "sampleRate": 8000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

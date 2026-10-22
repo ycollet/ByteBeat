@@ -1,0 +1,29 @@
+{
+  "file": "songs/f733f8f422407033769e1e5bee19ad15.js",
+  "title": "I get motion sick from the visualizer",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "66ce71c565d81955164562e85a0ceec658bc144a90ffabc215b6c1971f1ae384",
+  "upstream": {
+    "hash": "f733f8f422407033769e1e5bee19ad15",
+    "codeLen": 114,
+    "code": "t?q++:a=Array(n=84).fill(q=0),v=(random()*1e3|0?0:255),m=(v%256/256)-a[q%n|0],a[q%n]=max(min(a[q%n]/160+m,1),-1),m",
+    "author": "PortablePorcelain",
+    "name": "I get motion sick from the visualizer",
+    "description": "Dizzying visuals. Set to waveform mode, max zoom.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ha51zt/for_some_reason_i_get_motion_sick_from_the/",
+    "date": "2024-12-09",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "drawing": {
+      "mode": "Waveform",
+      "scale": "0"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

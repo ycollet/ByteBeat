@@ -1,0 +1,35 @@
+{
+  "file": "songs/55541b4c135a134fa7a8cf0dc8df04fa.js",
+  "title": "EToFM — Chords in Funcbeat",
+  "author": "PrincessPriscillaPT",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a1717056acb32ea673c2c09c5a79cace90f25e17bc4f8580033fe183422a88c6",
+  "upstream": {
+    "hash": "55541b4c135a134fa7a8cf0dc8df04fa",
+    "codeMinLen": 167,
+    "codeMin": "return t=>(t*=32E3,m=b=>(t/32E3*256*440*2**((b-69)/12)*(b>-1?b<128?1:0:0)%256-128)/128/1.35,(m(61))*.29+(m(53))*.46+(m((t>>16&1?58:54)))*(t>>16&1?.34:.43)+(m(70))*.17)",
+    "codeLen": 274,
+    "code": "return t=>(\nt*=32e3,\nm=midiNote=x=>(t/32000*256)*440*2**((x-69)/12)*(x>-1?x<128?1:0:0),\n((m(61)%256-128)*.29+(m(53)%256-128)*.46+(m([54,58][t>>16&1])%256-128)*[.43,.34][t>>16&1]+(m(70)%256-128)*.17)\n)/128/1.35\n\n// C#4 + F3 + ( t >> 14 & 1 ? Bb3 : F#3 ) + Bb4\n// F#maj7 - Bbm",
+    "author": "PrincessPriscillaPT",
+    "name": "EToFM — Chords in Funcbeat",
+    "url": "https://dollchan.net/btb/res/7164.html#8164",
+    "date": "2025-07-10",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8514806b3b294aa56ef20becf5270dcb",
+        "author": "Anonymous from russian imageboards",
+        "name": "Extraordinary thread of FRACTAL MUSIC",
+        "url": "http://arhivach.xyz/thread/28592/#71681647"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-12-17"
+  }
+}

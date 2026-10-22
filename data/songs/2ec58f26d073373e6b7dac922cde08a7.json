@@ -1,0 +1,35 @@
+{
+  "file": "songs/2ec58f26d073373e6b7dac922cde08a7.js",
+  "title": "Thrown Apple",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 30720,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2ec58f26d073373e6b7dac922cde08a7.js",
+  "sha256": "7eb782a4fbcd420766d457533221b0f8b8d4976520251e6bcec1eabc334a2d0c",
+  "upstream": {
+    "hash": "2ec58f26d073373e6b7dac922cde08a7",
+    "codeLen": 226035,
+    "fileOrig": 1,
+    "codeText": "I=c=>c.charCodeAt(0)-35,\nV=c=>(C=c.charCodeAt(0),(--C&31)+26*(C>95)),\nt||(P=[],D=\"町夯⍵㩙⼣ A町夯⍵㩐 (A)2, (㩙⼣町夯 D⍵)2, C町夯⍵㩙 D⍵)3, E㩙⼣町央 (A)3, D⍵)4, (A)4, K町夯⍵㩙 (A)5, 䰮洬⑌⹭Ⱔ D⍵)5, 恟㴰你弽く I町夯⍵㩙 (A)6, 䰮搥睌⹨卍 D⍵)6, 㩙⼣町夯⍴ 匾癌㝓㹶䰷 瑙⭱癴夫煶 㩙⼣町夯⍵ ⌦䘹挣♆㥣 ⌰嬩␣せ⤤ 㸾⼥⌾㸯┣ ⌾㸬␣⌣2 ⌾㸯┣㸾⼥ ⌣才ㄣ⍢䴱 ⌤嘨䄣⑖⡁ ⌣Ⱙ␣⌣1 A町夯⍵㩙 㝓㹶䰷匾癌 ␻㩓⬤㬺匫 奙㬧⍙夻✣ 䰮搥睌⹤╷ 〈楐丣⥩偮 ⴻⱉ愭㬬䥡 ⌦㴳愣☽㍡ 㩙⼣⌣14 ⍙夻✣奙㬧 ⹤╷㝓㹶䰶 W獷䩙牳睊 r䵮牟㉦扠 s弶䄹⌣1 ⌣7s弶䄹 牟㌵湳睊奲 ⌣㸵✣⌣2 橷佝㩪睏崺 䴭桵䰮捴畋䴫 十㠷䰮恘氨⹷\".split(' '),R=s=>s.replace(/[A-Za-z]/g,c=>R(D[V(c)])),unescape(escape(`⌣38㬣灊⌣31⌦␣⌣2⌭㰾㤭㥍椻⌣30⌾㸬␣㩯湵⌽䩒䘣☽㍑⌣32⍰摇⩠A⌣26⭲恵㜾獊町",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Thrown Apple",
+    "description": "Bad Apple animation in the error console.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/112ry0r/comment/jirn97r/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-12-21",
+    "sampleRate": 30720,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "5a2800623d2aa38c577bc0d361838675",
+        "author": "May_I_Change_My_Name",
+        "name": "0xBADA441E",
+        "url": "https://www.reddit.com/r/bytebeat/comments/112ry0r/somebody_had_to_do_it/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

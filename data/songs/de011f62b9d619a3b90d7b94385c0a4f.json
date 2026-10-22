@@ -1,0 +1,27 @@
+{
+  "file": "songs/de011f62b9d619a3b90d7b94385c0a4f.js",
+  "title": "Sine~Core",
+  "author": "HellMood",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7f2ede5b83f1fa987b307de1cd73e02e6b9206e789f4c4d2b44f5f82642e3d16",
+  "upstream": {
+    "hash": "de011f62b9d619a3b90d7b94385c0a4f",
+    "codeMinLen": 249,
+    "codeMin": "t==0?q=[]:1,r=random,d=[1,1.2,5/4,1.5,1.8,2,2.4,3][(t>>13)%8],s=(sin(t/d/2)*sin(t*d*4.6E-4)+1)*12*d,t>8192?s+=q[t%8192]*.5:1,q[(t-2E3)%8192]=s,s+(t>>11&1)*r()*7*(t>13E4)+(1-(t>>9)&1)*r()*5*(t>19E4)+(sin(sqrt(t%4096)*5)+1)*50*(t>1<<18)+r()*2*(t>65E3)",
+    "codeLen": 253,
+    "code": "t==0?q=[]:1,r=random,d=[1,1.2,5/4,1.5,1.8,2,2.4,3][(t>>13)%8],s=(sin(t/d/2)*sin(t*d*4.6e-4)+1)*12*d,t>8192?(s+=q[t%8192]*.5):1,q[(t-2e3)%8192]=s,s+((t>>11)&1)*r()*7*(t>13e4)+(1-(t>>9)&1)*r()*5*(t>19e4)+(sin(sqrt(t%4096)*5)+1)*50*(t>1<<18)+r()*2*(t>65e3)",
+    "author": "HellMood",
+    "name": "Sine~Core",
+    "description": "Lovebyte 2021 competition - 3rd place.",
+    "url": "https://demozoo.org/music/291146/",
+    "date": "2021-03-13",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-09",
+    "date_edited": "2025-11-09"
+  }
+}

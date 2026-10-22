@@ -1,0 +1,26 @@
+{
+  "file": "songs/80b2bfd3aa3fa18295464cb8b08edb8e.js",
+  "title": "What Is This Dubstep",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/80b2bfd3aa3fa18295464cb8b08edb8e.js",
+  "sha256": "35d560b033f3dd02ca8e61182bad7a14bd497201843e65e1f708d69cc4e36fae",
+  "upstream": {
+    "hash": "80b2bfd3aa3fa18295464cb8b08edb8e",
+    "codeMinLen": 519,
+    "codeLen": 758,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "L=log,o=t>>13&127,u=t>>13&7,p='01101010'[u],v='10010101'[u],k=8191,T=2.008531*PI,f=b=>(r=t*(b+b/(10*PI)),l=131072,T*sqrt(l*cbrt(r&l-1))),a=[12,16,12,20,8,12,24,20][t>>16&7],s=t*'32346565323465673234654332346578'[t>>16&31]/48,32*sin(f(a)/(8*T))+32*cos(f(a)/(12*T))+sin((t/(1.5*T)&o)*L(t&k))*((-t>>9&15)+1)*p+cos((t/(2.25*T)&o)*L(t&k))*((-t>>9&15)+1)*p+sin((t/(2*T)&o)*L(t&k))*((-t>>9&15)+1)*v+cos((t/(3*T)&o)*L(t&k))*((-t>>9&15)+1)*v+[F=s%32+1.03*s%32,F,F,F,F,F,F,F,F,F,F,F,F,F,F,[f(t)&48,f(t)&24][t>>14&1]][t>>15",
+    "isTruncated": 1,
+    "author": "HypernovaHeathen",
+    "name": "What Is This Dubstep",
+    "url": "https://dollchan.net/btb/res/77.html#2514",
+    "date": "2023-10-22",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

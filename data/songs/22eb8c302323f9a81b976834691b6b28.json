@@ -1,0 +1,32 @@
+{
+  "file": "songs/22eb8c302323f9a81b976834691b6b28.js",
+  "title": "Trackertime",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "42f13a0ded620d2b2142826d7457a220c6901319ed8ddcb5df5ed843c187805b",
+  "upstream": {
+    "hash": "22eb8c302323f9a81b976834691b6b28",
+    "codeMinLen": 251,
+    "codeMin": "r=t/1.3,f=y=>.9*t*2**(y.charCodeAt(z=k>>9&7)/12-4),k=r>>6,p=f(a='035703,.'),q=k>>4&3,s=k>>7&1,x=(-k&255)/125,(-k&p)/4%64+p/16%32*x+(s&&f([a,a2='379;3702','7:<>7:35',a2][q])/8%8*(-k&127)/15)+(s^z&1^1&&800*log(1+r%8192)&32)+(k>>8&1&&(r/(5+q)|0)**E%32*x)",
+    "codeLen": 255,
+    "code": "r=t/1.3,f=y=>.9*t*2**(y.charCodeAt(z=r>>15&7)/12-4),p=f(a='035703,.'),q=r>>10&3,s=r>>13&1,x=(-r&16383)/8e3,(p&-r>>6)/4%64+p/16%32*x+(s&&f([a,a2='379;3702','7:<>7:35',a2][q])/8%8*(-r&8191)/1e3)+(s^z&1^1&&800*log(1+r%8192)&32)+(r>>14&1&&(r/(5+q)|0)**E%32*x)",
+    "author": "lhphr",
+    "name": "Trackertime",
+    "url": "https://dollchan.net/btb/res/44.html#481",
+    "date": "2023-02-13",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "16bf6af81ac861c057e311a6feda07a7",
+        "author": "Zackx",
+        "name": "the coolest song",
+        "url": "https://dollchan.net/btb/res/204.html#401"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

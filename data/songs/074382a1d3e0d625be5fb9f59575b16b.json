@@ -1,0 +1,22 @@
+{
+  "file": "songs/074382a1d3e0d625be5fb9f59575b16b.js",
+  "title": "Polyrhythm thing",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "abd5ac4fb0db547d386353e3f5d7fbd71b80a028796cb1a7bb60bc35d100eee8",
+  "upstream": {
+    "hash": "074382a1d3e0d625be5fb9f59575b16b",
+    "codeLen": 108,
+    "code": "[...Array(2+(t>>15&7)).keys()].map(i=>z+=(t*i<<2|(t*i>>4)%1024%(-t*i>>12&3?192:256)|t*i>>3)%256/++i/3,z=0),z",
+    "author": "PortablePorcelain",
+    "name": "Polyrhythm thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b5fbju/polyrhythm_thing/",
+    "date": "2024-03-03",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

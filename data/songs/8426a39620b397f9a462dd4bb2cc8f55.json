@@ -1,0 +1,24 @@
+{
+  "file": "songs/8426a39620b397f9a462dd4bb2cc8f55.js",
+  "title": "kernkraft 400",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 10000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "44abef69c6adba20f5ec6f756266a36d2dbedcb262b702295e38e05c57f2a0d3",
+  "upstream": {
+    "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+    "codeLen": 108,
+    "code": "t*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.33,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52",
+    "author": "Zackx",
+    "name": "kernkraft 400",
+    "url": "https://dollchan.net/btb/res/204.html#280",
+    "date": "2022-12-24",
+    "sampleRate": 10000,
+    "coverName": "Zombie Nation - Kernkraft 400",
+    "coverUrl": "https://youtu.be/z5LW07FTJbI",
+    "tags": [
+      "256"
+    ]
+  }
+}

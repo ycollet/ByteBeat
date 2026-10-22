@@ -1,0 +1,40 @@
+{
+  "file": "songs/6026ac7254817b8d8853ac58fce79889.js",
+  "title": "1-bit Chords (PrincessPriscillaPT's Amen Break Version)",
+  "author": "IncreaseRegular",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6026ac7254817b8d8853ac58fce79889.js",
+  "sha256": "9c75ac3f1e88137f36dd1484ccf51eea1f26c5d9363751be97b51a42c084a1a1",
+  "upstream": {
+    "hash": "6026ac7254817b8d8853ac58fce79889",
+    "codeLen": 661,
+    "fileOrig": 1,
+    "codeText": "T=t>>5,m=n=>(2**(1/12))**n,x=t=>[[0,7,10,15],[-2,1,5,8],[-4,0,3,5],[-5,0,3,5]][t>>16&3].map(x=>t*m(x)%256).reduce((a,b)=>a+b)/4,a='++++++++!!!!!!!!////////--  //  --  //  ++++++++////////--  //  ++++++++++++++++////////--  //  --  //  ++++++++////////--  //  ',b=a[(t>>10)%a.length],drums=min(max((b=='+'?512*tanh(4*tanh(sin(16*sqrt(t%8192)**.5)))*(1-t%8192/8192):b=='-'?512*random()*(1-t%8192/8192)+(t>>6)%128-128:b=='/'?+(16*((t*sin(t/1.25>>3)&32)-16)*(1-t%8192/8192)):0)+192*sin(1.5*t+3*random())*(1-t%8192/81",
+    "isTruncated": 1,
+    "author": "IncreaseRegular",
+    "name": "1-bit Chords (PrincessPriscillaPT's Amen Break Version)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1lz4bec/combinations_i_think_3_whatever_edition",
+    "date": "2025-07-13",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "f7a737d745587e3994ec33a3db87e6d3",
+        "author": "RealZynx92",
+        "name": "1-bit chords (amen break version)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1gtaunx/1bit_chords/"
+      },
+      {
+        "hash": "931da4da7abb705d68b7e15d3a57fdbf",
+        "author": "PrincessPriscillaPT",
+        "name": "Customizable Amen Break",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1h69y07/comment/m0cj5xq/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-10-04"
+  }
+}

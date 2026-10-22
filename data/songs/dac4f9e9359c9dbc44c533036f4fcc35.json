@@ -1,0 +1,38 @@
+{
+  "file": "songs/dac4f9e9359c9dbc44c533036f4fcc35.js",
+  "title": "MӨӨПƧᄃΛППΣЯ",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "08bb6fbc4e4b2d80e83f0f9a4c5d2c48d8825431f7d08e5b8b88dad3dbf64394",
+  "upstream": {
+    "hash": "dac4f9e9359c9dbc44c533036f4fcc35",
+    "codeMinLen": 211,
+    "codeMin": "i=t/4,(2*(i>>5&i)-(i>>5)+i*(i>>14&14)&255)/3+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13])",
+    "codeLen": 213,
+    "code": "i=t/4,((2*(i>>5&i)-(i>>5)+i*(i>>14&14))&255)/3+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13])",
+    "author": "Zackx",
+    "name": "MӨӨПƧᄃΛППΣЯ",
+    "url": "https://dollchan.net/btb/res/204.html#1606",
+    "date": "2023-07-12",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "8359225792f81583c616646d63d49b58",
+        "author": "viznut",
+        "name": "moon scanner generalization",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      },
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

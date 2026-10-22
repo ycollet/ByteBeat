@@ -1,0 +1,25 @@
+{
+  "file": "songs/c3590f1ab034e85e9a4568453e760396.js",
+  "title": "12) PSYCHEDELIC",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "90c3efe11402a81a517d84ea5b4dcfce38df4748a192bf8888b7483b372abfeb",
+  "upstream": {
+    "hash": "c3590f1ab034e85e9a4568453e760396",
+    "codeMinLen": 74,
+    "codeMin": "4E4>t?(2E4>t?t%(t>>9)*10|t/2&t:t*(t>>9)*10&t/2)|t%(t>>9)*3&t/16:t*(t>>9)^t",
+    "codeLen": 92,
+    "code": "t<40000?((t<20000?((t%(t>>9)*10)|(t/2)&t):(t*(t>>9)*10)&t/2)|(t%(t>>9)*3)&t/16):(t*(t>>9)^t)",
+    "author": "Anonymous from russian imageboards",
+    "name": "12) PSYCHEDELIC",
+    "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

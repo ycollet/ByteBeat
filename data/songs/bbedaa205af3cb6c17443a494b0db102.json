@@ -1,0 +1,26 @@
+{
+  "file": "songs/bbedaa205af3cb6c17443a494b0db102.js",
+  "title": "his name gort",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0fc797fc115523a05a3dab6a109e13a49a6236dcaf2cd807230b34bf65d1bf50",
+  "upstream": {
+    "hash": "bbedaa205af3cb6c17443a494b0db102",
+    "codeMinLen": 108,
+    "codeMin": "((4E4/(t&4095)&128)+(t*sin(t>>2)*(1&t>>12)&-t>>5&127)+(t*[1,1.2,1.35,1.5][3&t>>13]*(t&2048?2:1)>>1&127))/1.5",
+    "codeLen": 112,
+    "code": "((4e4/(t&2**12-1)&128)+(t*sin(t>>2)*(1&t>>12)&-t>>5&127)+(t*[1,1.2,1.35,1.5][3&t>>13]*(t&2**11?2:1)>>1&127))/1.5",
+    "author": "rubi",
+    "name": "his name gort",
+    "description": "Sounds vaguely like 1k dance by raphaelgoulart. Whether this is intentional is unknown.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14k9idd/his_name_gort/",
+    "date": "2023-06-27",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

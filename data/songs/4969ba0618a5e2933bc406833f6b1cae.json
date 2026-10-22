@@ -1,0 +1,32 @@
+{
+  "file": "songs/4969ba0618a5e2933bc406833f6b1cae.js",
+  "title": "DJ kernkraft 400",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 10000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "df4d907596240d9d8a69b0e413362db567caa384d1f936b9365c9e565a8ddb4c",
+  "upstream": {
+    "hash": "4969ba0618a5e2933bc406833f6b1cae",
+    "codeMinLen": 168,
+    "codeMin": "t*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.3,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52%256/2+64*sin(9*cbrt(t*'1421124214121438'[15&t>>12]%4096))+64",
+    "codeLen": 174,
+    "code": "b=t*'1421124214121438'[15&t>>12],\nt*[1,4,4.8,5.4,6,2,1,2,1,4,4.8,5.4,6,6.3,6,4.8,5.4,2.7,1.35,2.7,4.8,3,6,4,1,2,1,2,1,2,1,2][(t>>11)%32]*1.52%256/2+\nsin(9*cbrt(b%4096))*64+64",
+    "author": "Zackx",
+    "name": "DJ kernkraft 400",
+    "url": "https://dollchan.net/btb/res/204.html#445",
+    "date": "2023-02-21",
+    "sampleRate": 10000,
+    "remix": [
+      {
+        "hash": "8426a39620b397f9a462dd4bb2cc8f55",
+        "author": "Zackx",
+        "name": "kernkraft 400",
+        "url": "https://dollchan.net/btb/res/204.html#280"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

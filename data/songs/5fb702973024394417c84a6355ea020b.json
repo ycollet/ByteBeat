@@ -1,0 +1,28 @@
+{
+  "file": "songs/5fb702973024394417c84a6355ea020b.js",
+  "title": "Grains of Sand Preview",
+  "author": "Decent-Manager-6169",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/5fb702973024394417c84a6355ea020b.js",
+  "sha256": "ca3429855a3ffab0f3b2dc558726c9ef36657fd13d8f08c74d2cdad236e476bc",
+  "upstream": {
+    "hash": "5fb702973024394417c84a6355ea020b",
+    "codeLen": 1435,
+    "fileOrig": 1,
+    "codeText": "t/=1.09,t?0:Reverb=Array(13362).fill(0),a=(\n\nv=-9e9,\n\nsm1=[4,3,-1,-4][t/4.4>>11&3],\nsm2=[4,2,-3,-6][t/4.4>>11&3],\nsm3=[6,3,-1,-4][t/4.4>>11&3],\nsm4=[6,4,0,-5][t/4.4>>11&3],",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Grains of Sand Preview",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11q8gun/grains_of_sand_preview/",
+    "date": "2023-03-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Andrew Huang - 300000 Note Song (Grains of Sand)",
+    "coverUrl": "https://www.youtube.com/watch?v=XOCgs_nMxDc",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

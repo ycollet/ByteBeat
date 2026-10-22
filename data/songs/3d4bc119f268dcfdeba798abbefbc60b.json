@@ -1,0 +1,25 @@
+{
+  "file": "songs/3d4bc119f268dcfdeba798abbefbc60b.js",
+  "title": "sine-nomath",
+  "author": "erlehmann",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bee022ec73c1720e7194ea70406133257053359337b9ad2c7e1b5ff3eb8cf9d2",
+  "upstream": {
+    "hash": "3d4bc119f268dcfdeba798abbefbc60b",
+    "codeMinLen": 40,
+    "codeMin": "(t&15)*(-t&15)*(((t&16)/8)-1)*128/65+128",
+    "codeLen": 52,
+    "code": "(t&0xF)*((0-t)&0xF)*(((t&0x10)>>3)-1)*0x80/0x41+0x80",
+    "author": "erlehmann",
+    "name": "sine-nomath",
+    "url": "https://github.com/erlehmann/algorithmic-symphonies/blob/master/sine-nomath/",
+    "date": "2011-11-18",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

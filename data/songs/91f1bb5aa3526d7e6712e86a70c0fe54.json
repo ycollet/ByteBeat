@@ -1,0 +1,33 @@
+{
+  "file": "songs/91f1bb5aa3526d7e6712e86a70c0fe54.js",
+  "title": "sierpinski chords with lowpass and drums",
+  "author": "RealZynx92",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/91f1bb5aa3526d7e6712e86a70c0fe54.js",
+  "sha256": "e2e2ded9352362d62e9f46abbeac9f3878d437c7fa95580090cfad52211f759a",
+  "upstream": {
+    "hash": "91f1bb5aa3526d7e6712e86a70c0fe54",
+    "codeLen": 1081,
+    "fileOrig": 1,
+    "codeText": "A = 440,\r\n\r\nt ? 0 : (\r\n\tfx = Array(3e6).fill(0) // this array stores memory for the effects\r\n),\r\n\r\nfxi = 0, // iterates over the fx array\r\n// inp - input\r",
+    "isTruncated": 1,
+    "author": "RealZynx92",
+    "name": "sierpinski chords with lowpass and drums",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1glrav5/sierpinski_chords/",
+    "date": "2024-11-07",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "afec2d4a598a4af5854eaf219138628c",
+        "author": "RealZynx92",
+        "name": "sierpinski chords",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1glrav5/sierpinski_chords/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

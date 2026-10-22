@@ -1,0 +1,31 @@
+{
+  "file": "songs/c97af74183f093e09fd7373cdcf0c665.js",
+  "title": "Another cellular melody",
+  "author": "Devan Wolf",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0d82e4159ec1ba8d87557d640560ae95fbc1bc9fb015f61c826ebd69b6b972d2",
+  "upstream": {
+    "hash": "c97af74183f093e09fd7373cdcf0c665",
+    "codeLen": 24,
+    "code": "(t<<1&t*3&-t>>5&t>>10)-1",
+    "author": "Devan Wolf",
+    "name": "Another cellular melody",
+    "url": "https://dollchan.net/btb/res/3.html#224",
+    "date": "2022-10-18",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "aeb1c80b97213c71c1d2b5982d0431cb",
+        "author": "SthephanShi",
+        "name": "Wheezing modem",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

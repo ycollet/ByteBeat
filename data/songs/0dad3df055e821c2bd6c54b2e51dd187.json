@@ -1,0 +1,30 @@
+{
+  "file": "songs/0dad3df055e821c2bd6c54b2e51dd187.js",
+  "title": "Another remix for this thread",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 38000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "37fc469767fb3d11e20d689e9487c57166a686092f4bc53ba96e53ee0be75af2",
+  "upstream": {
+    "hash": "0dad3df055e821c2bd6c54b2e51dd187",
+    "codeLen": 382,
+    "code": "a=t=>abs(t%64-32),((t*4*((t>>19&1)+1)*2**([2,5,9,2,5,9,2,5,9,12,14,9,12,14,9,12,10,7,14,10,7,14,10,7,9,4,13,9,4,13,9,4][t>>13&31]/12)&4095)**(1/sqrt(4+.01*(sin(t/8192)*32)))&16)*4*sin(1e4/(t%16384+200))+sign(sin(random()*2-1))*8*(1-t/8192%1)+sign(sin((t/5|0)**3))*(t>>14&1)*16*(1-t/(t%131072>122880?4096:t%131072>98304?8192:16384)%1)+a(b=t*2**([0,4,2,-1][t>>16&3]/12)/3)+a(b*1.5)+96",
+    "author": "ANoUserXD",
+    "name": "Another remix for this thread",
+    "url": "https://dollchan.net/btb/res/520.html#2915",
+    "date": "2024-01-20",
+    "sampleRate": 38000,
+    "remix": [
+      {
+        "hash": "e2eaf9c038395beb8b71f9af422e6777",
+        "author": "Decent-Manager-6169",
+        "name": "Useless7",
+        "url": "https://dollchan.net/btb/res/520.html#2733"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

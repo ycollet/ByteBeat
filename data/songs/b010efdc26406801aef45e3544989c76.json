@@ -1,0 +1,28 @@
+{
+  "file": "songs/b010efdc26406801aef45e3544989c76.js",
+  "title": "An Escaped War Or Something",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b010efdc26406801aef45e3544989c76.js",
+  "sha256": "8c9d530d302aae130d851d6728ed7dc9120cd57705838f4b7ab58291bbfc869c",
+  "upstream": {
+    "hash": "b010efdc26406801aef45e3544989c76",
+    "codeMinLen": 1356,
+    "codeLen": 1400,
+    "codeFormLen": 2020,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "a=t*[3.4,3,2.7,2.56][t>>14&3]/64&7,b=t*[3.4,3,2.7,2.56][t>>17&3]/128&7,c=t*[3.4,3,2.7,2.56][t>>16&3]/2,c=(c%128+c%127+c%64)/32,d=t*[3.4,3,2.7,2.56][t>>18&3]/4,d=(d%128+d%127+d%64)/32,e=(t*random()|t>>10)&15,f=t>>8&31,g=t*[3,3.4,2.7,3.4][t>>15&3]/2/16&15,h=t*[1.7,3.4,1.7,3.4,1.9,3.8,1.9,3.8,2.05,4.1,2.05,4.1,2.25,4.5,2.25,4.5,1.7,3.4,1.7,3.4,1.9,3.8,1.9,3.8,2.05,4.1,2.05,4.1,2.25,4.5,2.25,4.5,1.5,3,1.5,3,1.7,3.4,1.7,3.4,1.9,3.8,1.9,3.8,2.05,4.1,2.05,4.1,1.5,3,1.5,3,1.7,3.4,1.7,3.4,1.9,3.8,1.9,3.8,2.05,4.1,2.",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "An Escaped War Or Something",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rnngwr/an_escaped_war_or_something/",
+    "date": "2021-12-24",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

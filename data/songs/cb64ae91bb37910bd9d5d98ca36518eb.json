@@ -1,0 +1,24 @@
+{
+  "file": "songs/cb64ae91bb37910bd9d5d98ca36518eb.js",
+  "title": "sin function test",
+  "author": "GDPlayer_1035",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f037b9fc2eace22635058e280c17a35f787b2629bef25d1e6b67937ed5c00da1",
+  "upstream": {
+    "hash": "cb64ae91bb37910bd9d5d98ca36518eb",
+    "codeMinLen": 72,
+    "codeMin": "delay=32,64*sin(t*((1+(int(t/delay/128)&7))/20)&t/delay/256)+64&-t/delay",
+    "codeLen": 109,
+    "code": "delay=32,wv1=[1,2,3,4,5,6,7,8],((sin(t*(wv1[floor(t/delay/32/4)%wv1.length]/20)&t/delay/256)*64)+64)&-t/delay",
+    "author": "GDPlayer_1035",
+    "name": "sin function test",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rhgniv/sin_function_test/",
+    "date": "2021-12-16",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/79cdf025db41e9862b22646d7cb4f369.js",
+  "title": "pcm support to the midi to bytebeat tool",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/79cdf025db41e9862b22646d7cb4f369.js",
+  "sha256": "93fbe20eaccfd01fc89bba707058b862206c727507528b48f631a969df5bf4b0",
+  "upstream": {
+    "hash": "79cdf025db41e9862b22646d7cb4f369",
+    "codeLen": 41697,
+    "fileOrig": 1,
+    "codeText": "t||(A={p:-1,n:164.81,d:`\\`_\\`abcccdeeefedffeefefiieefebadc^[\\\\\\`\\`][\\\\]\\\\[[]_a\\\\V]fgeb\\\\YVOJEA>BLSUV[acghksywvy|vopwxtruuplnolfcgji\\`YXWRPRWZOEO]]USW^a_]ZTLFBA9-+4AJJLU[YWakljnw}{}~zux~~unpwyniouumcdcQELY\\\\SIHQXUOOW\\\\^bhhd\\`]ZQ@0,379BNURPV\\`gimqvx~~ysqv~ypr{zrrwtdQINUULHOSRPTZ\\\\\\\\^\\`d\\`Z\\\\_ZM@70)(1=DEHLNPVY\\\\]Zbnrrru~vuzxsrx|wrqxxfYWYURRRSUTUXXWY\\`c\\`^\\`cb]WQF5..4>DJPOLRY\\\\ZXYbmnjo~}zvs~|qga]ZWWSPORQKKNSSPSWUTWXWPA4-)*6CIKKNW_\\`XXciggny{xysu|}xqhddb^ZZ^YQPSUUUVYVPRYZWQH:,#$-:",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "pcm support to the midi to bytebeat tool",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16zqx3t/added_pcm_support_to_the_midi_to_bytebeat_tool/",
+    "date": "2023-10-04",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "e9b7348fefc84124e172ae2271ecd2d5",
+        "author": "Chasyxx",
+        "name": "THE [] BOX",
+        "url": "https://dollchan.net/btb/res/756.html#1037"
+      }
+    ],
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

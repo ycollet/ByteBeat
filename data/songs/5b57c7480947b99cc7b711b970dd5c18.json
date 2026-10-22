@@ -1,0 +1,25 @@
+{
+  "file": "songs/5b57c7480947b99cc7b711b970dd5c18.js",
+  "title": "Tango",
+  "author": "ern0",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "16bacf02ac315b0990a4237152b0f5912629b76e92d3ee481cfe561d235edb5c",
+  "upstream": {
+    "hash": "5b57c7480947b99cc7b711b970dd5c18",
+    "codeLen": 256,
+    "code": "m=t/4864+114,b=m/2&127,F=i=>t*2**(i/12)*110/689&63,C=i=>\",.,+,9$\\B,.,+)K([B$89[XB+,.,+lr$%$#$ILb,.,+)HKb$%$#$HKb+L(yrr\".charCodeAt(i)-18,S=j=>{for(;o<=b;o+=C(j++)>>4)s=C(j)&15},S(o=0),(s&&8*F(s)&64)+(m&3&&m+2&15||b%64>57?0:F(n=((m^b)&32?2:7)-b%2*5)+F(n+7))",
+    "author": "ern0",
+    "name": "Tango",
+    "description": "Lovebyte 2021 competition - 2nd place.",
+    "url": "https://demozoo.org/music/291147/",
+    "date": "2021-03-13",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-09",
+    "date_edited": "2025-11-09"
+  }
+}

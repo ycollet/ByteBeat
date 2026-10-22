@@ -1,0 +1,27 @@
+{
+  "file": "songs/6b8fe65a25d726adf9aa8d1904f01b14.js",
+  "title": "Solemn Soundscapes",
+  "author": "Pestis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e301805372c0fead7c05cb3cdac5f093e1c6020e42d3b276ed61a4efa4b22c00",
+  "upstream": {
+    "hash": "6b8fe65a25d726adf9aa8d1904f01b14",
+    "codeLen": 256,
+    "code": "(f=>{for(y=t*=C=2;C--;O=[y,x]=[d[++t]=x+S(32&f&&300*s**.1*n**f)/e,y])for(x=d[t-6e4]/3||0,i=5;--i;x+=S(S(2**((12*(n-\"6687\"[3&f])/7|0)/12+10)*s)*9**S(f*i+C)*S(n*f/21))/e)r=f/2**i*16,n=\"10315121\"[r&f/4+1&7],s=r%1,e=2**(.06/s+n/2+n*s*6)})(t/8e4||(d=[S=sin])),O",
+    "author": "Pestis",
+    "name": "Solemn Soundscapes",
+    "description": "Lovebyte 2025 competition.",
+    "url": "https://demozoo.org/music/367593",
+    "date": "2025-02-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-03"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/dbad38b8cdc9ff3ba1af68cf1d7dd258.js",
+  "title": "Asetel Tedent",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dbad38b8cdc9ff3ba1af68cf1d7dd258.js",
+  "sha256": "300789e216aac884282aafb29a0f25cc3ad80cb44a5af270751692c0cb7516fa",
+  "upstream": {
+    "hash": "dbad38b8cdc9ff3ba1af68cf1d7dd258",
+    "codeLen": 4009,
+    "fileOrig": 1,
+    "codeText": "const bassline = [1, 4];\nconst supersawline = [[1, 8], [4, 11]];\nconst key = 2;\n\n//LPF (4-pole)\nLPF = function(s = 48e3) {\n   this.fs = s;\n   this.cutoff = 1e3;",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "Asetel Tedent",
+    "url": "https://dollchan.net/btb/res/163.html#9213",
+    "date": "2025-09-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30"
+  }
+}

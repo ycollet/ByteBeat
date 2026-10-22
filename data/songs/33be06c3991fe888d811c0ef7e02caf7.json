@@ -1,0 +1,30 @@
+{
+  "file": "songs/33be06c3991fe888d811c0ef7e02caf7.js",
+  "title": "SH∆PE-SH¡FT",
+  "author": "UltraDasher965",
+  "mode": "Floatbeat",
+  "rate": 42000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/33be06c3991fe888d811c0ef7e02caf7.js",
+  "sha256": "c05f2d23ab6cddfd293e26d8ad74fbde82e4bc7f558cd1fa0d6a215fd1764a26",
+  "upstream": {
+    "hash": "33be06c3991fe888d811c0ef7e02caf7",
+    "codeMinLen": 362,
+    "codeMin": "[(M=x=>(t*(y=x?1.01:1)*(t>>9|1932555120>>(a=t>>13&7))&128^(t*y>>2)*(t>>11|58132275>>a)&191)/255-.75+(X=sin)(8*cbrt(b=t%(16384/'11111111111144222211111122223389'[31&t>>13])))*1200/b+(tan(t*y*PI/1024)*(1&-t>>11)*((3&t>>12)>0)/1.5*400/(c=t%4096)&1)+(t*X(t>>4)&255&-t>>6)*(1&t>>(x?11:14))*(d=1&t>>19)/191+(e=random)()*400/c*d+(e()+X(t<<3)/3)*4E3/(t%524288))(0),M(1)]",
+    "codeLen": 908,
+    "fileOrig": 1,
+    "codeText": "[(M=x=>(t*(y=x?1.01:1)*(t>>9|1932555120>>(a=t>>13&7))&128^(t*y>>2)*(t>>11|58132275>>a)&191)/255-.75+(X=sin)(8*cbrt(b=t%(16384/'11111111111144222211111122223389'[31&t>>13])))*1200/b+(tan(t*y*PI/1024)*(1&-t>>11)*((3&t>>12)>0)/1.5*400/(c=t%4096)&1)+(t*X(t>>4)&255&-t>>6)*(1&t>>(x?11:14))*(d=1&t>>19)/191+(e=random)()*400/c*d+(e()+X(t<<3)/3)*4E3/(t%524288))(0),M(1)]",
+    "isTruncated": 1,
+    "author": "UltraDasher965",
+    "name": "SH∆PE-SH¡FT",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1olei14/shpeshft_by_far_one_of_the_best_bytebeats_ive_made/",
+    "date": "2025-10-31",
+    "mode": "Floatbeat",
+    "sampleRate": 42000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-03",
+    "date_edited": "2025-11-09"
+  }
+}

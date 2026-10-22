@@ -1,0 +1,42 @@
+{
+  "file": "songs/893affe2b9423a41e3a95a79bf0a1273.js",
+  "title": "Brazillian Type Beat 11 Remixed",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 35497.91,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/893affe2b9423a41e3a95a79bf0a1273.js",
+  "sha256": "17ec8be57c730cd38903bc4610642f22eb42658432ec7727604dc69cb091f4c0",
+  "upstream": {
+    "hash": "893affe2b9423a41e3a95a79bf0a1273",
+    "codeLen": 1337,
+    "fileOrig": 1,
+    "codeText": "t||(a=b=0),l=8192,u=4096,cc=2048,t+=524288,n=2**(-1/12),ba=t*n*2**([-4,-2,0,-5,-4,-2,0,3][t>>15&7]/12-1),x=j=>(a+=b+=(n*2**([8,8,8,12,12,12,15,15,14,14,10,10,3,3,5,5,7,7,7,19,19,19,15,15,12,12,10,10,5,5,7,7,8,8,8,12,12,12,15,15,14,14,17,17,14,14,10,10,12,12,12,24,24,24,22,22,19,19,17,17,15,15,14,14,8,8,8,12,12,12,15,15,14,14,10,10,3,3,5,5,7,7,7,19,19,19,15,15,12,12,10,10,12,12,15,15,8,8,8,12,12,12,15,15,14,14,10,10,14,14,17,17,19,19,19,27,27,27,26,26,24,24,19,19,17,17,15,15][t>>12&127]/12)/2-b)/1000,c=t*n*2",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Brazillian Type Beat 11 Remixed",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1jnzwzx/brazillian_type_beat_11_remixed/",
+      "https://dollchan.net/btb/res/7164.html#7293"
+    ],
+    "date": "2025-03-31",
+    "mode": "Floatbeat",
+    "sampleRate": 35497.91,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "450e15d29e298e78613c115e0cd30397",
+        "author": "Decent-Manager-6169",
+        "name": "Brazilian Type Beat 11",
+        "url": [
+          "https://dollchan.net/btb/res/520.html#3396",
+          "https://www.reddit.com/r/bytebeat/comments/1cexofj/brazilian_type_beat_11/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-11",
+    "date_edited": "2025-11-13"
+  }
+}

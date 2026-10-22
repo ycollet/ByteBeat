@@ -1,0 +1,35 @@
+{
+  "file": "songs/3b9a7812a6077de1cc4c3dd378caee43.js",
+  "title": "funky minimal sierpinski harmony remix",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "811584f5e01f37ad1f7a043c1793cd862b0a874d012c6678b54305f3a4262a8b",
+  "upstream": {
+    "hash": "3b9a7812a6077de1cc4c3dd378caee43",
+    "codeMinLen": 111,
+    "codeMin": "40*sin(random()|512/cbrt(t%16384))+40+random()/cbrt(t%8192)*128+(t&t>>11)%256/2+(t&t>>5)/2%256/6+(t>>t/8)%256/8",
+    "codeLen": 113,
+    "code": "sin(random()|512/cbrt(t%16384))*40+40+random()/cbrt(t%8192)*128+(t&t>>11)%256/2+(t&t>>5)/2%256/6+(t>>(t/8))%256/8",
+    "author": "awogler9124812041",
+    "name": "funky minimal sierpinski harmony remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11it6gb/funky_minimal_sierpinski_harmony_remix/",
+    "date": "2023-03-05",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "251d751b9e691b15a17cf02bba1079f4",
+        "author": "miiro",
+        "name": "Sierpinski harmony",
+        "url": [
+          "https://youtu.be/qlrs2Vorw2Y?t=2m14s",
+          "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

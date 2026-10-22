@@ -1,0 +1,44 @@
+{
+  "file": "songs/0832d9ee0851ab22de0fdb0ffae088e8.js",
+  "title": "\"Nostalgic Before Hopeless\" by Decent",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0832d9ee0851ab22de0fdb0ffae088e8.js",
+  "sha256": "f8769877850c873b1de8a3dcceb496380319ce472a0906f08b9f4895bfa11733",
+  "upstream": {
+    "hash": "0832d9ee0851ab22de0fdb0ffae088e8",
+    "codeLen": 3805,
+    "fileOrig": 1,
+    "codeText": "/*\n\t  _   __           __        __      _         ____       ____                   __  __                 __              \n\t / | / /___  _____/ /_____ _/ /___ _(_)____   / __ )___  / __/___  ________     / / / /___  ____  ___  / /__  __________\n\t/  |/ / __ \\/ ___/ __/ __ `/ / __ `/ / ___/  / __  / _ \\/ /_/ __ \\/ ___/ _ \\   / /_/ / __ \\/ __ \\/ _ \\/ / _ \\/ ___/ ___/\n  / /|  / /_/ (__  ) /_/ /_/ / / /_/ / / /__   / /_/ /  __/ __/ /_/ / /  /  __/  / __  / /_/ / /_/ /  __/ /  __(__  |__  ) \n /_/ |_/\\____/____/",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "\"Nostalgic Before Hopeless\" by Decent",
+    "description": "The Imaj7-III7-IVmaj7-iv6 chord progression sounds nice. Updated on 2025/11/28.",
+    "url": "https://dollchan.net/btb/res/7164.html#10904",
+    "date": "2025-06-27",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "9fa700da86cb11e2491a584d3e435e0f",
+        "author": "Decent-Manager-6169",
+        "name": "Nostalgic Before Hopeless",
+        "url": "https://dollchan.net/btb/res/520.html#7143"
+      },
+      {
+        "hash": "56abd7cc03a736e484e2847f7294a15a",
+        "author": "PrincessPriscillaPT",
+        "name": "Memory Cascade",
+        "url": "https://dollchan.net/btb/res/7164.html#7970"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-11",
+    "date_edited": "2025-11-28"
+  }
+}

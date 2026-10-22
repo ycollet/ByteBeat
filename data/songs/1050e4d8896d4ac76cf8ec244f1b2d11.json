@@ -1,0 +1,25 @@
+{
+  "file": "songs/1050e4d8896d4ac76cf8ec244f1b2d11.js",
+  "title": "Tune 7",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "761ede1d5c7a9dbd1d3febac3dd3fb68a68842add4bc31ba331dbd064813bc70",
+  "upstream": {
+    "hash": "1050e4d8896d4ac76cf8ec244f1b2d11",
+    "codeMinLen": 368,
+    "codeMin": "T=t/32E3,A=T%.5,A2=(T+.125)%.5,A3=(T+.25)%.5,C=2048,t<1?G=H=I=M=0:0,B=sin(15E7*A/(1+4*C*sqrt(A*C*3))),C=2*random()-1,G=.97*G+.03*C,D=1/(1+exp(A*A*16)),E=128*G*sin(16E3*T*PI)*D/(.1+1E3*A),F=(B+E*(A<.2)*D**8*60)*D*4/(1+96*A),I=I/2+C/2,S=((8*A>1?1/(128*A-15):8*A)*(A<.5)+(A<.02))*(C-I),F+=S*(int(2*T)%2>0),K=F<-.5?-.5:F,K=K>.5?.5:K,K=atan(2*K),M=.6*M+.4*K,H=.9*H+.2*K,M-H",
+    "codeLen": 398,
+    "code": "T=t/32000,A=T%0.5,A2=(T+0.125)%0.5,A3=(T+0.25)%0.5,C=2048,(t<1)?G=H=I=M=0:0,B=sin(1.5e8*A/(1+C*4*sqrt(A*C*3))),C=random()*2-1,G=G*0.97+C*0.03,D=1/(1+exp(A*A*16)),E=G*128*sin(T*16e3*PI)*D/(0.1+A*1e3),F=(B+E*(A<0.2)*D**8*60)*D*4/(1+A*96),I=I/2+C/2,S=(((A*8>1)?1/(A*128-15):A*8)*(A<0.5)+(A<0.02))*(C-I),F=F+S*(int(T*2)%2>0),K=(F<-0.5)?-0.5:F,K=(K>0.5)?0.5:K,K=atan(K*2),M=M*0.6+K*0.4,H=H*0.9+K*0.2,M-H",
+    "author": "SleepingLugia",
+    "name": "Tune 7",
+    "url": "https://battleofthebits.com/arena/Entry/dumpster_tunes.txt/59825/",
+    "date": "2023-04-12",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

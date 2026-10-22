@@ -1,0 +1,45 @@
+{
+  "file": "songs/d25aaa20f6b78b62242def6391a5e1ba.js",
+  "title": "Solar Cityscapes [PrincessPriscillaPT Remix] v2",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d25aaa20f6b78b62242def6391a5e1ba.js",
+  "sha256": "660767a4565ea38ccf1181d83211c5088afa154ce415b964516f1d06de37fbd2",
+  "upstream": {
+    "hash": "d25aaa20f6b78b62242def6391a5e1ba",
+    "codeLen": 19997,
+    "fileOrig": 1,
+    "codeText": "/*\n\n ██████╗ █████╗ ██╗      █████╗ ██████╗    █████╗ ██╗████████╗██╗   ██╗ ██████╗ █████╗  █████╗ ██████╗ ███████╗ ██████╗\n██╔════╝██╔══██╗██║     ██╔══██╗██╔══██╗  ██╔══██╗██║╚══██╔══╝╚██╗ ██╔╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔════╝\n╚█████╗ ██║  ██║██║     ███████║██████╔╝  ██║  ╚═╝██║   ██║    ╚████╔╝ ╚█████╗ ██║  ╚═╝███████║██████╔╝█████╗  ╚█████╗ \n ╚═══██╗██║  ██║██║     ██╔══██║██╔══██╗  ██║  ██╗██║   ██║     ╚██╔╝   ╚═══██╗██║  ██╗██╔══██║██╔═══╝ ██╔══╝   ╚═══██╗\n██████╔╝╚█████╔╝███████╗██║ ",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Solar Cityscapes [PrincessPriscillaPT Remix] v2",
+    "description": "\"A radiant synth voyage through glowing skylines, where warm pulses and shimmering melodies embody the sunlight over a futuristic city.\" Set dsp to 0 or false to avoid clutter. Lasts about 4 minutes.",
+    "url": [
+      "https://dollchan.net/btb/res/7164.html#9908",
+      "https://www.reddit.com/r/bytebeat/comments/1mv8q94/comment/nb6jz83/"
+    ],
+    "date": "2025-10-16",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "c01223a1d5512b34a72766e15bb6edd2",
+        "author": "MarioFan171",
+        "name": "Solar Cityscapes V2",
+        "url": [
+          "https://dollchan.net/btb/res/2971.html#8437",
+          "https://www.reddit.com/r/bytebeat/comments/1m744io/solar_cityscapes_v2/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-17"
+  }
+}

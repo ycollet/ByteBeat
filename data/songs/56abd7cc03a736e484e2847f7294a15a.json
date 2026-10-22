@@ -1,0 +1,43 @@
+{
+  "file": "songs/56abd7cc03a736e484e2847f7294a15a.js",
+  "title": "Memory Cascade",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/56abd7cc03a736e484e2847f7294a15a.js",
+  "sha256": "734862b74306fa8ab74560f5adf1c640f0bb6a8760df281396e87461b59b02d6",
+  "upstream": {
+    "hash": "56abd7cc03a736e484e2847f7294a15a",
+    "codeMinLen": 2096,
+    "codeLen": 5364,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(wsin=(phase)=>(-cos(phase/256*PI)+1)*128-.5,fx=[],dMax=1e6,lpf=lowPassFilter=(a,c)=>(lp_fxii=fxi++,fx[lp_fxii]??=0,fx[lp_fxii]+=(a-fx[lp_fxii])*c),hpf=highPassFilter=(a,c)=>a-lpf(a,c),bpf=bandPassFilter=(a,hc,lc)=>hpf(lpf(a,lc),hc),nf=notchFilter=(a,hc,lc)=>(hpf(a,hc)+lpf(a,lc))/1.75,dly=multiTabDelay=(audio,heads,dw,fbfn=x=>x)=>{dly_fxii=fxi++;fx[dly_fxii]??=Array(dMax).fill(0);dly_wi\t=dt%dMax;dly_feed=audio;dly_out=0;for(let head of heads){dly_ri=(dMax+dt-round(head.t))%dMax;dly_feed+=fx[dly_fxii][dly",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Memory Cascade",
+    "description": "\"You drift through a warm, hazy memory — soft echoes ripple like waves on a quiet lake at dusk. Gentle pulses of nostalgia wash over you, like sunlight filtering through autumn leaves, while distant voices whisper forgotten stories in the breeze. Time slows, and the past and present blend in a shimmering glow of bittersweet reflection.\"",
+    "url": "https://dollchan.net/btb/res/7164.html#7970",
+    "date": "2025-06-14",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "910db61f3deb54be4b3167640ed150e1",
+        "author": "lhphr",
+        "name": "Reminisce",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/x39ll8/reminisce/",
+          "https://dollchan.net/btb/res/44.html#367"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-28",
+    "date_edited": "2025-11-04"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/a64e0fcfbc4eafea9fc53adf3193acf0.js",
+  "title": "nightmare in castle",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ec8f9c6f73f65938e921e02781f5b2409216579a06352703d6f8ff40e99956b0",
+  "upstream": {
+    "hash": "a64e0fcfbc4eafea9fc53adf3193acf0",
+    "codeMinLen": 284,
+    "codeMin": "T=1/1.2,a=t=>(p=[2,4,5,12,2,4,5,9,2,4,5,9,7,9,7,5,0,2,4,7,0,2,4,9,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,7,-2,0,2,9,-2,0,2,-2,0,2,4,9,0,2,4,7,1,2,4,10,4,5,7,14][(t*T>>13)%64],z=t*2**(p/12)*1.355,(z&128)/1.5)*(1-t*T%8192/12E3),a(t)+a(t-12288/T)/2+a(t-20480/T)/4+a(t-28672/T)/8+a(t-36864/T)/16",
+    "codeLen": 300,
+    "code": "T=1/1.2,a=t=>(p=[2,4,5,12,2,4,5,9,2,4,5,9,7,9,7,5,0,2,4,7,0,2,4,9,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,7,-2,0,2,9,-2,0,2,-2,0,2,4,9,0,2,4,7,1,2,4,10,4,5,7,14][(t*T>>13)%64],z=t*2**(p/12)*1.355,(z&128)/1.5)*(1-t*T%8192/12E3),a(t)+a(t-(1<<12)*3/T)/2+a(t-(1<<12)*5/T)/4+a(t-(1<<12)*7/T)/8+a(t-(1<<12)*9/T)/16",
+    "author": "Zackx",
+    "name": "nightmare in castle",
+    "url": "https://dollchan.net/btb/res/204.html#770",
+    "date": "2023-04-06",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "c464bab1015d2c23e917b68b7325ea39",
+        "author": "Zackx",
+        "name": "inside castle",
+        "url": "https://dollchan.net/btb/res/204.html#480"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

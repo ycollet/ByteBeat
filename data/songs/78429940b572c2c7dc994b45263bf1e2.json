@@ -1,0 +1,40 @@
+{
+  "file": "songs/78429940b572c2c7dc994b45263bf1e2.js",
+  "title": "[ SQUARE, DANCE ]",
+  "author": "feeshbread",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/78429940b572c2c7dc994b45263bf1e2.js",
+  "sha256": "ddaf478f49d0512f62a4bcc8f1a8c726067ed8139daff27499b3b7a053428d61",
+  "upstream": {
+    "hash": "78429940b572c2c7dc994b45263bf1e2",
+    "codeMinLen": 1517,
+    "codeLen": 1600,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "P=-.19,t||(fb1=0,fb=0,f=[],lp=(a,c)=>(li=fi++,f[li]??=0,f[li]+=(a-f[li])*c),hp=(a,c)=>a-lp(a,c),hb=(a,c,b)=>a+hp(a,c)*b,bp=(a,hc,lc)=>hp(lp(a,lc),hc),bb=(a,hc,lc,b)=>a+bp(a,hc,lc)*b,s=(a,cu,cd)=>(si=fi++,f[si]??=0,sr=f[si],f[si]+=(a-sr)*(sr<a?cu:cd)),n=c=>(ni=fi++,f[ni]??=0,f[ni]=f[ni]+(random()-.5-f[ni])*c),dm=1e5,d=(a,h,m,fbfn=x=>x)=>{di=fi++;f[di]??=Array(dm).fill(0);dw=dt%dm;df=a;du=0;for(let hd of h){dr=(dm+dt-round(hd.t))%dm;df+=f[di][dr]*hd.fb;du+=f[di][dr]*hd.m}f[di][dw]=fbfn(df);return a*(1-m)+du*m",
+    "isTruncated": 1,
+    "author": "feeshbread",
+    "name": "[ SQUARE, DANCE ]",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/",
+    "date": "2024-10-27",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "af2eb7be07cca3de2c21da28f451f01d",
+        "author": "feeshbread",
+        "name": "[ D A N C E ] (re re re remix)",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1gab25x/comment/ltpnn9j/",
+          "https://www.reddit.com/r/bytebeat/comments/1gcvtn1/square_dance_remix_of_party_and_dance_in_square/"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-30"
+  }
+}

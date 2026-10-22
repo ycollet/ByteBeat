@@ -1,0 +1,24 @@
+{
+  "file": "songs/e285c01d77834fad3bb90ccbd93f11d3.js",
+  "title": "\"fractal trees\", 216's version",
+  "author": "216",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e43d64818cbede3e0d8c0b252e171520aee9020b55d50e437a97280fc689dfcd",
+  "upstream": {
+    "hash": "e285c01d77834fad3bb90ccbd93f11d3",
+    "codeLen": 13,
+    "code": "t|t%255|t%257",
+    "author": "216",
+    "name": "\"fractal trees\", 216's version",
+    "description": "by 216 and Danharaj",
+    "url": "http://www.reddit.com/r/programming/comments/kyj77/algorithmic_symphonies_from_one_line_of_code_how/",
+    "date": "2011-10-03",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

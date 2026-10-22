@@ -1,0 +1,28 @@
+{
+  "file": "songs/c9b5541f5f47e857f12e0312a7804e5e.js",
+  "title": "\\u00A0",
+  "author": "Maxi",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c9b5541f5f47e857f12e0312a7804e5e.js",
+  "sha256": "30cdc3fe46e703f76ca539a9e7897a9937fbe2a4e14ca765b0be34629c866026",
+  "upstream": {
+    "hash": "c9b5541f5f47e857f12e0312a7804e5e",
+    "codeLen": 4874,
+    "fileOrig": 1,
+    "codeText": "settings={\n\tBPM:[40,60,63,68,73,79],\n\ttranspose:0\n},\nsampleRate = 48000,\n// memory\n// useful for storing stuff that you need to change overtime (e.g. self-referring variables)\nt||(mem=new Float32Array(4e6)), // 128 kibibytes of mem",
+    "isTruncated": 1,
+    "author": "Maxi",
+    "name": "\\u00A0",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1n7rq6t/u00a0/",
+    "date": "2025-09-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-10-01",
+    "date_edited": "2026-10-18"
+  }
+}

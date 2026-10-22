@@ -1,0 +1,24 @@
+{
+  "file": "songs/4660f0c0bca569e16ec1a214554026df.js",
+  "title": "some rave",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 50000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "583d10d948017b3a45b546f6d5b51d311e4ad8fe9145efae94c589743d1de143",
+  "upstream": {
+    "hash": "4660f0c0bca569e16ec1a214554026df",
+    "codeMinLen": 115,
+    "codeMin": "t/4%256*!(t&4096)*(t%32768/32768)/2+48*sin(2E4/(t%32768+1024)**.8)+48+((t*sin(t>>2)&64)*(-t>>7&255)>>8)*!!(t&32768)",
+    "codeLen": 122,
+    "code": "(t/4%256*(t&4096?0:1)*(t%32768/32768))/2+sin(2E4/(t%32768+1024)**.8)*48+48+((t*sin(t>>2)&64)*(-t>>7&255)>>8)*(t&32768?1:0)",
+    "author": "Zackx",
+    "name": "some rave",
+    "url": "https://dollchan.net/btb/res/204.html#1451",
+    "date": "2023-07-01",
+    "sampleRate": 50000,
+    "tags": [
+      "256"
+    ]
+  }
+}

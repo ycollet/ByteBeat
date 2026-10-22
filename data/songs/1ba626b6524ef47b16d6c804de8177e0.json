@@ -1,0 +1,33 @@
+{
+  "file": "songs/1ba626b6524ef47b16d6c804de8177e0.js",
+  "title": "slightly altered version of rrolas formula",
+  "author": "PB95Player",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "49c2041c80bc1aef37de5a8badc499803d09a358d2846a3a2f26e9a5181cd3a1",
+  "upstream": {
+    "hash": "1ba626b6524ef47b16d6c804de8177e0",
+    "codeMinLen": 52,
+    "codeMin": "t*(0xCA98CA98CA98>>(t>>9&44)&15)|t>>8|40000/(t&4095)",
+    "codeLen": 56,
+    "code": "(t*(0xCA98CA98CA98>>(t>>9&44)&15)|t>>8)|(40000/(t&4095))",
+    "author": "PB95Player",
+    "name": "slightly altered version of rrolas formula",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11o46p7/too_scared_to_use/",
+    "date": "2023-03-11",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

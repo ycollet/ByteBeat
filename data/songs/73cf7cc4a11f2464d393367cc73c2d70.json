@@ -1,0 +1,27 @@
+{
+  "file": "songs/73cf7cc4a11f2464d393367cc73c2d70.js",
+  "title": "Every Breath You Take",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/73cf7cc4a11f2464d393367cc73c2d70.js",
+  "sha256": "201f866f5e40ffbb87dbc4e2d64d1da886b6481d9f6517dfe3a48ef56270ecd1",
+  "upstream": {
+    "hash": "73cf7cc4a11f2464d393367cc73c2d70",
+    "codeLen": 554,
+    "fileOrig": 1,
+    "codeText": "T=q=>2**(q/12),t-=49152,M=t=>(t&8192?(t&t>>6&255)/4+(t*3>>1&t>>6&255)/4:0)+(t*T([0,7,14,7,16,14,7,14,0,7,14,7,16,14,7,14,-3,4,11,4,12,11,4,11,-3,4,11,4,12,11,4,11,5,12,19,12,17,12,5,12,7,14,21,14,19,14,7,14,0,7,14,7,16,14,7,14,0,7,14,7,16,14,7,14][t>>13&63])>>1&255)*(~t>>5&255)/510+(128*sin((8E14/(t&16383))**0.2)+128)/4,E=(e,i)=>16<i?0:0>e?0:M(e)/2+.5*E(e-24576+(i==0?12288:0),i+2),V=(t*T([0,0,0,0,0,0,0,0,,-5,4,5,4,4,2,2,0,0,0,0,0,0,0,0,,0,0,4,4,5,5,0,,0,0,5,5,4,4,2,,2,0,4,4,2,-3,0,0,0,0,0,0,0,0,,,-5,4,5,4,4",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Every Breath You Take",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16mas5v/every_breath_you_take/",
+    "date": "2023-09-19",
+    "sampleRate": 40000,
+    "stereo": 1,
+    "coverName": "The Police - Every Breath You Take",
+    "coverUrl": "https://youtu.be/OMOGaugKpzs?si=QQ4oJ7ZuoQPw1Yn1",
+    "tags": [
+      "1k"
+    ]
+  }
+}

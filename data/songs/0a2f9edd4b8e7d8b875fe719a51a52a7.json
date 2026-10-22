@@ -1,0 +1,33 @@
+{
+  "file": "songs/0a2f9edd4b8e7d8b875fe719a51a52a7.js",
+  "title": "SAWER-1-UNDEC",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "8c242f94b0dc653907ca3796edbe2aab7f690995663020539c2015fc13faea7e",
+  "upstream": {
+    "hash": "0a2f9edd4b8e7d8b875fe719a51a52a7",
+    "codeMinLen": 260,
+    "codeMin": "t/=4,c=x=>sin(cbrt(t*1.5*x%4096/x)*16),z=[1,.8865,.79,.593][(t*1.5>>14)%4],(z*t%100+z*t%100.5+z*t%67)*(-t*1.5>>(t*1.5&8192?11:10)&1)/3+c(\"11111112\"[t*1.5>>12&7])*32+32+((t*\"1248\"[t*1.5>>10&3]*z/1.035&8&&-t*1.5>>2)&255)/8+random()*(-t*1.5&8191)*(t*1.5>>12&1)/61",
+    "codeLen": 264,
+    "code": "t/=4,c=x=>sin(cbrt(t*1.5*x%4096/x)*16),z=[1,.8865,.79,.593][(t*1.5>>14)%4],(z*t%100+z*t%100.5+z*t%67)*(-t*1.5>>(t*1.5&8192?11:10)&1)/3+c('11111112'[t*1.5>>12&7])*32+32+((((t*'1248'[t*1.5>>10&3]*z/1.035)&8)&&-t*1.5>>2)&255)/8+random()*(-t*1.5&8191)*(t*1.5>>12&1)/61",
+    "author": "hcdphobe",
+    "name": "SAWER-1-UNDEC",
+    "url": "https://dollchan.net/btb/res/163.html#894",
+    "date": "2023-04-20",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "a3d9651195df386c35c48f2e9687f441",
+        "author": "Zackx",
+        "name": "Adding sinewave",
+        "url": "https://dollchan.net/btb/res/204.html#249"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-29"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/b69ee9b96b3e66b6a3491b2913512ac3.js",
+  "title": "Plucker v2",
+  "author": "a2aaron",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "033f6180b56791a32006eb4290db1521f5669079d7d1caa44a1212fb5dc77c6f",
+  "upstream": {
+    "hash": "b69ee9b96b3e66b6a3491b2913512ac3",
+    "codeMinLen": 13,
+    "codeMin": "t/4>>t/4|t>>2",
+    "codeLen": 19,
+    "code": "((t/4)>>t/4)|(t>>2)",
+    "author": "a2aaron",
+    "name": "Plucker v2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/20km9l/cool_equations/",
+    "date": "2014-03-16",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-10-21"
+  }
+}

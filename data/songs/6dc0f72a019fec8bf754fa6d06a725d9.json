@@ -1,0 +1,26 @@
+{
+  "file": "songs/6dc0f72a019fec8bf754fa6d06a725d9.js",
+  "title": "cool little fight scene",
+  "author": "SHCWAZERNECJLACE",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "16239bf5968e4cc80670567bb513c6aff2f35eb25d17825901a132ff708d8697",
+  "upstream": {
+    "hash": "6dc0f72a019fec8bf754fa6d06a725d9",
+    "codeMinLen": 20,
+    "codeMin": "3*t^t>>1&830417&t>>8",
+    "codeLen": 28,
+    "code": "3*t^t>>1&(0xcabd1)&(t>>8%42)",
+    "author": "SHCWAZERNECJLACE",
+    "name": "cool little fight scene",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1583l77/another_garbage_truck_of_unposted_things/",
+    "date": "2023-07-24",
+    "sampleRate": 11025,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-10-22"
+  }
+}

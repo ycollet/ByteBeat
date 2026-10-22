@@ -1,0 +1,31 @@
+{
+  "file": "songs/0a9607e0c3cb2671accda9e9f44d4a60.js",
+  "title": "this art or something",
+  "author": "hcdphobe",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a635e9bb4939a703e0cfdca56f888ef37df185fd42df95cc77de67c247fa7be5",
+  "upstream": {
+    "hash": "0a9607e0c3cb2671accda9e9f44d4a60",
+    "codeMinLen": 98,
+    "codeMin": "128&256*[1584,6476,10627,20097,17985,16505,19769,17173,18783,10684,10496,5632][t-2048>>8&31]>>-t-8",
+    "codeLen": 245,
+    "code": "128&256*[0b000011000110000,0b001100101001100,0b010100110000011,0b100111010000001,0b100011001000001,0b100000001111001,0b100110100111001,0b100001100010101,0b100100101011111,0b010100110111100,0b010100100000000,0b001011000000000][t-2048>>8&31]>>-t-8",
+    "author": "hcdphobe",
+    "name": "this art or something",
+    "description": "Mario in the scope. Set \"Diagram\" mode and zoom to 1/32.",
+    "url": "https://dollchan.net/btb/res/163.html#5317",
+    "date": "2025-01-14",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": "5"
+    },
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-04-28"
+  }
+}

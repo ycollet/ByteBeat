@@ -1,0 +1,25 @@
+{
+  "file": "songs/da2a0a5bedb156b5de2e7893b2f79602.js",
+  "title": "Drum Machine",
+  "author": "kOLbOSa_exe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/da2a0a5bedb156b5de2e7893b2f79602.js",
+  "sha256": "00e531a43a1bef29bdcbefb1a6277e3bf293c28e51de8fe3952a231eb75ac8ae",
+  "upstream": {
+    "hash": "da2a0a5bedb156b5de2e7893b2f79602",
+    "codeLen": 1102,
+    "fileOrig": 1,
+    "codeText": "function callib(i){return ((i)%255)/127-1} \t\t\t\t\t\t\t\t\t\t\t\t//byte -> float\ngen = Array(1000);for(var i=0;i<gen.length;i++){gen[i] = round(random()*3);}\t//noise gen\n// Klöffenklain beat pattern\nbk =[1,0,0,0,3,0,0,0,1,3,0,0,3,1,1,1]; //first channel \nbk2=[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]; //second channel expand\nf = 0;\nf2 = 0;\nreturn function (time, sampleRate) {",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "Drum Machine",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11j0vhv/drum_machine/",
+    "date": "2023-03-05",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big"
+    ]
+  }
+}

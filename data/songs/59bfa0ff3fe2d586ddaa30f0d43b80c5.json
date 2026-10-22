@@ -1,0 +1,36 @@
+{
+  "file": "songs/59bfa0ff3fe2d586ddaa30f0d43b80c5.js",
+  "title": "Hyper atari thingy (banger mix)",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/59bfa0ff3fe2d586ddaa30f0d43b80c5.js",
+  "sha256": "429a27e702c27bdf4c40c0a15ac9e71b4d735cd4cd071dfda2d6ef229f646e2c",
+  "upstream": {
+    "hash": "59bfa0ff3fe2d586ddaa30f0d43b80c5",
+    "codeLen": 519,
+    "fileOrig": 1,
+    "codeText": "r=t/1.35,p=parseInt,min(max((pcm=(a,b,c)=>p((s=a)[int(.692*t/c*2**(p(b,36)/12))%s.length],36)*4-72,pcm('0ZZ00Z00Z00ZZ0ZZ0ZZZZ000Z00Z00Z0Z00Z','5CH5CH5C5CH5CH5C5CH5CH5C8FK8FK8F18D18D1818D18D1807C07C074CG4CG4CG'[63&r>>12],[10,9.95][1&t*2**(p(b='CCCF887B'[7&r>>15],36)/12)>>8])*(1-r/4096%1/1.5)/3+(k=y=>pcm('02468ACEGJLNPRTVXZ',b,59.5*y),k(1)+k(.995))*(r/16384%1)*(1-r/4096%1)+sin(cbrt(r%8192)*8)*64*(1-r/8192%1)*!(r&8192)+(random()*48-24)*(1-r/2048%1)*!(r&2048)+((t*sin(t>>2)&32)-16)*(1-r/16384%1)*!(~r&16384)),-12",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "Hyper atari thingy (banger mix)",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#3901",
+      "https://www.reddit.com/r/bytebeat/comments/1dkp4ez/hyper_atari_thingy_banger_mix/"
+    ],
+    "date": "2024-06-21",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "f52b68b0b810a6cb4419bc53377759da",
+        "author": "Decent-Manager-6169",
+        "name": "atari thingy",
+        "url": "https://www.reddit.com/r/bytebeat/comments/121ie23/dont_know_what_to_name_with_atari_thingy/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

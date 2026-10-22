@@ -1,0 +1,38 @@
+{
+  "file": "songs/499622a474f2ddfa85cdbd5ca14f5c01.js",
+  "title": "combination Fanfare + CA98",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0cf9400a00a60961af23cb4e5aef353f93cc6b488aec0143f78f15f474c979a5",
+  "upstream": {
+    "hash": "499622a474f2ddfa85cdbd5ca14f5c01",
+    "codeLen": 62,
+    "code": "t*(0x21CA52CA>>(t>>9&30)&14)+t*(0xCACACACA>>(t>>9&30)&14)&t>>4",
+    "author": "rubi",
+    "name": "combination Fanfare + CA98",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rirrir/combination_fanfare_ca98/",
+    "date": "2021-12-17",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      },
+      {
+        "hash": "a184c2c272dd587f2d2331c766e11b79",
+        "author": "varjohukka",
+        "name": "Fanfare?",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=4#c388503"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

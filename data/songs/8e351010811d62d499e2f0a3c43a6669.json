@@ -1,0 +1,27 @@
+{
+  "file": "songs/8e351010811d62d499e2f0a3c43a6669.js",
+  "title": "OMG TEH BYTEBEATNESS number one",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 15360,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a7e0d1c7bc530daa025b3eea310b853285c7d1246bc6dd909261604748fb4cf1",
+  "upstream": {
+    "hash": "8e351010811d62d499e2f0a3c43a6669",
+    "codeMinLen": 75,
+    "codeMin": "t*(t&16384?16/3:t&32768?416/93:5)*(t&65536?t&4096?3/2:1:1)|t>>(t&65536?4:6)",
+    "codeLen": 77,
+    "code": "t*(t&16384?16/3:t&32768?13*32/93:5)*(t&65536?t&4096?3/2:1:1)|t>>(t&65536?4:6)",
+    "author": "hcdphobe",
+    "name": "OMG TEH BYTEBEATNESS number one",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1567oiq/omg_teh_bytebeatness/",
+    "date": "2023-07-22",
+    "sampleRate": 15360,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

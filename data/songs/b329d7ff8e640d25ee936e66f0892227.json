@@ -1,0 +1,29 @@
+{
+  "file": "songs/b329d7ff8e640d25ee936e66f0892227.js",
+  "title": "Tangentstep",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b329d7ff8e640d25ee936e66f0892227.js",
+  "sha256": "7692ae39a6e2e3dbfe75b7adf2c647c12b92f300f012186a0da0d2b1fe5cac71",
+  "upstream": {
+    "hash": "b329d7ff8e640d25ee936e66f0892227",
+    "codeMinLen": 756,
+    "codeLen": 793,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "a='0  01   0   1   0   1   0  01   0   1   0   1   0   1   0 001 0 ',b='2221111111111111333322221111444444111111111111113333555555111111',drums=c=>(pat1=a[(t>>13)%a.length],pat1=='0'?tan(cos((5+c)*cbrt(t%8192)))*(-t>>5&255)/80:pat1=='1'?(random()+c)*(-t>>5&255)/80+tan(cos((15+c)*cbrt(t%8192)))*(-t>>5&255)/80:0)*(-t>>6&255^800)/1500*3,bass=c=>(pat2=b[(t>>13)%b.length],pat2=='1'?sin(cbrt(tan(t/280)-(9+c)%t*tan(t/(40+c))%tan(t/(80+c)))):pat2=='2'?sin(cbrt(tan(t/280)-(9+c)%t*tan(t/(54+c))%tan(t/(70+c)))):pat2==",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Tangentstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1k4mwzr/comment/moxb1dt/?context=3",
+    "date": "2025-04-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

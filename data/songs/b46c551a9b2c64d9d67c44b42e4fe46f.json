@@ -1,0 +1,32 @@
+{
+  "file": "songs/b46c551a9b2c64d9d67c44b42e4fe46f.js",
+  "title": "something cool i made when i was bored",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d384821cb64b804cd91751c85a233faef2055624458e26e9511fffe9f96056df",
+  "upstream": {
+    "hash": "b46c551a9b2c64d9d67c44b42e4fe46f",
+    "codeMinLen": 456,
+    "codeMin": "r=(i,int,dx)=>(t||(a=Array(l=dx|0).fill(1)),c=i%256+a[t%l|0],a[t%l|0]=c*int,c)*(1-int),pulse=(t,x)=>((t&255)>=(x&255))*255,a0=[0,2,3,5][t>>17&3],a1=[0,2,4,7][t>>17&3],crap=(t,a)=>pulse(t/7*4*2**(a/12)*2,t/128)/8,m=(t*[1,2,3,4,4.5,4.75,6,8][t>>13&7]/7%128+crap(t+t/256,a0)+crap(t+t/1024,a1+3)+crap(t+t/512,a0))/3*2+(t/7*2**(a0/12+2)+t/512)%256/3,r(m&255,.5,8192)/3*2+(sin(262144/(t%32768+1)/128*PI)*127+128)/3+random()*32*(1-(t>>5)/256%1/[1,1,2,1][t>>13&3])",
+    "codeLen": 483,
+    "code": "r=(i,int,dt)=>((t||(a=Array(l=(dt|0)).fill(1)),c=i%256+a[t%l|0],a[t%l|0]=c*int,c)*(1-int)),\r\npulse=(t,x)=>((t&255)>=(x&255))*255,\r\n\r\na0=[0,2,3,5][t>>17&3],\r\na1=[0,2,4,7][t>>17&3],\r\ncrap=(t,a)=>pulse(t/7*4*2**(a/12)*2,t/128)/8,\r\nm=(t*[1,2,3,4,4.5,4.75,6,8][t>>13&7]/7%128+crap(t+t/256,a0)+crap(t+t/1024,a1+3)+crap(t+t/512,a0))/3*2+(t/7*2**(a0/12+2)+t/512)%256/3,\r\nr(m&255,0.5,(2**13))/3*2+(sin((2**18)/((t%(2**15)+1))/128*PI)*127+128)/3+random()*32*(1-(t>>5)/256%1/[1,1,2,1][t>>13&3])",
+    "author": "D3nschøt",
+    "name": "something cool i made when i was bored",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1dbzevv/something_cool_i_made_when_i_was_bored/",
+    "date": "2024-06-09",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "8de1f0ebcf4fd52c6466213ab8a7aba9",
+        "author": "D3nschøt",
+        "name": "the pulse but as the song",
+        "url": "https://youtu.be/hp0RUcEe3qA?si=0CyKCEnXCkFit12N"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

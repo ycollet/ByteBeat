@@ -1,0 +1,32 @@
+{
+  "file": "songs/83ae20cd2d404ef284eb0604163e80f8.js",
+  "title": "ctrl+v.hc",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e6d921ef735a92ea04496b236f48f8b8d9b4997e052596dad29dcd1f6c53094a",
+  "upstream": {
+    "hash": "83ae20cd2d404ef284eb0604163e80f8",
+    "codeMinLen": 247,
+    "codeMin": "(([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&192)/2+([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t>>2&128)/2+(sqrt(4E3*(t&16383))&128|t>>5&128)/1.5+random()*((-t>>6)%64+64)+(4E6/(16383+t&32767)&192)/1.5)/1.8",
+    "codeLen": 266,
+    "code": "(([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&192)/2+([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t>>2&128)/2+((Math.sqrt(4000*(t&16383))&128)|t>>5&128)/1.5+(Math.random()*((-t>>6)%64+64))+(4000000/(16383+t&32767)&192)/1.5)/1.8",
+    "author": "hcdphobe",
+    "name": "ctrl+v.hc",
+    "url": "https://dollchan.net/btb/res/163.html#263",
+    "date": "2022-11-28",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0466e5621443532a47fc11e1154d76ae",
+        "author": "rubi",
+        "name": "Ctrl+V",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0ytc9/ctrlv/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

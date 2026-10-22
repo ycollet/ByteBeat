@@ -1,0 +1,37 @@
+{
+  "file": "songs/97ec759bde21638bc45086488efee5e2.js",
+  "title": "Frequency-Domain Filtering",
+  "author": "May_I_Change_My_Name",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/97ec759bde21638bc45086488efee5e2.js",
+  "sha256": "6f7423b1c3329fac3f0d664fdec3dfe38590b6a83f9db3f2268f65d2e89a3ccf",
+  "upstream": {
+    "hash": "97ec759bde21638bc45086488efee5e2",
+    "codeLen": 1159,
+    "fileOrig": 1,
+    "codeText": "BB=t=>(\nt>>=2,t>>6^t&37|t+(t^t>>11)-t*((t%24?2:6)&t>>11)^t<<1&(t&598?t>>4:t>>10)\n),\n\nSIZE=10,\n\nX=o=>({r:cos(o),i:sin(o)}),M=(a,b)=>({r:a.r*b.r-a.i*b.i,i:a.r*b.i+b.r*a.i}),A=(a,b)=>({r:a.r+b.r,i:a.i+b.i}),FFT=(O,I,oi,ii,N,s)=>{if(N==1)O[oi]={r:I[ii],i:0};else{FFT(O,I,oi,ii,N/2,s*2);FFT(O,I,oi+N/2,ii+s,N/2,s*2);for(let j=0;j<N/2;++j){let T=M(X(-2*PI/N*j),O[oi+j+N/2]);O[oi+j+N/2]=A(O[oi+j],M(T,{r:-1,i:0}));O[oi+j]=A(O[oi+j],T)}}},IFFT=(O,I,oi,ii,N,s)=>{if(N==1)O[oi]=I[ii];else{IFFT(O,I,oi,ii,N/2,s*2);IFFT(O,I,",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Frequency-Domain Filtering",
+    "description": "Bytebeat -> FFT -> map() -> IFFT -> filtered bytebeat.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1feketi/frequencydomain_filtering/",
+    "date": "2024-09-11",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "4db6db929db16f13d4b34d2114f85692",
+        "author": "beyon",
+        "name": "A bit long I suppose...but nice and soothing",
+        "url": [
+          "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318081308422#c4945456935852459432",
+          "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1318420534814#c3824894682767643057"
+        ]
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

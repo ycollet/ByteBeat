@@ -1,0 +1,24 @@
+{
+  "file": "songs/bc922c23c4d2a64f950e1e9cbfe2d8de.js",
+  "title": "baseline, melody, snare, volume control",
+  "author": "CC123",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "081f70797799f0b53af3de3a03321e7b0d3d473ac81bdab8f2912d03bbdaaf5b",
+  "upstream": {
+    "hash": "bc922c23c4d2a64f950e1e9cbfe2d8de",
+    "codeMinLen": 153,
+    "codeMin": "(4*t*(t>>>11&1?1:0)*(t>>>11&8?0:1)+2*t*(t>>>10&1?1:0)*(t>>>10&128?0:1)+4*t*(t>>>10&1?1:0)*(t>>>10&128?1:0)+t*sin(t)*(t>>>10&4?1:0)*(t>>>10&1?1:0))%256*.7",
+    "codeLen": 209,
+    "code": "( ((t*4)*(((t>>>11)&1)?1:0)*(((t>>>11)&8)?0:1) + (t*2)*(((t>>>10)&1)?1:0)*(((t>>>10)&128)?0:1) +(t*4)*(((t>>>10)&1)?1:0)*(((t>>>10)&128)?1:0) + (t*sin(t)*(((t>>>10)&4)?1:0)*(((t>>>10)&1)?1:0))) % 256) * (7/10)",
+    "author": "CC123",
+    "name": "baseline, melody, snare, volume control",
+    "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1317629876555#c513659358561118663",
+    "date": "2011-10-03",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

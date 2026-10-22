@@ -1,0 +1,24 @@
+{
+  "file": "songs/924482825c1175656f42415b9e5930db.js",
+  "title": "łłŁŁŁłł",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7cc1d2ee59bb3e2895891a7748909106239fd311f76f211afd06e107f2beacfb",
+  "upstream": {
+    "hash": "924482825c1175656f42415b9e5930db",
+    "codeMinLen": 72,
+    "codeMin": "tan(4E4/(t&16383))|(t*(t&65536?1.05:1)*\"12341246\"[7&t>>14]&t>>5&t>>10)-1",
+    "codeLen": 74,
+    "code": "tan(4e4/(t&2**14-1))|(t*(t&2**16?1.05:1)*'12341246'[7&t>>14]&t>>5&t>>10)-1",
+    "author": "rubi",
+    "name": "łłŁŁŁłł",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16qff6t/%C5%82%C5%82%C5%82%C5%82%C5%82%C5%82%C5%82/",
+    "date": "2023-09-24",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

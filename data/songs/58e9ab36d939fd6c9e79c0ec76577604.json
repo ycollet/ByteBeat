@@ -1,0 +1,29 @@
+{
+  "file": "songs/58e9ab36d939fd6c9e79c0ec76577604.js",
+  "title": "zigzag",
+  "author": "orion_aboy",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "374d48bd94bebe193859afc8e4a6a544991bc6a0e02c283fc9d2aa97609bb45e",
+  "upstream": {
+    "hash": "58e9ab36d939fd6c9e79c0ec76577604",
+    "codeMinLen": 101,
+    "codeMin": "height=256,x=t/height%(1024*height),y=255-256/height*t%256,z=2*x%512,z=min(z,511-z),abs(z-y)<10?255:0",
+    "codeLen": 178,
+    "code": "height=256,\n\nmain=(x,y)=>{\n  let zigzag = x*2%512;\n  zigzag = min(zigzag, 511-zigzag);\n  return abs(zigzag-y)<10?255:0;\n},\n\nmain((t/height)%(height*256*4),255-t*(256/height)%256)",
+    "author": "orion_aboy",
+    "name": "zigzag",
+    "description": "Set \"Diagram\" mode and zoom to 2(-8).",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16m2ia8/zigzag/",
+    "date": "2023-09-18",
+    "sampleRate": 48000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 8
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/3e900dfe99a12ac10ca30a6848ea01ff.js",
+  "title": "ARRAY 44100HZ SONG",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "53c1b425fac217caf0e13f580eb188f6165352c1912916ec3ddeb0b89e6325e5",
+  "upstream": {
+    "hash": "3e900dfe99a12ac10ca30a6848ea01ff",
+    "codeMinLen": 432,
+    "codeMin": "this.n??=0,n+=.25,this.q??=0,q++,q%=524287,this.e??=0,e++,d=(e>>2)**3,c=[1,0,2,0,3,0,2.4,0][(n>>12)%8],f=[4/3,0,8/3,0,3.95,0,3.35,0][(n>>12)%8],g=[1.5,0,3,0,4.5,0,3.5,0][(n>>12)%8],z=10*cbrt(n%4096),W=x=>([c,c,f,g][(n>>15)%4]*n*x+([0,128][(n>>12)%2]*sin(d)&127)|n>>3)&255,q>=507907&&q<524288?(sin(n>>3)*n&-n>>4&255)/1.2:[W(1)/2.5,W(1)/2.5+W(2)/5,W(1)/2.5+W(2)/5+W(4)/7.5,W(1)/2.5+W(2)/5+W(4)/7.5+W(8)/10][(n>>15)%4]/1.5+30*sin(z)+50",
+    "codeLen": 478,
+    "code": "this.n??=0,n+=.25,this.q??=0,q+=1,this.e??=0,e+=1,d=(e>>2)*(e>>2)*(e>>2),c=[1,0,2,0,3,0,2.4,0][(n>>12)%8],f=[4/3,0,8/3,0,3.95,0,6.7/2,0][(n>>12)%8],g=[1.5,0,3,0,4.5,0,3.5,0][(n>>12)%8],z=cbrt(n%4096)*10,W=x=>([c,c,f,g][(n>>15)%4]*n*x+([0,128][(n>>12)%2]*sin(d)&127)|n>>3)&255,q>=507907&&q<524288?(((sin(n>>3)*n)&-n>>4)&255)/1.2:[W(1)/2.5,W(1)/2.5+W(2)/2.5/2,W(1)/2.5+W(2)/2.5/2+W(4)/2.5/3,W(1)/2.5+W(2)/2.5/2+W(4)/2.5/3+W(8)/2.5/4][(n>>15)%4]/1.5+(q>524287?q=0:0)+(sin(z)*30)+50",
+    "author": "hcdphobe",
+    "name": "ARRAY 44100HZ SONG",
+    "url": "https://dollchan.net/btb/res/163.html#471",
+    "date": "2023-02-25",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "b0cac8d4c454046c41ea3a96280ab79b",
+        "author": "rubi",
+        "name": "ARRAY 11025HZ SONG",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s1cai7/array_11025hz_song/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

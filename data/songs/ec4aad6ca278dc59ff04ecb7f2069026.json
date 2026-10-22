@@ -1,0 +1,28 @@
+{
+  "file": "songs/ec4aad6ca278dc59ff04ecb7f2069026.js",
+  "title": "MISTERIUM cave rework",
+  "author": "hrllobrothers4",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ec4aad6ca278dc59ff04ecb7f2069026.js",
+  "sha256": "045b39ed0d7907f31ad580eca49f6703f9a399debda83e2d3831222041bf10a2",
+  "upstream": {
+    "hash": "ec4aad6ca278dc59ff04ecb7f2069026",
+    "codeMinLen": 472,
+    "codeMin": "t?0:ec=Array(n=12288).fill(0),ts=t/32E3,S=466.16,nn=x=>((ts*x*256))&64%256,nn1=x=>((wav=(ts*x*256))%256+wav%255)/2,a=x=>nn([S/2,rb=277.18,f=349.23,S/2,rb,f,S/2,rb,f,S/2,f,rb,f/2,S/2,rb,f/2,S/2,rb,f/2,S/2,rb,f/2,rb,261.63][(t>>13)%24]/2*x*[1,1,1.5,1.2][t/1.5>>17&3])*(~t/2&4095)/4096,M=(a(1)+a(1.01))/2,b=x=>nn1([S/2,f/2,f,rb][t/1.5>>17&3]/4*x)/4,L=(ev=(b(1)+b(1.01)+b(0.99))+M+ec[t%n],ec[t%n]=ev/2,ev)/2,R=(ev=(b(0.98)+b(1.02)+b(1.03)/3)+M+ec[t%n],ec[t%n]=ev/2,ev)/2,[L,R]",
+    "codeLen": 697,
+    "fileOrig": 1,
+    "codeText": "t?0:ec=Array(n=12288).fill(0),ts=t/32E3,S=466.16,nn=x=>((ts*x*256))&64%256,nn1=x=>((wav=(ts*x*256))%256+wav%255)/2,a=x=>nn([S/2,rb=277.18,f=349.23,S/2,rb,f,S/2,rb,f,S/2,f,rb,f/2,S/2,rb,f/2,S/2,rb,f/2,S/2,rb,f/2,rb,261.63][(t>>13)%24]/2*x*[1,1,1.5,1.2][t/1.5>>17&3])*(~t/2&4095)/4096,M=(a(1)+a(1.01))/2,b=x=>nn1([S/2,f/2,f,rb][t/1.5>>17&3]/4*x)/4,L=(ev=(b(1)+b(1.01)+b(0.99))+M+ec[t%n],ec[t%n]=ev/2,ev)/2,R=(ev=(b(0.98)+b(1.02)+b(1.03)/3)+M+ec[t%n],ec[t%n]=ev/2,ev)/2,[L,R]",
+    "isTruncated": 1,
+    "author": "hrllobrothers4",
+    "name": "MISTERIUM cave rework",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ee75kj/working_on_misterium_cave_rework/",
+    "date": "2024-07-28",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-22"
+  }
+}

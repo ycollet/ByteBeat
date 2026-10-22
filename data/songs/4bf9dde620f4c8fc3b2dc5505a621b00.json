@@ -1,0 +1,24 @@
+{
+  "file": "songs/4bf9dde620f4c8fc3b2dc5505a621b00.js",
+  "title": "shredder",
+  "author": "SArpnt",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e7c08aac0d5a18dce708851fe39132167a9f4dfe3f82542e8d21626855b51680",
+  "upstream": {
+    "hash": "4bf9dde620f4c8fc3b2dc5505a621b00",
+    "codeMinLen": 77,
+    "codeMin": "(~t>>max(t>>10&15,t>>12&15)&t*'H$TT`0l6'.charCodeAt(t>>11&7)/19)*(10-(t>>16))",
+    "codeLen": 85,
+    "code": "((~t>>max((t>>10)%16,(t>>12)%16))&t*\"H$TT`0l6\".charCodeAt((t>>11)%8)/19)*(10-(t>>16))",
+    "author": "SArpnt",
+    "name": "shredder",
+    "url": "https://www.reddit.com/r/bytebeat/comments/gfghdv/shredder_song_not_just_a_terrible_noise/",
+    "date": "2020-05-07",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

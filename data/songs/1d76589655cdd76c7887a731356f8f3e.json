@@ -1,0 +1,24 @@
+{
+  "file": "songs/1d76589655cdd76c7887a731356f8f3e.js",
+  "title": "-PWM MUSIC-",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "18cc54247036e4039209954c8e9a25057ee6904024e99f415a89a88c73f4fbb0",
+  "upstream": {
+    "hash": "1d76589655cdd76c7887a731356f8f3e",
+    "codeMinLen": 103,
+    "codeMin": "(([2,2,1,0,1,0,1,0,.9,.9,1,1,1.5,1.5,.5,.5][(t>>11)%16]*t&127)+(t>>10)&128)+10*random()+16383/(t%16384)",
+    "codeLen": 124,
+    "code": "(([2,2,1,0,1,0,1,0,0.9,0.9,1,1,1.5,1.5,0.5,0.5][(t>>11)%16]*t&127)+(t>>10)&128)+(10*random())+(16383/(t%pow(4,(3+(3+(1))))))",
+    "author": "rubi",
+    "name": "-PWM MUSIC-",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s27xzz/pwm_muisc/",
+    "date": "2022-01-12",
+    "sampleRate": 32000,
+    "tags": [
+      "256"
+    ]
+  }
+}

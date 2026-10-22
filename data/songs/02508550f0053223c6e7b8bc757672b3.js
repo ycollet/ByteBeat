@@ -1,0 +1,1 @@
+x=t/t,z=x+x,(y=t/z)*(z*z*z+z)&y>>(z*z+z)|y*(z*z+z)&y/z>>(z*z+z)

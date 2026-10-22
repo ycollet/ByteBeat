@@ -1,0 +1,28 @@
+{
+  "file": "songs/7e2266230ce2f725020d227bd815859e.js",
+  "title": "only people from 9 months ago remember my old nu11 creation",
+  "author": "absolute197",
+  "mode": "Floatbeat",
+  "rate": 55000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7e2266230ce2f725020d227bd815859e.js",
+  "sha256": "e2711d29b445a5def79b882457e733b30b75ec308836709701aaf75e03ca688a",
+  "upstream": {
+    "hash": "7e2266230ce2f725020d227bd815859e",
+    "codeMinLen": 509,
+    "codeMin": "t/=1.07,_=()=>{a=t/16384%8;for(i=0;i<1+min(t>>17,7);i++)a+=sin([15,10,8,6,8,12,15,9][a&7]*\"3475\"[a/8&3]*[1,1.2,.8,1.5][3&t>>18]*t/512);return a},m=(n,z,q)=>n/(t&z)**q,b=_()/(3+(t&16383)/2400)/4-.7,((b*(1048576>t)+random()*(-t>>10&127)*(1048576<t)*(1179648>t)/256+b*(c=1179652<t)+tan(sin(m(1024,32767,.5)))/8*c)/2+sin(sin(m(855,32767,.6))+sin(m(944,32767,.55))*1.33)/9*c)/1.03+random()*(-t>>5&255)**2/131072*(1&t>>14)*c+(t/16*sin(t>>3)&88)*(-t>>(3&t>>14)&8191)/2048562/1.75*c-.01+asin(sin(m(333,16383,.3))/7*c)",
+    "codeLen": 568,
+    "fileOrig": 1,
+    "codeText": "t/=1.07,_=()=>{a=t/16384%8;for(i=0;i<1+min(t>>17,7);i++)a+=sin([15,10,8,6,8,12,15,9][a&7]*\"3475\"[a/8&3]*[1,1.2,.8,1.5][3&t>>18]*t/512);return a},m=(n,z,q)=>n/(t&z)**q,b=_()/(3+(t&16383)/2400)/4-.7,((b*(1048576>t)+random()*(-t>>10&127)*(1048576<t)*(1179648>t)/256+b*(c=1179652<t)+tan(sin(m(1024,32767,.5)))/8*c)/2+sin(sin(m(855,32767,.6))+sin(m(944,32767,.55))*1.33)/9*c)/1.03+random()*(-t>>5&255)**2/131072*(1&t>>14)*c+(t/16*sin(t>>3)&88)*(-t>>(3&t>>14)&8191)/2048562/1.75*c-.01+asin(sin(m(333,16383,.3))/7*c)",
+    "isTruncated": 1,
+    "author": "absolute197",
+    "name": "only people from 9 months ago remember my old nu11 creation",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1d30ryc/only_people_from_9_months_ago_remember_my_old/",
+    "date": "2024-05-29",
+    "mode": "Floatbeat",
+    "sampleRate": 55000,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-12-10"
+  }
+}

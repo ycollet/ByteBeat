@@ -1,0 +1,25 @@
+{
+  "file": "songs/bec23c2151621fb5b19bd07d823a94ec.js",
+  "title": "OUR task is infinity",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "dcbf74802183e52e54e0eb6fd8d63b01f650f2bf289fd919fe79cb00efa3d488",
+  "upstream": {
+    "hash": "bec23c2151621fb5b19bd07d823a94ec",
+    "codeMinLen": 44,
+    "codeMin": "(t>>11&t>>12)*(t>>8&t>>16)%34*t+4E5/(t&4095)",
+    "codeLen": 52,
+    "code": "t*(((t>>11&(t>>12))*(t>>8&(t>>16)))%34)+4e5/(t&4095)",
+    "author": "kOLbOSa_exe",
+    "name": "OUR task is infinity",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qi6eym/task_is_infinity/",
+    "date": "2021-10-29",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

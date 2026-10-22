@@ -1,0 +1,37 @@
+{
+  "file": "songs/cb3a1765512cfa166cd6dd6a16996f9e.js",
+  "title": "Tundrah + visy",
+  "author": "ANoUserXD",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "31fdbadb26f2420ebf1504bdce20abb151235ab06a4b132f35cd85d5dffdc53c",
+  "upstream": {
+    "hash": "cb3a1765512cfa166cd6dd6a16996f9e",
+    "codeLen": 150,
+    "code": "((t>>5|t>>4|(t%42*(t>>4)|357052691-(t>>4))/(t>>16)^(t|t>>4))&255)/2+((t%25-(t>>2|15*t|t%227)-t>>3|(t>>5&1663*(t<<5)|(t>>3)%1544)/(t%17|t%2048))&255)/2",
+    "author": "ANoUserXD",
+    "name": "Tundrah + visy",
+    "url": "https://dollchan.net/btb/res/2628.html#2730",
+    "date": "2023-12-06",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "b4803c112b66761708c1dd6b43f3639b",
+        "author": "Tundrah",
+        "name": "ass kicking vocals",
+        "url": "https://www.pouet.net/topic.php?which=8357&page=12#c389107"
+      },
+      {
+        "hash": "37e6569527f885d3c023ad84a29d15bb",
+        "author": "visy",
+        "name": "Slow progression with 8-bit Atari inspired sounds",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=13#c389250"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

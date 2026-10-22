@@ -1,0 +1,32 @@
+{
+  "file": "songs/2d7650ad758f59e138a5e55f26b6be2d.js",
+  "title": "Game of Thrones theme",
+  "author": "Wiebe-Marten Wijnja",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2d7650ad758f59e138a5e55f26b6be2d.js",
+  "sha256": "b59c19952d1c90a83bf048923f5b23b2d10947e8412e4cdba6e6ec21b6af62b4",
+  "upstream": {
+    "hash": "2d7650ad758f59e138a5e55f26b6be2d",
+    "codeLen": 1943,
+    "codeFormLen": 2166,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "v=t>>12,//v = check at what section we are\nv%=1152,//repeat song\n\n//patterns:\n//NOTE: some patterns that are commented out here are placed inside the synth scripts themselves, as they don't need any post-processing\nD=\"881146\",//start theme\n//X=D.replace(/4/g,5),//start theme major\n//F=\"1       1 1 \",//drums",
+    "isTruncated": 1,
+    "author": "Wiebe-Marten Wijnja",
+    "name": "Game of Thrones theme",
+    "url": [
+      "https://js1k.com/2014-dragons/details/1953",
+      "http://wmmusic.nl/code/"
+    ],
+    "date": "2014-02-15",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "coverName": "Game of Thrones Theme",
+    "coverUrl": "https://youtu.be/s7L2PVdrb_8",
+    "tags": [
+      "big"
+    ]
+  }
+}

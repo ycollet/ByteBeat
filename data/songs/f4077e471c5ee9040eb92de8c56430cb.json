@@ -1,0 +1,23 @@
+{
+  "file": "songs/f4077e471c5ee9040eb92de8c56430cb.js",
+  "title": "laser corrupt",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "341775999eecd94bee21a894e6b40b287f9957c21beb8962cf47e8b76ed99dee",
+  "upstream": {
+    "hash": "f4077e471c5ee9040eb92de8c56430cb",
+    "codeLen": 38,
+    "code": "t/(t%(127&t>>(3&t>>15)>>5)>>(3&t>>14))",
+    "author": "Zackx",
+    "name": "laser corrupt",
+    "url": "https://dollchan.net/btb/res/204.html#1726",
+    "date": "2023-07-25",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

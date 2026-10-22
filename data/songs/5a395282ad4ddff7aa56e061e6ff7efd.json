@@ -1,0 +1,24 @@
+{
+  "file": "songs/5a395282ad4ddff7aa56e061e6ff7efd.js",
+  "title": "Pulse Thingy 2",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 24576,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b6880509fe8932d7a3fe06703702dc542b7981a4a15340105ba1642cd820daa7",
+  "upstream": {
+    "hash": "5a395282ad4ddff7aa56e061e6ff7efd",
+    "codeMinLen": 249,
+    "codeMin": "t*1.37/'21'[t>>19&1]*2**(parseInt('44B4497744B44977CC766740CC766479BB499477BB49947700677CCC0079CB97'[t>>12&63],16)/12)%256*(abs(sin((t-'3356609933566099335668923356689233566899335668993456688834567892'[t>>12&63]*4096)*PI/32768)*'43'[t>>19&1])+1)&128",
+    "codeLen": 320,
+    "code": "n=1.37,(t*n/'21'[t>>19&1]*2**([4,4,11,4,4,9,7,7,4,4,11,4,4,9,7,7,12,12,7,6,6,7,4,0,12,12,7,6,6,4,7,9,11,11,4,9,9,4,7,7,11,11,4,9,9,4,7,7,0,0,6,7,7,12,12,12,0,0,7,9,12,11,9,7][t>>12&63]/12)%256*(abs(sin((t-'3356609933566099335668923356689233566899335668993456688834567892'[t>>12&63]*4096)*PI/32768)*'43'[t>>19&1])+1))&128",
+    "author": "Decent-Manager-6169",
+    "name": "Pulse Thingy 2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1fwnkxr/pulse_thingy_2/",
+    "date": "2024-10-05",
+    "sampleRate": 24576,
+    "tags": [
+      "1k"
+    ]
+  }
+}

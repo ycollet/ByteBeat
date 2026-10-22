@@ -1,0 +1,40 @@
+{
+  "file": "songs/54434749ffd491b92fc41bf5de7c9189.js",
+  "title": "Mysteriously",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b88ffd1c17d93696e9ad107cb06823c148fca40888b9baa753a141d870d9ccf9",
+  "upstream": {
+    "hash": "54434749ffd491b92fc41bf5de7c9189",
+    "codeLen": 446,
+    "code": "r=t/1.15,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>t*2**(parseInt(a,36)/12)/b*.196%64-32,w=r=>r>0&&(e=a=>s(['8DFGKPSW','8DFGKNPW','8DFGKNPU','6BFIKNSZ'][3&r>>17][7&(11&r>>13)+(r>>16)],a)/2,e(1)+e(j))*(1-r/u%1*[.75,1][1&r>>19]),w(r)+w(r-(d=12288))/3+w(r-d*2)/4+w(r-d*3)/6+-(b=a=>s('DD9B'[3&r>>17],a),b(8)+b(4/j))*(r/l%2)*(1-r%u/1E4)+sin(cbrt(r%l)*8)*64*(1-r/l%1)*!(r&l)+((t*sin(t>>2)&32)-16)*(1-r/l/2%1)*!(~r&l*2)),-128),127),[x(1.005),x(.995)]",
+    "author": "Zackx",
+    "name": "Mysteriously",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#3868",
+      "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+    ],
+    "date": "2024-06-29",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "9013f2c9cfa9338169a95944c085afcc",
+        "author": "Zackx",
+        "name": "Dance in square machine",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#3755",
+          "https://www.reddit.com/r/bytebeat/comments/1ddmaez/"
+        ]
+      }
+    ],
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_edited": "2025-11-12"
+  }
+}

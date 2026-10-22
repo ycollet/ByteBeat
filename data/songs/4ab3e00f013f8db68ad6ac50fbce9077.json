@@ -1,0 +1,26 @@
+{
+  "file": "songs/4ab3e00f013f8db68ad6ac50fbce9077.js",
+  "title": "Bubble Bobble (NES) - Invincibility",
+  "author": "psubscirbe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7ef8a59ef74ecba96adacfa7ed5d6eb7db1df41d3f5aabb30d9ea80e29108b15",
+  "upstream": {
+    "hash": "4ab3e00f013f8db68ad6ac50fbce9077",
+    "codeMinLen": 361,
+    "codeMin": "T=t*1.55,c=1,d=3,e=5,f=6,g=8,a=10,b=12,trig=h=>parseInt(\"FEDCBA98765432100123456789ABCDEF\"[h>>3&31],16)*8,mel1=[c,e,g,c+12,c+12,g,e,c,d,f,a,d+12,d+12,a,f,d,e,g,b,e+12,e+12,b,g,e,d,f,a,d+12,d+12,a,f,d][T>>13&31]+[0,12][T>>12&1]-.2,mel2=[c,d,e,d][T>>16&3]+[0,12][T>>13&1]-.05,w=trig(t*2**(mel2/12)*[1,0][T>>12&1]),s=(t*(2**(mel1/12)-.01)*2&64)*(1-T%4096/8192),w+s",
+    "codeLen": 377,
+    "code": "T=t*1.55,c=1,d=3,e=5,f=6,g=8,a=10,b=12,\r\n\r\ntrig=t=>parseInt(\"FEDCBA98765432100123456789ABCDEF\"[t>>3&31],16)*8,\r\nmel1=[c,e,g,c+12,c+12,g,e,c,d,f,a,d+12,d+12,a,f,d,e,g,b,e+12,e+12,b,g,e,d,f,a,d+12,d+12,a,f,d][T>>13&31]+[0,12][T>>12&1]-.2,\r\nmel2=[c,d,e,d][T>>16&3]+[0,12][T>>13&1]-.05,\r\n\r\nw=trig(t*2**(mel2/12)*[1,0][T>>12&1]),\r\ns=(t*(2**(mel1/12)-.01)*2&64)*(1-T%4096/8192),\r\nw+s",
+    "author": "psubscirbe",
+    "name": "Bubble Bobble (NES) - Invincibility",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gqaor9/bubble_bobble_nes_invincibility/",
+    "date": "2024-11-13",
+    "sampleRate": 32000,
+    "coverName": "Bubble Bobble Music (NES) - Invincibility",
+    "coverUrl": "https://youtu.be/RKl072dqnj0",
+    "tags": [
+      "1k"
+    ]
+  }
+}

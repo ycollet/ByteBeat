@@ -1,0 +1,26 @@
+{
+  "file": "songs/f1813d5b5984c6d408aecfa77a6260f1.js",
+  "title": "Poorly made Ryukenden",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f1813d5b5984c6d408aecfa77a6260f1.js",
+  "sha256": "0079fb21afee818d0ad6f5e8aec32bad4c61b78d058eaaa9b235373449b990ec",
+  "upstream": {
+    "hash": "f1813d5b5984c6d408aecfa77a6260f1",
+    "codeLen": 2085,
+    "fileOrig": 1,
+    "codeText": "b=110,(t*=5.5125/4,wv=(sin,s,r=256,q=32,i=1,j=1)=>sin(s/2+sin(s/2-1)*sin(sin(s+sin(s))/2+sin(s/2))**3*(j?(i?1:-1)*(t/r%64-(i?64:0))/q:r))/2,f=(c,k=1/0,p=1,e=i=>16&i)=>{for(d=0,i=0;i<c.length;i++)x=c[i]>>16,d+=e(t*(65535&c[i])/256)*max(-(tick-x)%k/(32*p)+1,0)*(tick%k>x);return d})&&(tick=t/b)||(p1=[192,1573025,3145856,6291627,7864448,9437312,11010219,12583115,14155904,15728811,17301707,18874560,20447403,22020248,23593152,25165938,26738840,28311696,29884530,31457451,33030288,34603152,36176043,37748864,3932174",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Poorly made Ryukenden",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13a4k2i/poorly_made_ryukenden/",
+    "date": "2023-05-07",
+    "sampleRate": 22050,
+    "coverName": "t-PORT - Shuric Scan",
+    "coverUrl": "https://youtu.be/VnQoSjYLPFw",
+    "tags": [
+      "big"
+    ]
+  }
+}

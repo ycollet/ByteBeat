@@ -1,0 +1,22 @@
+{
+  "file": "songs/9c0cc31132aeca3bb5e9e1bfe646e350.js",
+  "title": "taiko drums",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ef0cdabe4a53221a7021367e68b2bf6042731e37abe2ab56c559dda5f26e9734",
+  "upstream": {
+    "hash": "9c0cc31132aeca3bb5e9e1bfe646e350",
+    "codeLen": 85,
+    "code": "([1,1,1,1,2,3,2.4,3,1,1,1,1,6,3,2,2.4][(t>>11)%16]*t*(t&4096?1:2)&t>>(t&8192?3:4))-16",
+    "author": "rubi",
+    "name": "taiko drums",
+    "url": "https://www.reddit.com/r/bytebeat/comments/s7daoh/taiko_drums/",
+    "date": "2022-01-19",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

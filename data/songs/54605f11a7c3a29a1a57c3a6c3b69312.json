@@ -1,0 +1,24 @@
+{
+  "file": "songs/54605f11a7c3a29a1a57c3a6c3b69312.js",
+  "title": "snaerasrakd",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "87f4457b1af485a6191aa11792a8297a2143987543b9b092210bc450b6c73942",
+  "upstream": {
+    "hash": "54605f11a7c3a29a1a57c3a6c3b69312",
+    "codeMinLen": 121,
+    "codeMin": "t/=5.5,+[1.5,sin(t>>1),1.5,sin(t>>1),2,sin(t>>1),1.8,sin(t>>1)][(t>>12)%8]*t&-t>>4|128*random()*(1-(1&t>>9))|4E4/(t&4095)",
+    "codeLen": 122,
+    "code": "t/=5.5,+[1.5,sin(t>>1),1.5,sin(t>>1),2,sin(t>>1),1.8,sin(t>>1),][(t>>12)%8]*t&-t>>4|128*random()*(1-(1&t>>9))|4e4/(t&4095)",
+    "author": "rubi",
+    "name": "snaerasrakd",
+    "url": "https://www.reddit.com/r/bytebeat/comments/saf49d/snaerasrakd/",
+    "date": "2022-01-23",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ]
+  }
+}

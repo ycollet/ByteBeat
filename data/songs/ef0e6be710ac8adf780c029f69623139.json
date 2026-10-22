@@ -1,0 +1,41 @@
+{
+  "file": "songs/ef0e6be710ac8adf780c029f69623139.js",
+  "title": "Imaj, vimin7, IVmaj(add9), ivmin(add9) chord",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ef0e6be710ac8adf780c029f69623139.js",
+  "sha256": "1aa4df663e1a311f224cf66b41cfa7f9eab0dcfbb266ae33e1c073057aac4df0",
+  "upstream": {
+    "hash": "ef0e6be710ac8adf780c029f69623139",
+    "codeMinLen": 1399,
+    "codeLen": 1848,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Z=N=>Array(4).fill(N),t||(W=p=>(-cos(p/256*PI)+1)*128-.5,fx=[],lp=(a,c)=>(fx[lF=fxi++]??=0,fx[lF]+=(a-fx[lF])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),nf=(a,h,l)=>(hp(a,h)+lp(a,l))/1.75,D=(A,h,dw,F=x=>x)=>{dF=fxi++;fx[dF]??=Array(DM=1e6).fill(0);dO=0;for(H of h){A+=fx[dF][DR=(DM+dt-round(H.t))%DM]*H.fb;dO+=fx[dF][DR]*H.m}fx[dF][dt%DM]=F(A);return A*(1-dw)+dO*dw}),fxi=0,dt=t,Q=lp((r=abs(t/44100/180*3*32768*90)/2,n=(1/48e3*256)*440*2**(-3/12),vi=64+(sin(t/640)+sin(t/2101)+sin(t/1234))*4,c=(c,N)=>sin(t",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Imaj, vimin7, IVmaj(add9), ivmin(add9) chord",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1ky1jgj/imaj_vimin7_ivmajadd9_ivminadd9_chord/",
+      "https://dollchan.net/btb/res/7164.html#7317"
+    ],
+    "date": "2025-05-29",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "bf8f1c028141769ad5ab3b8186286d0b",
+        "author": "PrincessPriscillaPT",
+        "name": "Imaj, vimin7, IVmaj(add9), ivmin(add9) Chord Progression in Cmaj",
+        "url": "https://dollchan.net/btb/res/520.html#6704"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23",
+    "date_edited": "2025-12-06"
+  }
+}

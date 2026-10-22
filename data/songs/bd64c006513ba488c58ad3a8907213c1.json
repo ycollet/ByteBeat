@@ -1,0 +1,35 @@
+{
+  "file": "songs/bd64c006513ba488c58ad3a8907213c1.js",
+  "title": "squsinsaw music - fm remix",
+  "author": "hcdphobe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bd64c006513ba488c58ad3a8907213c1.js",
+  "sha256": "a57510fa0a6238caaa4ccaaa906bd5a8ea0f35fcd77579764906056497693b76",
+  "upstream": {
+    "hash": "bd64c006513ba488c58ad3a8907213c1",
+    "codeMinLen": 498,
+    "codeMin": "t/=6,q=t*4*[1,0,2,0,1,0,2,2,1,0,2,0,1,0,2,0,1.5,0,3,3,1.5,0,3,0,1.35,0,2.7,2.7,1.35,0,2.7,0][t>>10&31]*PI/128,we=t*PI/128*[8,9,9.5,12][t>>10&3]*[1,1,1.5,1.35][t>>13&3],z=t*[0,0,0,0,0,0,0,0,8,9.5,12,16,0,0,0,0][t>>8&15]*[1,1,1.5,1.35][t>>13&3]*PI/128,kick=sin(1E3/(t%4096+48)**.04),snr=(.03*random()*(-t&4095)*(t>>12&1)&255)/192,(sin(we*2+sin(we)*(-t&1023)/256-tan(sin(we))*4)/21**2.5*(-t&1023)+sin(q+sin(q/2))/2*'01111111'[t>>16&7]+(kick/2+snr+sin(z+cos(z+sin(z/1)*1.4)*2)/2)*'00111111'[t>>16&7])/3",
+    "codeLen": 566,
+    "fileOrig": 1,
+    "codeText": "t/=6,q=t*4*[1,0,2,0,1,0,2,2,1,0,2,0,1,0,2,0,1.5,0,3,3,1.5,0,3,0,1.35,0,2.7,2.7,1.35,0,2.7,0][t>>10&31]*PI/128,we=t*PI/128*[8,9,9.5,12][t>>10&3]*[1,1,1.5,1.35][t>>13&3],z=t*[0,0,0,0,0,0,0,0,8,9.5,12,16,0,0,0,0][t>>8&15]*[1,1,1.5,1.35][t>>13&3]*PI/128,kick=sin(1E3/(t%4096+48)**.04),snr=(.03*random()*(-t&4095)*(t>>12&1)&255)/192,(sin(we*2+sin(we)*(-t&1023)/256-tan(sin(we))*4)/21**2.5*(-t&1023)+sin(q+sin(q/2))/2*'01111111'[t>>16&7]+(kick/2+snr+sin(z+cos(z+sin(z/1)*1.4)*2)/2)*'00111111'[t>>16&7])/3",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "squsinsaw music - fm remix",
+    "url": "https://dollchan.net/btb/res/163.html#724",
+    "date": "2023-03-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "330073605759fb3e2cfd30204fc875ba",
+        "author": "_elevate__",
+        "name": "squsinsaw music",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s7aiep/squsinsaw_music/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "file": "songs/0054f4db3ef6fddbfb40dc7676246bb2.js",
+  "title": "a sequencer type thing",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0054f4db3ef6fddbfb40dc7676246bb2.js",
+  "sha256": "3dad84f950c496c0949e623fcf15d6cd4a2e3121a6d5feb934d7e13debd80a4c",
+  "upstream": {
+    "hash": "0054f4db3ef6fddbfb40dc7676246bb2",
+    "codeMinLen": 456,
+    "codeMin": "q=t/32E3,r=1.05946309,a=880,as=a*r,b=as*r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,na=q*[a,c,e,a,d,f,a,c,f,c,e,g,g,b,d,f,a,c,a,c,g,g,b,d][int(1*q)%8*3+int(32*q)%3]%2,nb=q*[a,b,c,e,c,b,a,0][int(4*q)%8]%2,nc=q*([a,a<<1,a,0,a,0,a,0,g>>1,g,g>>1,0,e>>1,0,c>>1,c][int(4*q)%16]>>2)%4,kick=q*(512>>64*q)%2<<6,snare=1<(4*q&3)?q*(8E3>>64*q)%2<<5<<(2E5*sin(2E5*q>>5)*q<<64*q):0,hihat=1>64*q%8?7040*q%2<<4:0,(na<<4)+(nb<<4)+(nc<<4)+kick+snare+hihat",
+    "codeLen": 589,
+    "codeFormLen": 812,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "q=t/32E3,r=1.05946309,a=880,as=a*r,b=as*r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,na=q*[a,c,e,a,d,f,a,c,f,c,e,g,g,b,d,f,a,c,a,c,g,g,b,d][int(1*q)%8*3+int(32*q)%3]%2,nb=q*[a,b,c,e,c,b,a,0][int(4*q)%8]%2,nc=q*([a,a<<1,a,0,a,0,a,0,g>>1,g,g>>1,0,e>>1,0,c>>1,c][int(4*q)%16]>>2)%4,kick=q*(512>>64*q)%2<<6,snare=1<(4*q&3)?q*(8E3>>64*q)%2<<5<<(2E5*sin(2E5*q>>5)*q<<64*q):0,hihat=1>64*q%8?7040*q%2<<4:0,(na<<4)+(nb<<4)+(nc<<4)+kick+snare+hihat",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "a sequencer type thing",
+    "url": "https://www.reddit.com/r/bytebeat/comments/enmbix/made_a_sequencer_type_thing/",
+    "date": "2020-01-12",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

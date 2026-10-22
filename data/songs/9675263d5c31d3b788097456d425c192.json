@@ -1,0 +1,22 @@
+{
+  "file": "songs/9675263d5c31d3b788097456d425c192.js",
+  "title": "music ...yes",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 40000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b5bf6b8524b1dd7fbdd08368bb485dd74b085b58eab03a813e734de6c7089bd6",
+  "upstream": {
+    "hash": "9675263d5c31d3b788097456d425c192",
+    "codeLen": 246,
+    "code": "(-t&128)+(t&200?128:2)&t>>(t>>3&t>>12)*(t&8192?120:4)+(t>>8)|[2,0,2,0,2,2,1.8,1.8,3,3,2,2,2.5,2.5,2,2,2,0,3,3.5,4,4,3,0,2,0,2,0,2,0,5,0,6,0,6,0,6,0,6,0,6,6,5.5,6,6.8,6.8,6,0,1,0,2,0,1,0,2,0,1,0,2,0,1,0,2,2][(t>>12)%64]*t>>1&128|tan(4e3/(t&16383))",
+    "author": "rubi",
+    "name": "music ...yes",
+    "url": "https://www.reddit.com/r/bytebeat/comments/sda9eo/music_yes/",
+    "date": "2022-01-26",
+    "sampleRate": 40000,
+    "tags": [
+      "256"
+    ]
+  }
+}

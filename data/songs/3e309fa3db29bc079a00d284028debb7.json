@@ -1,0 +1,26 @@
+{
+  "file": "songs/3e309fa3db29bc079a00d284028debb7.js",
+  "title": "we land on mars (SID machine)",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "bb89dd25cbee3ac1d6684672b8dfdd07b8555fa10b5072ee179c79133f44cd77",
+  "upstream": {
+    "hash": "3e309fa3db29bc079a00d284028debb7",
+    "codeMinLen": 341,
+    "codeMin": "n=x=>t*2**((x-.91)/12),r=1.4*t,(((127&n([[0,3,7],[-2,2,5],[-4,0,3],[-7,-4,0]][3&r>>17][(r/1.33333>>10)%3]))+(24*sin(t/12E3)+64)&128)*(-r>>5&255)>>9)+(r>>5&255)/8+64+((127&n([0,0,12,12,,,,-2,0,,12,12,3,3,15,15,-2,-2,10,10,,,,-4,-2,,10,10,5,5,7,7,-4,-4,8,8,,,,-6,-4,-4,8,8,-4,,8,8,-7,-7,5,5,,,,-9,-7,-7,5,,-5,-5,7][63&r>>13])/8)+(r>>10)&128)/3",
+    "codeLen": 344,
+    "code": "n=x=>t*2**((x-.91)/12),r=t*1.4,(((127&n([[0,3,7],[-2,2,5],[-4,0,3],[-7,-4,0]][3&r>>17][(r/1.33333>>10)%3]))+(sin(t/12E3)*24+64)&128)*((-r>>5)&255)>>9)+(r>>5&255)/8+64+((127&n([0,0,12,12,,,,-2,0,,12,12,3,3,15,15,-2,-2,10,10,,,,-4,-2,,10,10,5,5,7,7,-4,-4,8,8,,,,-6,-4,-4,8,8,-4,,8,8,-7,-7,5,5,,,,-9,-7,-7,5,,-5,-5,7,][63&r>>13])/8)+(r>>10)&128)/3",
+    "author": "Zackx",
+    "name": "we land on mars (SID machine)",
+    "url": "https://dollchan.net/btb/res/204.html#1214",
+    "date": "2023-06-04",
+    "sampleRate": 48000,
+    "coverName": "Matt Simmonds - Empty (512 bytes)",
+    "coverUrl": "https://deepsid.chordian.net/?file=/MUSICIANS/0-9/4-Mat/Empty_512_bytes.sid",
+    "tags": [
+      "1k"
+    ]
+  }
+}

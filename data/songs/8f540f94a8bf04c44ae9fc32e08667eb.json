@@ -1,0 +1,25 @@
+{
+  "file": "songs/8f540f94a8bf04c44ae9fc32e08667eb.js",
+  "title": "crowd",
+  "author": "erlehmann",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7a2c7e7b03f73d71c6e908833f608100ee15d5f923de9ec1e9c03e241ea88827",
+  "upstream": {
+    "hash": "8f540f94a8bf04c44ae9fc32e08667eb",
+    "codeMinLen": 42,
+    "codeMin": "2*t^2*t+(t>>7)&t>>12|t>>4-(1^7&t>>19)|t>>7",
+    "codeLen": 56,
+    "code": "((t<<1)^((t<<1)+(t>>7)&t>>12))|t>>(4-(1^7&(t>>19)))|t>>7",
+    "author": "erlehmann",
+    "name": "crowd",
+    "url": "https://github.com/erlehmann/algorithmic-symphonies/blob/master/crowd/",
+    "date": "2011-12-01",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "file": "songs/2170c990a614a0858606631b1f233680.js",
+  "title": "grass song",
+  "author": "Romash",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2170c990a614a0858606631b1f233680.js",
+  "sha256": "42dd30a5d47b3ed999723c52e61c9cebdb499d83b59a7e8cd71da0de2c47de2c",
+  "upstream": {
+    "hash": "2170c990a614a0858606631b1f233680",
+    "codeMinLen": 727,
+    "codeLen": 1403,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "R=(t,f)=>(abs(((t*f)%256)-128)/128-.5);sq=(t,f)=>(t*f/256&1)-.5;M=t=>.8-sin(t/1E5)/1E5;m=(t,f)=>abs(R(t+1979,f)-R(t,f/2))-R(t+1979,f/3);m2=(t,f)=>abs(R(t+979,f)-R(t,f/2))-R(t+2979,f/3);PL=(t,LP)=>{if(t<0){return 0}return(R(t,[1.26,.84][t>>15&1]*M(t)*8))/1.6*(t>>16&1)*(t>>18&1)*(255-(t>>6&255))/255*.75+sq(t,2*'2484'[t>>14&3]*M(t))/8*LP};return T=>{t=T*36E3;a=[1,1.33][t>>18&1];lp=(R(t,1E-3)+1)/2;lp=lp*.7+.5*.3;pL=PL(t,lp)+PL(t-16E3,lp/2)/2+PL(t-48E3,lp/2)/4+PL(t-8E4,lp/2)*.125;lp=1-lp;pR=PL(t,lp)+PL(t-32E3,lp",
+    "isTruncated": 1,
+    "author": "Romash",
+    "name": "grass song",
+    "description": "A calming melody to lie back and look at the clouds.",
+    "url": "https://battleofthebits.com/arena/Entry/grass+song/60925/",
+    "date": "2023-07-16",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-11-27"
+  }
+}

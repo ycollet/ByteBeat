@@ -1,0 +1,33 @@
+{
+  "file": "songs/9b0f4be8ae1b2e86c2b6ff5caedb918e.js",
+  "title": "Winter Whispers of Equestria",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9b0f4be8ae1b2e86c2b6ff5caedb918e.js",
+  "sha256": "a4143a0e5484baee7fae99a2e2c4171208fba5a0646f1d29dc6afaae37405f37",
+  "upstream": {
+    "hash": "9b0f4be8ae1b2e86c2b6ff5caedb918e",
+    "codeLen": 10698,
+    "fileOrig": 1,
+    "codeText": "/*\n  *  ══════════════════════════════════════════════════════\n  * PrincessPriscillaPT - ❄️ Winter Whispers of Equestria ❄️\n  *  ══════════════════════════════════════════════════════\n  *   ※ Licensed under CC-BY-SA-4.0 ║ https://creativecommons.org/licenses/by-sa/4.0\n  *\n  * Snow drifts over Ponyville as magic hums softly. Wrapped in a warm blanket, you rest by the hearth, watching winter clouds dance across Equestria’s skies. ❄️✨\n  *",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Winter Whispers of Equestria",
+    "description": "Snow drifts over Ponyville as magic hums softly. Wrapped in a warm blanket, you rest by the hearth, watching winter clouds dance across Equestria’s skies. Updated on 2026/10/03",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1q94ktm/winter_whispers_of_equestria/",
+      "https://dollchan.net/btb/res/7164.html#11971"
+    ],
+    "date": "2026-01-10",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-01-10",
+    "date_edited": "2026-10-03"
+  }
+}

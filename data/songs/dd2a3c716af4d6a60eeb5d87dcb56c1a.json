@@ -1,0 +1,37 @@
+{
+  "file": "songs/dd2a3c716af4d6a60eeb5d87dcb56c1a.js",
+  "title": "HydrideX - Two2Fall Remix",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dd2a3c716af4d6a60eeb5d87dcb56c1a.js",
+  "sha256": "33680c2a1061e0d298ac070f2caf6ac57f7c56a352aec401669ada50883af3e0",
+  "upstream": {
+    "hash": "dd2a3c716af4d6a60eeb5d87dcb56c1a",
+    "codeLen": 7580,
+    "fileOrig": 1,
+    "codeText": "// The Twelly Tools\n// Just a set of tools created by me, with some MaxiToys and GreaserPirate inspirations.\n// Configuration stuff\nTrackProperties = {\n\tSampleRate: 48000, // Sample Rate to be played the track\n\tTuning: 440, // The tuning of the track\t\n\tSamplesPerBeat: 16384, // You can change this, this property means the samples per beat\n\tVolume: 1 , // The volume of your track (on float-point number)",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "HydrideX - Two2Fall Remix",
+    "url": "https://www.reddit.com/r/bytebeat_2/comments/1nqmf02/hydridex_two2fall_remix",
+    "date": "2025-09-26",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "3fc59681709a90f39e8203d86d5e96d9",
+        "author": "PrincessPriscillaPT",
+        "name": "HydroCORE",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1mlqcv0/hydrocore"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-27",
+    "date_edited": "2025-11-04"
+  }
+}

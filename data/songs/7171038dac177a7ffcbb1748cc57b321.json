@@ -1,0 +1,23 @@
+{
+  "file": "songs/7171038dac177a7ffcbb1748cc57b321.js",
+  "title": "floatbeat rhythm",
+  "author": "psubscirbe",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "635a8eed3e0313ccb138e4f1a44c208d57f5037fe269371689db8a5e44d0e0be",
+  "upstream": {
+    "hash": "7171038dac177a7ffcbb1748cc57b321",
+    "codeLen": 107,
+    "code": "sin(sqrt(t*(t&4096?random():[1,1,1.2,1.5,1,1,1.2,1.1][t>>14&7])&63)*4)/((t>>(t&8192?t&16384?2:3:4)&255)*.1)",
+    "author": "psubscirbe",
+    "name": "floatbeat rhythm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14e9a5u/floatbeat_rhythm/",
+    "date": "2023-06-20",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

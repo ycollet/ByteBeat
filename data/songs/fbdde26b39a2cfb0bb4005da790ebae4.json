@@ -1,0 +1,35 @@
+{
+  "file": "songs/fbdde26b39a2cfb0bb4005da790ebae4.js",
+  "title": "BAATYR.EXE",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fbdde26b39a2cfb0bb4005da790ebae4.js",
+  "sha256": "af4c0c2457051e1a7f0d90e26e846f5964c6bca00aaed473f8e2845fa39003e2",
+  "upstream": {
+    "hash": "fbdde26b39a2cfb0bb4005da790ebae4",
+    "codeLen": 15195,
+    "fileOrig": 1,
+    "codeText": "/*\n______  ___    ___ _______   _______   _______   __ _____ \n| ___ \\/ _ \\  / _ \\_   _\\ \\ / / ___ \\ |  ___\\ \\ / /|  ___|\n| |_/ / /_\\ \\/ /_\\ \\| |  \\ V /| |_/ / | |__  \\ V / | |__  \n| ___ \\  _  ||  _  || |   \\ / |    /  |  __| /   \\ |  __| \n| |_/ / | | || | | || |   | | | |\\ \\ _| |___/ /^\\ \\| |___ \n\\____/\\_| |_/\\_| |_/\\_/   \\_/ \\_| \\_(_)____/\\/   \\/\\____/ \n",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "BAATYR.EXE",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#8636",
+      "https://www.reddit.com/r/bytebeat/comments/1mghpgb/baatyrexe/"
+    ],
+    "date": "2025-08-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Altai Folk Song - Words of Baatyr",
+    "coverUrl": "https://youtu.be/dgILfoT1vYM",
+    "tags": [
+      "big",
+      "console",
+      "slow"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-11-03"
+  }
+}

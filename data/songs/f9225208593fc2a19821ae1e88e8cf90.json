@@ -1,0 +1,32 @@
+{
+  "file": "songs/f9225208593fc2a19821ae1e88e8cf90.js",
+  "title": "\"wow that was pretty cool\" remixed",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d2e6916b8e90ef879a9c2a04e50258c0f284d9b2fe8226b613560f7f25996133",
+  "upstream": {
+    "hash": "f9225208593fc2a19821ae1e88e8cf90",
+    "codeMinLen": 118,
+    "codeMin": "(t/'4368436845874587'[t>>16&15]&64)+(4E3/(4095&t/6)%500*'1213'[(t>>5)%4]*'3944'[(t>>12)%4]-2)+64+64*sin(3E4/(t&16383))",
+    "codeLen": 120,
+    "code": "(t/\"4368436845874587\"[t>>16&15]&64)+((4e3/(4095&t/6)%500)*'1213'[(t>>5)%4]*'3944'[(t>>12)%4]-2)+64+sin(3e4/(t&16383))*64",
+    "author": "RealZynx92",
+    "name": "\"wow that was pretty cool\" remixed",
+    "url": "https://www.reddit.com/r/bytebeat/comments/rjv3if/wow_that_was_pretty_cool_by_kolbosa_exe_remixed/",
+    "date": "2021-12-19",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5b9c93569fa938068f09a106b780187a",
+        "author": "kOLbOSa_exe",
+        "name": "wow that was pretty cool",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q4glqu/wow_that_was_pretty_cool/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

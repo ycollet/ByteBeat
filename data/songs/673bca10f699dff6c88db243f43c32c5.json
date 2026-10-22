@@ -1,0 +1,38 @@
+{
+  "file": "songs/673bca10f699dff6c88db243f43c32c5.js",
+  "title": "the ryg",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "090262c262d40380db13a08d2bf60fa8b3b8cbe707292099549d3cb58f442626",
+  "upstream": {
+    "hash": "673bca10f699dff6c88db243f43c32c5",
+    "codeMinLen": 228,
+    "codeMin": "(t*('36364689'[t>>13&7]&15)/12&128)/2+(((t>>12^(t>>12)-2)%11*t/4|t>>13)&127)*(t>1048576)/2.5+32*cbrt(sin(3E3/(t*(a='1112111411121348'[15&t>>14])%16384+128*a)**.02))+32+((t*sin(t>>3)&128)*(-t>>8&127)>>7)*(t&32768)/64E3*(t>524288)",
+    "codeLen": 230,
+    "code": "(t*('36364689'[t>>13&7]&15)/12&128)/2+(((t>>12^(t>>12)-2)%11*t/4|t>>13)&127)*(t>1048576)/2.5+cbrt(sin(3e3/(t*(a='1112111411121348'[15&t>>14])%16384+128*a)**.02))*32+32+(((t*sin(t>>3)&128)*(-t>>8&127)>>7)*(t&32768)/64e3)*(t>524288)",
+    "author": "Zackx",
+    "name": "the ryg",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/12r8v3k/list_of_my_creationremixes/",
+      "https://dollchan.net/btb/res/204.html#866"
+    ],
+    "date": "2023-04-19",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "5d46a1343350f3df930e6bfb4630cea8",
+        "author": "ryg",
+        "name": null,
+        "url": [
+          "https://www.pouet.net/topic.php?which=8357&page=12#c389146",
+          "https://youtu.be/tCRPUv8V22o?t=176"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

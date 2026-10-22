@@ -1,0 +1,28 @@
+{
+  "file": "songs/18acb92f5379e5593fc33445f28c7533.js",
+  "title": "We're Finally Landing Preview",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 98304,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/18acb92f5379e5593fc33445f28c7533.js",
+  "sha256": "95bd88ca062e853caeb1f54f87f1005f64f7bfa55d5883cb947cc282072d3a4d",
+  "upstream": {
+    "hash": "18acb92f5379e5593fc33445f28c7533",
+    "codeMinLen": 554,
+    "codeLen": 578,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "v=-9E9,Tn=1.34*t,Fd=-t>>11&255,Fd2=-t>>[11,11,11,10][t>>19&3]&255,Chord=(a=k=>Tn/32*2**(k[t>>19&3]/12)&31,((a([2,4,7,7])/1.6+a([14,16,19,19])+a([16,19,23,22])&255)*Fd>>8)+((Tn/16*2**([18,23,26,[26,28][t>>18&1]][t>>19&3]/12)&63)*Fd2>>8)),M1=Tn/4/((-t>>15&1)+1)*2**([[14,9,6,4],[16,11,7,4],[19,14,11,7],v][t>>19&3][t>>13&3]/12)&63,M2=Tn/4*2**([7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5,14,10,7,2,-2,-5][t>>13&31]/12)&63,M3=Tn/4*2**([-2,-5,16,14,10,7,4,2][t>>13&7]/12)&63,Mel=[M1,M1,",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "We're Finally Landing Preview",
+    "url": "https://dollchan.net/btb/res/520.html#1684",
+    "date": "2023-07-21",
+    "sampleRate": 98304,
+    "coverName": "Home - We're Finally Landing",
+    "coverUrl": "https://youtu.be/zR6fECxF44I",
+    "tags": [
+      "1k"
+    ]
+  }
+}

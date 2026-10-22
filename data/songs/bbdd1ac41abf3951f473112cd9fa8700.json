@@ -1,0 +1,23 @@
+{
+  "file": "songs/bbdd1ac41abf3951f473112cd9fa8700.js",
+  "title": "wvConstruct",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0c230a2f7fa4684cdcad607f0be7dd079b879fe5266fd322c12b27160ee90943",
+  "upstream": {
+    "hash": "bbdd1ac41abf3951f473112cd9fa8700",
+    "codeLen": 81,
+    "code": "t?32*(x=8*cos((t>>10)%27*(t*'2265'[(t>>10)/27&3]%512/512)+abs(x)**.5)/PI)+128:x=0",
+    "author": "lhphr",
+    "name": "wvConstruct",
+    "description": "A wave of sorts suddenly emerges.",
+    "url": "https://dollchan.net/btb/res/44.html#66",
+    "date": "2022-05-11",
+    "sampleRate": 11025,
+    "tags": [
+      "256"
+    ]
+  }
+}

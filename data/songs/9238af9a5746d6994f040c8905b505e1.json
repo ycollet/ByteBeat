@@ -1,0 +1,29 @@
+{
+  "file": "songs/9238af9a5746d6994f040c8905b505e1.js",
+  "title": "hyper hexagonest",
+  "author": "troubleshootcorps",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9238af9a5746d6994f040c8905b505e1.js",
+  "sha256": "ebbd8fb57f4a4273ef0eeac58f02eb472ea51856828744ca3ed61aa671cadc8b",
+  "upstream": {
+    "hash": "9238af9a5746d6994f040c8905b505e1",
+    "codeLen": 2974,
+    "fileOrig": 1,
+    "codeText": "/*\n * hyper hexagonest (unfinished)\n * by troubleshoot\n * (remake of Focus)\n */\n\n/* random vars */\nt||(sa=48e3,samp=1/sa,BPM=175,K=H=S=k=h=s=b1=b2=h1=h2=h3=s1=s2=sl1=sl2=0,Ki=Hi=Sn=1,clip=x=>atan(1.5*x)/1.5,r=Array(m=16384).fill(0),R=i=>r[i%m],r2=Array(m).fill(0),R2=i=>r2[i%m],br=Array(m).fill(0),BR=i=>br[i%m],e=(a,b,c)=>(1-(a*b<1?a*b:1))**c),",
+    "isTruncated": 1,
+    "author": "troubleshootcorps",
+    "name": "hyper hexagonest",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1mlocuf/hyper_hexagonest/",
+    "date": "2025-08-09",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "Chipzel - Focus",
+    "coverUrl": "https://youtu.be/wD3j1O1XHQY",
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

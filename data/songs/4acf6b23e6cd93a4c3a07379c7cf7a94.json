@@ -1,0 +1,23 @@
+{
+  "file": "songs/4acf6b23e6cd93a4c3a07379c7cf7a94.js",
+  "title": "chaotic craziness",
+  "author": "emelchenko",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5d5819d0f488141ae62d7db27818b4d0254b4470b8162dcb4ff4f6ab1f2d3b6f",
+  "upstream": {
+    "hash": "4acf6b23e6cd93a4c3a07379c7cf7a94",
+    "codeLen": 14,
+    "code": "(t^t>>12)*t>>8",
+    "author": "emelchenko",
+    "name": "chaotic craziness",
+    "url": "https://www.reddit.com/r/bytebeat/comments/120dijk/chaotic_craziness/",
+    "date": "2023-03-24",
+    "sampleRate": 22050,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

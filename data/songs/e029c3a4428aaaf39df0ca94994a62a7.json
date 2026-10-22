@@ -1,0 +1,38 @@
+{
+  "file": "songs/e029c3a4428aaaf39df0ca94994a62a7.js",
+  "title": "511",
+  "author": "johanvandegriff",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e029c3a4428aaaf39df0ca94994a62a7.js",
+  "sha256": "c591c1d8b1d38fc61111dc3f62a7d06342467ceddb249781e3b28760118786ad",
+  "upstream": {
+    "hash": "e029c3a4428aaaf39df0ca94994a62a7",
+    "codeMinLen": 505,
+    "codeMin": "i=int,z=sin,c='charCodeAt',b=t/441E3*16,m=1<<b/16%16,q=b%.5,h=x=>t/2210*2**(x/12-3),w=(x,y=0)=>h(x)%1-z(2*y+b*PI)/8>.5,s=i(2*b)%32,a=abs(8-i(8*b)%16),p='pnkgrnkipmigpnkg',99+27*((m&1855&&10657&1<<s%16?z(q/(q/241+2E-4))+z(t/140)/2:0)+(m&7519?z(t**3/q)*5**(-3*((b+1)%2)):0)+(m&9944?w(6==s&&1==i(6*b%6)?85:14==s&&.25>q?78:'SSSSSSSQOOONNOLJLLLLLNLJIIIGGG'[c](s),5==s):0)+(m&7326?w('@@@@@@BCEEECCBCCEEEEECEEBBB@@@'[c](s)):0)+(m&28284?h(p[c](a%4+4*i(s/8))+12*-i(a/4))%1:0)+(m&4912?(z(PI*h(p[c](s*3%16))))**3:0))",
+    "codeLen": 1930,
+    "codeFormLen": 2186,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "i=int,z=sin,c='charCodeAt',b=t/441E3*16,m=1<<b/16%16,q=b%.5,h=x=>t/2210*2**(x/12-3),w=(x,y=0)=>h(x)%1-z(2*y+b*PI)/8>.5,s=i(2*b)%32,a=abs(8-i(8*b)%16),p='pnkgrnkipmigpnkg',99+27*((m&1855&&10657&1<<s%16?z(q/(q/241+2E-4))+z(t/140)/2:0)+(m&7519?z(t**3/q)*5**(-3*((b+1)%2)):0)+(m&9944?w(6==s&&1==i(6*b%6)?85:14==s&&.25>q?78:'SSSSSSSQOOONNOLJLLLLLNLJIIIGGG'[c](s),5==s):0)+(m&7326?w('@@@@@@BCEEECCBCCEEEEECEEBBB@@@'[c](s)):0)+(m&28284?h(p[c](a%4+4*i(s/8))+12*-i(a/4))%1:0)+(m&4912?(z(PI*h(p[c](s*3%16))))**3:0))",
+    "isTruncated": 1,
+    "author": "johanvandegriff",
+    "name": "511",
+    "description": "\"arpeggiator fun\" as a full song. Song ends at 150 seconds, loops after 160.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/o7e957/511/",
+    "date": "2021-06-25",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "ec05c1f4823d6aeb9ec43fac59e8c554",
+        "author": "SArpnt",
+        "name": "arpeggiator fun",
+        "url": "https://www.reddit.com/r/bytebeat/comments/fjsa1y/arpeggiator_fun/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-22"
+  }
+}

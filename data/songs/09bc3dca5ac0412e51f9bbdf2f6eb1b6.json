@@ -1,0 +1,26 @@
+{
+  "file": "songs/09bc3dca5ac0412e51f9bbdf2f6eb1b6.js",
+  "title": "Numbers Not In Sight",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "83f224e87b7be1afd6aa9255e47d95098298aebf08c19db48d1bbfe43013e47a",
+  "upstream": {
+    "hash": "09bc3dca5ac0412e51f9bbdf2f6eb1b6",
+    "codeMinLen": 67,
+    "codeMin": "(~t-t)*((x=t/t)-(t>>(z=(y=x+x)**y*y+y))%y)^t*(t>>z)%(y**y**y)*-t>>z",
+    "codeLen": 73,
+    "code": "((~t)-(t))*((x=t/t)-(t>>(z=(y=x+x)**y*y+y))%y)^(t*(t>>z))%(y**y**y)*-t>>z",
+    "author": "lhphr",
+    "name": "Numbers Not In Sight",
+    "description": "Just a small experiment. No numbers - how hard can it be?",
+    "url": "https://dollchan.net/btb/res/44.html#44",
+    "date": "2022-04-09",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

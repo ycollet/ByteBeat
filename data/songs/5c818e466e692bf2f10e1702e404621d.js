@@ -1,0 +1,1 @@
+add=(accumulator, a)=>accumulator/2 + a,t==0?array=Array(1600):0,array.push(sin(t/((t>>13)%8+1))/(t*4%4095)*1000),array.shift(),array.reduce(add,0)

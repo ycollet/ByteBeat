@@ -1,0 +1,39 @@
+{
+  "file": "songs/2b92f04e09a17d9ddcfec9dd2604113b.js",
+  "title": "Motherlode V2",
+  "author": "Greaserpirate",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2b92f04e09a17d9ddcfec9dd2604113b.js",
+  "sha256": "bf699a6566b2e6c269cb22e47350f90798c810750ef9f58317c45f78c3c8049a",
+  "upstream": {
+    "hash": "2b92f04e09a17d9ddcfec9dd2604113b",
+    "codeLen": 10450,
+    "fileOrig": 1,
+    "codeText": "//Original t, increments one per sample. The reverb, harmonifier, hihat, and snare need this.\nT = t,\n\nt *= r8 = 36/48,\n\nt -= t/4&2048, //swang\n\n//seq = ( arr, spd, t2=t ) => arr[ (t2 >> spd) % arr.length ],",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Motherlode V2",
+    "description": "The new delay/chorus/phaser effect.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gw0xhu/motherlode_v2_the_new_delaychorusphaser_effect/",
+      "https://dollchan.net/btb/res/5008.html#5008"
+    ],
+    "date": "2024-11-21",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "8206a436cabbeace03395700e3d871f9",
+        "author": "Greaserpirate",
+        "name": "THE MOTHERLODE",
+        "url": "https://www.reddit.com/r/bytebeat/comments/10bv1d5/the_motherlode_a_bundle_of_effects_lowpass_filter/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

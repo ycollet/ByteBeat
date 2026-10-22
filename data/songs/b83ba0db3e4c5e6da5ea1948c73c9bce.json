@@ -1,0 +1,41 @@
+{
+  "file": "songs/b83ba0db3e4c5e6da5ea1948c73c9bce.js",
+  "title": "Roland TB303 with clap",
+  "author": "Greaserpirate",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b83ba0db3e4c5e6da5ea1948c73c9bce.js",
+  "sha256": "3adba4e5eccf74962641480e581e588aaf8ba863b14f10e93cb09592382acd36",
+  "upstream": {
+    "hash": "b83ba0db3e4c5e6da5ea1948c73c9bce",
+    "codeMinLen": 1239,
+    "codeLen": 1382,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?(z=q+q/(1-f),i=(t/s*10+3)%32,n=2**((12*'01100001100001100110001001001001'[i|0]+5)/12),n=.5-n*t/s*55%1,k=e,e='10100010100010100010100010100010'[2*i%32|0],v(1/s,.05,.5,.2),f=h(m*(cos(t/s/32*5*p+p)/3+.4),.01),a+=f*(n-a+z*(a-b)),b+=f*(a-b),c+=f*(b-c),d+=f*(c-d),S=atan(d*p)/p,D=sin(t/140)*(40/(t/100%128))**.5+cos(t%7)*min(3,.1/(o=t/400%8,3<o?9E9:o))/2,T_=t/s_*4.2,b_=c_,c_=(54613>>T_%16)%2*(1-(2*T_&1)),0<c_-b_?A_=0:A_+=1/s_,o_=p_,p_=(T_-.02|0)%4>>1,0<p_-o_?B_=0:B_+=1/s_,k_=max(2E3/(1+600*A_),31),a_=(a_+k_/s_)%1",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Roland TB303 with clap",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13oleln/comment/jlqh5pu/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-05-26",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "3c98ec06aa0eb7edab04266a1a12425e",
+        "author": "SleepingLugia",
+        "name": "floatbeat tolerable claps",
+        "url": "https://www.reddit.com/r/bytebeat/comments/138lvxw/floatbeat_tolerable_claps/"
+      },
+      {
+        "hash": "e804f010bfdc9ae6fc48db9bcc0fe1bd",
+        "author": "SleepingLugia",
+        "name": "what the Roland TB303 is this???",
+        "url": "https://www.reddit.com/r/bytebeat/comments/13oleln/what_the_roland_tb303_is_this/"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

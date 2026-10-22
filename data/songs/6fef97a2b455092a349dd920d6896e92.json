@@ -1,0 +1,24 @@
+{
+  "file": "songs/6fef97a2b455092a349dd920d6896e92.js",
+  "title": "Intra",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a44a0bb53f0b11a2cf0a00822a42269297be72331a7ea0cb0ed79b8a3e4166d4",
+  "upstream": {
+    "hash": "6fef97a2b455092a349dd920d6896e92",
+    "codeLen": 42,
+    "code": "(t*=t>>11&7)?x=t%257&t%255&t>>12^x/1.5:x=0",
+    "author": "lhphr",
+    "name": "Intra",
+    "description": "It's trying to do a melody...",
+    "url": "https://dollchan.net/btb/res/44.html#61",
+    "date": "2022-05-08",
+    "sampleRate": 22050,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-11-04"
+  }
+}

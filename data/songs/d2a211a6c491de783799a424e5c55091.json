@@ -1,0 +1,36 @@
+{
+  "file": "songs/d2a211a6c491de783799a424e5c55091.js",
+  "title": "long line theory remix",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d2a211a6c491de783799a424e5c55091.js",
+  "sha256": "c50f6142b88573e09c39566d81f2fa9a9280fc7f3758744ccdf60d8bfe2c35b1",
+  "upstream": {
+    "hash": "d2a211a6c491de783799a424e5c55091",
+    "codeMinLen": 605,
+    "codeLen": 615,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "m=t/4*[3,3,4.7,2][t>>14&3],v=t/2**16,b=x=>x.toString(2),this.A??=[0,0],lp=(x,y=8,z=0)=>(o=A[z]=(A[z]*y+x%256)/(y+1),o),q=(x,...y)=>x+lp(...y),sh=(a,q,c,d,e)=>(v>1)*(lp((h=(h=['IQNNNN!!]]!Q!IW]','WQNN??!!W]WQNQN?']['0001'[t>>14&3]].charCodeAt(t>>10&15))==33?0:h/33*t-t)*4&64+(h*a%32+h*q%32),t/128/['12212111','12211111']['0001'[t>>14&3]][t>>11&7]%8)/1.3+sin(cbrt(t&2047)*e)*b(214)[t>>11&7]*64+[3,1][b([221,218]['0001'[t>>14&3]])[t>>11&7]]*random()/4*(t/2048%1-1)*128)+lp(m*c%80+m*d%80,4*(sin(t*PI/65536)+1),1),[sh",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "long line theory remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/12olehw/long_line_theory_remix_i_guess/",
+    "date": "2023-04-16",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "1840fe84809e2d46e87483b84b1b5056",
+        "author": "mu6k",
+        "name": "Longline Theory",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=13#c389287"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "file": "songs/fc476f079435d67c0e010b93ee3bb3c1.js",
+  "title": "ilovemykids26",
+  "author": "SHCWAZERNECJLACE",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a946b3a42552a864724c9570b22f52e2268da051f278fe069d7a5dbd7b601a7a",
+  "upstream": {
+    "hash": "fc476f079435d67c0e010b93ee3bb3c1",
+    "codeLen": 10,
+    "code": "3*t^t>>6|t",
+    "author": "SHCWAZERNECJLACE",
+    "name": "ilovemykids26",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14xvls0/garage_of_unposted_crap/",
+    "date": "2023-07-04",
+    "sampleRate": 16000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

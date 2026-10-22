@@ -1,0 +1,35 @@
+{
+  "file": "songs/09bdd814edfc20ba5954762f19c0af76.js",
+  "title": "midi to bytebeat tool 2.0",
+  "author": "awogler9124812041",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/09bdd814edfc20ba5954762f19c0af76.js",
+  "sha256": "f9d765db510c9b296569b65f238eff816fb417c172136b2404ff1137cbb4d3a3",
+  "upstream": {
+    "hash": "09bdd814edfc20ba5954762f19c0af76",
+    "codeLen": 3852,
+    "fileOrig": 1,
+    "codeText": "var trM = [[[71,0,0.106],[63,0.106,0.213],[56,0.213,0.32],[68,0.32,0.426],[63,0.426,0.533],[56,0.533,0.64],[71,0.64,0.746],[63,0.746,0.853],[56,0.853,0.96],[68,0.96,1.066],[63,1.066,1.173],[56,1.173,1.28],[71,1.28,1.386],[63,1.386,1.493],[68,1.493,1.6],[56,1.6,1.706],[73,1.706,1.813],[63,1.813,1.92],[56,1.92,2.026],[68,2.026,2.133],[63,2.133,2.24],[52,2.24,2.346],[73,2.346,2.453],[64,2.453,2.56],[56,2.56,2.666],[70,2.666,2.773],[66,2.773,2.88],[61,2.88,2.986],[73,2.986,3.093],[66,3.093,3.2],[61,3.2,3.306],[",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "midi to bytebeat tool 2.0",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1git2wk/midi_to_bytebeat_tool_20_demonstration/",
+    "date": "2024-11-03",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "efb9548c5a626dec566d2f41621e3435",
+        "author": "Decent-Manager-6169",
+        "name": "please someone remix this",
+        "url": "https://www.reddit.com/r/bytebeat/comments/11ud8tv/please_someone_remix_this/"
+      }
+    ],
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

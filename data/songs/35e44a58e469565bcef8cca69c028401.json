@@ -1,0 +1,40 @@
+{
+  "file": "songs/35e44a58e469565bcef8cca69c028401.js",
+  "title": "Trackertime + Small Mouse (Stereo Mix)",
+  "author": "Firstnameiskowitz",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/35e44a58e469565bcef8cca69c028401.js",
+  "sha256": "b4c8f982809b068ecf5c7adb23b24ae8e19ee8e9135d6206efb6a4c6232b8e7a",
+  "upstream": {
+    "hash": "35e44a58e469565bcef8cca69c028401",
+    "codeLen": 540,
+    "fileOrig": 1,
+    "codeText": "r=T=t/1.2,Y=(a=[0,3,5,7,0,3,-4,-2],a1=[3,7,9,11,3,7,0,2],a2=[7,10,12,14,7,10,3,5],B=a=>(.88*t*2**(a[i=7&T>>15]/12)&-T>>6)%256/5,S=(s,p)=>.7*(.88*p*t*2**([a,a1,a2,a1][3&T>>s][i]/12)&64),B(a)+B(a1)+B(a2)+[S(14,1)+S(15,2),2*(S(9,1)+S(14,2))*(1-T%8192/9E3)][1&T>>13]),X=(f=y=>.88*t*2**(y.charCodeAt(z=k>>9&7)/12-4),k=r>>6,p=f(a='035703,.'),q=k>>4&3,s=k>>7&1,x=(-k&255)/125,(-k&p)/4%64+p/16%32*x+(s&&f([a,a2='379;3702','7:<>7:35',a2][q])/8%8*(-k&127)/15)+(Z=(s^z&1^1&&800*log(1+r%8192)&32)+(k>>8&1&&(r/(5+q)|0)**E%32*",
+    "isTruncated": 1,
+    "author": "Firstnameiskowitz",
+    "name": "Trackertime + Small Mouse (Stereo Mix)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/168lcfg/comment/jyw9ybq/",
+    "date": "2023-09-03",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "22eb8c302323f9a81b976834691b6b28",
+        "author": "lhphr",
+        "name": "Trackertime",
+        "url": "https://dollchan.net/btb/res/44.html#481"
+      },
+      {
+        "hash": "5c85e2d50f201ab50ee31ab0f193ffd6",
+        "author": "SthephanShi",
+        "name": "Small Mouse",
+        "url": "https://dollchan.net/btb/res/204.html#424"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-23"
+  }
+}

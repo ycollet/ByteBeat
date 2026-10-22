@@ -1,0 +1,29 @@
+{
+  "file": "songs/b53aae759a9f07b3da223f210d91e547.js",
+  "title": "pseudo 3d cube",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/b53aae759a9f07b3da223f210d91e547.js",
+  "sha256": "7f1a010cabbe978698552073ad2cce38a27910af8375f5c91fec4c94a52f2cd9",
+  "upstream": {
+    "hash": "b53aae759a9f07b3da223f210d91e547",
+    "codeLen": 1508,
+    "fileOrig": 1,
+    "codeText": "t||(\nheight=16,\nwidth=height*4,\nbuffer=[],\nclearBuffer=()=>{buffer.length=0;for(i=0;i<height;i++)buffer.push(Array(width).fill(0));},\nsetPixel=(x,y,v)=>{buffer[y][x] = parseInt(v)},\ndrawLine=(t,a,e,s,n)=>{if(!n)return;r=abs(e-t),i=abs(s-a),o=t<e?1:-1,b=a<s?1:-1;let c=r-i;for(;setPixel(t,a,n),t!==e||a!==s;){const e=2*c;e>-i&&(c-=i,t+=o),e<r&&(c+=r,a+=b)}},\ndrawRect=((a,d,e,r,w)=>{drawLine(a,d,e,d,w),drawLine(e,d,e,r,w),drawLine(a,d,a,r,w),drawLine(a,r,e,r,w)}),",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "pseudo 3d cube",
+    "description": "Set \"Diagram\" mode and zoom to 1/16or 1/32.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1681kct/graphics_in_bytebeat_pseudo_3d_cube/",
+    "date": "2023-09-02",
+    "sampleRate": 48000,
+    "drawing": {
+      "mode": "Diagram",
+      "scale": 4
+    },
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/58c0d8cee78dce7a83734d8ec1d81524.js",
+  "title": "attempt to recreate \"boots in bed\"",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 42500,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "885c46b54febdcf359ffb79b054c0746cfbf04fa0c7c3cc94c767f4adce140d7",
+  "upstream": {
+    "hash": "58c0d8cee78dce7a83734d8ec1d81524",
+    "codeMinLen": 358,
+    "codeMin": "r=18432,s=t=>(.995*abs((2*t*2**(([0,2,3,5,7,8,10,12,14,15,17,19][(t/3>>12)%12]-.3)/12)/[1,1,1.5,1.5][(t/1.125>>17)%4]&255)-128)&255)*(-t/6&2047)/2E3,a=t=>(t/8*[1,1,4/3,14/9][(t/1.125>>17)%4]&127)+(t/1.125>>10)&128,b=t=>32*sin(10*cbrt([t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5][(t>>12)%9]%16384))-192,(min(s(t)+s(t-r)/2+a(t-32*r)/2+b(t))-64)/2-64",
+    "codeLen": 368,
+    "code": "r=12288*1.5,s=t=>(0.995*abs((t*2*2**(([0,2,3,5,7,8,10,12,14,15,17,19][(t/3>>12)%12]-0.3)/12)/[1,1,1.5,1.5][(t/1.125>>17)%4]&255)-128)&255)*(-t/6&2047)/2E3,a=t=>((t/8*[1,1,4/3,14/9][(t/1.125>>17)%4]&127)+(t/1.125>>10)&128),b=t=>(32*sin(10*cbrt([t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5,t/1.5][(t>>12)%9]%16384))-192),(min(s(t)+s(t-r)/2+a(t-r*32)/2+b(t))-64)/2-64",
+    "author": "ChrisRM380",
+    "name": "attempt to recreate \"boots in bed\"",
+    "url": "https://dollchan.net/btb/res/368.html#3248",
+    "date": "2024-04-07",
+    "sampleRate": 42500,
+    "remix": [
+      {
+        "hash": "6543b17eee88926720947bf2c341fe87",
+        "author": "SArpnt",
+        "name": "boots in bed",
+        "url": "https://dollchan.net/btb/res/141.html#141"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

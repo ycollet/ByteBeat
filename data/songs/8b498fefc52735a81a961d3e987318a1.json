@@ -1,0 +1,43 @@
+{
+  "file": "songs/8b498fefc52735a81a961d3e987318a1.js",
+  "title": "Aurora Drive Through Equestria",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8b498fefc52735a81a961d3e987318a1.js",
+  "sha256": "664feec2f6693d90071d971f95c252a27fa64176504710ddba58f633adc9ec86",
+  "upstream": {
+    "hash": "8b498fefc52735a81a961d3e987318a1",
+    "codeLen": 8996,
+    "fileOrig": 1,
+    "codeText": "/*!\n *           •───────────────•°•❀•°•───────────────•\n * PrincessPriscillaPT · ❄️📼 Aurora Drive Through Equestria 🌌🦄\n *   ❄️ A Synthwave Remix of Winter Whispers of Equestria ❄️\n *           •───────────────•°•❀•°•───────────────•\n *  ※ Licensed under CC-BY-SA-4.0 ║ https://creativecommons.org/licenses/by-sa/4.0\n */\n",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "Aurora Drive Through Equestria",
+    "description": "A full song fork of Winter Whispers of Equestria.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat_2/comments/1ttnanr/princesspriscillapt_aurora_drive_through_equestria/",
+      "https://www.bytebeat.cloud/post/c9e4e2b3-133d-4247-8662-31e544f89cff"
+    ],
+    "date": "2026-05-27",
+    "mode": "Floatbeat",
+    "sampleRate": 22050,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "9b0f4be8ae1b2e86c2b6ff5caedb918e",
+        "author": "PrincessPriscillaPT",
+        "name": "Winter Whispers of Equestria",
+        "url": [
+          "https://www.reddit.com/r/bytebeat_2/comments/1q94ktm/winter_whispers_of_equestria/",
+          "https://dollchan.net/btb/res/7164.html#11971"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2026-07-31"
+  }
+}

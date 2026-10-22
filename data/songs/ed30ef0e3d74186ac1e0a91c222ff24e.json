@@ -1,0 +1,32 @@
+{
+  "file": "songs/ed30ef0e3d74186ac1e0a91c222ff24e.js",
+  "title": "C compatible instruments",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7739b3788f627f566d870fa0ca3e52b9cf45b0dca795983c3f37767d85714e04",
+  "upstream": {
+    "hash": "ed30ef0e3d74186ac1e0a91c222ff24e",
+    "codeLen": 49,
+    "code": "t>>3&127|t>>4&128|t>>3&128|(t&4096?t&8192?64:0:0)",
+    "author": "Zackx",
+    "name": "C compatible instruments",
+    "url": "https://dollchan.net/btb/res/204.html#1871",
+    "date": "2023-08-10",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "826dd0bb0562e6727979f8c9e2247df6",
+        "author": "Zackx",
+        "name": "C compatible instruments",
+        "url": "https://dollchan.net/btb/res/204.html#1871"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-12-16"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/6618c1939d4a98ce2e6ae97396100645.js",
+  "title": "rendition of sparta remix or smth",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6618c1939d4a98ce2e6ae97396100645.js",
+  "sha256": "3be97b4599eb4b340e576ad33747f5c6fc670e58150de9b6bf56aa303b0d73f7",
+  "upstream": {
+    "hash": "6618c1939d4a98ce2e6ae97396100645",
+    "codeLen": 3015,
+    "fileOrig": 1,
+    "codeText": "t||(A=0,B={l:0,w:t=>t<<t/16},C={p:-1,t:0},D={p:-1,t:0}),va={_:0,A:329.62,B:349.22,C:293.66,D:493.88,E:523.25,F:440,G:164.81,H:174.61,I:146.83,J:65.4,K:73.41,L:92.49},d0=`A00000000000000_A000000000000000B00000000000000_B000000000000000C00000000000000_C000000000000000B00000000000000_B000000000000000A0000000D0000000A0000000D0000000B0000000E0000000B0000000E0000000C0000000F0000000C0000000F0000000B0000000E0000000B0000000E0000000A00000000000000_A000000000000000B00000000000000_B000000000000000C00000000000000_C00000",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "rendition of sparta remix or smth",
+    "description": "Made using the midi to bytebeat tool",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1461blh/rendition_of_sparta_remix_or_smth_made_using_the/",
+    "date": "2023-06-10",
+    "sampleRate": 44100,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/10cfc1f7b0b6ea547e64c07eae30439f.js",
+  "title": "test.mid",
+  "author": "awogler9124812041",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/10cfc1f7b0b6ea547e64c07eae30439f.js",
+  "sha256": "a91ab6c9ba9e003297b61bd4ec275fe3a9dfc94ddd9b5e301948ba4f36dcdf2d",
+  "upstream": {
+    "hash": "10cfc1f7b0b6ea547e64c07eae30439f",
+    "codeLen": 1960,
+    "fileOrig": 1,
+    "codeText": "t||(A=0,B=0,C={p:-1,t:0}),va={_:0,A:698.45,B:659.25,C:783.99,D:880,E:587.32,F:523.25,G:261.62,H:246.94,I:220,J:195.99,K:349.22,L:329.62,M:391.99,N:65.4,O:73.41,P:92.49},d0=`________________________________________________________________________________________________________________________________________________________________A000B000A000B000C000D000C000D000E000B000E000B000A000B000E000F000A000B000A000B000C000D000C000D000E000B000E000B000A000B000E000F000A000B000A000B000C000D000C000D000E000B000E000B000A00",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "test.mid",
+    "description": "Made using the midi to bytebeat tool",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14jg805/no_idea_what_to_name_this_but_the_original_file/",
+    "date": "2023-06-26",
+    "sampleRate": 44100,
+    "tags": [
+      "big"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "file": "songs/888ab4cf73dd99ba17e5bd275199d876.js",
+  "title": "GetDolphinedLol - Moj pas je se popiškija u cijelu moju kuču [Remix]",
+  "author": "PrincessPriscillaPT",
+  "mode": "Signed Bytebeat",
+  "rate": 47412,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/888ab4cf73dd99ba17e5bd275199d876.js",
+  "sha256": "3981617e513b34e57d974ae142372ce8c09bbf0f5f76f3e069e4d37dd319cfdb",
+  "upstream": {
+    "hash": "888ab4cf73dd99ba17e5bd275199d876",
+    "codeMinLen": 812,
+    "codeLen": 864,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "Octave=0,Pitch=7,Detune=0,p=round(Pitch)+Octave*12+Detune/100,t/=2,hv=95,m=(t+t%(tanh(2*tanh(sin(t*PI/2**19)))*4))*2**(round(log2([1,1.2,1.5,1.6,t&65536?1.8:2,1.6,1.5,1.2][7&t>>12]*(t&2**17?.9:1))*12+p+5)/12+1)<<1>>1,b=t*2**(([5,3][(t>>17)%2]+p)/12),h=[0,hv,hv,hv][(t>>12)%4],s=[-((t%8192/8192)**2),-1][(t>>13)%2],x=k=>min(127,max(-128,tanh(sin(8*sqrt(t%16384)**.7))*250*(1-t%16384/16384)**3+4+(((t*k*sin(t/.75>>1)&64)-32)*((t>>14)%2)*1.66*(d=(1-t%16384/16384)**1.5)-d/2)+sin(t*2.9*k+random()*3.5)*h*(u=(1-t%4096",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "GetDolphinedLol - Moj pas je se popiškija u cijelu moju kuču [Remix]",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1hgtipq/getdolphinedlol_moj_pas_je_se_popi%C5%A1kija_u_cijelu/",
+      "https://dollchan.net/btb/res/7164.html#7241"
+    ],
+    "date": "2024-12-18",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 47412,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "e7b2a635309d17a7814b1b91f5182e02",
+        "author": "rubi",
+        "name": "moj pas je se popiškija u cijelu moju kuču",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14kbt4x/moj_pas_je_se_popi%C5%A1kija_u_cijelu_moju_ku%C4%8Du/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-13"
+  }
+}

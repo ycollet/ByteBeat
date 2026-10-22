@@ -1,0 +1,28 @@
+{
+  "file": "songs/8e7792e580d8b6d3cbf8c9f50467ad3b.js",
+  "title": "abandoned pit",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8e7792e580d8b6d3cbf8c9f50467ad3b.js",
+  "sha256": "49a624492e96eea15f55347d5d4d0dcff313db0133a9cd82771cf621dea5b701",
+  "upstream": {
+    "hash": "8e7792e580d8b6d3cbf8c9f50467ad3b",
+    "codeMinLen": 255,
+    "codeMin": "T=1.2*t,A=T>>16<7?[2.4,0,2,2.4]:[0,0,2,2.4],C=!!((T>>16)/3-1.666&4),C2=T>>16>5&&!!((T>>16)/3-2&4),B=[0,0,2,2.7],D=C2?[1.35,2,1.88]:[1,2.4,2],a=(.56*t*D[(T>>16)%3]&192)/(1+(T>>10&63)/4),b=(1.12*t*(C||C2?B:A)[T>>14&3]&255)/(1+(T>>8&63)/8)&224,a+(T>>16>5&&b)",
+    "codeLen": 289,
+    "fileOrig": 1,
+    "codeText": "T=1.2*t,A=T>>16<7?[2.4,0,2,2.4]:[0,0,2,2.4],C=!!((T>>16)/3-1.666&4),C2=T>>16>5&&!!((T>>16)/3-2&4),B=[0,0,2,2.7],D=C2?[1.35,2,1.88]:[1,2.4,2],a=(.56*t*D[(T>>16)%3]&192)/(1+(T>>10&63)/4),b=(1.12*t*(C||C2?B:A)[T>>14&3]&255)/(1+(T>>8&63)/8)&224,a+(T>>16>5&&b)",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "abandoned pit",
+    "url": "https://dollchan.net/btb/res/756.html#1633",
+    "date": "2023-05-03",
+    "sampleRate": 48000,
+    "coverName": "Abandoned Pit - Castlevania: Symphony of the Night Music Extended",
+    "coverUrl": "https://youtu.be/Qa5ZjayT5CA",
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/4a969920a50831d2df6f42d39af4efea.js",
+  "title": "Awesome level - Remixed",
+  "author": "NewFall2020",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "10dcb19b612e7f83e55d517614715dc8963fb5559b52ce0f6b62153613f9e9d0",
+  "upstream": {
+    "hash": "4a969920a50831d2df6f42d39af4efea",
+    "codeMinLen": 284,
+    "codeMin": "t/=4,a=t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:8)))>>(3&t>>10)|t>>4,b=t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>4,c=3E4/(t&4095)&64,d=t*(t&16384?6:5)*2*(1&t>>11)/32%64,e=random()*((-t>>[6,5,5,5,5,5,5,4,5,5,5,4,5,5,4,3][(t>>11)%16])%64+64),(a%64+a/2%64+b/4%64)/2+64+c/2*2-44+d+e",
+    "codeLen": 323,
+    "code": "t/=4,\na=(t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:16/2)))>>(3&t>>10)|t>>4),\nb=(t*(t&16384?6:5)*(3+(3&t>>(t&2048?7:14)))>>(3&t>>9)|t>>4),\nc=3e4/(t&4095)&128-64,\nd=(t*(t&16384?6:5)*(2*(1&t>>11)))/32%64,\ne=(random()*(((-t>>[6,5,5,5,5,5,5,4,5,5,5,4,5,5,4,3][(t>>11)%16])%64)+64)),\n(((((a%64)+(a/2%64)+(b/4%64))/2)+64)+(c/2*2)-44)+d+e",
+    "author": "NewFall2020",
+    "name": "Awesome level - Remixed",
+    "url": "https://www.reddit.com/r/bytebeat/comments/r557yi/4_links/",
+    "date": "2021-11-29",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "25ab41b7d4733588cba4ce214830394b",
+        "author": "SthephanShi",
+        "name": "Awesome level",
+        "url": "https://dollchan.net/de/res/706.html#707"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

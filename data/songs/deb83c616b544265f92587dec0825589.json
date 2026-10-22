@@ -1,0 +1,32 @@
+{
+  "file": "songs/deb83c616b544265f92587dec0825589.js",
+  "title": "Slightly crusty stranglehold",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/deb83c616b544265f92587dec0825589.js",
+  "sha256": "770404cb8799c99f257b9a0b047dd0d692b50e4c8e99480c1428dc4c525d1051",
+  "upstream": {
+    "hash": "deb83c616b544265f92587dec0825589",
+    "codeLen": 10087,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{if(!globalThis._F||globalThis._F.k!==132839){let A=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~\",C=A.slice(0,64),P=\"S8jgLUrT7AlCq1DSO#voYKmhZ76Vqzza9mWx91iD2pBZtWnuZj00NAb#N1COfdZYN1kj28vKKzV!Dh!gwiJtxtWff5hjWoGfP9yNH!J3nov9y8gA1mp6ZbOpjNVwTspZoUVcgadd8QYqKizfO#EkXMQum6gPNgNv4hPZukO2prRUE4tGTWOKeWs2TazXJUIUl#zv9k5AiEH8rQtnzJJIaJ7uCDyyCGrzJYr0YrxFBqEhwIGBAACLQPaXaF668tFMqhsTknN9t2RfdCWNPAYFV1mLcSrXcBJa!j6oHQGq34i5mrDaDE8B3KeQdDbru51nWdrOC!jP5fmFc",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "Slightly crusty stranglehold",
+    "description": "Wait, it takes a bit time to init.",
+    "url": "https://www.bytebeat.cloud/post/1adbcfac-1c4b-4018-9e40-44ad20a7d307",
+    "date": "2026-09-24",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Jeroen Tel - Stranglehold",
+    "coverUrl": "https://youtu.be/FpOM4Fs08kU",
+    "tags": [
+      "big",
+      "slow",
+      "port"
+    ],
+    "date_added": "2026-10-18",
+    "date_edited": "2026-10-18"
+  }
+}

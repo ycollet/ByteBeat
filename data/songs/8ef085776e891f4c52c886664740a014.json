@@ -1,0 +1,25 @@
+{
+  "file": "songs/8ef085776e891f4c52c886664740a014.js",
+  "title": "morse code named as beat",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "715ee0bd2ae21698387c20e804dcb2543b3899df21bd33e058f9c8eacaa7f27e",
+  "upstream": {
+    "hash": "8ef085776e891f4c52c886664740a014",
+    "codeMinLen": 74,
+    "codeMin": "(((t>>8)%8*t>>(t>>12)%12&32)*t>>2)+(4050/(t&4095)&(t>>6|t>>2*t*t)*t)&~t>>4",
+    "codeLen": 84,
+    "code": "((((t>>8)%8*t>>(t>>12)%12)&32)*t>>2)+((((4e3)+50)/(t&4095))&(t>>6|t>>2*t*t)*t)&~t>>4",
+    "author": "kOLbOSa_exe",
+    "name": "morse code named as beat",
+    "description": "Claimed to be non-js, but throws an error when compiled in C.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qc5q04/my_first_nonjavascript_bytebeat/",
+    "date": "2021-10-20",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

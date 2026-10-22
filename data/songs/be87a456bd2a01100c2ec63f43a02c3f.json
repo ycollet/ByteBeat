@@ -1,0 +1,25 @@
+{
+  "file": "songs/be87a456bd2a01100c2ec63f43a02c3f.js",
+  "title": "simple bitcrushed noise",
+  "author": "awogler9124812041",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "caf15891d070f62f09a2d64f4c0c4dd17e7fc28bbacbdb52d571a2ebd912b79d",
+  "upstream": {
+    "hash": "be87a456bd2a01100c2ec63f43a02c3f",
+    "codeMinLen": 38,
+    "codeMin": "t||(trg=0),t%16||(trg=random()-.5),trg",
+    "codeLen": 45,
+    "code": "t||(trg=0),\r\n(t%16)||(trg=random()-0.5),\r\ntrg",
+    "author": "awogler9124812041",
+    "name": "simple bitcrushed noise",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bk7eap/simple_bitcrushed_noise/",
+    "date": "2024-03-21",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ]
+  }
+}

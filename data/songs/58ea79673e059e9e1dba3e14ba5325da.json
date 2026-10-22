@@ -1,0 +1,28 @@
+{
+  "file": "songs/58ea79673e059e9e1dba3e14ba5325da.js",
+  "title": "Demo of a tracker to floatbeat converter",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/58ea79673e059e9e1dba3e14ba5325da.js",
+  "sha256": "92cd533daea5674caa705ccf5b9b365283ce3afc425b3d3b410b0067dc61a925",
+  "upstream": {
+    "hash": "58ea79673e059e9e1dba3e14ba5325da",
+    "codeLen": 15128,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{let F=globalThis._F;if(!F||F.k!==674050){let A=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~\",P=\"Y8eS2kuw1xDvXvsmeEZv7cStiAYebT!6yxeia8F!5CokZEs3LEVYc4UnThGJS5J4RtXZQvNf68yXP0Jv7Rxle3J9Mh!2VcfDnI0Ha1vGa7n0pGTg0LwTRv8bzJJL3C5GGstMiIyACDIKtX9cWwcfeQ5v87ibw2i2#FR5pb6kpg6ZSV9iXtpGG5ZrTW6tv1Ypx2LvOCVS8kLhLvNLrJ!g64Sy4tZpYGa0gPcAXRVfrnEgCRsS4i8u3IFE4X8Y!fHBF0nWfKiYLmSEW!YO33wQO7AaqzfnoQR0tHRS#jrrSTTRRE543vOz3JM!ahIRQcGnfGnhowxSrGCvLZaft5eYOlFP7Rigt#CTV",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "Demo of a tracker to floatbeat converter",
+    "url": "https://www.bytebeat.cloud/post/8e10acef-bc79-4069-8b2f-1b45a8fa477d",
+    "date": "2026-09-26",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2026-10-06",
+    "date_edited": "2026-10-18"
+  }
+}

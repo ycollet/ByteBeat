@@ -1,0 +1,24 @@
+{
+  "file": "songs/256114b94a1e3b0c060bbec26c56a245.js",
+  "title": "Robotik",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "a0b66f33bbd5417f1402f735aba63164b9d0bd850f4903550c15d7f772461d49",
+  "upstream": {
+    "hash": "256114b94a1e3b0c060bbec26c56a245",
+    "codeLen": 61,
+    "code": "t*(6+(~t>>17&3))/6^t*(6+(~t>>17&3))*(1-1/(1+(t>>14^t>>13)&6))",
+    "author": "kOLbOSa_exe",
+    "name": "Robotik",
+    "description": "JS code originally, converted to classic C by SthephanShi",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18m6ncd/comment/kg6w9xq/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-12-19",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

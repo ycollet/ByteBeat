@@ -1,0 +1,29 @@
+{
+  "file": "songs/ebb859b16a911cfdb09325e7b1563b61.js",
+  "title": "A really GOOD melody",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "81d52d50a7ac2d9c26537bd1b8c615ecb9b6fa59e0afc58181ed74c781fb2ba2",
+  "upstream": {
+    "hash": "ebb859b16a911cfdb09325e7b1563b61",
+    "codeMinLen": 161,
+    "codeMin": "r=t*.8,m=r=>r>0&&((t/48e3*2*440*2**([7,0,3,7,2,-5,-2,2,3,-4,0,3,5,-2,2,5][15&r>>13]/12)&1)-.5)*128*max(.5,1-r/8192%1),m(r)+m(r-(d=12288))/2+m(r-d*2)/3+m(r-d*3)/4",
+    "codeLen": 446,
+    "code": "BaseFrequency = 440,\nTone = ((2 ** (-9 / 12)) * BaseFrequency * 128) / 48e3,\nNote = (Input, Transpose=0) => (t * Tone * 2 ** ((Input - Transpose - 3) / 12)),\nSpeed = t * .8,\n\nMelody = Speed => Speed > 0 && ((Note([31, 24, 27, 31, 26, 19,22, 26, 27, 20, 24, 27, 29, 22, 26, 29][15 & Speed >> 13]) & 128) % 256 - 64) * max(.5, 1 - Speed / 8192 % 1),\n\nMelody(Speed) + Melody(Speed - 12288) / 2 + Melody(Speed - 24576) / 3 + Melody(Speed - 38168) / 4",
+    "author": "Two2Fall",
+    "name": "A really GOOD melody",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1kvs4qm/more_two2fall_stuff/",
+    "date": "2025-05-26",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 48000,
+    "coverName": "A Touch Of Class - Around the World",
+    "coverUrl": "https://youtu.be/Se237UXFKlQ",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-26",
+    "date_edited": "2026-04-18"
+  }
+}

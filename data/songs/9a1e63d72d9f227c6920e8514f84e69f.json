@@ -1,0 +1,33 @@
+{
+  "file": "songs/9a1e63d72d9f227c6920e8514f84e69f.js",
+  "title": "New Sawtooth Music (again) Remix",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b62f1ef8c4514334669646aa9dbfe79ec9e036d90c3217437599f0d6e8d597b6",
+  "upstream": {
+    "hash": "9a1e63d72d9f227c6920e8514f84e69f",
+    "codeMinLen": 111,
+    "codeMin": "j=(t-41024&t+1024)>>11&255,k=t&16383,(t*(j&255)/2&127)+(1E5/(t&4095)/4&63)+(int(k/(k>>7)-136)/8&32*(1+(7<j))-1)",
+    "codeLen": 122,
+    "code": "j=(t-41024&t+1024)>>11&255,k=t&16383,(t*(j&255)/2&127)+((100000/(t&4095))/4&63)+((int(k/(k>>7)-136)/8)&((32*(1+(j>7))-1)))",
+    "author": "Gabriel Miceli",
+    "name": "New Sawtooth Music (again) Remix",
+    "url": "https://youtu.be/V4GfkFbDojc?t=366",
+    "date": "2016-07-09",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "1b54b0f70003e71af8b4242d376cbaa8",
+        "author": "Gabriel Miceli",
+        "name": "New Sawtooth Music",
+        "url": "https://youtu.be/V4GfkFbDojc?t=351"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

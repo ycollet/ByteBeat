@@ -1,0 +1,34 @@
+{
+  "file": "songs/2d53ba6fb86067de789e2b31202cb670.js",
+  "title": "Fever dream",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2d53ba6fb86067de789e2b31202cb670.js",
+  "sha256": "96601fdb295fa1d400454cb76a61bcff9c89e30f1aaf65e3b4fdc41675b649d3",
+  "upstream": {
+    "hash": "2d53ba6fb86067de789e2b31202cb670",
+    "codeLen": 2476,
+    "fileOrig": 1,
+    "codeText": "t ? 0 : (SPEED = Y = 0, X = 'repeat', R = sin, G = Array(LEN = 28800).fill(0)),\n\n\tTEMPO = Y++ * .8,\n\tMEASURE = TEMPO / 65536 % 64,\n\tSPEED += I = .9 + (sin(Y / 131072) * .02),\n\tCLAMP = (x, y = 0, z = 255) =>\n\tmin(max(x, y), z),\n\tCLAMP2 = (x, f) => (",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Fever dream",
+    "url": "https://www.reddit.com/r/bytebeat/comments/13sypie/pseudorandom_arpeggios/",
+    "date": "2023-05-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "8ee04059783be40bea00923ddad1bab1",
+        "author": "lhphr",
+        "name": "the throwback",
+        "url": "https://dollchan.net/btb/res/44.html#481"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

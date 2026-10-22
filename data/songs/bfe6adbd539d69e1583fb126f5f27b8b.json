@@ -1,0 +1,25 @@
+{
+  "file": "songs/bfe6adbd539d69e1583fb126f5f27b8b.js",
+  "title": "bunge jumper",
+  "author": "sean",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "302fd8ed8dd14fd3b632ffef7a5613a83ac43bb873391905d59156b9673dbb41",
+  "upstream": {
+    "hash": "bfe6adbd539d69e1583fb126f5f27b8b",
+    "codeMinLen": 46,
+    "codeMin": "(t>>8)%((t>>12)%9)*t*5%(16*(t/4>>12)%256)|t%32",
+    "codeLen": 56,
+    "code": "(t*5)*((t>>8)%((t>>12)%9))%((((t/4)>>12)*16)%256)|(t)%32",
+    "author": "sean",
+    "name": "bunge jumper",
+    "url": "https://battleofthebits.com/arena/Entry/bunge+jumper.txt/58096/",
+    "date": "2023-02-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

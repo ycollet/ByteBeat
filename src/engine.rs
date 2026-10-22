@@ -1,0 +1,347 @@
+use std::{
+    sync::{Arc, Mutex},
+    time::{Duration, Instant},
+};
+
+use rquickjs::{Context, Function, Runtime, Value};
+use serde::{Deserialize, Serialize};
+
+#[derive(Clone, Copy, Debug, Default, PartialEq, Eq, Serialize, Deserialize, clap::ValueEnum)]
+pub enum Mode {
+    #[default]
+    Bytebeat,
+    #[serde(alias = "Signed Bytebeat")]
+    #[value(alias = "signed-bytebeat")]
+    Signed,
+    Floatbeat,
+    Funcbeat,
+}
+
+impl Mode {
+    pub const ALL: [Self; 4] = [
+        Self::Bytebeat,
+        Self::Signed,
+        Self::Floatbeat,
+        Self::Funcbeat,
+    ];
+
+    pub fn label(self) -> &'static str {
+        match self {
+            Self::Bytebeat => "Bytebeat",
+            Self::Signed => "Signed Bytebeat",
+            Self::Floatbeat => "Floatbeat",
+            Self::Funcbeat => "Funcbeat",
+        }
+    }
+}
+
+pub struct Engine {
+    // Keep the runtime alive until after its context is dropped.
+    context: Context,
+    _runtime: Runtime,
+    deadline: Arc<Mutex<Instant>>,
+    mode: Mode,
+    rate: f64,
+    sample: u64,
+    phase: f64,
+    held: [f32; 2],
+    initialized: bool,
+}
+
+impl Engine {
+    pub fn new(code: &str, mode: Mode, rate: f64) -> Result<Self, String> {
+        if !rate.is_finite() || !(1_000.0..=192_000.0).contains(&rate) {
+            return Err("Sample rate must be between 1000 and 192000 Hz.".into());
+        }
+        let runtime = Runtime::new().map_err(|e| e.to_string())?;
+        runtime.set_memory_limit(32 * 1024 * 1024);
+        runtime.set_max_stack_size(512 * 1024);
+        let deadline = Arc::new(Mutex::new(Instant::now() + Duration::from_millis(100)));
+        let timeout = deadline.clone();
+        runtime.set_interrupt_handler(Some(Box::new(move || {
+            Instant::now() > *timeout.lock().expect("deadline mutex poisoned")
+        })));
+        let context = Context::full(&runtime).map_err(|e| e.to_string())?;
+        context.with(|ctx| {
+            ctx.eval::<(), _>(
+                "for (const k of Object.getOwnPropertyNames(Math)) {
+                    if (!(k in globalThis)) globalThis[k] = Math[k];
+                }
+                globalThis.int = Math.floor;
+                globalThis.window = globalThis;
+                globalThis.self = globalThis;",
+            )
+            .map_err(|e| js_error(&ctx, e))?;
+            ctx.globals()
+                .set("sampleRate", rate)
+                .map_err(|e| js_error(&ctx, e))?;
+            let body = if mode == Mode::Funcbeat {
+                code.to_owned()
+            } else {
+                format!("return 0,\n{code}\n;")
+            };
+            // Pass source as an argument, never interpolate it into a JS string.
+            let constructor: Function = ctx
+                .globals()
+                .get("Function")
+                .map_err(|e| js_error(&ctx, e))?;
+            let function: Function = if mode == Mode::Funcbeat {
+                constructor.call((body,))
+            } else {
+                constructor.call(("t", "sampleRate", body))
+            }
+            .map_err(|e| js_error(&ctx, e))?;
+            let function = if mode == Mode::Funcbeat {
+                function
+                    .call::<_, Function>(())
+                    .map_err(|e| js_error(&ctx, e))?
+            } else {
+                function
+            };
+            ctx.globals()
+                .set("__bytebeat", function)
+                .map_err(|e| js_error(&ctx, e))
+        })?;
+        Ok(Self {
+            context,
+            _runtime: runtime,
+            deadline,
+            mode,
+            rate,
+            sample: 0,
+            phase: 0.0,
+            held: [0.0; 2],
+            initialized: false,
+        })
+    }
+
+    pub fn position(&self) -> u64 {
+        self.sample.saturating_sub(1)
+    }
+
+    pub fn render(&mut self, frames: usize, output_rate: u32) -> Result<Vec<[f32; 2]>, String> {
+        if output_rate == 0 {
+            return Err("Output sample rate must be positive.".into());
+        }
+        *self.deadline.lock().expect("deadline mutex poisoned") =
+            Instant::now() + Duration::from_millis(100);
+        let result: Result<Vec<[f32; 2]>, String> = self.context.with(|ctx| {
+            let function: Function = ctx
+                .globals()
+                .get("__bytebeat")
+                .map_err(|e| js_error(&ctx, e))?;
+            let mut output = Vec::with_capacity(frames);
+            for _ in 0..frames {
+                while !self.initialized || self.phase >= f64::from(output_rate) {
+                    if self.initialized {
+                        self.phase -= f64::from(output_rate);
+                    }
+                    let t = if self.mode == Mode::Funcbeat {
+                        self.sample as f64 / self.rate
+                    } else {
+                        self.sample as f64
+                    };
+                    let value: Value = function
+                        .call((t, self.rate))
+                        .map_err(|e| js_error(&ctx, e))?;
+                    let raw = if let Some(array) = value.as_array() {
+                        if array.len() != 2 {
+                            return Err("Stereo expressions must return [left, right].".into());
+                        }
+                        [
+                            array.get::<f64>(0).map_err(|e| js_error(&ctx, e))?,
+                            array.get::<f64>(1).map_err(|e| js_error(&ctx, e))?,
+                        ]
+                    } else {
+                        let number = value
+                            .as_number()
+                            .ok_or("Expression must return a number or [left, right].")?;
+                        [number; 2]
+                    };
+                    self.held = [normalize(raw[0], self.mode)?, normalize(raw[1], self.mode)?];
+                    self.sample += 1;
+                    self.initialized = true;
+                }
+                output.push(self.held);
+                self.phase += self.rate;
+            }
+            Ok(output)
+        });
+        result.map_err(|error| {
+            format!(
+                "sample {} ({:.6} s): {error}",
+                self.sample,
+                self.sample as f64 / self.rate
+            )
+        })
+    }
+}
+
+fn js_error(ctx: &rquickjs::Ctx<'_>, error: rquickjs::Error) -> String {
+    rquickjs::CaughtError::from_error(ctx, error).to_string()
+}
+
+fn normalize(value: f64, mode: Mode) -> Result<f32, String> {
+    if !value.is_finite() {
+        return Err("Expression produced NaN or infinity; playback was paused.".into());
+    }
+    Ok(match mode {
+        Mode::Bytebeat => (value.trunc().rem_euclid(256.0) / 128.0 - 1.0) as f32,
+        Mode::Signed => ((value.trunc() + 128.0).rem_euclid(256.0) / 128.0 - 1.0) as f32,
+        Mode::Floatbeat | Mode::Funcbeat => value.clamp(-1.0, 1.0) as f32,
+    })
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn wrapping_and_signed_samples() {
+        assert_eq!(normalize(256.0, Mode::Bytebeat).unwrap(), -1.0);
+        assert_eq!(normalize(-1.0, Mode::Bytebeat).unwrap(), 127.0 / 128.0);
+        assert_eq!(normalize(128.0, Mode::Signed).unwrap(), -1.0);
+        assert_eq!(normalize(-128.0, Mode::Signed).unwrap(), -1.0);
+        assert_eq!(normalize(-1.0, Mode::Signed).unwrap(), -1.0 / 128.0);
+        assert_eq!(normalize(0.0, Mode::Signed).unwrap(), 0.0);
+    }
+
+    #[test]
+    fn javascript_stereo_and_resampling() {
+        let mut engine = Engine::new("[t, 255-t]", Mode::Bytebeat, 8_000.0).unwrap();
+        let frames = engine.render(4, 16_000).unwrap();
+        assert_eq!(frames[0], [-1.0, 127.0 / 128.0]);
+        assert_eq!(frames[0], frames[1]);
+        assert_eq!(frames[2], [-127.0 / 128.0, 126.0 / 128.0]);
+        assert_eq!(frames[2], frames[3]);
+    }
+
+    #[test]
+    fn math_aliases_and_function_state() {
+        let mut engine = Engine::new(
+            "let n = 0; return t => [sin(PI/2), n++ / 10];",
+            Mode::Funcbeat,
+            8_000.0,
+        )
+        .unwrap();
+        assert_eq!(
+            engine.render(2, 8_000).unwrap(),
+            vec![[1.0, 0.0], [1.0, 0.1]]
+        );
+    }
+
+    #[test]
+    fn rejects_bad_programs_and_nonfinite_output() {
+        assert!(Engine::new("t +", Mode::Bytebeat, 8_000.0).is_err());
+        assert!(Engine::new("return 42", Mode::Funcbeat, 8_000.0).is_err());
+        assert!(Engine::new("t", Mode::Bytebeat, 0.0).is_err());
+        for code in [
+            "NaN",
+            "Infinity",
+            "[1,2,3]",
+            "'hello'",
+            "(()=>{throw Error('oops')})()",
+        ] {
+            let mut engine = Engine::new(code, Mode::Bytebeat, 8_000.0).unwrap();
+            assert!(engine.render(1, 8_000).is_err(), "{code}");
+        }
+    }
+
+    #[test]
+    fn interrupts_infinite_loops() {
+        let mut engine = Engine::new("(()=>{while(true){} })()", Mode::Bytebeat, 8_000.0).unwrap();
+        let start = Instant::now();
+        assert!(engine.render(1, 8_000).is_err());
+        assert!(start.elapsed() < Duration::from_secs(2));
+    }
+
+    #[test]
+    fn funcbeat_uses_seconds() {
+        let mut engine = Engine::new("return t => t;", Mode::Funcbeat, 1_000.0).unwrap();
+        let frames = engine.render(3, 1_000).unwrap();
+        assert_eq!(frames, vec![[0.0; 2], [0.001; 2], [0.002; 2]]);
+    }
+
+    #[test]
+    fn resampling_is_exact_across_block_boundaries() {
+        let mut engine = Engine::new("t & 255", Mode::Bytebeat, 8_000.0).unwrap();
+        let frames: Vec<_> = (0..375)
+            .flat_map(|_| engine.render(128, 48_000).unwrap())
+            .collect();
+        assert_eq!(frames.len(), 48_000);
+        for (i, frame) in frames.iter().enumerate() {
+            let expected = normalize((i / 6) as f64, Mode::Bytebeat).unwrap();
+            assert_eq!(*frame, [expected; 2], "output sample {i}");
+        }
+        assert_eq!(engine.position(), 7_999);
+        assert!(engine.render(1, 0).is_err());
+    }
+
+    #[test]
+    fn downsampling_still_evaluates_every_source_sample() {
+        let mut engine = Engine::new(
+            "return () => (globalThis.n = (globalThis.n || 0) + 0.01);",
+            Mode::Funcbeat,
+            48_000.0,
+        )
+        .unwrap();
+        let frames = engine.render(3, 12_000).unwrap();
+        assert!((frames[0][0] - 0.01).abs() < 1e-6);
+        assert!((frames[1][0] - 0.05).abs() < 1e-6);
+        assert!((frames[2][0] - 0.09).abs() < 1e-6);
+    }
+
+    #[test]
+    fn errors_include_the_javascript_message() {
+        let mut engine = Engine::new(
+            "(()=>{throw Error('test diagnostic')})()",
+            Mode::Bytebeat,
+            8_000.0,
+        )
+        .unwrap();
+        let error = engine.render(1, 8_000).unwrap_err();
+        assert!(error.contains("test diagnostic"), "{error}");
+    }
+
+    #[test]
+    fn interrupts_funcbeat_initialization() {
+        let start = Instant::now();
+        assert!(Engine::new("while (true) {}", Mode::Funcbeat, 8_000.0).is_err());
+        assert!(start.elapsed() < Duration::from_secs(2));
+    }
+
+    #[test]
+    fn accepts_trailing_semicolons_and_fractional_rates() {
+        let mut engine = Engine::new(
+            "sin(t); // upstream-style expression",
+            Mode::Floatbeat,
+            35_498.666_66,
+        )
+        .unwrap();
+        assert_eq!(engine.render(1, 48_000).unwrap(), vec![[0.0; 2]]);
+        assert!(engine.render(128, 48_000).is_ok());
+    }
+
+    #[test]
+    fn funcbeat_factory_can_declare_its_own_time_and_rate() {
+        let mut engine = Engine::new(
+            "let t = 0, sampleRate = 16000; return seconds => ++t / sampleRate;",
+            Mode::Funcbeat,
+            48_000.0,
+        )
+        .unwrap();
+        let frames = engine.render(2, 48_000).unwrap();
+        assert_eq!(frames, vec![[1.0 / 16000.0; 2], [2.0 / 16000.0; 2]]);
+    }
+
+    #[test]
+    fn global_namespace_aliases_do_not_require_a_browser() {
+        let mut engine = Engine::new(
+            "window === globalThis && self === globalThis && window.sampleRate === 8000 ? 0.25 : 0",
+            Mode::Floatbeat,
+            8_000.0,
+        )
+        .unwrap();
+        assert_eq!(engine.render(1, 48_000).unwrap(), vec![[0.25; 2]]);
+    }
+}

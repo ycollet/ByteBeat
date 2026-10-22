@@ -1,0 +1,27 @@
+{
+  "file": "songs/f6a575c49503643e6938b2d2fc52a0ca.js",
+  "title": "i tried my best",
+  "author": "psubscirbe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f6a575c49503643e6938b2d2fc52a0ca.js",
+  "sha256": "8c2241ca96c938831fbaab2b0438ce76b6bd541975e1008f4952df53f55fc15f",
+  "upstream": {
+    "hash": "f6a575c49503643e6938b2d2fc52a0ca",
+    "codeMinLen": 293,
+    "codeMin": "fm=(n,s)=>sin(sin(sin(n*PI/128)+n*PI/64)+n*PI/32)/(2+t%(4096*s)/128/s),h=n=>sin(random())/(2+t%8192/128/n),k=n=>sin(1.4*sqrt(t*(n+1)&32767))/3,bc=n=>sin(t%8?a:a=random())/(2+t%(4096*n)/128/n),mel=(t>>13&t>>14)%17%10,sh=(t>>14&t>>13)%7,kh=(t>>14&t>>15)%4,fm(t/2.9*mel,2)+h(sh)+k(kh)+bc(kh+8)-.2",
+    "codeLen": 566,
+    "fileOrig": 1,
+    "codeText": "fm=(n,s)=>sin(sin(sin(n*PI/128)+n*PI/64)+n*PI/32)/(2+t%(4096*s)/128/s),h=n=>sin(random())/(2+t%8192/128/n),k=n=>sin(1.4*sqrt(t*(n+1)&32767))/3,bc=n=>sin(t%8?a:a=random())/(2+t%(4096*n)/128/n),mel=(t>>13&t>>14)%17%10,sh=(t>>14&t>>13)%7,kh=(t>>14&t>>15)%4,fm(t/2.9*mel,2)+h(sh)+k(kh)+bc(kh+8)-.2",
+    "isTruncated": 1,
+    "author": "psubscirbe",
+    "name": "i tried my best",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bogcmx/i_tried_my_best/",
+    "date": "2024-03-26",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

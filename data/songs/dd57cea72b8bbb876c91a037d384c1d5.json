@@ -1,0 +1,28 @@
+{
+  "file": "songs/dd57cea72b8bbb876c91a037d384c1d5.js",
+  "title": "Chord Progression",
+  "author": "Two2Fall",
+  "mode": "Signed Bytebeat",
+  "rate": 33500,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dd57cea72b8bbb876c91a037d384c1d5.js",
+  "sha256": "de48d4e7b7eca8308be84bd94847565f050fa278a522ae91faa01f807be1adf9",
+  "upstream": {
+    "hash": "dd57cea72b8bbb876c91a037d384c1d5",
+    "codeLen": 1338,
+    "fileOrig": 1,
+    "codeText": "// What do you think about my chord progression\n// Fmaj7 => Dmin => Gmaj => Emin7\n\nt || (Buffer = []),\nCallCount = 0,\nLPF = LowPassFilter = function(Input, Frequency) {\n\tCall = CallCount++;\n\tBuffer[Call] ??= 0;",
+    "isTruncated": 1,
+    "author": "Two2Fall",
+    "name": "Chord Progression",
+    "description": "Fmaj7 => Dmin => Gmaj => Emin7",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1l472o0/chord_progression/",
+    "date": "2025-06-05",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 33500,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-11-26"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "songs/9a12e6413f976f57454efb1de8771e2e.js",
+  "title": "1-Bit Bad Apple",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9a12e6413f976f57454efb1de8771e2e.js",
+  "sha256": "aafdb9d26bd8494a27c7c4caccc074564f13ff9cdb8c8382f384b9bc3600a4f3",
+  "upstream": {
+    "hash": "9a12e6413f976f57454efb1de8771e2e",
+    "codeMinLen": 703,
+    "codeLen": 751,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t*=1.024,T=t*1.2,b=(T>524288)*(t*.125*2**((pI=parseInt)((T<1048576?'44EGGGEG'.repeat(3)+'LLJLJJIJ':'44EGGGEG')[(T<1048576?31:7)&T>>12],36)/12)*(T<1048576?1:T<2097152?[1,1,.8,.9][T>>16&3]:T<2621440?1:[1,1,.8,.9][T>>16&3])),l=t*.5*2**(pI((T<2097152?'4679BBGEBB44B9764679BB97646764364679BBGEBB44B9764679BB97667799BB':'EGB9BB9BEGB9BB9B97624424679B44BE')[(T<2097152?63:31)&T>>13],36)/12),d=(round(random())*'                 22                              22 22  22  22                   22                          ",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "1-Bit Bad Apple",
+    "url": "https://dollchan.net/btb/res/6946.html#7938",
+    "date": "2025-07-03",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "coverName": "Touhou Project - Bad Apple",
+    "coverUrl": "https://youtu.be/FtutLA63Cp8",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-12-27"
+  }
+}

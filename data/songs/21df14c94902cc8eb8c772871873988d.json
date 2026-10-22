@@ -1,0 +1,32 @@
+{
+  "file": "songs/21df14c94902cc8eb8c772871873988d.js",
+  "title": "VL-tone rhythm with beat",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b0f4069ffc40b38c28022ea553290ce6d485a6535ed649b89709415f59d948b6",
+  "upstream": {
+    "hash": "21df14c94902cc8eb8c772871873988d",
+    "codeMinLen": 172,
+    "codeMin": "r=t/1.25,z=t*[1,2,,,1,2,,2][7&r>>13],p=(4.56*z&128)/3*(1-r&2047)/600*((-r&4096)/4E3*(-r&2048)/4E3)+48*sin(9*cbrt(r%32768))+48+random()*(1-r&8091)/8E3*64*'00110010'[7&r>>13]",
+    "codeLen": 181,
+    "code": "r=t/1.25,z=t*[1,2,,,1,2,,2][7&r>>13],\np=(z*4.56&128)/3*(1-r&2047)/600*((-r&4096)/4e3*(-r&2048)/4e3)+\nsin(9*cbrt(r%32768))*48+48+random()*(1-r&8091)/8e3*64*[0,0,1,1,0,0,1,0][7&r>>13]",
+    "author": "Zackx",
+    "name": "VL-tone rhythm with beat",
+    "url": "https://dollchan.net/btb/res/204.html#473",
+    "date": "2023-02-25",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "666a20749c0eec5dca078a85168dacc0",
+        "author": "spikkks",
+        "name": "Vl-Tone Rock 1 rhythm emulation",
+        "url": "https://www.reddit.com/r/bytebeat/comments/chkme0/vltone_rock_1_rhythm_emulation/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

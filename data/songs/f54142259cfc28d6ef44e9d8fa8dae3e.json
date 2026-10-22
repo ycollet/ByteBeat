@@ -1,0 +1,32 @@
+{
+  "file": "songs/f54142259cfc28d6ef44e9d8fa8dae3e.js",
+  "title": "Cover of 'Predestined Fate' from VVVVVV",
+  "author": "Wiebe-Marten Wijnja",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f54142259cfc28d6ef44e9d8fa8dae3e.js",
+  "sha256": "1edc63915a2617cb38ff5e4dcf336bd35f2abe5a8bb94d636bd540e5ec9d56dc",
+  "upstream": {
+    "hash": "f54142259cfc28d6ef44e9d8fa8dae3e",
+    "codeMinLen": 1295,
+    "codeLen": 6532,
+    "codeFormLen": 7088,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "t*=5.6,R=.78,t*=R,C=t>>12,v=C%768+(C>767?128:0),M=function(p,o,q,m,s,m2,j){j=j||8192,r=m.charCodeAt(q)||0,q=(m2!=null)?m2.charCodeAt(q)||0:0,r=q==0?r:(r-q)*((t%j)/j)+q,g=r<33?0:((t%j)/R)*2**((r+p)/12-o);x=(g%255)/128-1;return(s?s<2?x:s<3?abs(x)*3:sin(PI*x):(g&128)/64-1);},D=t>>13&31,m='5:=5:=5:<5:<5:<:16:18:161:168:68',m2=': ',m3=': : 5 8 ::::: :<= < : 8 ::::::: ',m4b=':: 55 ::6666 6:<<<<<88AA66666   ',m4=':: 55 ::6666 6:<==<<::AA66666   ',m5='                        ?A? = < ',m6=':51...55:::::::<===<<<8811",
+    "isTruncated": 1,
+    "author": "Wiebe-Marten Wijnja",
+    "name": "Cover of 'Predestined Fate' from VVVVVV",
+    "url": "http://wmmusic.nl/code/",
+    "date": "2014-04-06",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "coverName": "VVVVVV Soundtrack 08/16 \"Predestined Fate\"",
+    "coverUrl": "https://youtu.be/yv_lcgLFJmc",
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2026-04-29"
+  }
+}

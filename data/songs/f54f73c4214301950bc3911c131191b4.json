@@ -1,0 +1,31 @@
+{
+  "file": "songs/f54f73c4214301950bc3911c131191b4.js",
+  "title": "Etude de la synthèse additive",
+  "author": "Pestis",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3435295bd76fba58995e7da997a7d6056e4944f76215385e382d250157a04cb9",
+  "upstream": {
+    "hash": "f54f73c4214301950bc3911c131191b4",
+    "codeLen": 254,
+    "code": "(s=>{for(t||(d=[]),[y,x]=d[t-21e3]||[0,0],u=t/134e4,j=0;u<4.5&++j<7;)for(i=1;i<7;)k=j%3+1,r=u*2**j*k,v=r%1,z=sin(96*PI*(2846666506>>4*(r&1+2*u&7)&15)*[6,6,8,9][32*u&u&3]*i**k*u)/3**(v*i*k**.5+.003/v)/3,x+=sin(n=i++*u/3)*z,y+=sin(n*i)*z})(),d[t]=[x/3,y/3]",
+    "author": "Pestis",
+    "name": "Etude de la synthèse additive",
+    "description": "Lovebyte 2022 competition - 2nd place. Translation from French: \"Additive Synthesis Study\".",
+    "url": [
+      "https://demozoo.org/music/318955",
+      "https://github.com/vsariola/etude-de-la-synthese-additive"
+    ],
+    "date": "2023-02-11",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "tags": [
+      "256",
+      "slow"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-09"
+  }
+}

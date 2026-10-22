@@ -1,0 +1,28 @@
+{
+  "file": "songs/3a97cae0e776dfe66e79e5b1d41d2c3b.js",
+  "title": "Silver Surfer NES - Stage 1",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3a97cae0e776dfe66e79e5b1d41d2c3b.js",
+  "sha256": "9aa985271754069fe483972fc66b94cbbacca70eaac6f23343e66708590ab44f",
+  "upstream": {
+    "hash": "3a97cae0e776dfe66e79e5b1d41d2c3b",
+    "codeLen": 204190,
+    "fileOrig": 1,
+    "codeText": "pvh = function(d, n, s = 48000, r = 60) {\n\to = 0; // output\n\tmV = 12; // main volume\n\tfor (i = 0; i < n; i++) {\n\t\tp = d[(t / s * r % (d.length / n | 0) | 0) * n + i][0]; // pitch\n\t\tv = d[(t / s * r % (d.length / n | 0) | 0) * n + i][1]; // volume\n\t\tif (i != 3) { // pitch channels\n\t\t\to += (t / p * 590 * (48000 / s) & 128) * v / mV / n;",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Silver Surfer NES - Stage 1",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g6rdfy/silver_surfer_nes_stage_1_cover/",
+    "date": "2024-10-18",
+    "sampleRate": 48000,
+    "coverName": "Silver Surfer - Level 1",
+    "coverUrl": "https://youtu.be/-J0H5ah1G7A",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

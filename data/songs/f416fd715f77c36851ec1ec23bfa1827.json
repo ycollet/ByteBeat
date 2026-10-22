@@ -1,0 +1,31 @@
+{
+  "file": "songs/f416fd715f77c36851ec1ec23bfa1827.js",
+  "title": "Hell level",
+  "author": "Two2Fall",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "325662d7aafd4f30f9139abf80464b306a0e50d27045203ff1afbb27abd1cafe",
+  "upstream": {
+    "hash": "f416fd715f77c36851ec1ec23bfa1827",
+    "codeLen": 92,
+    "code": "(t*(t&16384?5.25:5)*(1+(3&t>>(t&4096?6:9)))>>(3&t>>(t&2048?16:2))|t>>(t&4096?t&16384?4:3:2))",
+    "author": "Two2Fall",
+    "name": "Hell level",
+    "url": "https://www.reddit.com/user/Electrical-While6325/comments/1frn9iy/hell_level/",
+    "date": "2024-09-28",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-19"
+  }
+}

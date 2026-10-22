@@ -1,0 +1,26 @@
+{
+  "file": "songs/1b185540d4244385dbea8cfa3fc5ca8f.js",
+  "title": "In the Hall of the Mountain King",
+  "author": "eSlashMachine",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/1b185540d4244385dbea8cfa3fc5ca8f.js",
+  "sha256": "002d117644cbf4ec1baa4b816cd49c81a72b58b826133c4c2bcb8e6637dfdadb",
+  "upstream": {
+    "hash": "1b185540d4244385dbea8cfa3fc5ca8f",
+    "codeLen": 3196,
+    "fileOrig": 1,
+    "codeText": "/*\n\tPeer Gynt. Op. 23: IV - \"In the Hall of the Mountain King\"\n\t\n\tCover by eSlashMachine\n*/\nSAMP_RATE = 48000,\nBPM = 119,\nbeat = BPM * (t / SAMP_RATE) / 60,",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "In the Hall of the Mountain King",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h8bl3j/halffinished_cover/",
+    "date": "2024-12-06",
+    "sampleRate": 48000,
+    "coverName": "Peer Gynt, Op. 23: IV - In the Hall of the Mountain King",
+    "coverUrl": "https://youtu.be/l5zIaC8uGUE",
+    "tags": [
+      "big"
+    ]
+  }
+}

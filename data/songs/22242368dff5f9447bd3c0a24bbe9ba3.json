@@ -1,0 +1,30 @@
+{
+  "file": "songs/22242368dff5f9447bd3c0a24bbe9ba3.js",
+  "title": "Rainbow Tylenol ported",
+  "author": "MeWhen-I-StubMyToe",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/22242368dff5f9447bd3c0a24bbe9ba3.js",
+  "sha256": "dd59db851bedef4433d5b057711b33993320cda195fc2b667be3176026f8ea18",
+  "upstream": {
+    "hash": "22242368dff5f9447bd3c0a24bbe9ba3",
+    "codeLen": 15036,
+    "fileOrig": 1,
+    "codeText": "sr=48000,((t)=>{let F=globalThis._F;if(!F||F.k!==1183712574){let Mx=max,Mn=min,Fl=floor,Ci=ceil,Rd=round,Ab=abs,Sn=sin,Cs=cos,Th=tanh,A=\"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+,-./:;<=>?@[]^_{|}~\",P=\"CW|Z:41#Bds?2VNJ1a#dU}2jZ2P{wgrw(eCHp8acAe&hyXN_XqE=t]aE[Se)Dmo9MS_Q9(d%.{MigWv=2O7YcR3Fc*iM{=8r[6QZr;#-AKMI-4VR:x)p2r~?ch#-zR)DDgi+ZH0qo<h3224.+P||QIjiVVq5.=$:YX9MskcZfkx9^Yqi7Y/oizEHYiUFg]u9sWqqMRP?wgi~C7DgcOCa}CDe=]*Ef?l:@QmNQkxpl_*F2=>=Y|#KVWEVm_pw!yFny#[NUuQ:GaB.dLyug1uPdW2[",
+    "isTruncated": 1,
+    "author": "MeWhen-I-StubMyToe",
+    "name": "Rainbow Tylenol ported",
+    "url": "https://www.bytebeat.cloud/post/12c5c4f9-f627-4771-ba61-0cfe90c85295",
+    "date": "2026-10-03",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Kitsune^2 - Rainbow Tylenol",
+    "coverUrl": "https://youtu.be/5K7Frc2lTI8",
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_added": "2026-10-06",
+    "date_edited": "2026-10-18"
+  }
+}

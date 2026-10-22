@@ -1,0 +1,26 @@
+{
+  "file": "songs/527a40d3e32d95260655f84c8bfa12bb.js",
+  "title": "keyboard",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/527a40d3e32d95260655f84c8bfa12bb.js",
+  "sha256": "4dbc235a5ed966111e66f5ef72e415a8cf5ade0da67e96d853cfc9b57f5621bf",
+  "upstream": {
+    "hash": "527a40d3e32d95260655f84c8bfa12bb",
+    "codeLen": 10924,
+    "fileOrig": 1,
+    "codeText": "/*f=(keys)=>{\n    if (!Array.isArray(keys)) {\n\t\t\tkeys=[keys];\n    }\n\n    // Check for 'off' in the array\n    if (keys.includes('off')) {\n\t\t\tconst line1=`┌─┬─┬┬─┬─┬─┬─┬┬─┬┬─┬─┬─┬─┬┬─┬─┬─┬─┬┬─┬┬─┬─┬─┬─┬┬─┬─┬─┬─┬┬─┬┬─┬─┬─┬─┬┬─┬─┬─┬─┬┬─┬┬─┬─┐`",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "keyboard",
+    "description": "A cool looking keyboard in the error console.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hhija9/idk_a_keyboard/",
+    "date": "2024-12-19",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "console"
+    ]
+  }
+}

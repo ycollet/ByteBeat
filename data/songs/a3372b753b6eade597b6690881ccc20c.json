@@ -1,0 +1,37 @@
+{
+  "file": "songs/a3372b753b6eade597b6690881ccc20c.js",
+  "title": "HAZEHOUSE",
+  "author": "lhphr",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "958e12f752e644367027c9e458a2ebd830d47798481b390d982b4bcb6e3508e0",
+  "upstream": {
+    "hash": "a3372b753b6eade597b6690881ccc20c",
+    "codeMinLen": 79,
+    "codeMin": "t*=11/12,((t/2**(x=512/[128,128,143,137][t>>14&3])&1?x*t:t>>4)^t>>6)>>t%16&t>>4",
+    "codeLen": 81,
+    "code": "t*=11/12,((t/2**(x=512/[128,128,143,137][t>>14&3])&1?x*t:t>>4)^t>>6)>>(t%16)&t>>4",
+    "author": "lhphr",
+    "name": "HAZEHOUSE",
+    "description": "Electrohouse's weird distant brother.",
+    "url": "https://dollchan.net/btb/res/44.html#50",
+    "date": "2022-04-22",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "022181f288da4db822c8b44c889c0b49",
+        "author": "Anonymous from russian imageboards",
+        "name": "Electrohouse",
+        "url": [
+          "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+          "http://arhivach.xyz/thread/28592/#71681785",
+          "http://arhivach.ng/thread/28592/#71681785"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

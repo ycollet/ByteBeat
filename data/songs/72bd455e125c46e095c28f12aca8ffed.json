@@ -1,0 +1,25 @@
+{
+  "file": "songs/72bd455e125c46e095c28f12aca8ffed.js",
+  "title": "i am in lil' panic",
+  "author": "Maxi",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c61ed90d5192e504f07b98644a2d3a85c4762559b5010e18a0ba6f6f5f08ba7b",
+  "upstream": {
+    "hash": "72bd455e125c46e095c28f12aca8ffed",
+    "codeMinLen": 105,
+    "codeMin": "((t*(t>>12|t>>11|t>>10)^-t)&255)/4+sin(sqrt(t%16384))*32+32+random()*64*(1-t/4%2048/2048)*'01'[(t>>14)%2]",
+    "codeLen": 106,
+    "code": "((t*(t>>12|t>>11|t>>10)^-t)&255)/4+sin(sqrt(t%16384))*32+32+random()*64*(1-t/4%2048/2048)*[0,1][(t>>14)%2]",
+    "author": "Maxi",
+    "name": "i am in lil' panic",
+    "url": "https://dollchan.net/btb/res/500.html#2342",
+    "date": "2023-09-24",
+    "sampleRate": 44100,
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

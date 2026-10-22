@@ -1,0 +1,27 @@
+{
+  "file": "songs/4deaf8f296275712f5a7efd7a3972e5c.js",
+  "title": "mario's mystery meat - \"batman is expanding ahh!1!11!\"",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "3c0e684d803f5c06c6b14769e3573e03b7e13e308d2a30dd8f7a3ccdaa447bf6",
+  "upstream": {
+    "hash": "4deaf8f296275712f5a7efd7a3972e5c",
+    "codeMinLen": 329,
+    "codeMin": "t1=t,t/=48E3,BPM=197,T=t*BPM/60,40+2*((t1*2**([0,2,3,5,7,7,12,12,10,10,7,7,9,9,9,9,10,10,7,9,10,10,9,5,2,2,3,3,2,2,2,2,0,2,3,5,3,3,2,3,5,5,3,2,0,0,0,0,5,5,3,2,0,0,2,3,5,5,3,5,7,7,7,7][2*T&63]/12-.42)&127)+(T&32?b=64*T/'11222244212122441121214421212144'[T&31]&31:32*(T+.3))&128)/3+(t?a+=(T&32?6*b:32*(2*T+.3)&255)/6-a/2E3:a=0)/1E3",
+    "codeLen": 331,
+    "code": "t1=t,t/=48E3,BPM=197,T=t*BPM/60,40+((t1*2**([0,2,3,5,7,7,12,12,10,10,7,7,9,9,9,9,10,10,7,9,10,10,9,5,2,2,3,3,2,2,2,2,0,2,3,5,3,3,2,3,5,5,3,2,0,0,0,0,5,5,3,2,0,0,2,3,5,5,3,5,7,7,7,7][2*T&63]/12-.42)&127)+(T&32?(b=64*T/'11222244212122441121214421212144'[T&31]&31):(T+.3)*32)&128)*2/3+(t?a+=(T&32?6*b:(2*T+.3)*32&255)/6-a/2E3:a=0)/1E3",
+    "author": "BaenHoHoHo",
+    "name": "mario's mystery meat - \"batman is expanding ahh!1!11!\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b05sxi/marios_mystery_meat_batman_is_expanding_ahh111/",
+    "date": "2024-02-26",
+    "sampleRate": 48000,
+    "coverName": "Mario's Mystery Meat OST - Batman is Expanding",
+    "coverUrl": "https://www.youtube.com/watch?v=JX5AsZHvEf8",
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

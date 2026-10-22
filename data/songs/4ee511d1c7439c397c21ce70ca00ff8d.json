@@ -1,0 +1,32 @@
+{
+  "file": "songs/4ee511d1c7439c397c21ce70ca00ff8d.js",
+  "title": "difficult level",
+  "author": "computerman113",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7fe7ff4983498a59da9eb8393394e53b58602086c66d21032a78415282c07bb7",
+  "upstream": {
+    "hash": "4ee511d1c7439c397c21ce70ca00ff8d",
+    "codeMinLen": 176,
+    "codeMin": "t/=6,a=t*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t>>(t&16384?t&4096?3:4:3),b=sin(2E5/(t%4096+900))*64,c=t&4096?random()*64&-t>>5:0,o=a%256*.5+b+c,max(min(o+32,255),0)",
+    "codeLen": 197,
+    "code": "t/=6,\na=t*(t&16384?7:5)*(5-(3&t>>8))>>(3&-t>>(t&4096?2:16))|t>>(t&16384?t&4096?3:4:3),\nb=(sin(200000/((t%4096)+900)))*64,\nc=(t&4096)?((random()*64)&-t>>5):0,\n\no=(a%256*.5)+b+c,\nmax(min(o+32,255),0)",
+    "author": "computerman113",
+    "name": "difficult level",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1hfy2uj/difficult_level/",
+    "date": "2024-12-17",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "116c29b0df125d8eadf92c5771f0a025",
+        "author": "SthephanShi",
+        "name": "Hard level",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

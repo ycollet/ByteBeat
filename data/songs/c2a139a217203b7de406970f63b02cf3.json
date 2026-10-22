@@ -1,0 +1,30 @@
+{
+  "file": "songs/c2a139a217203b7de406970f63b02cf3.js",
+  "title": "Trippy test",
+  "author": "lehandsomeguy",
+  "mode": "Floatbeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c2a139a217203b7de406970f63b02cf3.js",
+  "sha256": "c26532751781e998a13e4e8a47fac40f132fe0849ed34e044e350785703189af",
+  "upstream": {
+    "hash": "c2a139a217203b7de406970f63b02cf3",
+    "codeMinLen": 277,
+    "codeMin": "f=x=>x%1,M=(a,b)=>a%b,T=x=>2*asin(sin(x))/PI,n=x=>sin((x+10)*sin(pow(x+10,f(x)+10))),(t=>{s=0;for(i=0;i<10;i++){s+=T(t*(1E3+i+(M(int((t+i*.02)*8),16)*(250+i*3))))}s/=9;s+=sin(t*250)*.5+sin(pow(1-f(t*2),10)*100)+n(t)*(1-pow(f(t*8),.2+(.2*(M(t,4)<.5))))*.5;return s*.7})(t/44100)",
+    "codeLen": 775,
+    "codeFormLen": 519,
+    "fileOrig": 1,
+    "fileForm": 1,
+    "codeText": "f=x=>x%1,M=(a,b)=>a%b,T=x=>2*asin(sin(x))/PI,n=x=>sin((x+10)*sin(pow(x+10,f(x)+10))),(t=>{s=0;for(i=0;i<10;i++){s+=T(t*(1E3+i+(M(int((t+i*.02)*8),16)*(250+i*3))))}s/=9;s+=sin(t*250)*.5+sin(pow(1-f(t*2),10)*100)+n(t)*(1-pow(f(t*8),.2+(.2*(M(t,4)<.5))))*.5;return s*.7})(t/44100)",
+    "isTruncated": 1,
+    "author": "lehandsomeguy",
+    "name": "Trippy test",
+    "url": "https://www.reddit.com/r/bytebeat/comments/48r00a/floatbeat_test/",
+    "date": "2016-03-03",
+    "mode": "Floatbeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-12-21"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "file": "songs/218c5d5716328b163c090f37ea351278.js",
+  "title": "F#maj / Ebmin, 90 BPM",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/218c5d5716328b163c090f37ea351278.js",
+  "sha256": "ff0052f4c6791fcef059b8ff3f7dbf785143f8fcb022fb15d9b3b101acbec0cc",
+  "upstream": {
+    "hash": "218c5d5716328b163c090f37ea351278",
+    "codeLen": 2235,
+    "fileOrig": 1,
+    "codeText": "// What you're seeing is Feeshbread's Dead Data Reverb\nt||(wsin=(phase)=>(-cos(phase/128*PI)+1)*128-.5,fx=[],dMax=1e6,lpf=lowPassFilter=(a,c)=>(lp_fxii=fxi++,fx[lp_fxii]??=0,fx[lp_fxii]+=(a-fx[lp_fxii])*c),hpf=highPassFilter=(a,c)=>a-lpf(a,c),bpf=bandPassFilter=(a,hc,lc)=>hpf(lpf(a,lc),hc),dly=multiTabDelay=(audio,heads,dw,fbfn=x=>x)=>{dly_fxii=fxi++;fx[dly_fxii]??=Array(dMax).fill(0);dly_wi\t=dt%dMax;dly_feed=audio;dly_out=0;for(let head of heads){dly_ri=(dMax+dt-round(head.t))%dMax;dly_feed+=fx[dly_fxii][d",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "F#maj / Ebmin, 90 BPM",
+    "url": [
+      "https://dollchan.net/btb/res/7164.html#7281",
+      "https://www.reddit.com/r/bytebeat/comments/1j8pdm2/fmaj_ebmin_90_bpm/"
+    ],
+    "date": "2025-06-14",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "EDDENSKY - F# major 90 bpm",
+    "coverUrl": "https://www.youtube.com/watch?v=V0PysQbnCaU",
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-10-22",
+    "date_edited": "2025-10-22"
+  }
+}

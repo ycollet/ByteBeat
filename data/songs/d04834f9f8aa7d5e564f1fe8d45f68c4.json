@@ -1,0 +1,44 @@
+{
+  "file": "songs/d04834f9f8aa7d5e564f1fe8d45f68c4.js",
+  "title": "battle castle",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/d04834f9f8aa7d5e564f1fe8d45f68c4.js",
+  "sha256": "ab81b30d77f69884667be034fbeddc872b2ca72a719bc8a2378099fc85a7eb2a",
+  "upstream": {
+    "hash": "d04834f9f8aa7d5e564f1fe8d45f68c4",
+    "codeMinLen": 920,
+    "codeLen": 1185,
+    "codeFormLen": 1667,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "s=x=>2**((x+.15)/12),d=12168,g=15&t>>15,v=4096,a=t=>((p=t*s([2,4,5,9,2,4,5,9,2,4,5,9,12,9,7,5,0,2,4,7,0,2,4,7,0,2,4,7,0,2,4,0,-2,0,2,5,-2,0,2,5,-2,0,2,5,-2,0,2,-2,-3,-1,1,4,-3,-1,1,4,-3,-1,1,7,-3,-1,1,9][(t>>13)%64]),(2*p&128)/1.5)*(1-t%8192/12E3)*(1152<t/v?0:1)),b=t*s([2,2,2,5,0,0,0,0,-2,-2,-2,-2,-3,-3,-3,1][g])/4,m=[2,2,2,0,0,0,0,0,-2,-2,-2,-2,-3,-3,-3,1][g],m2=[5,5,5,5,4,4,4,4,2,2,2,2,1,1,1,4][g],m3=[9,9,9,9,7,7,7,7,5,5,5,5,4,4,4,7][g],mt=1280<t/v?0:1,mt2=1024<t/v?0:1,mt3=1088<t/v?0:1,L=a(t)+a(t-d)/2+a(t",
+    "isTruncated": 1,
+    "author": "Zackx",
+    "name": "battle castle",
+    "description": "Extended version of \"Castle at the night\" with arpeggios and lhphr's drums from \"Awaiting Connection\".",
+    "url": "https://dollchan.net/btb/res/204.html#495",
+    "date": "2023-02-27",
+    "sampleRate": 44100,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "c464bab1015d2c23e917b68b7325ea39",
+        "author": "Zackx",
+        "name": "inside castle",
+        "url": "https://dollchan.net/btb/res/204.html#480"
+      },
+      {
+        "hash": "9c487b6deb65c1a3c9425d01f6debefc",
+        "author": "lhphr",
+        "name": "Awaiting Connection",
+        "url": "https://dollchan.net/btb/res/44.html#367"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

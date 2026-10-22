@@ -1,0 +1,23 @@
+{
+  "file": "songs/d871f695a9268fbd58377983af5ae719.js",
+  "title": "Modem melody",
+  "author": "krcko",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "513c74fa9f21403451245166557628035ee08cba7967258e43d7168fce17adf8",
+  "upstream": {
+    "hash": "d871f695a9268fbd58377983af5ae719",
+    "codeLen": 21,
+    "code": "(t&t>>12)*(t>>4|t>>8)",
+    "author": "krcko",
+    "name": "Modem melody",
+    "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt",
+    "date": "2011-10-04",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

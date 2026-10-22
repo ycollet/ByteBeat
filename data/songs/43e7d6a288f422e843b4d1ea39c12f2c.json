@@ -1,0 +1,27 @@
+{
+  "file": "songs/43e7d6a288f422e843b4d1ea39c12f2c.js",
+  "title": "electric angel",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "971d04f09bcb3b732ef826849fa03bf8c999bd6589133d04ea93b4262359e52a",
+  "upstream": {
+    "hash": "43e7d6a288f422e843b4d1ea39c12f2c",
+    "codeLen": 234,
+    "code": "t*2**(\"V\\0X\\0ZZZ\\0S\\0Z\\0]]]\\0Z\\0]\\0_\\0b\\0a\\0]\\0ZZZ\\0V\\0X\\0ZZZ\\0]\\0_\\0]]]\\0XXX\\0X\\0Z\\0X\\0V\\0SSS\\0Q\\0S\\0VVV\\0S\\0V\\0XXX\\0V\\0X\\0Z\\0]\\0Z\\0X\\0WWW\\0Z\\0]\\0_\\0]\\0Z\\0]\\0XXX\\0V\\0X\\0Z\\0\\0\\0Q\\0\\0\\0SSS\\0\".charCodeAt((t/1.05>>12)%128)/12-5)/1.17&128",
+    "author": "Zackx",
+    "name": "electric angel",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#2108",
+      "https://www.reddit.com/r/bytebeat/comments/164liea/electric_angel/"
+    ],
+    "date": "2023-08-29",
+    "sampleRate": 44100,
+    "coverName": "Kagamine Rin & Len - Electric Angel",
+    "coverUrl": "https://youtu.be/sSYoz0JmnZo",
+    "tags": [
+      "256"
+    ]
+  }
+}

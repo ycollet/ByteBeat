@@ -1,0 +1,28 @@
+{
+  "file": "songs/4ae5e89bc6bba34be0c8204efcb0cd08.js",
+  "title": "caustic storm",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/4ae5e89bc6bba34be0c8204efcb0cd08.js",
+  "sha256": "16dc2dc4196f5679b37fdeea6c3deb08ca81d7b3dd71ef8fb7b044fdcb21a16e",
+  "upstream": {
+    "hash": "4ae5e89bc6bba34be0c8204efcb0cd08",
+    "codeLen": 2024,
+    "fileOrig": 1,
+    "codeText": "t?(B=t*s*10,C=B>>4,D=C>>3,J=D>1,i=B&15,n=e,e=!(B/2&1),e-n>0?c=d=0:d+=s,n=w,w=4112>>i&1,w-n>0?h=0:h+=s,k=2800/(1+d*650),c=(c+k*s)%1,g=v(p(Z[0][i])-24),A(0,g),n=u,k=60797>>i,u=k&!(B*2&1),u-n>0?z[0]=z[1]=0:z[1]+=s*40,n=z[1],f=W(.1,.7,1/512)**2/(1+n/16),k=z[0],a=o((S(48e3*k*f/g)*(1-k)+.5-k)*64)/(1+n)*(n<(7107>>i&1)*4+2.5)-z[2],z[2]+=.02*a,n=B/2&15,A(3,v(p(Z[1][n])-K)/2),A(4,v(0)),A(5,v(K-5)),b=(z[3]+z[4]+z[5])/3-.5,n=x,x=73>>(i&7)&1,x-n>0?z[6]=0:z[6]+=s*40,b/=1+(z[6]/2)**2,b*=D<2,f=W(.2,.4,1/64)/(1+z[6]),q=.6,z",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "caustic storm",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1g705vk/wow_its_been_a_while_and_a_half_since_ive_posted/",
+    "date": "2024-10-19",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "coverName": "mniip - caustic storm",
+    "coverUrl": "https://youtu.be/dwOw0nliuzg",
+    "tags": [
+      "big"
+    ]
+  }
+}

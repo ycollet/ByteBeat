@@ -1,0 +1,37 @@
+{
+  "file": "songs/bcf47d4f2f080860e56ba737d96fcb90.js",
+  "title": "Take on me",
+  "author": "Sychamis",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bcf47d4f2f080860e56ba737d96fcb90.js",
+  "sha256": "9584de57d56ed3c48abacc5988c216c3a5351d53d6c9701cd0846958bcdd5389",
+  "upstream": {
+    "hash": "bcf47d4f2f080860e56ba737d96fcb90",
+    "codeLen": 2730527,
+    "fileOrig": 1,
+    "codeText": "t==0?(a=\"a5696966a5aa9a5555a9a96aaaaaa9aaab5aabd5556d55ad55af56a56d55f5aa96a96a596555aa9a56aaa96a6a96aaa95555aaaa6a96aa5569a9556aaaaaaaaaa956aa96aa5aa9a696aa5596aaa9556a5a56aaaaaa6aa996a5aa969a96a5a95556aaa6a95a6aaaa5559556a955a5695a96aa96aaaaaa5a95aaa565a556a9a96a96a9556aaaaaaa955aaaa99a56a55aa55565aa5aaaaaaaaa695a6a9556a9555aaaaa96a96565aaa6a9a565aaa96aaa5aa96aaa56aaaa65a96aa956aaa6aa95aaabdadef556aa5556ad556d557fd5b5d6aaa9695696aaa59a55a56aaa956a5a55556a96aaaaa96a6aaa5aaaaa56aa956aa559aaa96a55a5aaaa6a6a9",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Take on me",
+    "description": "Another DPCM with dynamic amplitude example.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1e7ey8x/103_bit_per_sample_improved_dpcm_audio/",
+    "date": "2024-07-24",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "b8a2abfa1df6d555034128664e7c59a9",
+        "author": "Sychamis",
+        "name": "ADPCM in bytebeat",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1e7ey8x/103_bit_per_sample_improved_dpcm_audio/"
+      }
+    ],
+    "coverName": "A-ha - Take On Me",
+    "coverUrl": "https://youtu.be/djV11Xbc914",
+    "tags": [
+      "big",
+      "sample"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

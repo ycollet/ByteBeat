@@ -1,0 +1,40 @@
+{
+  "file": "songs/87b60f45c2fefc537d19e2dd9722be41.js",
+  "title": "Believe",
+  "author": "May_I_Change_My_Name",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/87b60f45c2fefc537d19e2dd9722be41.js",
+  "sha256": "659b7b6adf6c88e8aa1accbbd9db438b8fb5983b6e7d3461e9f98e9da3159016",
+  "upstream": {
+    "hash": "87b60f45c2fefc537d19e2dd9722be41",
+    "codeLen": 6340,
+    "fileOrig": 1,
+    "codeText": "let mod=(n,d)=>n%d>=0?n%d:n%d+d;\nlet clamp=(mn,mx)=>q=>max(min(q,mx),mn);\n\nclass Clock {\n\tconstructor(freq) {\n\t\tthis.f = freq;\n\t};\n\ttick(t) {",
+    "isTruncated": 1,
+    "author": "May_I_Change_My_Name",
+    "name": "Believe",
+    "description": "Bytebattle Season 2 Competition - 3rd place.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1h2v2yn/wip_bytebattle_season_2_entry/",
+      "https://bytebeat.oops.wtf/season2/entries.html"
+    ],
+    "date": "2024-11-29",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "461498ab2fcc4661b44b0305574083aa",
+        "author": "May_I_Change_My_Name",
+        "name": "playing block chords in the lower registers",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1g32b1q/wip_karplusstrong_piano/"
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-08"
+  }
+}

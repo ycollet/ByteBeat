@@ -1,0 +1,27 @@
+{
+  "file": "songs/7532898ca2b73b5a059c42507462dd29.js",
+  "title": "Slide CHAOTIC Melódica Remake",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 38229.333,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/7532898ca2b73b5a059c42507462dd29.js",
+  "sha256": "19108f92053cbf3da5fffcccf239ebc41c1e620ba74391473f46981c500e8595",
+  "upstream": {
+    "hash": "7532898ca2b73b5a059c42507462dd29",
+    "codeLen": 674,
+    "fileOrig": 1,
+    "codeText": "t||(d=e=0),n=1.79,a=t*n*2**([0,0,0,12,12,12,11,11,11,11,9,9,7,7,6,6,2,2,2,11,11,11,9,9,9,9,7,7,6,6,3,3,4,4,4,16,16,16,14,14,14,14,12,12,11,11,11,11,-1,-1,-1,6,6,6,9,9,9,9,11,11,9,9,7,7,0,0,0,12,12,12,11,11,11,11,9,9,7,7,6,6,2,2,2,11,11,11,9,9,9,9,7,7,6,6,3,3,4,4,4,16,16,16,14,14,14,14,12,12,11,11,11,11,7,7,7,19,19,19,18,18,18,18,16,16,23,23,16,16][t>>12&127]/12),b=t*n*.997*2**([4,6,7,2,4,6,7,14][t>>16&7]/12),c=t*n/2*2**([0,2,4,-1,0,2,4,7][t>>16&7]/12),d+=e+=(n/3.99*2**([0,2,4,-1,0,2,4,7][t>>16&7]/12)*2**('0",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "Slide CHAOTIC Melódica Remake",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1edbqeu/unfortunate_failed_recreation_of_one_of_my_song",
+    "date": "2024-07-27",
+    "sampleRate": 38229.333,
+    "coverName": "Nn-n4 - Slide CHAOTIC Melódica",
+    "coverUrl": "https://www.youtube.com/watch?v=mL_bejzzLeA",
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-22"
+  }
+}

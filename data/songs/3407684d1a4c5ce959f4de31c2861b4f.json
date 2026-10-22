@@ -1,0 +1,36 @@
+{
+  "file": "songs/3407684d1a4c5ce959f4de31c2861b4f.js",
+  "title": "SEQUENCER 2",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3407684d1a4c5ce959f4de31c2861b4f.js",
+  "sha256": "1b07a51da00eec2c9b45fb2de5fc8da1771467ae15b9271ca3384c24ac84d91e",
+  "upstream": {
+    "hash": "3407684d1a4c5ce959f4de31c2861b4f",
+    "codeLen": 15687,
+    "fileOrig": 1,
+    "codeText": "// Dabu - Dwarf Fortress OST - Toady One\n// https://www.youtube.com/watch?v=Mn9o6Gfnb_I\n// But i actually tried to make a piano.\n// also uh yeah smaller song thing yaay\nconst instruments = 10;\nconst startingTempo = 320;\nconst A4 = 440;\n",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "SEQUENCER 2",
+    "description": "Tried to make a piano.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1i08qwr/sequencer_2/",
+    "date": "2025-01-13",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "69813a3901622f376bda32af0ad533b3",
+        "author": "Chasyxx",
+        "name": "o toady one",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1eog5me/o_toady_one/"
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-24"
+  }
+}

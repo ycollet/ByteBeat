@@ -1,0 +1,26 @@
+{
+  "file": "songs/19834efa27bcce63bd809cb0b837351f.js",
+  "title": "3-stringed FM guitar",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/19834efa27bcce63bd809cb0b837351f.js",
+  "sha256": "f2a496a08eded32b227e8bb1371e721e68bb8352248708668ca2eaae8efe9609",
+  "upstream": {
+    "hash": "19834efa27bcce63bd809cb0b837351f",
+    "codeMinLen": 279,
+    "codeMin": "x=131072,y=8192,k=1+t%x/y,a=t=>PI*2**((t>>17&7)/12),b=(m,n,p=0)=>n*sin(t*a(t)*2**(p/12)/(2<<m))/k,32*sin(b(7,2)+b(6,4)+b(5,4)+b(4,4))/k+(t>2E3)*32*sin(b(7,2,5)+b(6,4,5)+b(5,4,5)+b(4,4,5))/(1+(t-2E3)%x/y)+(t>4E3)*32*sin(b(7,2,10)+b(6,4,10)+b(5,4,10)+b(4,4,10))/(1+(t-4E3)%x/y)+128",
+    "codeLen": 722,
+    "fileOrig": 1,
+    "codeText": "x=131072,y=8192,k=1+t%x/y,a=t=>PI*2**((t>>17&7)/12),b=(m,n,p=0)=>n*sin(t*a(t)*2**(p/12)/(2<<m))/k,32*sin(b(7,2)+b(6,4)+b(5,4)+b(4,4))/k+(t>2E3)*32*sin(b(7,2,5)+b(6,4,5)+b(5,4,5)+b(4,4,5))/(1+(t-2E3)%x/y)+(t>4E3)*32*sin(b(7,2,10)+b(6,4,10)+b(5,4,10)+b(4,4,10))/(1+(t-4E3)%x/y)+128",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "3-stringed FM guitar",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1gnxjad/3stringed_fm_guitar/",
+    "date": "2024-11-10",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

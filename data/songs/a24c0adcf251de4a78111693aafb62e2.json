@@ -1,0 +1,25 @@
+{
+  "file": "songs/a24c0adcf251de4a78111693aafb62e2.js",
+  "title": "robot out of control",
+  "author": "frenzy",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "df1ddcf5b5ac6251337511f899958e96b04985e076f789a553a20a4818e977ce",
+  "upstream": {
+    "hash": "a24c0adcf251de4a78111693aafb62e2",
+    "codeMinLen": 71,
+    "codeMin": "(t&64|t>>5)^(t&33|t>>8)^(t&14|t>>9|t&76)^(t|187)^t*(t>>8&838+t>>13)&644",
+    "codeLen": 73,
+    "code": "(t&64|t>>5)^(t&33|t>>8)^(t&14|t>>9|t&76)^(t|187)^(t*(t>>8&838+t>>13)&644)",
+    "author": "frenzy",
+    "name": "robot out of control",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=6#c388680",
+    "date": "2011-10-02",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "file": "songs/f5b76980dc99ae0a0defce58ddf4b6e8.js",
+  "title": "truefinale.mx9",
+  "author": "awogler9124812041",
+  "mode": "Signed Bytebeat",
+  "rate": 17817,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f5b76980dc99ae0a0defce58ddf4b6e8.js",
+  "sha256": "35e9ddf940ddffa303459bd27411f73d4e25919626c092fe9ef9e0cf05d7922c",
+  "upstream": {
+    "hash": "f5b76980dc99ae0a0defce58ddf4b6e8",
+    "codeLen": 1197,
+    "fileOrig": 1,
+    "codeText": "y=t/1.066*2,\r\nv=1.0595,\r\nv2=v**12,\r\nv3=v2*2,\r\nw1=t=>sin(sin(sin(sin(sin(sin(cos(sin(t*PI/128)*4)))*2)-t/2048)+t/4096))*256,\r\nw2=t=>(t^t/2+t+64*(sin((t*PI/64)+(t*PI/32768))+64))%128*2,\r\nw3=t=>t%32+t*1.99%32+t*.49%32+t*.97%32-64,\r\nm=[\r",
+    "isTruncated": 1,
+    "author": "awogler9124812041",
+    "name": "truefinale.mx9",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ds18ah/truefinalemx9/",
+    "date": "2024-06-30",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 17817,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ]
+  }
+}

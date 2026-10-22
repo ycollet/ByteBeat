@@ -1,0 +1,26 @@
+{
+  "file": "songs/adb912ae5f4aa6181eb6591853359e7b.js",
+  "title": "Amplitude Wavewrapper",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "de4304dd1f66b7dc67f4d04154a0ab1bde39785a5506fc6d77773076b0e5db7e",
+  "upstream": {
+    "hash": "adb912ae5f4aa6181eb6591853359e7b",
+    "codeMinLen": 86,
+    "codeMin": "ampf=(i,l=1,o=0)=>((i+o+l)%(2*l)+(2*l))%(2*l)-l,ampf((sin(t*PI/512)+1)*(t/23500),1,-1)",
+    "codeLen": 185,
+    "code": "ampf = amplitudeFold = (input, limit = 1, offset = 0) => ((input + offset + limit) % (2 * limit) + (2 * limit)) % (2 * limit) - limit, ampf((sin(t * PI / 512) + 1) * (t / 23500), 1, -1)",
+    "author": "PrincessPriscillaPT",
+    "name": "Amplitude Wavewrapper",
+    "url": "https://dollchan.net/btb/res/7164.html#12526",
+    "date": "2026-02-05",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2026-02-21"
+  }
+}

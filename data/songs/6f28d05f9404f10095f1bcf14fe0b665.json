@@ -1,0 +1,54 @@
+{
+  "file": "songs/6f28d05f9404f10095f1bcf14fe0b665.js",
+  "title": "CA98 Sunset Road+Robocop.mp3",
+  "author": "PrincessPriscillaPT",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6f28d05f9404f10095f1bcf14fe0b665.js",
+  "sha256": "637c6d55796d01f443a9c4b65d179f9535493cef6161cd41e27e43876ea8a90f",
+  "upstream": {
+    "hash": "6f28d05f9404f10095f1bcf14fe0b665",
+    "codeLen": 775,
+    "fileOrig": 1,
+    "codeText": "r=t*8/7,l=16384,u=8192,c=4096,x=j=>min(max((s=(a,b)=>(((t/48e3*256)*432*2**((parseInt(a,36)-3)/12)/b/8%64+(sin(t*PI/l/3)*16+32)&64)-(sin(t*PI/l/3)*16+32)),w=r=>r>0&&(e=a=>s('C7EGG0J7C7EGG0JN'[15&r>>13],a*'1111121211111211'[15&r>>13]),(1&r>>21?((t&8)/6*sin(t/2e5)+1-sin(t/2e5)):1)*(e(1)+e(j/(1+(1&r>>21)))))*(1.25-r/u%1*[.25,.25+.5*(1&~r>>21)][1&r>>19]),w(r)+w(r-(d=24576))/2+w(r-2*d)/4+w(r-3*d)/8+(b=a=>s('C957'[3&r>>18],a),b(8)+b(4/j))*1.33*(r/l%2)*(1.33-r%u/1e4)+(random()-.5)*120*(1-r/u%1)**4+atan(sin(6*sqrt(",
+    "isTruncated": 1,
+    "author": "PrincessPriscillaPT",
+    "name": "CA98 Sunset Road+Robocop.mp3",
+    "url": "https://dollchan.net/btb/res/7164.html#9181",
+    "date": "2025-09-15",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "f1a078303a751489626d218ff760c4ae",
+        "author": "PortablePorcelain",
+        "name": "This works in a lot of pitches/tempos for some reason",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1h3x3z0/this_works_in_a_lot_of_pitchestempos_for_some/"
+      },
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      },
+      {
+        "hash": "db520d39c9f6969e69219d2c5132502b",
+        "author": "Zackx",
+        "name": "Sunset road",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4013",
+          "https://www.reddit.com/r/bytebeat/comments/1edi5ya/pwmsynth_master/"
+        ]
+      }
+    ],
+    "coverName": "robocop.mp3",
+    "coverUrl": "https://www.youtube.com/watch?v=vHo7npmGcHU",
+    "tags": [
+      "1k",
+      "slow"
+    ],
+    "date_added": "2025-09-25",
+    "date_edited": "2025-11-17"
+  }
+}

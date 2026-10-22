@@ -1,0 +1,32 @@
+{
+  "file": "songs/a3d9651195df386c35c48f2e9687f441.js",
+  "title": "Adding sinewave",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2f9453e6e9006d27006e2a01c42f759cd7dc1b57b44276ab1190097787c8735b",
+  "upstream": {
+    "hash": "a3d9651195df386c35c48f2e9687f441",
+    "codeMinLen": 89,
+    "codeMin": "z=t*[1,.8865,.79,.593][t>>14&3]/2*2**(3&t>>10),(z%100+z%100.5+z%67)/1.5+32+32*sin(z/1.34)",
+    "codeLen": 108,
+    "code": "z=[1,0.8865,0.79,0.593][(t>>14)%4]*[0.5,1,2,4][3&t>>10],(z*t%100+z*t%100.5+z*t%67)/1.5+32+(sin(z*t/1.34))*32",
+    "author": "Zackx",
+    "name": "Adding sinewave",
+    "url": "https://dollchan.net/btb/res/204.html#249",
+    "date": "2022-11-16",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "79c4cce29000b6e1e64952ce28ddfb57",
+        "author": "Zackx",
+        "name": "Sawtooth bass",
+        "url": "https://dollchan.net/btb/res/204.html#247"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

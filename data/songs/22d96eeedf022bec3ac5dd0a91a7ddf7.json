@@ -1,0 +1,38 @@
+{
+  "file": "songs/22d96eeedf022bec3ac5dd0a91a7ddf7.js",
+  "title": "Strato ripoff lol",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 30000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/22d96eeedf022bec3ac5dd0a91a7ddf7.js",
+  "sha256": "e7448911978a6e36f45fa6836e0b60738e0faba9a55311b58f193f0259e6f8d1",
+  "upstream": {
+    "hash": "22d96eeedf022bec3ac5dd0a91a7ddf7",
+    "codeMinLen": 916,
+    "codeLen": 990,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(a1=[0],a2=[0],b=(A=Array)(l=12288)[f='fill'](0),c=A(l)[f](0),d=A(l)[f](0),e=A(l)[f](0)),channels=['1010101101101010101010110110111110101011011010101010101101111111'[t/4096&63],'1111110011001111001111111100110011111111001111110011111111111111'[t/4096&63],'0011110011001100111100111111001100110001111011011111001111111111'[t/4096&63]],x=(a,g,h,m)=>(bass=((t/3*a*2**(parseInt('4720'[t>>17&3],36)/12)&128)/128-.5)*(t>>13&1)+g[t%1],g[t%1]=bass/1.05,bass/=8,X=t/131072,triLead=atan(X%1*tan(X*PI+asin(sin((t+sin(t*P",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Strato ripoff lol",
+    "url": "https://dollchan.net/btb/res/6946.html#9746",
+    "date": "2025-10-11",
+    "mode": "Floatbeat",
+    "sampleRate": 30000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "b1808832521d6eb0ebb9add08d1327ed",
+        "author": "lhphr",
+        "name": "Strato",
+        "url": "https://dollchan.net/btb/res/44.html#367"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-10-11",
+    "date_edited": "2025-11-03"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/1fc05b722590f844316f92bb645510d0.js",
+  "title": "neurofunk remix again",
+  "author": "BaenHoHoHo",
+  "mode": "Bytebeat",
+  "rate": 13285,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d35b3e9558893d4c6bf4b34c9d409534e13e7d9ad7572345522534346cbcc13f",
+  "upstream": {
+    "hash": "1fc05b722590f844316f92bb645510d0",
+    "codeMinLen": 320,
+    "codeMin": "t/=1.6,k=t>>10&7,l=t>>10&3,p=(100+(255&t*((t&4096?t%65536<59392?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10)))*(2==k?3:2==~l?1:-2/3*k)/12+(-t*['87',[8.5,8]][~t>>12&1][~t>>14&1]/4&128)/3+(2.7**(-t*(o='1421241424242412'[t>>11&15])/512%8+8)/o&64)+random()*(255&-t>>2)*(255&t>>4)/800+1E5/(t&2047)%64)/1.2,p*p>>16?255:p>>16?0:p",
+    "codeLen": 322,
+    "code": "t/=8/5,k=t>>10&7,l=t>>10&3,p=(100+(255&t*((t&4096?t%65536<59392?7:t&7:16)+(1&t>>14))>>(3&-t>>(t&2048?2:10)))*(k==2?3:~l==2?1:-2/3*k)/12+(-t*['87',[8.5,8]][~t>>12&1][~t>>14&1]/4&128)/3+(2.7**(-t*(o='1421241424242412'[t>>11&15])/512%8+8)/o&64)+random()*(255&-t>>2)*(255&t>>4)/800+1e5/(t&2047)%64)/1.2,p*p>>16?255:(p>>16?0:p)",
+    "author": "BaenHoHoHo",
+    "name": "neurofunk remix again",
+    "url": "https://dollchan.net/btb/res/117.html#2419",
+    "date": "2023-10-07",
+    "sampleRate": 13285,
+    "remix": [
+      {
+        "hash": "28538b18509eaa09ca2f5918139364bd",
+        "author": "SthephanShi",
+        "name": "Neurofunk",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0laz2/neurofunk/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

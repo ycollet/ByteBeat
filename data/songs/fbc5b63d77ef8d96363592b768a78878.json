@@ -1,0 +1,26 @@
+{
+  "file": "songs/fbc5b63d77ef8d96363592b768a78878.js",
+  "title": "Eat Sleep Rave Retweet",
+  "author": "kb",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4d637c8c436a719f1c2e86a76ba7fbda8352ec763ab800aac4ca5d71cc19c1a7",
+  "upstream": {
+    "hash": "fbc5b63d77ef8d96363592b768a78878",
+    "codeMinLen": 216,
+    "codeMin": "min(255,max(0,64+(t*pow(2,(t>>10&3)+((t>>14&1)+(t>>12&3))/12)&255)/2+cos(t/(8*(t&4095)+1E3))*100+(1-t%1024/1024)*(1.5*sin(t/1E5)*sin(t/977.8)*(t%1024*(t%1024)*1300%(256-(floor(t/8192)&3))-128)+60*sin(t*sin(t/1E4)))))",
+    "codeLen": 250,
+    "code": "min(255,max(0,64+(t*pow(2,(t>>10&0x03)+((t>>14&0x01)+(t>>12&0x03))/12)&0xff)/2+cos(t/(8*(t&0xfff)+1000))*100+(1-(t%0x400)/0x400)*(1.5*sin(t/100000)*sin(t/977.8)*((((t%0x400)*(t%0x400)*1300)%(256-(floor(t/0x2000)&0x03)))-128)+60*sin(t*sin(t/10000)))))",
+    "author": "kb",
+    "name": "Eat Sleep Rave Retweet",
+    "description": "Lovebyte 2021 competition.",
+    "url": "https://demozoo.org/music/291148/",
+    "date": "2021-03-13",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-11-09"
+  }
+}

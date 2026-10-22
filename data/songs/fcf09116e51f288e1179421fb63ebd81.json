@@ -1,0 +1,36 @@
+{
+  "file": "songs/fcf09116e51f288e1179421fb63ebd81.js",
+  "title": "combination (Death 1000666ZZ + Street Surfer)",
+  "author": "hcdphobe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "19992c29ae99bac0a662dc0f69d544b3f5a787dc9584755fc9798afd17518745",
+  "upstream": {
+    "hash": "fcf09116e51f288e1179421fb63ebd81",
+    "codeMinLen": 184,
+    "codeMin": "(t*[t>>10^t>>11|t>>12&t>>13,t>>8^t>>6|t>>5&t>>9,t>>11^t>>14|t>>13&t>>15][(t>>14^t>>15^t>>13)%3]|t>>[2,3,2,3][(t>>13^t>>12^t>>11)%4])&(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))",
+    "codeLen": 194,
+    "code": "(t*([(t>>10^t>>11|t>>12&t>>13),(t>>8^t>>6|t>>5&t>>9),(t>>11^t>>14|t>>13&t>>15)][(t>>14^t>>15^t>>13)%3])|t>>([2,3,2,3][(t>>13^t>>12^t>>11)%4]))&(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))",
+    "author": "hcdphobe",
+    "name": "combination (Death 1000666ZZ + Street Surfer)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10qo7mm/someone_has_posted_a_bytebeat_link_in_comments_on/",
+    "date": "2023-02-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

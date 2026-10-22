@@ -1,0 +1,21 @@
+{
+  "file": "songs/12f1077b314946b94ad45ce173b7ec82.js",
+  "title": "Untitled (12f1077b)",
+  "author": "yehar",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "51a01402a71f368ed30adb6713cde2a147839c16319414c6d1fbcaac716923a9",
+  "upstream": {
+    "hash": "12f1077b314946b94ad45ce173b7ec82",
+    "codeLen": 97,
+    "code": "t>>4+!(-t>>13&7)+2*!(t>>17)|t*t*(t>>(t>>12^t>>11)%3+10)/(7+(t>>10&t>>14&3))*!(t&512)<<3+(t>>14&1)",
+    "author": "yehar",
+    "url": "http://www.pouet.net/topic.php?which=8357&page=21#c401680",
+    "date": "2012-02-25",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

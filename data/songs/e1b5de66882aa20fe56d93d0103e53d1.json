@@ -1,0 +1,27 @@
+{
+  "file": "songs/e1b5de66882aa20fe56d93d0103e53d1.js",
+  "title": "chernobylbeat.js",
+  "author": "funute",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/e1b5de66882aa20fe56d93d0103e53d1.js",
+  "sha256": "6ea5945b72d0160a4d80f9414aa252e3942dc6035c6adfa71bee42d953603063",
+  "upstream": {
+    "hash": "e1b5de66882aa20fe56d93d0103e53d1",
+    "codeMinLen": 289,
+    "codeMin": "RATE=44100,nt=t/RATE,TEMPO=.6,bn=floor(nt/TEMPO),bp=nt%TEMPO,mn=floor(bp*4),mp=bp*4%1,sw=(a,b)=>sin(6.28*a*220*b)/2+.5,P=[0,1,4,3,5,2,6,7],bn<192?(mp<.1?sw(t*t*t,9):0)*40+(bn>32?nt*110*P[(bn/8|0)%(P.length-1)+1]%256*30:0)+(mn?sw(nt,mn+bn%4+P[(bn/4|0)%P.length]):sw(pow(bp,.2),.1)*.6)*220:0",
+    "codeLen": 316,
+    "fileOrig": 1,
+    "codeText": "RATE=44100,nt=t/RATE,TEMPO=.6,bn=floor(nt/TEMPO),bp=nt%TEMPO,mn=floor(bp*4),mp=bp*4%1,sw=(a,b)=>sin(6.28*a*220*b)/2+.5,P=[0,1,4,3,5,2,6,7],bn<192?(mp<.1?sw(t*t*t,9):0)*40+(bn>32?nt*110*P[(bn/8|0)%(P.length-1)+1]%256*30:0)+(mn?sw(nt,mn+bn%4+P[(bn/4|0)%P.length]):sw(pow(bp,.2),.1)*.6)*220:0",
+    "isTruncated": 1,
+    "author": "funute",
+    "name": "chernobylbeat.js",
+    "url": "https://battleofthebits.com/arena/Entry/chernobylbeat.js/42176/",
+    "date": "2021-01-01",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-11-17"
+  }
+}

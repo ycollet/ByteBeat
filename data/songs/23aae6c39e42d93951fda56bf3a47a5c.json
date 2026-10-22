@@ -1,0 +1,26 @@
+{
+  "file": "songs/23aae6c39e42d93951fda56bf3a47a5c.js",
+  "title": "Automotivo 157",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 35498.66666,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "596c8fbee2a8ab1e548b71e8e47e0bf99fc05fe500136d1dd14843513ab2476d",
+  "upstream": {
+    "hash": "23aae6c39e42d93951fda56bf3a47a5c",
+    "codeMinLen": 200,
+    "codeMin": "n=.95,a=b=>t*n*2**(b[t>>17&1]/12)&32,((a([-12,-12])+a([-7,-9])+a([-4,-5]))*(-(t%65536)*3>>10&255)>>8)+(t*n*2**([0,0,5,5,7,7,7,7,0,8,8,5,5,3,2,2,,,0,0,2,2,3,3,7,7,5,5,2,5,0,0][t>>13&31]/12)&32)%256+1/3",
+    "codeLen": 202,
+    "code": "n=.95,a=k=>t*n*2**(k[t>>17&1]/12)&32,((a([-12,-12])+a([-7,-9])+a([-4,-5]))*(-(t%65536)*3>>10&255)>>8)+(t*n*2**([0,0,5,5,7,7,7,7,0,8,8,5,5,3,2,2,,,0,0,2,2,3,3,7,7,5,5,2,5,0,0][t>>13&31]/12)&32)%256*1+1/3",
+    "author": "Decent-Manager-6169",
+    "name": "Automotivo 157",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ckpqef/random_recreated_melody_2/",
+    "date": "2024-05-05",
+    "sampleRate": 35498.66666,
+    "coverName": "DJ Th 011 - Automotivo 157",
+    "coverUrl": "https://youtu.be/bcWe52lvyb4",
+    "tags": [
+      "256"
+    ]
+  }
+}

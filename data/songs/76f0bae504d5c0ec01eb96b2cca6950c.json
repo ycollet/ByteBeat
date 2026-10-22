@@ -1,0 +1,34 @@
+{
+  "file": "songs/76f0bae504d5c0ec01eb96b2cca6950c.js",
+  "title": "am blue",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/76f0bae504d5c0ec01eb96b2cca6950c.js",
+  "sha256": "c1ed6b144d8d132df0e50e2edee47ab24e1b833764ff7eecb981b970367fac1b",
+  "upstream": {
+    "hash": "76f0bae504d5c0ec01eb96b2cca6950c",
+    "codeMinLen": 699,
+    "codeLen": 716,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "a=t*[1.35,.85,1.125,1.35,1.5,1,1.27,1.35,1.35,1.125,1.35,1.7,1.8,1.125,1.7,1.5,1.35,.85,1.125,1.35,1.5,1,1.27,1.35,1.35,1.125,1.35,1.7,1.8,1.125,1.7,1.5,1.35,.85,1.125,1.35,1.5,1,1.27,1.35,1.35,1.125,1.35,1.7,1.8,1.125,1.7,1.5,1.35,.85,1.125,1.35,1.27,.75,1,1.125,1.125,1.125,1,1.125,1.125,1,1.125,1.27][t/1.2>>13&63],b=t*[2.25,2,1.8,1.5][t/1.2>>15&3],c=random()*(1-(t/1.2>>4)/256%1)*[1,1-(t/64*1.125&1&t/1.2>>13),1-(t/64*1.125&1&t/1.2>>13),0][t/1.2>>14&3],d=sin(262144/(t/1.2%32768)/128*PI)*127+128,((a&128)/2.5",
+    "isTruncated": 1,
+    "author": "D3nschøt",
+    "name": "am blue",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1czxl9v/a_remix_of_a_remix_am_blue/",
+    "date": "2024-05-25",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "4ebdc1d80e60b2b9dac47d80952a9220",
+        "author": "Decent-Manager-6169",
+        "name": "Melody Of Im Blue (with drums)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/rs1qqi/comment/hqridb8/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

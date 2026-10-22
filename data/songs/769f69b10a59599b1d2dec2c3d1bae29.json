@@ -1,0 +1,29 @@
+{
+  "file": "songs/769f69b10a59599b1d2dec2c3d1bae29.js",
+  "title": "13TK",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/769f69b10a59599b1d2dec2c3d1bae29.js",
+  "sha256": "7b66d5db33f08a2b0e30b85bfc1e246088c58a4cd1c38268764eccebe81be021",
+  "upstream": {
+    "hash": "769f69b10a59599b1d2dec2c3d1bae29",
+    "codeLen": 1257,
+    "fileOrig": 1,
+    "codeText": "k=(x,y)=>t*2**(parseInt(x[y],36)/12),\n\nl1=cos(t%16384*PI/32768),\n\nl2=sin(t%16384*PI/32768),\n\nx=a=>(t-128)%(256-a),l=i=>i&&x(i/10)+l(i-1),\nu1=[13,12,11,13,14,15,12,14][t>>14&7^t>>15&5],",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "13TK",
+    "description": "Ear Killer X <button class=\"code-text\" data-songdata=\"{&quot;sampleRate&quot;:48000}\" title=\"Click to play this code\">t&lt;&lt;t/(t&amp;t&gt;&gt;13)</button>",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1o9ngj1/13tk/",
+    "date": "2025-10-18",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-19",
+    "date_edited": "2025-11-19"
+  }
+}

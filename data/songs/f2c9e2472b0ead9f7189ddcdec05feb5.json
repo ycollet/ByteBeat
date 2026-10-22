@@ -1,0 +1,34 @@
+{
+  "file": "songs/f2c9e2472b0ead9f7189ddcdec05feb5.js",
+  "title": "New instrumental in the new year (happy mix #2)",
+  "author": "Firstnameiskowitz",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f2c9e2472b0ead9f7189ddcdec05feb5.js",
+  "sha256": "556081338c56c460b85206d83a1c19f31023becce525cf39f0b70fc545a31605",
+  "upstream": {
+    "hash": "f2c9e2472b0ead9f7189ddcdec05feb5",
+    "codeMinLen": 562,
+    "codeLen": 568,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "s=15,p=1.042*t,w=64,v=p*[.5,.5,.5,.5,.42,.42,.42,.42,.333333,.333333,.333333,.28,.375,.375,.375,.375][15&t>>s]/(1+(~t>>13&1)),v2=p*[.75,.75,.75,.75,.84,.84,.84,.75,.84,.84,.84,.84,.94,.94,.94,.94][15&t>>s],v3=p*[1,1,1,.94,1,1,1,1,1,1,1,1.12,.94,.94,.94,.94][15&t>>s],v4=p*[1.26,1.26,1.26,1.26,1.26,1.26,1.26,1.26,1.33,1.33,1.33,1.41,1.5,1.5,1.5,1.33][15&t>>s],((v&w)+(v2&w)+(v3&w)+(v4&w))*(t&16383)/16383/1.9+32*sin(20*cbrt(t%16384/40))+32*random()*(-t&8E3)/8E3+(t*[0,sin(t/1.3>>1)][1&t>>14]&-t>>7&127)/3+32*sin(",
+    "isTruncated": 1,
+    "author": "Firstnameiskowitz",
+    "name": "New instrumental in the new year (happy mix #2)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11p36h7/more_lazily_made_remixes/",
+    "date": "2023-03-12",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "06e631c9d3498e3c3268330d28fa43b0",
+        "author": "Zackx",
+        "name": "My new instrumental in new year",
+        "url": "https://dollchan.net/btb/res/204.html#292"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

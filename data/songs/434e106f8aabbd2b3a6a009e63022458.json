@@ -1,0 +1,30 @@
+{
+  "file": "songs/434e106f8aabbd2b3a6a009e63022458.js",
+  "title": "Child swings",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7aa50995d95b2dd0b0c943c7645ed96c67f4fea97c3730592a79cccd0ee725c8",
+  "upstream": {
+    "hash": "434e106f8aabbd2b3a6a009e63022458",
+    "codeLen": 22,
+    "code": "t>>9&2*t&10*t|t>>5&6*t",
+    "author": "SthephanShi",
+    "name": "Child swings",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "93d6033ee9c35d04bbe383fa878131b8",
+        "author": "Anonymous from russian imageboards",
+        "name": "1) THE SWINGS",
+        "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

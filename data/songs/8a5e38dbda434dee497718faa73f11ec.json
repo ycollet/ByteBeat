@@ -1,0 +1,31 @@
+{
+  "file": "songs/8a5e38dbda434dee497718faa73f11ec.js",
+  "title": "Hardcore Twilight",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/8a5e38dbda434dee497718faa73f11ec.js",
+  "sha256": "167d7c946b59b2e7dd5cbd5f2079fda56d122fa08860dc35ad93770de330b664",
+  "upstream": {
+    "hash": "8a5e38dbda434dee497718faa73f11ec",
+    "codeMinLen": 935,
+    "codeLen": 1200,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "S=sin,R=random,t*=1.5,t*=.98775,x=t/1.75,t||(d1=Array(8192).fill(0),d2=Array(8192).fill(0)),arps=[[C3=130.81,E3=164.81,G3=196,246.94],[A2=110,C3,E3,G3],[F2=87.31,A2,C3,E3],[98,123.47,146.83,G3]][x>>17&3][x>>12&3],seq=[[C3,261.63],[A2,220],[F2,174.61],[98,G3]][x>>17&3][x>>13&1],S1=lr=>S(((x/2160)*seq)*(2**((x&x>>13)%3)/2))/1.3,S2=lr=>S(((x/1080)*seq)*(2**((x&x>>14)%5)/2))/1.3,k=S(100*(x%4096)**.1)*((1-(x/4096)%4)*!(x>>12&3))**.2*!(x>>13&1)*2,sc=(x/16384%1*.9+.9)*(1-((1-(x/4096)%4)*!(x>>12&3)))**1.3,h=2*(R()-",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "Hardcore Twilight",
+    "description": "Lowering your volume is advised.",
+    "url": "https://dollchan.net/btb/res/3.html#6114",
+    "date": "2025-05-01",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-12-06"
+  }
+}

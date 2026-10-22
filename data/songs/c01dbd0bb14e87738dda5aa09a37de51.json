@@ -1,0 +1,26 @@
+{
+  "file": "songs/c01dbd0bb14e87738dda5aa09a37de51.js",
+  "title": "something from pm 6:06",
+  "author": "Decent-Manager-6169",
+  "mode": "Bytebeat",
+  "rate": 32768,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/c01dbd0bb14e87738dda5aa09a37de51.js",
+  "sha256": "3988b48ee34002ded13a200f45b88b84535873e6fb32b5f4ff95961bc7ff20d1",
+  "upstream": {
+    "hash": "c01dbd0bb14e87738dda5aa09a37de51",
+    "codeMinLen": 701,
+    "codeLen": 715,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "TEST=(t?0:Reverb=Array(12288).fill(0),Reverb2=(c=1.047/1.02,cs=1.107/1.02,d=1.15,ds=1.243/1.02,e=1.318/1.02,f=1.389/1.02,fs=1.475/1.01,g=1.568/1.02,gs=1.655/1.02,a=1.754/1.02,as=1.856/1.02,b=1.977/1.02,A=(((t/1.98*[c,g/2][t>>15&1]&255)*(-t>>7&255)>>8&255)*(-t>>7&255)>>8&255)*(-t>>7&255)>>10,B=t*[0,0,g,a,g,f,e,d,e,e,e,e,0,0,0,0][t>>14&15]%256/5,B2=t*[0,0,c,d,c,as/2,a/2,g/2,a/2,a/2,a/2,a/2,0,0,0,0][t>>14&15]%256/8,C=t*[e,f,e,e,0,0,f,f,e,d,d,d,0,0,0,0][t>>13&15]%256/5,C2=t/2*[a,as,a,a,0,0,as,as,a,g,g,g,0,0,0,0",
+    "isTruncated": 1,
+    "author": "Decent-Manager-6169",
+    "name": "something from pm 6:06",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10gx77z/something_from_pm_606/",
+    "date": "2023-01-20",
+    "sampleRate": 32768,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "file": "songs/ab70db80ed5953c0f6700bcdbd095f84.js",
+  "title": "System Beeps .bin player",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/ab70db80ed5953c0f6700bcdbd095f84.js",
+  "sha256": "c69be0ac30dcb09a6efd91fe813ff0ed34e6f7c8206a97f703180a1bb8a923c7",
+  "upstream": {
+    "hash": "ab70db80ed5953c0f6700bcdbd095f84",
+    "codeLen": 25185,
+    "fileOrig": 1,
+    "codeText": "t>0?(u=p<1,a=(a+c/(u?1:p)*(1-u))%1,e--,e<0?(e+=s/f,w--,r()>254?0:i--,w<1?(w=r(),p=r()|(r()<<8)):0):0,o=a>.5,z=z*.99+o*.01,(o-z)/2):(s=32e3,c=1193180/s,a=i=z=0,d='7805C217FF04F31605F815042F15055F2A040000055F2A04000005C21704F31605F815042F15055F2A040000055F2A04000005C21704F31605F815042F15055F2A040000055F2A04000005C21704F31605F815042F1505A12304000005A123160000055F2A040000055F2A160000055F2A040000055F2A160000055F2A040000055F2A160000058F2F040000058F2F04000005C21704F31605F815042F15055F2A040000055F2A04000005C21704F3",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "System Beeps .bin player",
+    "url": "https://www.reddit.com/r/bytebeat/comments/15gxgcz/system_beeps_bin_player/",
+    "date": "2023-08-03",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "tags": [
+      "big",
+      "port"
+    ],
+    "date_edited": "2026-10-18"
+  }
+}

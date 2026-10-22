@@ -1,0 +1,38 @@
+{
+  "file": "songs/f802b899180daccc8b21219a1e1980f9.js",
+  "title": "fly into sky",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e47c0c9e4f1cf7e01642c88ee55a845f2a2ec72d5088191e13faf2652d460311",
+  "upstream": {
+    "hash": "f802b899180daccc8b21219a1e1980f9",
+    "codeMinLen": 151,
+    "codeMin": "p=t=>(a=(x,y)=>t*2**(parseInt(x[(t>>y)%x.length],36)/12)/1.44,a('BPIFKDMKFIHAHIHD',13)&128)*(1-t%8192/12E3),p(t)+p(t-12288)/2+p(t-24576)/4+p(t-36864)/8",
+    "codeLen": 153,
+    "code": "p=t=>(a=(x,y)=>t*2**(parseInt(x[(t>>y)%x.length],36)/12)/1.44,(a('BPIFKDMKFIHAHIHD',13)&128))*(1-t%8192/12E3),p(t)+p(t-12288)/2+p(t-24576)/4+p(t-36864)/8",
+    "author": "Zackx",
+    "name": "fly into sky",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1904",
+      "https://www.reddit.com/r/bytebeat/comments/15qdvex/automatic_chord_engine/"
+    ],
+    "date": "2023-08-13",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "1758a419c1ca8fc69c61dfed1c2b60b5",
+        "author": "Zackx",
+        "name": "exsynth sequences song",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#1683",
+          "https://dollchan.net/btb/res/204.html#1816"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

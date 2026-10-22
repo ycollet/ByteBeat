@@ -1,0 +1,40 @@
+{
+  "file": "songs/1da71ffa5c4f986c658c8904f59fb145.js",
+  "title": "no limit basic without ternary functions turned into trance beat",
+  "author": "Frosty_Replacement12",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "7837d14e5ad425e8993f1ec65b7b37a59187362fdf016f4ec4903786dec567f4",
+  "upstream": {
+    "hash": "1da71ffa5c4f986c658c8904f59fb145",
+    "codeMinLen": 89,
+    "codeMin": "((t*(15&39014>>(12&t>>14))/6|t>>6^t>>8|t>>12)&255)/(t*(15&39014>>(12&t>>14))/12&127)|t>>6",
+    "codeLen": 91,
+    "code": "((t*(15&39014>>(12&t>>14))/6|t>>6^t>>8|t>>12)&255)/((t*(15&39014>>(12&t>>14))/12)&127)|t>>6",
+    "author": "Frosty_Replacement12",
+    "name": "no limit basic without ternary functions turned into trance beat",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1h6fxh0/no_limit_basic_without_terminary_functions_turned/",
+    "date": "2024-12-04",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "18419b481a753efea8eea24a53fbe320",
+        "author": "hcdphobe",
+        "name": "no limit basic without ternary operators",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1h1g64d/no_limit_basic_without_ternary_operators/"
+      },
+      {
+        "hash": "a94da6ff1ccaf0a4c22781743f7edb92",
+        "author": "SthephanShi",
+        "name": "Trance beat",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

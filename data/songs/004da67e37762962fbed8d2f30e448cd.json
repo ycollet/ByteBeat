@@ -1,0 +1,29 @@
+{
+  "file": "songs/004da67e37762962fbed8d2f30e448cd.js",
+  "title": "chip arpeggio that eats itself",
+  "author": "kb",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6005b027eb5fbb77c8ef44ab7f27122ee3d4674d3abbb4517ed820bddd35e076",
+  "upstream": {
+    "hash": "004da67e37762962fbed8d2f30e448cd",
+    "codeMinLen": 67,
+    "codeMin": "((t>>1)*(15&0x234568a0>>(t>>8&28))|t>>1>>(t>>11)^t>>12)+(t>>4&t&24)",
+    "codeLen": 83,
+    "code": "(((t>>1)*(15&(0x234568a0>>((t>>8)&28))))|((t>>1)>>(t>>11))^(t>>12))+((t>>4)&(t&24))",
+    "author": "kb",
+    "name": "chip arpeggio that eats itself",
+    "url": [
+      "http://www.pouet.net/topic.php?which=8357&page=8#c388898",
+      "https://youtu.be/tCRPUv8V22o?t=65"
+    ],
+    "date": "2011-10-04",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-09"
+  }
+}

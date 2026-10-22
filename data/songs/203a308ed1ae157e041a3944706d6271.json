@@ -1,0 +1,25 @@
+{
+  "file": "songs/203a308ed1ae157e041a3944706d6271.js",
+  "title": "electricity",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "afd962bef65a0b6baefa0d122448e2aab9bb9ca51dc307ffd78e5206e378c91c",
+  "upstream": {
+    "hash": "203a308ed1ae157e041a3944706d6271",
+    "codeMinLen": 107,
+    "codeMin": "(t>>12&3?((t>>12)%((t>>16)%6/(3&t>>12)+1)+1)*t&-t>>4:((t>>1)%((t>>16)%6/(3&t>>12)+1)+1)*t&t)+5E3/(t/4&4095)",
+    "codeLen": 114,
+    "code": "((t>>12&3)?((t>>12)%(((t>>16)%6/(3&t>>12))+1)+1)*t&-t>>4:\n((t>>1)%(((t>>16)%6/(3&t>>12))+1)+1)*t&t)+5e3/(t/4&4095)",
+    "author": "kOLbOSa_exe",
+    "name": "electricity",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ufvuio/electricity/",
+    "date": "2022-05-01",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

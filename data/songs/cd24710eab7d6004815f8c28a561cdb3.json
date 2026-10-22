@@ -1,0 +1,34 @@
+{
+  "file": "songs/cd24710eab7d6004815f8c28a561cdb3.js",
+  "title": "early morning",
+  "author": "stagas",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/cd24710eab7d6004815f8c28a561cdb3.js",
+  "sha256": "8e46a6f0f31d194df10dcc9d4454ab36d219200cf494680f9b641863417ad75a",
+  "upstream": {
+    "hash": "cd24710eab7d6004815f8c28a561cdb3",
+    "codeLen": 3810,
+    "fileOrig": 1,
+    "codeText": "/*!\n *\n * stagas - early morning\n *\n */\n\nvar bpm = 120;\nvar tuning = 440;",
+    "isTruncated": 1,
+    "author": "stagas",
+    "name": "early morning",
+    "url": "https://wavepot.com/",
+    "date": "2014-06-17",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "4977683c4df26fc0879fee52f2b5e58b",
+        "author": "stagas",
+        "name": "morning",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "big"
+    ],
+    "date_edited": "2025-10-29"
+  }
+}

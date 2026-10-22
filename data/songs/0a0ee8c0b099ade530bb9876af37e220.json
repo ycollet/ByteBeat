@@ -1,0 +1,27 @@
+{
+  "file": "songs/0a0ee8c0b099ade530bb9876af37e220.js",
+  "title": "bytebeat 808ish",
+  "author": "SleepingLugia",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/0a0ee8c0b099ade530bb9876af37e220.js",
+  "sha256": "eb49b11adfb8f10fd237bbc988ceadf4703361d5d839b5d030c2f693c2281a83",
+  "upstream": {
+    "hash": "0a0ee8c0b099ade530bb9876af37e220",
+    "codeMinLen": 521,
+    "codeLen": 524,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t>0?(E=t*S/3*19,D=1-(2*E&1),E|=0,n=U,U='1       1  1   1'[E%16]*D,U-n>0?A=a=0:A+=S,n=V,V='    1       1   '[E%16]*D,V-n>0?B=b=0:B+=S,n=W,W='       1 1             1 1 1 1  '[E%32]*D,W-n>0?C=d=0:C+=S,n=290*e(A,16,3)+60,a=(a+n*S)%1,n=150*e(B,32,2)+200,b=(b+n*S)%1,n=277+25*e(C,32,4),d=(d+n*S)%1,c=2*random()-1,z=q+q/(1-f),x+=f*(c-x+z*(x-y)),y+=f*(x-y),((c-x)*e(B,6,2)+sin(2*b*PI)*e(B,6,5)+sin(2*a*PI)*e(A,1,4)+(2*d%1+3*d%1-1)/2*e(C,5,9))/2):(e=(a,b,c)=>(1-(a*b<1?a*b:1))**c,A=B=C=1,s=48E3,S=1/s,f=.2,q=.5,U=V=W=a=b",
+    "isTruncated": 1,
+    "author": "SleepingLugia",
+    "name": "bytebeat 808ish",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14iigez/bytebeat_808ish/",
+    "date": "2023-07-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "file": "songs/3c3aeb91c5215a762bda6dcf2c3538ac.js",
+  "title": "Explosions #2",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "037a05e4275250b71bb8cc57a2ea4d40e324e01c07699f76a0d1be79b0d73de6",
+  "upstream": {
+    "hash": "3c3aeb91c5215a762bda6dcf2c3538ac",
+    "codeLen": 18,
+    "code": "(t>>4)*(t>>3)|t>>3",
+    "author": "SthephanShi",
+    "name": "Explosions #2",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "c13691a719aaeee7e82ed11e7b4739b9",
+        "author": "SthephanShi",
+        "name": "Explosions",
+        "url": null
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-11-05"
+  }
+}

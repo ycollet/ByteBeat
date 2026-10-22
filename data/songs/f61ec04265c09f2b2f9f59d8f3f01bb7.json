@@ -1,0 +1,25 @@
+{
+  "file": "songs/f61ec04265c09f2b2f9f59d8f3f01bb7.js",
+  "title": "WARP_TUNNEL",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "516f44e6659f6ec884e0a6616171f58689aa41fad14401d902ea448b1f21c4f4",
+  "upstream": {
+    "hash": "f61ec04265c09f2b2f9f59d8f3f01bb7",
+    "codeMinLen": 40,
+    "codeMin": "2*t+2^t*(1<<((t>>8^(t>>8)+(t>>16))+1)%7)",
+    "codeLen": 48,
+    "code": "((t*2)+2)^(t*(1<<(((t>>8)^(t>>8)+(t>>16))+1)%7))",
+    "author": "Chasyxx",
+    "name": "WARP_TUNNEL",
+    "url": "https://www.reddit.com/r/bytebeat/comments/10iv4dc/warp_tunnel/",
+    "date": "2023-01-22",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

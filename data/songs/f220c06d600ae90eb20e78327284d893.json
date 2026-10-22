@@ -1,0 +1,31 @@
+{
+  "file": "songs/f220c06d600ae90eb20e78327284d893.js",
+  "title": "sunset",
+  "author": "eSlashMachine",
+  "mode": "Signed Bytebeat",
+  "rate": 54612,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/f220c06d600ae90eb20e78327284d893.js",
+  "sha256": "f59112b4e608cba684699261aa1974d43d82b75feac149b4a9cfacc5feddd8f9",
+  "upstream": {
+    "hash": "f220c06d600ae90eb20e78327284d893",
+    "codeMinLen": 1787,
+    "codeLen": 4727,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "F=0,dc=24576,t||(d1=Array(ll=dc).fill(0),d2=Array(rl=dc).fill(0),Z=[]),Y=0,lp=(a,c)=>(X=Y++,Z[X]??=0,Z[X]+=(a-Z[X])*c),hp=(a,c)=>a-lp(a,c),bp=(a,h,l)=>hp(lp(a,l),h),OP=(ST,FX,DL)=>(n=i=>isNaN(i)?0:i,a=sqrt((S=sin)((t/(42+ST)+S(A=t/1024)/3)*2**((I=parseInt)('AELH  A97AHE  79AELH  H57AHE  ECAELH  A97AHE  79AELH  H57AHE  EC'[ct=t>>14&63],36)/12)))*(A%16-32)/128,a=n(a)+FX[t%DL],b=cbrt((C=cos)((t/(84+ST)+S(A)/3)*2**(I('AAAAAAA9777777775555555733335555AAAAAAC9777777975555557533335599'[ct],36)/12)))/16,b=n(b),c=lp",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "sunset",
+    "description": "\"You sit in silence on the warm beach, with the glorious knowledge that you finally have solitude....\" Summer Chip XV battle - 3rd place (bytebeat).",
+    "url": "https://battleofthebits.com/arena/Entry/sunset/79051/",
+    "date": "2025-08-03",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 54612,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-14"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "songs/bc1cf9481fdb9d494d29d5e7fe33f4eb.js",
+  "title": "tracker could execute 3 channels at once",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 16000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/bc1cf9481fdb9d494d29d5e7fe33f4eb.js",
+  "sha256": "6e30b4a92dfbfdd145105b2fc5b6092e4153ce2b21441283d9da2bd3e48c076b",
+  "upstream": {
+    "hash": "bc1cf9481fdb9d494d29d5e7fe33f4eb",
+    "codeLen": 4481,
+    "fileOrig": 1,
+    "codeText": "PS=0,NS=1,LN=2,DS=3,WT=4,\n// \"tn|WF|vl|DT\"\n\nspeed = 11,\n/*\nCH1        CH2        CH3        */\nd = [\n'30|00|0f','00|00|00','00|00|00',",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "tracker could execute 3 channels at once",
+    "url": "https://www.reddit.com/r/bytebeat/comments/18hrmqj/comment/kd8fkg7/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2023-12-13",
+    "sampleRate": 16000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ]
+  }
+}

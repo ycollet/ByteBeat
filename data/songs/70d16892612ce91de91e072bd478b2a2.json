@@ -1,0 +1,28 @@
+{
+  "file": "songs/70d16892612ce91de91e072bd478b2a2.js",
+  "title": "tiny pockets of air",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/70d16892612ce91de91e072bd478b2a2.js",
+  "sha256": "c441fda5cf871559b9fd51013ddd6d90dba1b230dba95422dbcb27cb2433d52b",
+  "upstream": {
+    "hash": "70d16892612ce91de91e072bd478b2a2",
+    "codeMinLen": 404,
+    "codeMin": "t?0:(R=random,A=[65,57,43,31,26,19].map(x=>Array(x*1e3).fill(0)),B=1e4+(Y=int)(R()*2e4),C=0,D=[.5,3/4,1,9/8,6/5,4/3,3/2,5/3,2,9/4,8/3,3],X=Y(R()*D[[I='length']]),F=2**((2*R()-1)/800)),t==B?(B+=1e4+Y(R()*1e4),C=0,X=Y(R()*D[I]),F=2**((2*R()-1)/80)):0,G=330*D[X]*F*PI*C/24e3,C++,H=sin(G+2**(-C/1e3)*sin(G)/2)*min(C/100,1)*2**(-C/2e3)/2+A.map(e=>e[t%e[I]]).reduce((a,b)=>a+b),A.map(e=>e[t%e[I]]=H/A[I]*.75),H",
+    "codeLen": 730,
+    "fileOrig": 1,
+    "codeText": "t?0:(R=random,A=[65,57,43,31,26,19].map(x=>Array(x*1e3).fill(0)),B=1e4+(Y=int)(R()*2e4),C=0,D=[.5,3/4,1,9/8,6/5,4/3,3/2,5/3,2,9/4,8/3,3],X=Y(R()*D[[I='length']]),F=2**((2*R()-1)/800)),t==B?(B+=1e4+Y(R()*1e4),C=0,X=Y(R()*D[I]),F=2**((2*R()-1)/80)):0,G=330*D[X]*F*PI*C/24e3,C++,H=sin(G+2**(-C/1e3)*sin(G)/2)*min(C/100,1)*2**(-C/2e3)/2+A.map(e=>e[t%e[I]]).reduce((a,b)=>a+b),A.map(e=>e[t%e[I]]=H/A[I]*.75),H",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "tiny pockets of air",
+    "url": "https://battleofthebits.com/arena/Entry/tiny+pockets+of+air.txt/78612/",
+    "date": "2025-07-11",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-10-25"
+  }
+}

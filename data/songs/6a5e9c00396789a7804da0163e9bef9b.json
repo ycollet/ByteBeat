@@ -1,0 +1,32 @@
+{
+  "file": "songs/6a5e9c00396789a7804da0163e9bef9b.js",
+  "title": "Happy Happy Christmas",
+  "author": "Sychamis",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/6a5e9c00396789a7804da0163e9bef9b.js",
+  "sha256": "3764128872cf502fc5e4d8a16e5555b892667fe23c15d198be63a40d2f264144",
+  "upstream": {
+    "hash": "6a5e9c00396789a7804da0163e9bef9b",
+    "codeMinLen": 4076,
+    "codeLen": 15136,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t||(r=(s,n=24)=>s.repeat(n),i=n=>Array(9).fill(n),I=i(0),C=i(0),S=i(0),O=i(0),F=i(0),V=i(1),j=' ',i=j+j,k=N=>sin(N*PI),b=N=>k(N)+sin(N*PI*2)/2,K=['A AA A'+r('A  ',6),'f hj kk  f  m  r  k  j  ',` D  D ${(ca='CD  D ')+ca}CD `+(cm='  D'),' M  M mM  M oM  M mM   M',(M=(Q=(A=j+i)+j)+j)+j+(B='R'+M)+B+B],W=[(X=' C CC CC'+r('  C',5))+j,(bn=' f hj km  f  o  r  m  j')+j,` ${s=r(' D ',6)} D`+A,` ${Z=r(' M ',6)} M`+A],l=[j+X,j+bn,`D ${s} D  `,`M ${Z} M  `],h=[r('A A',6)+'A  A  ',ch=(au='k jk mj hf ah fh j')+'f  a  ',s+",
+    "isTruncated": 1,
+    "author": "Sychamis",
+    "name": "Happy Happy Christmas",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1hlyng6/happy_happy_christmas/",
+      "https://youtu.be/GUlP8qb85xY"
+    ],
+    "date": "2024-12-25",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Drax - Happy Happy Christmas",
+    "coverUrl": "https://youtu.be/pEDLMLwTr2c",
+    "tags": [
+      "big"
+    ]
+  }
+}

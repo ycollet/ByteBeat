@@ -1,0 +1,30 @@
+{
+  "file": "songs/3766b901c27d18cdf88ad0000f0205a1.js",
+  "title": "Bathed In Lasers",
+  "author": "Greaserpirate",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3766b901c27d18cdf88ad0000f0205a1.js",
+  "sha256": "a2a7c28709dd8a7e6debad891ecfce49cd7ff63e847af85e7f43a930cff9b7e2",
+  "upstream": {
+    "hash": "3766b901c27d18cdf88ad0000f0205a1",
+    "codeLen": 8730,
+    "fileOrig": 1,
+    "codeText": "//Original t, increments one per sample. The reverb, harmonifier, hihat, and snare need this.\nT = t,\n\nt *= r8 = 8 / 57,\n\n\n//seq = ( arr, spd, t2=t ) => arr[ (t2 >> spd) % arr.length ],\n/*version that lerps:",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "Bathed In Lasers",
+    "description": "ByteBattle Season 4 Competition - 2nd place.",
+    "url": "https://bytebeat.oops.wtf/season4/entries.html",
+    "date": "2025-04-04",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-05"
+  }
+}

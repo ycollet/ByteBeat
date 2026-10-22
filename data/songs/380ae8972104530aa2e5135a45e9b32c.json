@@ -1,0 +1,33 @@
+{
+  "file": "songs/380ae8972104530aa2e5135a45e9b32c.js",
+  "title": "Namber tu use square wave",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c246792777b33ecd991951bfb438b7629b0538ea12695781e706b3f59bf0fa2a",
+  "upstream": {
+    "hash": "380ae8972104530aa2e5135a45e9b32c",
+    "codeMinLen": 54,
+    "codeMin": "z=t*'12345432'[7&t>>12],z*[1,1.2,1.8,2.7][3&t>>16]|127",
+    "codeLen": 50,
+    "code": "t*'12345432'[7&t>>12]*[1,1.2,1.8,2.7][3&t>>16]|127",
+    "author": "Zackx",
+    "name": "Namber tu use square wave",
+    "url": "https://dollchan.net/btb/res/204.html#232",
+    "date": "2022-11-03",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "647b24654b683ed1badee995a05d2a00",
+        "author": "Zackx",
+        "name": "Namber wan",
+        "url": "https://dollchan.net/btb/res/204.html#232"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_edited": "2025-09-27"
+  }
+}

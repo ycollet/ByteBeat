@@ -1,0 +1,27 @@
+{
+  "file": "songs/068560a8c4c831417fdf6b06921cfd52.js",
+  "title": "Tracker test v2",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/068560a8c4c831417fdf6b06921cfd52.js",
+  "sha256": "2e8717a133286cb3d4f68a5999b9ab85235ae203d82ad3cf469aba5f0c3bf16a",
+  "upstream": {
+    "hash": "068560a8c4c831417fdf6b06921cfd52",
+    "codeLen": 2743,
+    "fileOrig": 1,
+    "codeText": "/*\n\tPortablePorcelain's Tracker v2\n\tCover: Lady Gaga - Bad Romance\n*/\n\nf = (t, e, s) => t[(t2 / e * 16 + s) % t.length | 0].split(\":\")\n\t.map((t => t.split(\" \")\n\t\t.filter((t => \"\" != t)))), parseTracks = (e, D, C, E = 1, p = (t => 1 & t)) => {",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "Tracker test v2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14fvoph/tracker_test_v2/",
+    "date": "2023-06-22",
+    "mode": "Floatbeat",
+    "sampleRate": 8000,
+    "coverName": "Lady Gaga - Bad Romance",
+    "coverUrl": "https://youtu.be/qrO4YZeyl0I",
+    "tags": [
+      "big"
+    ]
+  }
+}

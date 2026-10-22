@@ -1,0 +1,38 @@
+{
+  "file": "songs/dc33e88037e91c84143986eab666e4ec.js",
+  "title": "BЯΣΛKXӨЯᄃӨЯΣ and SWAG-75 melody combined",
+  "author": "ChrisRM380",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "483405f2d49ac2218fd483c502119bcf924fc94fd8a788915206ec46f5e27ead",
+  "upstream": {
+    "hash": "dc33e88037e91c84143986eab666e4ec",
+    "codeMinLen": 304,
+    "codeMin": "(t^t>>(-t*'1111111211111124'[15&t>>14]>>12&3)<<(t>>14&7))%256/3+(300**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13]+([1,0,2,0,1.2,0,2.4,0,1.35,0,2.7,1.5,0,3,0,1.5][(t>>12)%16]*t*.25|192)-64+128",
+    "codeLen": 307,
+    "code": "(t^t>>(-t*'1111111211111124'[15&t>>14]>>12&3)<<(t>>14&7))%256/3+(300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13]+([1,0,2,0,1.2,0,2.4,0,1.35,0,2.7,1.5,0,3,0,1.5][(t>>12)%16]*t*0.25|192)-64+128",
+    "author": "ChrisRM380",
+    "name": "BЯΣΛKXӨЯᄃӨЯΣ and SWAG-75 melody combined",
+    "url": "https://dollchan.net/btb/res/368.html#3097",
+    "date": "2024-03-12",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "645c7479884d3b32f2be0a169a84d09c",
+        "author": "ChrisRM380",
+        "name": "Recreated SWAG-75's ambience",
+        "url": "https://dollchan.net/btb/res/368.html#2964"
+      },
+      {
+        "hash": "bee571d5a45f9f36d7617acd1795f0ff",
+        "author": "Zackx",
+        "name": "BЯΣΛKXӨЯᄃӨЯΣ",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "file": "songs/9d59187c18847178abcf2c2dc04c6de4.js",
+  "title": "wip sparta remix with leftover functions",
+  "author": "PortablePorcelain",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9d59187c18847178abcf2c2dc04c6de4.js",
+  "sha256": "9c5b7f73d417acc53fa49dcde42f77cdd681bd0f6d8f4de2b314ba967d589bb9",
+  "upstream": {
+    "hash": "9d59187c18847178abcf2c2dc04c6de4",
+    "codeMinLen": 905,
+    "codeLen": 931,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "t?0:Z=Y=Array(16384).fill(b=c=0),b+=U=140/288E4,h=1+(i=H=0),l=-4.5,r=(M,v=b)=>{m=0;for(u of M)v>u&&(m=v-u);return m},lpr=(d,k)=>(t?0:Z[h]=0,t?0:Z[i]=0,g=(k,h,i)=>min(max(Z[i]+=(Z[h]+=d/4+64-Z[i])-(Z[h]/=1+k/48E3),0),255),h+=2,i+=2,g(k,h-2,i-2)),lp=(d,k)=>(t?0:Z[h]=[0,0],t?0:Z[i]=0,d=min(max(d%256,Z[h][Z[i]%2]-k),Z[h][Z[i]%2]+k),Z[h][Z[i]++%2]=d,h+=2,i+=2,d),nan=(k,l=k)=>isNaN(k)?0:l,p=w=>nan(w,2**((w+l)/12)),acid=(x,y)=>64*abs((x/256*y%y%1<.5)*(x/256%1-1)),o=acid(t/2*p([0,1,-2,1][b/2&3]+(2*b&1?12:0)),2*(sin",
+    "isTruncated": 1,
+    "author": "PortablePorcelain",
+    "name": "wip sparta remix with leftover functions",
+    "url": "https://www.reddit.com/r/bytebeat/comments/16hagxr/wip_sparta_remix_with_leftover_functions/",
+    "date": "2023-09-13",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "coverName": "Keaton Monger - This is Sparta! Last techno remix",
+    "coverUrl": "https://youtu.be/rvYZRskNV3w",
+    "tags": [
+      "1k"
+    ]
+  }
+}

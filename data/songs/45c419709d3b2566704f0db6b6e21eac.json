@@ -1,0 +1,25 @@
+{
+  "file": "songs/45c419709d3b2566704f0db6b6e21eac.js",
+  "title": "acid styled dubstep",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c9e7afc758ea3c5557fc1aa2d2ab2a9ecedc69f39fe40ba6f30fabbb650d22b9",
+  "upstream": {
+    "hash": "45c419709d3b2566704f0db6b6e21eac",
+    "codeMinLen": 57,
+    "codeMin": "t*(-t>>(t>>13)%8+2&(t>>12)%256)/4+(1048576/(t%65536)&128)",
+    "codeLen": 59,
+    "code": "t*(-t>>((t>>13)%8+2)&(t>>12)%256)/4+(1048576/(t%65536)&128)",
+    "author": "D3nschøt",
+    "name": "acid styled dubstep",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1bhzch8/idk_what_to_call_this_either/",
+    "date": "2024-03-18",
+    "sampleRate": 44100,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

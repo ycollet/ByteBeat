@@ -1,0 +1,25 @@
+{
+  "file": "songs/9825b9b38991cb71775ac59eabbbfae5.js",
+  "title": "muffin pastel",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "6db5cdc8219660d19210b1e9e8bee1ccae3e85dc3d95a118c0ced57fce46747a",
+  "upstream": {
+    "hash": "9825b9b38991cb71775ac59eabbbfae5",
+    "codeMinLen": 281,
+    "codeMin": "p=1.4,a=(a,b,c)=>(t*2**(parseInt(a[3&t>>b],36)/12-p)/c&32)/1.5-12,b=(a,b,c)=>t*2**(parseInt(a[3&t>>b],36)/12-p)*PI/32/c,n=8192,(a(e='998D',16,2)+a('DDBG',16,2)+a('KKIN',16,2)+sin(b(e,16,8)+sin(b(e,16,8)))*32)*'1101101101101100'[15&t>>12]+sin(cbrt(t%16384+16)*8)*(1-t%n/n)*!(t&n)*48",
+    "codeLen": 306,
+    "code": "p=1.4,\na=(a,b,c)=>(t*2**(parseInt(a[(t>>b)%a.length],36)/12-p)/c&32)/1.5-12,\nb=(a,b,c)=>t*2**(parseInt(a[(t>>b)%a.length],36)/12-p)*PI/32/c,n=8192,\n(\na(e='998D',16,2)+\na('DDBG',16,2)+\na('KKIN',16,2)+sin(b(e,16,8)+sin(b(e,16,8)))*32\n)*'1101101101101100'[15&t>>12]+sin(cbrt(t%16384+16)*8)*(1-t%n/n)*!(t&n)*48",
+    "author": "Zackx",
+    "name": "muffin pastel",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b5ux44/muffin_pastel/",
+    "date": "2024-03-04",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

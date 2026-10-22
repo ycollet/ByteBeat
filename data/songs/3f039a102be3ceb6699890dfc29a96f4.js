@@ -1,0 +1,1 @@
+t?0:a=Array(r=96e3).fill(0),m=sin(t/'ViNQMbeytqFstfAYQJoLIBHNmkgASRmMbPQdpTSzxSJwygwyNLWJwwOypjAXOzaG'.charCodeAt(0|t/r%64)*5)/3+a[t%r],a[t%r]=m/1.7,min(t/1e6,1)*(m+sin(t/8e4)*sin(t/r/2)*random()/4)/2

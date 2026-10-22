@@ -1,0 +1,27 @@
+{
+  "file": "songs/a27da7ec256ef4667a2b4cc639199d80.js",
+  "title": "not even an accurate pokey cover of stranglehold",
+  "author": "BaenHoHoHo",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/a27da7ec256ef4667a2b4cc639199d80.js",
+  "sha256": "a05a1b6428b0b1eb7e47d24cd83a69277ffc9b5bd1a9efa9a0808be126652e03",
+  "upstream": {
+    "hash": "a27da7ec256ef4667a2b4cc639199d80",
+    "codeLen": 2045,
+    "fileOrig": 1,
+    "codeText": "T=PI*112;bpm=125;T2=bpm/60;array=[0,-3,-4,-5];array2='2000';array3='3222';array4='7657';array5=[10,9,8,12];array6=[14,12,12,14];array7=[15,14,14,17];array8=[19,18,17,19];arraybass=[0,0,0,-7,-12,-12,-12,-12,-10,-10,-10,-3,2,2,2,2,-4,-4,-4,0,2,2,2,2,-5,-5,-5,-9,-17,-17,-17,-17];melody=[,,,,,,0,2,3,3,0,0,0,0,-5,-3,-3,,,,,,-5,-6,-6,,-6,-6,-5,-5,-3,-3,0,0,2,0,0,0,-5,-7,0,0,2,0,0,0,-5,-7,-4,-4,-5,-5,,,-7,-5,-4,-5,,-5,-5,-1,0,2,5,7,7,3,3,,2,5,5,,3,3,2,0,0,,-3,-3,2,2,4,6,6,9,9,9,9,,,,,7,10,8,8,3,3,2,2,0,-2,,-4,-4,-",
+    "isTruncated": 1,
+    "author": "BaenHoHoHo",
+    "name": "not even an accurate pokey cover of stranglehold",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1ajyd5l/not_even_an_accurate_pokey_cover_of_stranglehold/",
+    "date": "2024-02-06",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "coverName": "Jeroen Tel - Stranglehold",
+    "coverUrl": "https://youtu.be/FpOM4Fs08kU",
+    "tags": [
+      "big"
+    ]
+  }
+}

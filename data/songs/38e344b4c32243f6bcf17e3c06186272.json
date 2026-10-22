@@ -1,0 +1,30 @@
+{
+  "file": "songs/38e344b4c32243f6bcf17e3c06186272.js",
+  "title": "better cover of \"we like to party!\"",
+  "author": "Zackx",
+  "mode": "Signed Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "b72126a15fd697866bee270e0f962eff37836b3892f8c446fa53b77a9e8c3b59",
+  "upstream": {
+    "hash": "38e344b4c32243f6bcf17e3c06186272",
+    "codeMinLen": 201,
+    "codeMin": "r=t/1.16,i=15&r>>12,j=1&r>>17,n=(x,y)=>((t*2**(parseInt(x,36)/12)/1.183/y&255)-128)/2*'1010101010110100'[i],n(['HHFFHHFFHHAAAA','DDFFDDFFDDHHHH'][j][i],1)+n(['HHFFHHFFHHAAAA','EEFFEEFFEEHHHH'][j][i],5)",
+    "codeLen": 217,
+    "code": "r=t/1.16,n=(x,y)=>(((t*2**(parseInt(x,36)/12)/1.183/y)&255)-128)/2*'1010101010110100'[15&r>>12],\nn(['HHFFHHFFHHAAAA','DDFFDDFFDDHHHH'][1&r>>17][15&r>>12],1)+\nn(['HHFFHHFFHHAAAA','EEFFEEFFEEHHHH'][1&r>>17][15&r>>12],5)",
+    "author": "Zackx",
+    "name": "better cover of \"we like to party!\"",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/15397al/better_cover_of_we_like_to_party/",
+      "https://dollchan.net/btb/res/204.html#1660"
+    ],
+    "date": "2023-07-18",
+    "mode": "Signed Bytebeat",
+    "sampleRate": 44100,
+    "coverName": "Vengaboys - We like to Party!",
+    "coverUrl": "https://youtu.be/6Zbi0XmGtMw",
+    "tags": [
+      "256"
+    ]
+  }
+}

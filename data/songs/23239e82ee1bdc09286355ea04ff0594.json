@@ -1,0 +1,24 @@
+{
+  "file": "songs/23239e82ee1bdc09286355ea04ff0594.js",
+  "title": "6) FUNERAL",
+  "author": "Anonymous from russian imageboards",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2b9f0538d2dce4559c09f58be97cb83cf629a928064c71f9fcd7b5fa2b711859",
+  "upstream": {
+    "hash": "23239e82ee1bdc09286355ea04ff0594",
+    "codeMinLen": 122,
+    "codeMin": "(((1<t/16E3%2?3*t|16*t:2*t|16*t)|123)+(1<t/32E3%2?500>t%1E3?18.3*t:0:500>t%1E3?18.9*t:0)|t/1E3<<4)-128+(50>t%1E3?t<<t/3:0)",
+    "codeLen": 142,
+    "code": "((((((t/16000)%2>1?t*3|16*t:t*2|16*t)|123)+((t/32000)%2>1?(t%1000<500?t*18.3:0):(t%1000<500?t*18.9:0)))|(t/1000<<4))-128)+(t%1000<50?t<<t/3:0)",
+    "author": "Anonymous from russian imageboards",
+    "name": "6) FUNERAL",
+    "url": "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+    "date": "2014-07-11",
+    "sampleRate": 8000,
+    "tags": [
+      "256"
+    ]
+  }
+}

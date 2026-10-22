@@ -1,0 +1,25 @@
+{
+  "file": "songs/40f76f9cc428852e642a7a8ed907f46b.js",
+  "title": "SID \"Autochord\" Effect",
+  "author": "May_I_Change_My_Name",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "01bb1b993ada8572c2edbc6700bb0d0a29927927b2012c976893bb7fe8663752",
+  "upstream": {
+    "hash": "40f76f9cc428852e642a7a8ed907f46b",
+    "codeMinLen": 96,
+    "codeMin": "T=q=>2**(q/12),S=(p,t)=>t*p&255,C=t=>S(1,t)+S(T(7),t)+S(T(10),t)+S(2*T(3),t)>>2,C(t-8)>C(t)?64:0",
+    "codeLen": 336,
+    "code": "T=q=>2**(q/12), // This strategy sounds best with equal-tempered chords rather than just intonation\nS=(p,t)=>t*p&255, // Bounded saw wave generator\nC=t=>S(1,t)+S(T(7),t)+S(T(10),t)+S(2*T(3),t)>>2, // Make a chord\n// C(t) // Original chord in saw waves\nC(t-8)>C(t)?64:0 // \"Autochord\", play around with 8 in t-8 for different \"thickness\"",
+    "author": "May_I_Change_My_Name",
+    "name": "SID \"Autochord\" Effect",
+    "description": "Method of generating reliable 1-bit polyphonic chords on a C64 SID chip.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/123xsp7/sid_autochord_effect/",
+    "date": "2023-05-27",
+    "sampleRate": 44100,
+    "tags": [
+      "1k"
+    ]
+  }
+}

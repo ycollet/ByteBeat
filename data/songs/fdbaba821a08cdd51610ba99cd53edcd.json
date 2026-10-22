@@ -1,0 +1,36 @@
+{
+  "file": "songs/fdbaba821a08cdd51610ba99cd53edcd.js",
+  "title": "now its FM synth",
+  "author": "Bp103",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/fdbaba821a08cdd51610ba99cd53edcd.js",
+  "sha256": "ca22fb17148f7a11991d216ec3478b30f253e190b3f47124ec20e3786c8c80f1",
+  "upstream": {
+    "hash": "fdbaba821a08cdd51610ba99cd53edcd",
+    "codeMinLen": 834,
+    "codeLen": 1270,
+    "codeFormLen": 1478,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "fileForm": 1,
+    "codeText": "q=t/32E3,r=1.05946309,a=880,as=a*r,b=as*r,c=b*r,cs=c*r,d=cs*r,ds=d*r,e=ds*r,f=e*r,fs=f*r,g=fs*r,gs=g*r,na=q*[a,c,e,a,d,f,a,c,f,c,e,g,g,b,d,f,a,c,a,c,g,g,b,d][int(1*q)%8*3+int(32*q)%3],tr=64>int(4*q)%128?0:1,nb=q*[a<<tr,c,e<<tr,c<<(tr<<1),a<<tr,d<<(tr<<1),f<<tr,d,a<<tr,c,f<<tr,a<<(tr<<1),c<<tr,e<<(tr<<1),g<<tr,e,g<<tr,b,d<<tr,b,f<<tr,a<<(tr<<1),c<<tr,a<<(tr<<1),a<<tr,c,g<<tr,c,g<<tr,b<<(tr<<1),d<<tr,b<<(tr<<1)][int(4*q%32)]/2,nc=q*[a,b,c,e,c,b,a,0][int(4*q)%8],nd=q*[a,a<<1,a,0,a,0,a,0,g>>1,g,g>>1,0,e>>1,0,c>",
+    "isTruncated": 1,
+    "author": "Bp103",
+    "name": "now its FM synth",
+    "url": "https://twitter.com/Bp103/status/1345905059964530688",
+    "date": "2021-01-04",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "06d3b0211e665e7cc9df7fc776538080",
+        "author": "Bp103",
+        "name": "a song in a half baked pseudo-mml format",
+        "url": "https://twitter.com/Bp103/status/1221435415032406017"
+      }
+    ],
+    "tags": [
+      "big"
+    ]
+  }
+}

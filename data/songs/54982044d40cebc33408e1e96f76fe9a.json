@@ -1,0 +1,35 @@
+{
+  "file": "songs/54982044d40cebc33408e1e96f76fe9a.js",
+  "title": "H4XX3D UP FOR BARBECUE",
+  "author": "Greaserpirate",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/54982044d40cebc33408e1e96f76fe9a.js",
+  "sha256": "645526a26e9c36a7f12924f61d610005c6f20106698c804292526101aed922a4",
+  "upstream": {
+    "hash": "54982044d40cebc33408e1e96f76fe9a",
+    "codeMinLen": 2743,
+    "codeLen": 11443,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "A=min,q=max,w=sin,T=t,t*=_=10/48,l=($=(_,$,e=t,l=0)=>(J=0|(i=e/2**$),L=_.length,l?(1-(k=(i-J)**l))*_[J%L]+k*_[(J+1)%L]:_[J%L]))([0,-2,1,-3],18)-3.5,T>93e5&&(t=1,l=-8),t-=$([_n=t/4&896,0,_r=t/8&128,t/2&8,_r,_n,_r,t-1],18,t,$(\"1120004\",18)),r=(_,$)=>Array(_).fill($).flat(9),j=(_,$=\"\")=>_.join($),m=(_,$=1,e=0)=>_*$*(1+e)%(256*$)||0,T||(F=r(2048,0)),I=0,e=(...e)=>F[I++]+=_*2**(($(...e)+l)/12)||0,g=(_,e,l=2e4,a=1,p=t,g=0)=>m(l/(p&2**(e-g)/$(_,e)-1),a),s=$([x=w(T/9&T>>5),0],9),h=$([h=1&441*T/480,h,h,0],8),c=(_,e=",
+    "isTruncated": 1,
+    "author": "Greaserpirate",
+    "name": "H4XX3D UP FOR BARBECUE",
+    "description": "Bytebattle Season 2 Competition - 2nd place. ~200 seconds long, including a \"glitch\" section from around 160 seconds and a \"bluescreen\" at the end.",
+    "url": [
+      "https://www.reddit.com/r/bytebeat/comments/1gwxlsm/h4xx3d_up_for_barbecue_competition_entry_master/",
+      "https://bytebeat.oops.wtf/season2/entries.html",
+      "https://dollchan.net/btb/res/5008.html#5009"
+    ],
+    "date": "2024-11-22",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_edited": "2025-11-11"
+  }
+}

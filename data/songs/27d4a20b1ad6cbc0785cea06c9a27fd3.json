@@ -1,0 +1,33 @@
+{
+  "file": "songs/27d4a20b1ad6cbc0785cea06c9a27fd3.js",
+  "title": "Untitled (27d4a20b)",
+  "author": "tangent128",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "5bab76cdcc808915487de7057ca67ca3a47337c7f1b70b45b9fc4cd03c546355",
+  "upstream": {
+    "hash": "27d4a20b1ad6cbc0785cea06c9a27fd3",
+    "codeMinLen": 35,
+    "codeMin": "t*(t>>9&10|t>>11&24^t>>10&15&t>>15)",
+    "codeLen": 56,
+    "code": "t * ( ((t>>9)&10) | ((t>>11)&24) ^((t>>10)&15&(t>>15)) )",
+    "author": "tangent128",
+    "url": "http://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html?showComment=1317761042403#c4044676811126652266",
+    "date": "2011-10-04",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "e295af172c127b1f527c823ad0aeaeda",
+        "author": null,
+        "name": "the 42 melody",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

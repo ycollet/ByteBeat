@@ -1,0 +1,32 @@
+{
+  "file": "songs/80c3863109ea26d717f88075b1d27d91.js",
+  "title": "kind of a inter dubstep remix",
+  "author": "D3nschøt",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c11c4dfe165e2513ee4a911272990e95151004426741d89b852e526038d14b0b",
+  "upstream": {
+    "hash": "80c3863109ea26d717f88075b1d27d91",
+    "codeMinLen": 93,
+    "codeMin": "(2*(t>>(t>>13)&128)+(-t>>4&t/('1424'[(t>>12)%4]/4*t%256&t>>12))%256+256**2.5/(t%16384)%256)/3",
+    "codeLen": 123,
+    "code": "(((t>>(t>>13))&128)*2/3)+(((-t>>4&t/(((t*([1,4,2,4][(t>>12)%4]/4))%256&t>>12)))%256))%256/3+(256**2.5/(t%(256**2/4)))%256/3",
+    "author": "D3nschøt",
+    "name": "kind of a inter dubstep remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b4ylpr/kind_of_a_inter_dubstep_remix/",
+    "date": "2024-03-02",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "e3f0926119d7d995f68ce3458b639184",
+        "author": "Federal_Loss2780",
+        "name": "Inter Time Dubstep",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1580wez/inter_time_dubstep/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

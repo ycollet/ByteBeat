@@ -1,0 +1,34 @@
+{
+  "file": "songs/9b6f6f0761c49b699472c76472258ac8.js",
+  "title": "TIRO remix",
+  "author": "Chasyxx",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e27c3c2832a0af4bc43295152287134f009f89aad9bc4619a073e9f783fbc327",
+  "upstream": {
+    "hash": "9b6f6f0761c49b699472c76472258ac8",
+    "codeMinLen": 152,
+    "codeMin": "((t*(2&t>>13?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t&4096|(t>>11)%32>28?2:16))&255)*(1-(t>>12&1?t>>4&255:t>>3&255)/256)&192)/2+(random()*!(t>>9&3)*256&64)",
+    "codeLen": 155,
+    "code": "(((t*(2&t>>13?7:5)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t&4096|(t>>11)%32>28?2:16))&255)*(1-(t>>12&1?t>>4&255:t>>3&255)/256)&192)/2)\n+(random()*!(t>>9&3)*256&64)",
+    "author": "Chasyxx",
+    "name": "TIRO remix",
+    "url": "https://dollchan.net/btb/res/756.html#2764",
+    "date": "2023-09-12",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "7a56d8a6138e15b637382ea06ade7d32",
+        "author": "SthephanShi",
+        "name": "The time is running out!!!",
+        "url": "https://www.reddit.com/r/bytebeat/comments/q9owio/the_time_is_running_out/"
+      }
+    ],
+    "tags": [
+      "256"
+    ],
+    "date_added": "2025-09-30",
+    "date_edited": "2025-11-27"
+  }
+}

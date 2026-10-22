@@ -1,0 +1,28 @@
+{
+  "file": "songs/320a39d5e7f202a377580c703cf5403e.js",
+  "title": "airpod shotty",
+  "author": "TrashImpossible3699",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/320a39d5e7f202a377580c703cf5403e.js",
+  "sha256": "02e30ab2d417a2d39724312240462d72a28d33329c21b5188a932f309e0c7d15",
+  "upstream": {
+    "hash": "320a39d5e7f202a377580c703cf5403e",
+    "codeMinLen": 554,
+    "codeLen": 665,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "s=t/1.15,tune=.575,a=x=>(s>>12)%x.length,b=x=>2**((x.charCodeAt(a(x))-48)/12),tri=n=>(n&64?-n:n)&127,m=\"DFFFAAAAD DDD D F F A A D DDD D FFFFAAAAD DDHHHHFFDDHHHHFFDDKKKK\",B1=\"1111111110111010101010101011101011111111101122222222222222222222\",l=\"  F  FF   D  DD   B  BB   D  DD \",l2=\"  F  FF   E  EE   C  CC   E  EE \",B2=\"00100110001001100010011000100110\",((r=t*tune)*b(m)*B1[a(B1)]%256<32)*32+(tri(r/2*(bn=b(l)*B2[a(B2)]))+tri(r*1.17/2*b(l2)*B2[a(B2)])+tri(r*1.5/2*bn)+tri(r*bn))/2.5+([0,0,tri(t*8.1),tri(t*8.1),0,",
+    "isTruncated": 1,
+    "author": "TrashImpossible3699",
+    "name": "airpod shotty",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1exmax2/airpod_shotty/",
+    "date": "2024-08-21",
+    "sampleRate": 44100,
+    "coverName": "Airpod Shotty - Item Asylum",
+    "coverUrl": "https://youtu.be/qaWFXDDmVZs",
+    "tags": [
+      "1k"
+    ]
+  }
+}

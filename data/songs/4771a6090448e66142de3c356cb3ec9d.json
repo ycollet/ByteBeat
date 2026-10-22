@@ -1,0 +1,25 @@
+{
+  "file": "songs/4771a6090448e66142de3c356cb3ec9d.js",
+  "title": "ELECTROCORE",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "ca88b2b5973ef31c99c7e180be7b2d9163bca85a772cb5ff2cd0fd276716ed47",
+  "upstream": {
+    "hash": "4771a6090448e66142de3c356cb3ec9d",
+    "codeMinLen": 82,
+    "codeMin": "(((t>>16^t>>6&t>>12)>>4^(t>>18^t>>16)%8)%16*t&128)/2+(t*t/((t>>18^t>>16)%8)&-t>>6)",
+    "codeLen": 92,
+    "code": "(((t*((((t>>16^t>>6&t>>12)>>4)^(t>>18^t>>16)%8)%16))&128)/2)+((t*t/((t>>18^t>>16)%8))&-t>>6)",
+    "author": "kOLbOSa_exe",
+    "name": "ELECTROCORE",
+    "url": "https://www.reddit.com/r/bytebeat/comments/upnhe4/electrocore/",
+    "date": "2022-05-14",
+    "sampleRate": 32000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

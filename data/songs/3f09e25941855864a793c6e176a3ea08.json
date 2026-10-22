@@ -1,0 +1,39 @@
+{
+  "file": "songs/3f09e25941855864a793c6e176a3ea08.js",
+  "title": "i am gone",
+  "author": "Chasyxx",
+  "mode": "Funcbeat",
+  "rate": 22050,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/3f09e25941855864a793c6e176a3ea08.js",
+  "sha256": "2ddabee3d5826c8e9e9bce3e0def02f1c71ee32615790ff11663c2c66b0c3660",
+  "upstream": {
+    "hash": "3f09e25941855864a793c6e176a3ea08",
+    "codeLen": 7396,
+    "fileOrig": 1,
+    "codeText": "// Beats per minute.\n// Bars per beat.\n// Measures per bar.\n// Tuning frequency for A4.\n// Volume bar size.\n// Resolution of throw display. Set D to 1 to disable status info.\n// Whether you have a 512px width display. (Off by default).\nconst SETTINGS = {BPM:360,BPB:4,MPB:8,A4:440,VBS:50,D:300,SMOL: 1};",
+    "isTruncated": 1,
+    "author": "Chasyxx",
+    "name": "i am gone",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1c2n0rx/i_am_gone/",
+    "date": "2024-04-13",
+    "mode": "Funcbeat",
+    "sampleRate": 22050,
+    "remix": [
+      {
+        "hash": "7e0d781b00aa36a89120aead735e419c",
+        "author": "Chasyxx",
+        "name": "THE[[[HYPERSPHERE]]]",
+        "url": [
+          "https://www.reddit.com/r/bytebeat/comments/1aegota/thehypersphere_thebox_as_a_full_song/",
+          "https://dollchan.net/btb/res/756.html#2951"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "console"
+    ],
+    "date_added": "2025-09-24",
+    "date_edited": "2025-11-04"
+  }
+}

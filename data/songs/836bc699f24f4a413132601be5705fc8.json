@@ -1,0 +1,24 @@
+{
+  "file": "songs/836bc699f24f4a413132601be5705fc8.js",
+  "title": "Vegal *A N G E R Y*",
+  "author": "rubi",
+  "mode": "Bytebeat",
+  "rate": 12288,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4b2ed719d6cb001e422568b7ce12266d5e0a5cf791bdf68b08fd7f3084a644a6",
+  "upstream": {
+    "hash": "836bc699f24f4a413132601be5705fc8",
+    "codeMinLen": 145,
+    "codeMin": "(t*[1,1.2,1.5,1.5][(t>>15)%4]>>1)%63+(t*[1,1.2,1.5,1.5][(t>>15)%4]>>1)%64+32*random()*(1-(1&t>>10))+(t*[sin(t>>4),sin(t>>1)][(t>>13)%2]&-t>>7&63)",
+    "codeLen": 151,
+    "code": "((t*[1,1.2,1.5,1.5][(t>>15)%4]>>1)%63)+((t*[1,1.2,1.5,1.5][(t>>15)%4]>>1)%64)+(32*random()*(1-(1&t>>10)))+(t*[sin(t>>4),sin(t>>1)][(t>>13)%2]&-t>>7&63)",
+    "author": "rubi",
+    "name": "Vegal *A N G E R Y*",
+    "url": "https://www.reddit.com/r/bytebeat/comments/sgjf3j/vegal_a_n_g_e_r_y/",
+    "date": "2022-01-30",
+    "sampleRate": 12288,
+    "tags": [
+      "256"
+    ]
+  }
+}

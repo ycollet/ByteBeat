@@ -1,0 +1,29 @@
+{
+  "file": "songs/40ea446b0682d473f6fff02f5d8b7825.js",
+  "title": "The rings",
+  "author": "Diicorp95",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "29a72958c664b7afede4ba044442e3168000609cfb319e50d50093b5559a0d2e",
+  "upstream": {
+    "hash": "40ea446b0682d473f6fff02f5d8b7825",
+    "codeMinLen": 35,
+    "codeMin": "t/5*.4^t-t+2**6*cos(2>>t)-12*tan(t)",
+    "codeLen": 38,
+    "code": "t/5*0.4^t-t+2**6*cos(2>>t)-(12*tan(t))",
+    "author": "Diicorp95",
+    "name": "The rings",
+    "description": "Set \"Points\" mode and zoom to 1/16.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ruk9am/8000_hz_the_rings/",
+    "date": "2022-01-02",
+    "sampleRate": 8000,
+    "drawing": {
+      "mode": "Points",
+      "scale": "4"
+    },
+    "tags": [
+      "256"
+    ]
+  }
+}

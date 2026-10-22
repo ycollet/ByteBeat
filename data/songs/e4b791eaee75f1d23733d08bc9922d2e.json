@@ -1,0 +1,26 @@
+{
+  "file": "songs/e4b791eaee75f1d23733d08bc9922d2e.js",
+  "title": "time leap",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "e92876b14f8099d37b0f0ba3eea0ac84aeed0e30b2db8a984517b129ace6b9b0",
+  "upstream": {
+    "hash": "e4b791eaee75f1d23733d08bc9922d2e",
+    "codeMinLen": 305,
+    "codeMin": "T=1.0525,b=a=>t*2**([0,0,0,2,4,4,4,7][7&t*T>>15]/12)/5.95%a/2,a=t=>(p=[0,7,,0,7,,0,7,,0,7,11,9,7,6,2,4,7,,4,7,,4,7,,4,11,12,14,7,6,2][(t*T>>13)%32],z=t*2**(p/12)*2.7,(z&-t*T>>5&255)/1.5)*(1-t*T%8192/12E3)/2,a(t)+a(t-12288/T)/2+a(t-20480/T)/4+a(t-28672/T)/8+a(t-36864/T)/16+(b(128)+b(127))*(524288<t*T?1:0)",
+    "codeLen": 321,
+    "code": "T=1.0525,b=a=>t*2**([0,0,0,2,4,4,4,7][7&t*T>>15]/12)/5.95%a/2,a=t=>(p=[0,7,,0,7,,0,7,,0,7,11,9,7,6,2,4,7,,4,7,,4,7,,4,11,12,14,7,6,2][(t*T>>13)%32],z=t*2**(p/12)*2.7,(z&-t*T>>5&255)/1.5)*(1-t*T%8192/12E3)/2,a(t)+a(t-(1<<12)*3/T)/2+a(t-(1<<12)*5/T)/4+a(t-(1<<12)*7/T)/8+a(t-(1<<12)*9/T)/16+(b(128)+b(127))*(t*T>524288?1:0)",
+    "author": "Zackx",
+    "name": "time leap",
+    "url": "https://dollchan.net/btb/res/204.html#783",
+    "date": "2023-04-07",
+    "sampleRate": 44100,
+    "coverName": "Aero Chord - Time Leap",
+    "coverUrl": "https://youtu.be/beDFafObkFw",
+    "tags": [
+      "1k"
+    ]
+  }
+}

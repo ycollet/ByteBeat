@@ -1,0 +1,32 @@
+{
+  "file": "songs/4179f5412e55cb883321dc196e1ce003.js",
+  "title": "Voice generator",
+  "author": "SthephanShi",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "476b2ac8544054ebe52a7573e2c64daf6312514b19e3f75d5c549fe1ba3b8a87",
+  "upstream": {
+    "hash": "4179f5412e55cb883321dc196e1ce003",
+    "codeLen": 116,
+    "code": "t/=32E3,T=2*PI*t,n=160,.7*sin((3.6*(2*abs(1-n*t%2)-1)+1.5*sin(64*n*T))*(1+sin(.42*T))*(1+sin(1.13*T+7*sin(.7*T)))+T)",
+    "author": "SthephanShi",
+    "name": "Voice generator",
+    "description": "Low talking robot.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/11nq8yn/voice_generator/",
+    "date": "2023-03-10",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "a7692ed2a7c08d66f9b8a54307fab133",
+        "author": "justaboutdead",
+        "name": "YAY!",
+        "url": "https://wavepot.com/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

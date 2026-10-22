@@ -1,0 +1,25 @@
+{
+  "file": "songs/8afd97852cdc2a4462311474f8941466.js",
+  "title": "One-liner",
+  "author": "µB",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "4fdcd1393ae16252def3dba163ec8f9ab7a5c664167374481f58343ce1f8e3d7",
+  "upstream": {
+    "hash": "8afd97852cdc2a4462311474f8941466",
+    "codeMinLen": 62,
+    "codeMin": "64*(t>>3|t>>4|t>>9)+(t>>11&t<<2)^2*(t>>16|t|t>>7)+32*(t>>t&32)",
+    "codeLen": 64,
+    "code": "(64*(t>>3|t>>4|t>>9)+(t>>11&t<<2))^2*(t>>16|t|t>>7)+32*(t>>t&32)",
+    "author": "µB",
+    "name": "One-liner",
+    "url": "https://chipmusic.org/%C2%B5b/music/one-liner/",
+    "date": "2011-10-02",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

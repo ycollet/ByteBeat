@@ -1,0 +1,24 @@
+{
+  "file": "songs/35d30f0edf9083e72d30a784f7968ff6.js",
+  "title": "When Bytebeat has a Harmony v2",
+  "author": "NewFall2020",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "f5cf46bd42e46d13131a5cc1849aa89a7a2611d9caafb2a9b932cdf43e8ed108",
+  "upstream": {
+    "hash": "35d30f0edf9083e72d30a784f7968ff6",
+    "codeMinLen": 289,
+    "codeMin": "t/=4,d=[1,1.5,1.75,2,2.5,4,1,3][(t>>13)%8]*t,e=[1,1.5,1.75,1.6666,2,4,1,3][(t>>13)%8]*t,f=[1,1.5,1.75,1.6,2,2.4,1,3][(t>>13)%8]*t,g=[.5,.75,.875,1,.75,.5,.25,.75,.625,.75,.875,1,.75,.5,.25,.75][(t>>13)%16]*t,h=[2,3,3.5,4,5,8,2,6][(t>>13)%8]*t,d%32+e%42.66666666+f%51.212121212121+g%64+h%16",
+    "codeLen": 305,
+    "code": "t/=4,d=[1,1.5,1.75,2,2.5,4,1,3][(t>>13)%8]*t,e=[1,1.5,1.75,1.6666,2,4,1,3][(t>>13)%8]*t,f=[1,1.5,1.75,1.6,2,2.4,1,3][(t>>13)%8]*t,g=[0.5,0.75,0.875,1,0.75,0.5,0.25,0.75,0.625,0.75,0.875,1,0.75,0.5,0.25,0.75][(t>>13)%16]*t,h=[2,3,3.5,4,5,8,2,6][(t>>13)%8]*t,(d%32+e%42.66666666+f%51.212121212121+g%64+h%16)",
+    "author": "NewFall2020",
+    "name": "When Bytebeat has a Harmony v2",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qqcblq/when_bytebeat_has_a_harmony_v2/",
+    "date": "2021-11-09",
+    "sampleRate": 32000,
+    "tags": [
+      "1k"
+    ]
+  }
+}

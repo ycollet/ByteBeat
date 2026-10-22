@@ -1,0 +1,32 @@
+{
+  "file": "songs/dfb34048eb76fe3e9948bf3b96e06362.js",
+  "title": "remix of SthephanShi's remix",
+  "author": "RealZynx92",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "c4a2e571e6b0b17784ee0ac595ba46d13408035b312be6f2890d8ff66c71194b",
+  "upstream": {
+    "hash": "dfb34048eb76fe3e9948bf3b96e06362",
+    "codeMinLen": 194,
+    "codeMin": "t/=4,((t/2*(t&16384?7:5)*(t&512?.5:t&256?1:2)*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(59392>t%65536?t&4096?2:16:2))|t>>4)&127)+(1E5/(t%(t&8192?4096:3072))&64)+random()*((-t>>(t&4096?5:t&2048?3:4))%64+64)",
+    "codeLen": 209,
+    "code": "t/=4,((t/2*(t&16384?7:5)*(t&512?0.5:(t&256?1:2))*(3-(3&t>>9)+(3&t>>8))>>(3&-t>>(t%65536<59392?(t&4096?2:16):2))|t>>4)&127)+(1E5/(t%(t&8192?4096:3072))&128-64)+(random()*(((-t>>(t&4096?5:(t&2048?3:4)))%64)+64))",
+    "author": "RealZynx92",
+    "name": "remix of SthephanShi's remix",
+    "url": "https://www.reddit.com/r/bytebeat/comments/qf9meb/remix_of_the_time_is_running_out_by_stephanshi/hi9r80q/?utm_source=reddit&utm_medium=web2x&context=3",
+    "date": "2021-10-27",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "231d3a4f550391d9efcd2f24cc4d3643",
+        "author": "SthephanShi",
+        "name": "Remix of RealZynx92's remix",
+        "url": "https://www.reddit.com/r/bytebeat/comments/qf9meb/remix_of_the_time_is_running_out_by_stephanshi/hhzb9ft/?utm_source=reddit&utm_medium=web2x&context=3"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

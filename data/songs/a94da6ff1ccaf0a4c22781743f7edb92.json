@@ -1,0 +1,33 @@
+{
+  "file": "songs/a94da6ff1ccaf0a4c22781743f7edb92.js",
+  "title": "Trance beat",
+  "author": "SthephanShi",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "92bac6ed2227209f3fd3a4c696e6bcea62a6d62bdad69c81eeeaeb066fee64ed",
+  "upstream": {
+    "hash": "a94da6ff1ccaf0a4c22781743f7edb92",
+    "codeLen": 29,
+    "code": "t>>(t%16?4:6)|t>>(t%128?10:4)",
+    "author": "SthephanShi",
+    "name": "Trance beat",
+    "date": "2014-08-01",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "f13a2154c8b8ee6eacbbfd1cdfea4cc6",
+        "author": "Anonymous from russian imageboards",
+        "name": "11) THE HIT OF THE SEASON",
+        "url": [
+          "https://arhivach.xyz/storage/a/9b/a9b7e820d10e52493570894ed002b9a5.jpg",
+          "http://arhivach.xyz/thread/28592/#71678428"
+        ]
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ]
+  }
+}

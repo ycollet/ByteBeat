@@ -1,0 +1,39 @@
+{
+  "file": "songs/dd737f36844e59fa1a0d9423a51fc8ab.js",
+  "title": "Discobreakcore",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 39720,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "fa927460599dcf11cfb1c4cae90075791fe3d28658f6e5f76b86c5bec6112bbb",
+  "upstream": {
+    "hash": "dd737f36844e59fa1a0d9423a51fc8ab",
+    "codeMinLen": 270,
+    "codeMin": "i=t/4,128-((i&8%'21 35 3'[i>>9&6]*i|i>>5|6*i&i>>7%i*(i&1024?2:6)|(i&20?1:5))+(64-t/2%16384)/64)%256/2+((300**((t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+random()*(-t&4095)/150+(t*sin(t>>2)&255)*(-t&8191)/24E3*'00100101'[7&t>>13])/2",
+    "codeLen": 274,
+    "code": "i=t/4,128-((i&8%\"21 35 3\"[i>>9&6]*i|i>>5|i*6&i>>7%i*(i&1024?2:6)|(i&20?1:5))+(64-t/2%16384)/64)%256/2+(((3e2**(t*[[1,,,4,,4,4,8,4],[1,,,4,,4,8,16]][!(~t>>16&1)|0][7&t>>13]%32768)**.04)&128)/2+(random()*(-t&4095)/150)+((t*sin(t>>2)&255)*(-t&8191)/24e3)*'00100101'[7&t>>13])/2",
+    "author": "Zackx",
+    "name": "Discobreakcore",
+    "url": "https://dollchan.net/btb/res/204.html#930",
+    "date": "2023-04-24",
+    "sampleRate": 39720,
+    "remix": [
+      {
+        "hash": "0a4cad2a8b4648bafaea5e8dc45685da",
+        "author": "Zackx",
+        "name": "drums detail",
+        "url": "https://dollchan.net/btb/res/204.html#891"
+      },
+      {
+        "hash": "f4d521fe6dd27521e18c5ddde8015622",
+        "author": "Zackx",
+        "name": "Discobeat",
+        "url": "https://dollchan.net/btb/res/204.html#204"
+      }
+    ],
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-17"
+  }
+}

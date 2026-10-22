@@ -1,0 +1,32 @@
+{
+  "file": "songs/d5ee9991861a29d6c6c352259c56e141.js",
+  "title": "messing around with \"0x___\"",
+  "author": "Zera12873",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d6775f28fbe980807523c38eb6a0684762aad2ae1d45cb898da4f80b6e4f700b",
+  "upstream": {
+    "hash": "d5ee9991861a29d6c6c352259c56e141",
+    "codeLen": 34,
+    "code": "t>>2|(0xC098C098>>(t>>10))*t|t>>10",
+    "author": "Zera12873",
+    "name": "messing around with \"0x___\"",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1b19le3/messing_around_with_0x/",
+    "date": "2024-02-27",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "9a960900e3fa203be335530a56c8e10e",
+        "author": "rrrola",
+        "name": "CA98",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=9#c388902"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-28"
+  }
+}

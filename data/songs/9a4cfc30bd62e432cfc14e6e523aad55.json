@@ -1,0 +1,30 @@
+{
+  "file": "songs/9a4cfc30bd62e432cfc14e6e523aad55.js",
+  "title": "3.9 KB Jaunty Tune",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/9a4cfc30bd62e432cfc14e6e523aad55.js",
+  "sha256": "3b8b277aa65d0ab29a390a27937995e47735d89d0418b66b239c26e4c66de4d6",
+  "upstream": {
+    "hash": "9a4cfc30bd62e432cfc14e6e523aad55",
+    "codeMinLen": 2640,
+    "codeLen": 3913,
+    "fileOrig": 1,
+    "fileMin": 1,
+    "codeText": "lr=lr=>(s=32e3,ts=t/s,beat=145*ts/60,tick=(beat*2)%32,ts1=ts*256,ts2=ts+128,C=261.63+lr/10,D=293.66+lr/10,E=329.63+lr/10,F=349.23+lr/10,G=392.00+lr/10,A=440.00+lr/10,B=493.88+lr/10,c=(st,end,n)=>(tick>=st-1&&tick<end-1)*n,c1=c(1,2,C)+c(4,5,E)+c(5,5.125,B)+c(5.125,6,C*2)+c(6,7,G)+c(8,10,E)+c(11,11.125,F)+c(11.125,12,G)+c(13,15,D)+c(17,18,C)+c(20,21,G)+c(21,21.125,B)+c(21.125,22,C*2)+c(22,23,E*2)+c(24,25,C*2)+c(26,27,B)+c(28,29,G)+c(30,31,D)+c(31,32,B/2),c2=c(2,2.5,C/2)+c(3,4,C/2)+c(6,6.5,C/2)+c(7,8,C/2)+c(10",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "3.9 KB Jaunty Tune",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1kl6iax/39_kb_jaunty_tune/",
+    "date": "2025-05-12",
+    "mode": "Floatbeat",
+    "sampleRate": 32000,
+    "stereo": 1,
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-11-09"
+  }
+}

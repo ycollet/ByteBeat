@@ -1,0 +1,28 @@
+{
+  "file": "songs/05bce959acf758f45b455d2c666eeaf7.js",
+  "title": "the not so accurate 808 cowbell",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/05bce959acf758f45b455d2c666eeaf7.js",
+  "sha256": "05f42b3fcb94d96f047237cb898baed447b19748ba0f086a763f888b376fdbd3",
+  "upstream": {
+    "hash": "05bce959acf758f45b455d2c666eeaf7",
+    "codeMinLen": 384,
+    "codeMin": "BPM=125;A=B=Q=0;c=(a,b,c)=>{g=c[4*b%c.length|0];r=c=>a*440*2**((c+4)/12)%1-.5;return(r(g)+r(g+7))/exp(b%.25)**14*(g!=-9e9)};return W=>{T=W*BPM/60;N=-9e9;C=(A+=B+=(random()-.5-A*1-B*2)/8)*(1/exp((T+1)%2)**20*12%3);V=atan(sin(cbrt(T%1)*128)/2);R=(random()-.5)/exp(T%.25)**99/2+(random()-.5+T*2**15&1?-.25:.25)/exp((T+.5)%1)**32;Y=c(W,T,[N,N,0,N,N,N,0,N,N,N,0,N,N,N,3,1]);return V+C+R+Y}",
+    "codeLen": 500,
+    "fileOrig": 1,
+    "codeText": "BPM=125;A=B=Q=0;c=(a,b,c)=>{g=c[4*b%c.length|0];r=c=>a*440*2**((c+4)/12)%1-.5;return(r(g)+r(g+7))/exp(b%.25)**14*(g!=-9e9)};return W=>{T=W*BPM/60;N=-9e9;C=(A+=B+=(random()-.5-A*1-B*2)/8)*(1/exp((T+1)%2)**20*12%3);V=atan(sin(cbrt(T%1)*128)/2);R=(random()-.5)/exp(T%.25)**99/2+(random()-.5+T*2**15&1?-.25:.25)/exp((T+.5)%1)**32;Y=c(W,T,[N,N,0,N,N,N,0,N,N,N,0,N,N,N,3,1]);return V+C+R+Y}",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "the not so accurate 808 cowbell",
+    "url": "https://dollchan.net/btb/res/163.html#3838",
+    "date": "2024-06-23",
+    "mode": "Funcbeat",
+    "sampleRate": 48000,
+    "tags": [
+      "1k"
+    ],
+    "date_edited": "2025-11-27"
+  }
+}

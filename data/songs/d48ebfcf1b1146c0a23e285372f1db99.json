@@ -1,0 +1,26 @@
+{
+  "file": "songs/d48ebfcf1b1146c0a23e285372f1db99.js",
+  "title": "YAAAAY",
+  "author": "Dr_Dogan420",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "0f986f6af7b106587f55659786cc68a4026b8943b5a7e104054f4890e5d7f747",
+  "upstream": {
+    "hash": "d48ebfcf1b1146c0a23e285372f1db99",
+    "codeMinLen": 25,
+    "codeMin": "(t*10883>>7)*(t>>5)|t>>15",
+    "codeLen": 31,
+    "code": "(t*43532>>233)*(t>>325)|t>>2543",
+    "author": "Dr_Dogan420",
+    "name": "YAAAAY",
+    "url": "https://www.reddit.com/r/bytebeat/comments/1939jkw/yaaaay/",
+    "date": "2024-01-10",
+    "sampleRate": 8000,
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2026-05-17"
+  }
+}

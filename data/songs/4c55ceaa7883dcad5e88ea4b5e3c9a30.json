@@ -1,0 +1,36 @@
+{
+  "file": "songs/4c55ceaa7883dcad5e88ea4b5e3c9a30.js",
+  "title": "tried to make a \"full\" c-compatible song",
+  "author": "eSlashMachine",
+  "mode": "Bytebeat",
+  "rate": 9216,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "cb495bf107f1053776b7f1f22986e139a35d73e87356c8cba914e9ccfc4c4edb",
+  "upstream": {
+    "hash": "4c55ceaa7883dcad5e88ea4b5e3c9a30",
+    "codeMinLen": 323,
+    "codeMin": "(((t>>t/(t&65536?t&32768?6:5:4)*(2921606696>>(t>>10&31)&(t&65536?7:6))&(t>>13)+1)*-t>>5)+(t>524288)*(t>>t*8/(t&65536?t&32768?6:5:4))&-t>>t&(t<786432&&t>524288?255:t>262144?t>>4:t<131072?t>>9:255))+(t<786432&&t>524288?t>>t&t>>10:t>262144?(t%4096>512?0:(t%256*(1024-t%2048)/4>>5&128)>>(t>>9&7))*1.5+((t&4096?-t*t:0)&128)/2:0)",
+    "codeLen": 337,
+    "code": "(((((t>>t/(t&65536?t&32768?6:5:4)*(0xAE242E28>>(t>>10&31)&(t&65536?7:6))&((t>>13)+1))*-t>>5)+((t>524288)*((t>>t*8/(t&65536?t&32768?6:5:4)))))&-t>>t&(t<786432&&t>524288?255:t>262144?t>>4:t<131072?t>>9:255))+(t<786432&&t>524288?t>>t&t>>10:t>262144?(t%4096>512?0:(t%256*(1024-t%2048)/4>>5&128)>>(t>>9&7))*1.5+(((t&4096?(-t*t):0)&128))/2:0))",
+    "author": "eSlashMachine",
+    "name": "tried to make a \"full\" c-compatible song",
+    "description": "The kick drum was taken from \"Basics\" and modified to fit.",
+    "url": "https://dollchan.net/btb/res/6946.html#7640",
+    "date": "2025-06-26",
+    "sampleRate": 9216,
+    "remix": [
+      {
+        "hash": "a08b20728e717c1e43591d25bc93e7a6",
+        "author": "PortablePorcelain",
+        "name": "Basics",
+        "url": "https://www.reddit.com/r/bytebeat/comments/1go6lue/basics/"
+      }
+    ],
+    "tags": [
+      "1k",
+      "c"
+    ],
+    "date_added": "2025-10-23",
+    "date_edited": "2025-11-05"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file": "songs/ae638e4fa0c1f60a18daa2e634a2998a.js",
+  "title": "flying into the clouds",
+  "author": "eSlashMachine",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/minified/ae638e4fa0c1f60a18daa2e634a2998a.js",
+  "sha256": "d198e5fd5e82510dc6ab72dcbb9754ad7418d6808d419bc60af185648c53ce6d",
+  "upstream": {
+    "hash": "ae638e4fa0c1f60a18daa2e634a2998a",
+    "codeMinLen": 1024,
+    "fileMin": 1,
+    "codeText": "t||(U=(A=Array)(l=12288)[f='fill'](0),W=A(l)[f](0),V=A(l)[f](0),Y=A(l)[f](0),A=B=0),sc=(t<2**22?'10000000000000011000000001101101':'10000100100101001000010010010100')[(h=t/8192)&31],A+=B+=(((PI/64+(E=sin)(t/1E3)/1E3)*2**(a='0357'[t>>18&3]/12)*2**([0,4,7,11,16,12,7,4][t>>13&7]/12))-B)/256,X=(S,R,T)=>tanh(atan((x1=E(E(A*S)/PI*E(t*PI/2**21)*3+A*S)/8+((r=random)()-r())*(M=t&1?-1:1)/16*E(t*PI/524288)+R[t%l],R[t%l]=x1/2,x2=(E(E(X2=t*PI*S/512*2**a))+((X2/PI*128&255)/256-.5)*((H=h%1)-1))*(t>2**20)/2*(t<2**21?t/2**2",
+    "isTruncated": 1,
+    "author": "eSlashMachine",
+    "name": "flying into the clouds",
+    "description": "Advent Calendar 2025 battle entry.",
+    "url": [
+      "https://battleofthebits.com/arena/Entry/flying+into+the+clouds/80928/",
+      "https://dollchan.net/btb/res/6946.html#11165"
+    ],
+    "date": "2025-12-08",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "1k"
+    ],
+    "date_added": "2025-12-09",
+    "date_edited": "2026-02-25"
+  }
+}

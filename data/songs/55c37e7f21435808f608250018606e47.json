@@ -1,0 +1,34 @@
+{
+  "file": "songs/55c37e7f21435808f608250018606e47.js",
+  "title": "Techno",
+  "author": "Gabriel Miceli",
+  "mode": "Bytebeat",
+  "rate": 11025,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "16651c944256a568eb3108d624e98602727fad8b621853a96468e655a07f5924",
+  "upstream": {
+    "hash": "55c37e7f21435808f608250018606e47",
+    "codeMinLen": 74,
+    "codeMin": "(((t/10|0)^(t/10|0)-1280)%11*t/2&127)+(((t/640|0)^(t/640|0)-2)%13*t/2&127)",
+    "codeLen": 78,
+    "code": "(t*(((t/10|0)^(t/10|0)-1280)%11)/2&127)+(t*(((t/640|0)^(t/640|0)-2)%13)/2&127)",
+    "author": "Gabriel Miceli",
+    "name": "Techno",
+    "url": "https://youtu.be/V4GfkFbDojc?t=314",
+    "date": "2016-07-09",
+    "sampleRate": 11025,
+    "remix": [
+      {
+        "hash": "87366ade567d1aa63f11f65f725693ab",
+        "author": "Blueberry",
+        "name": "Good old fractal melody",
+        "url": "http://www.pouet.net/topic.php?which=8357&page=12#c389114"
+      }
+    ],
+    "tags": [
+      "256",
+      "c"
+    ],
+    "date_edited": "2025-09-23"
+  }
+}

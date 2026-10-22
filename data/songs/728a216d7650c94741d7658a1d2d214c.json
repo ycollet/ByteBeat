@@ -1,0 +1,32 @@
+{
+  "file": "songs/728a216d7650c94741d7658a1d2d214c.js",
+  "title": "Cool waveform i guess (second one)",
+  "author": "1583736",
+  "mode": "Bytebeat",
+  "rate": 32000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "154d4a369640c0c3d7aa6ee1da17f9f5c09401ecdde5a43d965ae07b13904666",
+  "upstream": {
+    "hash": "728a216d7650c94741d7658a1d2d214c",
+    "codeMinLen": 133,
+    "codeMin": "t=3*(t-(t>>10&4|t>>13&3|t>>17&6|t>>14&4)*t/((t>>16&7)+4)),128*abs(1-abs(.5+cos(t/64.25))**.3)**(1-abs(1-abs(.5-sin(t/63.75))**.5))+32",
+    "codeLen": 170,
+    "code": "t=(3*(t-((t>>10&4|t>>13&3)|(t>>17&6|t>>14&4))*t/((t>>16&7)+4))),Math.pow(Math.abs(1-Math.abs(0.5+cos(t/64.25))**0.3),1-Math.abs(1-Math.abs(0.5-sin(t/63.75))**0.5))*128+32",
+    "author": "1583736",
+    "name": "Cool waveform i guess (second one)",
+    "url": "https://www.reddit.com/r/bytebeat/comments/ntpnza/cool_waveform_i_guess/",
+    "date": "2021-06-06",
+    "sampleRate": 32000,
+    "remix": [
+      {
+        "hash": "eb62f0fa9b8e2ba71f79b92412a88166",
+        "author": "1583736",
+        "name": "Cool waveform i guess (first one)",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ntpnza/cool_waveform_i_guess/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

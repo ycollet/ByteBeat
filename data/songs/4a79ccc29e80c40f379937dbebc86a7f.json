@@ -1,0 +1,27 @@
+{
+  "file": "songs/4a79ccc29e80c40f379937dbebc86a7f.js",
+  "title": "radiant",
+  "author": "luna197",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/formatted/4a79ccc29e80c40f379937dbebc86a7f.js",
+  "sha256": "fd8a65ff196fc0929304a42be80c3d4978e2ca69d5031a1aa3a83e1c7bfab420",
+  "upstream": {
+    "hash": "4a79ccc29e80c40f379937dbebc86a7f",
+    "codeFormLen": 1005,
+    "fileForm": 1,
+    "codeText": "t || (\n\tR=Array(RS=8).fill().map((_,i) => Array(round(13e3*5**(i/RS))).fill(0)),\n\tB=[12,24,31,36,43,46,48,51,55,58].concat(...Array(3).fill().map((_,i) => [60,62,63,65,67,70].map(x => x + 12*i)).flat()).map(x => [x, 0]),\n\tipf = 0,\n\tftp = 1,\n\tmp = 0, mf = 0\n),\n",
+    "isTruncated": 1,
+    "author": "luna197",
+    "name": "radiant",
+    "url": "https://battleofthebits.com/arena/Entry/radiant+%28floatbeat+48k%29.txt/84235/",
+    "date": "2026-04-27",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "big"
+    ],
+    "date_added": "2026-05-10"
+  }
+}

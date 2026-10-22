@@ -1,0 +1,30 @@
+{
+  "file": "songs/8d5d14d13a6ca087e3bf1b3052e95bb1.js",
+  "title": "128 Voices Generator",
+  "author": "0b5vr",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "35188b4578b8f9098eea99043091298be64ec8eb88f982928b06fc6ffacce3b4",
+  "upstream": {
+    "hash": "8d5d14d13a6ca087e3bf1b3052e95bb1",
+    "codeLen": 242,
+    "code": "H=i=128,s=t/5e3,o=[H,H],F=i=>((57454323>>4*i&31)-(s>>3&4))/12,(e=>{while(i--)o[i%2]+=sin(40*log(s%4)+9*s)/3+s%4*(exp(-s%1*2)*((t*2**[F(7)-2,5+i/90,F(~~s-4*(i<48))+i%4/H][i%3]+s%1*i/5&H)-64)+(t*2**(F(i%7)-(i/2&1))+1e4*sin(i+s/H))%H-64)/H})(),o",
+    "author": "0b5vr",
+    "name": "128 Voices Generator",
+    "description": "Lovebyte 2024 competition - 2nd place.",
+    "url": [
+      "https://demozoo.org/music/337718/",
+      "https://youtu.be/y0DOxMxbgdc"
+    ],
+    "date": "2024-02-10",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "tags": [
+      "256",
+      "slow"
+    ],
+    "date_added": "2025-10-07",
+    "date_edited": "2025-10-07"
+  }
+}

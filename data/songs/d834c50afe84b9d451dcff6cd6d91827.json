@@ -1,0 +1,32 @@
+{
+  "file": "songs/d834c50afe84b9d451dcff6cd6d91827.js",
+  "title": "GetDolphinedLOL's Bytebeat Creations But Their Badly Remixed",
+  "author": "HypernovaHeathen",
+  "mode": "Bytebeat",
+  "rate": 44100,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "886e34beed4e5cc2551d3f098ea069d1c80f68d8b310c88921b20cd83d1c0a8a",
+  "upstream": {
+    "hash": "d834c50afe84b9d451dcff6cd6d91827",
+    "codeMinLen": 351,
+    "codeMin": "(x=>x/6+x/9)(([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&192)/2+([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t>>2&128)+(([2,0,3,0,2,0,2.5,0,3,0,2,0,1.8,0,3,3][(t>>12)%16]*t>>2&127)+(t>>8)&128)+([0,1][(t>>13)%2]*t>>2&127))+24*sin(4095/(t%16384))+24*cos(6143/(t%16384)*1.007)+48+random()*((-t>>8&31)+1)*(-t>>13&1)",
+    "codeLen": 383,
+    "code": "function(x){return x/6+x/9}((([2,2,3,0,2.9,0,3,0,3.5,3.5,3,3,2.9,2.9,3,0,3,0,3,0,2.9,0,3,0,2,2,1.8,1.8,2,2,1,1][(t>>12)%32]*t&192)/2+([0,2,0,2,0,2,0,3,0][(t>>13)%8]*t>>2&128)+(([2,0,3,0,2,0,2.5,0,3,0,2,0,1.8,0,3,3][(t>>12)%16]*t>>2&127)+(t>>8)&128)+([0,1][(t>>13)%2]*t>>2&127)))+24*Math.sin(4095/(t%16384))+24*Math.cos(6143/(t%16384)*1.007)+48+Math.random()*((-t>>8&31)+1)*(-t>>13&1)",
+    "author": "HypernovaHeathen",
+    "name": "GetDolphinedLOL's Bytebeat Creations But Their Badly Remixed",
+    "url": "https://dollchan.net/btb/res/77.html#89",
+    "date": "2020-07-08",
+    "sampleRate": 44100,
+    "remix": [
+      {
+        "hash": "0466e5621443532a47fc11e1154d76ae",
+        "author": "rubi",
+        "name": "Ctrl+V",
+        "url": "https://www.reddit.com/r/bytebeat/comments/s0ytc9/ctrlv/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

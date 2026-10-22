@@ -1,0 +1,32 @@
+{
+  "file": "songs/31b6b99900b41f0b4b78b8eafd2a3e67.js",
+  "title": "bitbeat concerto",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "d8cf57aad0f9db82658084f1f3d855963e6abcb0855d7b3874c435dec14cc5cb",
+  "upstream": {
+    "hash": "31b6b99900b41f0b4b78b8eafd2a3e67",
+    "codeMinLen": 221,
+    "codeMin": "t*=.184,64*(1&(t*2**(([5,5,7,7,0,0,5,0][t/3>>13&7]-5)/12-2)&(t>>9)%24+1?1&t*2**(('aaeeecfffe`a^^ccce^^^c`^\\\\\\\\cccehhhcefhhhejhccchec'.charCodeAt((t>>12)%48)-97)/12-5)?'000000001000101011001100'[(t>>9)%24]*random()*2:1:0))",
+    "codeLen": 230,
+    "code": "t*=.184,(1&((t*2**(([5,5,7,7,0,0,5,0][t/3>>13&7]-5)/12-2))&((t>>9)%24+1)?!(1&t*2**(('aaeeecfffe`a^^ccce^^^c`^\\\\\\\\cccehhhcefhhhejhccchec'.charCodeAt((t>>12)%48)-97)/12-5))?1:('000000001000101011001100'[(t>>9)%24]*random()*2):0))*64",
+    "author": "PortablePorcelain",
+    "name": "bitbeat concerto",
+    "url": "https://www.reddit.com/r/bytebeat/comments/14nq9up/bitbeat_concerto/",
+    "date": "2023-07-21",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "d9ba70db132c8132d530839e4c689ce0",
+        "author": "May_I_Change_My_Name",
+        "name": "Bytebeat Concerto No. 1",
+        "url": "https://www.reddit.com/r/bytebeat/comments/ye7djq/bytebeat_concerto_no_1/"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

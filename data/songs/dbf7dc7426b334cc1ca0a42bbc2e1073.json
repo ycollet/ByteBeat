@@ -1,0 +1,39 @@
+{
+  "file": "songs/dbf7dc7426b334cc1ca0a42bbc2e1073.js",
+  "title": "engin't",
+  "author": "kOLbOSa_exe",
+  "mode": "Bytebeat",
+  "rate": 8000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/dbf7dc7426b334cc1ca0a42bbc2e1073.js",
+  "sha256": "00f315e821abc0c95e39cfe166626eb51f3730a9210b61bf8a4642edb06ec0b8",
+  "upstream": {
+    "hash": "dbf7dc7426b334cc1ca0a42bbc2e1073",
+    "codeMinLen": 128,
+    "codeMin": "h=t=>(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))%256,(p=>{o=h(t)/4;for(i=1;i<8;i++)o+=h(t-i*900)/(i*9);return o/2+64})()",
+    "codeLen": 210,
+    "fileOrig": 1,
+    "codeText": "h=t=>(t&4096?(t*(t^t%255)|t>>4)>>1:t>>3|(t&8192?t<<2:t))%256,(p=>{o=h(t)/4;for(i=1;i<8;i++)o+=h(t-i*900)/(i*9);return o/2+64})()",
+    "isTruncated": 1,
+    "author": "kOLbOSa_exe",
+    "name": "engin't",
+    "description": "\"Street surfer\" with reverb.",
+    "url": "https://www.reddit.com/r/bytebeat/comments/163jd24/engint/",
+    "date": "2023-08-28",
+    "sampleRate": 8000,
+    "remix": [
+      {
+        "hash": "3fa2a382657d478a2ef6ba509266c48c",
+        "author": "skurk, raer",
+        "name": "Street Surfer",
+        "url": [
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388479",
+          "http://www.pouet.net/topic.php?which=8357&page=4#c388494",
+          "https://youtu.be/qlrs2Vorw2Y?t=190"
+        ]
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

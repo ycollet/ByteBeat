@@ -1,0 +1,25 @@
+{
+  "file": "songs/041d4d125e1fbeb68f05846e6d6617ef.js",
+  "title": "HCDP DRUM BEAT PATTERN",
+  "author": "hcdphobe",
+  "mode": "Funcbeat",
+  "rate": 96000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/041d4d125e1fbeb68f05846e6d6617ef.js",
+  "sha256": "2104f03148f6dce881712d25b8cd0397dc9ce7e13d04c8c5f0a2053380cdd991",
+  "upstream": {
+    "hash": "041d4d125e1fbeb68f05846e6d6617ef",
+    "codeLen": 1210,
+    "fileOrig": 1,
+    "codeText": "/*\nHCDP DRUM BEAT PATTERN\nNUMBERS - kick\nx - hat\nq - clap\nc - hat+clap\ny - hat+kick\nk - clap+kick",
+    "isTruncated": 1,
+    "author": "hcdphobe",
+    "name": "HCDP DRUM BEAT PATTERN",
+    "url": "https://dollchan.net/btb/res/163.html#3036",
+    "date": "2024-02-29",
+    "mode": "Funcbeat",
+    "sampleRate": 96000,
+    "tags": [
+      "big"
+    ]
+  }
+}

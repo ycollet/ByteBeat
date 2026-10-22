@@ -1,0 +1,32 @@
+{
+  "file": "songs/3e8b747995a6f38c03bbcfd5a2432b28.js",
+  "title": "bassline remix",
+  "author": "PortablePorcelain",
+  "mode": "Bytebeat",
+  "rate": 72000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "9740f2177227d2e044a8a3ac534a72fb11b0f80af9411c7418be427d89360438",
+  "upstream": {
+    "hash": "3e8b747995a6f38c03bbcfd5a2432b28",
+    "codeMinLen": 191,
+    "codeMin": "t/=8,q=2+(5&t>>14),v=(~t>>2)*((127&t*(7&t>>10))<(245&t*q))|t>>t*q/8|t>>2,v%=256,v=v/2-1,f=(x,y,z)=>x/(t%y)&z,v+f(2E4,4096,64)+f(4E3,1024,64)-f(4E3,t&4096?t&8192?5120:3072:4096,64)&-t>>(q+3)/2",
+    "codeLen": 195,
+    "code": "t/=8,q=(2+(5&t>>14)),v=(~t>>2)*((127&t*(7&t>>10))<(245&t*q))|t>>t*q/8|t>>2,v%=256,v=v/2-1,f=(x,y,z)=>x/(t%y)&z,v+f(2e4,4096,64)+f(4e3,1024,64)-f(4e3,t&4096?t&8192?5120:3072:4096,64)&-t>>((q+3)/2)",
+    "author": "PortablePorcelain",
+    "name": "bassline remix",
+    "url": "https://dollchan.net/btb/res/55.html#83",
+    "date": "2022-06-30",
+    "sampleRate": 72000,
+    "remix": [
+      {
+        "hash": "febef17534625950125db04264c705a9",
+        "author": "tejeez",
+        "name": "Bassline #countercomplex",
+        "url": "http://viznut.fi/demos/unix/bytebeat_formulas.txt"
+      }
+    ],
+    "tags": [
+      "256"
+    ]
+  }
+}

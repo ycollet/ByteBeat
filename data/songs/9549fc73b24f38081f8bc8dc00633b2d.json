@@ -1,0 +1,35 @@
+{
+  "file": "songs/9549fc73b24f38081f8bc8dc00633b2d.js",
+  "title": "frodo and the magic weed disco remix",
+  "author": "Zackx",
+  "mode": "Bytebeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/library/all.gz",
+  "sha256": "2923df15c7b9ab47559501d19e637ca16e926bfe77d212683fd47230a2498b34",
+  "upstream": {
+    "hash": "9549fc73b24f38081f8bc8dc00633b2d",
+    "codeMinLen": 407,
+    "codeMin": "a=t=>(t*2**(parseInt('5HOH5HOH0CJC3FMF'[(t>>13)%16],36)/12)/2.7%256+(t>>6&255)&256)*(1-t%8192/12E3)/5,a(t)+a(t-(d=12288))/2+a(t-2*d)/4+a(t-3*d)/8+32*sin(10*cbrt(t/'4441441144414422'[15&t>>13]%8192))+32+sin(t*PI*2**('0357'[3&t>>16]/12)/512)*(1-t/8%8192/12E3)*24+24+40*random()*(1-t%8192/8192)*'0000100000001010'[15&t>>13]+(c=x=>t*x*.99%512/12*(1-t%4096/4096)*!(t&4096)*'0010001000110101'[15&t>>13],c(6)+c(9))",
+    "codeLen": 411,
+    "code": "a=t=>(t*2**(parseInt('5HOH5HOH0CJC3FMF'[(t>>13)%16],36)/12)/2.7%256+(t>>6&255)&256)*(1-t%8192/12E3)/5,a(t)+a(t-(d=12288))/2+a(t-d*2)/4+a(t-d*3)/8+sin(10*cbrt(t/'4441441144414422'[15&t>>13]%8192))*32+32+sin(t*PI*2**('0357'[3&t>>16]/12)/512)*(1-t/8%8192/12E3)*24+24+(random()*40)*(1-t%8192/8192)*'0000100000001010'[15&t>>13]+(c=x=>(t*x*.99%512)/12*(1-t%4096/4096)*!(t&4096)*'0010001000110101'[15&t>>13],c(6)+c(9))",
+    "author": "Zackx",
+    "name": "frodo and the magic weed disco remix",
+    "url": [
+      "https://dollchan.net/btb/res/204.html#1820",
+      "https://www.reddit.com/r/bytebeat/comments/15jife2/frodo_and_the_magic_weed_disco_remix/"
+    ],
+    "date": "2023-08-06",
+    "sampleRate": 48000,
+    "remix": [
+      {
+        "hash": "00eea19df1d0b0b9173800285d124382",
+        "author": "rubi",
+        "name": "frodo and the magic weed",
+        "url": "https://www.reddit.com/r/bytebeat/comments/14je5fs/frodo_and_the_magic_weed/"
+      }
+    ],
+    "tags": [
+      "1k"
+    ]
+  }
+}

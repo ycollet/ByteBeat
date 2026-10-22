@@ -1,0 +1,43 @@
+{
+  "file": "songs/2564bb56d5b283d1f0a1975a36aa7629.js",
+  "title": "Solar Cityscapes",
+  "author": "MarioFan171",
+  "mode": "Floatbeat",
+  "rate": 48000,
+  "source": "https://dollchan.net/bytebeat/data/songs/original/2564bb56d5b283d1f0a1975a36aa7629.js",
+  "sha256": "39f9a0849a9e52d1fd3ab9b761b09fcdc6631cbcfb37c615404e7caba58dfc9c",
+  "upstream": {
+    "hash": "2564bb56d5b283d1f0a1975a36aa7629",
+    "codeLen": 2951,
+    "fileOrig": 1,
+    "codeText": "tune=1.3,\nspeed=1.375,\n\ntt=t*tune,\nts=t*speed,\n\nt2=t,\n",
+    "isTruncated": 1,
+    "author": "MarioFan171",
+    "name": "Solar Cityscapes",
+    "url": [
+      "https://dollchan.net/btb/res/2971.html#4318",
+      "https://dollchan.net/btb/res/204.html#4317"
+    ],
+    "date": "2024-08-30",
+    "mode": "Floatbeat",
+    "sampleRate": 48000,
+    "stereo": 1,
+    "remix": [
+      {
+        "hash": "db520d39c9f6969e69219d2c5132502b",
+        "author": "Zackx",
+        "name": "Sunset road",
+        "url": [
+          "https://dollchan.net/btb/res/204.html#4013",
+          "https://www.reddit.com/r/bytebeat/comments/1edi5ya/pwmsynth_master/"
+        ]
+      }
+    ],
+    "tags": [
+      "big",
+      "slow"
+    ],
+    "date_added": "2025-09-26",
+    "date_edited": "2025-12-01"
+  }
+}
