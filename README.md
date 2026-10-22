@@ -215,6 +215,13 @@ is also fatal because no playback function was returned. Frequent text diagnosti
 can affect performance; `RUST_LOG=bytebeat=error` hides warnings without changing
 their handling or report counts.
 
+Console logs render terminal-control characters visibly (for example, ESC as
+`\u{1b}` and carriage return as `\r`) rather than sending commands to the
+terminal. Newlines and readable Unicode are preserved; other C0/C1 controls,
+including tabs, are escaped. This applies to diagnostic text, metadata, paths,
+and errors. JSON reports retain the original values, and playback semantics are
+unchanged.
+
 The JavaScript heap limit defaults to **32 MiB per song**. Set a different
 positive integer limit for either GUI playback or headless checking:
 

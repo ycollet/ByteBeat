@@ -3,13 +3,14 @@ mod audio;
 mod catalog;
 mod cli;
 mod engine;
+mod logging;
 mod songs;
 mod upstream;
 
 use clap::Parser;
 
 fn main() -> std::process::ExitCode {
-    env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info")).init();
+    logging::init();
     match run(cli::Args::parse()) {
         Ok(true) => std::process::ExitCode::SUCCESS,
         Ok(false) => std::process::ExitCode::FAILURE,

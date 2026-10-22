@@ -298,6 +298,7 @@ dependencies = [
  "eframe",
  "env_logger",
  "flate2",
+ "libc",
  "log",
  "rquickjs",
  "rtrb",

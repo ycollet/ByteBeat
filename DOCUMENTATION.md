@@ -501,6 +501,14 @@ State changes made before the throw are retained. Every recovered throw is
 counted in the report's per-song `thrown_texts` field, including for songs that
 later fail. The report also records the selected `memory_limit_mb`.
 
+All log messages escape terminal-control characters before writing to the
+console. ESC is displayed as `\u{1b}`, carriage return as `\r`, and other C0/C1
+controls (including tabs) as visible escapes; newlines and readable Unicode
+remain intact. This prevents song diagnostics, exception messages, metadata,
+and filenames from supplying terminal commands such as clipboard writes.
+The escaping is a logging-only operation: JSON report values retain their
+original text, thrown-text counts are unchanged, and audio behavior is unchanged.
+
 ### Rendering performance
 
 Each successful result has a `performance` object; failed results use `null` so
