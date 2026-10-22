@@ -11,6 +11,7 @@ this native application; other bytebeat players can differ.
 ## Contents
 
 - [Getting started](#getting-started)
+- [JACK playback on Linux](#jack-playback-on-linux)
 - [Time and sample rate](#time-and-sample-rate)
 - [Playback modes and output values](#playback-modes-and-output-values)
 - [Writing expressions](#writing-expressions)
@@ -36,6 +37,38 @@ Edits are applied explicitly, not on every keystroke.
 starts its time counter at zero, preserving whether playback was active.
 **Stop** creates a fresh program at zero and leaves playback paused.
 **Apply & play** compiles a fresh program and starts playback from zero.
+
+Without `--catalog`, the application first looks for `./data/catalog.json`,
+then `/usr/share/bytebeat/catalog.json` on Linux, then a previously downloaded
+user-cache catalog. If none exists, it downloads the upstream library in the
+background. The GUI remains usable during downloading and shows progress or a
+retryable error in the song library. A completed cached library works offline
+on subsequent launches. See the [README](README.md#upstream-catalog-and-file-loading)
+for cache locations and manual download/refresh commands.
+
+## JACK playback on Linux
+
+Use `--jack` to select JACK instead of the default audio backend:
+
+```sh
+cargo run --release -- --jack
+./target/release/bytebeat --jack --file melody.js --memory-limit-mb 128
+```
+
+A JACK server must already be running, or PipeWire's JACK compatibility must be
+configured. Some PipeWire installations require `pw-jack` before the command.
+If output is not automatically routed, connect the CPAL client to your playback
+ports with a JACK/PipeWire patchbay.
+
+JACK controls the output device rate and buffer size. The editor's sample-rate
+control still determines the formula's source rate and the `sampleRate` passed
+to JavaScript. The application's existing resampling converts between them.
+
+JACK initialization errors are logged and shown in the status bar; the app does
+not silently switch to ALSA or another backend. `--jack` is Linux-only and is
+incompatible with `--check`, since checking does not open any audio device.
+See the [README's JACK setup notes](README.md#jack-audio-on-linux) for build and
+packaging dependencies.
 
 ## Time and sample rate
 
@@ -420,6 +453,26 @@ Check a downloaded catalog and capture its console diagnostics:
 `--seconds` accepts 0.01 to 60 seconds and defaults to 1.
 The checker starts each program at time zero in a fresh runtime and uses
 48000 Hz output. It continues after individual catalog failures.
+Running `--check` without either `--file` or `--catalog` discovers a local,
+installed, or cached catalog, or downloads upstream if none exists. Downloads
+are synchronous in this headless mode and report progress in console logs.
+Checking a particular `--file` never downloads a catalog. An explicit invalid
+`--catalog` path is an error, not a trigger for automatic downloading.
+
+The JavaScript heap limit defaults to **32 MiB per song**. Buffer-heavy songs
+can be given more memory with a positive integer `--memory-limit-mb` value:
+
+```sh
+./target/release/bytebeat --file melody.js --memory-limit-mb 128
+./target/release/bytebeat --catalog data/catalog.json --check --seconds 1 \
+  --memory-limit-mb 128 --report data/check-report.json
+```
+
+This option applies to both GUI playback and checking for the current invocation.
+Units are MiB (1024 * 1024 bytes), despite the `mb` spelling. It limits the
+JavaScript heap, not all application memory; raising it does not increase the
+execution-time budget. Large limits can exhaust system memory, so use a value
+appropriate for your machine.
 
 Exit status is `0` when every selected program passes, or `1` for loading,
 compilation, or rendering failures. Invalid command-line syntax can exit `2`.
@@ -428,9 +481,18 @@ Rendering diagnostics include the source sample position and elapsed song time.
 `RUST_LOG` controls logging; for example, `RUST_LOG=bytebeat=error` shows errors
 without successful-check messages.
 
+Text strings thrown during sample evaluation are console diagnostics, not fatal
+errors. They are logged as warnings with their actual line breaks and source
+sample position. For that sample, playback holds the previous normalized stereo
+value, or silence before any valid output, and advances the source clock.
+State changes made before the throw are retained. Every recovered throw is
+counted in the report's per-song `thrown_texts` field, including for songs that
+later fail. The report also records the selected `memory_limit_mb`.
+
 A successful result verifies only the requested initial interval. It does not
 prove that later sections work, that the audio sounds as intended, or that the
-program can keep up with real-time playback.
+program can keep up with real-time playback. A passing song can have recovered
+thrown-text diagnostics; inspect their count and logs when investigating it.
 
 ## Errors, limits, and compatibility
 
@@ -441,7 +503,7 @@ program can keep up with real-time playback.
 | NaN or infinity | Division by zero, `log(0)`, invalid math, or an out-of-range array index |
 | Wrong stereo shape | Return exactly `[left, right]`, not a note list or a one-element array |
 | `... is not defined` | A missing initialization, misspelled variable, or unsupported host API |
-| Out of memory | The program exceeded the 32 MiB JavaScript heap limit |
+| Out of memory | The program exceeded the JavaScript heap limit; default 32 MiB, adjustable with `--memory-limit-mb` |
 | Interrupted | Initialization or a render block exceeded its 100 ms execution budget |
 | Unsupported sample rate | The rate is non-finite or outside 1000 to 192000 Hz |
 | Wrong pitch | Check the rate and whether `t` is samples or seconds in the chosen mode |
@@ -451,10 +513,16 @@ Rendering begins at `t = 0`. Expressions such as `1 / t`, `sin(t) / t`, and
 `log(t)` are invalid there unless guarded. Use a conditional to define the
 time-zero result; do not rely on the player skipping bad samples.
 
-Exceptions, including deliberate `throw` statements, stop playback and are
-reported. Some upstream songs use thrown text as a console display or rely on
-their browser player tolerating NaN during initialization. Those behaviors do
-not pass this application's strict checks.
+Primitive text strings thrown by the sample function are logged and playback
+continues as described above. JavaScript `Error` objects and non-string thrown
+values remain fatal. A text throw from the Funcbeat factory is also fatal:
+initialization must successfully return a playback function. Logging every
+diagnostic can be expensive for songs that throw at very high rates; use
+`RUST_LOG=bytebeat=error` to suppress warning output while retaining report counts.
+
+Some upstream songs rely on their browser player tolerating NaN during
+initialization. Non-finite output still fails this application's strict checks;
+thrown-text support does not relax numeric validation.
 
 JavaScript arrays, objects, functions, closures, and typed arrays are available.
 Browser and Node.js APIs are not: there is no DOM, `document`, `fetch`, timer

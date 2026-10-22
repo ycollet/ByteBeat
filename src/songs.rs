@@ -38,7 +38,7 @@ mod tests {
     #[test]
     fn every_demo_renders() {
         for song in super::demos() {
-            let mut engine = crate::engine::Engine::new(&song.code, song.mode, song.rate)
+            let mut engine = crate::engine::Engine::new(&song.code, song.mode, song.rate, 32)
                 .unwrap_or_else(|e| panic!("{}: {e}", song.title));
             let frames = engine
                 .render(2048, 48_000)

@@ -144,10 +144,154 @@ fn rejects_missing_files_bad_metadata_and_invalid_arguments() {
     for args in [
         vec!["--check", "--seconds", "NaN"],
         vec!["--check", "--sample-rate", "0"],
-        vec!["--check"],
+        vec!["--check", "--catalog", "missing-catalog.json"],
         vec!["--sample-rate", "8000"],
     ] {
         let output = run(&dir, &args);
         assert!(!output.status.success(), "{args:?}");
     }
+}
+
+#[test]
+fn logs_readable_thrown_text_and_continues_with_diagnostics_in_report() {
+    let dir = TempDir::new().unwrap();
+    fs::write(
+        dir.path().join("display.js"),
+        "t === 0 || t === 10 ? (() => { throw 'first line\\nsecond line'; })() : 192",
+    )
+    .unwrap();
+    let output = run(
+        &dir,
+        &[
+            "--file",
+            "display.js",
+            "--check",
+            "--seconds",
+            "0.01",
+            "--report",
+            "report.json",
+        ],
+    );
+    let log = stderr(&output);
+    assert!(output.status.success(), "{log}");
+    assert!(log.contains("Thrown text at sample 0"), "{log}");
+    assert!(log.contains("Thrown text at sample 10"), "{log}");
+    assert!(
+        log.contains("first line") && log.contains("second line"),
+        "{log}"
+    );
+    assert!(!log.contains("String(Ok"), "{log}");
+    assert!(!log.contains("\\nsecond line"), "{log}");
+    let report: Value =
+        serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
+    assert_eq!(report["passed"], 1);
+    assert_eq!(report["results"][0]["thrown_texts"], 2);
+    assert_eq!(report["results"][0]["samples_checked"], 80);
+    assert_eq!(report["results"][0]["peak"], 0.5);
+}
+
+#[test]
+fn cli_heap_limit_changes_available_memory_and_is_recorded() {
+    let dir = TempDir::new().unwrap();
+    fs::write(
+        dir.path().join("memory.js"),
+        "(t || (globalThis.buffer = new Uint8Array(2 * 1024 * 1024)), 128)",
+    )
+    .unwrap();
+    let small = run(
+        &dir,
+        &[
+            "--file",
+            "memory.js",
+            "--check",
+            "--seconds",
+            "0.01",
+            "--memory-limit-mb",
+            "1",
+        ],
+    );
+    assert_eq!(small.status.code(), Some(1));
+    assert!(stderr(&small).contains("out of memory"));
+    let large = run(
+        &dir,
+        &[
+            "--file",
+            "memory.js",
+            "--check",
+            "--seconds",
+            "0.01",
+            "--memory-limit-mb",
+            "8",
+            "--report",
+            "report.json",
+        ],
+    );
+    assert!(large.status.success(), "{}", stderr(&large));
+    let report: Value =
+        serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
+    assert_eq!(report["memory_limit_mb"], 8);
+    for limit in ["0", "-1", "not-a-number"] {
+        let output = run(&dir, &["--check", "--memory-limit-mb", limit]);
+        assert!(!output.status.success(), "{limit}");
+    }
+}
+
+#[test]
+fn later_fatal_errors_keep_earlier_thrown_text_counts() {
+    let dir = TempDir::new().unwrap();
+    fs::write(dir.path().join("display.js"),
+            "t === 150 ? (() => { throw 'display'; })() : t === 200 ? (() => { throw Error('fatal'); })() : 128").unwrap();
+    let output = run(
+        &dir,
+        &[
+            "--file",
+            "display.js",
+            "--check",
+            "--seconds",
+            "0.1",
+            "--report",
+            "report.json",
+        ],
+    );
+    assert_eq!(output.status.code(), Some(1));
+    assert!(stderr(&output).contains("sample 200"));
+    let report: Value =
+        serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
+    assert_eq!(report["results"][0]["thrown_texts"], 1);
+    assert_eq!(report["results"][0]["success"], false);
+}
+
+#[test]
+fn jack_is_advertised_but_conflicts_with_headless_checking() {
+    let dir = TempDir::new().unwrap();
+    let help = run(&dir, &["--help"]);
+    assert!(help.status.success());
+    assert!(String::from_utf8_lossy(&help.stdout).contains("--jack"));
+    let output = run(&dir, &["--jack", "--check"]);
+    assert_eq!(output.status.code(), Some(2));
+    assert!(stderr(&output).contains("--jack") && stderr(&output).contains("--check"));
+}
+
+#[cfg(not(target_os = "linux"))]
+#[test]
+fn jack_is_explicitly_rejected_outside_linux_before_starting_the_gui() {
+    let dir = TempDir::new().unwrap();
+    let output = run(&dir, &["--jack"]);
+    assert_eq!(output.status.code(), Some(1));
+    assert!(stderr(&output).contains("--jack is only supported on Linux"));
+}
+
+#[test]
+fn checks_the_local_catalog_without_a_catalog_argument() {
+    let dir = TempDir::new().unwrap();
+    fs::create_dir(dir.path().join("data")).unwrap();
+    fs::write(dir.path().join("data/song.js"), "t").unwrap();
+    fs::write(dir.path().join("data/catalog.json"), json!({
+        "version":1,
+        "songs":[{"file":"song.js","title":"Discovered","author":"Test","mode":"Bytebeat","rate":8000}]
+    }).to_string()).unwrap();
+    let output = run(&dir, &["--check", "--seconds", "0.01"]);
+    assert!(output.status.success(), "{}", stderr(&output));
+    assert!(stderr(&output).contains("Discovered"));
+    assert!(!stderr(&output).contains("Downloading"));
 }

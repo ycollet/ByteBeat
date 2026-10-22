@@ -15,11 +15,27 @@ pub struct Metadata {
     pub mode: Mode,
 }
 
-#[derive(Clone, Debug, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Entry {
     pub file: PathBuf,
     #[serde(flatten)]
     pub metadata: Metadata,
+}
+
+pub fn find_existing(paths: &[PathBuf]) -> Result<Option<PathBuf>, String> {
+    for path in paths {
+        if path
+            .try_exists()
+            .map_err(|e| format!("{}: {e}", path.display()))?
+        {
+            return Ok(Some(path.clone()));
+        }
+    }
+    Ok(None)
+}
+
+pub fn load_songs(path: &Path) -> Result<Vec<Song>, String> {
+    entries(path)?.iter().map(load).collect()
 }
 
 #[derive(Deserialize)]
@@ -115,5 +131,21 @@ mod tests {
             },
         };
         assert!(load(&entry).err().unwrap().contains("does-not-exist.js"));
+    }
+
+    #[test]
+    fn discovery_prefers_local_then_installed_then_cached_catalogs() {
+        let root = tempfile::tempdir().unwrap();
+        let paths: Vec<_> = ["local.json", "installed.json", "cached.json"]
+            .iter()
+            .map(|name| root.path().join(name))
+            .collect();
+        assert!(find_existing(&paths).unwrap().is_none());
+        fs::write(&paths[2], "{}").unwrap();
+        assert_eq!(find_existing(&paths).unwrap(), Some(paths[2].clone()));
+        fs::write(&paths[1], "{}").unwrap();
+        assert_eq!(find_existing(&paths).unwrap(), Some(paths[1].clone()));
+        fs::write(&paths[0], "{}").unwrap();
+        assert_eq!(find_existing(&paths).unwrap(), Some(paths[0].clone()));
     }
 }

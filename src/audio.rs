@@ -52,7 +52,7 @@ pub struct Audio {
 }
 
 impl Audio {
-    pub fn new() -> Self {
+    pub fn new(memory_limit_mb: u32, use_jack: bool) -> Self {
         let (sender, receiver) = mpsc::channel();
         let snapshot = Arc::new(Mutex::new(Snapshot::default()));
         let shared = Arc::new(Shared {
@@ -64,7 +64,7 @@ impl Audio {
         let state = snapshot.clone();
         let controls = shared.clone();
         let worker = thread::spawn(move || {
-            if let Err(error) = run(receiver, state.clone(), controls) {
+            if let Err(error) = run(receiver, state.clone(), controls, memory_limit_mb, use_jack) {
                 log::error!("{error}");
                 let mut state = state.lock().expect("audio snapshot mutex poisoned");
                 state.playing = false;
@@ -113,14 +113,40 @@ impl Drop for Audio {
 
 type Frame = ([f32; 2], u64);
 
+fn output_host(use_jack: bool) -> Result<cpal::Host, String> {
+    if !use_jack {
+        return Ok(cpal::default_host());
+    }
+    #[cfg(target_os = "linux")]
+    {
+        cpal::host_from_id(cpal::HostId::Jack).map_err(|error| {
+            format!("JACK backend unavailable: {error}. Check your JACK installation.")
+        })
+    }
+    #[cfg(not(target_os = "linux"))]
+    {
+        Err("--jack is only supported on Linux.".into())
+    }
+}
+
 fn run(
     receiver: Receiver<Command>,
     snapshot: Arc<Mutex<Snapshot>>,
     shared: Arc<Shared>,
+    memory_limit_mb: u32,
+    use_jack: bool,
 ) -> Result<(), String> {
-    let device = cpal::default_host()
+    let host = output_host(use_jack)?;
+    log::info!("Audio backend: {}", host.id().name());
+    let device = host
         .default_output_device()
-        .ok_or("No audio output device found. Connect an output device and restart the app.")?;
+        .ok_or_else(|| {
+            if use_jack {
+                "No JACK output device available. Install libjack, start a JACK server (or enable PipeWire's JACK support), then restart the app.".to_owned()
+            } else {
+                "No audio output device found. Connect an output device and restart the app.".to_owned()
+            }
+        })?;
     let config = device
         .default_output_config()
         .map_err(|e| format!("Audio configuration: {e}"))?;
@@ -186,7 +212,7 @@ fn run(
                     shared.playing.store(false, Ordering::Relaxed);
                     shared.generation.fetch_add(1, Ordering::Relaxed);
                     history.clear();
-                    let result = Engine::new(&code, mode, rate);
+                    let result = Engine::new(&code, mode, rate, memory_limit_mb);
                     let mut state = snapshot.lock().expect("audio snapshot mutex poisoned");
                     state.position = 0;
                     state.frames.clear();
@@ -364,5 +390,20 @@ mod tests {
         let mut surround = [1.0_f32; 6];
         fill_output(&mut surround, 6, &mut consumer, &shared);
         assert_eq!(surround, [0.4, 0.2, 0.0, 0.0, 0.0, 0.0]);
+    }
+
+    #[cfg(target_os = "linux")]
+    #[test]
+    fn jack_backend_is_compiled_in_on_linux() {
+        assert!(cpal::ALL_HOSTS.contains(&cpal::HostId::Jack));
+    }
+
+    #[cfg(not(target_os = "linux"))]
+    #[test]
+    fn requesting_jack_on_other_platforms_is_an_error() {
+        let error = output_host(true)
+            .err()
+            .expect("JACK must not silently fall back");
+        assert!(error.contains("only supported on Linux"), "{error}");
     }
 }

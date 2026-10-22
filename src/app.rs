@@ -1,4 +1,8 @@
-use std::{sync::Arc, time::Duration};
+use std::{
+    path::PathBuf,
+    sync::{Arc, mpsc::TryRecvError},
+    time::Duration,
+};
 
 use eframe::egui::{self, Color32, FontId, RichText, Stroke, Vec2};
 use rustfft::{Fft, FftPlanner, num_complex::Complex};
@@ -6,8 +10,10 @@ use serde::{Deserialize, Serialize};
 
 use crate::{
     audio::{Audio, Command},
+    catalog,
     engine::Mode,
     songs::{self, Song},
+    upstream::{self, Download, Event},
 };
 
 const GREEN: Color32 = Color32::from_rgb(100, 224, 150);
@@ -58,6 +64,10 @@ pub struct Composer {
     loaded: Option<(String, Mode, f64)>,
     fft: Arc<dyn Fft<f32>>,
     zoom: f32,
+    catalog_download: Option<Download>,
+    download_root: Option<PathBuf>,
+    catalog_status: Option<String>,
+    catalog_error: Option<String>,
 }
 
 impl Composer {
@@ -65,6 +75,9 @@ impl Composer {
         cc: &eframe::CreationContext<'_>,
         initial: Option<Song>,
         catalog: Vec<Song>,
+        memory_limit_mb: u32,
+        use_jack: bool,
+        download_to: Option<PathBuf>,
     ) -> Self {
         cc.egui_ctx.set_visuals(egui::Visuals::dark());
         cc.egui_ctx.style_mut(|style| {
@@ -93,8 +106,14 @@ impl Composer {
             project.mode = song.mode;
             project.rate = song.rate;
         }
-        let audio = Audio::new();
+        let audio = Audio::new(memory_limit_mb, use_jack);
         audio.volume(project.volume);
+        let catalog_download = download_to
+            .as_ref()
+            .map(|root| Download::start(root.clone()));
+        let catalog_status = download_to
+            .as_ref()
+            .map(|_| "Downloading upstream songs...".into());
         Self {
             project,
             audio,
@@ -104,6 +123,42 @@ impl Composer {
             loaded: None,
             fft: FftPlanner::new().plan_fft_forward(2048),
             zoom: 1.0,
+            catalog_download,
+            download_root: download_to,
+            catalog_status,
+            catalog_error: None,
+        }
+    }
+
+    fn poll_catalog(&mut self) {
+        while let Some(download) = self.catalog_download.as_ref() {
+            let event = download.receiver.try_recv();
+            let result = match event {
+                Ok(Event::Progress(message)) => {
+                    log::info!("{message}");
+                    self.catalog_status = Some(message);
+                    continue;
+                }
+                Ok(Event::Finished(result)) => result,
+                Err(TryRecvError::Empty) => break,
+                Err(TryRecvError::Disconnected) => {
+                    Err("Catalog download worker disconnected unexpectedly.".into())
+                }
+            };
+            self.catalog_download = None;
+            match result.and_then(|path| catalog::load_songs(&path)) {
+                Ok(songs) => {
+                    self.catalog_status = Some(format!("Loaded {} upstream songs", songs.len()));
+                    self.demos.extend(songs);
+                    self.download_root = None;
+                }
+                Err(error) => {
+                    log::error!("Upstream catalog download failed: {error}");
+                    self.catalog_status = None;
+                    self.catalog_error = Some(error);
+                }
+            }
+            break;
         }
     }
 
@@ -159,6 +214,22 @@ impl Composer {
 
     fn library(&mut self, ui: &mut egui::Ui) {
         ui.heading("Song library");
+        if let Some(message) = &self.catalog_status {
+            ui.label(message);
+        }
+        if let Some(error) = &self.catalog_error {
+            ui.colored_label(
+                Color32::from_rgb(255, 130, 120),
+                format!("Upstream download failed: {error}"),
+            );
+            if let Some(root) = &self.download_root
+                && ui.button("Retry download").clicked()
+            {
+                self.catalog_download = Some(upstream::Download::start(root.clone()));
+                self.catalog_error = None;
+                self.catalog_status = Some("Retrying upstream download...".into());
+            }
+        }
         ui.add(
             egui::TextEdit::singleline(&mut self.search)
                 .hint_text("Search title, author, code...")
@@ -377,6 +448,7 @@ impl Composer {
 
 impl eframe::App for Composer {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
+        self.poll_catalog();
         let (playing, position, frames, rate, error) = {
             let state = self
                 .audio
