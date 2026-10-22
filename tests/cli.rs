@@ -52,6 +52,26 @@ fn checks_stereo_file_using_sidecar_and_writes_report() {
     assert_eq!(report["results"][0]["rate"], 35498.66666);
     assert_eq!(report["results"][0]["mode"], "Floatbeat");
     assert_eq!(report["results"][0]["samples_checked"], 355);
+    let performance = &report["results"][0]["performance"];
+    assert_eq!(performance["output_frames"], 480);
+    assert_eq!(performance["blocks_measured"], 4);
+    let render_ms = performance["render_ms"].as_f64().unwrap();
+    assert!(render_ms >= 0.0);
+    assert!((performance["realtime_factor"].as_f64().unwrap() - render_ms / 10.0).abs() < 1e-9);
+    assert!((performance["block_budget_ms"].as_f64().unwrap() - 8.0 / 3.0).abs() < 1e-12);
+    assert!(performance["blocks_over_budget"].as_u64().unwrap() <= 4);
+    let mut previous = 0.0;
+    for key in [
+        "block_p50_ms",
+        "block_p95_ms",
+        "block_p99_ms",
+        "block_max_ms",
+    ] {
+        let current = performance[key].as_f64().unwrap();
+        assert!(current >= previous, "{performance}");
+        previous = current;
+    }
+    assert!(stderr(&output).contains("Performance song.js"));
 }
 
 #[test]
@@ -107,6 +127,7 @@ fn catalog_resolves_relative_paths_and_continues_after_failure() {
     let report: Value =
         serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
     assert_eq!(report["results"][0]["stage"], "compile");
+    assert!(report["results"][0]["performance"].is_null());
     assert_eq!(report["results"][1]["stage"], "ok");
 }
 
@@ -259,6 +280,46 @@ fn later_fatal_errors_keep_earlier_thrown_text_counts() {
         serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
     assert_eq!(report["results"][0]["thrown_texts"], 1);
     assert_eq!(report["results"][0]["success"], false);
+    assert!(report["results"][0]["performance"].is_null());
+}
+
+#[test]
+fn slow_rendering_warns_without_failing_compatibility() {
+    let dir = TempDir::new().unwrap();
+    fs::write(
+        dir.path().join("slow.js"),
+        "(t === 0 && (() => { const end = Date.now() + 20; while (Date.now() < end) {} })(), 128)",
+    )
+    .unwrap();
+    let output = run(
+        &dir,
+        &[
+            "--file",
+            "slow.js",
+            "--check",
+            "--seconds",
+            "0.01",
+            "--report",
+            "report.json",
+        ],
+    );
+    let log = stderr(&output);
+    assert!(output.status.success(), "{log}");
+    assert!(log.contains("PASS slow.js"), "{log}");
+    assert!(log.contains("real-time playback may underrun"), "{log}");
+    let report: Value =
+        serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
+    assert_eq!(report["passed"], 1);
+    assert_eq!(
+        report["results"][0]["performance"]["over_realtime_budget"],
+        true
+    );
+    assert!(
+        report["results"][0]["performance"]["realtime_factor"]
+            .as_f64()
+            .unwrap()
+            > 1.0
+    );
 }
 
 #[test]

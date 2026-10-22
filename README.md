@@ -69,7 +69,13 @@ No JACK feature flag is needed when building this application on Linux.
 
 - **Editor:** enter a JavaScript expression, then click **Apply & play** or
   press **Ctrl+Enter** / **Cmd+Enter**. Edits are applied explicitly, so incomplete
-  typing does not interrupt playback.
+  typing does not interrupt playback. Scripts larger than **256 KiB** open in a
+  read-only preview limited to **4 KiB**; playback and saving retain the complete
+  source. To edit the full script, acknowledge the memory warning and click
+  **Open full editor**. **Return to safe preview** restores protection. Consent
+  resets when another song is loaded or the app restarts. Pasting more than
+  256 KiB into a protected editor is blocked with a visible warning; enable full
+  editing and paste again.
 - **Playback:** Play/Pause, Stop (reset to zero), Restart, volume, sample-rate
   presets, and custom rates from 1,000 to 192,000 Hz. Playback starts paused at
   25% volume; use a comfortable listening level.
@@ -80,6 +86,7 @@ No JACK feature flag is needed when building this application on Linux.
   **My songs**. Saving the same title replaces that local song; **x** deletes it.
   The editor, settings, and local songs persist through egui's native application
   storage when the application saves/exits. They are not written beside the binary.
+  Search results are cached until the query, saved-only filter, or library changes.
 
 ## Upstream catalog and file loading
 
@@ -183,6 +190,20 @@ sample position in the error text, source samples checked in completed blocks,
 peak normalized amplitude, thrown-text diagnostic count, and elapsed time.
 The report also records the configured heap limit. GUI audio errors also appear in
 console logs. Set `RUST_LOG=bytebeat=debug` to control logging.
+
+Successful checks include a `performance` object with render-only time,
+`realtime_factor` (rendering time divided by output audio duration; **below 1 is
+faster than real time**), block p50/p95/p99/maximum latency, and the number of
+blocks exceeding their audio-time budget. At 48 kHz, a 128-frame block represents
+approximately 2.67 ms. Loading and compilation are excluded from render timing;
+first-sample initialization and thrown-text logging during rendering are included.
+Failed checks have `performance: null`.
+
+An average factor above 1 produces a console warning but **does not change
+compatibility pass/fail or exit status**. These timings describe this machine
+and checked interval, not guaranteed live playback: short checks can be dominated
+by initialization, while individual spikes may be absorbed by buffering. Increasing
+the buffer cannot compensate for sustained rendering slower than real time.
 
 Songs that throw a **text string** during sample evaluation log the actual text
 as a console warning, preserving line breaks, and continue playback. A thrown

@@ -4,6 +4,7 @@ use clap::Parser;
 use serde::Serialize;
 
 use crate::{
+    audio::BLOCK,
     catalog::{self, Entry},
     engine::{DEFAULT_MEMORY_LIMIT_MB, Engine, Mode},
     upstream,
@@ -102,7 +103,51 @@ struct ResultRow {
     elapsed_ms: u128,
     peak: f32,
     thrown_texts: u64,
+    performance: Option<RenderPerformance>,
     error: Option<String>,
+}
+
+#[derive(Debug, Serialize)]
+struct RenderPerformance {
+    output_frames: usize,
+    render_ms: f64,
+    realtime_factor: f64,
+    block_budget_ms: f64,
+    block_p50_ms: f64,
+    block_p95_ms: f64,
+    block_p99_ms: f64,
+    block_max_ms: f64,
+    blocks_measured: usize,
+    blocks_over_budget: usize,
+    over_realtime_budget: bool,
+}
+
+impl RenderPerformance {
+    fn summarize(
+        blocks: &mut [f64],
+        output_frames: usize,
+        output_rate: u32,
+        blocks_over_budget: usize,
+    ) -> Self {
+        let render_ms: f64 = blocks.iter().sum();
+        let audio_ms = output_frames as f64 * 1000.0 / f64::from(output_rate);
+        let realtime_factor = render_ms / audio_ms;
+        blocks.sort_unstable_by(f64::total_cmp);
+        let percentile = |p: usize| blocks[(blocks.len() * p).div_ceil(100) - 1];
+        Self {
+            output_frames,
+            render_ms,
+            realtime_factor,
+            block_budget_ms: BLOCK as f64 * 1000.0 / f64::from(output_rate),
+            block_p50_ms: percentile(50),
+            block_p95_ms: percentile(95),
+            block_p99_ms: percentile(99),
+            block_max_ms: blocks[blocks.len() - 1],
+            blocks_measured: blocks.len(),
+            blocks_over_budget,
+            over_realtime_budget: realtime_factor > 1.0,
+        }
+    }
 }
 
 #[derive(Serialize)]
@@ -161,6 +206,7 @@ pub fn check(args: &Args) -> Result<bool, String> {
             elapsed_ms: 0,
             peak: 0.0,
             thrown_texts: 0,
+            performance: None,
             error: None,
         };
         let result = (|| {
@@ -168,15 +214,30 @@ pub fn check(args: &Args) -> Result<bool, String> {
             row.stage = "compile";
             let mut engine = Engine::new(&song.code, song.mode, song.rate, args.memory_limit_mb)?;
             row.stage = "render";
-            for offset in (0..total_frames).step_by(128) {
-                let rendered = engine.render((total_frames - offset).min(128), report.output_rate);
+            let mut block_times = Vec::with_capacity(total_frames.div_ceil(BLOCK));
+            let mut blocks_over_budget = 0;
+            for offset in (0..total_frames).step_by(BLOCK) {
+                let block_frames = (total_frames - offset).min(BLOCK);
+                let started = Instant::now();
+                let rendered = engine.render(block_frames, report.output_rate);
+                let render_ms = started.elapsed().as_secs_f64() * 1000.0;
                 row.thrown_texts = engine.thrown_texts();
                 let frames = rendered?;
+                block_times.push(render_ms);
+                if render_ms > block_frames as f64 * 1000.0 / f64::from(report.output_rate) {
+                    blocks_over_budget += 1;
+                }
                 row.samples_checked = engine.position() + 1;
                 for sample in frames.into_iter().flatten() {
                     row.peak = row.peak.max(sample.abs());
                 }
             }
+            row.performance = Some(RenderPerformance::summarize(
+                &mut block_times,
+                total_frames,
+                report.output_rate,
+                blocks_over_budget,
+            ));
             Ok::<(), String>(())
         })();
         row.elapsed_ms = started.elapsed().as_millis();
@@ -194,7 +255,27 @@ pub fn check(args: &Args) -> Result<bool, String> {
                     row.elapsed_ms,
                     row.thrown_texts
                 );
+                if let Some(performance) = &row.performance {
+                    log::info!(
+                        "Performance {}: {:.3} ms rendering, {:.3}x real-time cost (lower is faster), block p95 {:.3} ms / {:.3} ms budget, {}/{} blocks over budget",
+                        row.file.display(),
+                        performance.render_ms,
+                        performance.realtime_factor,
+                        performance.block_p95_ms,
+                        performance.block_budget_ms,
+                        performance.blocks_over_budget,
+                        performance.blocks_measured,
+                    );
+                    if performance.over_realtime_budget {
+                        log::warn!(
+                            "{}: rendering took {:.2}x the audio duration in the checked interval; real-time playback may underrun. Compatibility PASS is unchanged.",
+                            row.file.display(),
+                            performance.realtime_factor,
+                        );
+                    }
+                }
             }
+
             Err(error) => {
                 log::error!(
                     "FAIL {} | {} by {} | {}: {error}",
@@ -222,4 +303,36 @@ pub fn check(args: &Args) -> Result<bool, String> {
         log::info!("Report written to {}", path.display());
     }
     Ok(report.failed == 0)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn summarizes_render_cost_and_nearest_rank_block_percentiles() {
+        let performance = RenderPerformance::summarize(&mut [4.0, 1.0, 3.0, 2.0], 480, 48_000, 2);
+        assert_eq!(performance.render_ms, 10.0);
+        assert_eq!(performance.output_frames, 480);
+        assert_eq!(performance.realtime_factor, 1.0);
+        assert!(!performance.over_realtime_budget);
+        assert_eq!(performance.block_p50_ms, 2.0);
+        assert_eq!(performance.block_p95_ms, 4.0);
+        assert_eq!(performance.block_p99_ms, 4.0);
+        assert_eq!(performance.block_max_ms, 4.0);
+        assert_eq!(performance.blocks_measured, 4);
+        assert_eq!(performance.blocks_over_budget, 2);
+        assert!((performance.block_budget_ms - 8.0 / 3.0).abs() < 1e-12);
+    }
+
+    #[test]
+    fn flags_average_overload_independently_of_individual_block_spikes() {
+        let overloaded = RenderPerformance::summarize(&mut [3.0; 4], 480, 48_000, 4);
+        assert_eq!(overloaded.realtime_factor, 1.2);
+        assert!(overloaded.over_realtime_budget);
+        let spike = RenderPerformance::summarize(&mut [4.0, 0.1, 0.1, 0.1], 480, 48_000, 1);
+        assert!(spike.realtime_factor < 1.0);
+        assert_eq!(spike.blocks_over_budget, 1);
+        assert!(!spike.over_realtime_budget);
+    }
 }

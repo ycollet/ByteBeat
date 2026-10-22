@@ -430,6 +430,18 @@ CLI mode names are lowercase: `bytebeat`, `signed`, `floatbeat`, and `funcbeat`.
 `signed-bytebeat` is also accepted.
 Opening a file loads the editor paused; click Play to start it.
 
+Sources larger than **256 KiB (262144 bytes)** open in a read-only preview of at
+most the first **4 KiB**, cut at a UTF-8 character boundary. The full source is
+retained for playback, project persistence, and **Save to my songs**. Preview
+text is never substituted for the actual program.
+
+Full layout of very large scripts can consume gigabytes of GUI memory, which is
+not covered by `--memory-limit-mb`. Check the warning acknowledgment and click
+**Open full editor** to opt in for the current song. **Return to safe preview**
+disables full editing again; loading another song or restarting also resets
+consent. A paste larger than 256 KiB is blocked before layout unless full editing
+has been enabled; the interface explains how to enable editing and paste again.
+
 **Save to my songs** stores the current editor contents and settings in the
 application's local library, not in a `.js` file. Saving an existing title
 replaces that local song.
@@ -488,6 +500,39 @@ value, or silence before any valid output, and advances the source clock.
 State changes made before the throw are retained. Every recovered throw is
 counted in the report's per-song `thrown_texts` field, including for songs that
 later fail. The report also records the selected `memory_limit_mb`.
+
+### Rendering performance
+
+Each successful result has a `performance` object; failed results use `null` so
+partial checks cannot be mistaken for complete timing measurements:
+
+| Field | Meaning |
+| --- | --- |
+| `output_frames` | Completed output frames, independent of the formula's source sample rate |
+| `render_ms` | Sum of wall-clock time spent inside successful `Engine::render` calls |
+| `realtime_factor` | `render_ms` divided by the output audio duration in milliseconds; less than 1 means faster than real time |
+| `block_budget_ms` | Nominal 128-frame audio duration: approximately 2.67 ms at 48000 Hz |
+| `block_p50_ms`, `block_p95_ms`, `block_p99_ms` | Nearest-rank percentiles of render-block latency |
+| `block_max_ms` | Slowest render block |
+| `blocks_measured` | Number of successful render blocks |
+| `blocks_over_budget` | Blocks taking longer than their own output audio duration; the final partial block uses its actual frame count |
+| `over_realtime_budget` | Whether average rendering cost exceeded the checked audio duration (`realtime_factor > 1`) |
+
+The console prints these timings and warns when average rendering is too slow.
+Warnings do not turn a compatible song into a failure or change the exit status.
+For example, a factor of `0.25` means one second of audio needed about 250 ms of
+rendering; `2.0` means it needed two seconds.
+
+These measurements exclude file loading, compilation, peak calculation, and
+report serialization. They include first-sample initialization and synchronous
+diagnostic logging inside rendering. The existing `elapsed_ms` remains the
+overall per-song check duration, including loading and compilation.
+
+Use an optimized build and a sufficiently long interval when comparing results.
+Short intervals can be dominated by initialization; timings depend on machine
+load and power settings. A fast average does not rule out audible glitches from
+individual spikes, device buffering, scheduling, GUI work, or other processes.
+Larger buffers can absorb some spikes but cannot cure sustained overload.
 
 A successful result verifies only the requested initial interval. It does not
 prove that later sections work, that the audio sounds as intended, or that the

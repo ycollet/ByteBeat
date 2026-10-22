@@ -15,7 +15,7 @@ use rtrb::{Consumer, RingBuffer};
 use crate::engine::{Engine, Mode};
 
 const BUFFER: usize = 2048;
-const BLOCK: usize = 128;
+pub const BLOCK: usize = 128;
 
 pub enum Command {
     Load {

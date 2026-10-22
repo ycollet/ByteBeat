@@ -19,6 +19,137 @@ use crate::{
 const GREEN: Color32 = Color32::from_rgb(100, 224, 150);
 const BLUE: Color32 = Color32::from_rgb(99, 184, 241);
 const STORAGE_KEY: &str = "bytebeat-project-v1";
+const LARGE_FILE_BYTES: usize = 256 * 1024;
+const PREVIEW_BYTES: usize = 4096;
+const EDITOR_ID: &str = "bytebeat-source-editor";
+
+fn code_preview(code: &str) -> &str {
+    let mut end = code.len().min(PREVIEW_BYTES);
+    while !code.is_char_boundary(end) {
+        end -= 1;
+    }
+    &code[..end]
+}
+
+#[derive(Default)]
+struct CodeEditor {
+    full_edit: bool,
+    acknowledged: bool,
+    large_paste_blocked: bool,
+}
+
+impl CodeEditor {
+    fn guarded(&self, code: &str) -> bool {
+        code.len() > LARGE_FILE_BYTES && !self.full_edit
+    }
+
+    fn show(&mut self, ui: &mut egui::Ui, code: &mut String) {
+        if !self.full_edit && ui.memory(|memory| memory.has_focus(egui::Id::new(EDITOR_ID))) {
+            ui.input_mut(|input| {
+                input.events.retain(|event| {
+                    if matches!(event, egui::Event::Paste(text) | egui::Event::Text(text) if text.len() > LARGE_FILE_BYTES)
+                    {
+                        self.large_paste_blocked = true;
+                        false
+                    } else {
+                        true
+                    }
+                });
+            });
+        }
+        if code.len() > LARGE_FILE_BYTES || self.large_paste_blocked {
+            ui.colored_label(
+                Color32::YELLOW,
+                "Large script: full editing can use gigabytes of memory and freeze the interface.",
+            );
+            if self.full_edit {
+                if ui.button("Return to safe preview").clicked() {
+                    *self = Self::default();
+                }
+            } else {
+                if self.large_paste_blocked {
+                    ui.label("Large paste was not applied. Enable full editing, then paste again.");
+                }
+                if self.guarded(code) {
+                    ui.label("Read-only preview of the first 4 KiB. Playback and saving use the complete source.");
+                }
+                ui.checkbox(
+                    &mut self.acknowledged,
+                    "I understand the memory and responsiveness risks.",
+                );
+                if ui
+                    .add_enabled(self.acknowledged, egui::Button::new("Open full editor"))
+                    .clicked()
+                {
+                    self.full_edit = true;
+                }
+            }
+        }
+        let height = (ui.available_height() - 4.0).max(100.0);
+        egui::ScrollArea::both().max_height(height).show(ui, |ui| {
+            if self.guarded(code) {
+                let mut preview = code_preview(code);
+                ui.add_sized(
+                    [ui.available_width(), height],
+                    egui::TextEdit::multiline(&mut preview)
+                        .font(egui::TextStyle::Monospace)
+                        .code_editor()
+                        .desired_width(f32::INFINITY),
+                );
+            } else {
+                ui.add_sized(
+                    [ui.available_width(), height],
+                    egui::TextEdit::multiline(code)
+                        .id(egui::Id::new(EDITOR_ID))
+                        .font(egui::TextStyle::Monospace)
+                        .code_editor()
+                        .desired_width(f32::INFINITY)
+                        .lock_focus(true),
+                );
+            }
+        });
+    }
+}
+
+#[derive(Default)]
+struct LibrarySearch {
+    key: Option<(String, bool)>,
+    matches: Vec<usize>,
+}
+
+impl LibrarySearch {
+    fn invalidate(&mut self) {
+        self.key = None;
+    }
+
+    fn update(&mut self, search: &str, only_saved: bool, demos: &[Song], saved: &[Song]) -> bool {
+        let query = search.to_lowercase();
+        if self
+            .key
+            .as_ref()
+            .is_some_and(|(cached, filter)| cached == &query && *filter == only_saved)
+        {
+            return false;
+        }
+        self.matches.clear();
+        self.matches.extend(
+            demos
+                .iter()
+                .chain(saved.iter())
+                .enumerate()
+                .filter(|(i, song)| {
+                    (!only_saved || *i >= demos.len())
+                        && (query.is_empty()
+                            || format!("{} {} {}", song.title, song.author, song.code)
+                                .to_lowercase()
+                                .contains(&query))
+                })
+                .map(|(i, _)| i),
+        );
+        self.key = Some((query, only_saved));
+        true
+    }
+}
 
 #[derive(Clone, Copy, Default, PartialEq, Serialize, Deserialize)]
 enum Scope {
@@ -61,6 +192,8 @@ pub struct Composer {
     demos: Vec<Song>,
     search: String,
     only_saved: bool,
+    library_search: LibrarySearch,
+    editor: CodeEditor,
     loaded: Option<(String, Mode, f64)>,
     fft: Arc<dyn Fft<f32>>,
     zoom: f32,
@@ -120,6 +253,8 @@ impl Composer {
             demos: songs::demos().into_iter().chain(catalog).collect(),
             search: String::new(),
             only_saved: false,
+            library_search: LibrarySearch::default(),
+            editor: CodeEditor::default(),
             loaded: None,
             fft: FftPlanner::new().plan_fft_forward(2048),
             zoom: 1.0,
@@ -150,6 +285,7 @@ impl Composer {
                 Ok(songs) => {
                     self.catalog_status = Some(format!("Loaded {} upstream songs", songs.len()));
                     self.demos.extend(songs);
+                    self.library_search.invalidate();
                     self.download_root = None;
                 }
                 Err(error) => {
@@ -210,6 +346,7 @@ impl Composer {
         } else {
             self.project.saved.push(song);
         }
+        self.library_search.invalidate();
     }
 
     fn library(&mut self, ui: &mut egui::Ui) {
@@ -237,26 +374,24 @@ impl Composer {
         );
         ui.checkbox(&mut self.only_saved, "My songs only");
         ui.separator();
-        let query = self.search.to_lowercase();
         let mut selected = None;
         let mut remove = None;
-        let filtered: Vec<_> = self
-            .demos
-            .iter()
-            .chain(self.project.saved.iter())
-            .enumerate()
-            .filter(|(i, song)| {
-                (!self.only_saved || *i >= self.demos.len())
-                    && (query.is_empty()
-                        || format!("{} {} {}", song.title, song.author, song.code)
-                            .to_lowercase()
-                            .contains(&query))
-            })
-            .collect();
+        self.library_search.update(
+            &self.search,
+            self.only_saved,
+            &self.demos,
+            &self.project.saved,
+        );
+        let filtered = &self.library_search.matches;
         ui.label(format!("{} songs", filtered.len()));
         egui::ScrollArea::vertical().show_rows(ui, 132.0, filtered.len(), |ui, rows| {
             for row in rows {
-                let (i, song) = filtered[row];
+                let i = filtered[row];
+                let song = if i < self.demos.len() {
+                    &self.demos[i]
+                } else {
+                    &self.project.saved[i - self.demos.len()]
+                };
                 let saved = i >= self.demos.len();
                 ui.push_id(i, |ui| {
                     ui.allocate_ui_with_layout(
@@ -321,12 +456,14 @@ impl Composer {
         });
         if let Some(index) = remove {
             self.project.saved.remove(index);
+            self.library_search.invalidate();
         }
         if let Some(song) = selected {
             self.project.code = song.code;
             self.project.title = song.title;
             self.project.mode = song.mode;
             self.project.rate = song.rate;
+            self.editor = CodeEditor::default();
             self.load(true);
         }
     }
@@ -550,15 +687,7 @@ impl eframe::App for Composer {
             });
             ui.label(RichText::new("t = sample index  |  Math aliases: sin, cos, PI, int...  |  Stereo: [left, right]")
                 .small().weak());
-            let editor_height = (ui.available_height() - 4.0).max(100.0);
-            egui::ScrollArea::both().max_height(editor_height).show(ui, |ui| {
-                ui.add_sized([ui.available_width(), editor_height],
-                    egui::TextEdit::multiline(&mut self.project.code)
-                        .font(egui::TextStyle::Monospace)
-                        .code_editor()
-                        .desired_width(f32::INFINITY)
-                        .lock_focus(true));
-            });
+            self.editor.show(ui, &mut self.project.code);
         });
         if playing {
             ctx.request_repaint_after(Duration::from_millis(33));
@@ -576,6 +705,253 @@ impl eframe::App for Composer {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    fn editor_frame(
+        ctx: &egui::Context,
+        editor: &mut CodeEditor,
+        code: &mut String,
+        events: Vec<egui::Event>,
+    ) -> egui::FullOutput {
+        ctx.run(
+            egui::RawInput {
+                screen_rect: Some(egui::Rect::from_min_size(
+                    egui::Pos2::ZERO,
+                    egui::vec2(1000.0, 700.0),
+                )),
+                events,
+                ..Default::default()
+            },
+            |ctx| {
+                egui::CentralPanel::default().show(ctx, |ui| {
+                    editor.show(ui, code);
+                });
+            },
+        )
+    }
+
+    fn click_editor_label(
+        ctx: &egui::Context,
+        editor: &mut CodeEditor,
+        code: &mut String,
+        output: &egui::FullOutput,
+        label: &str,
+    ) -> egui::FullOutput {
+        let pos = output
+            .shapes
+            .iter()
+            .find_map(|shape| match &shape.shape {
+                egui::Shape::Text(text) if text.galley.job.text == label => {
+                    Some(text.pos + egui::vec2(2.0, 2.0))
+                }
+                _ => None,
+            })
+            .unwrap_or_else(|| panic!("missing editor control: {label}"));
+        for pressed in [true, false] {
+            let result = editor_frame(
+                ctx,
+                editor,
+                code,
+                vec![
+                    egui::Event::PointerMoved(pos),
+                    egui::Event::PointerButton {
+                        pos,
+                        button: egui::PointerButton::Primary,
+                        pressed,
+                        modifiers: egui::Modifiers::NONE,
+                    },
+                ],
+            );
+            if !pressed {
+                return result;
+            }
+        }
+        unreachable!()
+    }
+
+    #[test]
+    fn full_editing_requires_acknowledgment_and_can_return_to_safe_preview() {
+        let ctx = egui::Context::default();
+        let mut editor = CodeEditor::default();
+        let original = "a".repeat(LARGE_FILE_BYTES + 1);
+        let mut code = original.clone();
+        let output = editor_frame(&ctx, &mut editor, &mut code, vec![]);
+        let output = click_editor_label(&ctx, &mut editor, &mut code, &output, "Open full editor");
+        assert!(editor.guarded(&code));
+        let output = click_editor_label(
+            &ctx,
+            &mut editor,
+            &mut code,
+            &output,
+            "I understand the memory and responsiveness risks.",
+        );
+        assert!(editor.acknowledged);
+        assert!(editor.guarded(&code));
+        click_editor_label(&ctx, &mut editor, &mut code, &output, "Open full editor");
+        assert!(!editor.guarded(&code));
+        let output = editor_frame(&ctx, &mut editor, &mut code, vec![]);
+        click_editor_label(
+            &ctx,
+            &mut editor,
+            &mut code,
+            &output,
+            "Return to safe preview",
+        );
+        assert!(editor.guarded(&code));
+        assert!(!editor.acknowledged);
+        assert_eq!(code, original);
+    }
+
+    #[test]
+    fn oversized_pastes_cannot_bypass_the_initial_editor_guard() {
+        let ctx = egui::Context::default();
+        let mut editor = CodeEditor::default();
+        let mut code = "128".to_owned();
+        editor_frame(&ctx, &mut editor, &mut code, vec![]);
+        ctx.memory_mut(|memory| memory.request_focus(egui::Id::new(EDITOR_ID)));
+        editor_frame(
+            &ctx,
+            &mut editor,
+            &mut code,
+            vec![egui::Event::Paste("a".repeat(7_000_000))],
+        );
+        assert_eq!(code, "128");
+        assert!(editor.large_paste_blocked);
+        assert!(!editor.full_edit);
+    }
+
+    #[test]
+    fn large_file_threshold_and_utf8_preview_are_bounded() {
+        let editor = CodeEditor::default();
+        assert!(!editor.guarded(&"a".repeat(LARGE_FILE_BYTES)));
+        assert!(editor.guarded(&"a".repeat(LARGE_FILE_BYTES + 1)));
+        let code = format!(
+            "{}{}",
+            "a".repeat(PREVIEW_BYTES - 1),
+            "\u{1f3b5}".repeat(100_000)
+        );
+        let preview = code_preview(&code);
+        assert_eq!(preview.len(), PREVIEW_BYTES - 1);
+        assert!(preview.len() <= PREVIEW_BYTES);
+        assert!(code.starts_with(preview));
+        assert_eq!(code_preview("short source"), "short source");
+    }
+
+    #[test]
+    fn large_file_preview_never_lays_out_or_modifies_the_complete_source() {
+        let ctx = egui::Context::default();
+        let mut editor = CodeEditor::default();
+        let original = "// complete source\n".repeat(400_000);
+        let mut code = original.clone();
+        for _ in 0..3 {
+            let output = editor_frame(&ctx, &mut editor, &mut code, vec![]);
+            let texts: Vec<_> = output
+                .shapes
+                .iter()
+                .filter_map(|shape| match &shape.shape {
+                    egui::Shape::Text(text) => Some(text.galley.job.text.as_str()),
+                    _ => None,
+                })
+                .collect();
+            assert!(texts.contains(&code_preview(&original)));
+            assert!(texts.iter().all(|text| text.len() <= PREVIEW_BYTES));
+            assert_eq!(code, original);
+            assert!(editor.guarded(&code));
+        }
+    }
+
+    #[test]
+    fn library_search_preserves_matching_semantics_and_reuses_unchanged_queries() {
+        let mut demos = songs::demos();
+        demos[0].title = "CAF\u{c9}".into();
+        demos[0].author = "Tester".into();
+        demos[0].code = "needle".into();
+        let saved = vec![demos[0].clone()];
+        let mut search = LibrarySearch::default();
+        assert!(search.update("", false, &demos, &saved));
+        assert_eq!(search.matches, (0..=demos.len()).collect::<Vec<_>>());
+        assert!(search.update("caf\u{e9} tester needle", false, &demos, &saved));
+        assert_eq!(search.matches, [0, demos.len()]);
+        assert!(!search.update("CAF\u{c9} TESTER NEEDLE", false, &demos, &saved));
+        assert!(search.update("needle", true, &demos, &saved));
+        assert_eq!(search.matches, [demos.len()]);
+        assert!(search.update("not present", false, &demos, &saved));
+        assert!(search.matches.is_empty());
+        assert!(!search.update("not present", false, &demos, &saved));
+    }
+
+    #[test]
+    fn invalidation_handles_downloads_saves_replacements_and_deletions() {
+        let mut demos = songs::demos();
+        let mut saved = Vec::new();
+        let mut search = LibrarySearch::default();
+        search.update("marker", false, &demos, &saved);
+        let mut song = demos[0].clone();
+        song.title = "marker".into();
+        demos.push(song.clone());
+        search.invalidate();
+        assert!(search.update("marker", false, &demos, &saved));
+        assert_eq!(search.matches, [demos.len() - 1]);
+        saved.push(song);
+        search.invalidate();
+        search.update("marker", true, &demos, &saved);
+        assert_eq!(search.matches, [demos.len()]);
+        saved[0].title = "replacement".into();
+        search.invalidate();
+        search.update("marker", true, &demos, &saved);
+        assert!(search.matches.is_empty());
+        saved.remove(0);
+        search.invalidate();
+        search.update("", true, &demos, &saved);
+        assert!(search.matches.is_empty());
+    }
+
+    #[test]
+    #[ignore = "manual release-mode measurement using the bundled upstream catalog"]
+    fn benchmark_cached_catalog_search() {
+        use std::{hint::black_box, path::Path, time::Instant};
+        let library = catalog::load_songs(Path::new("data/catalog.json")).unwrap();
+        let mut search = LibrarySearch::default();
+        let start = Instant::now();
+        assert!(search.update("no-such-song-9ce145", false, &library, &[]));
+        let first = start.elapsed();
+        let start = Instant::now();
+        for _ in 0..100_000 {
+            assert!(!search.update(black_box("no-such-song-9ce145"), false, &library, &[]));
+            black_box(&search.matches);
+        }
+        println!(
+            "{} songs: first search {:.3} ms; cached search {:.3} us/update",
+            library.len(),
+            first.as_secs_f64() * 1000.0,
+            start.elapsed().as_secs_f64() * 1e6 / 100_000.0,
+        );
+    }
+
+    #[test]
+    #[ignore = "manual release-mode measurement using the largest bundled upstream script"]
+    fn benchmark_large_editor_preview() {
+        use std::{hint::black_box, path::Path, time::Instant};
+        let mut code =
+            catalog::read(Path::new("data/songs/848e1995c2c331f2bbd37d1b0b7ce281.js")).unwrap();
+        let ctx = egui::Context::default();
+        let mut editor = CodeEditor::default();
+        let mut times = Vec::new();
+        for _ in 0..100 {
+            let start = Instant::now();
+            black_box(editor_frame(&ctx, &mut editor, &mut code, vec![]));
+            times.push(start.elapsed().as_secs_f64() * 1000.0);
+        }
+        let first = times[0];
+        times[1..].sort_unstable_by(f64::total_cmp);
+        println!(
+            "{} source bytes, {} preview bytes: first frame {:.3} ms; warm median {:.3} ms",
+            code.len(),
+            code_preview(&code).len(),
+            first,
+            times[50],
+        );
+        assert!(editor.guarded(&code));
+    }
 
     #[derive(Default)]
     struct MemoryStorage(String);
