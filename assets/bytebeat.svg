@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title description">
+  <title id="title">Bytebeat Composer</title>
+  <desc id="description">A green stepped waveform above blue spectrum bars on a dark rounded square.</desc>
+  <rect x="4" y="4" width="248" height="248" rx="52" fill="#181b1f" stroke="#354047" stroke-width="4"/>
+  <path d="M40 112H72V72H108V136H144V96H180V120H216" fill="none" stroke="#64e096" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#63b8f1">
+    <rect x="48" y="192" width="16" height="16" rx="4"/>
+    <rect x="72" y="176" width="16" height="32" rx="4"/>
+    <rect x="96" y="160" width="16" height="48" rx="4"/>
+    <rect x="120" y="168" width="16" height="40" rx="4"/>
+    <rect x="144" y="180" width="16" height="28" rx="4"/>
+    <rect x="168" y="188" width="16" height="20" rx="4"/>
+    <rect x="192" y="196" width="16" height="12" rx="4"/>
+  </g>
+</svg>

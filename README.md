@@ -65,6 +65,19 @@ No JACK feature flag is needed when building this application on Linux.
 `--jack` is rejected on other operating systems and cannot be combined with
 `--check`, which never opens an audio device.
 
+### Application icon
+
+<img src="assets/bytebeat.svg" width="96" height="96" alt="Bytebeat Composer icon">
+
+The scalable vector icon is [assets/bytebeat.svg](assets/bytebeat.svg). It uses
+the GUI's waveform/spectrum colors and contains no fonts, raster images, scripts,
+or external resources.
+
+For Linux/RPM packaging, install it at
+`/usr/share/icons/hicolor/scalable/apps/bytebeat.svg` and use `Icon=bytebeat`
+in the application's desktop entry. This SVG is a packaging asset; it does not
+change the executable's native window or platform bundle icon.
+
 ## Compose
 
 - **Editor:** enter a JavaScript expression, then click **Apply & play** or
