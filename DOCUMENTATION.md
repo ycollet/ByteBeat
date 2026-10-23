@@ -157,8 +157,12 @@ clipping rules as Floatbeat. Its parameter names are your choice: `(seconds,
 rate)` works just as well as `(t, sampleRate)`. The factory can declare its own
 local variables named `t` or `sampleRate`.
 
-In all modes, output must be a finite number or a two-element array of finite
-numbers. There is no automatic conversion of a scalar string, boolean, object,
+In all modes, output must be a number or a two-element array of numbers.
+`NaN` holds the last valid normalized output independently for each channel,
+or silence (`0` amplitude) if that channel has not yet produced a valid value.
+Time and program state continue advancing, and valid output resumes normally.
+A warning is logged only on the first `NaN` per compilation. Infinity remains
+fatal. There is no automatic conversion of a scalar string, boolean, object,
 or missing return value into an audio sample.
 
 ## Writing expressions
@@ -189,6 +193,36 @@ it again at every sample; it is not persistent oscillator or filter state.
 JavaScript line comments (`// ...`) and block comments (`/* ... */`) are allowed.
 
 ## Operators and mathematics
+
+### Built-in names and globals
+
+The following names are available to your formulas:
+
+| Name | Meaning |
+| --- | --- |
+| `t` | Source sample index starting at `0`; in Funcbeat's returned function, elapsed time in seconds |
+| `sampleRate` | Selected formula sample rate in Hz, not necessarily the output device's rate |
+| `sin`, `cos`, `floor`, `pow`, `random`, etc. | JavaScript `Math` functions without the `Math.` prefix |
+| `PI`, `E`, etc. | JavaScript `Math` constants |
+| `int(x)` | Alias for `Math.floor(x)` |
+| `globalThis`, `window`, `self` | The same persistent global namespace, not a browser environment |
+
+Technically, `t` is a function argument, not a global. Expression modes receive
+`sampleRate` as an argument too, and `sampleRate` is also exposed globally,
+including during Funcbeat initialization. In Funcbeat, declare the returned
+function's arguments to receive time and rate.
+
+For example, a 440 Hz sine in **Floatbeat**:
+
+```js
+0.25 * sin(2 * PI * 440 * t / sampleRate)
+```
+
+The equivalent in **Funcbeat**, where time is already in seconds:
+
+```js
+return (t, sampleRate) => 0.25 * sin(2 * PI * 440 * t);
+```
 
 ### Common operators
 
@@ -553,7 +587,8 @@ thrown-text diagnostics; inspect their count and logs when investigating it.
 | --- | --- |
 | Syntax error during compilation | Check parentheses, brackets, and the selected mode; a Funcbeat body needs to return a function |
 | Non-numeric output | A missing `return`, an initialization expression ending in a string/object, or a wrong array lookup |
-| NaN or infinity | Division by zero, `log(0)`, invalid math, or an out-of-range array index |
+| NaN warning | Invalid math such as `0 / 0`; the affected channel holds its last valid output, initially silence |
+| Infinity error | Division by zero or `log(0)`; playback stops |
 | Wrong stereo shape | Return exactly `[left, right]`, not a note list or a one-element array |
 | `... is not defined` | A missing initialization, misspelled variable, or unsupported host API |
 | Out of memory | The program exceeded the JavaScript heap limit; default 32 MiB, adjustable with `--memory-limit-mb` |
@@ -562,9 +597,10 @@ thrown-text diagnostics; inspect their count and logs when investigating it.
 | Wrong pitch | Check the rate and whether `t` is samples or seconds in the chosen mode |
 | Distorted Floatbeat | Reduce amplitude; finite output beyond `-1` to `1` clips |
 
-Rendering begins at `t = 0`. Expressions such as `1 / t`, `sin(t) / t`, and
-`log(t)` are invalid there unless guarded. Use a conditional to define the
-time-zero result; do not rely on the player skipping bad samples.
+Rendering begins at `t = 0`. Expressions such as `1 / t` and `log(t)` produce
+infinity there unless guarded and stop playback. `sin(t) / t` produces `NaN`
+at zero and initially outputs silence. Prefer a conditional to define the
+intended time-zero result rather than relying on recovery.
 
 Primitive text strings thrown by the sample function are logged and playback
 continues as described above. JavaScript `Error` objects and non-string thrown
@@ -574,8 +610,10 @@ diagnostic can be expensive for songs that throw at very high rates; use
 `RUST_LOG=bytebeat=error` to suppress warning output while retaining report counts.
 
 Some upstream songs rely on their browser player tolerating NaN during
-initialization. Non-finite output still fails this application's strict checks;
-thrown-text support does not relax numeric validation.
+initial samples. These values are recoverable here too and do not fail CLI
+checks. A passing check can therefore include held or silent output; inspect
+the warning log when investigating formula bugs. Prolonged NaN output can
+leave a constant signal and is not a substitute for fixing invalid calculations.
 
 JavaScript arrays, objects, functions, closures, and typed arrays are available.
 Browser and Node.js APIs are not: there is no DOM, `document`, `fetch`, timer

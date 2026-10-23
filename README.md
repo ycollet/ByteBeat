@@ -253,7 +253,9 @@ and is not stored in project settings.
 A passing check means the requested **initial interval rendered without errors**,
 not that the entire song was verified, that its audio matches a browser
 bit-for-bit, or that it can meet real-time deadlines. Recovered thrown-text
-diagnostics are counted but do not fail the check. NaN/infinity, fatal exceptions,
+diagnostics are counted but do not fail the check. NaN holds the last valid
+output per channel (initially silence), logs a warning once per compilation,
+and does not fail the check. Infinity, fatal exceptions,
 missing browser APIs, resource limits, and rates
 outside 1,000–192,000 Hz are reported as failures rather than silently ignored.
 Downloaded code is third-party JavaScript; the runtime has no filesystem/network
@@ -296,7 +298,7 @@ access, or network access. Expressions are evaluated sequentially on an audio
 producer thread. Each program has a configurable JS memory limit (32 MiB by
 default) and a 100 ms execution budget per render block (and during
 initialization). Syntax/runtime errors other than recoverable thrown text,
-non-numeric results, NaN, infinity, and timeouts are displayed in the status bar
+non-numeric results, infinity, and timeouts are displayed in the status bar
 and stop playback instead of being silently converted to audio.
 
 ## Architecture and current scope

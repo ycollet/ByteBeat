@@ -75,6 +75,34 @@ fn checks_stereo_file_using_sidecar_and_writes_report() {
 }
 
 #[test]
+fn nan_output_passes_check_and_warns_only_once_across_blocks() {
+    let dir = TempDir::new().unwrap();
+    fs::write(dir.path().join("nan.js"), "[NaN, NaN]").unwrap();
+    let output = Command::new(env!("CARGO_BIN_EXE_bytebeat"))
+        .current_dir(dir.path())
+        .env("RUST_LOG", "warn")
+        .args([
+            "--file",
+            "nan.js",
+            "--check",
+            "--seconds",
+            "0.1",
+            "--report",
+            "report.json",
+        ])
+        .output()
+        .expect("launch bytebeat checker");
+    assert!(output.status.success(), "{}", stderr(&output));
+    let log = stderr(&output);
+    assert_eq!(log.matches("NaN output at sample").count(), 1, "{log}");
+    assert!(log.contains("NaN output at sample 0"), "{log}");
+    let report: Value =
+        serde_json::from_str(&fs::read_to_string(dir.path().join("report.json")).unwrap()).unwrap();
+    assert_eq!(report["passed"], 1);
+    assert_eq!(report["failed"], 0);
+}
+
+#[test]
 fn reports_runtime_error_with_filename_and_sample_position() {
     let dir = TempDir::new().unwrap();
     fs::write(

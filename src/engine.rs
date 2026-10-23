@@ -49,6 +49,7 @@ pub struct Engine {
     held: [f32; 2],
     initialized: bool,
     thrown_texts: u64,
+    warned_nan: bool,
 }
 
 impl Engine {
@@ -121,6 +122,7 @@ impl Engine {
             held: [0.0; 2],
             initialized: false,
             thrown_texts: 0,
+            warned_nan: false,
         })
     }
 
@@ -189,7 +191,24 @@ impl Engine {
                                 .ok_or("Expression must return a number or [left, right].")?;
                             [number; 2]
                         };
-                        self.held = [normalize(raw[0], self.mode)?, normalize(raw[1], self.mode)?];
+                        let mut next = self.held;
+                        for (channel, value) in raw.into_iter().enumerate() {
+                            if value.is_nan() {
+                                if !self.warned_nan {
+                                    log::warn!(
+                                        "NaN output at sample {} ({:.6} s); holding the last valid \
+                                         output per channel (initially silence). Further NaN \
+                                         warnings are suppressed for this compilation.",
+                                        self.sample,
+                                        self.sample as f64 / self.rate
+                                    );
+                                    self.warned_nan = true;
+                                }
+                            } else {
+                                next[channel] = normalize(value, self.mode)?;
+                            }
+                        }
+                        self.held = next;
                     }
                     self.sample += 1;
                     self.initialized = true;
@@ -273,13 +292,15 @@ mod tests {
     }
 
     #[test]
-    fn rejects_bad_programs_and_nonfinite_output() {
+    fn rejects_bad_programs_and_infinite_output() {
         assert!(Engine::new("t +", Mode::Bytebeat, 8_000.0, 32).is_err());
         assert!(Engine::new("return 42", Mode::Funcbeat, 8_000.0, 32).is_err());
         assert!(Engine::new("t", Mode::Bytebeat, 0.0, 32).is_err());
         for code in [
-            "NaN",
             "Infinity",
+            "-Infinity",
+            "[NaN, Infinity]",
+            "[-Infinity, NaN]",
             "[1,2,3]",
             "'hello'",
             "(()=>{throw Error('oops')})()",
@@ -287,6 +308,67 @@ mod tests {
             let mut engine = Engine::new(code, Mode::Bytebeat, 8_000.0, 32).unwrap();
             assert!(engine.render(1, 8_000).is_err(), "{code}");
         }
+    }
+
+    #[test]
+    fn nan_starts_with_silence_and_holds_normalized_output_in_all_modes() {
+        for mode in Mode::ALL {
+            let code = if mode == Mode::Funcbeat {
+                "let n = 0; return () => [NaN, 192, NaN, NaN, 64][n++];"
+            } else {
+                "[NaN, 192, NaN, NaN, 64][t]"
+            };
+            let mut engine = Engine::new(code, mode, 8_000.0, 32).unwrap();
+            let first = normalize(192.0, mode).unwrap();
+            let last = normalize(64.0, mode).unwrap();
+            assert_eq!(
+                engine.render(3, 8_000).unwrap(),
+                vec![[0.0; 2], [first; 2], [first; 2]],
+                "{mode:?}"
+            );
+            assert!(engine.warned_nan);
+            assert_eq!(
+                engine.render(2, 8_000).unwrap(),
+                vec![[first; 2], [last; 2]],
+                "{mode:?}"
+            );
+            assert_eq!(engine.position(), 4);
+            assert_eq!(engine.thrown_texts(), 0);
+        }
+    }
+
+    #[test]
+    fn nan_recovery_is_per_channel_and_preserves_resampling() {
+        let mut engine = Engine::new(
+            "[[NaN, 0.25], [0.5, NaN], [NaN, -0.5], [-0.25, 0.75]][t]",
+            Mode::Floatbeat,
+            8_000.0,
+            32,
+        )
+        .unwrap();
+        assert_eq!(
+            engine.render(8, 16_000).unwrap(),
+            vec![
+                [0.0, 0.25],
+                [0.0, 0.25],
+                [0.5, 0.25],
+                [0.5, 0.25],
+                [0.5, -0.5],
+                [0.5, -0.5],
+                [-0.25, 0.75],
+                [-0.25, 0.75],
+            ]
+        );
+        assert_eq!(engine.position(), 3);
+    }
+
+    #[test]
+    fn persistent_nan_remains_silent() {
+        let mut engine = Engine::new("NaN", Mode::Bytebeat, 8_000.0, 32).unwrap();
+        assert_eq!(engine.render(4, 8_000).unwrap(), vec![[0.0; 2]; 4]);
+        assert_eq!(engine.render(4, 8_000).unwrap(), vec![[0.0; 2]; 4]);
+        assert!(engine.warned_nan);
+        assert_eq!(engine.position(), 7);
     }
 
     #[test]
@@ -449,7 +531,7 @@ mod tests {
             "(() => { throw null; })()",
             "(() => { throw 42; })()",
             "(() => { throw {message: 'not text'}; })()",
-            "t === 0 ? (() => { throw 'first'; })() : NaN",
+            "t === 0 ? (() => { throw 'first'; })() : Infinity",
         ] {
             let mut engine = Engine::new(code, Mode::Bytebeat, 8_000.0, 32).unwrap();
             assert!(engine.render(2, 8_000).is_err(), "{code}");
