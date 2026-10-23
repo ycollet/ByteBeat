@@ -71,12 +71,15 @@ No JACK feature flag is needed when building this application on Linux.
 
 The scalable vector icon is [assets/bytebeat.svg](assets/bytebeat.svg). It uses
 the GUI's waveform/spectrum colors and contains no fonts, raster images, scripts,
-or external resources.
+or external resources. The executable embeds this SVG and renders it at startup
+for the native window/application icon, including the macOS Dock icon. No
+external icon file is required to run the application.
 
 For Linux/RPM packaging, install it at
 `/usr/share/icons/hicolor/scalable/apps/bytebeat.svg` and use `Icon=bytebeat`
-in the application's desktop entry. This SVG is a packaging asset; it does not
-change the executable's native window or platform bundle icon.
+in the application's desktop entry. The SVG remains available unchanged for
+desktop packaging. File-manager and platform bundle icons still require
+platform-specific packaging.
 
 ## Compose
 

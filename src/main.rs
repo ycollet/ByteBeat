@@ -3,6 +3,7 @@ mod audio;
 mod catalog;
 mod cli;
 mod engine;
+mod icon;
 mod logging;
 mod songs;
 mod upstream;
@@ -57,7 +58,8 @@ fn run(args: cli::Args) -> Result<bool, String> {
         eframe::NativeOptions {
             viewport: eframe::egui::ViewportBuilder::default()
                 .with_inner_size([1240.0, 850.0])
-                .with_min_inner_size([800.0, 600.0]),
+                .with_min_inner_size([800.0, 600.0])
+                .with_icon(icon::load()?),
             ..Default::default()
         },
         Box::new(move |cc| {
