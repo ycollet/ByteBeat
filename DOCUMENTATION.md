@@ -81,6 +81,14 @@ This is separate from the output device's sample rate.
 | `t` | Source sample index: `0, 1, 2, ...` | Elapsed time in seconds |
 | `sampleRate` | Selected formula sample rate in Hz | Selected formula sample rate in Hz |
 
+For example, at **8000 Hz**, Bytebeat, Signed Bytebeat, and Floatbeat receive
+`t = 0` through `7999` during the first second. At exactly one second,
+`t = 8000`; the second second uses `8000` through `15999`. The counter increases
+by one per source sample and does **not reset every second**.
+
+At the same rate, Funcbeat's returned function receives `t` in seconds:
+`0`, `0.000125`, `0.000250`, and so on, reaching `1` at one second.
+
 For expression modes:
 
 - Convert samples to seconds with `t / sampleRate`.
