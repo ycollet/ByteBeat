@@ -108,6 +108,15 @@ platform-specific packaging.
   with newer samples on the right. It maps normalized output to unsigned bytes
   (Bytebeat values are recovered exactly; other modes are quantized). All graphs
   use generated output before volume adjustment, without re-evaluating the song.
+
+  Each graph's channel selection affects visualization only, not playback:
+
+  | Setting | Signal displayed |
+  | --- | --- |
+  | **Left** | Left stereo channel only |
+  | **Right** | Right stereo channel only |
+  | **Mix** | Average of both channels: `(Left + Right) / 2` |
+
 - **Shader art:** the preset selector includes blorp, seaqyuk, bhatsu, discinos,
   ?dot-line, morp, add-em-up, grid, circles, widr, fuzeball, undul, flwr, radonut,
   vu-w/max, notmizu, pulsedn, bebubebup, dncrs, discus, smutz, ball-o?3, incId,
@@ -129,6 +138,79 @@ platform-specific packaging.
   The editor, settings, and local songs persist through egui's native application
   storage when the application saves/exits. They are not written beside the binary.
   Search results are cached until the query, saved-only filter, or library changes.
+
+## Adding a visualizer
+
+Visualizers are built into the executable; there is no runtime import or plugin
+loader. Signal graphs (waveform, FFT spectrum, and bit pattern) are implemented
+in Rust in `src/visualizer.rs`. To add another signal graph, extend `GraphKind`,
+its label, the Graphs menu, and the rendering match.
+
+For shader art, no new Rust renderer is needed: append a preset to the JSON array
+in `assets/vertexshaderart.json`. This uses the **VertexShaderArt-style GLSL
+vertex shader** format, not Shadertoy fragment shaders or MilkDrop presets.
+
+### Example: audio-reactive spectrum bars
+
+This small shader draws 64 vertical lines. Each line's height follows a bin of
+the selected channel's smoothed FFT spectrum:
+
+```glsl
+void main() {
+    float bar = floor(vertexId / 2.0);
+    float u = (bar + 0.5) / (vertexCount / 2.0);
+    float level = texture2D(sound, vec2(u, 0.0)).r;
+    float y = -0.8 + mod(vertexId, 2.0) * level * 1.6;
+    gl_Position = vec4(u * 1.8 - 0.9, y, 0.0, 1.0);
+    v_color = vec4(0.2, 0.8, 1.0, 1.0);
+}
+```
+
+Append the following object **after the existing presets**, adding a comma
+between objects. Existing saved layers reference preset indices, so keep the
+existing order. JSON stores the GLSL code as a string; the example below is the
+same shader on one line:
+
+```json
+{
+  "id": "example-spectrum-bars",
+  "name": "Example spectrum bars",
+  "author": "Your name",
+  "source": "https://example.com/your-visualizer",
+  "license": "CC0-1.0",
+  "settings": {
+    "num": 128,
+    "mode": "LINES",
+    "backgroundColor": [0, 0, 0, 0],
+    "shader": "void main() { float bar = floor(vertexId / 2.0); float u = (bar + 0.5) / (vertexCount / 2.0); float level = texture2D(sound, vec2(u, 0.0)).r; float y = -0.8 + mod(vertexId, 2.0) * level * 1.6; gl_Position = vec4(u * 1.8 - 0.9, y, 0.0, 1.0); v_color = vec4(0.2, 0.8, 1.0, 1.0); }"
+  }
+}
+```
+
+Replace the author and source with your own attribution. This example may be
+used under CC0; use the appropriate license for any other shader you add.
+`num` is the vertex count (two vertices per line here); supported drawing modes
+are `POINTS`, `LINES`, and `TRIANGLES`. `backgroundColor` is normalized RGBA;
+the transparent background lets earlier graph layers remain visible.
+
+The renderer supplies `vertexId`, `vertexCount`, `time` (playback seconds),
+`resolution`, `mouse`, and audio textures. `sound` contains normalized,
+log-scaled FFT magnitudes: horizontal coordinates select frequency bins and
+vertical coordinates select history, with the newest row at `0.0`.
+`volume` provides peak/RMS and other audio metrics with history.
+Write `gl_Position` and `v_color` in `main()`; do not add a `#version` directive
+or redeclare the supplied inputs. The renderer adds the GLSL compatibility
+wrapper and fragment shader.
+
+Rebuild with `cargo run --release`, then open **Graphs**, add a layer with **+**,
+and choose **Example spectrum bars** from its visualizer selector. Play a song
+and select **Left**, **Right**, or **Mix** to choose its audio input. Shader
+compilation errors appear above the display and in the logs.
+
+When contributing additional presets, also update the catalog test in
+`src/shader_art.rs`: it currently requires exactly 35 presets and checks that
+every entry belongs to the original gman CC0 collection. Preserve those checks
+for the original collection while adding coverage for new entries.
 
 ## Upstream catalog and file loading
 
