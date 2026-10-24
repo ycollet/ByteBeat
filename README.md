@@ -99,6 +99,7 @@ platform-specific packaging.
   remove it. Choose **Waveform**, **FFT spectrum**, **8-bit pattern**, or one of
   **35 original shader-art presets**. Each layer has a left/right/mixed channel,
   a color picker, and an opacity slider (0 is transparent; 255 is opaque).
+  The Graphs menu stays open while you select and adjust layers.
   Layers overlay in list order; later layers draw
   over earlier ones. The defaults retain the stereo waveform and mixed spectrum.
   Click the display to toggle playback. Zoom adjusts the waveform and scrolling

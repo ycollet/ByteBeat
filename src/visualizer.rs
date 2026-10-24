@@ -130,6 +130,26 @@ impl Default for Visualizer {
     }
 }
 
+fn graph_menu_button(ui: &mut egui::Ui, graphs: &mut Vec<Graph>) {
+    let button = ui.button("Graphs");
+    let state_id = button.id.with("open");
+    let mut open = ui.data_mut(|data| data.get_temp::<bool>(state_id).unwrap_or(false));
+    if button.clicked() {
+        open = !open;
+    }
+    // Child dropdowns and the color picker need egui's single memory-backed popup slot.
+    let close_behavior = if egui::Popup::is_any_open(ui.ctx()) {
+        egui::PopupCloseBehavior::IgnoreClicks
+    } else {
+        egui::PopupCloseBehavior::CloseOnClickOutside
+    };
+    egui::Popup::menu(&button)
+        .open_bool(&mut open)
+        .close_behavior(close_behavior)
+        .show(|ui| graph_menu(ui, graphs));
+    ui.data_mut(|data| data.insert_temp(state_id, open));
+}
+
 fn graph_menu(ui: &mut egui::Ui, graphs: &mut Vec<Graph>) {
     ui.label("Later layers draw over earlier ones.");
     let mut remove = None;
@@ -346,7 +366,7 @@ impl Visualizer {
                     .strong()
                     .color(Color32::from_rgb(GREEN[0], GREEN[1], GREEN[2])),
             );
-            ui.menu_button("Graphs", |ui| graph_menu(ui, graphs));
+            graph_menu_button(ui, graphs);
             ui.add(
                 egui::Slider::new(&mut self.zoom, 1.0..=16.0)
                     .text("Zoom")
@@ -561,7 +581,9 @@ mod tests {
                 ..Default::default()
             },
             |ctx| {
-                egui::CentralPanel::default().show(ctx, |ui| graph_menu(ui, graphs));
+                egui::CentralPanel::default().show(ctx, |ui| {
+                    graph_menu_button(ui, graphs);
+                });
             },
         )
     }
@@ -578,6 +600,10 @@ mod tests {
                 _ => None,
             })
             .unwrap_or_else(|| panic!("missing graph control: {label}"));
+        click_position(ctx, graphs, pos);
+    }
+
+    fn click_position(ctx: &egui::Context, graphs: &mut Vec<Graph>, pos: egui::Pos2) {
         for pressed in [true, false] {
             menu_frame(
                 ctx,
@@ -599,6 +625,7 @@ mod tests {
     fn menu_adds_and_removes_graphs_including_last_graph() {
         let ctx = egui::Context::default();
         let mut graphs = Vec::new();
+        click_label(&ctx, &mut graphs, "Graphs");
         click_label(&ctx, &mut graphs, "+");
         assert_eq!(graphs.len(), 1);
         assert_eq!(graphs[0].kind, GraphKind::Bits);
@@ -620,6 +647,7 @@ mod tests {
         let ctx = egui::Context::default();
         let mut graphs = waveform_graphs();
         graphs.truncate(1);
+        click_label(&ctx, &mut graphs, "Graphs");
         click_label(&ctx, &mut graphs, "Waveform");
         click_label(&ctx, &mut graphs, "8-bit pattern");
         assert_eq!(graphs[0].kind, GraphKind::Bits);
@@ -629,6 +657,49 @@ mod tests {
         click_label(&ctx, &mut graphs, "8-bit pattern");
         click_label(&ctx, &mut graphs, "FFT spectrum");
         assert_eq!(graphs[0].kind, GraphKind::Spectrum);
+    }
+
+    #[test]
+    fn menu_dismisses_with_button_outside_click_or_escape() {
+        for dismissal in ["button", "outside", "escape"] {
+            let ctx = egui::Context::default();
+            let mut graphs = waveform_graphs();
+            click_label(&ctx, &mut graphs, "Graphs");
+            click_label(&ctx, &mut graphs, "Left");
+            click_label(&ctx, &mut graphs, "Mix");
+            assert_eq!(graphs[0].channel, Channel::Mix);
+
+            match dismissal {
+                "button" => click_label(&ctx, &mut graphs, "Graphs"),
+                "outside" => click_position(&ctx, &mut graphs, egui::pos2(750.0, 550.0)),
+                "escape" => {
+                    menu_frame(
+                        &ctx,
+                        &mut graphs,
+                        vec![egui::Event::Key {
+                            key: egui::Key::Escape,
+                            physical_key: None,
+                            pressed: true,
+                            repeat: false,
+                            modifiers: egui::Modifiers::NONE,
+                        }],
+                    );
+                }
+                _ => unreachable!(),
+            }
+            let output = menu_frame(&ctx, &mut graphs, vec![]);
+            assert!(
+                !output.shapes.iter().any(|shape| matches!(
+                    &shape.shape,
+                    egui::Shape::Text(text)
+                        if text.galley.job.text == "Later layers draw over earlier ones."
+                )),
+                "menu stayed open after {dismissal}"
+            );
+            click_label(&ctx, &mut graphs, "Graphs");
+            click_label(&ctx, &mut graphs, "+");
+            assert_eq!(graphs.len(), 3);
+        }
     }
 
     #[test]
@@ -771,6 +842,7 @@ mod tests {
     fn menu_selects_original_shader_art_with_default_colors() {
         let ctx = egui::Context::default();
         let mut graphs = vec![Graph::new(GraphKind::Waveform, Channel::Left, GREEN)];
+        click_label(&ctx, &mut graphs, "Graphs");
         click_label(&ctx, &mut graphs, "Waveform");
         click_label(&ctx, &mut graphs, "blorp");
         assert_eq!(graphs[0].kind, GraphKind::Shader(0));
