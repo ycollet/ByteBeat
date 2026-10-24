@@ -95,9 +95,35 @@ platform-specific packaging.
 - **Playback:** Play/Pause, Stop (reset to zero), Restart, volume, sample-rate
   presets, and custom rates from 1,000 to 192,000 Hz. Playback starts paused at
   25% volume; use a comfortable listening level.
-- **Visualization:** stereo waveform, logarithmic FFT spectrum, or both.
-  Click the scope to toggle playback. Zoom adjusts the waveform's visible window.
-  The spectrum analyzes the latest 2,048 output frames using a Hann window.
+- **Visualization:** open **Graphs** and use **+** to add a layer or **-** to
+  remove it. Choose **Waveform**, **FFT spectrum**, **8-bit pattern**, or one of
+  **35 original shader-art presets**. Each layer has a left/right/mixed channel,
+  a color picker, and an opacity slider (0 is transparent; 255 is opaque).
+  Layers overlay in list order; later layers draw
+  over earlier ones. The defaults retain the stereo waveform and mixed spectrum.
+  Click the display to toggle playback. Zoom adjusts the waveform and scrolling
+  bit-pattern window; the spectrum always analyzes the latest 2,048 output frames
+  using a Hann window. Graph settings, including an empty list, persist.
+  The bit pattern shows eight horizontal bit rows (most significant at the top),
+  with newer samples on the right. It maps normalized output to unsigned bytes
+  (Bytebeat values are recovered exactly; other modes are quantized). All graphs
+  use generated output before volume adjustment, without re-evaluating the song.
+- **Shader art:** the preset selector includes blorp, seaqyuk, bhatsu, discinos,
+  ?dot-line, morp, add-em-up, grid, circles, widr, fuzeball, undul, flwr, radonut,
+  vu-w/max, notmizu, pulsedn, bebubebup, dncrs, discus, smutz, ball-o?3, incId,
+  headrush, cubespace, s.o.i., volum, iblot, circlepower, c-pump, red ring, cybr,
+  ball, qyube, and hexalicious. These are the original vertex shaders by
+  **gman (Gregg Tavares)**, licensed **CC0** and bundled for offline use.
+  Selecting a shader from a signal graph starts with white tint (original
+  colors) and full opacity; use the color picker to tint it. Changing between
+  shader presets preserves your tint and opacity. Shader layers use native
+  OpenGL, depth-tested geometry, playback time, mouse position, and smoothed FFT
+  and volume histories. Animation pauses with playback; histories reset when a
+  song is compiled/restarted. Browser FFT/history timing may differ; touch input
+  is neutral and no linked music is downloaded or played. Shader errors are
+  logged and shown above the display. Multiple shader layers increase GPU cost.
+  The menu links each artwork's source and attribution; licensing details are in
+  [assets/VERTEXSHADERART-LICENSE.txt](assets/VERTEXSHADERART-LICENSE.txt).
 - **Library:** search the included demos, load a song, or save your expression to
   **My songs**. Saving the same title replaces that local song; **x** deletes it.
   The editor, settings, and local songs persist through egui's native application

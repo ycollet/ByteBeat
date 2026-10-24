@@ -5,8 +5,10 @@ mod cli;
 mod engine;
 mod icon;
 mod logging;
+mod shader_art;
 mod songs;
 mod upstream;
+mod visualizer;
 
 use clap::Parser;
 

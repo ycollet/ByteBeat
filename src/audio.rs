@@ -31,6 +31,7 @@ pub enum Command {
 #[derive(Default)]
 pub struct Snapshot {
     pub frames: Vec<[f32; 2]>,
+    pub generation: u64,
     pub position: u64,
     pub output_rate: u32,
     pub playing: bool,
@@ -210,10 +211,14 @@ fn run(
                         code.len()
                     );
                     shared.playing.store(false, Ordering::Relaxed);
-                    shared.generation.fetch_add(1, Ordering::Relaxed);
+                    let generation = shared
+                        .generation
+                        .fetch_add(1, Ordering::Relaxed)
+                        .wrapping_add(1);
                     history.clear();
                     let result = Engine::new(&code, mode, rate, memory_limit_mb);
                     let mut state = snapshot.lock().expect("audio snapshot mutex poisoned");
+                    state.generation = generation;
                     state.position = 0;
                     state.frames.clear();
                     match result {

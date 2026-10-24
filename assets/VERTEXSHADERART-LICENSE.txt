@@ -1,0 +1,14 @@
+The 35 shader-art presets in vertexshaderart.json are by gman (Gregg Tavares).
+They are distributed under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Each catalog entry retains its artwork URL, author, license identifier, original
+shader source, and the author's license statement:
+
+"Note: All the shaders I've posted are licensed CC0"
+
+This statement appears in the author's profile embedded in each artwork's
+art.json response. Source: https://www.vertexshaderart.com/art/R2FYLbHWTcCWh5PiE/art.json
+Retrieved 2026-10-24. The catalog does not include or play the artworks' linked music.
+
+The application's original Rust renderer is independent of the website renderer.

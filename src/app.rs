@@ -1,11 +1,6 @@
-use std::{
-    path::PathBuf,
-    sync::{Arc, mpsc::TryRecvError},
-    time::Duration,
-};
+use std::{path::PathBuf, sync::mpsc::TryRecvError, time::Duration};
 
-use eframe::egui::{self, Color32, FontId, RichText, Stroke, Vec2};
-use rustfft::{Fft, FftPlanner, num_complex::Complex};
+use eframe::egui::{self, Color32, RichText, Vec2};
 use serde::{Deserialize, Serialize};
 
 use crate::{
@@ -14,6 +9,7 @@ use crate::{
     engine::Mode,
     songs::{self, Song},
     upstream::{self, Download, Event},
+    visualizer::{self, Graph, Visualizer},
 };
 
 const GREEN: Color32 = Color32::from_rgb(100, 224, 150);
@@ -153,10 +149,11 @@ impl LibrarySearch {
 
 #[derive(Clone, Copy, Default, PartialEq, Serialize, Deserialize)]
 enum Scope {
-    #[default]
     Waveform,
     Spectrum,
     Combined,
+    #[default]
+    Unspecified,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -167,7 +164,9 @@ struct Project {
     mode: Mode,
     rate: f64,
     volume: f32,
+    #[serde(skip_serializing)]
     scope: Scope,
+    graphs: Vec<Graph>,
     saved: Vec<Song>,
 }
 
@@ -180,9 +179,21 @@ impl Default for Project {
             mode: song.mode,
             rate: song.rate,
             volume: 0.25,
-            scope: Scope::Combined,
+            scope: Scope::Unspecified,
+            graphs: visualizer::default_graphs(),
             saved: vec![],
         }
+    }
+}
+
+impl Project {
+    fn migrate_scope(&mut self) {
+        self.graphs = match std::mem::take(&mut self.scope) {
+            Scope::Waveform => visualizer::waveform_graphs(),
+            Scope::Spectrum => visualizer::spectrum_graphs(),
+            Scope::Combined => visualizer::default_graphs(),
+            Scope::Unspecified => return,
+        };
     }
 }
 
@@ -195,8 +206,7 @@ pub struct Composer {
     library_search: LibrarySearch,
     editor: CodeEditor,
     loaded: Option<(String, Mode, f64)>,
-    fft: Arc<dyn Fft<f32>>,
-    zoom: f32,
+    visualizer: Visualizer,
     catalog_download: Option<Download>,
     download_root: Option<PathBuf>,
     catalog_status: Option<String>,
@@ -223,6 +233,7 @@ impl Composer {
             .storage
             .and_then(|storage| eframe::get_value(storage, STORAGE_KEY))
             .unwrap_or_default();
+        project.migrate_scope();
         project.volume = if project.volume.is_finite() {
             project.volume.clamp(0.0, 1.0)
         } else {
@@ -256,8 +267,7 @@ impl Composer {
             library_search: LibrarySearch::default(),
             editor: CodeEditor::default(),
             loaded: None,
-            fft: FftPlanner::new().plan_fft_forward(2048),
-            zoom: 1.0,
+            visualizer: Visualizer::new(cc.gl.as_ref()),
             catalog_download,
             download_root: download_to,
             catalog_status,
@@ -467,126 +477,12 @@ impl Composer {
             self.load(true);
         }
     }
-
-    fn visualizer(&mut self, ui: &mut egui::Ui, frames: &[[f32; 2]], rate: u32) -> bool {
-        ui.horizontal(|ui| {
-            ui.label(
-                RichText::new("OSCILLOSCOPE / SPECTRUM")
-                    .strong()
-                    .color(GREEN),
-            );
-            for (mode, label) in [
-                (Scope::Waveform, "Waveform"),
-                (Scope::Spectrum, "FFT"),
-                (Scope::Combined, "Combined"),
-            ] {
-                ui.selectable_value(&mut self.project.scope, mode, label);
-            }
-            ui.add(
-                egui::Slider::new(&mut self.zoom, 1.0..=16.0)
-                    .text("Zoom")
-                    .logarithmic(true),
-            );
-        });
-        let height = (ui.available_height() * 0.36).clamp(150.0, 280.0);
-        let (response, painter) = ui.allocate_painter(
-            Vec2::new(ui.available_width(), height),
-            egui::Sense::click(),
-        );
-        let rect = response.rect;
-        painter.rect_filled(rect, 3.0, Color32::from_rgb(10, 15, 17));
-        for x in 0..=10 {
-            let x = rect.left() + rect.width() * x as f32 / 10.0;
-            painter.line_segment(
-                [egui::pos2(x, rect.top()), egui::pos2(x, rect.bottom())],
-                Stroke::new(1.0_f32, Color32::from_gray(35)),
-            );
-        }
-        for y in 0..=4 {
-            let y = rect.top() + rect.height() * y as f32 / 4.0;
-            painter.line_segment(
-                [egui::pos2(rect.left(), y), egui::pos2(rect.right(), y)],
-                Stroke::new(1.0_f32, Color32::from_gray(35)),
-            );
-        }
-        if self.project.scope != Scope::Waveform && frames.len() >= 2048 && rate > 0 {
-            let mut bins: Vec<_> = frames[frames.len() - 2048..]
-                .iter()
-                .enumerate()
-                .map(|(i, frame)| {
-                    let window = 0.5 - 0.5 * (std::f32::consts::TAU * i as f32 / 2048.0).cos();
-                    Complex::new((frame[0] + frame[1]) * 0.5 * window, 0.0)
-                })
-                .collect();
-            self.fft.process(&mut bins);
-            let min_hz = 20.0_f32;
-            let max_hz = rate as f32 / 2.0;
-            let points: Vec<_> = (1..1024)
-                .filter_map(|i| {
-                    let hz = i as f32 * rate as f32 / 2048.0;
-                    if hz < min_hz {
-                        return None;
-                    }
-                    let x = (hz / min_hz).ln() / (max_hz / min_hz).ln();
-                    let db = 20.0 * (bins[i].norm() / 512.0).max(1e-6).log10();
-                    let y = ((db + 100.0) / 100.0).clamp(0.0, 1.0);
-                    Some(egui::pos2(
-                        rect.left() + x * rect.width(),
-                        rect.bottom() - y * rect.height(),
-                    ))
-                })
-                .collect();
-            painter.add(egui::Shape::line(points, Stroke::new(1.5_f32, BLUE)));
-            for hz in [100.0_f32, 1000.0, 10000.0] {
-                if hz < max_hz {
-                    let x =
-                        rect.left() + (hz / min_hz).ln() / (max_hz / min_hz).ln() * rect.width();
-                    painter.text(
-                        egui::pos2(x, rect.bottom() - 3.0),
-                        egui::Align2::CENTER_BOTTOM,
-                        format!("{} Hz", hz as u32),
-                        FontId::monospace(10.0),
-                        BLUE,
-                    );
-                }
-            }
-        }
-        if self.project.scope != Scope::Spectrum && !frames.is_empty() {
-            let count = ((frames.len() as f32 / self.zoom) as usize)
-                .max(2)
-                .min(frames.len());
-            let start = frames.len() - count;
-            for (channel, color) in [(0, GREEN), (1, BLUE)] {
-                let points = frames[start..]
-                    .iter()
-                    .enumerate()
-                    .map(|(i, frame)| {
-                        egui::pos2(
-                            rect.left() + i as f32 / (count - 1).max(1) as f32 * rect.width(),
-                            rect.center().y - frame[channel] * rect.height() * 0.44,
-                        )
-                    })
-                    .collect();
-                painter.add(egui::Shape::line(points, Stroke::new(1.0_f32, color)));
-            }
-        }
-        if frames.is_empty() {
-            painter.text(
-                rect.center(),
-                egui::Align2::CENTER_CENTER,
-                "Press Play to generate audio",
-                FontId::monospace(14.0),
-                Color32::GRAY,
-            );
-        }
-        response.clicked()
-    }
 }
 
 impl eframe::App for Composer {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         self.poll_catalog();
-        let (playing, position, frames, rate, error) = {
+        let (playing, position, frames, rate, error, generation) = {
             let state = self
                 .audio
                 .snapshot
@@ -598,8 +494,10 @@ impl eframe::App for Composer {
                 state.frames.clone(),
                 state.output_rate,
                 state.error.clone(),
+                state.generation,
             )
         };
+        self.visualizer.set_generation(generation);
         if ctx.input_mut(|i| {
             i.consume_key(egui::Modifiers::CTRL, egui::Key::Enter)
                 || i.consume_key(egui::Modifiers::COMMAND, egui::Key::Enter)
@@ -636,7 +534,8 @@ impl eframe::App for Composer {
             .resizable(true)
             .show(ctx, |ui| self.library(ui));
         egui::CentralPanel::default().show(ctx, |ui| {
-            if self.visualizer(ui, &frames, rate) {
+            let seconds = position as f64 / self.loaded.as_ref().map_or(self.project.rate, |(_, _, rate)| *rate);
+            if self.visualizer.show(ui, &mut self.project.graphs, &frames, rate, seconds) {
                 self.toggle(playing);
             }
             ui.horizontal_wrapped(|ui| {
@@ -700,11 +599,62 @@ impl eframe::App for Composer {
     fn save(&mut self, storage: &mut dyn eframe::Storage) {
         eframe::set_value(storage, STORAGE_KEY, &self.project);
     }
+
+    fn on_exit(&mut self, _gl: Option<&eframe::glow::Context>) {
+        self.visualizer.destroy();
+    }
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn legacy_scope_settings_migrate_using_native_storage_format() {
+        for (scope, expected) in [
+            ("Waveform", visualizer::waveform_graphs()),
+            ("Spectrum", visualizer::spectrum_graphs()),
+            ("Combined", visualizer::default_graphs()),
+        ] {
+            let mut storage = MemoryStorage(format!("(scope:{scope})"));
+            let mut project: Project = eframe::get_value(&storage, STORAGE_KEY).unwrap();
+            project.migrate_scope();
+            assert_eq!(project.graphs, expected);
+            project.migrate_scope();
+            assert_eq!(project.graphs, expected);
+            eframe::set_value(&mut storage, STORAGE_KEY, &project);
+            assert!(!storage.0.contains("scope:"));
+            let mut restored: Project = eframe::get_value(&storage, STORAGE_KEY).unwrap();
+            restored.migrate_scope();
+            assert_eq!(restored.graphs, expected);
+        }
+    }
+
+    #[test]
+    fn graph_settings_and_empty_list_persist_without_restoring_defaults() {
+        let mut storage = MemoryStorage::default();
+        let mut project: Project = serde_json::from_value(serde_json::json!({
+            "graphs": [{
+                "kind": "Bits",
+                "channel": "Right",
+                "color": [12, 34, 56],
+                "opacity": 87
+            }, {
+                "kind": {"Shader": 34},
+                "channel": "Mix",
+                "color": [255, 128, 64],
+                "opacity": 128
+            }]
+        }))
+        .unwrap();
+        for _ in 0..2 {
+            eframe::set_value(&mut storage, STORAGE_KEY, &project);
+            let mut restored: Project = eframe::get_value(&storage, STORAGE_KEY).unwrap();
+            restored.migrate_scope();
+            assert_eq!(restored.graphs, project.graphs);
+            project.graphs.clear();
+        }
+    }
 
     fn editor_frame(
         ctx: &egui::Context,
