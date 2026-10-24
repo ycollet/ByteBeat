@@ -42,6 +42,7 @@ struct Shared {
     playing: AtomicBool,
     generation: AtomicU64,
     volume: AtomicU32,
+    dc_blocker: AtomicBool,
     underruns: AtomicU64,
 }
 
@@ -60,6 +61,7 @@ impl Audio {
             playing: AtomicBool::new(false),
             generation: AtomicU64::new(0),
             volume: AtomicU32::new(0.25_f32.to_bits()),
+            dc_blocker: AtomicBool::new(true),
             underruns: AtomicU64::new(0),
         });
         let state = snapshot.clone();
@@ -101,6 +103,10 @@ impl Audio {
     pub fn underruns(&self) -> u64 {
         self.shared.underruns.load(Ordering::Relaxed)
     }
+
+    pub fn dc_blocker(&self, enabled: bool) {
+        self.shared.dc_blocker.store(enabled, Ordering::Relaxed);
+    }
 }
 
 impl Drop for Audio {
@@ -113,6 +119,43 @@ impl Drop for Audio {
 }
 
 type Frame = ([f32; 2], u64);
+
+struct DcBlocker {
+    pole: f64,
+    input: [f64; 2],
+    output: [f64; 2],
+    generation: u64,
+    enabled: bool,
+}
+
+impl DcBlocker {
+    fn new(output_rate: u32) -> Self {
+        Self {
+            pole: (-std::f64::consts::TAU * 10.0 / f64::from(output_rate)).exp(),
+            input: [0.0; 2],
+            output: [0.0; 2],
+            generation: 0,
+            enabled: false,
+        }
+    }
+
+    fn reset(&mut self) {
+        self.input = [0.0; 2];
+        self.output = [0.0; 2];
+    }
+
+    fn process(&mut self, frame: [f32; 2]) -> [f32; 2] {
+        std::array::from_fn(|channel| {
+            let input = f64::from(frame[channel]);
+            // Normalize the one-pole high-pass to unity gain at Nyquist.
+            let output = (1.0 + self.pole) * 0.5 * (input - self.input[channel])
+                + self.pole * self.output[channel];
+            self.input[channel] = input;
+            self.output[channel] = output;
+            output as f32
+        })
+    }
+}
 
 fn output_host(use_jack: bool) -> Result<cpal::Host, String> {
     if !use_jack {
@@ -284,11 +327,18 @@ where
 {
     let channels = config.channels as usize;
     let callback_shared = shared.clone();
+    let mut dc_blocker = DcBlocker::new(config.sample_rate.0);
     device
         .build_output_stream(
             config,
             move |output: &mut [T], _| {
-                fill_output(output, channels, &mut consumer, &callback_shared);
+                fill_output(
+                    output,
+                    channels,
+                    &mut consumer,
+                    &callback_shared,
+                    &mut dc_blocker,
+                );
             },
             move |error| {
                 log::error!("Audio output failed: {error}");
@@ -307,12 +357,19 @@ fn fill_output<T>(
     channels: usize,
     consumer: &mut Consumer<Frame>,
     shared: &Shared,
+    dc_blocker: &mut DcBlocker,
 ) where
     T: cpal::SizedSample + cpal::FromSample<f32>,
 {
     let playing = shared.playing.load(Ordering::Relaxed);
     let generation = shared.generation.load(Ordering::Relaxed);
     let volume = f32::from_bits(shared.volume.load(Ordering::Relaxed));
+    let enabled = shared.dc_blocker.load(Ordering::Relaxed);
+    if dc_blocker.enabled != enabled || dc_blocker.generation != generation || !playing {
+        dc_blocker.reset();
+    }
+    dc_blocker.enabled = enabled;
+    dc_blocker.generation = generation;
     for output_frame in output.chunks_mut(channels) {
         let mut frame = [0.0; 2];
         if playing {
@@ -320,11 +377,15 @@ fn fill_output<T>(
                 match consumer.pop() {
                     Ok((samples, id)) if id == generation => {
                         frame = samples;
+                        if enabled {
+                            frame = dc_blocker.process(frame);
+                        }
                         break;
                     }
                     Ok(_) => continue,
                     Err(_) => {
                         shared.underruns.fetch_add(1, Ordering::Relaxed);
+                        dc_blocker.reset();
                         break;
                     }
                 }
@@ -338,7 +399,13 @@ fn fill_output<T>(
             } else {
                 0.0
             };
-            *sample = T::from_sample(value * volume);
+            let value = value * volume;
+            // DC removal can briefly overshoot on steps; keep device conversion in range.
+            *sample = T::from_sample(if enabled {
+                value.clamp(-1.0, 1.0)
+            } else {
+                value
+            });
         }
     }
 }
@@ -352,33 +419,146 @@ mod tests {
             playing: AtomicBool::new(true),
             generation: AtomicU64::new(1),
             volume: AtomicU32::new(0.5_f32.to_bits()),
+            dc_blocker: AtomicBool::new(false),
             underruns: AtomicU64::new(0),
         }
     }
 
     #[test]
+    fn dc_blocker_rejects_dc_and_preserves_audio_at_device_rates() {
+        for rate in [8_000, 44_100, 48_000, 192_000] {
+            let mut filter = DcBlocker::new(rate);
+            for _ in 0..rate / 4 {
+                filter.process([0.75, -0.25]);
+            }
+            let output = filter.process([0.75, -0.25]);
+            assert!(output.iter().all(|sample| sample.abs() < 1e-6));
+
+            for (frequency, expected_gain) in [(10.0, 1.0 / 2.0_f64.sqrt()), (1000.0, 1.0)] {
+                filter.reset();
+                let mut energy = 0.0;
+                for index in 0..rate {
+                    let wave = (std::f64::consts::TAU * frequency * f64::from(index)
+                        / f64::from(rate))
+                    .sin() as f32
+                        * 0.4;
+                    let output = filter.process([wave + 0.25, 0.0]);
+                    assert_eq!(output[1], 0.0);
+                    if index >= rate / 2 {
+                        energy += f64::from(output[0]).powi(2);
+                    }
+                }
+                let gain = (energy / f64::from(rate / 2)).sqrt() / (0.4 / 2.0_f64.sqrt());
+                assert!(
+                    (gain - expected_gain).abs() < 0.002,
+                    "{rate} Hz, {frequency} Hz: {gain}"
+                );
+            }
+        }
+    }
+
+    #[test]
+    fn dc_blocker_retains_state_between_callbacks_and_resets_on_discontinuities() {
+        let shared = shared();
+        shared.dc_blocker.store(true, Ordering::Relaxed);
+        let mut filter = DcBlocker::new(48_000);
+        let (mut producer, mut consumer) = RingBuffer::new(8);
+        let mut output = [0.0_f32; 2];
+        producer.push(([0.5, -0.25], 1)).unwrap();
+        fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
+        let first = output;
+        producer.push(([0.5, -0.25], 1)).unwrap();
+        fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
+        assert!(output[0] < first[0]);
+        assert!(output[1].abs() < first[1].abs());
+
+        for reset in ["pause", "underrun", "generation", "toggle"] {
+            match reset {
+                "pause" => {
+                    shared.playing.store(false, Ordering::Relaxed);
+                    fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
+                    assert_eq!(output, [0.0; 2]);
+                    shared.playing.store(true, Ordering::Relaxed);
+                }
+                "underrun" => {
+                    fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
+                    assert_eq!(output, [0.0; 2]);
+                }
+                "generation" => {
+                    shared.generation.fetch_add(1, Ordering::Relaxed);
+                }
+                "toggle" => {
+                    shared.dc_blocker.store(false, Ordering::Relaxed);
+                    producer
+                        .push(([0.5, -0.25], shared.generation.load(Ordering::Relaxed)))
+                        .unwrap();
+                    fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
+                    assert_eq!(output, [0.25, -0.125]);
+                    shared.dc_blocker.store(true, Ordering::Relaxed);
+                }
+                _ => unreachable!(),
+            }
+            producer
+                .push(([0.5, -0.25], shared.generation.load(Ordering::Relaxed)))
+                .unwrap();
+            fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
+            assert_eq!(output, first, "{reset}");
+        }
+    }
+
+    #[test]
+    fn dc_blocker_bounds_transients_for_float_and_integer_devices() {
+        let shared = shared();
+        shared.dc_blocker.store(true, Ordering::Relaxed);
+        shared.volume.store(1.0_f32.to_bits(), Ordering::Relaxed);
+        let mut filter = DcBlocker::new(48_000);
+        let (mut producer, mut consumer) = RingBuffer::new(8);
+        filter.input = [1.0, -1.0];
+        filter.enabled = true;
+        filter.generation = 1;
+        producer.push(([-1.0, 1.0], 1)).unwrap();
+        let mut float = [0.0_f32; 2];
+        fill_output(&mut float, 2, &mut consumer, &shared, &mut filter);
+        assert_eq!(float, [-1.0, 1.0]);
+        filter.input = [1.0, -1.0];
+        filter.output = [0.0; 2];
+        producer.push(([-1.0, 1.0], 1)).unwrap();
+        let mut signed = [0_i16; 2];
+        fill_output(&mut signed, 2, &mut consumer, &shared, &mut filter);
+        assert_eq!(signed, [i16::MIN, i16::MAX]);
+        filter.input = [1.0, -1.0];
+        filter.output = [0.0; 2];
+        producer.push(([-1.0, 1.0], 1)).unwrap();
+        let mut unsigned = [0_u16; 2];
+        fill_output(&mut unsigned, 2, &mut consumer, &shared, &mut filter);
+        assert_eq!(unsigned, [u16::MIN, u16::MAX]);
+    }
+
+    #[test]
     fn pause_preserves_queued_audio_and_resume_plays_it() {
         let shared = shared();
+        let mut filter = DcBlocker::new(48_000);
         let (mut producer, mut consumer) = RingBuffer::new(8);
         producer.push(([0.8, -0.4], 1)).unwrap();
         shared.playing.store(false, Ordering::Relaxed);
         let mut output = [1.0_f32; 2];
-        fill_output(&mut output, 2, &mut consumer, &shared);
+        fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
         assert_eq!(output, [0.0, 0.0]);
         assert_eq!(consumer.slots(), 1);
         shared.playing.store(true, Ordering::Relaxed);
-        fill_output(&mut output, 2, &mut consumer, &shared);
+        fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
         assert_eq!(output, [0.4, -0.2]);
     }
 
     #[test]
     fn restart_discards_old_generations_and_underruns_are_silent() {
         let shared = shared();
+        let mut filter = DcBlocker::new(48_000);
         let (mut producer, mut consumer) = RingBuffer::new(8);
         producer.push(([1.0, 1.0], 0)).unwrap();
         producer.push(([0.2, -0.2], 1)).unwrap();
         let mut output = [1.0_f32; 4];
-        fill_output(&mut output, 2, &mut consumer, &shared);
+        fill_output(&mut output, 2, &mut consumer, &shared, &mut filter);
         assert_eq!(output, [0.1, -0.1, 0.0, 0.0]);
         assert_eq!(shared.underruns.load(Ordering::Relaxed), 1);
     }
@@ -386,14 +566,15 @@ mod tests {
     #[test]
     fn mono_downmix_and_surround_channel_silence() {
         let shared = shared();
+        let mut filter = DcBlocker::new(48_000);
         let (mut producer, mut consumer) = RingBuffer::new(8);
         producer.push(([0.8, 0.4], 1)).unwrap();
         let mut mono = [0.0_f32; 1];
-        fill_output(&mut mono, 1, &mut consumer, &shared);
+        fill_output(&mut mono, 1, &mut consumer, &shared, &mut filter);
         assert!((mono[0] - 0.3).abs() < 1e-6);
         producer.push(([0.8, 0.4], 1)).unwrap();
         let mut surround = [1.0_f32; 6];
-        fill_output(&mut surround, 6, &mut consumer, &shared);
+        fill_output(&mut surround, 6, &mut consumer, &shared, &mut filter);
         assert_eq!(surround, [0.4, 0.2, 0.0, 0.0, 0.0, 0.0]);
     }
 

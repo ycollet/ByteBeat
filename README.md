@@ -95,6 +95,14 @@ platform-specific packaging.
 - **Playback:** Play/Pause, Stop (reset to zero), Restart, volume, sample-rate
   presets, and custom rates from 1,000 to 192,000 Hz. Playback starts paused at
   25% volume; use a comfortable listening level.
+- **DC blocker:** optional checkbox beside Volume, on by default and saved with
+  your settings. Removes DC offset using a first-order 10 Hz high-pass filter
+  independently on the left and right channels, at the device's output sample
+  rate, before volume adjustment and device conversion. It also attenuates very
+  low bass; filter transients are clamped to the device's valid output range.
+  Graphs still show the original, unfiltered signal. This reduces sustained DC,
+  but is not a limiter or a guarantee against speaker damage: keep playback
+  volume at a safe level.
 - **Visualization:** open **Graphs** and use **+** to add a layer or **-** to
   remove it. Choose **Waveform**, **FFT spectrum**, **8-bit pattern**, or one of
   **35 original shader-art presets**. Each layer has a left/right/mixed channel,

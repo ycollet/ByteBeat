@@ -164,6 +164,7 @@ struct Project {
     mode: Mode,
     rate: f64,
     volume: f32,
+    dc_blocker: bool,
     #[serde(skip_serializing)]
     scope: Scope,
     graphs: Vec<Graph>,
@@ -179,6 +180,7 @@ impl Default for Project {
             mode: song.mode,
             rate: song.rate,
             volume: 0.25,
+            dc_blocker: true,
             scope: Scope::Unspecified,
             graphs: visualizer::default_graphs(),
             saved: vec![],
@@ -252,6 +254,7 @@ impl Composer {
         }
         let audio = Audio::new(memory_limit_mb, use_jack);
         audio.volume(project.volume);
+        audio.dc_blocker(project.dc_blocker);
         let catalog_download = download_to
             .as_ref()
             .map(|root| Download::start(root.clone()));
@@ -550,6 +553,11 @@ impl eframe::App for Composer {
                 if ui.add(egui::Slider::new(&mut self.project.volume, 0.0..=1.0).text("Volume")).changed() {
                     self.audio.volume(self.project.volume);
                 }
+                if ui.checkbox(&mut self.project.dc_blocker, "DC blocker")
+                    .on_hover_text("Remove DC offset with a 10 Hz high-pass filter per output channel. Not a substitute for safe listening volume.")
+                    .changed() {
+                    self.audio.dc_blocker(self.project.dc_blocker);
+                }
             });
             ui.horizontal_wrapped(|ui| {
                 let previous = (self.project.mode, self.project.rate);
@@ -654,6 +662,16 @@ mod tests {
             assert_eq!(restored.graphs, project.graphs);
             project.graphs.clear();
         }
+    }
+
+    #[test]
+    fn dc_blocker_defaults_on_and_persists_when_disabled() {
+        let mut project: Project = serde_json::from_str("{}").unwrap();
+        assert!(project.dc_blocker);
+        project.dc_blocker = false;
+        let json = serde_json::to_string(&project).unwrap();
+        let restored: Project = serde_json::from_str(&json).unwrap();
+        assert!(!restored.dc_blocker);
     }
 
     fn editor_frame(
