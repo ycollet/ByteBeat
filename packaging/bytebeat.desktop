@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Bytebeat Composer
+Comment=Compose algorithmic music with JavaScript
+Exec=bytebeat
+Icon=bytebeat
+Terminal=false
+StartupNotify=true
+Categories=AudioVideo;Audio;Music;
+Keywords=bytebeat;music;synthesizer;NSM;

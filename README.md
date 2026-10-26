@@ -34,6 +34,41 @@ sudo apt install build-essential pkg-config libasound2-dev libjack-jackd2-dev li
 macOS requires the Xcode command-line tools. Windows requires the MSVC Rust
 toolchain and Visual Studio C++ build tools.
 
+### Release installers
+
+Pushing a version tag runs `.github/workflows/release.yml`. After all builds
+and installation checks succeed, the workflow publishes installers and
+`SHA256SUMS` to a GitHub Release:
+
+| Platform | Installer | Architecture |
+| --- | --- | --- |
+| Debian 12+ / compatible Ubuntu releases | `.deb` | x86-64 |
+| Fedora 43+ | `.rpm` | x86-64 |
+| macOS | `.dmg` containing a drag-to-Applications `.app` | Apple Silicon and Intel |
+| Windows 10+ | Per-user `.exe` installer with an uninstaller | x86-64 |
+
+Tags must be `vVERSION` or `VERSION`, matching `[package].version` in
+`Cargo.toml` exactly. SemVer prereleases such as `v0.2.0-rc.1` are supported
+and published as prereleases; build metadata (`+...`) is not supported.
+Commit any version changes, including `Cargo.lock`, before creating the tag:
+
+```sh
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+Linux packages include desktop entries, the SVG icon, and runtime dependencies.
+Install a `.deb` with `sudo apt install ./bytebeat_*.deb`, or an `.rpm` with
+`sudo dnf install ./bytebeat-*.rpm`. The optional upstream song catalog is not
+bundled; built-in demos work offline and the catalog is downloaded on demand.
+
+Windows installers are not code-signed, and macOS apps are ad-hoc signed rather
+than Developer ID-signed or notarized, so OS security warnings are expected.
+No signing secrets are required. Publishing uses the workflow's `GITHUB_TOKEN`
+with `contents: write` permission only in the publishing job; builds have
+read-only repository access. Rerunning a failed tag workflow replaces existing
+assets for that tag.
+
 ### JACK audio on Linux
 
 Linux builds include the JACK backend. Without additional options, the app
