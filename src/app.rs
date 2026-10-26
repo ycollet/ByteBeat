@@ -613,9 +613,7 @@ impl eframe::App for Composer {
             .show(ctx, |ui| self.library(ui));
         egui::CentralPanel::default().show(ctx, |ui| {
             let seconds = position as f64 / self.loaded.as_ref().map_or(self.project.rate, |(_, _, rate)| *rate);
-            if self.visualizer.show(ui, &mut self.project.graphs, &frames, rate, seconds) {
-                self.toggle(playing);
-            }
+            self.visualizer.show(ui, &mut self.project.graphs, &frames, rate, seconds);
             ui.horizontal_wrapped(|ui| {
                 if ui.button(if playing { "Pause" } else { "Play" }).clicked() {
                     self.toggle(playing);

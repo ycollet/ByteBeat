@@ -136,7 +136,8 @@ platform-specific packaging.
   The Graphs menu stays open while you select and adjust layers.
   Layers overlay in list order; later layers draw
   over earlier ones. The defaults retain the stereo waveform and mixed spectrum.
-  Click the display to toggle playback. Zoom adjusts the waveform and scrolling
+  Use Play/Pause to control playback; clicking the display does not affect audio.
+  Zoom adjusts the waveform and scrolling
   bit-pattern window; the spectrum always analyzes the latest 2,048 output frames
   using a Hann window. Graph settings, including an empty list, persist.
   The bit pattern shows eight horizontal bit rows (most significant at the top),

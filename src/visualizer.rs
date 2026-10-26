@@ -359,7 +359,7 @@ impl Visualizer {
         frames: &[[f32; 2]],
         rate: u32,
         time: f64,
-    ) -> bool {
+    ) {
         ui.horizontal_wrapped(|ui| {
             ui.label(
                 egui::RichText::new("VISUALIZER")
@@ -404,7 +404,7 @@ impl Visualizer {
         let height = (ui.available_height() * 0.36).clamp(150.0, 280.0);
         let (response, painter) = ui.allocate_painter(
             Vec2::new(ui.available_width(), height),
-            egui::Sense::click(),
+            egui::Sense::hover(),
         );
         let rect = response.rect;
         let painter = painter.with_clip_rect(rect);
@@ -504,7 +504,6 @@ impl Visualizer {
                 Color32::GRAY,
             );
         }
-        response.clicked()
     }
 }
 
