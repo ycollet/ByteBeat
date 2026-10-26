@@ -65,6 +65,32 @@ No JACK feature flag is needed when building this application on Linux.
 `--jack` is rejected on other operating systems and cannot be combined with
 `--check`, which never opens an audio device.
 
+### NSM sessions
+
+Bytebeat supports [New Session Manager (NSM)](https://new-session-manager.jackaudio.org/)
+and compatible managers. Add `bytebeat` as a client in the session manager;
+the application detects `NSM_URL` automatically, with no extra command-line flag.
+On Linux, managed sessions use JACK automatically. Start JACK (or configure
+PipeWire's JACK compatibility) before opening the session.
+
+The manager's **Save** command writes the complete editor project, including
+source, title, playback settings, graphs, and "My songs", to `project.json` in
+the assigned client directory. Reopening the session restores that project,
+independently of standalone application preferences; new sessions start with
+the default project. "Save to my songs" updates the session's song collection,
+but does not replace the manager's Save command. Playback starts paused.
+
+Managed JACK ports use a stable client-ID prefix, and automatic connection to
+system playback ports is disabled so the session manager's patchbay can restore
+routing. Use a connection-management client such as JACKPatch to save routing.
+Closing a session terminates Bytebeat without a save dialog. Session switching
+and optional-GUI/dirty-state extensions are not advertised: the manager must
+restart the client when changing sessions.
+
+Without `NSM_URL`, or when the manager cannot be contacted, startup remains
+standalone. Headless `--check` ignores NSM entirely. UDP OSC URLs are supported;
+unsupported URLs produce a warning and use standalone mode.
+
 ### Application icon
 
 <img src="assets/bytebeat.svg" width="96" height="96" alt="Bytebeat Composer icon">

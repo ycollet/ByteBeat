@@ -54,8 +54,14 @@ pub struct Audio {
 }
 
 impl Audio {
-    pub fn new(memory_limit_mb: u32, use_jack: bool) -> Self {
+    pub fn new(
+        memory_limit_mb: u32,
+        use_jack: bool,
+        client_id: Option<String>,
+    ) -> Result<Self, String> {
         let (sender, receiver) = mpsc::channel();
+        let (ready, startup) = mpsc::channel();
+        let managed = client_id.is_some();
         let snapshot = Arc::new(Mutex::new(Snapshot::default()));
         let shared = Arc::new(Shared {
             playing: AtomicBool::new(false),
@@ -67,19 +73,34 @@ impl Audio {
         let state = snapshot.clone();
         let controls = shared.clone();
         let worker = thread::spawn(move || {
-            if let Err(error) = run(receiver, state.clone(), controls, memory_limit_mb, use_jack) {
+            if let Err(error) = run(
+                receiver,
+                state.clone(),
+                controls,
+                memory_limit_mb,
+                use_jack,
+                client_id,
+                &ready,
+            ) {
+                let _ = ready.send(Err(error.clone()));
                 log::error!("{error}");
                 let mut state = state.lock().expect("audio snapshot mutex poisoned");
                 state.playing = false;
                 state.error = Some(error);
             }
         });
-        Self {
+        let audio = Self {
             sender,
             snapshot,
             shared,
             worker: Some(worker),
+        };
+        if managed {
+            startup
+                .recv()
+                .map_err(|e| format!("Audio startup: {e}"))??;
         }
+        Ok(audio)
     }
 
     pub fn send(&self, command: Command) {
@@ -173,24 +194,40 @@ fn output_host(use_jack: bool) -> Result<cpal::Host, String> {
     }
 }
 
+fn output_device(use_jack: bool, client_id: Option<&str>) -> Result<cpal::Device, String> {
+    #[cfg(target_os = "linux")]
+    if use_jack && let Some(id) = client_id {
+        return cpal::platform::JackDevice::default_output_device(
+            &format!("{id}/audio"),
+            false,
+            false,
+        )
+        .map(Into::into)
+        .map_err(|e| format!("NSM JACK output: {e}"));
+    }
+    #[cfg(not(target_os = "linux"))]
+    let _ = client_id;
+    let host = output_host(use_jack)?;
+    log::info!("Audio backend: {}", host.id().name());
+    host.default_output_device().ok_or_else(|| {
+        if use_jack {
+            "No JACK output device available. Install libjack, start a JACK server (or enable PipeWire's JACK support), then restart the app.".to_owned()
+        } else {
+            "No audio output device found. Connect an output device and restart the app.".to_owned()
+        }
+    })
+}
+
 fn run(
     receiver: Receiver<Command>,
     snapshot: Arc<Mutex<Snapshot>>,
     shared: Arc<Shared>,
     memory_limit_mb: u32,
     use_jack: bool,
+    client_id: Option<String>,
+    ready: &Sender<Result<(), String>>,
 ) -> Result<(), String> {
-    let host = output_host(use_jack)?;
-    log::info!("Audio backend: {}", host.id().name());
-    let device = host
-        .default_output_device()
-        .ok_or_else(|| {
-            if use_jack {
-                "No JACK output device available. Install libjack, start a JACK server (or enable PipeWire's JACK support), then restart the app.".to_owned()
-            } else {
-                "No audio output device found. Connect an output device and restart the app.".to_owned()
-            }
-        })?;
+    let device = output_device(use_jack, client_id.as_deref())?;
     let config = device
         .default_output_config()
         .map_err(|e| format!("Audio configuration: {e}"))?;
@@ -227,6 +264,7 @@ fn run(
         .lock()
         .expect("audio snapshot mutex poisoned")
         .output_rate = rate;
+    let _ = ready.send(Ok(()));
     let mut engine: Option<Engine> = None;
     let mut history = VecDeque::with_capacity(BUFFER);
     loop {

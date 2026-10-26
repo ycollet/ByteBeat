@@ -7,6 +7,7 @@ use crate::{
     audio::{Audio, Command},
     catalog,
     engine::Mode,
+    nsm::{self, Session},
     songs::{self, Song},
     upstream::{self, Download, Event},
     visualizer::{self, Graph, Visualizer},
@@ -213,6 +214,8 @@ pub struct Composer {
     download_root: Option<PathBuf>,
     catalog_status: Option<String>,
     catalog_error: Option<String>,
+    session: Option<Session>,
+    session_error: Option<String>,
 }
 
 impl Composer {
@@ -223,7 +226,8 @@ impl Composer {
         memory_limit_mb: u32,
         use_jack: bool,
         download_to: Option<PathBuf>,
-    ) -> Self {
+        session: Option<Session>,
+    ) -> Result<Self, String> {
         cc.egui_ctx.set_visuals(egui::Visuals::dark());
         cc.egui_ctx.style_mut(|style| {
             style.visuals.panel_fill = Color32::from_rgb(24, 27, 31);
@@ -231,10 +235,19 @@ impl Composer {
             style.visuals.selection.bg_fill = Color32::from_rgb(37, 87, 61);
             style.spacing.item_spacing = Vec2::new(8.0, 8.0);
         });
-        let mut project: Project = cc
-            .storage
-            .and_then(|storage| eframe::get_value(storage, STORAGE_KEY))
-            .unwrap_or_default();
+        let mut project: Project = if let Some(session) = &session {
+            match session.open() {
+                Ok(project) => project,
+                Err((code, error)) => {
+                    session.respond(nsm::OPEN, Err((code, error.clone())))?;
+                    return Err(error);
+                }
+            }
+        } else {
+            cc.storage
+                .and_then(|storage| eframe::get_value(storage, STORAGE_KEY))
+                .unwrap_or_default()
+        };
         project.migrate_scope();
         project.volume = if project.volume.is_finite() {
             project.volume.clamp(0.0, 1.0)
@@ -246,13 +259,27 @@ impl Composer {
         } else {
             8_000.0
         };
-        if let Some(song) = initial {
+        if session.is_none()
+            && let Some(song) = initial
+        {
             project.code = song.code;
             project.title = song.title;
             project.mode = song.mode;
             project.rate = song.rate;
         }
-        let audio = Audio::new(memory_limit_mb, use_jack);
+        let audio = match Audio::new(
+            memory_limit_mb,
+            use_jack || (cfg!(target_os = "linux") && session.is_some()),
+            session.as_ref().map(|session| session.client_id.clone()),
+        ) {
+            Ok(audio) => audio,
+            Err(error) => {
+                if let Some(session) = &session {
+                    session.respond(nsm::OPEN, Err((-1, error.clone())))?;
+                }
+                return Err(error);
+            }
+        };
         audio.volume(project.volume);
         audio.dc_blocker(project.dc_blocker);
         let catalog_download = download_to
@@ -261,7 +288,10 @@ impl Composer {
         let catalog_status = download_to
             .as_ref()
             .map(|_| "Downloading upstream songs...".into());
-        Self {
+        if let Some(session) = &session {
+            session.respond(nsm::OPEN, Ok(()))?;
+        }
+        Ok(Self {
             project,
             audio,
             demos: songs::demos().into_iter().chain(catalog).collect(),
@@ -275,6 +305,43 @@ impl Composer {
             download_root: download_to,
             catalog_status,
             catalog_error: None,
+            session,
+            session_error: None,
+        })
+    }
+
+    fn poll_session(&mut self, ctx: &egui::Context) {
+        let Some(session) = &self.session else { return };
+        if session.terminate.load(std::sync::atomic::Ordering::Relaxed) {
+            ctx.send_viewport_cmd(egui::ViewportCommand::Close);
+            return;
+        }
+        // Bound the work so OSC traffic cannot starve the UI.
+        for _ in 0..32 {
+            let result = match session.receive() {
+                Ok(Some(message)) => match message.addr.as_str() {
+                    nsm::SAVE if message.args.is_empty() => {
+                        let result = session.save(&self.project);
+                        self.session_error = result.as_ref().err().cloned();
+                        session.respond(nsm::SAVE, result.map_err(|error| (-1, error)))
+                    }
+                    nsm::OPEN => session.respond(
+                        nsm::OPEN,
+                        Err((
+                            -8,
+                            "Session switching is not supported; restart this client.".into(),
+                        )),
+                    ),
+                    _ => Ok(()),
+                },
+                Ok(None) => break,
+                Err(error) => Err(error),
+            };
+            if let Err(error) = result {
+                log::error!("{error}");
+                self.session_error = Some(error);
+                break;
+            }
         }
     }
 
@@ -484,6 +551,7 @@ impl Composer {
 
 impl eframe::App for Composer {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
+        self.poll_session(ctx);
         self.poll_catalog();
         let (playing, position, frames, rate, error, generation) = {
             let state = self
@@ -514,9 +582,16 @@ impl eframe::App for Composer {
                 ui.label(RichText::new("COMPOSER").weak());
                 ui.separator();
                 ui.label("Native algorithmic music studio");
+                if let Some(session) = &self.session {
+                    ui.separator();
+                    ui.label(format!("NSM: {}", session.display_name));
+                }
             });
         });
         egui::TopBottomPanel::bottom("status").show(ctx, |ui| {
+            if let Some(error) = &self.session_error {
+                ui.colored_label(Color32::from_rgb(255, 130, 120), error);
+            }
             if let Some(error) = error {
                 ui.colored_label(Color32::from_rgb(255, 130, 120), error);
             } else {
@@ -605,7 +680,9 @@ impl eframe::App for Composer {
     }
 
     fn save(&mut self, storage: &mut dyn eframe::Storage) {
-        eframe::set_value(storage, STORAGE_KEY, &self.project);
+        if self.session.is_none() {
+            eframe::set_value(storage, STORAGE_KEY, &self.project);
+        }
     }
 
     fn on_exit(&mut self, _gl: Option<&eframe::glow::Context>) {
@@ -616,6 +693,33 @@ impl eframe::App for Composer {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn session_json_preserves_the_complete_project() {
+        let project = Project {
+            code: "[sin(t), cos(t)]".into(),
+            title: "Session song".into(),
+            mode: Mode::Floatbeat,
+            rate: 35498.66666,
+            volume: 0.6,
+            dc_blocker: false,
+            saved: songs::demos(),
+            ..Project::default()
+        };
+        let data = serde_json::to_vec(&project).unwrap();
+        let restored: Project = serde_json::from_slice(&data).unwrap();
+        assert_eq!(restored.code, project.code);
+        assert_eq!(restored.title, project.title);
+        assert_eq!(restored.mode, project.mode);
+        assert_eq!(restored.rate, project.rate);
+        assert_eq!(restored.volume, project.volume);
+        assert_eq!(restored.dc_blocker, project.dc_blocker);
+        assert_eq!(restored.graphs, project.graphs);
+        assert_eq!(
+            serde_json::to_value(&restored.saved).unwrap(),
+            serde_json::to_value(&project.saved).unwrap()
+        );
+    }
 
     #[test]
     fn legacy_scope_settings_migrate_using_native_storage_format() {

@@ -19,6 +19,31 @@ fn stderr(output: &Output) -> String {
 }
 
 #[test]
+fn headless_checks_do_not_contact_nsm() {
+    let dir = TempDir::new().unwrap();
+    fs::write(dir.path().join("song.js"), "t").unwrap();
+    let server = std::net::UdpSocket::bind("127.0.0.1:0").unwrap();
+    server
+        .set_read_timeout(Some(std::time::Duration::from_millis(20)))
+        .unwrap();
+    let output = Command::new(env!("CARGO_BIN_EXE_bytebeat"))
+        .current_dir(dir.path())
+        .env(
+            "NSM_URL",
+            format!("osc.udp://{}/", server.local_addr().unwrap()),
+        )
+        .args(["--check", "--file", "song.js", "--seconds", "0.01"])
+        .output()
+        .unwrap();
+    assert!(output.status.success(), "{}", stderr(&output));
+    let error = server.recv_from(&mut [0; 4096]).unwrap_err();
+    assert!(matches!(
+        error.kind(),
+        std::io::ErrorKind::WouldBlock | std::io::ErrorKind::TimedOut
+    ));
+}
+
+#[test]
 fn checks_stereo_file_using_sidecar_and_writes_report() {
     let dir = TempDir::new().unwrap();
     fs::write(dir.path().join("song.js"), "[sin(t), cos(t)];").unwrap();

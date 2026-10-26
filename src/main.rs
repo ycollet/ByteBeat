@@ -5,6 +5,7 @@ mod cli;
 mod engine;
 mod icon;
 mod logging;
+mod nsm;
 mod shader_art;
 mod songs;
 mod upstream;
@@ -33,6 +34,7 @@ fn run(args: cli::Args) -> Result<bool, String> {
     if args.check {
         return cli::check(&args);
     }
+    let session = nsm::Session::from_env();
     let initial = args
         .file
         .as_ref()
@@ -65,14 +67,18 @@ fn run(args: cli::Args) -> Result<bool, String> {
             ..Default::default()
         },
         Box::new(move |cc| {
-            Ok(Box::new(app::Composer::new(
-                cc,
-                initial,
-                catalog,
-                args.memory_limit_mb,
-                args.jack,
-                download_to,
-            )))
+            Ok(Box::new(
+                app::Composer::new(
+                    cc,
+                    initial,
+                    catalog,
+                    args.memory_limit_mb,
+                    args.jack,
+                    download_to,
+                    session,
+                )
+                .map_err(std::io::Error::other)?,
+            ))
         }),
     )
     .map_err(|e| e.to_string())?;
