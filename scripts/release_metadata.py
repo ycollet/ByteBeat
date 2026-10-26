@@ -1,4 +1,4 @@
-"""Validate a release tag and translate its version for native installers."""
+"""Validate a tag or manually built package version for native installers."""
 
 import os
 from pathlib import Path
@@ -38,7 +38,12 @@ def metadata(tag, package_version):
 if __name__ == "__main__":
     package = tomllib.loads(Path("Cargo.toml").read_text())["package"]
     try:
-        values = metadata(os.environ["GITHUB_REF_NAME"], package["version"])
+        tag = (
+            package["version"]
+            if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+            else os.environ["GITHUB_REF_NAME"]
+        )
+        values = metadata(tag, package["version"])
     except (KeyError, ValueError) as error:
         raise SystemExit(str(error)) from error
     for key, value in values.items():

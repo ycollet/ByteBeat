@@ -47,6 +47,12 @@ and installation checks succeed, the workflow publishes installers and
 | macOS | `.dmg` containing a drag-to-Applications `.app` | Apple Silicon and Intel |
 | Windows 10+ | Per-user `.exe` installer with an uninstaller | x86-64 |
 
+For an on-demand build, open **Actions → Release installers → Run workflow**
+and select a branch or tag. Manual runs use the version in `Cargo.toml`, run
+the same build and installation checks, and upload installers as workflow
+artifacts without creating or updating a GitHub Release. The workflow must
+be present on the default branch for the **Run workflow** button to appear.
+
 Tags must be `vVERSION` or `VERSION`, matching `[package].version` in
 `Cargo.toml` exactly. SemVer prereleases such as `v0.2.0-rc.1` are supported
 and published as prereleases; build metadata (`+...`) is not supported.
