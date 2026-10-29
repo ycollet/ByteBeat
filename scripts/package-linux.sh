@@ -65,7 +65,7 @@ URL: https://github.com/$GITHUB_REPOSITORY
 BuildArch: x86_64
 Requires: libjack.so.0()(64bit)
 Requires: libX11, libXcursor, libXi, libXrandr, libxkbcommon, libxkbcommon-x11
-Requires: wayland-libs, libglvnd-egl, libglvnd-glx
+Requires: libwayland-client, libwayland-cursor, libwayland-egl, libglvnd-egl, libglvnd-glx
 %global debug_package %{nil}
 
 %description

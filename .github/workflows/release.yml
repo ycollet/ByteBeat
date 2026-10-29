@@ -137,7 +137,9 @@ jobs:
           targets: ${{ matrix.target }}
       - name: Test and build
         run: |
-          cargo test --locked --target "$TARGET"
+          # Hosted macOS runners lack the accelerated OpenGL context this test requires.
+          cargo test --locked --target "$TARGET" -- \
+            --skip shader_art::tests::native::all_presets_compile_and_render_with_native_opengl_and_layer_compositing
           cargo build --release --locked --target "$TARGET"
       - name: Build and verify disk image
         run: bash scripts/package-macos.sh

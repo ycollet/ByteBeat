@@ -64,6 +64,16 @@ The workflow runs tests, builds installers, and verifies installation for:
 | macOS | `.dmg` | Apple Silicon and Intel |
 | Windows 10+ | `.exe` | x86-64 |
 
+Hosted macOS runners do not provide the accelerated OpenGL context needed by
+the native shader rendering test. The macOS release jobs exclude only that
+test; it remains part of the default local test suite. Run it on a Mac with
+hardware-accelerated OpenGL before releasing shader changes:
+
+```sh
+cargo test --locked --bin bytebeat \
+  shader_art::tests::native::all_presets_compile_and_render_with_native_opengl_and_layer_compositing
+```
+
 Only after every platform succeeds does the publishing job upload the
 installers and `SHA256SUMS` and make the GitHub Release public. Release
 notes are generated automatically. Find the downloads on the repository's
