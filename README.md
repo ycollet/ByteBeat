@@ -10,6 +10,10 @@ is available.
 For the language reference, playback semantics, and complete example programs,
 see [DOCUMENTATION.md](DOCUMENTATION.md).
 
+## Screenshot
+
+![screenshot](bytebeat.png)
+
 ## Run
 
 Install a current stable Rust toolchain, then:
