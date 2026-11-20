@@ -4,7 +4,7 @@ use eframe::egui::{self, Color32, RichText, Vec2};
 use serde::{Deserialize, Serialize};
 
 use crate::{
-    audio::{Audio, Command},
+    audio::{self, Audio, BufferSize, Command},
     catalog,
     engine::Mode,
     nsm::{self, Session},
@@ -166,6 +166,8 @@ struct Project {
     rate: f64,
     volume: f32,
     dc_blocker: bool,
+    buffer_size: BufferSize,
+    pre_render_seconds: u32,
     #[serde(skip_serializing)]
     scope: Scope,
     graphs: Vec<Graph>,
@@ -182,6 +184,8 @@ impl Default for Project {
             rate: song.rate,
             volume: 0.25,
             dc_blocker: true,
+            buffer_size: BufferSize::default(),
+            pre_render_seconds: 10,
             scope: Scope::Unspecified,
             graphs: visualizer::default_graphs(),
             saved: vec![],
@@ -259,6 +263,9 @@ impl Composer {
         } else {
             8_000.0
         };
+        project.pre_render_seconds = project
+            .pre_render_seconds
+            .clamp(1, audio::MAX_PRE_RENDER_SECONDS);
         if session.is_none()
             && let Some(song) = initial
         {
@@ -271,6 +278,7 @@ impl Composer {
             memory_limit_mb,
             use_jack || (cfg!(target_os = "linux") && session.is_some()),
             session.as_ref().map(|session| session.client_id.clone()),
+            project.buffer_size,
         ) {
             Ok(audio) => audio,
             Err(error) => {
@@ -379,11 +387,16 @@ impl Composer {
     }
 
     fn load(&mut self, play: bool) {
+        self.compile(play, None);
+    }
+
+    fn compile(&mut self, play: bool, pre_render: Option<u32>) {
         self.audio.send(Command::Load {
             code: self.project.code.clone(),
             mode: self.project.mode,
             rate: self.project.rate,
             play,
+            pre_render,
         });
         self.loaded = Some((
             self.project.code.clone(),
@@ -553,7 +566,7 @@ impl eframe::App for Composer {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         self.poll_session(ctx);
         self.poll_catalog();
-        let (playing, position, frames, rate, error, generation) = {
+        let (playing, position, frames, rate, error, generation, pre_render, cached_frames) = {
             let state = self
                 .audio
                 .snapshot
@@ -566,8 +579,12 @@ impl eframe::App for Composer {
                 state.output_rate,
                 state.error.clone(),
                 state.generation,
+                state.pre_render,
+                state.cached_frames,
             )
         };
+        let preparing =
+            pre_render.is_some_and(|progress| progress.rendered_frames < progress.total_frames);
         self.visualizer.set_generation(generation);
         if ctx.input_mut(|i| {
             i.consume_key(egui::Modifiers::CTRL, egui::Key::Enter)
@@ -602,6 +619,12 @@ impl eframe::App for Composer {
                         "Output: {rate} Hz  |  Underrun frames: {}",
                         self.audio.underruns()
                     ));
+                    if rate > 0 && cached_frames > 0 {
+                        ui.label(format!(
+                            "Prepared audio: {:.1} s",
+                            cached_frames as f64 / f64::from(rate)
+                        ));
+                    }
                     ui.label(RichText::new("Ctrl/Cmd+Enter: compile & restart").weak());
                 });
             }
@@ -615,7 +638,7 @@ impl eframe::App for Composer {
             let seconds = position as f64 / self.loaded.as_ref().map_or(self.project.rate, |(_, _, rate)| *rate);
             self.visualizer.show(ui, &mut self.project.graphs, &frames, rate, seconds);
             ui.horizontal_wrapped(|ui| {
-                if ui.button(if playing { "Pause" } else { "Play" }).clicked() {
+                if ui.add_enabled(!preparing, egui::Button::new(if playing { "Pause" } else { "Play" })).clicked() {
                     self.toggle(playing);
                 }
                 if ui.button("Stop").clicked() { self.load(false); }
@@ -647,8 +670,48 @@ impl eframe::App for Composer {
                         ui.selectable_value(&mut self.project.rate, f64::from(rate), rate.to_string());
                     }
                 });
-                if previous != (self.project.mode, self.project.rate) && playing {
-                    self.load(true);
+                if previous != (self.project.mode, self.project.rate) {
+                    self.load(playing);
+                }
+            });
+            ui.horizontal_wrapped(|ui| {
+                let previous = self.project.buffer_size;
+                let buffer_label = |buffer: BufferSize| {
+                    if rate > 0 {
+                        format!("{} frames ({:.0} ms)", buffer.frames(), buffer.frames() as f64 * 1000.0 / f64::from(rate))
+                    } else {
+                        format!("{} frames", buffer.frames())
+                    }
+                };
+                egui::ComboBox::from_id_salt("audio-buffer")
+                    .selected_text(buffer_label(self.project.buffer_size))
+                    .show_ui(ui, |ui| {
+                        for buffer in BufferSize::ALL {
+                            ui.selectable_value(&mut self.project.buffer_size, buffer, buffer_label(buffer));
+                        }
+                    })
+                    .response
+                    .on_hover_text("Audio queue: larger buffers absorb brief CPU spikes but increase latency. The device/JACK buffer is separate.");
+                ui.label("Audio buffer");
+                if previous != self.project.buffer_size {
+                    self.audio.buffer_size(self.project.buffer_size);
+                }
+                ui.label("Pre-render");
+                ui.add_enabled(!preparing, egui::DragValue::new(&mut self.project.pre_render_seconds)
+                    .range(1..=audio::MAX_PRE_RENDER_SECONDS).suffix(" s"));
+                if ui.add_enabled(!preparing && rate > 0, egui::Button::new("Prepare audio"))
+                    .on_hover_text("Compile from zero and prepare this duration sequentially. Playback stays paused; press Play when ready. Audio beyond the prepared interval renders live.")
+                    .clicked() {
+                    self.compile(false, Some(self.project.pre_render_seconds));
+                }
+                if preparing {
+                    if let Some(progress) = pre_render {
+                        ui.add(egui::ProgressBar::new(progress.rendered_frames as f32 / progress.total_frames as f32)
+                            .desired_width(120.0).show_percentage());
+                    }
+                    if ui.button("Cancel").clicked() {
+                        self.audio.send(Command::CancelPreRender);
+                    }
                 }
             });
             ui.separator();
@@ -669,7 +732,7 @@ impl eframe::App for Composer {
                 .small().weak());
             self.editor.show(ui, &mut self.project.code);
         });
-        if playing {
+        if playing || preparing {
             ctx.request_repaint_after(Duration::from_millis(33));
         } else {
             // Receive compile errors and device initialization results while idle.
@@ -701,6 +764,8 @@ mod tests {
             rate: 35498.66666,
             volume: 0.6,
             dc_blocker: false,
+            buffer_size: BufferSize::Frames8192,
+            pre_render_seconds: 30,
             saved: songs::demos(),
             ..Project::default()
         };
@@ -712,6 +777,8 @@ mod tests {
         assert_eq!(restored.rate, project.rate);
         assert_eq!(restored.volume, project.volume);
         assert_eq!(restored.dc_blocker, project.dc_blocker);
+        assert_eq!(restored.buffer_size, project.buffer_size);
+        assert_eq!(restored.pre_render_seconds, project.pre_render_seconds);
         assert_eq!(restored.graphs, project.graphs);
         assert_eq!(
             serde_json::to_value(&restored.saved).unwrap(),

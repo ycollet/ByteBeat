@@ -17,6 +17,7 @@ this native application; other bytebeat players can differ.
 - [Installation and building](#installation-and-building)
 - [Getting started](#getting-started)
 - [Editor, playback, and visualization](#editor-playback-and-visualization)
+- [Audio buffering and pre-rendering](#audio-buffering-and-pre-rendering)
 - [JACK playback on Linux](#jack-playback-on-linux)
 - [NSM sessions](#nsm-sessions)
 - [Time and sample rate](#time-and-sample-rate)
@@ -189,6 +190,56 @@ for cache locations and manual download/refresh commands.
   The editor, settings, and local songs persist through egui's native application
   storage when the application saves/exits. They are not written beside the binary.
   Search results are cached until the query, saved-only filter, or library changes.
+
+## Audio buffering and pre-rendering
+
+The **Audio buffer** selector controls the queue between JavaScript rendering
+and the output callback. Changes apply without recompiling the song or reopening
+the audio device, and the selected size persists in application preferences and
+NSM projects.
+
+| Queue size | Approximate duration at 48000 Hz |
+| --- | --- |
+| 2048 frames (default) | 43 ms |
+| 4096 frames | 85 ms |
+| 8192 frames | 171 ms |
+| 16384 frames | 341 ms |
+
+A larger queue can absorb brief CPU/rendering spikes, but increases the delay
+between generated and audible output. It cannot compensate for sustained
+rendering slower than real time. New playback waits for the queue to fill before
+starting output. Reducing its size lets already queued audio drain naturally.
+This is not the operating system's device buffer; JACK's device rate and buffer
+size remain controlled by the JACK server.
+
+For expensive expressions, set **Pre-render** to **1 to 60 seconds** and click
+**Prepare audio**. This compiles the current editor source from zero, pauses
+playback, and generates the requested interval on the audio producer thread.
+The progress bar shows preparation progress; the status bar shows prepared
+audio still waiting to enter the output queue. Press **Play** when ready.
+The duration setting defaults to 10 seconds and persists with the project.
+
+Samples are generated sequentially, including all intermediate source samples,
+so globals, closures, buffers, and other state evolve as during live playback.
+Playing cached samples does not re-evaluate the program. Once the prepared
+interval runs out, rendering continues live from the same program state.
+**Cancel** stops preparation between render blocks and retains completed samples
+and their corresponding state for playback.
+
+Loading a song, **Apply & play**, **Stop**, **Restart**, or changing the playback
+mode/sample rate discards prepared audio. Unapplied editor changes do not disturb
+the running program; starting playback with unapplied changes recompiles instead
+of playing the old cache. Volume, DC blocker, graphs, and queue-size changes do
+not invalidate it. Prepared samples are held in memory, not saved with projects.
+
+Pre-rendering allows a finite interval to play smoothly even if generating it
+takes longer than its audio duration. It does not repair JavaScript errors or
+distorted formulas, nor guarantee uninterrupted playback beyond that interval.
+The existing JavaScript heap limit and 100 ms per-render-block execution budget
+still apply; failures stop preparation and appear in the status bar and logs.
+The PCM cache is outside the JavaScript heap limit: stereo float samples use
+about 22 MiB for 60 seconds at 48000 Hz, plus bookkeeping. Memory use scales with
+the output device's rate, not the song's formula rate.
 
 ## JACK playback on Linux
 
@@ -1014,8 +1065,10 @@ from the real-time audio callback. `rustfft` supplies the spectrum. Formula
 samples are converted to the device rate with zero-order hold (intentionally
 preserving the classic stepped sound); rates above the device rate skip output
 samples but still evaluate each source sample, preserving stateful formulas.
-The scope and counter show generated audio, ahead of audible output by up to
-the 2,048-frame queue plus the device buffer.
+The scope and counter show audio delivered to the output queue, ahead of audible
+output by up to the selected 2,048- to 16,384-frame queue plus the device buffer.
+Pre-rendering advances program state separately without moving this display
+ahead by the entire prepared interval.
 
 This initial version has a plain monospaced editor and the core
 compose/play/visualize workflow, with an optional downloaded upstream library.
