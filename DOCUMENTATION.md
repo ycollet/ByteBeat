@@ -1,4 +1,8 @@
-# Bytebeat language guide
+# Bytebeat Composer documentation
+
+This guide covers installation, application controls, the bytebeat language,
+catalogs, terminal tools, and development. See the [README](README.md) for a
+quick introduction.
 
 Bytebeat Composer generates sound by repeatedly evaluating JavaScript. Your
 program supplies sample values, rather than instructions such as "play a piano
@@ -10,8 +14,11 @@ this native application; other bytebeat players can differ.
 
 ## Contents
 
+- [Installation and building](#installation-and-building)
 - [Getting started](#getting-started)
+- [Editor, playback, and visualization](#editor-playback-and-visualization)
 - [JACK playback on Linux](#jack-playback-on-linux)
+- [NSM sessions](#nsm-sessions)
 - [Time and sample rate](#time-and-sample-rate)
 - [Playback modes and output values](#playback-modes-and-output-values)
 - [Writing expressions](#writing-expressions)
@@ -20,8 +27,77 @@ this native application; other bytebeat players can differ.
 - [State and initialization](#state-and-initialization)
 - [Examples](#examples)
 - [Saving scripts and metadata](#saving-scripts-and-metadata)
+- [Upstream catalog and file loading](#upstream-catalog-and-file-loading)
 - [Checking scripts from the terminal](#checking-scripts-from-the-terminal)
 - [Errors, limits, and compatibility](#errors-limits-and-compatibility)
+- [Adding a visualizer](#adding-a-visualizer)
+- [Application icon](#application-icon)
+- [Architecture and current scope](#architecture-and-current-scope)
+
+## Installation and building
+
+Install a current stable Rust toolchain, then:
+
+```sh
+cargo run --release
+```
+
+To distribute it, run `cargo build --release` and copy `target/release/bytebeat`
+(`bytebeat.exe` on Windows). The executable embeds the GUI, JavaScript engine,
+fonts, and eight original demo songs. It still uses the operating system's
+windowing and audio libraries.
+
+On Debian/Ubuntu, install the native build dependencies first:
+
+```sh
+sudo apt install build-essential pkg-config libasound2-dev libjack-jackd2-dev libudev-dev \
+  libx11-dev libxi-dev libxrandr-dev libxcursor-dev libxkbcommon-dev \
+  libwayland-dev libgl1-mesa-dev
+```
+
+macOS requires the Xcode command-line tools. Windows requires the MSVC Rust
+toolchain and Visual Studio C++ build tools.
+
+### Release installers
+
+Pushing a version tag runs `.github/workflows/release.yml`. After all builds
+and installation checks succeed, the workflow publishes installers and
+`SHA256SUMS` to a GitHub Release:
+
+| Platform | Installer | Architecture |
+| --- | --- | --- |
+| Debian 12+ / compatible Ubuntu releases | `.deb` | x86-64 |
+| Fedora 43+ | `.rpm` | x86-64 |
+| macOS | `.dmg` containing a drag-to-Applications `.app` | Apple Silicon and Intel |
+| Windows 10+ | Per-user `.exe` installer with an uninstaller | x86-64 |
+
+For an on-demand build, open **Actions → Release installers → Run workflow**
+and select a branch or tag. Manual runs use the version in `Cargo.toml`, run
+the same build and installation checks, and upload installers as workflow
+artifacts without creating or updating a GitHub Release. The workflow must
+be present on the default branch for the **Run workflow** button to appear.
+
+Tags must be `vVERSION` or `VERSION`, matching `[package].version` in
+`Cargo.toml` exactly. SemVer prereleases such as `v0.2.0-rc.1` are supported
+and published as prereleases; build metadata (`+...`) is not supported.
+Commit any version changes, including `Cargo.lock`, before creating the tag:
+
+```sh
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+Linux packages include desktop entries, the SVG icon, and runtime dependencies.
+Install a `.deb` with `sudo apt install ./bytebeat_*.deb`, or an `.rpm` with
+`sudo dnf install ./bytebeat-*.rpm`. The optional upstream song catalog is not
+bundled; built-in demos work offline and the catalog is downloaded on demand.
+
+Windows installers are not code-signed, and macOS apps are ad-hoc signed rather
+than Developer ID-signed or notarized, so OS security warnings are expected.
+No signing secrets are required. Publishing uses the workflow's `GITHUB_TOKEN`
+with `contents: write` permission only in the publishing job; builds have
+read-only repository access. Rerunning a failed tag workflow replaces existing
+assets for that tag.
 
 ## Getting started
 
@@ -43,8 +119,76 @@ then `/usr/share/bytebeat/catalog.json` on Linux, then a previously downloaded
 user-cache catalog. If none exists, it downloads the upstream library in the
 background. The GUI remains usable during downloading and shows progress or a
 retryable error in the song library. A completed cached library works offline
-on subsequent launches. See the [README](README.md#upstream-catalog-and-file-loading)
+on subsequent launches. See [Upstream catalog and file loading](#upstream-catalog-and-file-loading)
 for cache locations and manual download/refresh commands.
+
+## Editor, playback, and visualization
+
+- **Editor:** enter a JavaScript expression, then click **Apply & play** or
+  press **Ctrl+Enter** / **Cmd+Enter**. Edits are applied explicitly, so incomplete
+  typing does not interrupt playback. Scripts larger than **256 KiB** open in a
+  read-only preview limited to **4 KiB**; playback and saving retain the complete
+  source. To edit the full script, acknowledge the memory warning and click
+  **Open full editor**. **Return to safe preview** restores protection. Consent
+  resets when another song is loaded or the app restarts. Pasting more than
+  256 KiB into a protected editor is blocked with a visible warning; enable full
+  editing and paste again.
+- **Playback:** Play/Pause, Stop (reset to zero), Restart, volume, sample-rate
+  presets, and custom rates from 1,000 to 192,000 Hz. Playback starts paused at
+  25% volume; use a comfortable listening level.
+- **DC blocker:** optional checkbox beside Volume, on by default and saved with
+  your settings. Removes DC offset using a first-order 10 Hz high-pass filter
+  independently on the left and right channels, at the device's output sample
+  rate, before volume adjustment and device conversion. It also attenuates very
+  low bass; filter transients are clamped to the device's valid output range.
+  Graphs still show the original, unfiltered signal. This reduces sustained DC,
+  but is not a limiter or a guarantee against speaker damage: keep playback
+  volume at a safe level.
+- **Visualization:** open **Graphs** and use **+** to add a layer or **-** to
+  remove it. Choose **Waveform**, **FFT spectrum**, **8-bit pattern**, or one of
+  **35 original shader-art presets**. Each layer has a left/right/mixed channel,
+  a color picker, and an opacity slider (0 is transparent; 255 is opaque).
+  The Graphs menu stays open while you select and adjust layers.
+  Layers overlay in list order; later layers draw
+  over earlier ones. The defaults retain the stereo waveform and mixed spectrum.
+  Use Play/Pause to control playback; clicking the display does not affect audio.
+  Zoom adjusts the waveform and scrolling
+  bit-pattern window; the spectrum always analyzes the latest 2,048 output frames
+  using a Hann window. Graph settings, including an empty list, persist.
+  The bit pattern shows eight horizontal bit rows (most significant at the top),
+  with newer samples on the right. It maps normalized output to unsigned bytes
+  (Bytebeat values are recovered exactly; other modes are quantized). All graphs
+  use generated output before volume adjustment, without re-evaluating the song.
+
+  Each graph's channel selection affects visualization only, not playback:
+
+  | Setting | Signal displayed |
+  | --- | --- |
+  | **Left** | Left stereo channel only |
+  | **Right** | Right stereo channel only |
+  | **Mix** | Average of both channels: `(Left + Right) / 2` |
+
+- **Shader art:** the preset selector includes blorp, seaqyuk, bhatsu, discinos,
+  ?dot-line, morp, add-em-up, grid, circles, widr, fuzeball, undul, flwr, radonut,
+  vu-w/max, notmizu, pulsedn, bebubebup, dncrs, discus, smutz, ball-o?3, incId,
+  headrush, cubespace, s.o.i., volum, iblot, circlepower, c-pump, red ring, cybr,
+  ball, qyube, and hexalicious. These are the original vertex shaders by
+  **gman (Gregg Tavares)**, licensed **CC0** and bundled for offline use.
+  Selecting a shader from a signal graph starts with white tint (original
+  colors) and full opacity; use the color picker to tint it. Changing between
+  shader presets preserves your tint and opacity. Shader layers use native
+  OpenGL, depth-tested geometry, playback time, mouse position, and smoothed FFT
+  and volume histories. Animation pauses with playback; histories reset when a
+  song is compiled/restarted. Browser FFT/history timing may differ; touch input
+  is neutral and no linked music is downloaded or played. Shader errors are
+  logged and shown above the display. Multiple shader layers increase GPU cost.
+  The menu links each artwork's source and attribution; licensing details are in
+  [assets/VERTEXSHADERART-LICENSE.txt](assets/VERTEXSHADERART-LICENSE.txt).
+- **Library:** search the included demos, load a song, or save your expression to
+  **My songs**. Saving the same title replaces that local song; **x** deletes it.
+  The editor, settings, and local songs persist through egui's native application
+  storage when the application saves/exits. They are not written beside the binary.
+  Search results are cached until the query, saved-only filter, or library changes.
 
 ## JACK playback on Linux
 
@@ -53,6 +197,8 @@ Use `--jack` to select JACK instead of the default audio backend:
 ```sh
 cargo run --release -- --jack
 ./target/release/bytebeat --jack --file melody.js --memory-limit-mb 128
+# Or use the installed executable:
+bytebeat --jack --catalog /usr/share/bytebeat/catalog.json
 ```
 
 A JACK server must already be running, or PipeWire's JACK compatibility must be
@@ -67,8 +213,41 @@ to JavaScript. The application's existing resampling converts between them.
 JACK initialization errors are logged and shown in the status bar; the app does
 not silently switch to ALSA or another backend. `--jack` is Linux-only and is
 incompatible with `--check`, since checking does not open any audio device.
-See the [README's JACK setup notes](README.md#jack-audio-on-linux) for build and
-packaging dependencies.
+
+Linux builds include the JACK backend; no JACK feature flag is needed. Install
+the JACK client library and development files (`libjack-jackd2-dev` on
+Debian/Ubuntu). For RPM packaging, `pkgconfig(jack)` and `pkgconfig(alsa)` identify
+the audio development dependencies; install the runtime JACK client library or
+its PipeWire-compatible implementation as appropriate for the distribution.
+The application does not start the JACK server itself. CPAL attempts to connect
+output ports to system playback ports automatically; use QjackCtl or your
+PipeWire patchbay if manual routing is needed.
+
+## NSM sessions
+
+Bytebeat supports [New Session Manager (NSM)](https://new-session-manager.jackaudio.org/)
+and compatible managers. Add `bytebeat` as a client in the session manager;
+the application detects `NSM_URL` automatically, with no extra command-line flag.
+On Linux, managed sessions use JACK automatically. Start JACK (or configure
+PipeWire's JACK compatibility) before opening the session.
+
+The manager's **Save** command writes the complete editor project, including
+source, title, playback settings, graphs, and "My songs", to `project.json` in
+the assigned client directory. Reopening the session restores that project,
+independently of standalone application preferences; new sessions start with
+the default project. "Save to my songs" updates the session's song collection,
+but does not replace the manager's Save command. Playback starts paused.
+
+Managed JACK ports use a stable client-ID prefix, and automatic connection to
+system playback ports is disabled so the session manager's patchbay can restore
+routing. Use a connection-management client such as JACKPatch to save routing.
+Closing a session terminates Bytebeat without a save dialog. Session switching
+and optional-GUI/dirty-state extensions are not advertised: the manager must
+restart the client when changing sessions.
+
+Without `NSM_URL`, or when the manager cannot be contacted, startup remains
+standalone. Headless `--check` ignores NSM entirely. UDP OSC URLs are supported;
+unsupported URLs produce a warning and use standalone mode.
 
 ## Time and sample rate
 
@@ -305,6 +484,16 @@ Funcbeat closures are the clearest way to preserve state between samples.
 Place buffers, counters, filter history, and oscillator phase in the factory,
 then update them in the returned function. See the final example below.
 
+For example, this Funcbeat oscillator keeps its phase between samples:
+
+```js
+let phase = 0;
+return (t, sampleRate) => {
+  phase += 2 * PI * 220 / sampleRate;
+  return 0.3 * sin(phase);
+};
+```
+
 Expression modes can also store state on `globalThis`. Initialize it when
 `t === 0`, then update it on subsequent evaluations. `window` and `self` are
 aliases for `globalThis`; these names are available for compatibility, not as
@@ -488,6 +677,80 @@ has been enabled; the interface explains how to enable editing and paste again.
 application's local library, not in a `.js` file. Saving an existing title
 replaces that local song.
 
+## Upstream catalog and file loading
+
+Without `--catalog`, the application searches for an upstream catalog in this
+order:
+
+1. `./data/catalog.json`, relative to the current working directory.
+2. `/usr/share/bytebeat/catalog.json` on Linux, for packaged installations.
+3. `bytebeat/upstream/catalog.json` under the platform's user cache directory.
+4. If none exists, download the upstream catalog and full song sources into
+   that user cache.
+
+The first automatic download runs in the background while the GUI stays usable
+with its built-in demos. The song library shows progress, adds the upstream
+songs when ready, and displays download errors with a **Retry download** button.
+An incomplete download does not publish a cache index; verified source files
+are reused on retry. Later launches use the completed cache without network
+access. Supplying `--catalog` explicitly disables discovery and automatic
+downloading; an invalid explicit path is reported rather than replaced.
+
+Typical automatic cache locations are:
+
+| Platform | Directory |
+| --- | --- |
+| Linux | `$XDG_CACHE_HOME/bytebeat/upstream/`, or `~/.cache/bytebeat/upstream/` |
+| macOS | `~/Library/Caches/bytebeat/upstream/` |
+| Windows | `%LOCALAPPDATA%\bytebeat\upstream\` |
+
+The native downloader does not require Python or external commands. It retains
+the upstream license, raw index, per-song metadata, and SHA-256 checksums.
+Downloads use four workers, 30-second request timeouts, and up to three attempts
+per request. Individual responses are limited to 32 MiB and the decompressed
+catalog index to 64 MiB. No download is written into `/usr/share`.
+
+To populate or refresh a repository/package's `data/` directory instead, the
+Python 3 downloader remains available (standard library only):
+
+```sh
+python3 scripts/download_catalog.py
+```
+
+The downloader retrieves the live catalog from Dollchan, not the GitHub
+repository's empty placeholder. It writes one complete `.js` source and a `.json`
+metadata sidecar per song under `data/songs/`, plus `data/catalog.json`, the raw
+`data/all.gz` index, and `data/UPSTREAM-LICENSE`. Original code is preferred;
+minified/formatted sources are fallbacks. Truncated previews are never treated as
+complete programs. Metadata retains the upstream author, source URLs, tags, and
+original catalog entry, with a SHA-256 digest of each downloaded source.
+Downloads use four concurrent workers, retry failed requests, reuse verified
+local sources when their metadata is unchanged, and exit nonzero if any song
+could not be downloaded. `--refresh` refetches all external sources. Use
+`--limit 20` for a small initial collection or `--output PATH` for another location.
+
+The GUI adds the discovered or downloaded catalog to its built-in library.
+Alternatively, specify a catalog or a song:
+
+```sh
+cargo run --release -- --catalog data/catalog.json
+cargo run --release -- --file data/songs/e295af172c127b1f527c823ad0aeaeda.js
+cargo run --release -- --file my-song.js --mode floatbeat --sample-rate 44100
+```
+
+A matching `.json` sidecar supplies a file's title, author, mode, and sample rate.
+Without one, the defaults are Bytebeat at 8,000 Hz. Explicit CLI options override
+metadata. Fractional sample rates are retained. File loading opens the editor
+paused; select Play when ready. The optional catalog is **not embedded** in the
+executable: distribute `data/` alongside it if you want these additional songs.
+Without a local or installed copy, a first-time download needs network access.
+If that download fails, the GUI still provides its built-in demos and local
+compositions, alongside the visible download error.
+
+Downloaded code is third-party JavaScript; the runtime has no filesystem/network
+bindings, but its memory/time limits are not an operating-system security sandbox.
+Keep upstream attribution and notices when sharing downloaded material.
+
 ## Checking scripts from the terminal
 
 Check the first five seconds without opening a GUI or an audio device:
@@ -513,6 +776,17 @@ are synchronous in this headless mode and report progress in console logs.
 Checking a particular `--file` never downloads a catalog. An explicit invalid
 `--catalog` path is an error, not a trigger for automatic downloading.
 
+With both `--file` and `--catalog`, check mode checks just the file; GUI mode
+loads the file and the library. A catalog download failure is logged and exits
+nonzero.
+
+The checker uses the same engine and 128-frame render blocks as live playback.
+The report records each song's mode/rate, failing stage, JavaScript diagnostic,
+sample position in the error text, source samples checked in completed blocks,
+peak normalized amplitude, thrown-text diagnostic count, and elapsed time.
+GUI audio errors also appear in console logs. Set `RUST_LOG=bytebeat=debug`
+for more detailed logging.
+
 The JavaScript heap limit defaults to **32 MiB per song**. Buffer-heavy songs
 can be given more memory with a positive integer `--memory-limit-mb` value:
 
@@ -527,6 +801,9 @@ Units are MiB (1024 * 1024 bytes), despite the `mb` spelling. It limits the
 JavaScript heap, not all application memory; raising it does not increase the
 execution-time budget. Large limits can exhaust system memory, so use a value
 appropriate for your machine.
+
+The option applies to the current invocation and is not stored in project
+settings.
 
 Exit status is `0` when every selected program passes, or `1` for loading,
 compilation, or rendering failures. Invalid command-line syntax can exit `2`.
@@ -591,6 +868,9 @@ thrown-text diagnostics; inspect their count and logs when investigating it.
 
 ## Errors, limits, and compatibility
 
+Compilation and fatal rendering errors are displayed in the status bar and
+stop playback rather than being silently converted to audio.
+
 | Symptom | Likely cause or action |
 | --- | --- |
 | Syntax error during compilation | Check parentheses, brackets, and the selected mode; a Funcbeat body needs to return a function |
@@ -636,3 +916,116 @@ operating-system sandbox.
 Other players can normalize bytes differently or coerce values this player
 rejects. In particular, this application divides byte values by `128`, not
 `127.5`; do not assume bit-for-bit equivalence with the web player.
+
+## Adding a visualizer
+
+Visualizers are built into the executable; there is no runtime import or plugin
+loader. Signal graphs (waveform, FFT spectrum, and bit pattern) are implemented
+in Rust in `src/visualizer.rs`. To add another signal graph, extend `GraphKind`,
+its label, the Graphs menu, and the rendering match.
+
+For shader art, no new Rust renderer is needed: append a preset to the JSON array
+in `assets/vertexshaderart.json`. This uses the **VertexShaderArt-style GLSL
+vertex shader** format, not Shadertoy fragment shaders or MilkDrop presets.
+
+### Example: audio-reactive spectrum bars
+
+This small shader draws 64 vertical lines. Each line's height follows a bin of
+the selected channel's smoothed FFT spectrum:
+
+```glsl
+void main() {
+    float bar = floor(vertexId / 2.0);
+    float u = (bar + 0.5) / (vertexCount / 2.0);
+    float level = texture2D(sound, vec2(u, 0.0)).r;
+    float y = -0.8 + mod(vertexId, 2.0) * level * 1.6;
+    gl_Position = vec4(u * 1.8 - 0.9, y, 0.0, 1.0);
+    v_color = vec4(0.2, 0.8, 1.0, 1.0);
+}
+```
+
+Append the following object **after the existing presets**, adding a comma
+between objects. Existing saved layers reference preset indices, so keep the
+existing order. JSON stores the GLSL code as a string; the example below is the
+same shader on one line:
+
+```json
+{
+  "id": "example-spectrum-bars",
+  "name": "Example spectrum bars",
+  "author": "Your name",
+  "source": "https://example.com/your-visualizer",
+  "license": "CC0-1.0",
+  "settings": {
+    "num": 128,
+    "mode": "LINES",
+    "backgroundColor": [0, 0, 0, 0],
+    "shader": "void main() { float bar = floor(vertexId / 2.0); float u = (bar + 0.5) / (vertexCount / 2.0); float level = texture2D(sound, vec2(u, 0.0)).r; float y = -0.8 + mod(vertexId, 2.0) * level * 1.6; gl_Position = vec4(u * 1.8 - 0.9, y, 0.0, 1.0); v_color = vec4(0.2, 0.8, 1.0, 1.0); }"
+  }
+}
+```
+
+Replace the author and source with your own attribution. This example may be
+used under CC0; use the appropriate license for any other shader you add.
+`num` is the vertex count (two vertices per line here); supported drawing modes
+are `POINTS`, `LINES`, and `TRIANGLES`. `backgroundColor` is normalized RGBA;
+the transparent background lets earlier graph layers remain visible.
+
+The renderer supplies `vertexId`, `vertexCount`, `time` (playback seconds),
+`resolution`, `mouse`, and audio textures. `sound` contains normalized,
+log-scaled FFT magnitudes: horizontal coordinates select frequency bins and
+vertical coordinates select history, with the newest row at `0.0`.
+`volume` provides peak/RMS and other audio metrics with history.
+Write `gl_Position` and `v_color` in `main()`; do not add a `#version` directive
+or redeclare the supplied inputs. The renderer adds the GLSL compatibility
+wrapper and fragment shader.
+
+Rebuild with `cargo run --release`, then open **Graphs**, add a layer with **+**,
+and choose **Example spectrum bars** from its visualizer selector. Play a song
+and select **Left**, **Right**, or **Mix** to choose its audio input. Shader
+compilation errors appear above the display and in the logs.
+
+When contributing additional presets, also update the catalog test in
+`src/shader_art.rs`: it currently requires exactly 35 presets and checks that
+every entry belongs to the original gman CC0 collection. Preserve those checks
+for the original collection while adding coverage for new entries.
+
+## Application icon
+
+<img src="assets/bytebeat.svg" width="96" height="96" alt="Bytebeat Composer icon">
+
+The scalable vector icon is [assets/bytebeat.svg](assets/bytebeat.svg). It uses
+the GUI's waveform/spectrum colors and contains no fonts, raster images, scripts,
+or external resources. The executable embeds this SVG and renders it at startup
+for the native window/application icon, including the macOS Dock icon. No
+external icon file is required to run the application.
+
+For Linux/RPM packaging, install it at
+`/usr/share/icons/hicolor/scalable/apps/bytebeat.svg` and use `Icon=bytebeat`
+in the application's desktop entry. The SVG remains available unchanged for
+desktop packaging. File-manager and platform bundle icons still require
+platform-specific packaging.
+
+## Architecture and current scope
+
+`eframe`/egui draws the native GUI; `rquickjs` evaluates formulas; CPAL drives
+the default output device; a bounded lock-free ring buffer separates JavaScript
+from the real-time audio callback. `rustfft` supplies the spectrum. Formula
+samples are converted to the device rate with zero-order hold (intentionally
+preserving the classic stepped sound); rates above the device rate skip output
+samples but still evaluate each source sample, preserving stateful formulas.
+The scope and counter show generated audio, ahead of audible output by up to
+the 2,048-frame queue plus the device buffer.
+
+This initial version has a plain monospaced editor and the core
+compose/play/visualize workflow, with an optional downloaded upstream library.
+It does not import share URLs, export recordings, or include all of the web app's
+editor themes and visualization modes. No upstream application code is bundled.
+
+### Development checks
+
+```sh
+cargo test
+cargo clippy --all-targets -- -D warnings
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
