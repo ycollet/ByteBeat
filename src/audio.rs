@@ -779,7 +779,10 @@ mod tests {
                 actual.extend(playback.next_block(11025).unwrap().frames);
             }
             let mut reference = Engine::new(code, mode, rate, 32).unwrap();
-            assert_eq!(actual, reference.render(actual.len(), 11025).unwrap());
+            // Match playback's render budget: each call handles at most BLOCK frames.
+            for block in actual.chunks(BLOCK) {
+                assert_eq!(block, reference.render(block.len(), 11025).unwrap());
+            }
             assert_eq!(playback.engine.position(), reference.position());
             assert!(playback.prepared.is_none());
         }
@@ -799,7 +802,9 @@ mod tests {
             actual.extend(playback.next_block(11025).unwrap().frames);
         }
         let mut reference = Engine::new(code, Mode::Floatbeat, 11025.0, 32).unwrap();
-        assert_eq!(actual, reference.render(actual.len(), 11025).unwrap());
+        for block in actual.chunks(BLOCK) {
+            assert_eq!(block, reference.render(block.len(), 11025).unwrap());
+        }
     }
 
     struct Renderer {
