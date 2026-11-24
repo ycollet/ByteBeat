@@ -186,10 +186,14 @@ for cache locations and manual download/refresh commands.
   The menu links each artwork's source and attribution; licensing details are in
   [assets/VERTEXSHADERART-LICENSE.txt](assets/VERTEXSHADERART-LICENSE.txt).
 - **Library:** search the included demos, load a song, or save your expression to
-  **My songs**. Saving the same title replaces that local song; **x** deletes it.
+  **My songs**. Use the mode dropdown to show **All modes** (default), **Bytebeat**
+  (unsigned), **Signed Bytebeat**, **Floatbeat**, or **Funcbeat**. The mode filter
+  combines with text search and **My songs only**.
+  Saving the same title replaces that local song; **x** deletes it.
   The editor, settings, and local songs persist through egui's native application
   storage when the application saves/exits. They are not written beside the binary.
-  Search results are cached until the query, saved-only filter, or library changes.
+  Search results are cached until the query, mode filter, saved-only filter, or
+  library changes.
 
 ## Audio buffering and pre-rendering
 

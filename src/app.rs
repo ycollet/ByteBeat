@@ -110,7 +110,8 @@ impl CodeEditor {
 
 #[derive(Default)]
 struct LibrarySearch {
-    key: Option<(String, bool)>,
+    key: Option<(String, bool, Option<Mode>)>,
+    mode: Option<Mode>,
     matches: Vec<usize>,
 }
 
@@ -121,11 +122,9 @@ impl LibrarySearch {
 
     fn update(&mut self, search: &str, only_saved: bool, demos: &[Song], saved: &[Song]) -> bool {
         let query = search.to_lowercase();
-        if self
-            .key
-            .as_ref()
-            .is_some_and(|(cached, filter)| cached == &query && *filter == only_saved)
-        {
+        if self.key.as_ref().is_some_and(|(cached, filter, mode)| {
+            cached == &query && *filter == only_saved && *mode == self.mode
+        }) {
             return false;
         }
         self.matches.clear();
@@ -136,6 +135,7 @@ impl LibrarySearch {
                 .enumerate()
                 .filter(|(i, song)| {
                     (!only_saved || *i >= demos.len())
+                        && self.mode.is_none_or(|mode| song.mode == mode)
                         && (query.is_empty()
                             || format!("{} {} {}", song.title, song.author, song.code)
                                 .to_lowercase()
@@ -143,7 +143,7 @@ impl LibrarySearch {
                 })
                 .map(|(i, _)| i),
         );
-        self.key = Some((query, only_saved));
+        self.key = Some((query, only_saved, self.mode));
         true
     }
 }
@@ -466,6 +466,16 @@ impl Composer {
                 .desired_width(f32::INFINITY),
         );
         ui.checkbox(&mut self.only_saved, "My songs only");
+        egui::ComboBox::from_id_salt("library-mode")
+            .selected_text(self.library_search.mode.map_or("All modes", Mode::label))
+            .show_ui(ui, |ui| {
+                ui.selectable_value(&mut self.library_search.mode, None, "All modes");
+                for mode in Mode::ALL {
+                    ui.selectable_value(&mut self.library_search.mode, Some(mode), mode.label());
+                }
+            })
+            .response
+            .on_hover_text("Filter songs by playback mode. Bytebeat uses unsigned 8-bit output.");
         ui.separator();
         let mut selected = None;
         let mut remove = None;
@@ -1014,6 +1024,40 @@ mod tests {
         assert!(search.update("not present", false, &demos, &saved));
         assert!(search.matches.is_empty());
         assert!(!search.update("not present", false, &demos, &saved));
+    }
+
+    #[test]
+    fn library_mode_filter_combines_with_search_and_saved_only_and_refreshes_cache() {
+        let demos: Vec<_> = Mode::ALL
+            .into_iter()
+            .map(|mode| Song {
+                title: "Matching song".into(),
+                author: "Tester".into(),
+                code: "0".into(),
+                rate: 8000.0,
+                mode,
+            })
+            .collect();
+        let saved = demos.clone();
+        let mut search = LibrarySearch::default();
+        for (index, mode) in Mode::ALL.into_iter().enumerate() {
+            search.mode = Some(mode);
+            assert!(search.update("matching", false, &demos, &saved));
+            assert_eq!(search.matches, [index, demos.len() + index]);
+            assert!(!search.update("matching", false, &demos, &saved));
+            assert!(search.update("matching", true, &demos, &saved));
+            assert_eq!(search.matches, [demos.len() + index]);
+            assert!(search.update("absent", false, &demos, &saved));
+            assert!(search.matches.is_empty());
+        }
+        search.mode = None;
+        assert!(search.update("matching", false, &demos, &saved));
+        assert_eq!(search.matches, (0..8).collect::<Vec<_>>());
+        search.mode = Some(Mode::Signed);
+        search.invalidate();
+        assert_eq!(search.mode, Some(Mode::Signed));
+        assert!(search.update("matching", false, &demos, &saved));
+        assert_eq!(search.matches, [1, 5]);
     }
 
     #[test]
