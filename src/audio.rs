@@ -321,7 +321,7 @@ impl Playback {
     }
 }
 
-struct DcBlocker {
+pub(crate) struct DcBlocker {
     pole: f64,
     input: [f64; 2],
     output: [f64; 2],
@@ -330,7 +330,7 @@ struct DcBlocker {
 }
 
 impl DcBlocker {
-    fn new(output_rate: u32) -> Self {
+    pub(crate) fn new(output_rate: u32) -> Self {
         Self {
             pole: (-std::f64::consts::TAU * 10.0 / f64::from(output_rate)).exp(),
             input: [0.0; 2],
@@ -345,7 +345,7 @@ impl DcBlocker {
         self.output = [0.0; 2];
     }
 
-    fn process(&mut self, frame: [f32; 2]) -> [f32; 2] {
+    pub(crate) fn process(&mut self, frame: [f32; 2]) -> [f32; 2] {
         std::array::from_fn(|channel| {
             let input = f64::from(frame[channel]);
             // Normalize the one-pole high-pass to unity gain at Nyquist.

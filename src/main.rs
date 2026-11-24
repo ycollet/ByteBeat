@@ -6,6 +6,7 @@ mod engine;
 mod icon;
 mod logging;
 mod nsm;
+mod recording;
 mod shader_art;
 mod songs;
 mod upstream;

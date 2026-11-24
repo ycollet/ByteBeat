@@ -8,6 +8,7 @@ use crate::{
     catalog,
     engine::Mode,
     nsm::{self, Session},
+    recording::{self, Recording, VideoFrame},
     songs::{self, Song},
     upstream::{self, Download, Event},
     visualizer::{self, Graph, Visualizer},
@@ -220,6 +221,15 @@ pub struct Composer {
     catalog_error: Option<String>,
     session: Option<Session>,
     session_error: Option<String>,
+    recording: Option<Recording>,
+    recording_directory: String,
+    recording_mp4: bool,
+    recording_frame: Option<VideoFrame>,
+    capture_requested: Option<std::time::Instant>,
+    recording_notice: Option<String>,
+    recording_error: Option<String>,
+    memory_limit_mb: u32,
+    close_after_recording: bool,
 }
 
 impl Composer {
@@ -299,6 +309,16 @@ impl Composer {
         if let Some(session) = &session {
             session.respond(nsm::OPEN, Ok(()))?;
         }
+        let recording_directory = session.as_ref().map_or_else(
+            || "recordings".into(),
+            |session| {
+                session
+                    .directory
+                    .join("recordings")
+                    .to_string_lossy()
+                    .into_owned()
+            },
+        );
         Ok(Self {
             project,
             audio,
@@ -315,7 +335,129 @@ impl Composer {
             catalog_error: None,
             session,
             session_error: None,
+            recording: None,
+            recording_directory,
+            recording_mp4: false,
+            recording_frame: None,
+            capture_requested: None,
+            recording_notice: None,
+            recording_error: None,
+            memory_limit_mb,
+            close_after_recording: false,
         })
+    }
+
+    fn start_recording(&mut self) {
+        let song = Song {
+            title: self.project.title.clone(),
+            author: "My songs".into(),
+            code: self.project.code.clone(),
+            rate: self.project.rate,
+            mode: self.project.mode,
+        };
+        match Recording::start(
+            std::path::Path::new(&self.recording_directory),
+            self.recording_mp4,
+            song,
+            self.memory_limit_mb,
+            self.project.volume,
+            self.project.dc_blocker,
+        ) {
+            Ok(recording) => {
+                self.audio.send(Command::Play(false));
+                self.recording_notice = None;
+                self.recording_error = None;
+                self.recording_frame = None;
+                self.capture_requested = None;
+                self.visualizer.reset_history();
+                self.recording = Some(recording);
+            }
+            Err(error) => self.recording_failure(error),
+        }
+    }
+
+    fn recording_failure(&mut self, error: String) {
+        log::error!("{error}");
+        self.recording_error = Some(error);
+        if let Some(recording) = &mut self.recording {
+            recording.stop();
+        }
+        self.capture_requested = None;
+    }
+
+    fn poll_recording(&mut self, ctx: &egui::Context) -> bool {
+        let screenshots = ctx.input(|input| {
+            input
+                .events
+                .iter()
+                .filter_map(|event| {
+                    if let egui::Event::Screenshot {
+                        user_data, image, ..
+                    } = event
+                    {
+                        Some((user_data.clone(), image.clone()))
+                    } else {
+                        None
+                    }
+                })
+                .collect::<Vec<_>>()
+        });
+        for (data, image) in screenshots {
+            let Some((directory, index, rect, scale)) = data
+                .data
+                .as_ref()
+                .and_then(|data| data.downcast_ref::<(PathBuf, u64, egui::Rect, f32)>())
+            else {
+                continue;
+            };
+            let Some(recording) = &mut self.recording else {
+                continue;
+            };
+            if !recording.is_capturing()
+                || directory != &recording.directory
+                || *index != recording.frames
+            {
+                continue;
+            }
+            let result = Recording::crop_visualizer(&image, *rect, *scale)
+                .and_then(|image| recording.capture(image));
+            self.capture_requested = None;
+            if let Err(error) = result {
+                self.recording_failure(error);
+            }
+        }
+        if self
+            .capture_requested
+            .is_some_and(|start| start.elapsed() > Duration::from_secs(10))
+        {
+            self.recording_failure(
+                "Recording stopped: visualizer screenshot did not arrive within 10 seconds.".into(),
+            );
+        }
+        if let Some(result) = self.recording.as_mut().and_then(Recording::poll) {
+            self.recording = None;
+            self.recording_frame = None;
+            self.capture_requested = None;
+            self.visualizer.reset_history();
+            match result {
+                Ok(path) => {
+                    self.recording_notice = Some(format!("Recording saved: {}", path.display()))
+                }
+                Err(error) => self.recording_failure(error),
+            }
+            if self.close_after_recording {
+                ctx.send_viewport_cmd(egui::ViewportCommand::Close);
+            }
+        }
+        if let Some(recording) = &self.recording
+            && recording.is_capturing()
+            && self.capture_requested.is_none()
+            && let Some(frame) = recording.next_frame()
+        {
+            self.recording_frame = Some(frame);
+            return true;
+        }
+        false
     }
 
     fn poll_session(&mut self, ctx: &egui::Context) {
@@ -391,6 +533,9 @@ impl Composer {
     }
 
     fn compile(&mut self, play: bool, pre_render: Option<u32>) {
+        if self.recording.is_some() {
+            return;
+        }
         self.audio.send(Command::Load {
             code: self.project.code.clone(),
             mode: self.project.mode,
@@ -576,6 +721,14 @@ impl eframe::App for Composer {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         self.poll_session(ctx);
         self.poll_catalog();
+        let capture_frame = self.poll_recording(ctx);
+        if ctx.input(|input| input.viewport().close_requested()) && self.recording.is_some() {
+            ctx.send_viewport_cmd(egui::ViewportCommand::CancelClose);
+            self.close_after_recording = true;
+            if let Some(recording) = &mut self.recording {
+                recording.stop();
+            }
+        }
         let (playing, position, frames, rate, error, generation, pre_render, cached_frames) = {
             let state = self
                 .audio
@@ -616,6 +769,30 @@ impl eframe::App for Composer {
             });
         });
         egui::TopBottomPanel::bottom("status").show(ctx, |ui| {
+            if let Some(error) = &self.recording_error {
+                ui.colored_label(Color32::from_rgb(255, 130, 120), error);
+            } else if let Some(notice) = &self.recording_notice {
+                ui.label(notice);
+            }
+            ui.horizontal(|ui| {
+                ui.label("Video");
+                ui.add_enabled(self.recording.is_none(),
+                    egui::TextEdit::singleline(&mut self.recording_directory).desired_width(160.0));
+                ui.add_enabled(self.recording.is_none(), egui::Checkbox::new(&mut self.recording_mp4, "Create MP4"))
+                    .on_hover_text("Requires installed FFmpeg. Always retain PPM frames and WAV audio; no automatic download.");
+                if let Some(recording) = &mut self.recording {
+                    if recording.is_capturing() {
+                        if ui.button("Stop recording").clicked() { recording.stop(); }
+                        ui.label(format!("{:.1} s", recording.frames as f64 / f64::from(recording::FPS)));
+                    } else {
+                        ui.label("Finalizing recording...");
+                    }
+                } else if ui.add_enabled(!preparing, egui::Button::new("Record video"))
+                    .on_hover_text("Render the visualizer and audio from zero at 60 fps, independent of real-time playback.")
+                    .clicked() {
+                    self.start_recording();
+                }
+            });
             if let Some(error) = &self.session_error {
                 ui.colored_label(Color32::from_rgb(255, 130, 120), error);
             }
@@ -643,10 +820,26 @@ impl eframe::App for Composer {
             .default_width(310.0)
             .min_width(230.0)
             .resizable(true)
-            .show(ctx, |ui| self.library(ui));
+            .show(ctx, |ui| {
+                ui.add_enabled_ui(self.recording.is_none(), |ui| self.library(ui));
+            });
         egui::CentralPanel::default().show(ctx, |ui| {
             let seconds = position as f64 / self.loaded.as_ref().map_or(self.project.rate, |(_, _, rate)| *rate);
-            self.visualizer.show(ui, &mut self.project.graphs, &frames, rate, seconds);
+            let (display_frames, display_rate, display_time) = self.recording_frame.as_ref()
+                .map_or((frames.as_slice(), rate, seconds), |frame| (frame.history.as_slice(), recording::RATE, frame.time));
+            let rect = ui.add_enabled_ui(self.recording.is_none(), |ui| {
+                self.visualizer.show(ui, &mut self.project.graphs, display_frames, display_rate, display_time)
+            }).inner;
+            if capture_frame
+                && let Some(recording) = &self.recording
+                && recording.is_capturing()
+            {
+                ctx.send_viewport_cmd(egui::ViewportCommand::Screenshot(egui::UserData::new((
+                    recording.directory.clone(), recording.frames, rect, ctx.pixels_per_point(),
+                ))));
+                self.capture_requested = Some(std::time::Instant::now());
+            }
+            ui.add_enabled_ui(self.recording.is_none(), |ui| {
             ui.horizontal_wrapped(|ui| {
                 if ui.add_enabled(!preparing, egui::Button::new(if playing { "Pause" } else { "Play" })).clicked() {
                     self.toggle(playing);
@@ -741,8 +934,11 @@ impl eframe::App for Composer {
             ui.label(RichText::new("t = sample index  |  Math aliases: sin, cos, PI, int...  |  Stereo: [left, right]")
                 .small().weak());
             self.editor.show(ui, &mut self.project.code);
+            });
         });
-        if playing || preparing {
+        if self.recording.is_some() {
+            ctx.request_repaint_after(Duration::from_millis(5));
+        } else if playing || preparing {
             ctx.request_repaint_after(Duration::from_millis(33));
         } else {
             // Receive compile errors and device initialization results while idle.
@@ -757,6 +953,9 @@ impl eframe::App for Composer {
     }
 
     fn on_exit(&mut self, _gl: Option<&eframe::glow::Context>) {
+        if let Some(recording) = &mut self.recording {
+            recording.request_shutdown();
+        }
         self.visualizer.destroy();
     }
 }

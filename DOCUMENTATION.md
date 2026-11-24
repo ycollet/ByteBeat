@@ -18,6 +18,7 @@ this native application; other bytebeat players can differ.
 - [Getting started](#getting-started)
 - [Editor, playback, and visualization](#editor-playback-and-visualization)
 - [Audio buffering and pre-rendering](#audio-buffering-and-pre-rendering)
+- [Recording video](#recording-video)
 - [JACK playback on Linux](#jack-playback-on-linux)
 - [NSM sessions](#nsm-sessions)
 - [Time and sample rate](#time-and-sample-rate)
@@ -244,6 +245,59 @@ still apply; failures stop preparation and appear in the status bar and logs.
 The PCM cache is outside the JavaScript heap limit: stereo float samples use
 about 22 MiB for 60 seconds at 48000 Hz, plus bookkeeping. Memory use scales with
 the output device's rate, not the song's formula rate.
+
+## Recording video
+
+Use the **Video** controls at the bottom of the window:
+
+1. Set an output directory (default: `recordings/`; inside the client directory
+   for NSM sessions).
+2. Optionally enable **Create MP4**.
+3. Click **Record video** to render the current editor program from zero.
+4. Click **Stop recording** and wait for finalization or MP4 conversion.
+
+Recording captures only the visualizer, including waveform, FFT, bit-pattern,
+and shader layers, not the editor or surrounding controls. Configure graphs,
+zoom, playback mode, formula rate, volume, and DC blocker before starting.
+These controls and the song library are disabled until recording finishes.
+Shader mouse input is neutral during recording. Keep the window visible and
+avoid resizing it, the library panel, or changing display scale; a change in
+captured dimensions stops recording with a visible error.
+
+This uses the same image-sequence/WAV approach as the IBNIZ Rust application.
+Each recording gets a unique subdirectory containing:
+
+| File | Contents |
+| --- | --- |
+| `frame-000000.ppm`, ... | Visualizer frames at 60 fps |
+| `sound.wav` | Synchronized stereo 16-bit PCM at 48000 Hz |
+| `recording.mp4` | Optional H.264/AAC conversion |
+| `ffmpeg.log` | Diagnostics from optional MP4 conversion |
+
+Audio is generated in a fresh QuickJS runtime, sequentially and in bounded
+128-frame blocks. Each video frame corresponds to exactly 800 stereo audio
+frames. The worker waits for the matching visualizer capture before continuing;
+no frames are silently skipped. Complex expressions can take longer than real
+time without introducing playback underruns into the recording. Existing
+JavaScript memory and execution limits still apply. The saved audio uses the
+starting volume and DC blocker; visualizers show the unfiltered signal.
+Standalone playback is paused and its existing program state is preserved.
+Recording is independent of its device/JACK buffer and any pre-rendered cache.
+
+MP4 conversion requires an installed **FFmpeg** with `libx264` and `aac`
+encoders, available on `PATH` (or through ffmpeg-sidecar's executable lookup).
+Bytebeat never downloads FFmpeg automatically. Without FFmpeg, leave **Create
+MP4** unchecked: PPM/WAV recording still works. Original frames and audio are
+retained after conversion, including if encoding fails. Odd image dimensions
+are padded to even dimensions for H.264; no existing output is overwritten.
+
+PPM frames are uncompressed and can consume substantial disk space: a
+1000-by-200-pixel visualizer uses about 36 MB per recorded second, plus audio.
+The queue is bounded, so a slower renderer or disk slows recording rather than
+accumulating unlimited frames in memory. Render, capture, disk, and encoding
+errors appear in the GUI and logs; accepted audio is finalized where possible.
+Normal window closing waits for finalization. Forced shutdown or NSM termination
+cancels MP4 conversion while retaining the raw recording files.
 
 ## JACK playback on Linux
 
@@ -1076,7 +1130,7 @@ ahead by the entire prepared interval.
 
 This initial version has a plain monospaced editor and the core
 compose/play/visualize workflow, with an optional downloaded upstream library.
-It does not import share URLs, export recordings, or include all of the web app's
+It does not import share URLs or include all of the web app's
 editor themes and visualization modes. No upstream application code is bundled.
 
 ### Development checks

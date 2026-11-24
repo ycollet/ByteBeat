@@ -359,7 +359,7 @@ impl Visualizer {
         frames: &[[f32; 2]],
         rate: u32,
         time: f64,
-    ) {
+    ) -> egui::Rect {
         ui.horizontal_wrapped(|ui| {
             ui.label(
                 egui::RichText::new("VISUALIZER")
@@ -460,12 +460,15 @@ impl Visualizer {
                             Color32::RED,
                         );
                     } else if let Some(renderer) = &self.renderer {
-                        let mouse = response.hover_pos().map_or([0.0; 2], |pos| {
-                            [
-                                (pos.x - rect.left()) / rect.width() * 2.0 - 1.0,
-                                1.0 - (pos.y - rect.top()) / rect.height() * 2.0,
-                            ]
-                        });
+                        let mouse = response.hover_pos().filter(|_| ui.is_enabled()).map_or(
+                            [0.0; 2],
+                            |pos| {
+                                [
+                                    (pos.x - rect.left()) / rect.width() * 2.0 - 1.0,
+                                    1.0 - (pos.y - rect.top()) / rect.height() * 2.0,
+                                ]
+                            },
+                        );
                         painter.add(egui::PaintCallback {
                             rect,
                             callback: Arc::new(Renderer::callback(
@@ -504,6 +507,7 @@ impl Visualizer {
                 Color32::GRAY,
             );
         }
+        rect
     }
 }
 

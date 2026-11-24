@@ -1,5 +1,6 @@
 /target
 /dist
+/recordings
 *.wav
 .DS_Store
 __pycache__/

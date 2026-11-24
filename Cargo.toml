@@ -23,6 +23,7 @@ tempfile = "3"
 ureq = { version = "3.5", default-features = false, features = ["rustls"] }
 resvg = { version = "0.45", default-features = false }
 rosc = "0.11"
+ffmpeg-sidecar = { version = "2", default-features = false }
 
 [target.'cfg(unix)'.dependencies]
 signal-hook = "0.3"
